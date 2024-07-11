@@ -1,5 +1,5 @@
 ### Rohit Verma
-*(+91) 9988844215 | rohitatiit@gmail.com | https://www.linkedin.com/in/rohit-verma-24084718 | https://github.com/rverma-nsl*
+*(+91) 9988844215 | rohitatiit@gmail.com | https://www.linkedin.com/in/rohit-verma-24084718 | https://github.com/rverma-dev*
 
 ### Education
 **Indian Institute of Technology, Kharagpur**\
@@ -14,17 +14,24 @@
 - Managed multiple security compliance certifications, including ISO 27001, UPI SAR, SOC 2, PCI DSS, and NPCI
 - Oversaw resource, budget, and product roadmap planning and execution with the support of Product and Process Managers
 
-### Technical Leadership
+### Work Experience
 
-**Vice President/GSL - PaaS, Brane Enterprises / Nslhub**, Bengaluru(KA), Jan 2021 - Present
+**Senior Engineer, Atlassian**, Bengaluru(KA), Aug 2023 - March 2023
+- As a lead in JIRA Data Management team, led the development of JIRA migration from external sources
+- Developed the framework for Migration to existing projects from scratch.
+- Central cordinator for JIRA identity team, JIRA entity team, JIRA platform data teams and Mirgation teams to design and deliver the first phase.
+- Secured special mention in atlassian company wide hackathalon for ALT text generator using LAVIS a variant of InstructBLIP.
+
+**Vice President/GSL - PaaS, Brane Enterprises / Nslhub**, Bengaluru(KA), Jan 2021 - July 2023
 - Developed the NSL SaaS Accelerator Framework for concurrent tenant onboarding, just-in-time IAC with multiple profiles (silo, pool, serverless) using AWS CDK TypeScript
 - Led the Implementation of NSL Obervability Suite using Grafana, Loki, Cortex and Tempo.
+- Led the Implementation of NSL event based billing system, scaled to handle 1B events per minute for billing. Using Clickhouse, kafka streams and sidecar architecture.
 - Created the NSL global search, a semantic search engine utilizing Milvus vector DB with BERT/CLIP embeddings
 - Developed the NSL tenant storage engine using GraphQL, DynamoDB, Dgraph, and TiDB for curation and graph linkage detection
 - Designed a secure, government cloud-compliant (PBMN) SaaS Landing Zone architecture with an Account Factory using AWS CDK TypeScript
 - Achieved 10M TPS through optimizations and tuning of Kafka, Elasticsearch, RDS, Redis, and Java Profiling
 - Simplified Kafka-Flink architectures using SMT (Connect), Kafka streams, and Kafka Schema Registry with Protobuf
-- Led tech modernization efforts, including adopting K6, Maven to Bazel, REST to GraphQL & gRPC, ScyllaDB, and TiDB
+- Led tech modernization efforts, including adopting K6, Maven to nx-gradel, REST to GraphQL & gRPC, ScyllaDB, and TiDB
 - Conducted company-wide SRE training and delivered a visiting lecture at Dayanand Sagar University on Cloud technologies
 
 **Principal Architect (Platform team), Jupiter Money**, Bengaluru(KA), Nov 2019 - Jan 2021
@@ -34,8 +41,6 @@
 - Built a modern, multi-tenant, secure cloud architecture with multiple accounts, incorporating AWS, EMR, Kubernetes, GitHub Actions, Prow, Spinnaker, Loki, Cortex, Prometheus, Istio, and Jaeger
 - Established secure hub-and-spoke architecture with partner banks such as AXIS, Federal, Zeta, Genesys, and FIS over DX and MPLS
 - Developed a banking SIEM engine for log analysis and predictive anomaly detection using OpenSearch
-
-### Architectural Contributions
 
 **Principal Architect, Niki.ai**, Bengaluru(KA), Dec 2017 - Nov 2019
 - Developed a Payment SDK for B2B customers to integrate with Niki
