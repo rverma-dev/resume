@@ -18,7 +18,7 @@
 
 **Independent Contractor**, Bengaluru(KA), March 2024 - Current
 - Completed one Project e2e with DRDO Radar Unit for flight simulation, synthetic data generation for indigenous radar unit and integrations of MIL and Video data.
-- Worked with Gaian Solutions as Platform Architect, helping them scaling their platform to 100K QPS.
+- Worked with Gaian Solutions as Platform Architect, helping them scaling their platform to 100K QPS, re-architecting their Identity and Data platform
 - Independtly developed an low latency GenAI video processing system, using Cloudflare AI + Open AI, which allow to repurpose video contents, do chapterization, semantic search in videos.
 
 **Senior Engineer, Atlassian**, Bengaluru(KA), Aug 2023 - March 2024
