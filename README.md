@@ -16,11 +16,16 @@
 
 ### Work Experience
 
-**Senior Engineer, Atlassian**, Bengaluru(KA), Aug 2023 - March 2023
+**Independent Contractor**, Bengaluru(KA), March 2024 - Current
+- Completed one Project e2e with DRDO Radar Unit for flight simulation, synthetic data generation for indigenous radar unit and integrations of MIL and Video data.
+- Worked with Gaian Solutions as Platform Architect, helping them scaling their platform to 100K QPS.
+- Independtly developed an low latency GenAI video processing system, using Cloudflare AI + Open AI, which allow to repurpose video contents, do chapterization, semantic search in videos.
+
+**Senior Engineer, Atlassian**, Bengaluru(KA), Aug 2023 - March 2024
 - As a lead in JIRA Data Management team, led the development of JIRA migration from external sources
 - Developed the framework for Migration to existing projects from scratch.
 - Central cordinator for JIRA identity team, JIRA entity team, JIRA platform data teams and Mirgation teams to design and deliver the first phase.
-- Secured special mention in atlassian company wide hackathalon for ALT text generator using LAVIS a variant of InstructBLIP.
+- Developed ALT text generator using LAVIS a variant of InstructBLIP for confluence images.
 
 **Vice President/GSL - PaaS, Brane Enterprises / Nslhub**, Bengaluru(KA), Jan 2021 - July 2023
 - Developed the NSL SaaS Accelerator Framework for concurrent tenant onboarding, just-in-time IAC with multiple profiles (silo, pool, serverless) using AWS CDK TypeScript
