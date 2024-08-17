@@ -1,7 +1,7 @@
 # Rohit Verma
 (+91) 9988844215 | rohitatiit@gmail.com | [LinkedIn](https://www.linkedin.com/in/rohit-verma-24084718) | [GitHub](https://github.com/rverma-dev)
 
-Cloud Architecture & DevOps | Scalability & Performance Optimization | Data Engineering & Analytics | Security & Compliance | Team Leadership & Mentoring
+GenAI | Cloud Architecture & DevOps | Scalability & Performance Optimization | Data Engineering & Analytics | Security & Compliance | Team Leadership & Mentoring
 
 ## Professional Summary
 Innovative and results-driven Software Architect with 13+ years of experience in designing, developing, and implementing scalable, high-performance software solutions. Proven track record of leading cross-functional teams, architecting cloud-native applications, and driving technological advancements across various industries. Expertise in Java, Go, AWS, microservices architecture, and distributed systems.
