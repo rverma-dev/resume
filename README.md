@@ -1,5 +1,6 @@
 # Rohit Verma
 (+91) 9988844215 | rohitatiit@gmail.com | [LinkedIn](https://www.linkedin.com/in/rohit-verma-24084718) | [GitHub](https://github.com/rverma-dev)
+
 Cloud Architecture & DevOps | Scalability & Performance Optimization | Data Engineering & Analytics | Security & Compliance | Team Leadership & Mentoring
 
 ## Professional Summary
