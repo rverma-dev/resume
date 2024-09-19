@@ -11,7 +11,7 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 ### Independent Consultant, Bengaluru (KA)
 *March 2024 - Present*
 - Architected and implemented an end-to-end flight simulation project for DRDO Radar Unit, incorporating synthetic data generation and MIL/Video data integration
-- Redesigned and optimized Gaian Solutions' platform architecture, scaling to 100K QPS and revamping identity and data platforms
+- Redesigned and optimized Gaian Solutions' platform architecture, scaling to 100K QPS and revamping identity and data platforms. Primary work invloved redoing RBAC/ABAC based on zanzibar architecture, adding tennaf based sidecar architecture, building the cost and usage monitoring system, scaling HUDI and introducing TIDB for HTAP.
 - Developed a low-latency GenAI video processing system using Cloudflare AI and OpenAI, enabling video content repurposing, chapterization, and semantic search
 
 ### Senior Engineer, Atlassian, Bengaluru (KA)
@@ -22,8 +22,9 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 
 ### Vice President/GSL - PaaS, Brane Enterprises / Nslhub, Bengaluru (KA)
 *Jan 2021 - July 2023*
+- Lead architect for entire platform, cloud and security.
 - Architected NSL SaaS Accelerator Framework, enabling concurrent tenant onboarding and just-in-time IAC using AWS CDK TypeScript
-- Designed and implemented NSL Observability Suite and event-based billing system, scaling to handle 1B events per minute
+- Designed and implemented NSL Observability Suite and event-based billing system, scaling to handle 1B events per minute 
 - Developed NSL global search engine utilizing Milvus vector DB with BERT/CLIP embeddings
 - Optimized system performance, achieving 10M TPS through Kafka, Elasticsearch, RDS, and Redis tuning
 - Led tech modernization efforts, introducing K6, nx-gradle, GraphQL, gRPC, ScyllaDB, and TiDB
