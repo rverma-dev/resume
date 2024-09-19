@@ -8,7 +8,8 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 
 ## Professional Experience
 
-### Independent Consultant <div style="text-align: right"><em>Bengaluru (KA) | March 2024 - Present</em></div>
+### Independent Consultant 
+<div style="text-align: right"><em>Bengaluru (KA) | March 2024 - Present</em></div>
 - Architected and implemented an end-to-end flight simulation project for DRDO Radar Unit, incorporating synthetic data generation and MIL/Video data integration
 - Gaian Solutions Platform Redesign:
     - Scaled architecture to handle 100K QPS
