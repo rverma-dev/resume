@@ -8,14 +8,14 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 
 ## Professional Experience
 
-### Independent Consultant, Bengaluru (KA) <br /> March 2024 - Present
+### Independent Consultant <div style="text-align: right"><em>Bengaluru (KA) | March 2024 - Present</em></div>
 - Architected and implemented an end-to-end flight simulation project for DRDO Radar Unit, incorporating synthetic data generation and MIL/Video data integration
 - Gaian Solutions Platform Redesign:
-    Scaled architecture to handle 100K QPS
-    Revamp RBAC/ABAC using Zanzibar architecture
-    Designed tenant-context sidecar architecture
-    Built cost and usage monitoring system
-    Optimized data platform with HUDI and TIDB for HTAP
+    - Scaled architecture to handle 100K QPS
+    - Revamp RBAC/ABAC using Zanzibar architecture
+    - Designed tenant-context sidecar architecture
+    - Built cost and usage monitoring system
+    - Optimized data platform with HUDI and TIDB for HTAP
 - Developed a low-latency GenAI video processing system using Cloudflare AI and OpenAI, enabling video content repurposing, chapterization, and semantic search
 
 ### Senior Engineer, Atlassian, Bengaluru (KA) <br /> Aug 2023 - March 2024
