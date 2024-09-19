@@ -35,42 +35,36 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 - Instrumentat in company wide collaboration with AWS for Cost Planning and Partner Training Programs
 
 
-### Principal Architect (Platform team), Jupiter Money, Bengaluru (KA)
-*Nov 2019 - Jan 2021*
+### Principal Architect (Platform team), Jupiter Money, Bengaluru (KA)  <br /> *Nov 2019 - Jan 2021*
 - Achieved compliance ISO 27001, SOC 2, PCI, UPI SAR and partner bank audits.
 - Architected Jupiter's Lending Management System and PII redaction layer for secure data handling
 - Designed multi-tenant, secure cloud architecture incorporating AWS, EMR, Kubernetes, and various DevOps tools
 - Established secure hub-and-spoke architecture with partner banks over DX and MPLS. This is backbone of entire JUPITER's card transactions as well as UPI transactions.
 - Developed banking SIEM engine for log analysis and predictive anomaly detection using OpenSearch
 
-### Principal Architect, Niki.ai, Bengaluru (KA)
-*Dec 2017 - Nov 2019*
+### Principal Architect, Niki.ai, Bengaluru (KA)  <br /> *Dec 2017 - Nov 2019*
 - Developed Payment SDK for B2B partner integration 
 - Implemented order fulfillment system using Dynamo streams and Kinesis, showcasing CQRS & event sourcing
 - Rearch Order management sytem for event sourcing and better performance.
 - Replaced promotion engine which rrquire code change and lot of Marketing cohesion with self serve rule engine based in Kie.
 - Modernized cloud infrastructure for multi-account and PCI DSS compliance using Kubernetes and various DevOps tools
 
-### Lead Product Engineer, Sprinklr, Bengaluru (KA)
-*July - Dec 2017*
+### Lead Product Engineer, Sprinklr, Bengaluru (KA)  <br /> *July - Dec 2017*
 - Architected and implemented Integration Marketplace V1 for the Sprinklr platform
 - Developed plugin architecture with Consul for discovery and Pubsubhubbub-based lifecycle management
 - Led customer trials for V1 architecture with key clients such as SAP C4C
 
-### Senior Software Engineer, Rokitt (Io-Tahoe/Centrica/Hitachi Vantara), Bengaluru (KA) - New Jersey (NJ)
-*May 2015 - July 2017*
+### Senior Software Engineer, Rokitt (Io-Tahoe/Centrica/Hitachi Vantara), Bengaluru (KA) - New Jersey (NJ)  <br /> May 2015 - July 2017
 - Led development of ToFrom, a personalized travel platform with 200+ endpoints and multiple 3rd party integrations
 - Engineered large-scale data analysis pipelines using Spark and Spark ML
 - Developed Genesis, a synthetic data generator evolving from an internal tool to a sellable product
 
-### Senior Software Engineer, QA Source (Bebo Technologies), Chandigarh
-*Jun 2014 - Mar 2015*
+### Senior Software Engineer, QA Source (Bebo Technologies), Chandigarh  <br /> Jun 2014 - Mar 2015
 - Refactored e-commerce platform for multi-tenancy support using RLS
 - Led transition from monolithic app to SOA using Spring-Integration/Rabbit MQ
 - Implemented Elasticsearch for e-commerce search and ELK panes for analytics
 
-### Software Engineer, Mphasis, an HP company, Pune (MH)
-*May 2011 - Mar 2014*
+### Software Engineer, Mphasis, an HP company, Pune (MH)  <br /> May 2011 - Mar 2014
 - Developed core banking solution APIs for First Republic Bank
 - Implemented SWIFT protocol over JMS-MQTT bridge for wire transfers
 - Created SOAP services for various Symantec portals, including payment processing and fraud detection
@@ -78,7 +72,6 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 ## Education
 **B.Tech (Hons) Agriculture & Food Technology**  
 Indian Institute of Technology, Kharagpur, July 2007 - May 2011
-
 
 ## Technical 
 Java | Go | Kotlin | Python | TypeScript | AWS (expert) | Azure | GCP | Kubernetes | Docker | Terraform | Milvus | Clickhouse | DynamoDB | Elasticsearch | Neo4J | Redis | ScyllaDB | TiDB | Kakfa
