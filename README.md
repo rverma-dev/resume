@@ -63,6 +63,8 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 - Replaced promotion engine which rrquire code change and lot of Marketing cohesion with self serve rule engine based in Kie.
 - Modernized cloud infrastructure for multi-account and PCI DSS compliance using Kubernetes and various DevOps tools
 
+<br />
+<br />
 <div style="display: flex; justify-content: space-between; align-items: baseline;">
   <strong style="font-size: 1.17em;">Lead Product Engineer, Sprinklr</strong>
   <em>Bengaluru (KA) | July - Dec 2017</em>
