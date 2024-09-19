@@ -31,15 +31,18 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 
 ### Principal Architect (Platform team), Jupiter Money, Bengaluru (KA)
 *Nov 2019 - Jan 2021*
+- Achieved compliance ISO 27001, SOC 2, PCI, UPI SAR and partner bank audits.
 - Architected Jupiter's Lending Management System and PII redaction layer for secure data handling
 - Designed multi-tenant, secure cloud architecture incorporating AWS, EMR, Kubernetes, and various DevOps tools
-- Established secure hub-and-spoke architecture with partner banks over DX and MPLS
+- Established secure hub-and-spoke architecture with partner banks over DX and MPLS. This is backbone of entire JUPITER's card transactions as well as UPI transactions.
 - Developed banking SIEM engine for log analysis and predictive anomaly detection using OpenSearch
 
 ### Principal Architect, Niki.ai, Bengaluru (KA)
 *Dec 2017 - Nov 2019*
 - Developed Payment SDK for B2B customer integration and led creation of Promotions Engine using KIE and Drools
 - Implemented order fulfillment system using Dynamo streams and Kinesis, showcasing CQRS & event sourcing
+- Rearch Order management sytem for event sourcing and better performance.
+- Replaced promotion engine which rrquire code change and lot of Marketing cohesion with self serve rule engine based in Kie.
 - Modernized cloud infrastructure for multi-account and PCI DSS compliance using Kubernetes and various DevOps tools
 
 ### Lead Product Engineer, Sprinklr, Bengaluru (KA)
