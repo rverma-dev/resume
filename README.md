@@ -8,31 +8,31 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 
 ## Professional Experience
 
-### Independent Consultant, Bengaluru (KA)
-*March 2024 - Present*
+### Independent Consultant, Bengaluru (KA) <br /> *March 2024 - Present*
 - Architected and implemented an end-to-end flight simulation project for DRDO Radar Unit, incorporating synthetic data generation and MIL/Video data integration
-- Redesigned and optimized Gaian Solutions' platform architecture, scaling to 100K QPS and revamping identity and data platforms. Primary work invloved redoing RBAC/ABAC based on zanzibar architecture, adding tennaf based sidecar architecture, building the cost and usage monitoring system, scaling HUDI and introducing TIDB for HTAP.
+- Gaian Solutions Platform Redesign:
+    Scaled architecture to handle 100K QPS
+    Revamp RBAC/ABAC using Zanzibar architecture
+    Designed tenant-context sidecar architecture
+    Built cost and usage monitoring system
+    Optimized data platform with HUDI and TIDB for HTAP
 - Developed a low-latency GenAI video processing system using Cloudflare AI and OpenAI, enabling video content repurposing, chapterization, and semantic search
 
-### Senior Engineer, Atlassian, Bengaluru (KA)
-*Aug 2023 - March 2024*
+### Senior Engineer, Atlassian, Bengaluru (KA) <br /> *Aug 2023 - March 2024*
 - Spearheaded JIRA data migration initiatives, developing frameworks for external source integration
 - Coordinated cross-functional teams to design and deliver the first phase of JIRA migration
 - Implemented an ALT text generator using LAVIS (InstructBLIP variant) for Confluence images
 
-### Vice President/GSL - PaaS, Brane Enterprises / Nslhub, Bengaluru (KA)
-*Jan 2021 - July 2023*
-- Lead architect for entire platform, cloud and security.
+### Vice President/GSL - PaaS, Brane Enterprises / Nslhub, Bengaluru (KA) <br /> *Jan 2021 - July 2023*
 - Architected NSL SaaS Accelerator Framework, enabling concurrent tenant onboarding and just-in-time IAC using AWS CDK TypeScript
 - Designed and implemented NSL Observability Suite and event-based billing system, scaling to handle 1B events per minute 
-- Developed NSL global search engine utilizing Milvus vector DB with BERT/CLIP embeddings and Elasticsearch to serve semaric sewech, facet search, ranking, review comments, type Ahead, fuzzy search.
-location based search, sharable filter
-- Optimized system performance, achieving 10M TPS through Kafka, Elasticsearch, RDS, and Redis tuning
+- Developed NSL global search using vector embeddings and Elasticsearch to server various searches (semantic, faceted, ranking, type Ahead, fuzzy).
+- Optimized workflow system performance, achieving 10M TPS transactions through Kafka, Dynamo, TiDB, and Redis tuning
 - Led tech modernization efforts, introducing K6, nx-gradle, GraphQL, gRPC, ScyllaDB, and TiDB
 - Co architected Entity Data Analytics using Clickhouse, Athena, Redis, SuperSet, Kafka stream, Flink, AWS glue, S3
 - Engaged with clients across healthcare, fintech, government, and HR sectors as an Architect, ensuring the development and implementation of effective solutions
 - Conducted multiple internal and extrernal trainings.
-- Collaborated with the AWS team on architectural reviews, cost planning, optimizations and Partner Training Programs.
+- Instrumentat in company wide collaboration with AWS for Cost Planning and Partner Training Programs
 
 
 ### Principal Architect (Platform team), Jupiter Money, Bengaluru (KA)
@@ -79,11 +79,6 @@ location based search, sharable filter
 **B.Tech (Hons) Agriculture & Food Technology**  
 Indian Institute of Technology, Kharagpur, July 2007 - May 2011
 
-
-## Professional Development
-- Conducted 40+ hours of training for junior developers in the past year
-- Instrumentat in company wide collaboration with AWS for Partner Training Programs
-- Managed multiple security compliance certifications (ISO 27001, UPI SAR, SOC 2, PCI DSS, NPCI)
 
 ## Technical 
 Java | Go | Kotlin | Python | TypeScript | AWS (expert) | Azure | GCP | Kubernetes | Docker | Terraform | Milvus | Clickhouse | DynamoDB | Elasticsearch | Neo4J | Redis | ScyllaDB | TiDB | Kakfa
