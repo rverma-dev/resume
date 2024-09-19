@@ -8,7 +8,7 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 
 ## Professional Experience
 
-### Independent Consultant, Bengaluru (KA) <br /> *March 2024 - Present*
+### Independent Consultant, Bengaluru (KA) <br /> March 2024 - Present
 - Architected and implemented an end-to-end flight simulation project for DRDO Radar Unit, incorporating synthetic data generation and MIL/Video data integration
 - Gaian Solutions Platform Redesign:
     Scaled architecture to handle 100K QPS
@@ -18,12 +18,12 @@ Innovative and results-driven Software Architect with 13+ years of experience in
     Optimized data platform with HUDI and TIDB for HTAP
 - Developed a low-latency GenAI video processing system using Cloudflare AI and OpenAI, enabling video content repurposing, chapterization, and semantic search
 
-### Senior Engineer, Atlassian, Bengaluru (KA) <br /> *Aug 2023 - March 2024*
+### Senior Engineer, Atlassian, Bengaluru (KA) <br /> Aug 2023 - March 2024
 - Spearheaded JIRA data migration initiatives, developing frameworks for external source integration
 - Coordinated cross-functional teams to design and deliver the first phase of JIRA migration
 - Implemented an ALT text generator using LAVIS (InstructBLIP variant) for Confluence images
 
-### Vice President/GSL - PaaS, Brane Enterprises / Nslhub, Bengaluru (KA) <br /> *Jan 2021 - July 2023*
+### Vice President/GSL - PaaS, Brane Enterprises / Nslhub, Bengaluru (KA) <br /> Jan 2021 - July 2023
 - Architected NSL SaaS Accelerator Framework, enabling concurrent tenant onboarding and just-in-time IAC using AWS CDK TypeScript
 - Designed and implemented NSL Observability Suite and event-based billing system, scaling to handle 1B events per minute 
 - Developed NSL global search using vector embeddings and Elasticsearch to server various searches (semantic, faceted, ranking, type Ahead, fuzzy).
@@ -35,21 +35,21 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 - Instrumentat in company wide collaboration with AWS for Cost Planning and Partner Training Programs
 
 
-### Principal Architect (Platform team), Jupiter Money, Bengaluru (KA)  <br /> *Nov 2019 - Jan 2021*
+### Principal Architect (Platform team), Jupiter Money, Bengaluru (KA)  <br /> Nov 2019 - Jan 2021
 - Achieved compliance ISO 27001, SOC 2, PCI, UPI SAR and partner bank audits.
 - Architected Jupiter's Lending Management System and PII redaction layer for secure data handling
 - Designed multi-tenant, secure cloud architecture incorporating AWS, EMR, Kubernetes, and various DevOps tools
 - Established secure hub-and-spoke architecture with partner banks over DX and MPLS. This is backbone of entire JUPITER's card transactions as well as UPI transactions.
 - Developed banking SIEM engine for log analysis and predictive anomaly detection using OpenSearch
 
-### Principal Architect, Niki.ai, Bengaluru (KA)  <br /> *Dec 2017 - Nov 2019*
+### Principal Architect, Niki.ai, Bengaluru (KA)  <br /> Dec 2017 - Nov 2019
 - Developed Payment SDK for B2B partner integration 
 - Implemented order fulfillment system using Dynamo streams and Kinesis, showcasing CQRS & event sourcing
 - Rearch Order management sytem for event sourcing and better performance.
 - Replaced promotion engine which rrquire code change and lot of Marketing cohesion with self serve rule engine based in Kie.
 - Modernized cloud infrastructure for multi-account and PCI DSS compliance using Kubernetes and various DevOps tools
 
-### Lead Product Engineer, Sprinklr, Bengaluru (KA)  <br /> *July - Dec 2017*
+### Lead Product Engineer, Sprinklr, Bengaluru (KA)  <br /> July - Dec 2017
 - Architected and implemented Integration Marketplace V1 for the Sprinklr platform
 - Developed plugin architecture with Consul for discovery and Pubsubhubbub-based lifecycle management
 - Led customer trials for V1 architecture with key clients such as SAP C4C
