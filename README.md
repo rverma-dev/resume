@@ -30,6 +30,10 @@ location based search, sharable filter
 - Optimized system performance, achieving 10M TPS through Kafka, Elasticsearch, RDS, and Redis tuning
 - Led tech modernization efforts, introducing K6, nx-gradle, GraphQL, gRPC, ScyllaDB, and TiDB
 - Co architected Entity Data Analytics using Clickhouse, Athena, Redis, SuperSet, Kafka stream, Flink, AWS glue, S3
+- Engaged with clients across healthcare, fintech, government, and HR sectors as an Architect, ensuring the development and implementation of effective solutions
+- Conducted multiple internal and extrernal trainings.
+- Collaborated with the AWS team on architectural reviews, cost planning, optimizations and Partner Training Programs.
+
 
 ### Principal Architect (Platform team), Jupiter Money, Bengaluru (KA)
 *Nov 2019 - Jan 2021*
