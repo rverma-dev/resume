@@ -25,9 +25,11 @@ Innovative and results-driven Software Architect with 13+ years of experience in
 - Lead architect for entire platform, cloud and security.
 - Architected NSL SaaS Accelerator Framework, enabling concurrent tenant onboarding and just-in-time IAC using AWS CDK TypeScript
 - Designed and implemented NSL Observability Suite and event-based billing system, scaling to handle 1B events per minute 
-- Developed NSL global search engine utilizing Milvus vector DB with BERT/CLIP embeddings
+- Developed NSL global search engine utilizing Milvus vector DB with BERT/CLIP embeddings and Elasticsearch to serve semaric sewech, facet search, ranking, review comments, type Ahead, fuzzy search.
+location based search, sharable filter
 - Optimized system performance, achieving 10M TPS through Kafka, Elasticsearch, RDS, and Redis tuning
 - Led tech modernization efforts, introducing K6, nx-gradle, GraphQL, gRPC, ScyllaDB, and TiDB
+- Co architected Entity Data Analytics using Clickhouse, Athena, Redis, SuperSet, Kafka stream, Flink, AWS glue, S3
 
 ### Principal Architect (Platform team), Jupiter Money, Bengaluru (KA)
 *Nov 2019 - Jan 2021*
