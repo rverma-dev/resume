@@ -45,7 +45,7 @@ location based search, sharable filter
 
 ### Principal Architect, Niki.ai, Bengaluru (KA)
 *Dec 2017 - Nov 2019*
-- Developed Payment SDK for B2B customer integration and led creation of Promotions Engine using KIE and Drools
+- Developed Payment SDK for B2B partner integration 
 - Implemented order fulfillment system using Dynamo streams and Kinesis, showcasing CQRS & event sourcing
 - Rearch Order management sytem for event sourcing and better performance.
 - Replaced promotion engine which rrquire code change and lot of Marketing cohesion with self serve rule engine based in Kie.
