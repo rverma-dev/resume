@@ -84,8 +84,7 @@ Innovative and results-driven Software Architect with 13+ years of experience in
   <em> May 2011 - Mar 2015</em>
 </div>
 - Senior Software Engineer, QA Source (Bebo Technologies): Refactored e-commerce platform for multi-tenancy, Implement SOA, ES analytics
-- Software Engineer, Mphasis, an HP company: Developed core banking solution APIs, SWIFT Implementation over JMS-MQTT bridge for wire transfers
-- Created SOAP services for various Symantec portals, including payment processing and fraud detection
+- Software Engineer, Mphasis, an HP company: Developed core banking solution APIs, SWIFT Implementation over JMS-MQTT bridge, SOAP services for various Symantec
 
 ## Education
 **B.Tech (Hons) Agriculture & Food Technology**  
