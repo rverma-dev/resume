@@ -1,32 +1,144 @@
-@import "{{ site.theme }}";
+/* Backbone CSS for Resume Template 1 */
 
-header {
-  display: none;
+/* Basic */
+
+#vue-smart-pages-preview {
+  background-color: white;
+  color: black;
+  text-align: left;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
-.inner {
+
+#vue-smart-pages-preview p,
+#vue-smart-pages-preview li,
+#vue-smart-pages-preview dl {
+  margin: 0;
+}
+
+/* Headings */
+
+#vue-smart-pages-preview h1,
+#vue-smart-pages-preview h2,
+#vue-smart-pages-preview h3 {
+  font-weight: bold;
+}
+
+#vue-smart-pages-preview h1 {
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+#vue-smart-pages-preview h2,
+#vue-smart-pages-preview h3 {
+  margin-bottom: 0.25em;
+  margin-top: 1.0em;
+  font-size: 1.2em;
+}
+
+#vue-smart-pages-preview h1,
+#vue-smart-pages-preview h2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: darkgrey;
+}
+
+/* Lists */
+
+#vue-smart-pages-preview ul,
+#vue-smart-pages-preview ol {
+  padding-left: 1.5em;
+  margin: 0.2em 0 1.0em 0;
+}
+
+#vue-smart-pages-preview ul {
+  list-style-type: disc;
+}
+
+#vue-smart-pages-preview ol {
+  list-style-type: decimal;
+}
+
+/* Definition Lists */
+
+#vue-smart-pages-preview dl {
+  display: flex;
+}
+
+#vue-smart-pages-preview dl dt,
+#vue-smart-pages-preview dl dd:not(:last-child) {
+  flex: 1;
+}
+
+/* Tex */
+
+#vue-smart-pages-preview :not(span.katex-display) > span.katex {
+  font-size: 1em !important;
+}
+
+/* SVG & Images */
+
+#vue-smart-pages-preview svg.iconify {
+  vertical-align: -0.2em;
+}
+
+#vue-smart-pages-preview img {
   max-width: 100%;
 }
 
-$base-font-size:   12px !default;
-$base-font-family: "PT Serif", serif;
+/* Header */
 
-.markdown-body {
-  font-family: "PT Serif", serif;
-  font-size:   10px;
+#vue-smart-pages-preview .resume-header {
+  text-align: center;
 }
 
-body {
-  font-family: "PT Serif";
-  font-weight: 400;
-  font-style: normal;
+#vue-smart-pages-preview .resume-header h1 {
+  text-align: center;
   line-height: 1;
+  margin-bottom: 8px;
 }
 
-@font-face {
-  font-family: BetterHeader;
-  src: url(...) format("WOFF2");
+#vue-smart-pages-preview .resume-header-item:not(.no-separator)::after {
+  content: " | ";
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: BetterHeader, Helvetica, Arial, sans;
+/* Citations */
+
+#vue-smart-pages-preview ul.crossref-list {
+  padding-left: 1.2em;
+}
+
+#vue-smart-pages-preview li.crossref-item p {
+  margin-left: 0.5em;
+}
+
+#vue-smart-pages-preview li.crossref-item::marker {
+  content: attr(data-caption);
+}
+
+#vue-smart-pages-preview sup.crossref-ref {
+  font-size: 100%;
+  top: 0;
+}
+
+/* Dark & print mode */
+
+.dark #vue-smart-pages-preview {
+  background-color: #334155;
+  color: #e5e7eb;
+}
+
+@media print {
+  #vue-smart-pages-preview {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .dark #vue-smart-pages-preview a {
+    color: black !important;
+  }
 }
