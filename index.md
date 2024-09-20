@@ -1,4 +1,7 @@
 ---
+layout: resume
+title: "Rohit Verma's Resume"
+---
 # Rohit Verma
 
 <span class="iconify" data-icon="tabler:brand-linkedin"></span> [LinkedIn](https://www.linkedin.com/in/rohit-verma-24084718)
@@ -19,7 +22,7 @@ Innovative and results-driven Software Architect with 13+ years of experience in
   : **March 2024 - Present**
 
 - Developed flight simulation project for **DRDO Radar Unit**, with simulated data generation and MIL/Video data integration
-- Developed a low-latency GenAI video processing system for **Brandshark** using Cloudflare AI and OpenAI, improving video content repurposing, chapterization, and semantic search.
+- Developed a low-latency GenAI video processing system for **Brandshark** using Cloudflare AI and OpenAI, improving video content repurposing, chapterization, and semantic search
 - Redesign of **Gaian Solutions Platform**:
   - Scaled architecture to handle **100K QPS**.
   - Revamped RBAC/ABAC architecture reducing permission check from **25sec** to under **5ms** at **100K QPS** from 
