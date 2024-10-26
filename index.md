@@ -1,7 +1,4 @@
 ---
-layout: resume
-title: "Rohit Verma's Resume"
----
 # Rohit Verma
 
 <span class="iconify" data-icon="tabler:brand-linkedin"></span> [LinkedIn](https://www.linkedin.com/in/rohit-verma-24084718)
@@ -22,7 +19,7 @@ Innovative and results-driven Software Architect with 13+ years of experience in
   : **March 2024 - Present**
 
 - Developed flight simulation project for **DRDO Radar Unit**, with simulated data generation and MIL/Video data integration
-- Developed a low-latency GenAI video processing system for **Brandshark** using Cloudflare AI and OpenAI, improving video content repurposing, chapterization, and semantic search
+- Developed a low-latency GenAI video processing system for **Brandshark** using Cloudflare, Nextjs, Kritrium, FFMPEG, OpenAI, improving video content repurposing, chapterization, and semantic search.
 - Redesign of **Gaian Solutions Platform**:
   - Scaled architecture to handle **100K QPS**.
   - Revamped RBAC/ABAC architecture reducing permission check from **25sec** to under **5ms** at **100K QPS** from 
@@ -30,25 +27,28 @@ Innovative and results-driven Software Architect with 13+ years of experience in
   - Developed cost and usage monitoring system.
   - Optimized data platform with **HUDI** and **TIDB** for HTAP
 
-**Senior Engineer, Atlassian**
+**Staff Software Engineer, Atlassian**
   : **Bengaluru (KA)**  
   : **Aug 2023 - March 2024**
 
 - Spearheaded JIRA data migration, developing integration frameworks for external sources.
-- Led **3 cross-functional teams** to enable migration in existing projects.
+- Led **multiple cross-functional teams** to enable migration in existing projects.
 - Implemented ALT text generator for Confluence images using LAVIS (InstructBLIP variant).
 
 **Vice President/GSL - PaaS, Brane Enterprise**
   : **Bengaluru (KA)**  
   : **Jan 2021 - July 2023**
 
-- Architected NSL SaaS Accelerator Framework enabling concurrent tenant onboarding and **Just-in-time IAC**.
-- Designed an observability suite and event-based billing system, scaling to process **100M events/min**.
+- Architected NSL SaaS Accelerator Framework enabling concurrent tenant onboarding and **Just-in-time IAC**, enabling sharding data, used by multiple subsystems like Entity Store, Tag manager, Event manager, Schedulers.
+- Architected sidecar based event-based billing system, scaling to process **100M events/min** with rate limiting.
+- Led a team of **30 devops** for CICD (Flux), Observability (GLTM), Infrastructure Management(IAC + Cost management), incident handling (Opsgenie + Pagerduty) and Security.
 - Developed global search using vector embeddings and Elasticsearch, delivering results for semantic, faceted, ranking, type-ahead, and fuzzy searches.
 - Improved workflow performance to achieve **10M TPS** by optimizing Kafka, Dynamo, TiDB, and Redis.
-- Drove modernization efforts, introducing K6, nx-gradle, GraphQL, gRPC, ScyllaDB, and TiDB.
-- Co-architected entity data analytics using ClickHouse, Redis, Kafka, and AWS Glue.
-- Collaborated with AWS on cost planning and partner training programs.
+- Introduce k6 for shift-left load testing
+- Architected the entire on-prem suite for enterprise customers leveraging Nutanix, ScyllaDB, Kafka, TiDB and Clickhouse distribution for on-prem.
+- Implemented entity data pipeline and analytics using ClickHouse, Redis, Kafka Connect, AWS Glue, S3.
+- Collaborated with AWS on cost planning and partner training calendars.
+
 
 **Principal Architect, Jupiter Money**
   : **Bengaluru (KA)**  
@@ -107,6 +107,7 @@ Indian Institute of Technology Kharagpur
 **Programming Languages:** <span class="iconify" data-icon="vscode-icons:file-type-go"></span> Go,
 <span class="iconify" data-icon="vscode-icons:file-type-python"></span> Python, <span class="iconify" data-icon="vscode-icons:file-type-typescript-official"></span> TypeScript <span class="iconify" data-icon="logos:java" data-inline="false"></span> Java
 
-**Tools and Frameworks:** Git, AWS CDK, 
+**Tools and Frameworks:** Git, Clickhouse, Athena, Redis, Grafana, K6, Kafka, Flink, Elasticsearch,Keycloak, Milvus, VectorDB, ScyllaDB, TiDB,Cassandra
+**infrastructure: ** AWS, Azure, Kubernetes, IAC (Terraform, cloudformation, cdk),Nutanix, HCI, Cloudflare, Istio, Cilium
 
 **Languages:** English (proficient)
