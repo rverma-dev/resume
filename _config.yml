@@ -3,7 +3,3 @@ title: Resume
 description: "Resume hosted on GitHub Pages"
 baseurl: ""  # Base URL, keep it blank for root
 url: "https://rverma-dev.github.io"  # Your GitHub Pages URL
-
-# Markdown processor
-markdown: kramdown
-highlighter: rouge
