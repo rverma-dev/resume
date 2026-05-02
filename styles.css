@@ -1,145 +1,191 @@
-/* Backbone CSS for Resume Template 1 */
+/* Resume — print-first, single-column, ATS-safe
+   Design goals:
+   1. Parses cleanly in ATS (single logical column, no CSS columns on experience).
+   2. Reads well on screen.
+   3. Prints/exports-to-PDF with predictable page breaks (page 1 ends on Brane).
+   4. Compact — 2 pages at A4 / US Letter.
+*/
 
-/* Basic */
+/* ---------- Base (screen) ---------- */
 
-#vue-smart-pages-preview {
-    background-color: white;
-    color: black;
-    text-align: left;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-  }
-  
-  #vue-smart-pages-preview p,
-  #vue-smart-pages-preview li,
-  #vue-smart-pages-preview dl {
+:root {
+  --ink:   #111;
+  --muted: #555;
+  --rule:  #cfcfcf;
+  --accent:#0b4f8a;
+  --max:   780px;     /* tuned so print and screen match */
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: var(--ink);
+  font-family: -apple-system, "Helvetica Neue", Arial, "Segoe UI", sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.38;
+  -webkit-font-smoothing: antialiased;
+}
+
+.resume {
+  max-width: var(--max);
+  margin: 24px auto;
+  padding: 32px 40px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+}
+
+/* ---------- Typography ---------- */
+
+h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-align: center;
+  margin: 0 0 2px 0;
+  color: var(--ink);
+}
+
+/* Section headings */
+h2 {
+  font-size: 11.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin: 14px 0 6px 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink);
+}
+
+h3 {
+  font-size: 10.5pt;
+  font-weight: 700;
+  margin: 8px 0 2px 0;
+  color: var(--ink);
+}
+
+p, li { margin: 0 0 3px 0; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+strong { color: var(--ink); }
+em { color: var(--muted); font-style: italic; }
+
+/* ---------- Contact lines (the kramdown definition-list rows) ---------- */
+
+dl {
+  margin: 0 0 2px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+dl dt, dl dd { margin: 0; padding: 0; }
+
+/* First dl = contact row; center it */
+.resume > dl:first-of-type,
+.resume > dl:nth-of-type(2) {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Role-header dls (inside Experience) are left-aligned, denser */
+h2 ~ dl {
+  justify-content: flex-start;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 10pt;
+}
+
+/* Dividers between dl items */
+dl dt + dd::before,
+dl dd + dd::before {
+  content: "·";
+  margin-right: 10px;
+  color: var(--rule);
+}
+
+/* ---------- Lists ---------- */
+
+ul {
+  margin: 3px 0 6px 0;
+  padding-left: 18px;
+}
+
+ul li {
+  margin-bottom: 2px;
+}
+
+ul ul {
+  margin: 2px 0 2px 0;
+}
+
+/* ---------- Role block layout ---------- */
+
+/* Role title paragraph (strong wrapped in p) is tight to the next dl */
+.resume p strong:first-child { }
+
+/* Italic sub-headers inside a role (e.g., *Anypoint Monitoring Alerts:*) */
+.resume p em:only-child {
+  display: block;
+  margin-top: 6px;
+  margin-bottom: 1px;
+  color: var(--ink);
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* ---------- Page-break control (print + PDF export) ---------- */
+
+@page {
+  size: A4;
+  margin: 14mm 14mm;
+}
+
+@media print {
+  html, body { background: #fff; }
+
+  .resume {
+    box-shadow: none;
     margin: 0;
+    padding: 0;
+    max-width: none;
+    font-size: 10pt;
   }
-  
-  /* Headings */
-  
-  #vue-smart-pages-preview h1,
-  #vue-smart-pages-preview h2,
-  #vue-smart-pages-preview h3 {
-    font-weight: bold;
+
+  a { color: var(--ink); }
+
+  /* Don't split a role block across pages */
+  h2, h3, p strong { break-after: avoid-page; }
+  p, ul, dl { break-inside: avoid-page; }
+
+  /* Keep heading + its first few lines together */
+  h2 + p, h2 + dl, h3 + p, h3 + ul, p + dl, dl + ul { break-before: avoid-page; }
+
+  /* Explicit page break before the Jupiter role (start of page 2) */
+  .page-break-before,
+  h2#experience ~ p strong:is(:contains("Jupiter")) {
+    break-before: page;
   }
-  
-  #vue-smart-pages-preview h1 {
-    font-size: 2.5em;
-    letter-spacing: 0.1em;
-    text-align: center;
-    margin-bottom: 0.25em;
-  }
-  
-  #vue-smart-pages-preview h2,
-  #vue-smart-pages-preview h3 {
-    margin-bottom: 0.25em;
-    margin-top: 1.0em;
-    font-size: 1.2em;
-  }
-  
-  #vue-smart-pages-preview h1,
-  #vue-smart-pages-preview h2 {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: darkgrey;
-  }
-  
-  /* Lists */
-  
-  #vue-smart-pages-preview ul,
-  #vue-smart-pages-preview ol {
-    padding-left: 1.5em;
-    margin: 0.2em 0 1.0em 0;
-  }
-  
-  #vue-smart-pages-preview ul {
-    list-style-type: disc;
-  }
-  
-  #vue-smart-pages-preview ol {
-    list-style-type: decimal;
-  }
-  
-  /* Definition Lists */
-  
-  #vue-smart-pages-preview dl {
-    display: flex;
-  }
-  
-  #vue-smart-pages-preview dl dt,
-  #vue-smart-pages-preview dl dd:not(:last-child) {
-    flex: 1;
-  }
-  
-  /* Tex */
-  
-  #vue-smart-pages-preview :not(span.katex-display) > span.katex {
-    font-size: 1em !important;
-  }
-  
-  /* SVG & Images */
-  
-  #vue-smart-pages-preview svg.iconify {
-    vertical-align: -0.2em;
-  }
-  
-  #vue-smart-pages-preview img {
-    max-width: 100%;
-  }
-  
-  /* Header */
-  
-  #vue-smart-pages-preview .resume-header {
-    text-align: center;
-  }
-  
-  #vue-smart-pages-preview .resume-header h1 {
-    text-align: center;
-    line-height: 1;
-    margin-bottom: 8px;
-  }
-  
-  #vue-smart-pages-preview .resume-header-item:not(.no-separator)::after {
-    content: " | ";
-  }
-  
-  /* Citations */
-  
-  #vue-smart-pages-preview ul.crossref-list {
-    padding-left: 1.2em;
-  }
-  
-  #vue-smart-pages-preview li.crossref-item p {
-    margin-left: 0.5em;
-  }
-  
-  #vue-smart-pages-preview li.crossref-item::marker {
-    content: attr(data-caption);
-  }
-  
-  #vue-smart-pages-preview sup.crossref-ref {
-    font-size: 100%;
-    top: 0;
-  }
-  
-  /* Dark & print mode */
-  
-  .dark #vue-smart-pages-preview {
-    background-color: #334155;
-    color: #e5e7eb;
-  }
-  
-  @media print {
-    #vue-smart-pages-preview {
-      background-color: white !important;
-      color: black !important;
-    }
-  
-    .dark #vue-smart-pages-preview a {
-      color: black !important;
-    }
-  }
-  
+}
+
+/* Utility class the markdown uses to force a page break */
+.page-break { break-after: page; page-break-after: always; height: 0; }
+
+/* ---------- Small polish ---------- */
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 8px 0;
+}
+
+/* Prevent over-long URLs from blowing layout */
+a, code { word-break: break-word; overflow-wrap: anywhere; }
