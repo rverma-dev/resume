@@ -47,7 +47,7 @@ h1 {
   font-weight: 700;
   letter-spacing: .02em;
   text-align: center;
-  margin: 0 0 4px 0;
+  margin: 0 0 1px 0;
   color: var(--ink);
 }
 
@@ -97,18 +97,22 @@ em {
 
 .contact {
   text-align: center;
-  margin: 0 0 8px 0;
+  margin: 0 0 5px 0;
   color: var(--muted);
   font-size: 9.2pt;
   line-height: 1.25;
 }
 
+.profile {
+  margin: 0 0 6px 0;
+}
+
 .intro {
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .expertise {
-  margin-bottom: 7px;
+  margin-bottom: 0;
   color: var(--muted);
   font-size: 9.2pt;
 }
@@ -203,7 +207,7 @@ ul ul {
 
   h1 {
     font-size: 18pt;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
   }
 
   h2 {
@@ -223,7 +227,19 @@ ul ul {
 
   .contact {
     font-size: 8.2pt;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
+  }
+
+  .profile {
+    margin-bottom: 4px;
+  }
+
+  .intro {
+    margin-bottom: 0;
+  }
+
+  .expertise {
+    margin-bottom: 0;
   }
 
   .role {

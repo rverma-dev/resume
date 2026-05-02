@@ -9,9 +9,10 @@ title: Rohit Verma — Resume
   Bengaluru, India | <a href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a> | <a href="tel:+919988844215">+91 99888 44215</a> | <a href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a> | <a href="https://github.com/rverma-dev">github.com/rverma-dev</a>
 </div>
 
-<p class="intro">Principal engineer with 15 years building multi-tenant control planes, observability platforms, payment infrastructure, and governed AI agent systems. Owns 0-to-1 architecture from RFCs through production operations, with outcomes including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized platform cost reduction</strong>, and SaaS platforms running at enterprise scale.</p>
-
-<p class="expertise">Multi-tenant control planes · observability & telemetry (OpenTelemetry, Prometheus, Elastic) · AI agent systems & decision intelligence · distributed systems (Kafka, ClickHouse, Flink, OpenSearch, Druid) · cloud & Kubernetes platforms (AWS, EKS, FinOps) · security & compliance (SOC 2, PCI-DSS, ISO 27001, NPCI) · platform governance, reliability & cost optimization · engineering leadership and cross-org influence.</p>
+<div class="profile">
+  <p class="intro">Principal engineer with 15 years building multi-tenant control planes, observability platforms, payment infrastructure, and governed AI agent systems. Owns 0-to-1 architecture from RFCs through production operations, with outcomes including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized platform cost reduction</strong>, and SaaS platforms running at enterprise scale.</p>
+  <p class="expertise">Multi-tenant control planes · observability & telemetry (OpenTelemetry, Prometheus, Elastic) · AI agent systems & decision intelligence · distributed systems (Kafka, ClickHouse, Flink, OpenSearch, Druid) · cloud & Kubernetes platforms (AWS, EKS, FinOps) · security & compliance (SOC 2, PCI-DSS, ISO 27001, NPCI) · platform governance, reliability & cost optimization · engineering leadership and cross-org influence.</p>
+</div>
 
 ## Experience
 
@@ -36,14 +37,13 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 - Simplified architecture: replaced Logstash with Druid-native ingestion; consolidated `visualizer-janitor` into `visualizer-topology-processor` via k8s leader election.
 
 <div class="role">
-  <strong>Governed Multi-Agent Systems — Side Work</strong>
-  <span>Own time, open source | 2024 – Present</span>
+  <strong>AI Platform & Agent Systems (Strategic Initiative)</strong>
 </div>
-
-- Built a **four-plane multi-agent decision system** (Knowledge / Decision Graph / Tiered Memory / Governance) on Claude Code hooks — the control-plane layer most agent projects never ship.
+- Designed and built a governed multi-agent decision system to augment product and engineering decision-making using real-time customer and internal signals
+- Architected a **four-plane multi-agent decision system** (Knowledge / Decision Graph / Tiered Memory / Governance) — the control-plane layer most agent projects never ship.
 - **11 typed agents with A2A AgentCards**, SQLite run ledger, path-tiered write authority, LLM compliance gate via PreToolUse hook, repair-detection loop, and daily outcomes-review cron.
 - Tiered agent memory (episodic / semantic / heuristics / assumptions with expiry / rejected) aligned to cognitive-architecture patterns rather than a flat store.
-- Recognized internally (**top-20 across MuleSoft**) for AI leverage — measured on token-to-value, not consumption.
+- Established governance-first architecture (policy thresholds, risk gating, decision validation) enabling safe scaling of agent systems
 
 <div class="role">
   <strong>Independent Consultant</strong>
@@ -74,8 +74,6 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 - Full on-prem distribution on Nutanix, ScyllaDB, Kafka, TiDB, and ClickHouse; entity data pipeline on ClickHouse, Redis, Kafka Connect, Glue, and S3.
 - Led a **30-person DevOps + SRE organization** across CI/CD (Flux), observability (GLTM), IaC, cost, incident response (Opsgenie + PagerDuty), security.
 - Global search on vector embeddings + Elasticsearch (semantic, faceted, typeahead, fuzzy).
-
-<div class="page-break" style="break-after: page; page-break-after: always;"></div>
 
 <div class="role">
   <strong>Principal Architect, Jupiter Money</strong>
