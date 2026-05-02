@@ -1,4 +1,4 @@
-/* Resume — print-first, single-column, ATS-safe
+/* Resume - print-first, single-column, ATS-safe
    Design goals:
    1. Parses cleanly in ATS (single logical column, no CSS columns on experience).
    2. Reads well on screen.
@@ -9,175 +9,265 @@
 /* ---------- Base (screen) ---------- */
 
 :root {
-  --ink:   #111;
+  --ink: #111;
   --muted: #555;
-  --rule:  #cfcfcf;
-  --accent:#0b4f8a;
-  --max:   780px;     /* tuned so print and screen match */
+  --rule: #cfcfcf;
+  --accent: #0b4f8a;
+  --max: 920px;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   background: #f4f4f4;
   color: var(--ink);
   font-family: -apple-system, "Helvetica Neue", Arial, "Segoe UI", sans-serif;
-  font-size: 10.5pt;
-  line-height: 1.38;
+  font-size: 10pt;
+  line-height: 1.28;
   -webkit-font-smoothing: antialiased;
 }
 
 .resume {
   max-width: var(--max);
   margin: 24px auto;
-  padding: 32px 40px;
+  padding: 28px 36px;
   background: #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .08);
 }
 
 /* ---------- Typography ---------- */
 
 h1 {
-  font-size: 22pt;
+  font-size: 20pt;
   font-weight: 700;
   letter-spacing: .02em;
   text-align: center;
-  margin: 0 0 2px 0;
+  margin: 0 0 4px 0;
   color: var(--ink);
 }
 
 /* Section headings */
 h2 {
-  font-size: 11.5pt;
+  font-size: 10.8pt;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .08em;
-  margin: 14px 0 6px 0;
+  margin: 10px 0 4px 0;
   padding-bottom: 2px;
   border-bottom: 1px solid var(--rule);
   color: var(--ink);
 }
 
 h3 {
-  font-size: 10.5pt;
+  font-size: 10pt;
   font-weight: 700;
   margin: 8px 0 2px 0;
   color: var(--ink);
 }
 
-p, li { margin: 0 0 3px 0; }
-
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-
-strong { color: var(--ink); }
-em { color: var(--muted); font-style: italic; }
-
-/* ---------- Contact lines (the kramdown definition-list rows) ---------- */
-
-dl {
+p,
+li {
   margin: 0 0 2px 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 14px;
-  font-size: 10pt;
-  color: var(--muted);
 }
 
-dl dt, dl dd { margin: 0; padding: 0; }
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
 
-/* First dl = contact row; center it */
-.resume > dl:first-of-type,
-.resume > dl:nth-of-type(2) {
-  justify-content: center;
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  color: var(--ink);
+}
+
+em {
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ---------- Compact rows ---------- */
+
+.contact {
   text-align: center;
-}
-
-/* Role-header dls (inside Experience) are left-aligned, denser */
-h2 ~ dl {
-  justify-content: flex-start;
-  margin-top: 2px;
+  margin: 0 0 8px 0;
   color: var(--muted);
-  font-size: 10pt;
+  font-size: 9.2pt;
+  line-height: 1.25;
 }
 
-/* Dividers between dl items */
-dl dt + dd::before,
-dl dd + dd::before {
-  content: "·";
-  margin-right: 10px;
-  color: var(--rule);
+.intro {
+  margin-bottom: 3px;
+}
+
+.expertise {
+  margin-bottom: 7px;
+  color: var(--muted);
+  font-size: 9.2pt;
+}
+
+.role {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 14px;
+  margin: 6px 0 1px 0;
+  break-inside: avoid;
+}
+
+.role strong {
+  font-size: 9.8pt;
+  line-height: 1.2;
+}
+
+.role span {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 9pt;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.education {
+  margin-bottom: 0;
+}
+
+.project {
+  margin: 4px 0 1px 0;
+  color: var(--ink);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.project em {
+  color: inherit;
+}
+
+.skills {
+  display: grid;
+  gap: 2px;
+}
+
+.skills div {
+  margin: 0;
 }
 
 /* ---------- Lists ---------- */
 
 ul {
-  margin: 3px 0 6px 0;
-  padding-left: 18px;
+  margin: 2px 0 4px 0;
+  padding-left: 16px;
 }
 
 ul li {
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 ul ul {
   margin: 2px 0 2px 0;
 }
 
-/* ---------- Role block layout ---------- */
-
-/* Role title paragraph (strong wrapped in p) is tight to the next dl */
-.resume p strong:first-child { }
-
-/* Italic sub-headers inside a role (e.g., *Anypoint Monitoring Alerts:*) */
-.resume p em:only-child {
-  display: block;
-  margin-top: 6px;
-  margin-bottom: 1px;
-  color: var(--ink);
-  font-weight: 600;
-  font-style: normal;
-}
-
 /* ---------- Page-break control (print + PDF export) ---------- */
 
 @page {
   size: A4;
-  margin: 14mm 14mm;
+  margin: 10mm 11mm;
 }
 
 @media print {
-  html, body { background: #fff; }
+
+  html,
+  body {
+    background: #fff;
+  }
 
   .resume {
     box-shadow: none;
     margin: 0;
     padding: 0;
     max-width: none;
-    font-size: 10pt;
+    font-size: 8.9pt;
+    line-height: 1.22;
   }
 
-  a { color: var(--ink); }
+  a {
+    color: var(--ink);
+  }
 
-  /* Don't split a role block across pages */
-  h2, h3, p strong { break-after: avoid-page; }
-  p, ul, dl { break-inside: avoid-page; }
+  h1 {
+    font-size: 18pt;
+    margin-bottom: 3px;
+  }
 
-  /* Keep heading + its first few lines together */
-  h2 + p, h2 + dl, h3 + p, h3 + ul, p + dl, dl + ul { break-before: avoid-page; }
+  h2 {
+    font-size: 9.8pt;
+    margin: 7px 0 3px 0;
+  }
 
-  /* Explicit page break before the Jupiter role (start of page 2) */
-  .page-break-before,
-  h2#experience ~ p strong:is(:contains("Jupiter")) {
-    break-before: page;
+  p,
+  li {
+    margin-bottom: 1px;
+  }
+
+  ul {
+    margin: 1px 0 3px 0;
+    padding-left: 14px;
+  }
+
+  .contact {
+    font-size: 8.2pt;
+    margin-bottom: 6px;
+  }
+
+  .role {
+    margin: 4px 0 1px 0;
+    gap: 10px;
+  }
+
+  .role strong {
+    font-size: 8.9pt;
+  }
+
+  .role span {
+    font-size: 8.1pt;
+  }
+
+  .project {
+    margin: 3px 0 0 0;
+  }
+
+  .skills {
+    gap: 1px;
+  }
+
+  /* Keep headings and role headers attached to the content that follows. */
+  h2,
+  .role,
+  .project {
+    break-after: avoid-page;
+  }
+
+  p,
+  ul,
+  .role,
+  .skills {
+    break-inside: avoid-page;
   }
 }
 
 /* Utility class the markdown uses to force a page break */
-.page-break { break-after: page; page-break-after: always; height: 0; }
+.page-break {
+  break-after: page;
+  page-break-after: always;
+  height: 0;
+}
 
 /* ---------- Small polish ---------- */
 
@@ -188,4 +278,8 @@ hr {
 }
 
 /* Prevent over-long URLs from blowing layout */
-a, code { word-break: break-word; overflow-wrap: anywhere; }
+a,
+code {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
