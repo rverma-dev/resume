@@ -122,10 +122,9 @@ em {
   margin-bottom: 1px;
 }
 
-.expertise {
+.proof {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 9.2pt;
 }
 
 .role {
@@ -268,7 +267,7 @@ ul ul {
     margin-bottom: 0;
   }
 
-  .expertise {
+  .proof {
     margin-bottom: 0;
   }
 

@@ -9,8 +9,8 @@ title: Rohit Verma — Resume
 </header>
 
 <div class="profile">
-  <p class="intro">Principal engineer with 15 years building multi-tenant control planes, observability platforms, payment infrastructure, and governed AI agent systems. Owns 0-to-1 architecture from RFCs through production operations, with outcomes including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized platform cost reduction</strong>, and SaaS platforms running at enterprise scale.</p>
-  <p class="expertise">Multi-tenant control planes · observability & telemetry (OpenTelemetry, Prometheus, Elastic) · AI agent systems & decision intelligence · distributed systems (Kafka, ClickHouse, Flink, OpenSearch, Druid) · cloud & Kubernetes platforms (AWS, EKS, FinOps) · security & compliance (SOC 2, PCI-DSS, ISO 27001, NPCI) · platform governance, reliability & cost optimization · engineering leadership and cross-org influence.</p>
+  <p class="intro">Principal engineer specializing in multi-tenant control planes, observability platforms, and governed AI systems.</p>
+  <p class="proof">Built and operated 0→1 systems at scale including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized cost reduction</strong> in observability platforms, and enterprise-grade SaaS systems on Salesforce Hyperforce.</p>
 </div>
 
 ## Experience
@@ -26,7 +26,8 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 
 - Migrated **3M alerts** off legacy InfluxDB onto Amazon Managed Prometheus in phased rollout; delivered **~80% cost-to-serve reduction (~$6M annualized)** with zero customer-visible SLO regression.
 - Multi-tenant alert evaluation platform handling **50K–100K concurrent evaluations** at **P99 < 1s** across ≥2 regions with blue-green deploys.
-- Scaled to **60+ AMP workspaces** and **45K alerts per workspace** with tenant sharding, outbox rule sync, reorder buffering, SQS FIFO sync, leader-election scheduling, VegaCache, and 9-tier SKU quotas.
+- Scaled to **60+ AMP workspaces** and **45K alerts per workspace** across enterprise tenants.
+- Designed core platform primitives: tenant sharding, rule sync, buffering, and distributed scheduling.
 - Authored a 15-RFC series now shaping observability architecture across adjacent teams.
 
 <p class="project"><em>Anypoint Visualizer — Hyperforce re-platform + Druid-native topology</em></p>
@@ -36,7 +37,8 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 - Simplified architecture: replaced Logstash with Druid-native ingestion; consolidated `visualizer-janitor` into `visualizer-topology-processor` via k8s leader election.
 
 <p class="project"><em>AI Platform & Agent Systems (Strategic Initiative)</em></p>
-- Designed and built a governed multi-agent decision system to augment product and engineering decision-making using real-time customer and internal signals
+- Built a system to improve product and engineering decision velocity by integrating real-time customer and operational signals.
+- Designed and built a governed multi-agent decision system that turns signals into structured recommendations, validation gates, and auditable decision records.
 - Architected a **four-plane multi-agent decision system** (Knowledge / Decision Graph / Tiered Memory / Governance) — the control-plane layer most agent projects never ship.
 - **11 typed agents with A2A AgentCards**, SQLite run ledger, path-tiered write authority, LLM compliance gate via PreToolUse hook, repair-detection loop, and daily outcomes-review cron.
 - Tiered agent memory (episodic / semantic / heuristics / assumptions with expiry / rejected) aligned to cognitive-architecture patterns rather than a flat store.
@@ -65,7 +67,7 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 </div>
 
 - Architected and delivered the full enterprise SaaS platform — control plane, tenancy, metering, telemetry, billing, on-prem distribution — a MuleSoft-class integration platform for enterprise customers.
-- Built the entire internal infrastructure and security platform — AWS + EKS + GitHub Actions + Spinnaker + Argo Rollouts, Wazuh-based SIEM, continuous-compliance automation; passed all target compliance audits.
+- Built the entire infrastructure, platform, and security stack with a 2-engineer team (self + 1), achieving enterprise-scale deployment and compliance readiness.
 - NSL SaaS Accelerator with just-in-time IaC, reused across Entity Store, Tag Manager, Event Manager, and Schedulers.
 - Sidecar event-billing at **10M events/min** with per-tenant rate limiting; workflow engine tuned to **10M TPS** across Kafka, DynamoDB, TiDB, and Redis.
 - Full on-prem distribution on Nutanix, ScyllaDB, Kafka, TiDB, and ClickHouse; entity data pipeline on ClickHouse, Redis, Kafka Connect, Glue, and S3.
