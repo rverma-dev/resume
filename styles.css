@@ -96,7 +96,17 @@ em {
 /* ---------- Compact rows ---------- */
 
 .masthead {
-  margin: 0 0 5px 0;
+  display: grid;
+  grid-template-columns: minmax(150px, 1.1fr) minmax(180px, 1fr) minmax(230px, 1.35fr);
+  grid-template-rows: auto auto;
+  align-items: center;
+  column-gap: 18px;
+  row-gap: 1px;
+  margin: 0 0 6px 0;
+}
+
+.identity {
+  grid-row: 1 / span 2;
 }
 
 .name {
@@ -107,11 +117,20 @@ em {
   text-align: left;
 }
 
-.contact {
+.location,
+.contact-item {
   margin: 0;
   color: var(--muted);
   font-size: 9.2pt;
   line-height: 1.25;
+}
+
+.location {
+  display: block;
+}
+
+.contact-item {
+  white-space: nowrap;
 }
 
 .profile {
@@ -248,6 +267,8 @@ ul ul {
   }
 
   .masthead {
+    grid-template-columns: minmax(128px, .9fr) minmax(150px, 1fr) minmax(205px, 1.35fr);
+    column-gap: 12px;
     margin-bottom: 3px;
   }
 
@@ -255,7 +276,8 @@ ul ul {
     font-size: 18pt;
   }
 
-  .contact {
+  .location,
+  .contact-item {
     font-size: 8.2pt;
   }
 

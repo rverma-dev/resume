@@ -4,13 +4,19 @@ title: Rohit Verma — Resume
 ---
 
 <header class="masthead">
-  <h1 class="name">Rohit Verma</h1>
-  <p class="contact">Bengaluru, India | <a href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a> | <a href="tel:+919988844215">+91 99888 44215</a> | <a href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a> | <a href="https://github.com/rverma-dev">github.com/rverma-dev</a></p>
+  <div class="identity">
+    <h1 class="name">Rohit Verma</h1>
+    <span class="location">Bengaluru, India</span>
+  </div>
+  <a class="contact-item" href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a>
+  <a class="contact-item" href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a>
+  <a class="contact-item" href="tel:+919988844215">+91 99888 44215</a>
+  <a class="contact-item" href="https://github.com/rverma-dev">github.com/rverma-dev</a>
 </header>
 
 <div class="profile">
-  <p class="intro">Principal engineer specializing in multi-tenant control planes, observability platforms, and governed AI systems.</p>
-  <p class="proof">Built and operated 0→1 systems at scale including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized cost reduction</strong> in observability platforms, and enterprise-grade SaaS systems on Salesforce Hyperforce.</p>
+  <p class="intro">Principal engineer specializing in multi-tenant control planes, observability platforms, and governed AI systems.
+  Built and operated 0→1 systems at scale including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized cost reduction</strong> in observability platforms, and enterprise-grade SaaS systems on Salesforce Hyperforce.</p>
 </div>
 
 ## Experience
