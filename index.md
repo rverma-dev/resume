@@ -36,9 +36,7 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 - **< 5-minute topology freshness SLO** via watermark-based incremental graph construction over Druid.
 - Simplified architecture: replaced Logstash with Druid-native ingestion; consolidated `visualizer-janitor` into `visualizer-topology-processor` via k8s leader election.
 
-<div class="role">
-  <strong>AI Platform & Agent Systems (Strategic Initiative)</strong>
-</div>
+<p class="project"><em>AI Platform & Agent Systems (Strategic Initiative)</em></p>
 - Designed and built a governed multi-agent decision system to augment product and engineering decision-making using real-time customer and internal signals
 - Architected a **four-plane multi-agent decision system** (Knowledge / Decision Graph / Tiered Memory / Governance) — the control-plane layer most agent projects never ship.
 - **11 typed agents with A2A AgentCards**, SQLite run ledger, path-tiered write authority, LLM compliance gate via PreToolUse hook, repair-detection loop, and daily outcomes-review cron.
