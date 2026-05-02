@@ -3,7 +3,10 @@ layout: default
 title: Rohit Verma — Resume
 ---
 
-<p class="masthead"><strong class="name">Rohit Verma</strong> <span class="contact">Bengaluru, India | <a href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a> | <a href="tel:+919988844215">+91 99888 44215</a> | <a href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a> | <a href="https://github.com/rverma-dev">github.com/rverma-dev</a></span></p>
+<header class="masthead">
+  <h1 class="name">Rohit Verma</h1>
+  <p class="contact">Bengaluru, India | <a href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a> | <a href="tel:+919988844215">+91 99888 44215</a> | <a href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a> | <a href="https://github.com/rverma-dev">github.com/rverma-dev</a></p>
+</header>
 
 <div class="profile">
   <p class="intro">Principal engineer with 15 years building multi-tenant control planes, observability platforms, payment infrastructure, and governed AI agent systems. Owns 0-to-1 architecture from RFCs through production operations, with outcomes including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized platform cost reduction</strong>, and SaaS platforms running at enterprise scale.</p>
@@ -44,9 +47,9 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
   <span>Bengaluru, India | Mar 2024 – Feb 2025</span>
 </div>
 
-- **Brandshark:** low-latency GenAI video pipeline — chapterization, semantic search, content repurposing.
-- **DRDO Radar Unit:** flight-simulation system with synthetic data generation and MIL/video data integration.
-- **Gaian Solutions:** platform redesign — scaled **20K → 100K QPS**; rebuilt RBAC/ABAC reducing permission checks from **25 s → < 5 ms** at 100K QPS; introduced tenant-context sidecar architecture and cloud FinOps practices.
+- Brandshark: low-latency GenAI video pipeline — chapterization, semantic search, content repurposing.
+- DRDO Radar Unit: flight-simulation system with synthetic data generation and MIL/video data integration.
+- Gaian Solutions: platform redesign — scaled **20K → 100K QPS**; rebuilt RBAC/ABAC reducing permission checks from **25 s → < 5 ms** at 100K QPS; introduced tenant-context sidecar architecture and cloud FinOps practices.
 
 <div class="role">
   <strong>Senior Software Engineer, Atlassian</strong>
@@ -61,12 +64,12 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
   <span>Bengaluru, India | Jan 2021 – Jul 2023</span>
 </div>
 
-- Architected and delivered the full enterprise SaaS platform — control plane, tenancy, metering, telemetry, billing, on-prem distribution — a **MuleSoft-class integration platform** for enterprise customers.
-- **Built the entire internal infrastructure and security platform** — AWS + EKS + GitHub Actions + Spinnaker + Argo Rollouts, Wazuh-based SIEM, continuous-compliance automation; passed all target compliance audits.
-- NSL SaaS Accelerator with **just-in-time IaC**, reused across Entity Store, Tag Manager, Event Manager, and Schedulers.
+- Architected and delivered the full enterprise SaaS platform — control plane, tenancy, metering, telemetry, billing, on-prem distribution — a MuleSoft-class integration platform for enterprise customers.
+- Built the entire internal infrastructure and security platform — AWS + EKS + GitHub Actions + Spinnaker + Argo Rollouts, Wazuh-based SIEM, continuous-compliance automation; passed all target compliance audits.
+- NSL SaaS Accelerator with just-in-time IaC, reused across Entity Store, Tag Manager, Event Manager, and Schedulers.
 - Sidecar event-billing at **10M events/min** with per-tenant rate limiting; workflow engine tuned to **10M TPS** across Kafka, DynamoDB, TiDB, and Redis.
 - Full on-prem distribution on Nutanix, ScyllaDB, Kafka, TiDB, and ClickHouse; entity data pipeline on ClickHouse, Redis, Kafka Connect, Glue, and S3.
-- Led a **30-person DevOps + SRE organization** across CI/CD (Flux), observability (GLTM), IaC, cost, incident response (Opsgenie + PagerDuty), security.
+- Led a 30-person DevOps + SRE organization across CI/CD (Flux), observability (GLTM), IaC, cost, incident response (Opsgenie + PagerDuty), security.
 - Global search on vector embeddings + Elasticsearch (semantic, faceted, typeahead, fuzzy).
 
 <div class="role">
@@ -74,7 +77,7 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
   <span>Bengaluru, India | Nov 2019 – Jan 2021</span>
 </div>
 
-- **Single technical owner** for ISO 27001, SOC 2, PCI-DSS, NPCI, UPI SAR compliance and partner-bank audits — all passed.
+- Single technical owner for ISO 27001, SOC 2, PCI-DSS, NPCI, UPI SAR compliance and partner-bank audits — all passed.
 - Hub-and-spoke architecture with partner banks securing all card + UPI transactions at **$240M/month**.
 - In-house **SIEM processing 200 GB/hour** on OpenSearch with anomaly detection on banking logs.
 - Multi-tenant cloud-data platform on AWS + EMR + Airflow + Flink + Kubernetes.
@@ -83,8 +86,7 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
   <strong>Principal Architect, Niki.ai</strong>
   <span>Bengaluru, India | Dec 2017 – Nov 2019</span>
 </div>
-
-- Led **3 EMs + 40 engineers**; Payment SDK handling **1.2M transactions/day** for B2B partners.
+- Led 3 EMs + 40 engineers; Payment SDK handling **1.2M transactions/day** for B2B partners.
 - Dynamo-streams-based order fulfillment on CQRS + event sourcing.
 - Replaced manual promotion engine with self-serve Kie rules engine; PCI-DSS multi-account cloud infrastructure.
 
@@ -109,8 +111,8 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
   <span>May 2011 – Mar 2015</span>
 </div>
 
-- **Sr. Software Engineer, QA Source (Bebo Technologies):** refactored e-commerce platform for multi-tenancy; SOA + ES analytics.
-- **Software Engineer, Mphasis (HP):** core-banking APIs, SWIFT-over-JMS/MQTT bridge, SOAP services for Symantec Norton Store.
+- Sr. Software Engineer, QA Source (Bebo Technologies): refactored e-commerce platform for multi-tenancy; SOA + ES analytics.
+- Software Engineer, Mphasis (HP): core-banking APIs, SWIFT-over-JMS/MQTT bridge, SOAP services for Symantec Norton Store.
 
 ## Education
 
