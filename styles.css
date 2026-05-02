@@ -97,8 +97,10 @@ em {
 
 .masthead {
   display: grid;
-  grid-template-columns: minmax(150px, 1.1fr) minmax(180px, 1fr) minmax(230px, 1.35fr);
-  grid-template-rows: auto auto;
+  grid-template-columns: minmax(150px, .9fr) minmax(155px, .8fr) minmax(230px, 1.35fr);
+  grid-template-areas:
+    "identity email linkedin"
+    "identity phone github";
   align-items: center;
   column-gap: 18px;
   row-gap: 1px;
@@ -106,7 +108,7 @@ em {
 }
 
 .identity {
-  grid-row: 1 / span 2;
+  grid-area: identity;
 }
 
 .name {
@@ -131,6 +133,22 @@ em {
 
 .contact-item {
   white-space: nowrap;
+}
+
+.email {
+  grid-area: email;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.linkedin {
+  grid-area: linkedin;
+}
+
+.github {
+  grid-area: github;
 }
 
 .profile {
@@ -267,7 +285,7 @@ ul ul {
   }
 
   .masthead {
-    grid-template-columns: minmax(128px, .9fr) minmax(150px, 1fr) minmax(205px, 1.35fr);
+    grid-template-columns: minmax(120px, .8fr) minmax(130px, .75fr) minmax(195px, 1.35fr);
     column-gap: 12px;
     margin-bottom: 3px;
   }
