@@ -112,11 +112,6 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 - **Sr. Software Engineer, QA Source (Bebo Technologies):** refactored e-commerce platform for multi-tenancy; SOA + ES analytics.
 - **Software Engineer, Mphasis (HP):** core-banking APIs, SWIFT-over-JMS/MQTT bridge, SOAP services for Symantec Norton Store.
 
-## Writing & Open Source
-
-- **GitHub:** [github.com/rverma-dev](https://github.com/rverma-dev)
-- **Technical writing:** multi-agent systems, observability, platform architecture *(articles in progress)*
-
 ## Education
 
 <div class="role education">
@@ -133,4 +128,5 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
   <div><strong>Observability & SRE:</strong> OpenTelemetry, Grafana, Prometheus, K6, OpenSearch, custom SIEM, blue-green and canary rollouts.</div>
   <div><strong>Security & Compliance:</strong> zero trust, PCI-DSS, SOC 2, ISO 27001, NPCI / UPI SAR, Keycloak, IAM design.</div>
   <div><strong>Languages:</strong> Go, Python, TypeScript, Java.</div>
+  <div><strong>Articles:</strong> multi-agent systems, observability, platform architecture.</div>
 </div>
