@@ -95,9 +95,22 @@ em {
 
 /* ---------- Compact rows ---------- */
 
-.contact {
-  text-align: center;
+.masthead {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
   margin: 0 0 5px 0;
+}
+
+.name {
+  flex: 0 0 auto;
+  font-size: 20pt;
+  line-height: 1;
+  letter-spacing: .01em;
+}
+
+.contact {
+  flex: 1 1 auto;
   color: var(--muted);
   font-size: 9.2pt;
   line-height: 1.25;
@@ -122,7 +135,7 @@ em {
   justify-content: space-between;
   align-items: baseline;
   gap: 14px;
-  margin: 6px 0 1px 0;
+  margin: 6px 0 0 0;
   break-inside: avoid;
 }
 
@@ -144,7 +157,7 @@ em {
 }
 
 .project {
-  margin: 4px 0 1px 0;
+  margin: 3px 0 0 0;
   color: var(--ink);
   font-weight: 600;
   font-style: italic;
@@ -166,8 +179,14 @@ em {
 /* ---------- Lists ---------- */
 
 ul {
-  margin: 2px 0 4px 0;
+  margin: 1px 0 4px 0;
   padding-left: 16px;
+}
+
+.role+p,
+.role+ul,
+.project+ul {
+  margin-top: 0;
 }
 
 ul li {
@@ -221,13 +240,21 @@ ul ul {
   }
 
   ul {
-    margin: 1px 0 3px 0;
+    margin: 0 0 3px 0;
     padding-left: 14px;
+  }
+
+  .masthead {
+    margin-bottom: 3px;
+    gap: 10px;
+  }
+
+  .name {
+    font-size: 18pt;
   }
 
   .contact {
     font-size: 8.2pt;
-    margin-bottom: 4px;
   }
 
   .profile {
@@ -243,7 +270,7 @@ ul ul {
   }
 
   .role {
-    margin: 4px 0 1px 0;
+    margin: 4px 0 0 0;
     gap: 10px;
   }
 
@@ -256,7 +283,7 @@ ul ul {
   }
 
   .project {
-    margin: 3px 0 0 0;
+    margin: 2px 0 0 0;
   }
 
   .skills {

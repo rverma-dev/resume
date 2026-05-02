@@ -3,11 +3,7 @@ layout: default
 title: Rohit Verma — Resume
 ---
 
-# Rohit Verma
-
-<div class="contact">
-  Bengaluru, India | <a href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a> | <a href="tel:+919988844215">+91 99888 44215</a> | <a href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a> | <a href="https://github.com/rverma-dev">github.com/rverma-dev</a>
-</div>
+<p class="masthead"><strong class="name">Rohit Verma</strong> <span class="contact">Bengaluru, India | <a href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a> | <a href="tel:+919988844215">+91 99888 44215</a> | <a href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a> | <a href="https://github.com/rverma-dev">github.com/rverma-dev</a></span></p>
 
 <div class="profile">
   <p class="intro">Principal engineer with 15 years building multi-tenant control planes, observability platforms, payment infrastructure, and governed AI agent systems. Owns 0-to-1 architecture from RFCs through production operations, with outcomes including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized platform cost reduction</strong>, and SaaS platforms running at enterprise scale.</p>
