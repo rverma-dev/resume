@@ -14,6 +14,7 @@
   --rule: #cfcfcf;
   --accent: #0b4f8a;
   --max: 920px;
+  --print-scale: .74;
 }
 
 * {
@@ -241,7 +242,7 @@ ul ul {
 
 @page {
   size: A4;
-  margin: 10mm 11mm;
+  margin: .2in .2in .2in .2in;
 }
 
 @media print {
@@ -256,6 +257,8 @@ ul ul {
     margin: 0;
     padding: 0;
     max-width: none;
+    width: 10.66in;
+    zoom: var(--print-scale);
     font-size: 8.9pt;
     line-height: 1.22;
   }
