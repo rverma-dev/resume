@@ -22,7 +22,7 @@ title: Rohit Verma — Resume
 ## Experience
 
 <div class="role">
-  <strong>Principal Engineer(MTS), MuleSoft (Salesforce)</strong>
+  <strong>Principal Engineer(PMTS), MuleSoft (Salesforce)</strong>
   <span>Bengaluru, India; remote US org | Feb 2025 – Present</span>
 </div>
 
