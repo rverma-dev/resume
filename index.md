@@ -3,15 +3,15 @@ layout: default
 title: Rohit Verma — Resume
 ---
 
-<header class="masthead">
-  <div class="identity">
-    <h1 class="name">Rohit Verma</h1>
-    <span class="location">Bengaluru, India</span>
+<header class="masthead" style="display: grid; grid-template-columns: 220px 180px 1fr; grid-template-areas: 'identity email linkedin' 'identity phone github'; align-items: center; column-gap: 18px; row-gap: 1px; margin: 0 0 6px 0; font-family: -apple-system, Helvetica, Arial, sans-serif;">
+  <div class="identity" style="grid-area: identity;">
+    <h1 class="name" style="margin: 0; font-size: 20pt; line-height: 1; letter-spacing: .01em;">Rohit Verma</h1>
+    <span class="location" style="display: block; color: #555; font-size: 9.2pt; line-height: 1.25;">Bengaluru, India</span>
   </div>
-  <a class="contact-item email" href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a>
-  <a class="contact-item phone" href="tel:+919988844215">+91 99888 44215</a>
-  <a class="contact-item linkedin" href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a>
-  <a class="contact-item github" href="https://github.com/rverma-dev">github.com/rverma-dev</a>
+  <a class="contact-item email" style="grid-area: email; color: #0b4f8a; font-size: 9.2pt; line-height: 1.25; white-space: nowrap; text-decoration: none;" href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a>
+  <a class="contact-item phone" style="grid-area: phone; color: #0b4f8a; font-size: 9.2pt; line-height: 1.25; white-space: nowrap; text-decoration: none;" href="tel:+919988844215">+91 99888 44215</a>
+  <a class="contact-item linkedin" style="grid-area: linkedin; color: #0b4f8a; font-size: 9.2pt; line-height: 1.25; white-space: nowrap; text-decoration: none;" href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a>
+  <a class="contact-item github" style="grid-area: github; color: #0b4f8a; font-size: 9.2pt; line-height: 1.25; white-space: nowrap; text-decoration: none;" href="https://github.com/rverma-dev">github.com/rverma-dev</a>
 </header>
 
 <div class="profile">
