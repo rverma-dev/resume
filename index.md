@@ -15,26 +15,26 @@ title: Rohit Verma — Resume
 </header>
 
 <div class="profile">
-  <p class="intro">Principal engineer specializing in multi-tenant control planes, observability platforms, and governed AI systems.
+  <p class="intro">Principal engineer specializing in multi-tenant observability platforms, local-first AI engineering systems, and governed agentic products.
   Built and operated 0→1 systems at scale including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized cost reduction</strong> in observability platforms, and enterprise-grade SaaS systems on Salesforce Hyperforce.</p>
 </div>
 
 ## Experience
 
 <div class="role">
-  <strong>Principal Engineer(PMTS), MuleSoft (Salesforce)</strong>
+  <strong>Principal Engineer (PMTS), MuleSoft (Salesforce)</strong>
   <span>Bengaluru, India; remote US org | Feb 2025 – Present</span>
 </div>
 
-Founding engineer (0→1) for multi-tenant observability platforms on Salesforce Hyperforce. Owns architecture, RFCs, and cross-team technical direction.
+Founding engineer (0→1) for multi-tenant observability, agent federation, and agentic developer systems on Salesforce Hyperforce. Owns architecture, RFCs, and cross-team technical direction.
 
-<p class="project"><em>Anypoint Monitoring Alerts — Hyperforce re-platform</em></p>
+<p class="project"><em>Anypoint Monitoring Alerts — Hyperforce re-platform + intelligent alerting</em></p>
 
 - Migrated **3M alerts** off legacy InfluxDB onto Amazon Managed Prometheus in phased rollout; delivered **~80% cost-to-serve reduction (~$6M annualized)** with zero customer-visible SLO regression.
 - Multi-tenant alert evaluation platform handling **50K–100K concurrent evaluations** at **P99 < 1s** across ≥2 regions with blue-green deploys.
 - Scaled to **60+ AMP workspaces** and **45K alerts per workspace** across enterprise tenants.
-- Designed core platform primitives: tenant sharding, rule sync, buffering, and distributed scheduling.
-- Authored a 15-RFC series now shaping observability architecture across adjacent teams.
+- Designed core platform primitives: tenant sharding, rule sync, buffering, distributed scheduling, and APIM alert migration paths.
+- Authored a 15-RFC series shaping observability architecture across adjacent teams; designed PromQL-native anomaly detection with z-score / robust bands, 26h smoothing, persistence gates, and explainable dynamic thresholds.
 
 <p class="project"><em>Anypoint Visualizer — Hyperforce re-platform + Druid-native topology</em></p>
 
@@ -42,13 +42,18 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 - **< 5-minute topology freshness SLO** via watermark-based incremental graph construction over Druid.
 - Simplified architecture: replaced Logstash with Druid-native ingestion; consolidated `visualizer-janitor` into `visualizer-topology-processor` via k8s leader election.
 
-<p class="project"><em>AI Platform & Agent Systems (Strategic Initiative)</em></p>
-- Built a system to improve product and engineering decision velocity by integrating real-time customer and operational signals.
-- Designed and built a governed multi-agent decision system that turns signals into structured recommendations, validation gates, and auditable decision records.
-- Architected a **four-plane multi-agent decision system** (Knowledge / Decision Graph / Tiered Memory / Governance) — the control-plane layer most agent projects never ship.
-- **11 typed agents with A2A AgentCards**, SQLite run ledger, path-tiered write authority, LLM compliance gate via PreToolUse hook, repair-detection loop, and daily outcomes-review cron.
-- Tiered agent memory (episodic / semantic / heuristics / assumptions with expiry / rejected) aligned to cognitive-architecture patterns rather than a flat store.
-- Established governance-first architecture (policy thresholds, risk gating, decision validation) enabling safe scaling of agent systems
+<p class="project"><em>Proactive Diagnostics / MuleSoft Pulse — AM Agent Federation</em></p>
+
+- Authored HLD/ADRs for AM agent federation across existing omni/platform surfaces: MCP-first tool facades, A2A delegation path, xAPI model gateway integration, LangGraph workflow contracts, memory/RAG boundaries, and workload isolation.
+- Designed a governed diagnostic evidence plane that turns alert events into cited AI diagnoses over DIAF, app logs, metrics, traces, and KB/RAG without exposing raw archives, full logs, heap dumps, or tenant content to prompts.
+- Converted passive alerting into a proactive-diagnosis product architecture for **160K alerts/week**, with alert-storm dedup, per-tenant budgets, 5% runtime-overhead cap, source references, degradation flags, and audit/cost controls.
+
+<p class="project"><em>Internal IDE, <a href="https://git.soma.salesforce.com/pages/verma-r/unleash/">Unleash</a></em></p>
+
+- Built an internal IDE for agent-assisted engineering: repo, ticket, PR, terminal, browser, automation, and agent context in one local-first workspace.
+- Architected a **four-plane multi-agent decision system** (Knowledge / Decision Graph / Tiered Memory / Governance) with **11 typed agents**, A2A AgentCards, run ledger, path-tiered write authority, compliance hooks, repair detection, and outcomes review.
+- Built **Unleash**, a local-first AI engineering IDE from a Superset fork: isolated git worktrees, terminal/chat/file/diff/browser/PR/GUS context, autonomous and coordinator workspaces, automations, and structured A2UI reports.
+- Created the Unleash distribution surface with product docs, stable/canary `electron-updater` feeds, DMG release assets, branch-backed GitHub Enterprise Pages publishing, and unauthenticated download verification.
 
 <div class="role">
   <strong>Independent Consultant</strong>
@@ -132,10 +137,10 @@ Founding engineer (0→1) for multi-tenant observability platforms on Salesforce
 ## Skills
 
 <div class="skills">
-  <div><strong>AI & Agent Systems:</strong> multi-agent orchestration, Claude Code hooks, A2A contracts, governance substrates, RAG, LangChain / LangGraph, vector search, LLM evaluation, compliance gating, OpenAI / Anthropic SDKs.</div>
+  <div><strong>AI & Agent Systems:</strong> multi-agent orchestration, MCP / A2A contracts, LangGraph, Spring AI, governance substrates, RAG, vector search, LLM evaluation, compliance gating, OpenAI / Anthropic SDKs.</div>
   <div><strong>Platform & Infra:</strong> AWS, Kubernetes / EKS, Istio, Cilium, Spinnaker, Argo Rollouts, GitHub Actions, Terraform / CDK, Nutanix.</div>
   <div><strong>Data & Streaming:</strong> Kafka, Flink, KSQLDB, ClickHouse, TiDB, ScyllaDB, Cassandra, Redis, Hudi, DynamoDB, Druid, Amazon Managed Prometheus.</div>
-  <div><strong>Observability & SRE:</strong> OpenTelemetry, Grafana, Prometheus, K6, OpenSearch, custom SIEM, blue-green and canary rollouts.</div>
+  <div><strong>Observability & SRE:</strong> OpenTelemetry, Grafana, Prometheus / PromQL, K6, OpenSearch, custom SIEM, anomaly detection, blue-green and canary rollouts.</div>
   <div><strong>Security & Compliance:</strong> zero trust, PCI-DSS, SOC 2, ISO 27001, NPCI / UPI SAR, Keycloak, IAM design.</div>
   <div><strong>Languages:</strong> Go, Python, TypeScript, Java.</div>
   <div><strong>Articles:</strong> multi-agent systems, observability, platform architecture.</div>
