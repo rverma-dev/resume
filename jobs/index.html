@@ -8,12 +8,15 @@
     :root {
       color-scheme: light;
       --ink: #111;
-      --muted: #666;
+      --muted: #626262;
       --rule: #d8d8d8;
       --accent: #0b4f8a;
+      --accent-ink: #fff;
       --bg: #f6f6f6;
       --surface: #fff;
       --subtle: #fafafa;
+      --warning-bg: #fff7df;
+      --warning-rule: #e1c15f;
     }
 
     * {
@@ -28,7 +31,7 @@
     }
 
     main {
-      max-width: 1220px;
+      max-width: 1320px;
       margin: 28px auto 40px;
       padding: 0 24px;
     }
@@ -62,8 +65,31 @@
       text-decoration: underline;
     }
 
+    button {
+      min-height: 36px;
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      background: var(--surface);
+      color: var(--ink);
+      padding: 7px 10px;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: var(--accent-ink);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: .55;
+    }
+
     .summary,
-    .timestamp {
+    .timestamp,
+    .output {
       margin: 0;
       color: var(--muted);
     }
@@ -99,11 +125,24 @@
       font-size: 12px;
     }
 
-    .controls {
+    .controls,
+    .approval-bar {
       display: grid;
-      grid-template-columns: minmax(260px, 1fr) minmax(150px, 190px) minmax(150px, 190px);
       gap: 10px;
       margin: 0 0 14px;
+    }
+
+    .controls {
+      grid-template-columns: minmax(260px, 1fr) minmax(150px, 190px) minmax(150px, 190px) minmax(150px, 190px);
+    }
+
+    .approval-bar {
+      grid-template-columns: auto auto auto minmax(260px, 1fr);
+      align-items: center;
+      padding: 10px;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      background: var(--surface);
     }
 
     input,
@@ -115,6 +154,16 @@
       color: var(--ink);
       padding: 7px 9px;
       font: inherit;
+    }
+
+    .notice {
+      margin: 0 0 14px;
+      padding: 9px 10px;
+      border: 1px solid var(--warning-rule);
+      border-radius: 8px;
+      background: var(--warning-bg);
+      color: #4d3b00;
+      font-size: 13px;
     }
 
     table {
@@ -146,6 +195,37 @@
       border-bottom: 0;
     }
 
+    .select-cell {
+      width: 42px;
+      text-align: center;
+    }
+
+    .select-cell input {
+      min-height: 0;
+      width: 16px;
+      height: 16px;
+      padding: 0;
+    }
+
+    .score {
+      display: inline-block;
+      min-width: 38px;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: #eef5fb;
+      color: #123c60;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .compact {
+      max-width: 320px;
+    }
+
     .empty {
       padding: 18px;
       color: var(--muted);
@@ -154,7 +234,7 @@
       border-radius: 8px;
     }
 
-    @media (max-width: 760px) {
+    @media (max-width: 900px) {
       main {
         margin-top: 18px;
         padding: 0 14px;
@@ -169,7 +249,8 @@
       }
 
       .metrics,
-      .controls {
+      .controls,
+      .approval-bar {
         grid-template-columns: 1fr;
       }
 
@@ -191,20 +272,22 @@
       <p class="timestamp" id="timestamp"></p>
     </header>
 
+    <p class="notice">Discovery is automated, but applications are not. Select roles here, export an approval batch, then import it locally to create auditable application records and resume snapshots.</p>
+
     <section class="metrics" aria-label="Pipeline summary">
       <div class="metric"><strong id="metric-jobs">0</strong><span>Jobs tracked</span></div>
-      <div class="metric"><strong id="metric-applications">0</strong><span>Applications</span></div>
-      <div class="metric"><strong id="metric-ready">0</strong><span>Ready</span></div>
+      <div class="metric"><strong id="metric-unreviewed">0</strong><span>Unreviewed</span></div>
+      <div class="metric"><strong id="metric-selected">0</strong><span>Selected now</span></div>
+      <div class="metric"><strong id="metric-approved">0</strong><span>Approved</span></div>
       <div class="metric"><strong id="metric-applied">0</strong><span>Applied</span></div>
-      <div class="metric"><strong id="metric-active">0</strong><span>Interview / offer</span></div>
     </section>
 
     <div class="controls">
-      <input id="search" type="search" placeholder="Search company, role, status, location, referral">
+      <input id="search" type="search" placeholder="Search company, role, status, location, people, theme">
       <select id="application-status">
         <option value="">All application statuses</option>
-        <option>discovered</option>
-        <option>reviewing</option>
+        <option>approved</option>
+        <option>tailoring</option>
         <option>ready</option>
         <option>applied</option>
         <option>interview</option>
@@ -215,27 +298,47 @@
       <select id="job-status">
         <option value="">All job statuses</option>
         <option>discovered</option>
+        <option>reviewing</option>
         <option>shortlisted</option>
-        <option>researching</option>
+        <option>approved</option>
+        <option>tailoring</option>
         <option>ready</option>
+        <option>applied</option>
+        <option>archived</option>
+      </select>
+      <select id="approval-status">
+        <option value="">All approval statuses</option>
+        <option>unreviewed</option>
+        <option>exported</option>
+        <option>approved</option>
+        <option>blocked</option>
         <option>applied</option>
         <option>archived</option>
       </select>
     </div>
 
-    <section aria-labelledby="applications-heading">
-      <h2 id="applications-heading">Applications</h2>
-      <div id="applications-table"></div>
-    </section>
+    <div class="approval-bar" aria-label="Approval controls">
+      <button type="button" id="select-visible">Select visible</button>
+      <button type="button" id="clear-selection">Clear selection</button>
+      <button type="button" class="primary" id="approve-selected" disabled>Approve selected</button>
+      <p class="output" id="approval-output">No roles selected.</p>
+    </div>
 
     <section aria-labelledby="jobs-heading">
       <h2 id="jobs-heading">Job Inventory</h2>
       <div id="jobs-table"></div>
     </section>
+
+    <section aria-labelledby="applications-heading">
+      <h2 id="applications-heading">Applications</h2>
+      <div id="applications-table"></div>
+    </section>
   </main>
 
   <script>
     const state = { applications: [], jobs: [], errors: [] };
+    const selectedJobIds = new Set(JSON.parse(localStorage.getItem("selectedJobIds") || "[]"));
+    const exportedJobIds = new Set(JSON.parse(localStorage.getItem("exportedJobIds") || "[]"));
 
     const text = (value) => value == null ? "" : String(value);
     const safe = (value) => text(value)
@@ -244,13 +347,29 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;");
 
+    function saveSelection() {
+      localStorage.setItem("selectedJobIds", JSON.stringify([...selectedJobIds]));
+      localStorage.setItem("exportedJobIds", JSON.stringify([...exportedJobIds]));
+    }
+
     function link(value, label = "open") {
       if (!value) return "";
       return `<a href="${safe(value)}">${safe(label)}</a>`;
     }
 
+    function score(row) {
+      const value = row.fit_score ?? row.score ?? row.relevance_score;
+      return value == null || value === "" ? "" : `<span class="score">${safe(value)}</span>`;
+    }
+
     function includesQuery(row, query) {
       return !query || JSON.stringify(row).toLowerCase().includes(query);
+    }
+
+    function canApprove(row) {
+      const approval = row.approval_status || "unreviewed";
+      const status = row.status || "discovered";
+      return !row.application_id && !["approved", "applied", "archived"].includes(approval) && !["approved", "applied", "archived"].includes(status);
     }
 
     function filteredApplications() {
@@ -262,7 +381,38 @@
     function filteredJobs() {
       const query = document.querySelector("#search").value.trim().toLowerCase();
       const status = document.querySelector("#job-status").value;
-      return state.jobs.filter((row) => includesQuery(row, query) && (!status || row.status === status));
+      const approval = document.querySelector("#approval-status").value;
+      return state.jobs.filter((row) => (
+        includesQuery(row, query)
+        && (!status || row.status === status)
+        && (!approval || (row.approval_status || "unreviewed") === approval)
+      ));
+    }
+
+    function compactList(items, emptyText) {
+      const clean = (items || []).filter(Boolean).slice(0, 3);
+      if (!clean.length) return `<span class="muted">${safe(emptyText)}</span>`;
+      return clean.map((item) => safe(item)).join("<br>");
+    }
+
+    function peopleSummary(row) {
+      if (row.connections_summary) return safe(row.connections_summary);
+      const people = (row.people || []).map((person) => {
+        const name = person.name || "";
+        const role = person.role ? ` - ${person.role}` : "";
+        const relationship = person.relationship ? ` (${person.relationship})` : "";
+        return `${name}${role}${relationship}`.trim();
+      });
+      return compactList(people, "No signal");
+    }
+
+    function themeSummary(row) {
+      const theme = row.resume_theme || {};
+      const parts = [];
+      if (theme.name) parts.push(theme.name);
+      if (theme.positioning) parts.push(theme.positioning);
+      (theme.key_pointers || []).slice(0, 2).forEach((item) => parts.push(item));
+      return compactList(parts, "TBD");
     }
 
     function table(target, columns, rows, emptyText) {
@@ -273,49 +423,117 @@
 
       const head = `<thead><tr>${columns.map((col) => `<th>${safe(col.label)}</th>`).join("")}</tr></thead>`;
       const body = rows.map((row) => {
-        const cells = columns.map((col) => `<td>${col.render(row)}</td>`).join("");
+        const cells = columns.map((col) => `<td${col.className ? ` class="${safe(col.className)}"` : ""}>${col.render(row)}</td>`).join("");
         return `<tr>${cells}</tr>`;
       }).join("");
       document.querySelector(target).innerHTML = `<table>${head}<tbody>${body}</tbody></table>`;
     }
 
+    function updateSelectionState() {
+      state.jobs.forEach((row) => {
+        if (!canApprove(row)) selectedJobIds.delete(row.job_id);
+      });
+      saveSelection();
+      document.querySelector("#metric-selected").textContent = selectedJobIds.size;
+      document.querySelector("#approve-selected").disabled = selectedJobIds.size === 0;
+      document.querySelector("#approval-output").textContent = selectedJobIds.size
+        ? `${selectedJobIds.size} role${selectedJobIds.size === 1 ? "" : "s"} selected for approval export.`
+        : "No roles selected.";
+    }
+
     function render() {
       const applications = filteredApplications();
       const jobs = filteredJobs();
-      const ready = state.applications.filter((row) => row.status === "ready").length;
+      const unreviewed = state.jobs.filter((row) => (row.approval_status || "unreviewed") === "unreviewed").length;
+      const approved = state.applications.filter((row) => row.approval_status === "approved" || row.status === "approved").length;
       const applied = state.applications.filter((row) => row.status === "applied").length;
-      const active = state.applications.filter((row) => ["interview", "offer"].includes(row.status)).length;
 
       document.querySelector("#metric-jobs").textContent = state.jobs.length;
-      document.querySelector("#metric-applications").textContent = state.applications.length;
-      document.querySelector("#metric-ready").textContent = ready;
+      document.querySelector("#metric-unreviewed").textContent = unreviewed;
+      document.querySelector("#metric-approved").textContent = approved;
       document.querySelector("#metric-applied").textContent = applied;
-      document.querySelector("#metric-active").textContent = active;
 
-      const shown = `${applications.length}/${state.applications.length} applications, ${jobs.length}/${state.jobs.length} jobs shown`;
+      const shown = `${jobs.length}/${state.jobs.length} jobs, ${applications.length}/${state.applications.length} applications shown`;
       document.querySelector("#summary").textContent = state.errors.length ? `${shown}; ${state.errors.length} source failed` : shown;
       document.querySelector("#timestamp").textContent = new Date().toLocaleString();
 
-      table("#applications-table", [
-        { label: "Company", render: (row) => safe(row.company) },
-        { label: "Role", render: (row) => safe(row.role || row.title) },
-        { label: "Score", render: (row) => safe(row.score ?? "") },
-        { label: "Applied", render: (row) => safe(row.applied_date) },
-        { label: "Resume", render: (row) => link(row.resume_path) },
-        { label: "Research", render: (row) => link(row.research_path) },
-        { label: "Referral", render: (row) => safe(row.referral_status) },
-        { label: "Status", render: (row) => safe(row.status || "discovered") }
-      ], applications, "No applications yet.");
-
       table("#jobs-table", [
+        {
+          label: "",
+          className: "select-cell",
+          render: (row) => canApprove(row)
+            ? `<input type="checkbox" data-job-id="${safe(row.job_id)}" ${selectedJobIds.has(row.job_id) ? "checked" : ""} aria-label="Select ${safe(row.company)} ${safe(row.role)}">`
+            : ""
+        },
         { label: "Company", render: (row) => safe(row.company) },
-        { label: "Role", render: (row) => safe(row.role || row.title) },
-        { label: "Score", render: (row) => safe(row.score ?? "") },
+        { label: "Role", className: "compact", render: (row) => safe(row.role || row.title) },
+        { label: "Fit", render: score },
+        { label: "People", className: "compact", render: peopleSummary },
+        { label: "Resume Theme", className: "compact", render: themeSummary },
         { label: "Location", render: (row) => safe(row.location) },
         { label: "Source", render: (row) => link(row.source_url || row.url) },
-        { label: "Status", render: (row) => safe(row.status || "discovered") },
+        { label: "Approval", render: (row) => safe(exportedJobIds.has(row.job_id) && (row.approval_status || "unreviewed") === "unreviewed" ? "exported" : (row.approval_status || "unreviewed")) },
+        { label: "Batch", render: (row) => safe(row.batch_id) },
         { label: "Updated", render: (row) => safe(row.updated_at || row.discovered_at) }
       ], jobs, "No jobs imported yet.");
+
+      table("#applications-table", [
+        { label: "Company", render: (row) => safe(row.company) },
+        { label: "Role", className: "compact", render: (row) => safe(row.role || row.title) },
+        { label: "Status", render: (row) => safe(row.status || "approved") },
+        { label: "Fit", render: score },
+        { label: "Approved", render: (row) => safe(row.approved_at) },
+        { label: "Applied", render: (row) => safe(row.applied_date || row.applied_at) },
+        { label: "Resume Snapshot", render: (row) => link(row.resume_snapshot_path || row.resume_path) },
+        { label: "Submitted Resume", render: (row) => link(row.submitted_resume_path) },
+        { label: "Theme", render: (row) => link(row.resume_theme_path) }
+      ], applications, "No applications approved yet.");
+
+      updateSelectionState();
+    }
+
+    function approvalPayload() {
+      const jobs = state.jobs.filter((row) => selectedJobIds.has(row.job_id) && canApprove(row));
+      const createdAt = new Date().toISOString();
+      const batchSeed = jobs.map((row) => row.job_id).sort().join("|") || createdAt;
+      const batchId = `approval-${createdAt.slice(0, 10).replaceAll("-", "")}-${Math.abs(hashCode(batchSeed)).toString(16)}`;
+      return {
+        schema_version: "approval.batch.v1",
+        action: "approve_for_tailoring",
+        batch_id: batchId,
+        created_at: createdAt,
+        approval_required: true,
+        auto_apply_allowed: false,
+        import_command: "python3 recruiting/scripts/import_approvals.py ~/Downloads/approval-batch.json",
+        job_ids: jobs.map((row) => row.job_id),
+        jobs
+      };
+    }
+
+    function hashCode(value) {
+      let hash = 0;
+      for (let index = 0; index < value.length; index += 1) {
+        hash = ((hash << 5) - hash) + value.charCodeAt(index);
+        hash |= 0;
+      }
+      return hash;
+    }
+
+    function downloadApprovalBatch() {
+      const payload = approvalPayload();
+      if (!payload.job_ids.length) return;
+      payload.job_ids.forEach((jobId) => exportedJobIds.add(jobId));
+      saveSelection();
+      const filename = `${payload.batch_id}.json`;
+      const blob = new Blob([JSON.stringify(payload, null, 2) + "\n"], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = filename;
+      anchor.click();
+      URL.revokeObjectURL(url);
+      document.querySelector("#approval-output").textContent = `Exported ${payload.job_ids.length} approved role${payload.job_ids.length === 1 ? "" : "s"} to ${filename}. Import locally with: python3 recruiting/scripts/import_approvals.py ~/Downloads/${filename}`;
+      render();
     }
 
     function loadJson(path, key) {
@@ -340,6 +558,23 @@
     document.querySelector("#search").addEventListener("input", render);
     document.querySelector("#application-status").addEventListener("change", render);
     document.querySelector("#job-status").addEventListener("change", render);
+    document.querySelector("#approval-status").addEventListener("change", render);
+    document.querySelector("#select-visible").addEventListener("click", () => {
+      filteredJobs().filter(canApprove).forEach((row) => selectedJobIds.add(row.job_id));
+      render();
+    });
+    document.querySelector("#clear-selection").addEventListener("click", () => {
+      selectedJobIds.clear();
+      render();
+    });
+    document.querySelector("#approve-selected").addEventListener("click", downloadApprovalBatch);
+    document.querySelector("#jobs-table").addEventListener("change", (event) => {
+      const jobId = event.target.dataset.jobId;
+      if (!jobId) return;
+      if (event.target.checked) selectedJobIds.add(jobId);
+      else selectedJobIds.delete(jobId);
+      render();
+    });
   </script>
 </body>
 </html>

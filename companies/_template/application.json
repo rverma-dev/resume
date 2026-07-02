@@ -1,15 +1,22 @@
 {
   "schema_version": "application.v1",
+  "application_id": "",
   "company": "",
   "role": "",
   "job_url": "",
   "job_id": "",
-  "score": null,
+  "fit_score": null,
+  "fit_reason": "",
   "status": "discovered",
+  "approval_status": "unreviewed",
   "resume_path": "resume.md",
   "resume_pdf_path": "resume.pdf",
+  "resume_snapshot_path": "",
+  "submitted_resume_path": "",
+  "resume_theme_path": "theme.md",
   "research_path": "research.md",
   "network_path": "network.md",
+  "approved_at": null,
   "submitted_at": null,
   "notes": []
 }

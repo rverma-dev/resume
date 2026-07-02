@@ -1,5 +1,7 @@
 {
-  "schema_version": "applications.index.v1",
+  "schema_version": "applications.index.v2",
   "updated_at": null,
+  "approval_required": true,
+  "allow_auto_apply": false,
   "applications": []
 }

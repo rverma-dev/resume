@@ -1,23 +1,41 @@
 {
-  "schema_version": "recruiting.config.v1",
+  "schema_version": "recruiting.config.v2",
   "score_threshold": 80,
-  "allow_external_discovery": false,
+  "batch_size": 10,
+  "approval_required": true,
+  "allow_external_discovery": true,
   "allow_auto_apply": false,
-  "search_terms": [
-    "Principal Software Engineer",
-    "Staff Software Engineer",
+  "target_compensation_inr_annual": 25000000,
+  "target_levels": [
+    "Director",
+    "Principal Engineer",
     "Principal Architect",
-    "Software Architect",
-    "Distributed Systems",
-    "Cloud Platform",
-    "Infrastructure",
-    "Observability",
-    "Monitoring",
-    "Backend",
-    "Java",
-    "Kubernetes",
-    "AI Platform",
-    "Agent Infrastructure"
+    "Staff Engineer",
+    "Distinguished Engineer"
+  ],
+  "priority_companies": [
+    "NVIDIA",
+    "Google",
+    "Amazon",
+    "Databricks",
+    "Coupang",
+    "Microsoft",
+    "Meta",
+    "Uber",
+    "Stripe",
+    "Snowflake"
+  ],
+  "search_terms": [
+    "Director Engineering Platform",
+    "Director Software Engineering Infrastructure",
+    "Principal Software Engineer Platform",
+    "Principal Architect Distributed Systems",
+    "Staff Software Engineer AI Infrastructure",
+    "Principal Engineer Observability",
+    "AI Infrastructure Platform",
+    "Agent Infrastructure",
+    "Distributed Systems Architect",
+    "Cloud Platform Engineering"
   ],
   "priority_domains": [
     "developer tooling",
@@ -46,9 +64,32 @@
     "visa requirements",
     "compensation"
   ],
+  "job_statuses": [
+    "discovered",
+    "reviewing",
+    "shortlisted",
+    "approved",
+    "tailoring",
+    "ready",
+    "applied",
+    "interview",
+    "rejected",
+    "offer",
+    "archived"
+  ],
+  "approval_statuses": [
+    "unreviewed",
+    "exported",
+    "approved",
+    "blocked",
+    "applied",
+    "archived"
+  ],
   "statuses": [
     "discovered",
     "reviewing",
+    "approved",
+    "tailoring",
     "ready",
     "applied",
     "interview",

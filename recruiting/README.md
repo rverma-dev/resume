@@ -19,16 +19,39 @@ research packages only from evidence stored in this repository.
 
 ## Pipeline
 
-1. Discover jobs from configured MCP/browser sources, or import them manually
-   into `jobs/index.json`.
+1. Discover up to 10 jobs per scheduled batch from configured MCP/browser
+   sources, or import them manually into `jobs/index.json`.
 2. Score each job against the rubric in `recruiting/config.json`.
 3. Match the company against `network.txt` and `avoid.txt`.
-4. Generate company-specific artifacts under `companies/<company-slug>/`.
-5. Generate an ATS-friendly PDF from the company resume.
-6. Apply only when external tooling is available and the run is authorized.
-7. Update `applications/applications.json` and
+4. Review the dashboard, multiselect roles, and export an approval batch.
+5. Import the approval batch locally to create application records and resume
+   snapshots under `applications/resumes/<application-id>/`.
+6. Generate company-specific artifacts under `companies/<company-slug>/`.
+7. Generate an ATS-friendly PDF from the company resume.
+8. Apply only when external tooling is available and the run is authorized.
+9. Update `applications/applications.json` and
    `applications/applications.jsonl`.
-8. Refresh the dashboard at `jobs/index.html`.
+10. Refresh the dashboard at `jobs/index.html`.
+
+## Local Commands
+
+Import discovered jobs from a JSON payload:
+
+```bash
+python3 recruiting/scripts/upsert_jobs.py discovered-jobs.json --limit 10
+```
+
+Import dashboard approvals:
+
+```bash
+python3 recruiting/scripts/import_approvals.py ~/Downloads/approval-batch.json
+```
+
+Validate the tracker:
+
+```bash
+python3 recruiting/scripts/validate_pipeline.py
+```
 
 ## Expected Company Folder
 
