@@ -1,4 +1,4 @@
-name: Sync approval discussion
+name: Sync approval issues
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  discussions: read
+  issues: write
 
 jobs:
   sync:
@@ -16,11 +16,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Import discussion approval batches
+      - name: Import issue approval batches
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          APPROVAL_DISCUSSION_NUMBER: ${{ vars.APPROVAL_DISCUSSION_NUMBER }}
-        run: python3 recruiting/scripts/sync_discussion_approvals.py
+        run: python3 recruiting/scripts/sync_issue_approvals.py
 
       - name: Validate tracker
         run: |

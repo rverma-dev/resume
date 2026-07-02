@@ -6,15 +6,16 @@
 tools or imported manually. Do not remove processed jobs; mark their status
 instead.
 
-The public dashboard is read-only. Its multiselect approval button copies an
-`approval-batch.v1` JSON payload. Paste that payload into the recruiting
-approval GitHub Discussion; `.github/workflows/sync-approval-discussion.yml`
-polls that Discussion and imports unseen batches into application records and
-resume snapshots.
+The public dashboard is read-only. Its multiselect approval button opens a
+prefilled GitHub Issue containing an `approval-batch.v1` JSON payload. Submit
+that issue to queue approval; `.github/workflows/sync-approval-issues.yml`
+polls open issues for approval payloads, imports unseen batches into
+application records and resume snapshots, comments, labels the issue
+`approval-imported`, and closes it. The issue composer pre-populates
+`recruiting-approval` and `approval-pending` labels when GitHub accepts them,
+but the importer does not require those labels.
 
-The workflow is inert until the repository variable
-`APPROVAL_DISCUSSION_NUMBER` is set to the approval Discussion number. To import
-an approval batch manually instead:
+To import an approval batch manually instead:
 
 ```bash
 python3 recruiting/scripts/import_approvals.py approval-batch.json

@@ -272,7 +272,7 @@
       <p class="timestamp" id="timestamp"></p>
     </header>
 
-    <p class="notice">Discovery is automated, but applications are not. Select roles here, copy an approval batch, then paste it into the GitHub approval discussion for the scheduled importer to create auditable application records and resume snapshots.</p>
+    <p class="notice">Discovery is automated, but applications are not. Select roles here and open a prefilled GitHub approval issue. The scheduled importer turns approved issues into auditable application records and resume snapshots.</p>
 
     <section class="metrics" aria-label="Pipeline summary">
       <div class="metric"><strong id="metric-jobs">0</strong><span>Jobs tracked</span></div>
@@ -320,7 +320,7 @@
     <div class="approval-bar" aria-label="Approval controls">
       <button type="button" id="select-visible">Select visible</button>
       <button type="button" id="clear-selection">Clear selection</button>
-      <button type="button" class="primary" id="approve-selected" disabled>Copy approval batch</button>
+      <button type="button" class="primary" id="approve-selected" disabled>Open approval issue</button>
       <p class="output" id="approval-output">No roles selected.</p>
     </div>
 
@@ -437,7 +437,7 @@
       document.querySelector("#metric-selected").textContent = selectedJobIds.size;
       document.querySelector("#approve-selected").disabled = selectedJobIds.size === 0;
       document.querySelector("#approval-output").textContent = selectedJobIds.size
-        ? `${selectedJobIds.size} role${selectedJobIds.size === 1 ? "" : "s"} selected for discussion approval.`
+        ? `${selectedJobIds.size} role${selectedJobIds.size === 1 ? "" : "s"} selected for issue approval.`
         : "No roles selected.";
     }
 
@@ -504,7 +504,7 @@
         created_at: createdAt,
         approval_required: true,
         auto_apply_allowed: false,
-        discussion_inbox: "Paste this JSON into the recruiting approval GitHub Discussion.",
+        issue_inbox: "Submit this prefilled GitHub Issue for the scheduled approval importer.",
         import_command: "python3 recruiting/scripts/import_approvals.py approval-batch.json",
         job_ids: jobs.map((row) => row.job_id),
         jobs
@@ -520,21 +520,31 @@
       return hash;
     }
 
-    async function copyApprovalBatch() {
+    function approvalIssueUrl(payload) {
+      const params = new URLSearchParams({
+        title: `Approval batch ${payload.batch_id}`,
+        labels: "recruiting-approval,approval-pending",
+        body: [
+          "Approval batch generated from the static jobs dashboard.",
+          "",
+          "The scheduled importer will process this issue and close it after the tracker is updated.",
+          "",
+          "```json",
+          JSON.stringify(payload, null, 2),
+          "```",
+          ""
+        ].join("\n")
+      });
+      return `https://github.com/rverma-dev/resume/issues/new?${params.toString()}`;
+    }
+
+    function openApprovalIssue() {
       const payload = approvalPayload();
       if (!payload.job_ids.length) return;
       payload.job_ids.forEach((jobId) => exportedJobIds.add(jobId));
       saveSelection();
-      const text = JSON.stringify(payload, null, 2) + "\n";
-      const wrapped = `Approval batch ${payload.batch_id}\n\n\`\`\`json\n${text}\`\`\`\n`;
-      let message;
-      try {
-        await navigator.clipboard.writeText(wrapped);
-        message = `Copied ${payload.job_ids.length} approved role${payload.job_ids.length === 1 ? "" : "s"} as ${payload.batch_id}. Paste it into the GitHub approval discussion.`;
-      } catch (error) {
-        message = `Clipboard blocked. Copy this batch manually: ${payload.batch_id}`;
-        window.prompt("Copy approval batch JSON", wrapped);
-      }
+      window.open(approvalIssueUrl(payload), "_blank", "noopener");
+      const message = `Opened GitHub issue composer for ${payload.job_ids.length} approved role${payload.job_ids.length === 1 ? "" : "s"} as ${payload.batch_id}. Submit the issue to queue the importer.`;
       render();
       document.querySelector("#approval-output").textContent = message;
     }
@@ -570,7 +580,7 @@
       selectedJobIds.clear();
       render();
     });
-    document.querySelector("#approve-selected").addEventListener("click", copyApprovalBatch);
+    document.querySelector("#approve-selected").addEventListener("click", openApprovalIssue);
     document.querySelector("#jobs-table").addEventListener("change", (event) => {
       const jobId = event.target.dataset.jobId;
       if (!jobId) return;

@@ -23,12 +23,14 @@ research packages only from evidence stored in this repository.
    sources, or import them manually into `jobs/index.json`.
 2. Score each job against the rubric in `recruiting/config.json`.
 3. Match the company against `network.txt` and `avoid.txt`.
-4. Review the dashboard, multiselect roles, and copy an approval batch.
-5. Paste the approval batch into the recruiting approval GitHub Discussion. The
-   scheduled `sync-approval-discussion` workflow imports unseen batches, creates
-   application records, and writes resume snapshots under
-   `applications/resumes/<application-id>/`. Set repository variable
-   `APPROVAL_DISCUSSION_NUMBER` to enable this bridge.
+4. Review the dashboard, multiselect roles, and open a prefilled GitHub
+   approval issue.
+5. Submit the approval issue. The scheduled `sync-approval-issues` workflow
+   imports unseen batches from open issues containing approval payloads, creates
+   application records, writes resume snapshots under
+   `applications/resumes/<application-id>/`, records the processed issue number
+   in `applications/approval_inbox.json`, comments, labels the issue
+   `approval-imported`, and closes it.
 6. Generate company-specific artifacts under `companies/<company-slug>/`.
 7. Generate an ATS-friendly PDF from the company resume.
 8. Apply only when external tooling is available and the run is authorized.
@@ -50,10 +52,10 @@ Import dashboard approvals:
 python3 recruiting/scripts/import_approvals.py approval-batch.json
 ```
 
-Import approval batches from the configured GitHub Discussion:
+Import approval batches from GitHub approval issues:
 
 ```bash
-APPROVAL_DISCUSSION_NUMBER=1 GITHUB_TOKEN=... python3 recruiting/scripts/sync_discussion_approvals.py
+GITHUB_TOKEN=... python3 recruiting/scripts/sync_issue_approvals.py
 ```
 
 Validate the tracker:

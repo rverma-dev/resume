@@ -1,7 +1,8 @@
 {
   "schema_version": "approval_inbox.v1",
   "updated_at": null,
-  "processed_comment_ids": [],
+  "processed_issue_numbers": [],
   "processed_batch_ids": [],
+  "last_processed_issue_number": 0,
   "events": []
 }
