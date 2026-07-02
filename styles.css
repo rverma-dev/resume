@@ -289,8 +289,12 @@ ul ul {
     background: #fff;
   }
 
-  .download-pdf-zone {
-    display: none;
+  .download-pdf-zone,
+  .download-pdf,
+  [data-print-hidden="true"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
   }
 
   .resume {
