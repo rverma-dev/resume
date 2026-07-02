@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-02T14:05:33Z",
+  "updated_at": "2026-07-02T15:36:55Z",
   "active_batch_id": "batch-20260702-179f69f0",
   "last_scheduler_run_at": "2026-07-02T14:05:33Z",
   "batch_size": 10,
@@ -21,8 +21,8 @@
         "senior director role at large consumer streaming platform",
         "large-scale adtech/data platform leadership; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 95,
       "fit_reason": "Excellent Director trajectory fit: senior engineering leadership over retail adtech platform, low-latency/high-throughput distributed systems, data/ML platform components, observability, cost efficiency, org design, and revenue/billing platform scope.",
@@ -62,10 +62,10 @@
           "work/architecture/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-jiohotstar-senior-director-engineering-928a574f",
+      "resume_snapshot_path": "applications/resumes/app-20260702-jiohotstar-senior-director-engineering-928a574f/resume.md",
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -83,8 +83,8 @@
         "priority high-paying company",
         "Principal Engineer role eligible for cash bonus, equity rewards and benefits; exact local range not visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 95,
       "fit_reason": "Excellent Principal Architect fit: AI-native enterprise ERP platform, distributed SaaS architecture, SLOs, observability, reliability, migration, extensibility, financial workflows, and cross-team technical influence.",
@@ -124,10 +124,10 @@
           "work/ADRs/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-intuit-principal-engineer-builder-54c02674",
+      "resume_snapshot_path": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/resume.md",
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -145,8 +145,8 @@
         "director role owning 3-4 teams",
         "competitive PTO and benefits mentioned; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 93,
       "fit_reason": "Strong Director fit around Operations & AI Automation: 3-4 teams, production AI agents/RAG/tool-calling, enterprise SaaS platform, AWS, event-driven systems, observability, delivery predictability, and next-layer leader development.",
@@ -187,10 +187,10 @@
           "work/design_docs/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-magnit-global-director-engineering-7864387c",
+      "resume_snapshot_path": "applications/resumes/app-20260702-magnit-global-director-engineering-7864387c/resume.md",
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -271,8 +271,8 @@
         "director role at fast-growing healthcare technology company",
         "no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 89,
       "fit_reason": "Good Director fit: multiple teams, cloud/data platform ownership, healthcare workflow scale, AI-native engineering culture, microservices, CI/CD, AWS, and strong people-development requirements.",
@@ -311,72 +311,10 @@
           "work/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-blinkrx-director-engineering-586d1421",
+      "resume_snapshot_path": "applications/resumes/app-20260702-blinkrx-director-engineering-586d1421/resume.md",
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
-      "notes": []
-    },
-    {
-      "job_id": "linkedin-4422682326",
-      "dedupe_key": "linkedin:4422682326",
-      "source": "linkedin",
-      "source_job_id": "4422682326",
-      "source_url": "https://www.linkedin.com/jobs/view/4422682326",
-      "company": "Charles River Laboratories",
-      "role": "Director, Data Engineering & Platforms",
-      "location": "Bengaluru, Karnataka, India / Remote India",
-      "work_type": "remote",
-      "experience_level": "director",
-      "compensation_signals": [
-        "director role with global data and analytics leadership",
-        "fully remote India role; no exact compensation visible"
-      ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
-      "batch_id": "batch-20260702-linkedin-003",
-      "fit_score": 88,
-      "fit_reason": "Good Director data-platform fit: Azure data platform, AI/data strategy, DevOps/MLOps, IaC, follow-the-sun operations, incident management, InfoSec/compliance local management, and global stakeholder leadership.",
-      "fit_signals": [
-        "director",
-        "data platform",
-        "AI and analytics",
-        "DevOps/MLOps",
-        "remote India",
-        "incident management",
-        "InfoSec/compliance"
-      ],
-      "risk_flags": [
-        "Azure-heavy role while resume is stronger on AWS; includes broad local people-management responsibilities beyond data platform"
-      ],
-      "people": [
-        {
-          "name": "Amro Zidan",
-          "relationship": "3rd-degree / company alum from Salesforce",
-          "role": "Capital and Fixed Assets Finance Manager at Genentech",
-          "profile_url": "",
-          "notes": "Visible in LinkedIn job detail as person you can reach out to"
-        }
-      ],
-      "connections_summary": "LinkedIn detail showed Amro Zidan as a reachable 3rd-degree company alum from Salesforce.",
-      "resume_theme": {
-        "name": "Global data platform director",
-        "positioning": "Show a data-and-AI platform leader with global operations, compliance, and incident-management depth, while acknowledging cloud portability from AWS-heavy experience.",
-        "key_pointers": [
-          "Use Jupiter AWS/EMR/Airflow/Flink/Kubernetes and Brane ClickHouse/Kafka/S3 data platform work as data engineering evidence.",
-          "Emphasize ISO 27001, SOC 2, PCI-DSS, and InfoSec readiness across Jupiter and Brane.",
-          "Mention follow-the-sun or incident-management analogs only where evidence is explicit."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/incident_reviews/README.md",
-          "work/architecture/README.md"
-        ]
-      },
-      "application_id": null,
-      "resume_snapshot_path": null,
-      "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -394,8 +332,8 @@
         "remote role at venture-backed fintech/private markets platform",
         "competitive compensation and benefits mentioned; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 88,
       "fit_reason": "Strong technical SRE/platform fit: AWS, Kubernetes, IaC/GitOps, observability, incident response, SLOs, cloud security, PostgreSQL, AI-assisted reliability workflows, and remote India eligibility.",
@@ -439,7 +377,71 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
+      "updated_at": "2026-07-02T15:36:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
+    },
+    {
+      "job_id": "linkedin-4422682326",
+      "dedupe_key": "linkedin:4422682326",
+      "source": "linkedin",
+      "source_job_id": "4422682326",
+      "source_url": "https://www.linkedin.com/jobs/view/4422682326",
+      "company": "Charles River Laboratories",
+      "role": "Director, Data Engineering & Platforms",
+      "location": "Bengaluru, Karnataka, India / Remote India",
+      "work_type": "remote",
+      "experience_level": "director",
+      "compensation_signals": [
+        "director role with global data and analytics leadership",
+        "fully remote India role; no exact compensation visible"
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260702-linkedin-003",
+      "fit_score": 88,
+      "fit_reason": "Good Director data-platform fit: Azure data platform, AI/data strategy, DevOps/MLOps, IaC, follow-the-sun operations, incident management, InfoSec/compliance local management, and global stakeholder leadership.",
+      "fit_signals": [
+        "director",
+        "data platform",
+        "AI and analytics",
+        "DevOps/MLOps",
+        "remote India",
+        "incident management",
+        "InfoSec/compliance"
+      ],
+      "risk_flags": [
+        "Azure-heavy role while resume is stronger on AWS; includes broad local people-management responsibilities beyond data platform"
+      ],
+      "people": [
+        {
+          "name": "Amro Zidan",
+          "relationship": "3rd-degree / company alum from Salesforce",
+          "role": "Capital and Fixed Assets Finance Manager at Genentech",
+          "profile_url": "",
+          "notes": "Visible in LinkedIn job detail as person you can reach out to"
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed Amro Zidan as a reachable 3rd-degree company alum from Salesforce.",
+      "resume_theme": {
+        "name": "Global data platform director",
+        "positioning": "Show a data-and-AI platform leader with global operations, compliance, and incident-management depth, while acknowledging cloud portability from AWS-heavy experience.",
+        "key_pointers": [
+          "Use Jupiter AWS/EMR/Airflow/Flink/Kubernetes and Brane ClickHouse/Kafka/S3 data platform work as data engineering evidence.",
+          "Emphasize ISO 27001, SOC 2, PCI-DSS, and InfoSec readiness across Jupiter and Brane.",
+          "Mention follow-the-sun or incident-management analogs only where evidence is explicit."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/incident_reviews/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": "app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9",
+      "resume_snapshot_path": "applications/resumes/app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9/resume.md",
+      "discovered_at": "2026-07-02T13:04:46Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -457,8 +459,8 @@
         "remote Staff role with equity compensation and employee stock purchase plan mentioned",
         "GitLab is a high-compensation-likely global remote company; no exact local compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 87,
       "fit_reason": "Strong Staff backend/security platform fit: supply-chain security, package policy enforcement, provenance, artifact signing, CI/CD, security defaults, RFC-style async architecture, Go, and enterprise DevSecOps platform influence.",
@@ -499,10 +501,10 @@
           "work/project_docs/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573",
+      "resume_snapshot_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573/resume.md",
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -520,8 +522,8 @@
         "Associate Director title at global bank",
         "large financial-services employer; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 84,
       "fit_reason": "Solid platform/financial-services fit: next-generation application platform for thousands of engineers, Java microservices, Kubernetes, DevSecOps, engineering culture, compliance OKRs, cost efficiency, and complex change delivery.",
@@ -564,8 +566,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
-      "notes": []
+      "updated_at": "2026-07-02T15:36:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4416340150",
@@ -582,8 +586,8 @@
         "remote Senior Staff AI Platform role",
         "enterprise data platform company; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 83,
       "fit_reason": "Good AI platform fit: Vantage Cloud Platform user/admin experiences, distributed backend APIs, AI-powered features, agent-based systems, AI-assisted development workflows, cross-team technical leadership, and remote Karnataka eligibility.",
@@ -618,8 +622,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
-      "notes": []
+      "updated_at": "2026-07-02T15:36:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4340286558",
@@ -636,8 +642,8 @@
         "priority high-paying company",
         "posted role is director-level; no exact compensation visible in LinkedIn detail"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 96,
       "fit_reason": "Excellent match for Director/Architect evolution: distributed data infrastructure, billing correctness, 100+ region scale, 99.999% reliability expectations, observability, DR, testing automation, and manager-of-managers leadership.",
@@ -677,10 +683,10 @@
           "work/architecture/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
+      "resume_snapshot_path": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -698,8 +704,8 @@
         "priority high-paying company",
         "NVIDIA role mentions competitive salary and benefits but no exact compensation"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 95,
       "fit_reason": "Very strong platform leadership fit: cloud services, container/artifact/model registry capabilities, Kubernetes, PaaS operation, KPIs/SLAs, observability, security, senior leadership communication, and manager/senior IC coaching.",
@@ -738,10 +744,10 @@
           "work/project_docs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
+      "resume_snapshot_path": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -759,8 +765,8 @@
         "priority high-paying company",
         "director-level Databricks role; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 92,
       "fit_reason": "Strong director path role around developer productivity, AI-assisted development, scalable cloud services, and high-performance teams. Fits recent internal IDE/agentic developer systems story well.",
@@ -798,10 +804,10 @@
           "work/design_docs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-databricks-director-of-engineering-d852a8b0",
+      "resume_snapshot_path": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -819,8 +825,8 @@
         "remote staff role with equity benefits mentioned",
         "exact compensation not visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 90,
       "fit_reason": "Excellent AI governance and backend architecture match: auditability, policy enforcement, AI agents, enterprise reporting, tool governance, RFC-driven async engineering. Level is Staff IC, not Director/Principal.",
@@ -860,10 +866,10 @@
           "work/RFCs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1",
+      "resume_snapshot_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -881,8 +887,8 @@
         "priority high-paying company",
         "staff-level Databricks role; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 90,
       "fit_reason": "Strong technical match around multi-cloud efficiency, cost governance, automated release gates, performance regression detection, Kubernetes, and large-scale distributed infrastructure. IC level rather than Director.",
@@ -922,10 +928,10 @@
           "work/design_docs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2",
+      "resume_snapshot_path": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -943,8 +949,8 @@
         "director-level fintech/product role",
         "posting mentions bonus/equity eligibility but exact range not visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 87,
       "fit_reason": "Good director evolution role: platform architecture, AI-powered consumer finance experiences, operational excellence, and team scaling. Fintech experience from Jupiter/Niki is useful.",
@@ -980,10 +986,10 @@
           "resume/base_resume.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-intuit-director-software-engineering-3017f1a3",
+      "resume_snapshot_path": "applications/resumes/app-20260702-intuit-director-software-engineering-3017f1a3/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1001,8 +1007,8 @@
         "priority high-paying company",
         "senior staff level; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 86,
       "fit_reason": "Strong technical fit for cloud/distributed systems and staff-level technical leadership; less explicit Director path, but Google Cloud scope and level are compelling.",
@@ -1041,10 +1047,10 @@
           "work/architecture/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-google-senior-staff-software-engineer-googl-20feb543",
+      "resume_snapshot_path": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1062,8 +1068,8 @@
         "director-level financial services role",
         "benefits/bonus mentioned but exact compensation not visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 84,
       "fit_reason": "Good leadership fit across enterprise technology, data/platform engineering, compliance/risk, and 20+ engineer team management. Domain is marketing/attribution rather than core infrastructure.",
@@ -1101,10 +1107,10 @@
           "work/architecture/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-american-express-director-software-engineering-dc7520e5",
+      "resume_snapshot_path": "applications/resumes/app-20260702-american-express-director-software-engineering-dc7520e5/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1122,8 +1128,8 @@
         "priority high-paying company",
         "solutions architect role; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 82,
       "fit_reason": "Good match on agentic AI, RAG workflows, customer-facing technical leadership, and Kubernetes. Weaker on hands-on LLM training/GPU cluster specialization compared with the posting.",
@@ -1161,10 +1167,10 @@
           "work/RFCs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c",
+      "resume_snapshot_path": "applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1182,8 +1188,8 @@
         "priority AI infrastructure company",
         "senior IC role; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 80,
       "fit_reason": "Strong hands-on cloud platform match across complex PaaS, microservices, Java, Kubernetes, observability, DevSecOps, and distributed cloud services. Level appears lower than target Director/Principal path.",
@@ -1213,10 +1219,10 @@
           "resume/base_resume.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b",
+      "resume_snapshot_path": "applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1235,8 +1241,8 @@
         "director AI infrastructure role at large global public company",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 98,
       "fit_reason": "Best fit in this batch: Director-level AI physical infrastructure software spanning GPU fleet orchestration, SDN, storage backends, Kubernetes/Terraform automation, multi-region reliability, and 15+ years infrastructure leadership.",
@@ -1276,10 +1282,10 @@
           "work/ADRs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a",
+      "resume_snapshot_path": "applications/resumes/app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1298,8 +1304,8 @@
         "requires multi-team US/Bangalore leadership",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 94,
       "fit_reason": "Strong Director/Senior Director trajectory match: global multi-team engineering leadership, enterprise SaaS platform delivery, product/platform stack influence, DevOps/TDD, technical debt, and distributed backend systems.",
@@ -1338,10 +1344,10 @@
           "work/collaboration/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-docusign-senior-engineering-director-a93cfc5b",
+      "resume_snapshot_path": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1360,8 +1366,8 @@
         "Senior Staff payments architecture role",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 92,
       "fit_reason": "Strong senior staff/principal-equivalent IC fit: payments architecture, decision support, workflow orchestration, AI advancements, cross-functional strategy, governance, business impact, and India-remote eligibility.",
@@ -1392,10 +1398,10 @@
           "work/ADRs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129",
+      "resume_snapshot_path": "applications/resumes/app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1414,8 +1420,8 @@
         "staff platform role at Kafka/data streaming vendor",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 91,
       "fit_reason": "Excellent distributed platform fit: hybrid-first Confluent Platform management, observability, security, Kubernetes, distributed systems, operational hygiene, production incidents, and India engineering leadership influence.",
@@ -1446,10 +1452,10 @@
           "work/project_docs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-confluent-staff-software-engineer-i-confluent-b272916e",
+      "resume_snapshot_path": "applications/resumes/app-20260702-confluent-staff-software-engineer-i-confluent-b272916e/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1467,8 +1473,8 @@
         "Distinguished Engineer role at very large technology organization",
         "benefits/incentive awards mentioned but no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 90,
       "fit_reason": "Strong distinguished/principal architecture fit: agentic AI assistant backend, scalable fault-tolerant distributed systems, governance, platform strategy, cloud-native transformation, DevOps, and mentorship of Principal/Staff engineers.",
@@ -1500,10 +1506,10 @@
           "work/architecture/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b",
+      "resume_snapshot_path": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1522,8 +1528,8 @@
         "15-20 years platform architecture requirement",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 90,
       "fit_reason": "Strong principal platform fit: cloud-native distributed SaaS architecture, reliability, observability, developer productivity, security/privacy, multi-tenancy, canary deployments, chaos engineering, and org-wide architecture initiatives.",
@@ -1554,10 +1560,10 @@
           "work/design_docs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-thoughtspot-principal-software-engineer-4fcddad6",
+      "resume_snapshot_path": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1576,8 +1582,8 @@
         "strategic AWS partnership technical leadership role",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 88,
       "fit_reason": "High company/compensation signal and strong AI deployment architecture fit, especially repeatable AWS patterns, enterprise production GenAI systems, partner enablement, and cross-functional product feedback. Less aligned with Director/Principal platform engineering because it is partner/customer deployment oriented.",
@@ -1617,10 +1623,10 @@
           "work/ADRs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1",
+      "resume_snapshot_path": "applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {
@@ -1639,8 +1645,8 @@
         "regulated financial platform domain",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 88,
       "fit_reason": "Strong regulated platform leadership fit: platform strategy, data/analytics layers, security/compliance governance, cloud/DevOps, observability, Java/Python, Kubernetes, and payments/financial services domain.",
@@ -1680,10 +1686,10 @@
           "work/project_docs/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260702-mastercard-director-platform-engineering-a13e12d9",
+      "resume_snapshot_path": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
     },
     {

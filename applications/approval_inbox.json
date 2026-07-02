@@ -1,8 +1,65 @@
 {
   "schema_version": "approval_inbox.v1",
-  "updated_at": null,
-  "processed_issue_numbers": [],
-  "processed_batch_ids": [],
-  "last_processed_issue_number": 0,
-  "events": []
+  "updated_at": "2026-07-02T15:36:56Z",
+  "processed_issue_numbers": [
+    19,
+    20
+  ],
+  "processed_batch_ids": [
+    "approval-20260702-741f3ded",
+    "rejection-20260702-568de2d0"
+  ],
+  "last_processed_issue_number": 20,
+  "events": [
+    {
+      "issue_number": 19,
+      "batch_id": "approval-20260702-741f3ded",
+      "result": {
+        "created": 24,
+        "skipped": [],
+        "application_ids": [
+          "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
+          "app-20260702-databricks-director-of-engineering-d852a8b0",
+          "app-20260702-docusign-senior-engineering-director-a93cfc5b",
+          "app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b",
+          "app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129",
+          "app-20260702-mastercard-director-platform-engineering-a13e12d9",
+          "app-20260702-intuit-director-software-engineering-3017f1a3",
+          "app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c",
+          "app-20260702-google-senior-staff-software-engineer-googl-20feb543",
+          "app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9",
+          "app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1",
+          "app-20260702-thoughtspot-principal-software-engineer-4fcddad6",
+          "app-20260702-confluent-staff-software-engineer-i-confluent-b272916e",
+          "app-20260702-intuit-principal-engineer-builder-54c02674",
+          "app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a",
+          "app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573",
+          "app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1",
+          "app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2",
+          "app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b",
+          "app-20260702-blinkrx-director-engineering-586d1421",
+          "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
+          "app-20260702-magnit-global-director-engineering-7864387c",
+          "app-20260702-jiohotstar-senior-director-engineering-928a574f",
+          "app-20260702-american-express-director-software-engineering-dc7520e5"
+        ],
+        "repo": "/home/runner/work/resume/resume"
+      },
+      "url": "https://github.com/rverma-dev/resume/issues/19"
+    },
+    {
+      "issue_number": 20,
+      "batch_id": "rejection-20260702-568de2d0",
+      "result": {
+        "rejected": 3,
+        "skipped": [],
+        "job_ids": [
+          "linkedin-4405170209",
+          "linkedin-4416340150",
+          "linkedin-4436327437"
+        ]
+      },
+      "url": "https://github.com/rverma-dev/resume/issues/20"
+    }
+  ]
 }

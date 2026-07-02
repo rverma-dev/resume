@@ -1,7 +1,1166 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": null,
+  "updated_at": "2026-07-02T15:36:53Z",
   "approval_required": true,
   "allow_auto_apply": false,
-  "applications": []
+  "applications": [
+    {
+      "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
+      "job_id": "linkedin-4340286558",
+      "dedupe_key": "linkedin:4340286558",
+      "source": "linkedin",
+      "source_job_id": "4340286558",
+      "source_url": "https://www.linkedin.com/jobs/view/4340286558",
+      "company": "Databricks",
+      "role": "Director of Engineering (Data Infrastructure)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent match for Director/Architect evolution: distributed data infrastructure, billing correctness, 100+ region scale, 99.999% reliability expectations, observability, DR, testing automation, and manager-of-managers leadership.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "57 school alumni work here"
+        }
+      ],
+      "connections_summary": "57 school alumni work here from LinkedIn search signal.",
+      "resume_theme": {
+        "name": "Director data infrastructure and reliability",
+        "positioning": "Model the resume around revenue-critical distributed infrastructure: Hyperforce alerting, Brane event billing, Jupiter payments/compliance, multi-region rollout, SLOs, DR, and cost/reliability outcomes.",
+        "key_pointers": [
+          "Lead with Salesforce alert migration: 3M alerts, 50K-100K concurrent evaluations, $6M annualized cost reduction, multi-region rollout.",
+          "Use Jupiter $240M/month payments and Brane 10M events/min billing to prove correctness and revenue-critical infrastructure judgment.",
+          "Emphasize org leadership: 30-person DevOps/SRE org and manager/leader development from Brane/Niki."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-databricks-director-of-engineering-d852a8b0",
+      "job_id": "linkedin-4352753152",
+      "dedupe_key": "linkedin:4352753152",
+      "source": "linkedin",
+      "source_job_id": "4352753152",
+      "source_url": "https://www.linkedin.com/jobs/view/4352753152",
+      "company": "Databricks",
+      "role": "Director of Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong director path role around developer productivity, AI-assisted development, scalable cloud services, and high-performance teams. Fits recent internal IDE/agentic developer systems story well.",
+      "people": [
+        {
+          "name": "Siddharth",
+          "relationship": "network signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn detail: Siddharth and others in your network"
+        }
+      ],
+      "connections_summary": "57 school alumni work here; LinkedIn detail says Siddharth and others are reachable.",
+      "resume_theme": {
+        "name": "AI-assisted developer platform director",
+        "positioning": "Make Unleash/Internal IDE the center, backed by Salesforce platform ownership and prior org leadership, to show a credible Director story for developer productivity and AI-assisted engineering.",
+        "key_pointers": [
+          "Move Internal IDE/Unleash into a crisp platform-leadership story: local-first workspaces, automations, PR/GUS/browser/terminal context, release feeds.",
+          "Connect governed agentic systems to developer workflow adoption and risk controls.",
+          "Use Brane/Niki org leadership bullets to support Director-level scope."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/design_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-docusign-senior-engineering-director-a93cfc5b",
+      "job_id": "linkedin-4376021942",
+      "dedupe_key": "linkedin:4376021942",
+      "source": "linkedin",
+      "source_job_id": "4376021942",
+      "source_url": "https://www.linkedin.com/jobs/view/4376021942",
+      "company": "Docusign",
+      "role": "Senior Engineering Director",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Director/Senior Director trajectory match: global multi-team engineering leadership, enterprise SaaS platform delivery, product/platform stack influence, DevOps/TDD, technical debt, and distributed backend systems.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Docusign",
+          "profile_url": "",
+          "notes": "Search result showed 1 connection works here"
+        }
+      ],
+      "connections_summary": "Search result showed 1 connection works here.",
+      "resume_theme": {
+        "name": "Enterprise SaaS senior engineering director",
+        "positioning": "Shape the resume around enterprise SaaS execution, global platform modernization, and director-level org building across Salesforce, Brane, and Niki.",
+        "key_pointers": [
+          "Highlight Brane enterprise SaaS platform: control plane, tenancy, metering, telemetry, billing, and on-prem distribution.",
+          "Show Salesforce Hyperforce cross-team architecture ownership with RFCs, rollouts, and operational outcomes.",
+          "Bring Niki 3 EM / 40 engineer leadership and Brane 30-person DevOps/SRE leadership into the top leadership proof points."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/collaboration/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b",
+      "job_id": "linkedin-4400498924",
+      "dedupe_key": "linkedin:4400498924",
+      "source": "linkedin",
+      "source_job_id": "4400498924",
+      "source_url": "https://www.linkedin.com/jobs/view/4400498924",
+      "company": "Walmart Global Tech India",
+      "role": "DISTINGUISHED, SOFTWARE ENGINEER",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Strong distinguished/principal architecture fit: agentic AI assistant backend, scalable fault-tolerant distributed systems, governance, platform strategy, cloud-native transformation, DevOps, and mentorship of Principal/Staff engineers.",
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Distinguished agentic systems platform leader",
+        "positioning": "Position as an architect of agentic systems and enterprise-scale backend platforms with governance, reliability, and cloud transformation proof.",
+        "key_pointers": [
+          "Lead with governed multi-agent decision system and AM Agent Federation as agentic AI evidence.",
+          "Use Hyperforce alerting and Visualizer distributed systems scale to demonstrate platform reliability.",
+          "Add Brane/Niki mentorship and org leadership to support influence across Principal/Staff engineers."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129",
+      "job_id": "linkedin-4403111057",
+      "dedupe_key": "linkedin:4403111057",
+      "source": "linkedin",
+      "source_job_id": "4403111057",
+      "source_url": "https://www.linkedin.com/jobs/view/4403111057",
+      "company": "Airbnb",
+      "role": "Senior Staff Software Engineer, Payments",
+      "location": "Bengaluru, Karnataka, India / Remote India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong senior staff/principal-equivalent IC fit: payments architecture, decision support, workflow orchestration, AI advancements, cross-functional strategy, governance, business impact, and India-remote eligibility.",
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Payments architecture and AI workflow systems",
+        "positioning": "Present as a senior technical leader for payment-scale systems who can add AI decision support and workflow orchestration without compromising reliability or compliance.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments architecture and partner-bank compliance.",
+          "Use Niki Payment SDK at 1.2M transactions/day and Brane event-billing for breadth across payment/revenue systems.",
+          "Connect Internal IDE and governed agentic systems to decision support, knowledge management, and workflow orchestration."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-mastercard-director-platform-engineering-a13e12d9",
+      "job_id": "linkedin-4406442627",
+      "dedupe_key": "linkedin:4406442627",
+      "source": "linkedin",
+      "source_job_id": "4406442627",
+      "source_url": "https://www.linkedin.com/jobs/view/4406442627",
+      "company": "Mastercard",
+      "role": "Director - Platform Engineering",
+      "location": "Pune/Pimpri-Chinchwad Area, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 88,
+      "fit_reason": "Strong regulated platform leadership fit: platform strategy, data/analytics layers, security/compliance governance, cloud/DevOps, observability, Java/Python, Kubernetes, and payments/financial services domain.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Mastercard",
+          "profile_url": "",
+          "notes": "Search result showed 74 company alumni work here"
+        }
+      ],
+      "connections_summary": "Search result showed 74 company alumni work here.",
+      "resume_theme": {
+        "name": "Regulated payments data platform director",
+        "positioning": "Position as a director-level platform engineer for regulated payment/data systems with strong compliance, cloud, and observability proof.",
+        "key_pointers": [
+          "Lead with Jupiter payments/compliance ownership and $240M/month transaction architecture.",
+          "Use Brane metering/billing/telemetry platform and Salesforce observability for platform operations.",
+          "Emphasize ISO 27001, SOC 2, PCI-DSS, NPCI, and UPI SAR audit outcomes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-intuit-director-software-engineering-3017f1a3",
+      "job_id": "linkedin-4416143474",
+      "dedupe_key": "linkedin:4416143474",
+      "source": "linkedin",
+      "source_job_id": "4416143474",
+      "source_url": "https://www.linkedin.com/jobs/view/4416143474",
+      "company": "Intuit",
+      "role": "Director, Software Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 87,
+      "fit_reason": "Good director evolution role: platform architecture, AI-powered consumer finance experiences, operational excellence, and team scaling. Fintech experience from Jupiter/Niki is useful.",
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Intuit",
+          "profile_url": "",
+          "notes": "4 connections work here"
+        }
+      ],
+      "connections_summary": "4 connections work here from LinkedIn search signal.",
+      "resume_theme": {
+        "name": "Fintech platform and AI product leadership",
+        "positioning": "Blend Jupiter/Niki fintech scale with Salesforce AI/platform work and Brane org leadership to present a Director who can scale AI-enabled financial products.",
+        "key_pointers": [
+          "Use Jupiter $240M/month card/UPI infrastructure and compliance ownership early.",
+          "Show Niki payment SDK 1.2M transactions/day and leadership of 3 EMs/40 engineers.",
+          "Use Salesforce agentic systems as AI/customer signal decision velocity, not just tooling."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-intuit-director-software-engineering-3017f1a3/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-intuit-director-software-engineering-3017f1a3/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c",
+      "job_id": "linkedin-4416338537",
+      "dedupe_key": "linkedin:4416338537",
+      "source": "linkedin",
+      "source_job_id": "4416338537",
+      "source_url": "https://www.linkedin.com/jobs/view/4416338537",
+      "company": "NVIDIA",
+      "role": "Senior Solutions Architect - Gen AI",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 82,
+      "fit_reason": "Good match on agentic AI, RAG workflows, customer-facing technical leadership, and Kubernetes. Weaker on hands-on LLM training/GPU cluster specialization compared with the posting.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "NVIDIA",
+          "profile_url": "",
+          "notes": "429 company alumni work here"
+        }
+      ],
+      "connections_summary": "429 company alumni work here from LinkedIn search signal.",
+      "resume_theme": {
+        "name": "Agentic AI and RAG solution architecture",
+        "positioning": "Use agent federation, proactive diagnostics, RAG boundaries, and governed AI platform work, while staying honest that GPU/LLM training depth is not the core proof point.",
+        "key_pointers": [
+          "Lead with AM Agent Federation, MCP-first tool facades, A2A, LangGraph, and memory/RAG boundaries.",
+          "Use Proactive Diagnostics evidence plane and explainability/audit controls.",
+          "Avoid claiming deep LLM training or GPU cluster management unless backed by evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-google-senior-staff-software-engineer-googl-20feb543",
+      "job_id": "linkedin-4418536466",
+      "dedupe_key": "linkedin:4418536466",
+      "source": "linkedin",
+      "source_job_id": "4418536466",
+      "source_url": "https://www.linkedin.com/jobs/view/4418536466",
+      "company": "Google",
+      "role": "Senior Staff Software Engineer, Google Cloud",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 86,
+      "fit_reason": "Strong technical fit for cloud/distributed systems and staff-level technical leadership; less explicit Director path, but Google Cloud scope and level are compelling.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Google",
+          "profile_url": "",
+          "notes": "2,013 company alumni work here"
+        }
+      ],
+      "connections_summary": "2,013 company alumni work here from LinkedIn search signal.",
+      "resume_theme": {
+        "name": "Cloud distributed systems staff leadership",
+        "positioning": "Keep this as a senior technical leadership resume: deep distributed systems, launch rigor, large-scale SaaS/observability, and clear cross-team influence.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce re-platform and Prometheus architecture.",
+          "Use Visualizer Druid topology scale and multi-tenant cloud-data platform work.",
+          "Keep people-management bullets secondary unless the specific team asks for it."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9",
+      "job_id": "linkedin-4422682326",
+      "dedupe_key": "linkedin:4422682326",
+      "source": "linkedin",
+      "source_job_id": "4422682326",
+      "source_url": "https://www.linkedin.com/jobs/view/4422682326",
+      "company": "Charles River Laboratories",
+      "role": "Director, Data Engineering & Platforms",
+      "location": "Bengaluru, Karnataka, India / Remote India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 88,
+      "fit_reason": "Good Director data-platform fit: Azure data platform, AI/data strategy, DevOps/MLOps, IaC, follow-the-sun operations, incident management, InfoSec/compliance local management, and global stakeholder leadership.",
+      "people": [
+        {
+          "name": "Amro Zidan",
+          "relationship": "3rd-degree / company alum from Salesforce",
+          "role": "Capital and Fixed Assets Finance Manager at Genentech",
+          "profile_url": "",
+          "notes": "Visible in LinkedIn job detail as person you can reach out to"
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed Amro Zidan as a reachable 3rd-degree company alum from Salesforce.",
+      "resume_theme": {
+        "name": "Global data platform director",
+        "positioning": "Show a data-and-AI platform leader with global operations, compliance, and incident-management depth, while acknowledging cloud portability from AWS-heavy experience.",
+        "key_pointers": [
+          "Use Jupiter AWS/EMR/Airflow/Flink/Kubernetes and Brane ClickHouse/Kafka/S3 data platform work as data engineering evidence.",
+          "Emphasize ISO 27001, SOC 2, PCI-DSS, and InfoSec readiness across Jupiter and Brane.",
+          "Mention follow-the-sun or incident-management analogs only where evidence is explicit."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/incident_reviews/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1",
+      "job_id": "linkedin-4422847036",
+      "dedupe_key": "linkedin:4422847036",
+      "source": "linkedin",
+      "source_job_id": "4422847036",
+      "source_url": "https://www.linkedin.com/jobs/view/4422847036",
+      "company": "OpenAI",
+      "role": "Partner AI Deployment Engineer - AWS",
+      "location": "India / Bangalore",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 88,
+      "fit_reason": "High company/compensation signal and strong AI deployment architecture fit, especially repeatable AWS patterns, enterprise production GenAI systems, partner enablement, and cross-functional product feedback. Less aligned with Director/Principal platform engineering because it is partner/customer deployment oriented.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "OpenAI",
+          "profile_url": "",
+          "notes": "Search result showed 7 school alumni work here"
+        }
+      ],
+      "connections_summary": "Search result showed 7 school alumni work here.",
+      "resume_theme": {
+        "name": "Enterprise GenAI deployment architect",
+        "positioning": "Emphasize production GenAI/agent deployment architecture, AWS/cloud depth, repeatable reference patterns, and enterprise trust controls.",
+        "key_pointers": [
+          "Lead with AM Agent Federation, governed diagnostic evidence plane, and agentic developer systems.",
+          "Use Salesforce Hyperforce/AWS platform experience to establish cloud deployment credibility.",
+          "Bring consultant experience and cross-functional RFC leadership to support partner/customer advisory work."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-thoughtspot-principal-software-engineer-4fcddad6",
+      "job_id": "linkedin-4424349339",
+      "dedupe_key": "linkedin:4424349339",
+      "source": "linkedin",
+      "source_job_id": "4424349339",
+      "source_url": "https://www.linkedin.com/jobs/view/4424349339",
+      "company": "ThoughtSpot",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Strong principal platform fit: cloud-native distributed SaaS architecture, reliability, observability, developer productivity, security/privacy, multi-tenancy, canary deployments, chaos engineering, and org-wide architecture initiatives.",
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Principal cloud-native analytics platform architect",
+        "positioning": "Frame around cloud-native platform architecture, multi-tenancy, developer productivity, and operational excellence in enterprise SaaS.",
+        "key_pointers": [
+          "Use Brane enterprise SaaS platform and Salesforce Hyperforce multi-tenant observability as central evidence.",
+          "Highlight Internal IDE/Unleash for developer productivity and platform acceleration.",
+          "Use canary/blue-green rollout, observability, and compliance points from base resume."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-confluent-staff-software-engineer-i-confluent-b272916e",
+      "job_id": "linkedin-4425490790",
+      "dedupe_key": "linkedin:4425490790",
+      "source": "linkedin",
+      "source_job_id": "4425490790",
+      "source_url": "https://www.linkedin.com/jobs/view/4425490790",
+      "company": "Confluent",
+      "role": "Staff Software Engineer I - Confluent Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Excellent distributed platform fit: hybrid-first Confluent Platform management, observability, security, Kubernetes, distributed systems, operational hygiene, production incidents, and India engineering leadership influence.",
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Hybrid data streaming platform architect",
+        "positioning": "Center the resume on operating distributed data and observability platforms across hybrid/cloud environments with strong reliability and governance.",
+        "key_pointers": [
+          "Use Hyperforce observability scale and Prometheus/Druid platform work to map to operational platform capabilities.",
+          "Use Brane Kafka/DynamoDB/TiDB/Redis and workflow engine scale to prove distributed data systems depth.",
+          "Mention Flink, Kafka, Spark, Hudi, and Druid from base skills/experience where backed by resume evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-confluent-staff-software-engineer-i-confluent-b272916e/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-confluent-staff-software-engineer-i-confluent-b272916e/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-intuit-principal-engineer-builder-54c02674",
+      "job_id": "linkedin-4426107189",
+      "dedupe_key": "linkedin:4426107189",
+      "source": "linkedin",
+      "source_job_id": "4426107189",
+      "source_url": "https://www.linkedin.com/jobs/view/4426107189",
+      "company": "Intuit",
+      "role": "Principal Engineer, Builder",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Excellent Principal Architect fit: AI-native enterprise ERP platform, distributed SaaS architecture, SLOs, observability, reliability, migration, extensibility, financial workflows, and cross-team technical influence.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Intuit",
+          "profile_url": "",
+          "notes": "Search result showed 4 connections work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 4 connections work here.",
+      "resume_theme": {
+        "name": "AI-native financial SaaS principal",
+        "positioning": "Position as a Principal Engineer who has repeatedly built regulated, multi-tenant, AI-enabled and financial-grade systems with measurable reliability and cost outcomes.",
+        "key_pointers": [
+          "Lead with Jupiter compliance/payments and Brane billing/metering for financial workflow credibility.",
+          "Tie MuleSoft Pulse and governed agent systems to AI-to-human operational workflows.",
+          "Show platform extensibility through Integration Marketplace, Brane integration platform, and MuleSoft agent federation."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/README.md",
+          "work/ADRs/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a",
+      "job_id": "linkedin-4426938830",
+      "dedupe_key": "linkedin:4426938830",
+      "source": "linkedin",
+      "source_job_id": "4426938830",
+      "source_url": "https://www.linkedin.com/jobs/view/4426938830",
+      "company": "Coupang",
+      "role": "Director Backend Engineering - AI Infrastructure",
+      "location": "Bangalore Urban, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Best fit in this batch: Director-level AI physical infrastructure software spanning GPU fleet orchestration, SDN, storage backends, Kubernetes/Terraform automation, multi-region reliability, and 15+ years infrastructure leadership.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Coupang",
+          "profile_url": "",
+          "notes": "Search result showed 2 connections work here"
+        }
+      ],
+      "connections_summary": "Search result showed 2 connections work here.",
+      "resume_theme": {
+        "name": "Director AI infrastructure platform",
+        "positioning": "Position as a director-caliber platform leader who turns complex infrastructure into reliable automated product platforms across observability, AI agents, and multi-tenant cloud systems.",
+        "key_pointers": [
+          "Lead with Hyperforce alerting scale, AMP migration, multi-region rollout, and $6M annualized cost reduction.",
+          "Use Brane platform/infrastructure/security stack built with a 2-engineer core and 30-person DevOps/SRE leadership to prove org and platform scope.",
+          "Connect governed agentic systems and AM Agent Federation to production AI infrastructure strategy, governance, and runtime control."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573",
+      "job_id": "linkedin-4427041859",
+      "dedupe_key": "linkedin:4427041859",
+      "source": "linkedin",
+      "source_job_id": "4427041859",
+      "source_url": "https://www.linkedin.com/jobs/view/4427041859",
+      "company": "GitLab",
+      "role": "Staff Backend Engineer, Software Supply Chain Security",
+      "location": "Greater Delhi Area / Remote",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 87,
+      "fit_reason": "Strong Staff backend/security platform fit: supply-chain security, package policy enforcement, provenance, artifact signing, CI/CD, security defaults, RFC-style async architecture, Go, and enterprise DevSecOps platform influence.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "GitLab",
+          "profile_url": "",
+          "notes": "Search result showed 122 company alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 122 company alumni work here.",
+      "resume_theme": {
+        "name": "Secure developer platform staff engineer",
+        "positioning": "Emphasize developer platform, governance, CI/CD, compliance, and architecture writing rather than generic backend engineering.",
+        "key_pointers": [
+          "Use Unleash/internal IDE, release feeds, GitHub Enterprise Pages publishing, and agent governance as developer-platform evidence.",
+          "Use Jupiter/Brane compliance and security stack for secure-defaults credibility.",
+          "Show RFC/ADR authorship from Salesforce as async technical leadership evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/README.md",
+          "work/project_docs/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1",
+      "job_id": "linkedin-4427048791",
+      "dedupe_key": "linkedin:4427048791",
+      "source": "linkedin",
+      "source_job_id": "4427048791",
+      "source_url": "https://www.linkedin.com/jobs/view/4427048791",
+      "company": "GitLab",
+      "role": "Staff Backend Engineer, SSCS: AI Governance",
+      "location": "Greater Delhi Area / Remote",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Excellent AI governance and backend architecture match: auditability, policy enforcement, AI agents, enterprise reporting, tool governance, RFC-driven async engineering. Level is Staff IC, not Director/Principal.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "GitLab",
+          "profile_url": "",
+          "notes": "2 school alumni work here"
+        }
+      ],
+      "connections_summary": "2 school alumni work here from LinkedIn search signal.",
+      "resume_theme": {
+        "name": "AI governance backend architect",
+        "positioning": "Make governed multi-agent systems and AM agent federation the lead story, supported by compliance/security experience and backend platform scale.",
+        "key_pointers": [
+          "Lead with four-plane governed multi-agent system, run ledger, path-tiered write authority, and compliance hooks.",
+          "Use AM Agent Federation and proactive diagnostics audit/cost controls to map to AI agent governance.",
+          "Bring Jupiter/Brane compliance experience to cover regulated enterprise adoption."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2",
+      "job_id": "linkedin-4428930824",
+      "dedupe_key": "linkedin:4428930824",
+      "source": "linkedin",
+      "source_job_id": "4428930824",
+      "source_url": "https://www.linkedin.com/jobs/view/4428930824",
+      "company": "Databricks",
+      "role": "Staff Software Engineer - Multi Cloud Efficiency",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Strong technical match around multi-cloud efficiency, cost governance, automated release gates, performance regression detection, Kubernetes, and large-scale distributed infrastructure. IC level rather than Director.",
+      "people": [
+        {
+          "name": "Siddharth",
+          "relationship": "network signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn detail: Siddharth and others in your network"
+        }
+      ],
+      "connections_summary": "1 connection works here; LinkedIn detail says Siddharth and others are reachable.",
+      "resume_theme": {
+        "name": "Multi-cloud efficiency and autonomous cost governance",
+        "positioning": "Center the resume on measurable cost and reliability systems: Salesforce $6M observability savings, FinOps, automated validation, release gates, and platform observability.",
+        "key_pointers": [
+          "Lead with 80% cost-to-serve reduction / $6M annualized savings in Anypoint Monitoring Alerts.",
+          "Use Gaian FinOps and Brane platform cost/observability leadership as supporting evidence.",
+          "Map coherence-validator, TEST_SCENARIOS, and automation work to release gates/regression detection."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/planning/",
+          "work/design_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b",
+      "job_id": "linkedin-4432395688",
+      "dedupe_key": "linkedin:4432395688",
+      "source": "linkedin",
+      "source_job_id": "4432395688",
+      "source_url": "https://www.linkedin.com/jobs/view/4432395688",
+      "company": "NVIDIA AI",
+      "role": "Senior Cloud Software Engineer",
+      "location": "Pune City, Maharashtra, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 80,
+      "fit_reason": "Strong hands-on cloud platform match across complex PaaS, microservices, Java, Kubernetes, observability, DevSecOps, and distributed cloud services. Level appears lower than target Director/Principal path.",
+      "people": [],
+      "connections_summary": "No direct people signal captured in detail fetch.",
+      "resume_theme": {
+        "name": "Hands-on cloud platform engineer",
+        "positioning": "Use as a fallback technical fit: emphasize Java/Kubernetes/cloud observability depth, but keep career-level risk visible before approval.",
+        "key_pointers": [
+          "Lead with Hyperforce alerting, Java/Spring/PaaS, Kubernetes, and observability scale.",
+          "Use Brane platform and Jupiter cloud-data platform as supporting infra depth.",
+          "Do not down-level the overall resume too far; keep Principal/Architect signal prominent."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-blinkrx-director-engineering-586d1421",
+      "job_id": "linkedin-4434320707",
+      "dedupe_key": "linkedin:4434320707",
+      "source": "linkedin",
+      "source_job_id": "4434320707",
+      "source_url": "https://www.linkedin.com/jobs/view/4434320707",
+      "company": "BlinkRx",
+      "role": "Director, Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 89,
+      "fit_reason": "Good Director fit: multiple teams, cloud/data platform ownership, healthcare workflow scale, AI-native engineering culture, microservices, CI/CD, AWS, and strong people-development requirements.",
+      "people": [
+        {
+          "name": "Company alum",
+          "relationship": "alumni signal",
+          "role": "BlinkRx",
+          "profile_url": "",
+          "notes": "Search result showed 1 company alum works here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 1 company alum works here.",
+      "resume_theme": {
+        "name": "Healthcare platform engineering director",
+        "positioning": "Emphasize regulated platform execution, payments/compliance, cloud reliability, and engineering leadership for a healthcare commerce platform.",
+        "key_pointers": [
+          "Use Jupiter compliance and payments plus Brane enterprise security stack for regulated-platform credibility.",
+          "Use Niki and Brane org leadership bullets to prove multi-team management.",
+          "Keep Salesforce Hyperforce and observability outcomes prominent for platform scaling."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-blinkrx-director-engineering-586d1421/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-blinkrx-director-engineering-586d1421/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
+      "job_id": "linkedin-4434366858",
+      "dedupe_key": "linkedin:4434366858",
+      "source": "linkedin",
+      "source_job_id": "4434366858",
+      "source_url": "https://www.linkedin.com/jobs/view/4434366858",
+      "company": "NVIDIA",
+      "role": "Senior Manager, Cloud Services Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Very strong platform leadership fit: cloud services, container/artifact/model registry capabilities, Kubernetes, PaaS operation, KPIs/SLAs, observability, security, senior leadership communication, and manager/senior IC coaching.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "NVIDIA",
+          "profile_url": "",
+          "notes": "244 school alumni work here"
+        }
+      ],
+      "connections_summary": "244 school alumni work here from LinkedIn search signal.",
+      "resume_theme": {
+        "name": "Cloud services platform leadership",
+        "positioning": "Position as a platform leader who builds and operates secure cloud-native developer/service platforms with measurable reliability, cost, and delivery outcomes.",
+        "key_pointers": [
+          "Lead with Hyperforce observability platform scale, $6M annualized savings, AMP migration, and multi-region rollout.",
+          "Use Brane SaaS/PaaS platform, CI/CD, observability, IaC, and security stack built by a 2-engineer platform core.",
+          "Bring Unleash/internal IDE as developer platform and distribution surface evidence, not as a side project."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-magnit-global-director-engineering-7864387c",
+      "job_id": "linkedin-4434603870",
+      "dedupe_key": "linkedin:4434603870",
+      "source": "linkedin",
+      "source_job_id": "4434603870",
+      "source_url": "https://www.linkedin.com/jobs/view/4434603870",
+      "company": "Magnit Global",
+      "role": "Director, Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong Director fit around Operations & AI Automation: 3-4 teams, production AI agents/RAG/tool-calling, enterprise SaaS platform, AWS, event-driven systems, observability, delivery predictability, and next-layer leader development.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Magnit Global",
+          "profile_url": "",
+          "notes": "Search result showed 4 company alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 4 company alumni work here.",
+      "resume_theme": {
+        "name": "Production AI automation director",
+        "positioning": "Make governed production AI systems and platform operations the center, backed by prior org leadership and enterprise SaaS delivery.",
+        "key_pointers": [
+          "Lead with MuleSoft Pulse, agent federation, governed diagnostic evidence plane, and Unleash multi-agent decision system.",
+          "Use Brane 30-person DevOps/SRE leadership and enterprise SaaS platform delivery to prove director scope.",
+          "Emphasize observability, CI/CD, security, and release management across Salesforce and Brane."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-magnit-global-director-engineering-7864387c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-magnit-global-director-engineering-7864387c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-jiohotstar-senior-director-engineering-928a574f",
+      "job_id": "linkedin-4434646804",
+      "dedupe_key": "linkedin:4434646804",
+      "source": "linkedin",
+      "source_job_id": "4434646804",
+      "source_url": "https://www.linkedin.com/jobs/view/4434646804",
+      "company": "JioHotstar",
+      "role": "Senior Director - Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Excellent Director trajectory fit: senior engineering leadership over retail adtech platform, low-latency/high-throughput distributed systems, data/ML platform components, observability, cost efficiency, org design, and revenue/billing platform scope.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "JioHotstar",
+          "profile_url": "",
+          "notes": "Search result showed 1 connection works here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 1 connection works here.",
+      "resume_theme": {
+        "name": "Revenue platform engineering director",
+        "positioning": "Lead with revenue-critical platform ownership across payments, billing, observability, and data systems, then connect distributed architecture to adtech-style scale and business outcomes.",
+        "key_pointers": [
+          "Use Brane sidecar event-billing at 10M events/min and Jupiter $240M/month payments to support billing and revenue-system credibility.",
+          "Use Hyperforce observability scale and $6M annualized cost reduction for operational excellence and cost efficiency.",
+          "Emphasize Niki and Brane org leadership: 3 EMs/40 engineers and 30-person DevOps/SRE organization."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-jiohotstar-senior-director-engineering-928a574f/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-jiohotstar-senior-director-engineering-928a574f/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260702-american-express-director-software-engineering-dc7520e5",
+      "job_id": "linkedin-4435087532",
+      "dedupe_key": "linkedin:4435087532",
+      "source": "linkedin",
+      "source_job_id": "4435087532",
+      "source_url": "https://www.linkedin.com/jobs/view/4435087532",
+      "company": "American Express",
+      "role": "Director Software Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260702-741f3ded",
+      "approved_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-02T15:36:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 84,
+      "fit_reason": "Good leadership fit across enterprise technology, data/platform engineering, compliance/risk, and 20+ engineer team management. Domain is marketing/attribution rather than core infrastructure.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "American Express",
+          "profile_url": "",
+          "notes": "50 company alumni work here"
+        }
+      ],
+      "connections_summary": "50 company alumni work here from LinkedIn search signal.",
+      "resume_theme": {
+        "name": "Regulated enterprise data platform director",
+        "positioning": "Position around regulated financial infrastructure, enterprise data pipelines, cloud-native delivery, and leading large engineering/SRE organizations.",
+        "key_pointers": [
+          "Lead with Jupiter compliance and $240M/month payment infrastructure.",
+          "Use Brane 30-person DevOps/SRE leadership and enterprise SaaS platform scope.",
+          "Add Salesforce observability and proactive diagnostics for enterprise operational intelligence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/incident_reviews/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260702-american-express-director-software-engineering-dc7520e5/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260702-american-express-director-software-engineering-dc7520e5/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    }
+  ]
 }
