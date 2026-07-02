@@ -730,60 +730,6 @@
       "notes": []
     },
     {
-      "job_id": "linkedin-4426079955",
-      "dedupe_key": "linkedin:4426079955",
-      "source": "linkedin",
-      "source_job_id": "4426079955",
-      "source_url": "https://www.linkedin.com/jobs/view/4426079955",
-      "company": "Rippling",
-      "role": "Director Of Engineering",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "hybrid",
-      "experience_level": "director",
-      "compensation_signals": [
-        "high-compensation-likely late-stage startup",
-        "director role building Bangalore hub and 25+ person org",
-        "no exact compensation visible in LinkedIn detail"
-      ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
-      "batch_id": "batch-20260702-543819ee",
-      "fit_score": 94,
-      "fit_reason": "Very strong 0->1 plus scale leadership fit: build a Bangalore hub, hire/coach managers and ICs, own integrations platform, observability, retries, idempotency, reconciliation, SLOs, APIs, webhooks, and data modeling.",
-      "fit_signals": [
-        "Director org buildout",
-        "0 to 1 platform",
-        "integrations platform",
-        "observability and SLOs",
-        "distributed systems",
-        "manager-of-managers"
-      ],
-      "risk_flags": [
-        "Domain is finance/accounting integrations rather than AI/platform infra; tailor Jupiter/Brane payments evidence carefully"
-      ],
-      "people": [],
-      "connections_summary": "No visible connection signal captured from detail page.",
-      "resume_theme": {
-        "name": "0 to 1 finance platform director",
-        "positioning": "Emphasize platform creation, regulated financial systems, integration reliability, and org-building in Bangalore.",
-        "key_pointers": [
-          "Use Jupiter $240M/month payments and compliance ownership to match financial data/platform risk.",
-          "Use Brane billing/metering and 10M events/min sidecar event-billing as integration and reconciliation-adjacent evidence.",
-          "Lead with Brane/Niki people leadership plus Salesforce 0->1 platform architecture."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/architecture/",
-          "work/project_docs/"
-        ]
-      },
-      "application_id": null,
-      "resume_snapshot_path": null,
-      "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T12:05:43Z",
-      "notes": []
-    },
-    {
       "job_id": "linkedin-4403111057",
       "dedupe_key": "linkedin:4403111057",
       "source": "linkedin",
