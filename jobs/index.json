@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-02T13:04:46Z",
-  "active_batch_id": "batch-20260702-linkedin-003",
-  "last_scheduler_run_at": "2026-07-02T13:04:46Z",
+  "updated_at": "2026-07-02T14:05:33Z",
+  "active_batch_id": "batch-20260702-179f69f0",
+  "last_scheduler_run_at": "2026-07-02T14:05:33Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -1747,6 +1747,500 @@
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T12:05:43Z",
       "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4428629316",
+      "dedupe_key": "linkedin:4428629316",
+      "source": "linkedin",
+      "source_job_id": "4428629316",
+      "source_url": "https://www.linkedin.com/jobs/view/4428629316",
+      "company": "DigitalOcean",
+      "role": "Senior Director of Engineering, Managed MySQL",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Director",
+      "compensation_signals": [
+        "DigitalOcean states salary is market-based and role may include bonus and equity compensation.",
+        "Senior Director ownership of a tier-0 managed database service at a global AI-native cloud company suggests high compensation likelihood.",
+        "Application limit of 3 positions per 180 days means this should be reviewed deliberately before applying."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 96,
+      "fit_reason": "Exceptional Director trajectory fit: end-to-end ownership of Managed MySQL reliability, scale, observability, security, architecture, AI-native roadmap, and managers-of-managers leadership aligns with MuleSoft observability platform ownership and distributed systems background.",
+      "fit_signals": [
+        "15+ years cloud/data/distributed systems and 6+ years managing managers requested.",
+        "Owns availability, scalability, performance, security, SLOs, incident response, multi-region resilience, and fleet automation.",
+        "AI-native data substrate and agent-state roadmap maps to governed agentic systems and AI infrastructure positioning.",
+        "Bengaluru location matches preferred geography."
+      ],
+      "risk_flags": [
+        "Hybrid Bengaluru role; verify flexibility against current remote-US-org preference.",
+        "Role expects deep database-service leadership; resume should foreground Druid/AMP scale, data-plane reliability, and distributed platform primitives."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail did not show named reachable connections; posting shows DigitalOcean company profile and over 100 people clicked apply.",
+      "resume_theme": {
+        "name": "Director AI-native cloud data infrastructure",
+        "positioning": "Position Rohit as a principal-to-director platform leader who has run tier-0 observability/data infrastructure and can own reliability, scale, FinOps, and AI-native platform strategy.",
+        "key_pointers": [
+          "Lead with 3M-alert AMP migration, 80% cost-to-serve reduction, and $6M annualized observability savings.",
+          "Emphasize 50K-100K concurrent evaluations, 60+ AMP workspaces, SLO discipline, incident-readiness, and multi-region rollout.",
+          "Connect Druid-native topology and governed agentic systems to AI-ready data substrate strategy."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4398008892",
+      "dedupe_key": "linkedin:4398008892",
+      "source": "linkedin",
+      "source_job_id": "4398008892",
+      "source_url": "https://www.linkedin.com/jobs/view/4398008892",
+      "company": "GE HealthCare",
+      "role": "Director PCS Cloud Operations SRE",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Director",
+      "compensation_signals": [
+        "Director role reporting to VP Engineering for mission-critical cloud applications.",
+        "Healthcare cloud/SRE leadership with AWS, DevSecOps, observability, AIOps, and FinOps signals strong senior compensation potential.",
+        "No relocation assistance provided."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 94,
+      "fit_reason": "Very strong match for Director SRE/CloudOps: the posting centers on SLIs/SLOs, observability, AIOps, incident management, AWS operations, DevSecOps, and FinOps, which mirrors Rohit's MuleSoft observability and Hyperforce platform work.",
+      "fit_signals": [
+        "Own Cloud Operations and institutionalize SRE practices across multiple products.",
+        "Build end-to-end observability with logs, metrics, traces, proactive alerting, auto-healing, and anomaly detection.",
+        "Drive FinOps, CI/CD standardization, DR/BCP, and AWS Well-Architected reviews.",
+        "Bengaluru location matches preferred geography."
+      ],
+      "risk_flags": [
+        "On-site role and no relocation assistance; verify office expectations.",
+        "Medical-device process experience is listed; resume may need to frame compliance/governance readiness without overclaiming healthcare-domain exposure."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail did not show named reachable connections; search result showed 12 company alumni work there and posting has over 100 clicks.",
+      "resume_theme": {
+        "name": "Director cloud operations and observability",
+        "positioning": "Position Rohit as an SRE/CloudOps director candidate with proven observability, SLO, incident-readiness, FinOps, and secure cloud platform results.",
+        "key_pointers": [
+          "Lead with AMP migration, 80% cost-to-serve reduction, and zero customer-visible SLO regression.",
+          "Emphasize proactive diagnosis architecture, alert-storm dedup, tenant budgets, and degradation flags.",
+          "Highlight Hyperforce rollout, LaunchDarkly Relay Proxy, GIA-mode deployment wiring, and test/validation harnesses."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/project_docs/README.md",
+          "work/incident_reviews/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436338022",
+      "dedupe_key": "linkedin:4436338022",
+      "source": "linkedin",
+      "source_job_id": "4436338022",
+      "source_url": "https://www.linkedin.com/jobs/view/4436338022",
+      "company": "Amazon Web Services (AWS)",
+      "role": "Sr. Migration Modernization Architect, Professional Services",
+      "location": "Mumbai, Maharashtra, India; posting also says open for Delhi/NCR",
+      "work_type": "On-site",
+      "experience_level": "Senior Architect",
+      "compensation_signals": [
+        "AWS senior architect role in Professional Services at a priority company suggests high compensation likelihood.",
+        "Customer-facing CXO communication, migration modernization, GenAI tooling, and cloud transformation scope are senior-impact signals.",
+        "Location ambiguity between Mumbai listing and Delhi/NCR text should be clarified before prioritizing."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 88,
+      "fit_reason": "Strong company and cloud architecture fit, especially AWS modernization, Java/cloud-native systems, security/compliance, containers, CI/CD, and GenAI tooling; less direct than product/platform leadership because it is Professional Services and customer-facing migration work.",
+      "fit_signals": [
+        "Requires 10+ years complex large-scale project experience and hands-on cloud architect/developer ability.",
+        "Cloud-native application modernization, AWS infrastructure, microservices, event-driven systems, containers, Java, CI/CD, database/data stack exposure.",
+        "Mentions GenAI tooling for application modernization at scale.",
+        "AWS is a priority company with strong compensation signal."
+      ],
+      "risk_flags": [
+        "Professional Services role may be consulting-heavy rather than internal product/platform ownership.",
+        "Location text conflicts: LinkedIn lists Mumbai while description says open for Delhi/NCR.",
+        "May require extensive customer travel or client-facing presales-style work; clarify before applying."
+      ],
+      "people": [
+        {
+          "name": "Rahul and others in your network",
+          "relationship": "visible LinkedIn network signal",
+          "role": "People you can reach out to",
+          "profile_url": "",
+          "notes": "LinkedIn displayed reachable network but did not expose full details in fetched posting."
+        }
+      ],
+      "connections_summary": "LinkedIn shows Rahul and others in network as reachable; search result showed 13 connections work at AWS.",
+      "resume_theme": {
+        "name": "AWS cloud modernization architect",
+        "positioning": "Position Rohit as a hands-on principal architect who has led cloud re-platforming, secure platform operations, GenAI/agent tooling, and stakeholder-facing architecture programs.",
+        "key_pointers": [
+          "Highlight Hyperforce re-platforming, multi-region rollout, and cloud governance mechanics.",
+          "Use Java/distributed systems, CI/CD, Kubernetes, observability, and compliance-ready platform examples.",
+          "Frame agent federation and local-first AI engineering systems as GenAI modernization accelerators."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/ADRs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4432785737",
+      "dedupe_key": "linkedin:4432785737",
+      "source": "linkedin",
+      "source_job_id": "4432785737",
+      "source_url": "https://www.linkedin.com/jobs/view/4432785737",
+      "company": "ChargePoint",
+      "role": "Senior AI Engineer",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Senior Engineer",
+      "compensation_signals": [
+        "Remote India senior GenAI engineer role at a public EV infrastructure company; compensation likely solid but level is below target Director/Principal trajectory.",
+        "Role reports to Senior Manager-Information Security, suggesting individual-contributor scope rather than org-level platform leadership."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 87,
+      "fit_reason": "Strong technical fit for production LLM/RAG/agent systems, distributed systems, AI observability, LLMOps, and security-by-design; level is below preferred Director/Principal range, so fit score is capped.",
+      "fit_signals": [
+        "Architect and build LLM applications, copilots, chatbots, and AI agents.",
+        "Design RAG systems, tool/function calling, multi-step reasoning, backend AI inference APIs, evaluation, monitoring, CI/CD, and reliability.",
+        "Requires 10+ years engineering, distributed systems, cloud platforms, Kubernetes, and AI governance/compliance familiarity.",
+        "Remote India matches location preference."
+      ],
+      "risk_flags": [
+        "Title is Senior AI Engineer, below target level; only pursue if scope/compensation is exceptional.",
+        "Reports into Information Security; clarify whether role has platform architecture authority."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail did not expose named reachable connections; posting shows promoted remote India role with low visible applicant count at fetch time.",
+      "resume_theme": {
+        "name": "Production agentic AI systems",
+        "positioning": "Position Rohit as a production AI platform engineer with governed agentic systems, RAG/evidence planes, distributed backend ownership, and observability discipline.",
+        "key_pointers": [
+          "Lead with AM agent federation, MCP-first tool facades, LangGraph workflow contracts, and governed diagnostic evidence plane.",
+          "Emphasize AI evaluation, cost controls, audit, degradation flags, and security-by-design.",
+          "Keep observability platform scale as proof of production reliability and latency/cost discipline."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4427042094",
+      "dedupe_key": "linkedin:4427042094",
+      "source": "linkedin",
+      "source_job_id": "4427042094",
+      "source_url": "https://www.linkedin.com/jobs/view/4427042094",
+      "company": "insightsoftware",
+      "role": "Senior Platform Engineer",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Senior Engineer / Observability SME",
+      "compensation_signals": [
+        "Remote India senior platform role at a large software company; likely below target Director/Principal compensation ceiling.",
+        "US-based Director reporting line and portfolio-wide observability ownership may still make it a strong tactical fit."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 86,
+      "fit_reason": "Excellent observability-domain fit: shared Datadog tenant governance, APM, log pipelines, SLO maturity, migration from fragmented tooling, cost governance, and product-team enablement map closely to MuleSoft observability platform evidence; level is below target, so score is capped.",
+      "fit_signals": [
+        "Own enterprise observability platform operations across Datadog, tagging, RBAC, agents, log pipelines, monitors, dashboards, and migrations.",
+        "Drive APM adoption, SLO maturity, alert routing, incident integrations, and cost governance.",
+        "Remote India matches location preference.",
+        "Reports to US-based Director, which may align with current remote US org experience."
+      ],
+      "risk_flags": [
+        "Title and 5+ year requirement are materially below target seniority; compensation may be below threshold.",
+        "Datadog-specific SME role could be narrower than Rohit's principal platform leadership path."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail did not expose named reachable connections; posting shows over 100 clicks and insightsoftware company profile.",
+      "resume_theme": {
+        "name": "Enterprise observability platform SME",
+        "positioning": "Position Rohit as an observability platform owner who can consolidate fragmented telemetry tooling into governed, cost-controlled, SLO-backed shared standards.",
+        "key_pointers": [
+          "Lead with AMP migration, Prometheus-native alerting, cost reduction, and multi-tenant evaluation scale.",
+          "Emphasize telemetry governance, proactive diagnosis, alert routing, local firing harnesses, and operational maturity.",
+          "Mention cross-team enablement through RFCs, manifests, validators, and architecture alignment."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/incident_reviews/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4427512098",
+      "dedupe_key": "linkedin:4427512098",
+      "source": "linkedin",
+      "source_job_id": "4427512098",
+      "source_url": "https://www.linkedin.com/jobs/view/4427512098",
+      "company": "Avalara APAC",
+      "role": "Senior Software Engineer IV - AI/ML",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Senior Software Engineer IV",
+      "compensation_signals": [
+        "Avalara describes compensation package, paid time off, parental leave, and bonus eligibility; remote India senior role likely solid but below Director/Principal target.",
+        "Company says it is a billion-dollar business with 54B API calls and 6.6M tax returns per year, signaling meaningful production scale."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 84,
+      "fit_reason": "Good distributed systems plus AI-enabled platform fit, especially cloud-native systems, AI automation, reliability, observability, cost efficiency, and mentoring; seniority is below target and narrower than principal/director trajectory.",
+      "fit_signals": [
+        "Build scalable AI-enabled platforms and distributed systems for compliance content lifecycle modernization.",
+        "Architecture decisions for scalability, reliability, resiliency, observability, and operational efficiency.",
+        "Operationalize AI capabilities with orchestration and agentic frameworks; mentor engineers and establish reusable patterns.",
+        "Remote India matches location preference."
+      ],
+      "risk_flags": [
+        "Title is below target; pursue only if compensation and scope are unusually strong.",
+        "Compliance-content platform domain may be narrower than infrastructure/platform leadership goals."
+      ],
+      "people": [
+        {
+          "name": "Vaibhav Vishnu",
+          "relationship": "2nd-degree; Salesforce company alum",
+          "role": "Enterprise Sales | New Logo & Expansion | Ex-Zoom, Ex-Salesforce",
+          "profile_url": "",
+          "notes": "Visible LinkedIn reachable person on posting."
+        }
+      ],
+      "connections_summary": "LinkedIn shows Vaibhav Vishnu as a 2nd-degree reachable person and Salesforce company alum.",
+      "resume_theme": {
+        "name": "AI-enabled compliance platform engineering",
+        "positioning": "Position Rohit as a senior platform builder who combines distributed systems, operational AI, reliability, and compliance/governance-minded engineering.",
+        "key_pointers": [
+          "Highlight governed diagnostic evidence plane, AI safeguards, audit/cost controls, and agent federation.",
+          "Use high-scale API/platform examples from Brane and MuleSoft to match Avalara's production-scale claims.",
+          "Mention mentoring, reusable patterns, and cross-functional delivery."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436352029",
+      "dedupe_key": "linkedin:4436352029",
+      "source": "linkedin",
+      "source_job_id": "4436352029",
+      "source_url": "https://www.linkedin.com/jobs/view/4436352029",
+      "company": "Inception42",
+      "role": "Lead Infrastructure Engineer",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Lead Engineer",
+      "compensation_signals": [
+        "G42/Inception AI infrastructure and GPU/model-serving scope can imply strong AI-infra compensation, but posting says engagement is via an external workforce partner.",
+        "Remote India role with Azure AI/GPU/AKS infrastructure leadership may be attractive if contract terms and compensation are confirmed."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 83,
+      "fit_reason": "Good AI infrastructure and platform operations fit across AKS, Terraform, DevSecOps, incident response, GPU node pools, AI Foundry, model serving, runbooks, dashboards, and FinOps; score is limited by lead-level title and external-workforce signal.",
+      "fit_signals": [
+        "Technical lead for AI infrastructure operations, AKS reliability, Terraform module quality, incident RCA, postmortems, Azure governance, and AI/ML infrastructure onboarding.",
+        "Includes GPU scheduling, model serving reliability, inference cost management, internal developer platform, and distributed/offshore team leadership.",
+        "Remote India matches location preference.",
+        "AI infrastructure aligns with current agentic platform direction."
+      ],
+      "risk_flags": [
+        "External workforce partner engagement; verify employment model, stability, benefits, and compensation before investing time.",
+        "Lead-level title may be below Director/Principal target."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail did not expose named reachable connections; posting is remote India and promoted.",
+      "resume_theme": {
+        "name": "AI infrastructure and platform operations",
+        "positioning": "Position Rohit as an AI/platform infrastructure leader with cloud operations, observability, runbooks, FinOps, and governed agentic system design.",
+        "key_pointers": [
+          "Lead with Hyperforce rollout, observability platform operations, and local-first AI engineering workspace architecture.",
+          "Map agent federation, governed evidence plane, and cost controls to AI/ML infrastructure operations.",
+          "Highlight Terraform/Kubernetes/platform governance only where supported by resume evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4432777693",
+      "dedupe_key": "linkedin:4432777693",
+      "source": "linkedin",
+      "source_job_id": "4432777693",
+      "source_url": "https://www.linkedin.com/jobs/view/4432777693",
+      "company": "Halliburton",
+      "role": "AI Agent Architect - Industrial AI Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Architect / Individual Contributor",
+      "compensation_signals": [
+        "Architect role at a large industrial company; compensation may be good but level appears lower than Director/Principal trajectory.",
+        "Hybrid Bengaluru location is feasible; domain-specific industrial AI scope could be high-impact if authority is real."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 82,
+      "fit_reason": "Strong conceptual fit for multi-agent AI frameworks, tool reasoning, RAG, traceability, reliability, and domain-tool integration; score is capped because the minimum experience and IC scope appear below target seniority.",
+      "fit_signals": [
+        "Design and deploy multi-agent AI systems governed by a master agent for complex technical decision-making.",
+        "Requires tool-based reasoning, structured/unstructured data integration, APIs, analytical engines, safeguards, accuracy, traceability, and reliability.",
+        "Bengaluru hybrid location matches preferred geography.",
+        "Maps to MuleSoft agent federation, MCP-first tool facades, LangGraph workflow contracts, and governed diagnostic evidence plane."
+      ],
+      "risk_flags": [
+        "Minimum experience signal is only 5 years; level/compensation may be too low.",
+        "Easy Apply was visible in search/detail; do not use Easy Apply without explicit approval.",
+        "Oil and gas domain familiarity is a strong advantage; domain gap should be considered."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail did not expose named reachable connections; search result showed 17 school alumni work at Halliburton.",
+      "resume_theme": {
+        "name": "Governed industrial agent systems",
+        "positioning": "Position Rohit around governed multi-agent architectures, evidence-backed AI decisions, tool orchestration, and production reliability safeguards.",
+        "key_pointers": [
+          "Lead with agent federation, MCP-first tool facades, LangGraph contracts, and evidence-plane governance.",
+          "Emphasize traceability, audit, cost controls, source references, and degradation flags.",
+          "Use DRDO/Gaian consulting examples only at high level for complex-domain technical systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4432360099",
+      "dedupe_key": "linkedin:4432360099",
+      "source": "linkedin",
+      "source_job_id": "4432360099",
+      "source_url": "https://www.linkedin.com/jobs/view/4432360099",
+      "company": "HCLTech",
+      "role": "Head of Engineering - Platforms",
+      "location": "Bengaluru, Hyderabad, Pune, Noida, or Chennai, India",
+      "work_type": "On-site",
+      "experience_level": "Head of Engineering",
+      "compensation_signals": [
+        "Head of Engineering title and VP Engineering reporting line suggest senior leadership scope.",
+        "HCLTech/services context may make compensation less likely to meet the INR 25M target than priority product/cloud companies."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-179f69f0",
+      "fit_score": 80,
+      "fit_reason": "Leadership scope is aligned with engineering platforms, AI tools, DevOps culture, delivery governance, budgets, standards, and multiple teams; company/context is less targeted and technical depth is broad rather than AI-infra/product-platform specific.",
+      "fit_signals": [
+        "Strategic leadership for engineering platforms, automation, and AI tools across a diverse product engineering organization.",
+        "Lead multiple teams of engineers and architects; manage budgets, resources, technical debt, quality, and stakeholder outcomes.",
+        "Bengaluru is listed among possible Indian locations.",
+        "Can use Brane VP/GSL and MuleSoft principal platform leadership evidence."
+      ],
+      "risk_flags": [
+        "Services/company context may not meet compensation target or desired product-platform environment.",
+        "On-site multi-city posting; verify actual reporting location and travel expectations.",
+        "Easy Apply visible in search; do not apply without approval-gated dashboard flow."
+      ],
+      "people": [],
+      "connections_summary": "Search result showed 4 connections work at HCLTech; fetched detail did not expose named reachable people.",
+      "resume_theme": {
+        "name": "Head of engineering platforms",
+        "positioning": "Position Rohit as a platform engineering leader who can define engineering operating models, AI-enabled developer tooling, delivery standards, and scalable technical governance.",
+        "key_pointers": [
+          "Lead with Brane VP/GSL platform leadership and MuleSoft principal engineering ownership.",
+          "Emphasize Unleash/internal IDE, multi-agent decision system, platform standards, and cross-team RFC leadership.",
+          "Include budget/resource and enterprise-scale compliance readiness signals from Brane where relevant."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/collaboration/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T14:05:33Z",
+      "updated_at": "2026-07-02T14:05:33Z",
       "notes": []
     }
   ]
