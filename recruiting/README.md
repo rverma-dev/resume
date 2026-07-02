@@ -25,10 +25,11 @@ research packages only from evidence stored in this repository.
 3. Match the company against `network.txt` and `avoid.txt`.
 4. Review the dashboard, multiselect roles, and open a prefilled GitHub
    approval or rejection issue.
-5. Submit the decision issue. The scheduled `sync-approval-issues` workflow
-   imports unseen approval batches into application records and resume
-   snapshots under `applications/resumes/<application-id>/`; rejection batches
-   are recorded by marking jobs `approval_status=blocked` and
+5. Submit the decision issue. The issue body carries only selected `job_ids`;
+   the scheduled `sync-approval-issues` workflow resolves full job details from
+   `jobs/index.json`, imports unseen approval batches into application records
+   and resume snapshots under `applications/resumes/<application-id>/`, and
+   records rejection batches by marking jobs `approval_status=blocked` and
    `status=archived`. The workflow records the processed issue number in
    `applications/approval_inbox.json`, comments, labels the issue
    `approval-imported` or `rejection-imported`, and closes it.

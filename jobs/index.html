@@ -501,8 +501,12 @@
       updateSelectionState();
     }
 
+    function selectedDecisionJobs() {
+      return state.jobs.filter((row) => selectedJobIds.has(row.job_id) && canDecide(row));
+    }
+
     function approvalPayload() {
-      const jobs = state.jobs.filter((row) => selectedJobIds.has(row.job_id) && canDecide(row));
+      const jobs = selectedDecisionJobs();
       const createdAt = new Date().toISOString();
       const batchSeed = jobs.map((row) => row.job_id).sort().join("|") || createdAt;
       const batchId = `approval-${createdAt.slice(0, 10).replaceAll("-", "")}-${Math.abs(hashCode(batchSeed)).toString(16)}`;
@@ -515,13 +519,12 @@
         auto_apply_allowed: false,
         issue_inbox: "Submit this prefilled GitHub Issue for the scheduled approval importer.",
         import_command: "python3 recruiting/scripts/import_approvals.py approval-batch.json",
-        job_ids: jobs.map((row) => row.job_id),
-        jobs
+        job_ids: jobs.map((row) => row.job_id)
       };
     }
 
     function rejectionPayload() {
-      const jobs = state.jobs.filter((row) => selectedJobIds.has(row.job_id) && canDecide(row));
+      const jobs = selectedDecisionJobs();
       const createdAt = new Date().toISOString();
       const batchSeed = jobs.map((row) => row.job_id).sort().join("|") || createdAt;
       const batchId = `rejection-${createdAt.slice(0, 10).replaceAll("-", "")}-${Math.abs(hashCode(batchSeed)).toString(16)}`;
@@ -534,8 +537,7 @@
         auto_apply_allowed: false,
         issue_inbox: "Submit this prefilled GitHub Issue for the scheduled rejection importer.",
         reason: "Rejected from dashboard review.",
-        job_ids: jobs.map((row) => row.job_id),
-        jobs
+        job_ids: jobs.map((row) => row.job_id)
       };
     }
 

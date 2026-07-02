@@ -7,8 +7,9 @@ tools or imported manually. Do not remove processed jobs; mark their status
 instead.
 
 The public dashboard is read-only. Its multiselect buttons open prefilled
-GitHub Issues containing either an `approval-batch.v1` or `rejection-batch.v1`
-JSON payload. Submit the issue to queue the decision;
+GitHub Issues containing a compact `approval-batch.v1` or `rejection-batch.v1`
+JSON payload with selected `job_ids`. Full job details stay in `jobs/index.json`
+and are resolved by the scheduled importer. Submit the issue to queue the decision;
 `.github/workflows/sync-approval-issues.yml` polls open issues for recruiting
 decision payloads.
 
