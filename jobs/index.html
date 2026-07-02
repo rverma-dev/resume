@@ -272,7 +272,7 @@
       <p class="timestamp" id="timestamp"></p>
     </header>
 
-    <p class="notice">Discovery is automated, but applications are not. Select roles here, export an approval batch, then import it locally to create auditable application records and resume snapshots.</p>
+    <p class="notice">Discovery is automated, but applications are not. Select roles here, copy an approval batch, then paste it into the GitHub approval discussion for the scheduled importer to create auditable application records and resume snapshots.</p>
 
     <section class="metrics" aria-label="Pipeline summary">
       <div class="metric"><strong id="metric-jobs">0</strong><span>Jobs tracked</span></div>
@@ -320,7 +320,7 @@
     <div class="approval-bar" aria-label="Approval controls">
       <button type="button" id="select-visible">Select visible</button>
       <button type="button" id="clear-selection">Clear selection</button>
-      <button type="button" class="primary" id="approve-selected" disabled>Approve selected</button>
+      <button type="button" class="primary" id="approve-selected" disabled>Copy approval batch</button>
       <p class="output" id="approval-output">No roles selected.</p>
     </div>
 
@@ -437,7 +437,7 @@
       document.querySelector("#metric-selected").textContent = selectedJobIds.size;
       document.querySelector("#approve-selected").disabled = selectedJobIds.size === 0;
       document.querySelector("#approval-output").textContent = selectedJobIds.size
-        ? `${selectedJobIds.size} role${selectedJobIds.size === 1 ? "" : "s"} selected for approval export.`
+        ? `${selectedJobIds.size} role${selectedJobIds.size === 1 ? "" : "s"} selected for discussion approval.`
         : "No roles selected.";
     }
 
@@ -504,7 +504,8 @@
         created_at: createdAt,
         approval_required: true,
         auto_apply_allowed: false,
-        import_command: "python3 recruiting/scripts/import_approvals.py ~/Downloads/approval-batch.json",
+        discussion_inbox: "Paste this JSON into the recruiting approval GitHub Discussion.",
+        import_command: "python3 recruiting/scripts/import_approvals.py approval-batch.json",
         job_ids: jobs.map((row) => row.job_id),
         jobs
       };
@@ -519,21 +520,23 @@
       return hash;
     }
 
-    function downloadApprovalBatch() {
+    async function copyApprovalBatch() {
       const payload = approvalPayload();
       if (!payload.job_ids.length) return;
       payload.job_ids.forEach((jobId) => exportedJobIds.add(jobId));
       saveSelection();
-      const filename = `${payload.batch_id}.json`;
-      const blob = new Blob([JSON.stringify(payload, null, 2) + "\n"], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const anchor = document.createElement("a");
-      anchor.href = url;
-      anchor.download = filename;
-      anchor.click();
-      URL.revokeObjectURL(url);
-      document.querySelector("#approval-output").textContent = `Exported ${payload.job_ids.length} approved role${payload.job_ids.length === 1 ? "" : "s"} to ${filename}. Import locally with: python3 recruiting/scripts/import_approvals.py ~/Downloads/${filename}`;
+      const text = JSON.stringify(payload, null, 2) + "\n";
+      const wrapped = `Approval batch ${payload.batch_id}\n\n\`\`\`json\n${text}\`\`\`\n`;
+      let message;
+      try {
+        await navigator.clipboard.writeText(wrapped);
+        message = `Copied ${payload.job_ids.length} approved role${payload.job_ids.length === 1 ? "" : "s"} as ${payload.batch_id}. Paste it into the GitHub approval discussion.`;
+      } catch (error) {
+        message = `Clipboard blocked. Copy this batch manually: ${payload.batch_id}`;
+        window.prompt("Copy approval batch JSON", wrapped);
+      }
       render();
+      document.querySelector("#approval-output").textContent = message;
     }
 
     function loadJson(path, key) {
@@ -567,7 +570,7 @@
       selectedJobIds.clear();
       render();
     });
-    document.querySelector("#approve-selected").addEventListener("click", downloadApprovalBatch);
+    document.querySelector("#approve-selected").addEventListener("click", copyApprovalBatch);
     document.querySelector("#jobs-table").addEventListener("change", (event) => {
       const jobId = event.target.dataset.jobId;
       if (!jobId) return;
