@@ -28,7 +28,7 @@ research packages only from evidence stored in this repository.
 6. Apply only when external tooling is available and the run is authorized.
 7. Update `applications/applications.json` and
    `applications/applications.jsonl`.
-8. Refresh the dashboard at `applications/index.html`.
+8. Refresh the dashboard at `jobs/index.html`.
 
 ## Expected Company Folder
 
