@@ -53,7 +53,8 @@
     "Meta",
     "Uber",
     "Stripe",
-    "Snowflake"
+    "Snowflake",
+    "Palo Alto Networks"
   ],
   "search_terms": [
     "Director Engineering Platform",
@@ -65,7 +66,11 @@
     "AI Infrastructure Platform",
     "Agent Infrastructure",
     "Distributed Systems Architect",
-    "Cloud Platform Engineering"
+    "Cloud Platform Engineering",
+    "Principal Engineer Cloud Security Platform",
+    "Director Engineering Security Platform",
+    "Palo Alto Networks Staff Software Engineer Cloud Security",
+    "Palo Alto Networks Principal Engineer Platform"
   ],
   "priority_domains": [
     "developer tooling",
@@ -74,7 +79,10 @@
     "AI infrastructure",
     "databases",
     "platform engineering",
-    "distributed systems"
+    "distributed systems",
+    "DevSecOps",
+    "security platform engineering",
+    "cloud security"
   ],
   "fit_rubric": [
     "technical fit",
