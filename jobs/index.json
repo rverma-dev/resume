@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-02T11:43:52Z",
-  "active_batch_id": "batch-20260702-linkedin-001",
-  "last_scheduler_run_at": "2026-07-02T11:43:52Z",
+  "updated_at": "2026-07-02T12:05:43Z",
+  "active_batch_id": "batch-20260702-543819ee",
+  "last_scheduler_run_at": "2026-07-02T12:05:43Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -602,6 +602,590 @@
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T11:43:52Z",
       "updated_at": "2026-07-02T11:43:52Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4426938830",
+      "dedupe_key": "linkedin:4426938830",
+      "source": "linkedin",
+      "source_job_id": "4426938830",
+      "source_url": "https://www.linkedin.com/jobs/view/4426938830",
+      "company": "Coupang",
+      "role": "Director Backend Engineering - AI Infrastructure",
+      "location": "Bangalore Urban, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "director",
+      "compensation_signals": [
+        "priority high-paying company",
+        "director AI infrastructure role at large global public company",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 98,
+      "fit_reason": "Best fit in this batch: Director-level AI physical infrastructure software spanning GPU fleet orchestration, SDN, storage backends, Kubernetes/Terraform automation, multi-region reliability, and 15+ years infrastructure leadership.",
+      "fit_signals": [
+        "Director AI infrastructure",
+        "GPU fleet orchestration",
+        "distributed backend systems",
+        "Kubernetes and Terraform",
+        "multi-region reliability",
+        "infra org leadership"
+      ],
+      "risk_flags": [
+        "Requires stronger hardware/GPU networking narrative than current resume shows"
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Coupang",
+          "profile_url": "",
+          "notes": "Search result showed 2 connections work here"
+        }
+      ],
+      "connections_summary": "Search result showed 2 connections work here.",
+      "resume_theme": {
+        "name": "Director AI infrastructure platform",
+        "positioning": "Position as a director-caliber platform leader who turns complex infrastructure into reliable automated product platforms across observability, AI agents, and multi-tenant cloud systems.",
+        "key_pointers": [
+          "Lead with Hyperforce alerting scale, AMP migration, multi-region rollout, and $6M annualized cost reduction.",
+          "Use Brane platform/infrastructure/security stack built with a 2-engineer core and 30-person DevOps/SRE leadership to prove org and platform scope.",
+          "Connect governed agentic systems and AM Agent Federation to production AI infrastructure strategy, governance, and runtime control."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4376021942",
+      "dedupe_key": "linkedin:4376021942",
+      "source": "linkedin",
+      "source_job_id": "4376021942",
+      "source_url": "https://www.linkedin.com/jobs/view/4376021942",
+      "company": "Docusign",
+      "role": "Senior Engineering Director",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "director",
+      "compensation_signals": [
+        "senior director engineering role at scaled public SaaS company",
+        "requires multi-team US/Bangalore leadership",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 94,
+      "fit_reason": "Strong Director/Senior Director trajectory match: global multi-team engineering leadership, enterprise SaaS platform delivery, product/platform stack influence, DevOps/TDD, technical debt, and distributed backend systems.",
+      "fit_signals": [
+        "Senior Director scope",
+        "enterprise SaaS",
+        "multi-team leadership",
+        "distributed backend systems",
+        "DevOps and delivery excellence",
+        "US/India distributed teams"
+      ],
+      "risk_flags": [
+        "People-management narrative must be explicit and current, not only prior Brane/Niki leadership"
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Docusign",
+          "profile_url": "",
+          "notes": "Search result showed 1 connection works here"
+        }
+      ],
+      "connections_summary": "Search result showed 1 connection works here.",
+      "resume_theme": {
+        "name": "Enterprise SaaS senior engineering director",
+        "positioning": "Shape the resume around enterprise SaaS execution, global platform modernization, and director-level org building across Salesforce, Brane, and Niki.",
+        "key_pointers": [
+          "Highlight Brane enterprise SaaS platform: control plane, tenancy, metering, telemetry, billing, and on-prem distribution.",
+          "Show Salesforce Hyperforce cross-team architecture ownership with RFCs, rollouts, and operational outcomes.",
+          "Bring Niki 3 EM / 40 engineer leadership and Brane 30-person DevOps/SRE leadership into the top leadership proof points."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/collaboration/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4426079955",
+      "dedupe_key": "linkedin:4426079955",
+      "source": "linkedin",
+      "source_job_id": "4426079955",
+      "source_url": "https://www.linkedin.com/jobs/view/4426079955",
+      "company": "Rippling",
+      "role": "Director Of Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "director",
+      "compensation_signals": [
+        "high-compensation-likely late-stage startup",
+        "director role building Bangalore hub and 25+ person org",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 94,
+      "fit_reason": "Very strong 0->1 plus scale leadership fit: build a Bangalore hub, hire/coach managers and ICs, own integrations platform, observability, retries, idempotency, reconciliation, SLOs, APIs, webhooks, and data modeling.",
+      "fit_signals": [
+        "Director org buildout",
+        "0 to 1 platform",
+        "integrations platform",
+        "observability and SLOs",
+        "distributed systems",
+        "manager-of-managers"
+      ],
+      "risk_flags": [
+        "Domain is finance/accounting integrations rather than AI/platform infra; tailor Jupiter/Brane payments evidence carefully"
+      ],
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "0 to 1 finance platform director",
+        "positioning": "Emphasize platform creation, regulated financial systems, integration reliability, and org-building in Bangalore.",
+        "key_pointers": [
+          "Use Jupiter $240M/month payments and compliance ownership to match financial data/platform risk.",
+          "Use Brane billing/metering and 10M events/min sidecar event-billing as integration and reconciliation-adjacent evidence.",
+          "Lead with Brane/Niki people leadership plus Salesforce 0->1 platform architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4403111057",
+      "dedupe_key": "linkedin:4403111057",
+      "source": "linkedin",
+      "source_job_id": "4403111057",
+      "source_url": "https://www.linkedin.com/jobs/view/4403111057",
+      "company": "Airbnb",
+      "role": "Senior Staff Software Engineer, Payments",
+      "location": "Bengaluru, Karnataka, India / Remote India",
+      "work_type": "remote",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "high-compensation-likely global technology company",
+        "Senior Staff payments architecture role",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 92,
+      "fit_reason": "Strong senior staff/principal-equivalent IC fit: payments architecture, decision support, workflow orchestration, AI advancements, cross-functional strategy, governance, business impact, and India-remote eligibility.",
+      "fit_signals": [
+        "Senior Staff architecture",
+        "payments systems",
+        "AI workflow orchestration",
+        "technical strategy",
+        "cross-functional governance",
+        "remote India"
+      ],
+      "risk_flags": [
+        "Staff IC role may be lateral relative to Director path"
+      ],
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Payments architecture and AI workflow systems",
+        "positioning": "Present as a senior technical leader for payment-scale systems who can add AI decision support and workflow orchestration without compromising reliability or compliance.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments architecture and partner-bank compliance.",
+          "Use Niki Payment SDK at 1.2M transactions/day and Brane event-billing for breadth across payment/revenue systems.",
+          "Connect Internal IDE and governed agentic systems to decision support, knowledge management, and workflow orchestration."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4425490790",
+      "dedupe_key": "linkedin:4425490790",
+      "source": "linkedin",
+      "source_job_id": "4425490790",
+      "source_url": "https://www.linkedin.com/jobs/view/4425490790",
+      "company": "Confluent",
+      "role": "Staff Software Engineer I - Confluent Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "high-compensation-likely data infrastructure company",
+        "staff platform role at Kafka/data streaming vendor",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 91,
+      "fit_reason": "Excellent distributed platform fit: hybrid-first Confluent Platform management, observability, security, Kubernetes, distributed systems, operational hygiene, production incidents, and India engineering leadership influence.",
+      "fit_signals": [
+        "data streaming platform",
+        "distributed systems",
+        "Kubernetes",
+        "observability and security",
+        "hybrid cloud operations",
+        "technical leadership"
+      ],
+      "risk_flags": [
+        "On-site Bengaluru; Staff I may be below Principal/Director trajectory"
+      ],
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Hybrid data streaming platform architect",
+        "positioning": "Center the resume on operating distributed data and observability platforms across hybrid/cloud environments with strong reliability and governance.",
+        "key_pointers": [
+          "Use Hyperforce observability scale and Prometheus/Druid platform work to map to operational platform capabilities.",
+          "Use Brane Kafka/DynamoDB/TiDB/Redis and workflow engine scale to prove distributed data systems depth.",
+          "Mention Flink, Kafka, Spark, Hudi, and Druid from base skills/experience where backed by resume evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4400498924",
+      "dedupe_key": "linkedin:4400498924",
+      "source": "linkedin",
+      "source_job_id": "4400498924",
+      "source_url": "https://www.linkedin.com/jobs/view/4400498924",
+      "company": "Walmart Global Tech India",
+      "role": "DISTINGUISHED, SOFTWARE ENGINEER",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Distinguished Engineer role at very large technology organization",
+        "benefits/incentive awards mentioned but no exact compensation visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 90,
+      "fit_reason": "Strong distinguished/principal architecture fit: agentic AI assistant backend, scalable fault-tolerant distributed systems, governance, platform strategy, cloud-native transformation, DevOps, and mentorship of Principal/Staff engineers.",
+      "fit_signals": [
+        "Distinguished Engineer level",
+        "agentic AI product backend",
+        "distributed systems",
+        "platform governance",
+        "cloud-native transformation",
+        "senior engineer mentorship"
+      ],
+      "risk_flags": [
+        "On-site/daily Bangalore office language may reduce location flexibility"
+      ],
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Distinguished agentic systems platform leader",
+        "positioning": "Position as an architect of agentic systems and enterprise-scale backend platforms with governance, reliability, and cloud transformation proof.",
+        "key_pointers": [
+          "Lead with governed multi-agent decision system and AM Agent Federation as agentic AI evidence.",
+          "Use Hyperforce alerting and Visualizer distributed systems scale to demonstrate platform reliability.",
+          "Add Brane/Niki mentorship and org leadership to support influence across Principal/Staff engineers."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4424349339",
+      "dedupe_key": "linkedin:4424349339",
+      "source": "linkedin",
+      "source_job_id": "4424349339",
+      "source_url": "https://www.linkedin.com/jobs/view/4424349339",
+      "company": "ThoughtSpot",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Principal role at agentic analytics/platform company",
+        "15-20 years platform architecture requirement",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 90,
+      "fit_reason": "Strong principal platform fit: cloud-native distributed SaaS architecture, reliability, observability, developer productivity, security/privacy, multi-tenancy, canary deployments, chaos engineering, and org-wide architecture initiatives.",
+      "fit_signals": [
+        "Principal platform architecture",
+        "multi-tenancy",
+        "observability and reliability",
+        "developer productivity",
+        "security and privacy",
+        "cloud-native SaaS"
+      ],
+      "risk_flags": [
+        "Company compensation signal is good but less certain than top priority companies"
+      ],
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Principal cloud-native analytics platform architect",
+        "positioning": "Frame around cloud-native platform architecture, multi-tenancy, developer productivity, and operational excellence in enterprise SaaS.",
+        "key_pointers": [
+          "Use Brane enterprise SaaS platform and Salesforce Hyperforce multi-tenant observability as central evidence.",
+          "Highlight Internal IDE/Unleash for developer productivity and platform acceleration.",
+          "Use canary/blue-green rollout, observability, and compliance points from base resume."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4422847036",
+      "dedupe_key": "linkedin:4422847036",
+      "source": "linkedin",
+      "source_job_id": "4422847036",
+      "source_url": "https://www.linkedin.com/jobs/view/4422847036",
+      "company": "OpenAI",
+      "role": "Partner AI Deployment Engineer - AWS",
+      "location": "India / Bangalore",
+      "work_type": "remote",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "priority high-paying AI company",
+        "strategic AWS partnership technical leadership role",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 88,
+      "fit_reason": "High company/compensation signal and strong AI deployment architecture fit, especially repeatable AWS patterns, enterprise production GenAI systems, partner enablement, and cross-functional product feedback. Less aligned with Director/Principal platform engineering because it is partner/customer deployment oriented.",
+      "fit_signals": [
+        "OpenAI/AWS strategic partnership",
+        "production GenAI deployment",
+        "enterprise architecture",
+        "repeatable reference patterns",
+        "cross-functional technical leadership",
+        "remote India/Bangalore"
+      ],
+      "risk_flags": [
+        "Partner/deployment role rather than core engineering org",
+        "Requires customer-facing C-level relationship narrative"
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "OpenAI",
+          "profile_url": "",
+          "notes": "Search result showed 7 school alumni work here"
+        }
+      ],
+      "connections_summary": "Search result showed 7 school alumni work here.",
+      "resume_theme": {
+        "name": "Enterprise GenAI deployment architect",
+        "positioning": "Emphasize production GenAI/agent deployment architecture, AWS/cloud depth, repeatable reference patterns, and enterprise trust controls.",
+        "key_pointers": [
+          "Lead with AM Agent Federation, governed diagnostic evidence plane, and agentic developer systems.",
+          "Use Salesforce Hyperforce/AWS platform experience to establish cloud deployment credibility.",
+          "Bring consultant experience and cross-functional RFC leadership to support partner/customer advisory work."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4406442627",
+      "dedupe_key": "linkedin:4406442627",
+      "source": "linkedin",
+      "source_job_id": "4406442627",
+      "source_url": "https://www.linkedin.com/jobs/view/4406442627",
+      "company": "Mastercard",
+      "role": "Director - Platform Engineering",
+      "location": "Pune/Pimpri-Chinchwad Area, India",
+      "work_type": "hybrid",
+      "experience_level": "director",
+      "compensation_signals": [
+        "director platform role at global payments company",
+        "regulated financial platform domain",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 88,
+      "fit_reason": "Strong regulated platform leadership fit: platform strategy, data/analytics layers, security/compliance governance, cloud/DevOps, observability, Java/Python, Kubernetes, and payments/financial services domain.",
+      "fit_signals": [
+        "Director platform engineering",
+        "payments/regulated domain",
+        "data engineering and analytics",
+        "security governance",
+        "cloud and Kubernetes",
+        "observability"
+      ],
+      "risk_flags": [
+        "Pune hybrid location may be less desirable than Bengaluru/remote",
+        "Role has broad web/data platform scope rather than deep AI infrastructure"
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Mastercard",
+          "profile_url": "",
+          "notes": "Search result showed 74 company alumni work here"
+        }
+      ],
+      "connections_summary": "Search result showed 74 company alumni work here.",
+      "resume_theme": {
+        "name": "Regulated payments data platform director",
+        "positioning": "Position as a director-level platform engineer for regulated payment/data systems with strong compliance, cloud, and observability proof.",
+        "key_pointers": [
+          "Lead with Jupiter payments/compliance ownership and $240M/month transaction architecture.",
+          "Use Brane metering/billing/telemetry platform and Salesforce observability for platform operations.",
+          "Emphasize ISO 27001, SOC 2, PCI-DSS, NPCI, and UPI SAR audit outcomes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4420132993",
+      "dedupe_key": "linkedin:4420132993",
+      "source": "linkedin",
+      "source_job_id": "4420132993",
+      "source_url": "https://www.linkedin.com/jobs/view/4420132993",
+      "company": "eBay",
+      "role": "Lead Architect - CS Tech",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "senior architect role at global marketplace technology company",
+        "AI-enabled enterprise transformation scope",
+        "no exact compensation visible in LinkedIn detail"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 86,
+      "fit_reason": "Good principal architect fit for cloud-native modernization, AI-enabled customer support systems, API/microservice/event-driven architecture, reliability, security, observability, and cross-org influence. Slightly lower due to customer-support-tech domain and Lead Architect title ambiguity.",
+      "fit_signals": [
+        "Principal architect-like scope",
+        "cloud-native modernization",
+        "AI-enabled workflows",
+        "event-driven systems",
+        "observability and reliability",
+        "cross-org influence"
+      ],
+      "risk_flags": [
+        "Title may map below Principal/Director at some companies",
+        "Domain is customer support technology rather than core platform infra"
+      ],
+      "people": [
+        {
+          "name": "Suman and others",
+          "relationship": "network signal",
+          "role": "eBay",
+          "profile_url": "",
+          "notes": "Detail page showed Suman and others in your network"
+        }
+      ],
+      "connections_summary": "Detail page showed Suman and others in your network.",
+      "resume_theme": {
+        "name": "Enterprise AI modernization architect",
+        "positioning": "Frame as an enterprise architect modernizing global platforms with AI-enabled workflows, event-driven systems, and strong operating controls.",
+        "key_pointers": [
+          "Use Salesforce AM Agent Federation and proactive diagnostics for AI-enabled enterprise workflow architecture.",
+          "Use Sprinklr Integration Marketplace, Brane platform, and Salesforce Hyperforce to show integration/platform modernization history.",
+          "Keep cloud-native, APIs, eventing, security, and observability as the thread across experience."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-02T12:05:43Z",
       "notes": []
     }
   ]
