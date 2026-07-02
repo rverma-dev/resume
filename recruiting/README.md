@@ -22,10 +22,14 @@ research packages only from evidence stored in this repository.
 1. Discover up to 10 jobs per scheduled batch from configured MCP/browser
    sources, or import them manually into `jobs/index.json`.
 2. Score each job against the rubric in `recruiting/config.json`.
-3. Match the company against `network.txt` and `avoid.txt`.
-4. Review the dashboard, multiselect roles, and open a prefilled GitHub
+3. Apply the location policy in `recruiting/config.json`: do not limit discovery
+   to India; prefer India, UAE, global remote open to India/UAE, or relocation
+   with sponsorship; avoid US-only roles because the candidate does not have
+   H1B; treat UAE as viable because the candidate can self-sponsor.
+4. Match the company against `network.txt` and `avoid.txt`.
+5. Review the dashboard, multiselect roles, and open a prefilled GitHub
    approval or rejection issue.
-5. Submit the decision issue. The issue body carries only selected `job_ids`;
+6. Submit the decision issue. The issue body carries only selected `job_ids`;
    the scheduled `sync-approval-issues` workflow resolves full job details from
    `jobs/index.json`, imports unseen approval batches into application records
    and resume snapshots under `applications/resumes/<application-id>/`, and
@@ -33,12 +37,12 @@ research packages only from evidence stored in this repository.
    `status=archived`. The workflow records the processed issue number in
    `applications/approval_inbox.json`, comments, labels the issue
    `approval-imported` or `rejection-imported`, and closes it.
-6. Generate company-specific artifacts under `companies/<company-slug>/`.
-7. Generate an ATS-friendly PDF from the company resume.
-8. Apply only when external tooling is available and the run is authorized.
-9. Update `applications/applications.json` and
+7. Generate company-specific artifacts under `companies/<company-slug>/`.
+8. Generate an ATS-friendly PDF from the company resume.
+9. Apply only when external tooling is available and the run is authorized.
+10. Update `applications/applications.json` and
    `applications/applications.jsonl`.
-10. Refresh the dashboard at `jobs/index.html`.
+11. Refresh the dashboard at `jobs/index.html`.
 
 ## Local Commands
 

@@ -6,6 +6,36 @@
   "allow_external_discovery": true,
   "allow_auto_apply": false,
   "target_compensation_inr_annual": 25000000,
+  "location_policy": {
+    "do_not_limit_to_india": true,
+    "preferred_locations": [
+      "India",
+      "Bengaluru",
+      "Remote India",
+      "UAE",
+      "Dubai",
+      "Abu Dhabi",
+      "Global remote open to India or UAE",
+      "Relocation with visa sponsorship"
+    ],
+    "acceptable_locations": [
+      "Europe with visa sponsorship",
+      "UK with visa sponsorship",
+      "Singapore with visa sponsorship",
+      "Canada with visa sponsorship",
+      "Australia with visa sponsorship",
+      "Globally remote roles that explicitly allow India or UAE"
+    ],
+    "excluded_locations": [
+      "United States roles unless explicit non-H1B sponsorship or relocation support is stated",
+      "US-only remote roles"
+    ],
+    "notes": [
+      "Candidate does not have H1B; do not prioritize US roles by default.",
+      "UAE roles are viable because candidate can self-sponsor.",
+      "Any non-India/non-UAE role should record the visible sponsorship or relocation signal in risk_flags or compensation_signals."
+    ]
+  },
   "target_levels": [
     "Director",
     "Principal Engineer",
@@ -62,6 +92,7 @@
     "location",
     "remote compatibility",
     "visa requirements",
+    "sponsorship or self-sponsorship viability",
     "compensation"
   ],
   "job_statuses": [
