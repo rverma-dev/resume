@@ -339,6 +339,7 @@
     const state = { applications: [], jobs: [], errors: [] };
     const selectedJobIds = new Set(JSON.parse(localStorage.getItem("selectedJobIds") || "[]"));
     const exportedJobIds = new Set(JSON.parse(localStorage.getItem("exportedJobIds") || "[]"));
+    const issueTrackerUrl = "https://github.com/rverma-dev/resume/issues";
 
     const text = (value) => value == null ? "" : String(value);
     const safe = (value) => text(value)
@@ -535,7 +536,7 @@
           ""
         ].join("\n")
       });
-      return `https://github.com/rverma-dev/resume/issues/new?${params.toString()}`;
+      return `${issueTrackerUrl}/new?${params.toString()}`;
     }
 
     function openApprovalIssue() {
