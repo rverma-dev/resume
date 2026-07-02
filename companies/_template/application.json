@@ -1,0 +1,15 @@
+{
+  "schema_version": "application.v1",
+  "company": "",
+  "role": "",
+  "job_url": "",
+  "job_id": "",
+  "score": null,
+  "status": "discovered",
+  "resume_path": "resume.md",
+  "resume_pdf_path": "resume.pdf",
+  "research_path": "research.md",
+  "network_path": "network.md",
+  "submitted_at": null,
+  "notes": []
+}

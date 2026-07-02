@@ -1,0 +1,59 @@
+{
+  "schema_version": "recruiting.config.v1",
+  "score_threshold": 80,
+  "allow_external_discovery": false,
+  "allow_auto_apply": false,
+  "search_terms": [
+    "Principal Software Engineer",
+    "Staff Software Engineer",
+    "Principal Architect",
+    "Software Architect",
+    "Distributed Systems",
+    "Cloud Platform",
+    "Infrastructure",
+    "Observability",
+    "Monitoring",
+    "Backend",
+    "Java",
+    "Kubernetes",
+    "AI Platform",
+    "Agent Infrastructure"
+  ],
+  "priority_domains": [
+    "developer tooling",
+    "cloud",
+    "observability",
+    "AI infrastructure",
+    "databases",
+    "platform engineering",
+    "distributed systems"
+  ],
+  "fit_rubric": [
+    "technical fit",
+    "leadership fit",
+    "architecture ownership",
+    "distributed systems",
+    "Java ecosystem",
+    "cloud infrastructure",
+    "observability",
+    "platform engineering",
+    "AI experience",
+    "communication",
+    "years of experience",
+    "career progression",
+    "location",
+    "remote compatibility",
+    "visa requirements",
+    "compensation"
+  ],
+  "statuses": [
+    "discovered",
+    "reviewing",
+    "ready",
+    "applied",
+    "interview",
+    "rejected",
+    "offer",
+    "archived"
+  ]
+}

@@ -33,6 +33,8 @@ Founding engineer (0→1) for multi-tenant observability, agent federation, and 
 - Migrated **3M alerts** off legacy InfluxDB onto Amazon Managed Prometheus in phased rollout; delivered **~80% cost-to-serve reduction (~$6M annualized)** with zero customer-visible SLO regression.
 - Multi-tenant alert evaluation platform handling **50K–100K concurrent evaluations** at **P99 < 1s** across ≥2 regions with blue-green deploys.
 - Scaled to **60+ AMP workspaces** and **45K alerts per workspace** across enterprise tenants.
+- Drove AU/UK/GIA2H rollout work across app + infra repos: new-FI region automation, LaunchDarkly Relay Proxy, GIA-mode wiring, and production deploy config.
+- Built AI-native test discipline with `TEST_SCENARIOS` manifests, APIM local firing harnesses, Bruno coverage, and a coherence-validator agent across RFCs/tests/code.
 - Designed core platform primitives: tenant sharding, rule sync, buffering, distributed scheduling, and APIM alert migration paths.
 - Authored a 15-RFC series shaping observability architecture across adjacent teams; designed PromQL-native anomaly detection with z-score / robust bands, 26h smoothing, persistence gates, and explainable dynamic thresholds.
 
@@ -99,6 +101,7 @@ Founding engineer (0→1) for multi-tenant observability, agent federation, and 
   <strong>Principal Architect, Niki.ai</strong>
   <span>Bengaluru, India | Dec 2017 – Nov 2019</span>
 </div>
+
 - Led 3 EMs + 40 engineers; Payment SDK handling **1.2M transactions/day** for B2B partners.
 - Dynamo-streams-based order fulfillment on CQRS + event sourcing.
 - Replaced manual promotion engine with self-serve Kie rules engine; PCI-DSS multi-account cloud infrastructure.

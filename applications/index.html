@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Dashboard</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #111;
+      --muted: #666;
+      --rule: #d8d8d8;
+      --accent: #0b4f8a;
+      --bg: #f6f6f6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 14px/1.45 -apple-system, "Helvetica Neue", Arial, "Segoe UI", sans-serif;
+    }
+
+    main {
+      max-width: 1180px;
+      margin: 32px auto;
+      padding: 0 24px;
+    }
+
+    h1 {
+      margin: 0 0 4px;
+      font-size: 24px;
+    }
+
+    .summary {
+      margin: 0 0 18px;
+      color: var(--muted);
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      margin: 0 0 14px;
+      flex-wrap: wrap;
+    }
+
+    input,
+    select {
+      min-height: 34px;
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      padding: 6px 9px;
+      font: inherit;
+    }
+
+    input {
+      min-width: 280px;
+      flex: 1;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th,
+    td {
+      padding: 9px 10px;
+      border-bottom: 1px solid var(--rule);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: var(--muted);
+      background: #fafafa;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .empty {
+      padding: 18px;
+      color: var(--muted);
+      background: #fff;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Application Dashboard</h1>
+    <p class="summary" id="summary">Loading applications...</p>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search company, role, status, referral">
+      <select id="status">
+        <option value="">All statuses</option>
+        <option>discovered</option>
+        <option>reviewing</option>
+        <option>ready</option>
+        <option>applied</option>
+        <option>interview</option>
+        <option>rejected</option>
+        <option>offer</option>
+        <option>archived</option>
+      </select>
+    </div>
+    <div id="table"></div>
+  </main>
+
+  <script>
+    const state = { applications: [] };
+    const columns = ["Company", "Role", "Score", "Applied", "Resume", "Research", "Referral", "Status"];
+
+    function cellLink(value) {
+      if (!value) return "";
+      return `<a href="${String(value).replaceAll('"', '&quot;')}">open</a>`;
+    }
+
+    function normalize(row) {
+      return [
+        row.company || "",
+        row.role || row.title || "",
+        row.score ?? "",
+        row.applied_date || "",
+        cellLink(row.resume_path),
+        cellLink(row.research_path),
+        row.referral_status || "",
+        row.status || "discovered"
+      ];
+    }
+
+    function render() {
+      const query = document.querySelector("#search").value.trim().toLowerCase();
+      const status = document.querySelector("#status").value;
+      const rows = state.applications.filter((row) => {
+        const text = JSON.stringify(row).toLowerCase();
+        return (!query || text.includes(query)) && (!status || row.status === status);
+      });
+
+      document.querySelector("#summary").textContent = `${rows.length} of ${state.applications.length} applications shown`;
+      if (!rows.length) {
+        document.querySelector("#table").innerHTML = '<div class="empty">No applications yet.</div>';
+        return;
+      }
+
+      const head = `<thead><tr>${columns.map((c) => `<th>${c}</th>`).join("")}</tr></thead>`;
+      const body = `<tbody>${rows.map((row) => `<tr>${normalize(row).map((v) => `<td>${v}</td>`).join("")}</tr>`).join("")}</tbody>`;
+      document.querySelector("#table").innerHTML = `<table>${head}${body}</table>`;
+    }
+
+    fetch("applications.json", { cache: "no-store" })
+      .then((response) => response.ok ? response.json() : Promise.reject(response.statusText))
+      .then((data) => {
+        state.applications = Array.isArray(data) ? data : (data.applications || []);
+        render();
+      })
+      .catch((error) => {
+        document.querySelector("#summary").textContent = "Unable to load applications.json";
+        document.querySelector("#table").innerHTML = `<div class="empty">${error}</div>`;
+      });
+
+    document.querySelector("#search").addEventListener("input", render);
+    document.querySelector("#status").addEventListener("change", render);
+  </script>
+</body>
+</html>
