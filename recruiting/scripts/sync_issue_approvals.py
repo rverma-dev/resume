@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Import approval batches from GitHub Issues.
+"""Import recruiting decision batches from GitHub Issues.
 
 The static dashboard opens a prefilled issue composer because browser code must
-not carry a GitHub write token. This script is intended for GitHub Actions: it
-polls open approval issues, imports unseen approval batches, records processed
-issue numbers in applications/approval_inbox.json, comments on each processed
-issue, and closes it.
+not carry a GitHub write token. This script is intended for GitHub Actions. It
+polls open recruiting decision issues, imports unseen approval or rejection
+batches, records processed issue numbers in applications/approval_inbox.json,
+comments on each processed issue, and closes it.
 """
 
 from __future__ import annotations
@@ -27,9 +27,10 @@ from pipeline_common import REPO_ROOT, save_json, utc_now
 
 DEFAULT_STATE_PATH = REPO_ROOT / "applications" / "approval_inbox.json"
 DEFAULT_LABELS = []
-IMPORTED_LABEL = "approval-imported"
+APPROVAL_IMPORTED_LABEL = "approval-imported"
+REJECTION_IMPORTED_LABEL = "rejection-imported"
 API_ROOT = "https://api.github.com"
-FENCE_RE = re.compile(r"```(?:json)?\s*(\{.*?\})\s*```", re.DOTALL | re.IGNORECASE)
+FENCE_RE = re.compile(r"```(?:json)?\s*(.*?)\s*```", re.DOTALL | re.IGNORECASE)
 
 
 def load_json(path: Path, default):
@@ -100,17 +101,26 @@ def parse_payloads(issue: dict) -> list[dict]:
             continue
         if payload.get("schema_version") == "approval.batch.v1" and payload.get("action") == "approve_for_tailoring":
             payloads.append(payload)
+        elif payload.get("schema_version") == "rejection.batch.v1" and payload.get("action") == "reject_for_now":
+            payloads.append(payload)
     return payloads
 
 
 def import_payload(payload: dict) -> dict:
+    if payload.get("schema_version") == "approval.batch.v1":
+        script = "import_approvals.py"
+    elif payload.get("schema_version") == "rejection.batch.v1":
+        script = "import_rejections.py"
+    else:
+        raise SystemExit(f"Unsupported payload schema_version: {payload.get('schema_version')}")
+
     with tempfile.NamedTemporaryFile("w", suffix=".json", encoding="utf-8", delete=False) as handle:
         json.dump(payload, handle, indent=2)
         handle.write("\n")
         temp_path = Path(handle.name)
     try:
         result = subprocess.run(
-            [sys.executable, str(REPO_ROOT / "recruiting" / "scripts" / "import_approvals.py"), str(temp_path)],
+            [sys.executable, str(REPO_ROOT / "recruiting" / "scripts" / script), str(temp_path)],
             cwd=REPO_ROOT,
             text=True,
             capture_output=True,
@@ -131,7 +141,7 @@ def issue_labels(issue: dict) -> list[str]:
     return labels
 
 
-def mark_issue_processed(token: str, owner: str, repo: str, issue: dict, batch_ids: list[str], status: str) -> None:
+def mark_issue_processed(token: str, owner: str, repo: str, issue: dict, batch_ids: list[str], status: str, imported_label: str) -> None:
     number = issue["number"]
     body = [
         f"{status} by the scheduled recruiting approval sync.",
@@ -142,8 +152,8 @@ def mark_issue_processed(token: str, owner: str, repo: str, issue: dict, batch_i
         "The static tracker will update after the workflow commit and GitHub Pages deploy.",
     ]
     github_request(token, "POST", f"/repos/{owner}/{repo}/issues/{number}/comments", {"body": "\n".join(body)})
-    labels = [label for label in issue_labels(issue) if label != "approval-pending"]
-    for label in ("recruiting-approval", IMPORTED_LABEL):
+    labels = [label for label in issue_labels(issue) if label not in {"approval-pending", "rejection-pending"}]
+    for label in (imported_label,):
         if label not in labels:
             labels.append(label)
     github_request(token, "PATCH", f"/repos/{owner}/{repo}/issues/{number}", {"state": "closed", "labels": labels})
@@ -188,22 +198,34 @@ def main() -> int:
 
         issue_imported_batches = []
         issue_seen_batches = []
+        issue_imported_labels = set()
+        issue_seen_labels = set()
         for payload in payloads:
             batch_id = payload.get("batch_id")
             if batch_id in processed_batches:
                 skipped.append({"issue_number": issue_number, "batch_id": batch_id, "reason": "batch_already_processed"})
                 issue_seen_batches.append(batch_id)
+                if payload.get("schema_version") == "rejection.batch.v1":
+                    issue_seen_labels.add(REJECTION_IMPORTED_LABEL)
+                else:
+                    issue_seen_labels.add(APPROVAL_IMPORTED_LABEL)
                 continue
             result = import_payload(payload)
             imported.append({"issue_number": issue_number, "batch_id": batch_id, "result": result, "url": issue.get("html_url")})
             issue_imported_batches.append(batch_id)
+            if payload.get("schema_version") == "rejection.batch.v1":
+                issue_imported_labels.add(REJECTION_IMPORTED_LABEL)
+            else:
+                issue_imported_labels.add(APPROVAL_IMPORTED_LABEL)
             processed_batches.add(batch_id)
 
         if issue_imported_batches:
-            mark_issue_processed(token, args.owner, args.repo, issue, issue_imported_batches, "Imported")
+            imported_label = REJECTION_IMPORTED_LABEL if REJECTION_IMPORTED_LABEL in issue_imported_labels else APPROVAL_IMPORTED_LABEL
+            mark_issue_processed(token, args.owner, args.repo, issue, issue_imported_batches, "Imported", imported_label)
             processed_issues.add(issue_number)
         elif issue_seen_batches:
-            mark_issue_processed(token, args.owner, args.repo, issue, issue_seen_batches, "Already imported")
+            imported_label = REJECTION_IMPORTED_LABEL if REJECTION_IMPORTED_LABEL in issue_seen_labels else APPROVAL_IMPORTED_LABEL
+            mark_issue_processed(token, args.owner, args.repo, issue, issue_seen_batches, "Already imported", imported_label)
             processed_issues.add(issue_number)
 
     if imported or processed_issues != original_processed_issues or processed_batches != original_processed_batches:

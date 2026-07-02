@@ -82,6 +82,12 @@
       color: var(--accent-ink);
     }
 
+    button.danger {
+      border-color: #9d2b2b;
+      background: #9d2b2b;
+      color: #fff;
+    }
+
     button:disabled {
       cursor: not-allowed;
       opacity: .55;
@@ -137,7 +143,7 @@
     }
 
     .approval-bar {
-      grid-template-columns: auto auto auto minmax(260px, 1fr);
+      grid-template-columns: auto auto auto auto minmax(260px, 1fr);
       align-items: center;
       padding: 10px;
       border: 1px solid var(--rule);
@@ -321,6 +327,7 @@
       <button type="button" id="select-visible">Select visible</button>
       <button type="button" id="clear-selection">Clear selection</button>
       <button type="button" class="primary" id="approve-selected" disabled>Open approval issue</button>
+      <button type="button" class="danger" id="reject-selected" disabled>Open rejection issue</button>
       <p class="output" id="approval-output">No roles selected.</p>
     </div>
 
@@ -367,7 +374,7 @@
       return !query || JSON.stringify(row).toLowerCase().includes(query);
     }
 
-    function canApprove(row) {
+    function canDecide(row) {
       const approval = row.approval_status || "unreviewed";
       const status = row.status || "discovered";
       return !row.application_id && !["approved", "applied", "archived"].includes(approval) && !["approved", "applied", "archived"].includes(status);
@@ -432,13 +439,14 @@
 
     function updateSelectionState() {
       state.jobs.forEach((row) => {
-        if (!canApprove(row)) selectedJobIds.delete(row.job_id);
+        if (!canDecide(row)) selectedJobIds.delete(row.job_id);
       });
       saveSelection();
       document.querySelector("#metric-selected").textContent = selectedJobIds.size;
       document.querySelector("#approve-selected").disabled = selectedJobIds.size === 0;
+      document.querySelector("#reject-selected").disabled = selectedJobIds.size === 0;
       document.querySelector("#approval-output").textContent = selectedJobIds.size
-        ? `${selectedJobIds.size} role${selectedJobIds.size === 1 ? "" : "s"} selected for issue approval.`
+        ? `${selectedJobIds.size} role${selectedJobIds.size === 1 ? "" : "s"} selected for issue decision.`
         : "No roles selected.";
     }
 
@@ -462,7 +470,7 @@
         {
           label: "",
           className: "select-cell",
-          render: (row) => canApprove(row)
+          render: (row) => canDecide(row)
             ? `<input type="checkbox" data-job-id="${safe(row.job_id)}" ${selectedJobIds.has(row.job_id) ? "checked" : ""} aria-label="Select ${safe(row.company)} ${safe(row.role)}">`
             : ""
         },
@@ -494,7 +502,7 @@
     }
 
     function approvalPayload() {
-      const jobs = state.jobs.filter((row) => selectedJobIds.has(row.job_id) && canApprove(row));
+      const jobs = state.jobs.filter((row) => selectedJobIds.has(row.job_id) && canDecide(row));
       const createdAt = new Date().toISOString();
       const batchSeed = jobs.map((row) => row.job_id).sort().join("|") || createdAt;
       const batchId = `approval-${createdAt.slice(0, 10).replaceAll("-", "")}-${Math.abs(hashCode(batchSeed)).toString(16)}`;
@@ -507,6 +515,25 @@
         auto_apply_allowed: false,
         issue_inbox: "Submit this prefilled GitHub Issue for the scheduled approval importer.",
         import_command: "python3 recruiting/scripts/import_approvals.py approval-batch.json",
+        job_ids: jobs.map((row) => row.job_id),
+        jobs
+      };
+    }
+
+    function rejectionPayload() {
+      const jobs = state.jobs.filter((row) => selectedJobIds.has(row.job_id) && canDecide(row));
+      const createdAt = new Date().toISOString();
+      const batchSeed = jobs.map((row) => row.job_id).sort().join("|") || createdAt;
+      const batchId = `rejection-${createdAt.slice(0, 10).replaceAll("-", "")}-${Math.abs(hashCode(batchSeed)).toString(16)}`;
+      return {
+        schema_version: "rejection.batch.v1",
+        action: "reject_for_now",
+        batch_id: batchId,
+        created_at: createdAt,
+        rejection_required: true,
+        auto_apply_allowed: false,
+        issue_inbox: "Submit this prefilled GitHub Issue for the scheduled rejection importer.",
+        reason: "Rejected from dashboard review.",
         job_ids: jobs.map((row) => row.job_id),
         jobs
       };
@@ -539,6 +566,24 @@
       return `${issueTrackerUrl}/new?${params.toString()}`;
     }
 
+    function rejectionIssueUrl(payload) {
+      const params = new URLSearchParams({
+        title: `Rejection batch ${payload.batch_id}`,
+        labels: "recruiting-rejection,rejection-pending",
+        body: [
+          "Rejection batch generated from the static jobs dashboard.",
+          "",
+          "The scheduled importer will process this issue and close it after the tracker is updated.",
+          "",
+          "```json",
+          JSON.stringify(payload, null, 2),
+          "```",
+          ""
+        ].join("\n")
+      });
+      return `${issueTrackerUrl}/new?${params.toString()}`;
+    }
+
     function openApprovalIssue() {
       const payload = approvalPayload();
       if (!payload.job_ids.length) return;
@@ -546,6 +591,17 @@
       saveSelection();
       window.open(approvalIssueUrl(payload), "_blank", "noopener");
       const message = `Opened GitHub issue composer for ${payload.job_ids.length} approved role${payload.job_ids.length === 1 ? "" : "s"} as ${payload.batch_id}. Submit the issue to queue the importer.`;
+      render();
+      document.querySelector("#approval-output").textContent = message;
+    }
+
+    function openRejectionIssue() {
+      const payload = rejectionPayload();
+      if (!payload.job_ids.length) return;
+      payload.job_ids.forEach((jobId) => exportedJobIds.add(jobId));
+      saveSelection();
+      window.open(rejectionIssueUrl(payload), "_blank", "noopener");
+      const message = `Opened GitHub issue composer for ${payload.job_ids.length} rejected role${payload.job_ids.length === 1 ? "" : "s"} as ${payload.batch_id}. Submit the issue to queue the importer.`;
       render();
       document.querySelector("#approval-output").textContent = message;
     }
@@ -574,7 +630,7 @@
     document.querySelector("#job-status").addEventListener("change", render);
     document.querySelector("#approval-status").addEventListener("change", render);
     document.querySelector("#select-visible").addEventListener("click", () => {
-      filteredJobs().filter(canApprove).forEach((row) => selectedJobIds.add(row.job_id));
+      filteredJobs().filter(canDecide).forEach((row) => selectedJobIds.add(row.job_id));
       render();
     });
     document.querySelector("#clear-selection").addEventListener("click", () => {
@@ -582,6 +638,7 @@
       render();
     });
     document.querySelector("#approve-selected").addEventListener("click", openApprovalIssue);
+    document.querySelector("#reject-selected").addEventListener("click", openRejectionIssue);
     document.querySelector("#jobs-table").addEventListener("change", (event) => {
       const jobId = event.target.dataset.jobId;
       if (!jobId) return;
