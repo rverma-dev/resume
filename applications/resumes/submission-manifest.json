@@ -351,6 +351,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260703-coupang-senior-staff-software-engineer-76d97207",
+    "company": "Coupang",
+    "role": "Senior Staff Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4435215953",
+    "submitted_resume_md": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-76d97207/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-76d97207/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561",
     "company": "Coupang",
     "role": "Senior Staff Software Engineer - Gateway Services",
@@ -375,6 +384,15 @@
     "source_url": "https://www.linkedin.com/jobs/view/4429001501",
     "submitted_resume_md": "applications/resumes/app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-coupang-staff-engineer-backend-finance-platf-7c3c6b15",
+    "company": "Coupang",
+    "role": "Staff Engineer - Backend (Finance Platform)",
+    "source_url": "https://www.linkedin.com/jobs/view/4424325006",
+    "submitted_resume_md": "applications/resumes/app-20260703-coupang-staff-engineer-backend-finance-platf-7c3c6b15/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-coupang-staff-engineer-backend-finance-platf-7c3c6b15/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -423,12 +441,30 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260703-databricks-staff-software-engineer-infrastructu-10faa193",
+    "company": "Databricks",
+    "role": "Staff Software Engineer (Infrastructure)",
+    "source_url": "https://www.linkedin.com/jobs/view/4297757022",
+    "submitted_resume_md": "applications/resumes/app-20260703-databricks-staff-software-engineer-infrastructu-10faa193/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-databricks-staff-software-engineer-infrastructu-10faa193/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012",
     "company": "Databricks",
     "role": "Staff Software Engineer (L6) - Partner Ecosystem",
     "source_url": "https://www.linkedin.com/jobs/view/4415274409",
     "submitted_resume_md": "applications/resumes/app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-dbt-labs-staff-software-engineer-ae37edd4",
+    "company": "dbt Labs",
+    "role": "Staff Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4344231386",
+    "submitted_resume_md": "applications/resumes/app-20260703-dbt-labs-staff-software-engineer-ae37edd4/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-dbt-labs-staff-software-engineer-ae37edd4/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -495,6 +531,24 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260703-intuit-senior-staff-software-engineer-577cec22",
+    "company": "Intuit",
+    "role": "Senior Staff Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4424687218",
+    "submitted_resume_md": "applications/resumes/app-20260703-intuit-senior-staff-software-engineer-577cec22/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-intuit-senior-staff-software-engineer-577cec22/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-intuit-staff-software-engineer-systems-072eeea9",
+    "company": "Intuit",
+    "role": "Staff Software Engineer - Systems",
+    "source_url": "https://www.linkedin.com/jobs/view/4426091933",
+    "submitted_resume_md": "applications/resumes/app-20260703-intuit-staff-software-engineer-systems-072eeea9/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-intuit-staff-software-engineer-systems-072eeea9/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260703-linkedin-principal-staff-software-engineer-li-6d6330e1",
     "company": "LinkedIn",
     "role": "Principal Staff Software Engineer - LinkedIn Sales Solutions",
@@ -519,6 +573,24 @@
     "source_url": "https://www.linkedin.com/jobs/view/4397786457",
     "submitted_resume_md": "applications/resumes/app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e",
+    "company": "LinkedIn",
+    "role": "Staff Software Engineer - Enterprise Infrastructure",
+    "source_url": "https://www.linkedin.com/jobs/view/4428210835",
+    "submitted_resume_md": "applications/resumes/app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-mastercard-principal-engineer-baf6b503",
+    "company": "Mastercard",
+    "role": "Principal Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4399519727",
+    "submitted_resume_md": "applications/resumes/app-20260703-mastercard-principal-engineer-baf6b503/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-mastercard-principal-engineer-baf6b503/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -690,6 +762,15 @@
     "source_url": "https://www.linkedin.com/jobs/view/4388477075",
     "submitted_resume_md": "applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281",
+    "company": "Walmart Global Tech India",
+    "role": "Principal Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4426041380",
+    "submitted_resume_md": "applications/resumes/app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281/submitted-resume.pdf",
     "pages": 2
   },
   {

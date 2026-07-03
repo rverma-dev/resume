@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T22:06:43Z",
-  "active_batch_id": "batch-20260704-ic-heartbeat-2204",
-  "last_scheduler_run_at": "2026-07-03T22:06:24Z",
+  "updated_at": "2026-07-03T22:41:47Z",
+  "active_batch_id": "batch-20260704-ic-heartbeat-2234",
+  "last_scheduler_run_at": "2026-07-03T22:41:42Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -298,6 +298,627 @@
       "updated_at": "2026-07-03T20:08:06Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported despite Staff level because Databricks data-platform scope is distinct and target-company aligned."
+      ]
+    },
+    {
+      "job_id": "linkedin-4424687218",
+      "dedupe_key": "linkedin:4424687218",
+      "source": "linkedin",
+      "source_job_id": "4424687218",
+      "source_url": "https://www.linkedin.com/jobs/view/4424687218",
+      "company": "Intuit",
+      "role": "Senior Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [
+        "Intuit is a strong high-comp target for Staff and Principal India roles.",
+        "Senior Staff title with platform ownership, AI/ML, GenAI, LLM APIs, vector databases, RAG, and agentic framework scope.",
+        "Posting states eligibility for cash bonus, equity rewards, and benefits, though no India range was visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 94,
+      "fit_reason": "Strong next-level IC fit: Senior Staff ownership for Intuit Data Exchange and an AI-first document management platform, combining platform architecture, GenAI/LLM/RAG, autonomous or agentic systems, DevOps/AIOps, AWS, Kubernetes, operational excellence, and cross-functional product impact.",
+      "fit_signals": [
+        "Senior Staff IC level",
+        "AI-first document management platform",
+        "RAG, LLM APIs, embeddings, vector databases",
+        "agentic frameworks and autonomous AI systems",
+        "AWS and Kubernetes",
+        "mission-critical platform services",
+        "technical leadership and mentoring"
+      ],
+      "risk_flags": [
+        "On-site Bengaluru expectations should be verified.",
+        "Tailoring must avoid overstating hands-on custom agent-framework production ownership beyond current evidence."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Intuit",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 151 company alumni on this Intuit posting cluster."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed strong Intuit alumni signal on nearby Staff/Senior Staff postings.",
+      "resume_theme": {
+        "name": "Senior Staff AI document and agentic platform",
+        "positioning": "Position Rohit as a Senior Staff AI platform engineer who has built governed agent systems, internal AI developer tooling, operational diagnostics, and enterprise-scale platform reliability.",
+        "key_pointers": [
+          "Lead with AM agent federation, proactive diagnostics, anomaly detection alerts, and Internal IDE/Unleash as evidence of agentic platform thinking.",
+          "Use Salesforce operational/customer signal integration to map to AI-first document comprehension and automation across products.",
+          "Emphasize Kubernetes/AWS/microservices/platform reliability through Brane, Jupiter, and Salesforce Hyperforce evidence.",
+          "Frame leadership as technical force multiplication and architecture ownership, not people management."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260703-intuit-senior-staff-software-engineer-577cec22",
+      "resume_snapshot_path": "applications/resumes/app-20260703-intuit-senior-staff-software-engineer-577cec22/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; approved because this is a Senior Staff AI platform role at a high-comp target."
+      ]
+    },
+    {
+      "job_id": "linkedin-4399519727",
+      "dedupe_key": "linkedin:4399519727",
+      "source": "linkedin",
+      "source_job_id": "4399519727",
+      "source_url": "https://www.linkedin.com/jobs/view/4399519727",
+      "company": "Mastercard",
+      "role": "Principal Engineer",
+      "location": "Pune/Pimpri-Chinchwad Area, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal Engineer",
+      "compensation_signals": [
+        "Mastercard can meet the compensation target for the right Principal/Director band per user signal.",
+        "Principal Engineer scope covers critical financial infrastructure, global transaction volume, architecture reviews, resilience, security, and compliance.",
+        "No salary range was visible on LinkedIn."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 93,
+      "fit_reason": "Excellent Principal systems fit: global authorization decisioning and fraud platform, billions of transactions, highly available and high-throughput distributed systems, enterprise architecture, active/active/active resilience, self-healing/autoscaling patterns, regulatory/security tradeoffs, org-wide mentoring, and platform simplification.",
+      "fit_signals": [
+        "Principal Engineer",
+        "critical financial infrastructure",
+        "billions of transactions",
+        "high-throughput distributed systems",
+        "active-active resilience",
+        "Kafka/NATS/MQ streaming",
+        "security and compliance",
+        "architecture reviews and mentorship"
+      ],
+      "risk_flags": [
+        "Pune hybrid location may require relocation/travel decision.",
+        "Role expects fintech/payments domain depth; tailor through Jupiter and Brane payments/billing evidence."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Mastercard",
+          "profile_url": "",
+          "notes": "LinkedIn search showed strong Mastercard company/school alumni signals in nearby postings."
+        }
+      ],
+      "connections_summary": "Mastercard has strong alumni/network signal in current search results; prioritize referral path if available.",
+      "resume_theme": {
+        "name": "Principal financial infrastructure and resilient decisioning",
+        "positioning": "Position around high-throughput regulated platforms, payments/billing correctness, distributed resilience, and architecture influence across teams.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments infrastructure and Brane 10M events/min billing pipeline.",
+          "Use Salesforce alerting/anomaly detection/proactive diagnostics for fault prevention and production investigation depth.",
+          "Map Hyperforce multi-region rollout and observability cost reduction to resilience, autoscaling, and operational standards.",
+          "Keep agentic/internal IDE work as a force multiplier for engineering decision velocity, not the main theme."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/incident_reviews/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": "app-20260703-mastercard-principal-engineer-baf6b503",
+      "resume_snapshot_path": "applications/resumes/app-20260703-mastercard-principal-engineer-baf6b503/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; high confidence high-comp Principal target."
+      ]
+    },
+    {
+      "job_id": "linkedin-4428210835",
+      "dedupe_key": "linkedin:4428210835",
+      "source": "linkedin",
+      "source_job_id": "4428210835",
+      "source_url": "https://www.linkedin.com/jobs/view/4428210835",
+      "company": "LinkedIn",
+      "role": "Staff Software Engineer - Enterprise Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Staff infrastructure IC",
+      "compensation_signals": [
+        "LinkedIn is a high-comp Big Tech adjacent target in India.",
+        "Enterprise Infrastructure scope spans developer productivity, secure AI-first environments, compliance, performance, cost, and reliability.",
+        "Easy Apply is visible, but current Chrome file-url upload permission may block resume upload until fixed."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 91,
+      "fit_reason": "Strong Staff platform fit: enterprise infrastructure for developer/operator productivity, secure AI-first environments, automation by default, compliance, cost/performance optimization, distributed systems, developer platforms, production issue diagnosis, cross-functional AI/data infrastructure collaboration, and mentoring.",
+      "fit_signals": [
+        "Staff Software Engineer",
+        "enterprise infrastructure engineering",
+        "AI-first developer/operator environments",
+        "automation and compliance",
+        "distributed systems",
+        "developer productivity platforms",
+        "streaming and data processing systems"
+      ],
+      "risk_flags": [
+        "Easy Apply resume upload may remain blocked until Chrome extension access to file URLs is enabled.",
+        "Minimum experience signal is lower than target; apply because LinkedIn Staff title and infrastructure scope are aligned."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "LinkedIn",
+          "profile_url": "",
+          "notes": "Posting is from LinkedIn and showed active review; use existing LinkedIn network/referral channel where possible."
+        }
+      ],
+      "connections_summary": "LinkedIn posting is actively reviewing applicants; network follow-up is worth doing before or alongside the application.",
+      "resume_theme": {
+        "name": "AI-first enterprise infrastructure and developer productivity",
+        "positioning": "Position as a Staff platform engineer building secure, AI-enabled developer infrastructure, automation, reliability, and enterprise operational tooling.",
+        "key_pointers": [
+          "Lead with Internal IDE/Unleash, AM agent federation, and local-first AI engineering workspace work.",
+          "Use Salesforce proactive diagnostics, anomaly detection, and multi-region alerting to show reliability and operational excellence.",
+          "Frame compliance and cost optimization through Hyperforce observability and Brane enterprise platform/security readiness.",
+          "Emphasize mentoring and cross-functional platform architecture without converting the story into management."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/ADRs/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": "app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e",
+      "resume_snapshot_path": "applications/resumes/app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; strong but application may require manual browser upload fix."
+      ]
+    },
+    {
+      "job_id": "linkedin-4297757022",
+      "dedupe_key": "linkedin:4297757022",
+      "source": "linkedin",
+      "source_job_id": "4297757022",
+      "source_url": "https://www.linkedin.com/jobs/view/4297757022",
+      "company": "Databricks",
+      "role": "Staff Software Engineer (Infrastructure)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff infrastructure IC",
+      "compensation_signals": [
+        "Databricks is a priority high-comp target company.",
+        "Staff infrastructure role on data and AI infrastructure platform across product-to-infrastructure distributed systems.",
+        "No salary range was visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 90,
+      "fit_reason": "Strong Staff infrastructure fit: data and AI infrastructure platform, product-to-infrastructure distributed systems, at-scale service architecture and monitoring, workflow orchestration, developer experience, cloud storage backends, Kubernetes, Spark/data pipelines, and pricing infrastructure serving millions of cluster-hours per day.",
+      "fit_signals": [
+        "Databricks Staff IC",
+        "AI infrastructure platform",
+        "distributed systems from scratch",
+        "service architecture and monitoring",
+        "workflow orchestration",
+        "developer experience",
+        "Kubernetes and Spark",
+        "cloud storage backends"
+      ],
+      "risk_flags": [
+        "Staff level is below the already approved Databricks Senior Staff Backend/Networking/Search roles.",
+        "Apply only if Databricks confirms this is a distinct team/requisition from already approved Staff Data Platform and Senior Staff Backend roles."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 694 company alumni on Databricks postings."
+        },
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 57 school alumni on nearby Databricks postings."
+        }
+      ],
+      "connections_summary": "Strong Databricks alumni signal; use referral/recruiter path to avoid duplicate applications across similar Databricks requisitions.",
+      "resume_theme": {
+        "name": "Staff AI infrastructure and developer experience",
+        "positioning": "Position around multi-cloud platform infrastructure, observability, workflow orchestration, and developer productivity for data and AI systems.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce/multi-region alerting, proactive diagnostics, and anomaly detection alerts.",
+          "Use Internal IDE/Unleash to show developer experience and AI-assisted engineering workflow ownership.",
+          "Map Brane/Jupiter data, billing, and platform work to distributed cloud infrastructure reliability.",
+          "Keep Senior Staff Databricks roles prioritized above this Staff posting."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/ADRs/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": "app-20260703-databricks-staff-software-engineer-infrastructu-10faa193",
+      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-infrastructu-10faa193/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; distinct Databricks infrastructure posting but lower priority than already approved Senior Staff roles."
+      ]
+    },
+    {
+      "job_id": "linkedin-4435215953",
+      "dedupe_key": "linkedin:4435215953",
+      "source": "linkedin",
+      "source_job_id": "4435215953",
+      "source_url": "https://www.linkedin.com/jobs/view/4435215953",
+      "company": "Coupang",
+      "role": "Senior Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Staff backend IC",
+      "compensation_signals": [
+        "Coupang is a user-identified high-comp target at Senior Staff/Director-equivalent bands.",
+        "Senior Staff role reports to Senior Director and owns technical north star for Rocket Growth supply-chain domain.",
+        "No salary range was visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 90,
+      "fit_reason": "Strong Senior Staff distributed backend fit: next-generation products, supply-chain systems, domain technical north star, roadmap and scalable architecture, stakeholder alignment, mission-critical projects, AWS, Java/Python, large-system architecture, and production issue handling.",
+      "fit_signals": [
+        "Senior Staff IC",
+        "reports to Senior Director",
+        "domain technical north star",
+        "large-scale distributed systems",
+        "supply chain platform",
+        "AWS",
+        "mission-critical architecture"
+      ],
+      "risk_flags": [
+        "Supply-chain domain depth should be positioned through platform architecture rather than claiming direct domain expertise.",
+        "Hybrid Bengaluru requirement should be confirmed."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Coupang",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 30 company alumni on Coupang Senior Staff postings."
+        }
+      ],
+      "connections_summary": "Coupang Senior Staff postings show company alumni signal; prioritize referral if available.",
+      "resume_theme": {
+        "name": "Senior Staff commerce platform architecture",
+        "positioning": "Position around high-scale commerce and financial platform architecture, distributed reliability, and cross-team technical direction.",
+        "key_pointers": [
+          "Lead with Jupiter payments, Brane event billing, and Salesforce observability scale.",
+          "Use proactive diagnostics/anomaly alerts to prove production issue handling and root-cause depth.",
+          "Frame Internal IDE/agent federation as engineering productivity leverage, secondary to backend platform execution.",
+          "Emphasize roadmap/technical north-star work through RFCs, ADRs, and cross-team rollouts."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260703-coupang-senior-staff-software-engineer-76d97207",
+      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-76d97207/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; distinct Coupang Rocket Growth/Supply Chain Senior Staff role."
+      ]
+    },
+    {
+      "job_id": "linkedin-4426091933",
+      "dedupe_key": "linkedin:4426091933",
+      "source": "linkedin",
+      "source_job_id": "4426091933",
+      "source_url": "https://www.linkedin.com/jobs/view/4426091933",
+      "company": "Intuit",
+      "role": "Staff Software Engineer - Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff Systems IC",
+      "compensation_signals": [
+        "Intuit Staff platform roles are in the target-company set for strong India compensation.",
+        "Posting mentions cash bonus, equity rewards, and benefits; no India salary range was visible.",
+        "TurboTax modernization and SRE/platform architecture scope can map to Staff/L8-style impact."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 89,
+      "fit_reason": "Good Staff systems fit: TurboTax monolith-to-microservices modernization, Tax Engine upgrade, system-level latency/throughput/reliability/security standards, IaC, CI/CD, observability, SLOs/SLIs, proactive reliability engineering, and cross-functional technical guidance.",
+      "fit_signals": [
+        "Staff systems architecture",
+        "monolith to microservices migration",
+        "cloud-native AWS platform",
+        "Kubernetes, IaC, CI/CD",
+        "observability, SLOs, SLIs",
+        "incident reduction and RCA",
+        "regulated FinTech domain signal"
+      ],
+      "risk_flags": [
+        "Staff level is below Senior Staff/Principal, so prioritize after stronger approved roles.",
+        "Tax-domain specifics require careful framing around platform modernization rather than tax expertise."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Intuit",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 38 school alumni on this Intuit posting cluster."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed school-alumni signal for Intuit Staff Systems postings.",
+      "resume_theme": {
+        "name": "Staff systems modernization and SRE platform",
+        "positioning": "Position around cloud-native platform modernization, observability, SLO-driven operations, and regulated financial-scale systems.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce alerting, proactive diagnostics, anomaly detection alerts, and $6M annualized observability cost reduction.",
+          "Use Jupiter $240M/month payments and Brane enterprise SaaS infrastructure to prove regulated, high-availability platform experience.",
+          "Map multi-region rollouts, testing automation, and RFC-driven standards to TurboTax modernization governance.",
+          "Keep AI/agentic work secondary for this role; reliability and system architecture are the main fit."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/incident_reviews/",
+          "work/architecture/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": "app-20260703-intuit-staff-software-engineer-systems-072eeea9",
+      "resume_snapshot_path": "applications/resumes/app-20260703-intuit-staff-software-engineer-systems-072eeea9/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; lower priority than Senior Staff/Principal approvals due to Staff level."
+      ]
+    },
+    {
+      "job_id": "linkedin-4424325006",
+      "dedupe_key": "linkedin:4424325006",
+      "source": "linkedin",
+      "source_job_id": "4424325006",
+      "source_url": "https://www.linkedin.com/jobs/view/4424325006",
+      "company": "Coupang",
+      "role": "Staff Engineer - Backend (Finance Platform)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Staff backend finance platform IC",
+      "compensation_signals": [
+        "Coupang is a high-comp target for senior platform roles per user signal.",
+        "Finance Platform Engineering owns mission-critical settlement, payout, and finance platforms processing tens of millions of events per business per day.",
+        "No salary range was visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 88,
+      "fit_reason": "Good Staff finance-platform fit: centralized finance technology platform, partner settlement/payout, tens of millions of events per day, 25+ engineer stakeholder surface, scalable data pipelines, AWS, Java/Spring, container-based testing, and critical-system debugging.",
+      "fit_signals": [
+        "Staff backend IC",
+        "finance platform",
+        "settlement and payout systems",
+        "tens of millions of events per day",
+        "data pipeline architecture",
+        "AWS and Java",
+        "large stakeholder surface"
+      ],
+      "risk_flags": [
+        "Staff level and 8+ year minimum are lower than the ideal Principal/Senior Staff target.",
+        "Apply after Senior Staff/Principal roles unless referral or compensation signal is strong."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Coupang",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 30 company alumni on Coupang postings."
+        }
+      ],
+      "connections_summary": "Coupang alumni signal is present; use referral path if possible.",
+      "resume_theme": {
+        "name": "Staff finance platform and settlement systems",
+        "positioning": "Position around regulated financial platform engineering, payout/settlement correctness, event pipelines, and cloud reliability.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payment infrastructure and Brane 10M events/min event-billing pipeline.",
+          "Use Salesforce anomaly detection and proactive diagnostics for production correctness and issue prevention.",
+          "Map platform governance, testing automation, and CI/CD to finance-platform reliability expectations.",
+          "Keep agentic AI platform work as optional productivity/diagnostics signal."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/incident_reviews/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": "app-20260703-coupang-staff-engineer-backend-finance-platf-7c3c6b15",
+      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-staff-engineer-backend-finance-platf-7c3c6b15/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; good finance-platform backup candidate, lower priority than Senior Staff roles."
+      ]
+    },
+    {
+      "job_id": "linkedin-4344231386",
+      "dedupe_key": "linkedin:4344231386",
+      "source": "linkedin",
+      "source_job_id": "4344231386",
+      "source_url": "https://www.linkedin.com/jobs/view/4344231386",
+      "company": "dbt Labs",
+      "role": "Staff Software Engineer",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Staff systems/data platform IC",
+      "compensation_signals": [
+        "Remote India Staff role at a venture-backed data infrastructure company with RSUs or comparable benefits depending on location.",
+        "Comp target is less certain than Big Tech/Databricks/Coupang, but data control plane and open-source infrastructure scope are strategically aligned.",
+        "No salary range was visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 87,
+      "fit_reason": "Good Staff data-platform fit: dbt Fusion adapters/connectivity infrastructure, Rust/Go/Arrow/open standards, SDK/runtime/connectors, data execution systems, CI/testing/profiling/release readiness, RFCs, public code architecture, resilience, debuggability, and API clarity.",
+      "fit_signals": [
+        "Staff IC",
+        "remote India",
+        "data execution and connectivity infrastructure",
+        "SDKs, adapters, and runtime interfaces",
+        "Arrow, ADBC, Spark, DataFusion signal",
+        "RFCs and open-source governance",
+        "CI, testing, profiling, release readiness"
+      ],
+      "risk_flags": [
+        "Minimum experience signal is 6+ years; verify actual level and compensation before prioritizing.",
+        "Rust/low-level data connector depth should be framed honestly from adjacent platform/interface work."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "dbt Labs",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 18 company alumni on dbt Labs Staff posting."
+        }
+      ],
+      "connections_summary": "dbt Labs posting showed company alumni signal and remote India scope.",
+      "resume_theme": {
+        "name": "Staff data control plane and platform interfaces",
+        "positioning": "Position around data/control-plane platform interfaces, RFC-driven architecture, connector/tooling boundaries, reliability, and testing automation.",
+        "key_pointers": [
+          "Lead with Salesforce operational/customer signal integration, proactive diagnostics, and anomaly detection as data/control-plane platform work.",
+          "Use Internal IDE/Unleash and AM agent federation to show strong API/tooling boundary design and developer productivity.",
+          "Map Brane ClickHouse/Kafka/event-billing and Jupiter data platform work to data execution and connectivity credibility.",
+          "Emphasize RFCs, ADRs, testing automation, CI, and release readiness."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260703-dbt-labs-staff-software-engineer-ae37edd4",
+      "resume_snapshot_path": "applications/resumes/app-20260703-dbt-labs-staff-software-engineer-ae37edd4/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; strategic Staff data-platform backup with compensation uncertainty."
+      ]
+    },
+    {
+      "job_id": "linkedin-4426041380",
+      "dedupe_key": "linkedin:4426041380",
+      "source": "linkedin",
+      "source_job_id": "4426041380",
+      "source_url": "https://www.linkedin.com/jobs/view/4426041380",
+      "company": "Walmart Global Tech India",
+      "role": "Principal Software Engineer",
+      "location": "Chennai, Tamil Nadu, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Software Engineer",
+      "compensation_signals": [
+        "Walmart Distinguished/Principal platform roles can be relevant high-scale targets; exact compensation not visible.",
+        "Principal role on Marketplace API gateway and platform/shared tools has architecture, platform, observability, DevOps, and leadership scope.",
+        "Easy Apply is visible, but current Chrome file-url upload permission may block resume upload until fixed."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 86,
+      "fit_reason": "Good Principal marketplace/platform fit: Marketplace API gateway, platform teams/shared developer tools, microservice architecture, distributed systems, REST APIs, cloud-native technologies, CI/CD, SQL/NoSQL/caching, developer productivity, observability, DevOps, technical guidance, and mentoring.",
+      "fit_signals": [
+        "Principal Software Engineer",
+        "Marketplace API gateway",
+        "platform teams and shared tools",
+        "distributed systems and microservices",
+        "developer productivity and observability",
+        "cloud-native DevOps",
+        "mentorship and technical leadership"
+      ],
+      "risk_flags": [
+        "Chennai on-site location may be a material constraint.",
+        "Fit is platform-heavy but less AI-infra focused than priority Google/Databricks/LinkedIn/Intuit roles."
+      ],
+      "people": [
+        {
+          "name": "Walmart network",
+          "relationship": "alumni signal",
+          "role": "Walmart Global Tech India",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 70 school alumni and 16 company alumni across Walmart role cluster."
+        }
+      ],
+      "connections_summary": "Walmart role cluster shows alumni signals; use referral if location and level are acceptable.",
+      "resume_theme": {
+        "name": "Principal marketplace API gateway and platform engineering",
+        "positioning": "Position around Principal-level API/platform architecture, developer productivity, observability, and high-scale commerce reliability.",
+        "key_pointers": [
+          "Lead with API/platform architecture from Anypoint Monitoring, Visualizer, and cross-team Salesforce platform work.",
+          "Use Jupiter payments and Brane billing to support marketplace/payment/commerce credibility.",
+          "Map Internal IDE/Unleash to developer productivity and shared tooling expectations.",
+          "Keep location and on-site constraint visible during application decision."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/architecture/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": "app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281",
+      "resume_snapshot_path": "applications/resumes/app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-03T22:41:47Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; good Principal backup candidate with Chennai on-site risk."
       ]
     },
     {
