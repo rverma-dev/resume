@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T18:41:10Z",
-  "active_batch_id": "batch-20260704-ic-heartbeat-0004",
-  "last_scheduler_run_at": "2026-07-03T18:37:25Z",
+  "updated_at": "2026-07-03T19:10:58Z",
+  "active_batch_id": "batch-20260704-broadcom-architect-heartbeat",
+  "last_scheduler_run_at": "2026-07-03T19:10:47Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -178,6 +178,302 @@
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported as high-fit but compensation-risk flagged Easy Apply candidate."
       ]
+    },
+    {
+      "job_id": "linkedin-4374516043",
+      "dedupe_key": "linkedin:4374516043",
+      "source": "linkedin",
+      "source_job_id": "4374516043",
+      "source_url": "https://www.linkedin.com/jobs/view/4374516043",
+      "company": "Databricks",
+      "role": "Senior Staff Software Engineer- Networking",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "priority high-paying company",
+        "Senior Staff Databricks infrastructure role in India; no exact compensation visible",
+        "user-provided target-company signal: Databricks can meet high-comp target at the right band"
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-databricks-ic-heartbeat",
+      "fit_score": 98,
+      "fit_reason": "Excellent next-level IC fit: Senior Staff role owning Databricks Networking Infrastructure, next-generation multi-cloud connectivity and observability services, control-plane to compute-plane backbone, enterprise security/data-exfiltration prevention, and org-wide technical direction across teams.",
+      "fit_signals": [
+        "Senior Staff IC",
+        "multi-cloud networking infrastructure",
+        "connectivity and observability",
+        "control plane and compute plane",
+        "Kubernetes and Terraform",
+        "enterprise security",
+        "org-wide architecture influence"
+      ],
+      "risk_flags": [
+        "Needs networking depth framed carefully; resume should emphasize platform connectivity, Hyperforce routing/observability, Kubernetes, Terraform, and reliability rather than claiming specialist network protocol ownership."
+      ],
+      "people": [
+        {
+          "name": "Mohit Jain",
+          "relationship": "2nd-degree hiring signal",
+          "role": "Engineering Manager at Databricks; hiring for AI-SRE and observability",
+          "profile_url": "https://www.linkedin.com/in/mohit--jain/",
+          "notes": "LinkedIn people search surfaced Databricks hiring manager in Bengaluru."
+        },
+        {
+          "name": "Shweta Santosh",
+          "relationship": "2nd-degree recruiter signal",
+          "role": "Staff Recruiter APJ at Databricks",
+          "profile_url": "https://www.linkedin.com/in/shwetasantosh/",
+          "notes": "30+ mutual connections visible in LinkedIn people search."
+        },
+        {
+          "name": "Shaswati Sen",
+          "relationship": "2nd-degree recruiter signal",
+          "role": "Staff Tech Recruiter APJ at Databricks",
+          "profile_url": "",
+          "notes": "35 mutual connections visible in LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn people search surfaced 2nd-degree Databricks Bengaluru hiring/recruiting contacts, including an engineering manager hiring for AI-SRE/observability and APJ recruiters with strong mutual-connection counts.",
+      "resume_theme": {
+        "name": "Senior Staff multi-cloud networking and observability infrastructure",
+        "positioning": "Position as a Senior Staff platform engineer who designs multi-cloud control-plane infrastructure, observability, and reliability systems at Salesforce scale, with recent proactive diagnostics and anomaly-alerting work as proof of production signal quality.",
+        "key_pointers": [
+          "Lead with Anypoint Monitoring Alerts scale: Hyperforce/multi-region rollout, 3M alerts, 50K-100K concurrent evaluations, and $6M annualized observability cost reduction.",
+          "Map proactive diagnostics and anomaly detection alerts to next-generation observability services that improve reliability and operator decision velocity.",
+          "Use Brane/Jupiter platform evidence for Kubernetes, Terraform, SaaS infrastructure, compliance, and cloud connectivity foundations.",
+          "Keep the narrative at org-wide architecture and cross-team execution level, matching Databricks Senior Staff expectations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/README.md"
+        ]
+      },
+      "application_id": "app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d",
+      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d/resume.md",
+      "discovered_at": "2026-07-03T19:08:16Z",
+      "updated_at": "2026-07-03T19:08:26Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4364443042",
+      "dedupe_key": "linkedin:4364443042",
+      "source": "linkedin",
+      "source_job_id": "4364443042",
+      "source_url": "https://www.linkedin.com/jobs/view/4364443042",
+      "company": "Databricks",
+      "role": "Senior Staff Software Engineer - Backend",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "priority high-paying company",
+        "Senior Staff Databricks backend infrastructure role in India; no exact compensation visible",
+        "user-provided target-company signal: Databricks can meet high-comp target at the right band"
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-databricks-ic-heartbeat",
+      "fit_score": 97,
+      "fit_reason": "Excellent current/next-level IC fit: Databricks explicitly frames the role as an executive engineering individual contributor with full ownership of a major product or infrastructure area, large-scale distributed systems, exabytes/day data processing, production fault isolation, roadmap influence, and org-wide initiatives.",
+      "fit_signals": [
+        "Senior Staff IC",
+        "executive engineering individual contributor",
+        "major infrastructure ownership",
+        "large-scale distributed systems",
+        "production fault tolerance",
+        "org-wide initiatives",
+        "technical team leadership"
+      ],
+      "risk_flags": [
+        "Multiple LinkedIn IDs expose near-identical Backend descriptions; apply to one strongest Backend requisition first and avoid duplicate submissions unless Databricks confirms separate teams."
+      ],
+      "people": [
+        {
+          "name": "Mohit Jain",
+          "relationship": "2nd-degree hiring signal",
+          "role": "Engineering Manager at Databricks; hiring for AI-SRE and observability",
+          "profile_url": "https://www.linkedin.com/in/mohit--jain/",
+          "notes": "Relevant to backend/platform observability routing."
+        },
+        {
+          "name": "Ashwini U",
+          "relationship": "2nd-degree recruiter signal",
+          "role": "Sr. Recruiter at Databricks",
+          "profile_url": "https://www.linkedin.com/in/ashwini-ullagaddi/",
+          "notes": "5 mutual connections visible in LinkedIn people search."
+        },
+        {
+          "name": "Debarshi Ghosh",
+          "relationship": "2nd-degree recruiter signal",
+          "role": "Sr. Recruiter at Databricks",
+          "profile_url": "",
+          "notes": "5 mutual connections visible in LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn people search surfaced Databricks Bengaluru engineering/recruiting contacts; useful for referral/recruiter follow-up before duplicate Backend submissions.",
+      "resume_theme": {
+        "name": "Executive IC backend infrastructure and production reliability",
+        "positioning": "Model the resume around Senior Staff ownership of revenue-critical distributed infrastructure, production reliability, and cross-team technical direction across Salesforce, Jupiter, and Brane.",
+        "key_pointers": [
+          "Lead with Salesforce alerting platform ownership, large-scale distributed evaluation, multi-region rollout, and measurable cost/reliability impact.",
+          "Use Jupiter $240M/month payments and Brane 10M events/min billing systems to prove correctness under high-volume production load.",
+          "Frame proactive diagnostics, anomaly alerts, and testing automation as evidence of production investigation and fault-prevention judgment.",
+          "Keep people leadership as force-multiplier/mentoring evidence while preserving IC positioning."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f",
+      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f/resume.md",
+      "discovered_at": "2026-07-03T19:08:16Z",
+      "updated_at": "2026-07-03T19:08:26Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4375561270",
+      "dedupe_key": "linkedin:4375561270",
+      "source": "linkedin",
+      "source_job_id": "4375561270",
+      "source_url": "https://www.linkedin.com/jobs/view/4375561270",
+      "company": "Databricks",
+      "role": "Senior Staff Software Engineer- Search Quality",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "priority high-paying company",
+        "Senior Staff Databricks AI/search role in India; no exact compensation visible",
+        "user-provided target-company signal: Databricks can meet high-comp target at the right band"
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-databricks-ic-heartbeat",
+      "fit_score": 92,
+      "fit_reason": "Strong next-level IC fit if positioned around agentic retrieval quality: Databricks is building the contextual backbone for AI agents and human search across enterprise data, with hybrid retrieval, ranking quality, evaluation frameworks, and hallucination guardrails.",
+      "fit_signals": [
+        "Senior Staff IC",
+        "AI agents",
+        "RAG and hybrid retrieval",
+        "search relevance and evaluation",
+        "hallucination guardrails",
+        "data discovery",
+        "high-stakes enterprise accuracy"
+      ],
+      "risk_flags": [
+        "Narrower IR specialist profile than Networking/Backend; requires careful tailoring around evaluation systems, retrieval, and agent grounding, without overstating Lucene/Elasticsearch ownership."
+      ],
+      "people": [
+        {
+          "name": "Shweta Santosh",
+          "relationship": "2nd-degree recruiter signal",
+          "role": "Staff Recruiter APJ at Databricks",
+          "profile_url": "https://www.linkedin.com/in/shwetasantosh/",
+          "notes": "30+ mutual connections visible in LinkedIn people search."
+        },
+        {
+          "name": "Shaswati Sen",
+          "relationship": "2nd-degree recruiter signal",
+          "role": "Staff Tech Recruiter APJ at Databricks",
+          "profile_url": "",
+          "notes": "35 mutual connections visible in LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn people search surfaced APJ Databricks recruiter contacts with many mutual connections; follow-up should ask whether Search Quality expects deep IR ownership or broader agentic retrieval/evaluation leadership.",
+      "resume_theme": {
+        "name": "Agentic retrieval quality and evaluation systems",
+        "positioning": "Position as an AI platform and observability engineer who builds grounded agent systems, evaluation loops, and high-signal diagnostics for enterprise decision workflows.",
+        "key_pointers": [
+          "Lead with proactive diagnostics and anomaly detection alerts as signal-quality, relevance, and grounded-decision systems for production operations.",
+          "Use AM agent federation, governed multi-agent systems, and Internal IDE/Unleash to show agentic retrieval/context architecture experience.",
+          "Connect Salesforce operational/customer-signal integration to Databricks' human-and-agent data discovery mission.",
+          "Use testing automation and validation frameworks as evidence for evaluation rigor."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/README.md"
+        ]
+      },
+      "application_id": "app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae",
+      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae/resume.md",
+      "discovered_at": "2026-07-03T19:08:16Z",
+      "updated_at": "2026-07-03T19:08:26Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4401425673",
+      "dedupe_key": "linkedin:4401425673",
+      "source": "linkedin",
+      "source_job_id": "4401425673",
+      "source_url": "https://www.linkedin.com/jobs/view/4401425673",
+      "company": "Broadcom",
+      "role": "Senior Software Architect",
+      "location": "Greater Hyderabad Area, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "user-provided target-company signal: Broadcom can pay strongly at senior/principal architecture bands",
+        "Broadcom infrastructure software company; no exact compensation visible",
+        "job search showed 84 company alumni work here"
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-broadcom-architect-heartbeat",
+      "fit_score": 91,
+      "fit_reason": "Strong architect-level AI/product-platform fit: pragmatic GenAI/AI-ML implementation across enterprise DevOps product lines, LangChain/LangGraph/RAG, AI service APIs, model evaluation, automated testing, customer pain-point analysis, and production AI infrastructure.",
+      "fit_signals": [
+        "AI/ML product architect",
+        "LangChain and LangGraph",
+        "RAG and vector databases",
+        "AI testing and validation",
+        "enterprise DevOps products",
+        "customer-impact metrics",
+        "hands-on architecture"
+      ],
+      "risk_flags": [
+        "Title is Senior Software Architect rather than Principal/Staff; keep as high-company architect track but verify level and compensation before heavy effort.",
+        "Role asks for cover letter/code samples and 5-day onsite Hyderabad; application may need manual final review."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Broadcom",
+          "profile_url": "",
+          "notes": "LinkedIn job search showed 84 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn job search surfaced 84 company alumni at Broadcom; no reliable current Broadcom recruiter/manager was found in the targeted people search.",
+      "resume_theme": {
+        "name": "Pragmatic AI product architect and validation systems",
+        "positioning": "Position as a hands-on architect who turns AI platform ideas into customer-impacting, testable enterprise systems, with strong evidence from Internal IDE/Unleash, AM agent federation, proactive diagnostics, anomaly alerts, and testing automation.",
+        "key_pointers": [
+          "Lead with Internal IDE/Unleash as a practical AI engineering platform, not a generic prompt wrapper.",
+          "Use AM agent federation and governed multi-agent systems to map to LangGraph/LangChain and agent workflow architecture.",
+          "Emphasize proactive diagnostics, anomaly detection alerts, and testing automation as quality, validation, and measurable customer-value systems.",
+          "Include Salesforce platform and Brane/Jupiter enterprise SaaS evidence for production architecture, APIs, security, and compliance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/README.md"
+        ]
+      },
+      "application_id": "app-20260703-broadcom-senior-software-architect-0421392e",
+      "resume_snapshot_path": "applications/resumes/app-20260703-broadcom-senior-software-architect-0421392e/resume.md",
+      "discovered_at": "2026-07-03T19:10:47Z",
+      "updated_at": "2026-07-03T19:10:57Z",
+      "notes": []
     },
     {
       "job_id": "linkedin-4380104127",

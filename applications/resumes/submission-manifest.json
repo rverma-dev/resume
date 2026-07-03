@@ -261,6 +261,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260703-broadcom-senior-software-architect-0421392e",
+    "company": "Broadcom",
+    "role": "Senior Software Architect",
+    "source_url": "https://www.linkedin.com/jobs/view/4401425673",
+    "submitted_resume_md": "applications/resumes/app-20260703-broadcom-senior-software-architect-0421392e/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-broadcom-senior-software-architect-0421392e/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6",
     "company": "Coupang",
     "role": "Staff Engineer - Backend (E-Commerce Engineering)",
@@ -276,6 +285,33 @@
     "source_url": "https://www.linkedin.com/jobs/view/4415271375",
     "submitted_resume_md": "applications/resumes/app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f",
+    "company": "Databricks",
+    "role": "Senior Staff Software Engineer - Backend",
+    "source_url": "https://www.linkedin.com/jobs/view/4364443042",
+    "submitted_resume_md": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d",
+    "company": "Databricks",
+    "role": "Senior Staff Software Engineer- Networking",
+    "source_url": "https://www.linkedin.com/jobs/view/4374516043",
+    "submitted_resume_md": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae",
+    "company": "Databricks",
+    "role": "Senior Staff Software Engineer- Search Quality",
+    "source_url": "https://www.linkedin.com/jobs/view/4375561270",
+    "submitted_resume_md": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae/submitted-resume.pdf",
     "pages": 2
   },
   {
