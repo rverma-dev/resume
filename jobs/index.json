@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T19:10:58Z",
-  "active_batch_id": "batch-20260704-broadcom-architect-heartbeat",
-  "last_scheduler_run_at": "2026-07-03T19:10:47Z",
+  "updated_at": "2026-07-03T19:40:57Z",
+  "active_batch_id": "batch-20260704-amazon-principal-heartbeat",
+  "last_scheduler_run_at": "2026-07-03T19:38:03Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -474,6 +474,279 @@
       "discovered_at": "2026-07-03T19:10:47Z",
       "updated_at": "2026-07-03T19:10:57Z",
       "notes": []
+    },
+    {
+      "job_id": "linkedin-4418179554",
+      "dedupe_key": "linkedin:4418179554",
+      "source": "linkedin",
+      "source_job_id": "4418179554",
+      "source_url": "https://www.linkedin.com/jobs/view/4418179554",
+      "company": "Amazon",
+      "role": "Principal Software Engineer, RBS - Tech",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Principal Software Engineer / agentic automation platform IC",
+      "compensation_signals": [
+        "Amazon Principal Software Engineer is target-compensation-capable at the right band.",
+        "Principal GenAI/agentic platform role; no salary range visible in LinkedIn posting.",
+        "LinkedIn search showed 2,019 company alumni for nearby Amazon postings."
+      ],
+      "status": "ready",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-amazon-principal-heartbeat",
+      "fit_score": 99,
+      "fit_reason": "Excellent principal AI platform fit: owns scalable GenAI-driven agentic core platforms for self-service business automation, integrates hundreds of tools, sets quality bars for resilience, latency, precision/recall, usability, security/privacy and efficiency, and expands platforms across geographies, languages, and teams.",
+      "fit_signals": [
+        "Principal Software Engineer",
+        "GenAI agentic core platforms",
+        "self-service agent building",
+        "hundreds of tool integrations",
+        "precision/recall and quality bars",
+        "big data processing/storage",
+        "cross-geo platform expansion"
+      ],
+      "risk_flags": [
+        "Role is e-commerce business automation rather than developer tooling; tailor around agentic platform primitives, signal quality, governance, and enterprise automation.",
+        "Application likely routes to Amazon Jobs and may require profile/login plus final legal/EEO answers."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Amazon",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 2,019 company alumni for nearby Amazon postings."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 2,019 company alumni for nearby Amazon postings and 60 people clicked apply on this role.",
+      "resume_theme": {
+        "name": "Principal agentic automation platform and signal quality",
+        "positioning": "Make current Salesforce AI platform work the center: AM agent federation, Internal IDE/Unleash, proactive diagnostics, anomaly detection, governance, and evaluation quality for enterprise agent platforms.",
+        "key_pointers": [
+          "Lead with AM agent federation, governed multi-agent systems, and Internal IDE/Unleash as agentic core-platform evidence.",
+          "Use proactive diagnostics and anomaly detection alerts to map directly to precision/recall, signal quality, degradation flags, and automated remediation.",
+          "Show integration with operational/customer signals as the basis for autonomous business-process automation.",
+          "Use Brane/Jupiter distributed systems and Salesforce Hyperforce rollout to prove scale, security, privacy, and reliability."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260703-amazon-principal-software-engineer-rbs-tech-a5aca81e",
+      "resume_snapshot_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-rbs-tech-a5aca81e/resume.md",
+      "discovered_at": "2026-07-03T19:38:03Z",
+      "updated_at": "2026-07-03T19:40:57Z",
+      "notes": [
+        "Discovered by heartbeat IC search on 2026-07-04; imported as top-priority Amazon principal agentic platform role."
+      ]
+    },
+    {
+      "job_id": "linkedin-4399258079",
+      "dedupe_key": "linkedin:4399258079",
+      "source": "linkedin",
+      "source_job_id": "4399258079",
+      "source_url": "https://www.linkedin.com/jobs/view/4399258079",
+      "company": "Amazon",
+      "role": "Principal Software Engineer, Amazon Payments, WW Installments, Amazon Payments",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Principal Software Engineer / high-scale payments platform IC",
+      "compensation_signals": [
+        "Amazon Principal Software Engineer is target-compensation-capable at the right band.",
+        "Freshly reposted principal-level role; no salary range visible in LinkedIn posting.",
+        "LinkedIn search showed 564 school alumni for nearby Amazon postings."
+      ],
+      "status": "ready",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-amazon-principal-heartbeat",
+      "fit_score": 98,
+      "fit_reason": "Excellent principal IC fit: owns 3-year technical roadmap for global installment pricing and BNPL offerings across 20+ countries, converges regional systems into core reusable workflows, designs strongly consistent high-throughput payment systems, and influences 35+ Amazon teams.",
+      "fit_signals": [
+        "Principal Software Engineer",
+        "global payments platform",
+        "3-year technical roadmap",
+        "strong consistency and idempotency",
+        "real-time eligibility/risk evaluation",
+        "cross-org architecture influence",
+        "multi-billion dollar GMS business"
+      ],
+      "risk_flags": [
+        "Payments domain is strong but must be positioned with Jupiter payment scale and correctness; avoid overstating Amazon retail-specific systems experience.",
+        "Application likely routes to Amazon Jobs and may require profile/login plus final legal/EEO answers."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Amazon",
+          "profile_url": "",
+          "notes": "LinkedIn search surfaced 564 school alumni for Amazon principal postings."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 564 school alumni for Amazon principal postings and over 100 people clicked apply on this role.",
+      "resume_theme": {
+        "name": "Principal payments platform and correctness architecture",
+        "positioning": "Position as a principal-scale platform engineer for high-throughput payment/revenue systems, correctness, reliability, and cross-org technical strategy.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments infrastructure and enterprise-grade correctness/reliability ownership.",
+          "Use Brane 10M events/min billing and Salesforce alerting platform scale to show distributed systems, idempotency, and operational resilience.",
+          "Map Salesforce multi-region rollout and testing automation to Amazon's 20+ country expansion and reusable workflow platform goals.",
+          "Frame mentoring and org influence as principal IC force multiplication."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260703-amazon-principal-software-engineer-amazon-p-2eaf8932",
+      "resume_snapshot_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-amazon-p-2eaf8932/resume.md",
+      "discovered_at": "2026-07-03T19:38:03Z",
+      "updated_at": "2026-07-03T19:40:57Z",
+      "notes": [
+        "Discovered by heartbeat IC search on 2026-07-04; imported as top-priority Amazon principal payments platform role."
+      ]
+    },
+    {
+      "job_id": "linkedin-4345491058",
+      "dedupe_key": "linkedin:4345491058",
+      "source": "linkedin",
+      "source_job_id": "4345491058",
+      "source_url": "https://www.linkedin.com/jobs/view/4345491058",
+      "company": "Amazon",
+      "role": "Principal Software Engineer, Prime Video & Studios CoreTech",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Principal Software Engineer / global streaming infrastructure IC",
+      "compensation_signals": [
+        "Amazon Principal Software Engineer is target-compensation-capable at the right band.",
+        "Principal Prime Video CoreTech infrastructure role; no salary range visible in LinkedIn posting.",
+        "LinkedIn search showed 2,019 company alumni for nearby Amazon postings."
+      ],
+      "status": "ready",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-amazon-principal-heartbeat",
+      "fit_score": 95,
+      "fit_reason": "Strong principal infrastructure fit: Prime Video global streaming core infrastructure, discovery/search, playback services, live technologies, DevOps tooling, privacy/anti-piracy/fraud, AI-powered marketing automation, large-scale distributed systems, and operational excellence across hundreds of millions of customers.",
+      "fit_signals": [
+        "Principal Software Engineer",
+        "global streaming core infrastructure",
+        "large-scale distributed systems",
+        "AI-based systems",
+        "DevOps and operational excellence",
+        "search/discovery and platform services",
+        "global architecture guidance"
+      ],
+      "risk_flags": [
+        "Video/client domain is adjacent rather than primary; emphasize platform, infrastructure, search/discovery, AI systems, and operational excellence.",
+        "Application likely routes to Amazon Jobs and may require profile/login plus final legal/EEO answers."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Amazon",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 2,019 company alumni for nearby Amazon postings."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 2,019 company alumni for nearby Amazon postings and over 100 people clicked apply on this role.",
+      "resume_theme": {
+        "name": "Principal global media infrastructure and operational excellence",
+        "positioning": "Position as a principal-scale infrastructure engineer for global high-availability platforms, AI-assisted operations, search/discovery support systems, and operational excellence.",
+        "key_pointers": [
+          "Lead with Salesforce alerting platform scale, anomaly alerts, proactive diagnostics, and multi-region rollout.",
+          "Use Internal IDE/Unleash and agent federation as AI-assisted workflow and operational intelligence evidence.",
+          "Map Brane/Jupiter SaaS platform work to global distributed infrastructure, observability, incident prevention, and reliability.",
+          "Keep video-domain specifics light; focus on platform architecture and operational excellence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260703-amazon-principal-software-engineer-prime-vi-7c35cb95",
+      "resume_snapshot_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-prime-vi-7c35cb95/resume.md",
+      "discovered_at": "2026-07-03T19:38:03Z",
+      "updated_at": "2026-07-03T19:40:57Z",
+      "notes": [
+        "Discovered by heartbeat IC search on 2026-07-04; imported as distinct Amazon principal global infrastructure track."
+      ]
+    },
+    {
+      "job_id": "linkedin-4423534650",
+      "dedupe_key": "linkedin:4423534650",
+      "source": "linkedin",
+      "source_job_id": "4423534650",
+      "source_url": "https://www.linkedin.com/jobs/view/4423534650",
+      "company": "Amazon",
+      "role": "Principal Software Engineer, Alexa International",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Principal Software Engineer / Alexa+ international architecture IC",
+      "compensation_signals": [
+        "Amazon Principal Software Engineer is target-compensation-capable at the right band.",
+        "Principal Alexa+ international architecture role; no salary range visible in LinkedIn posting.",
+        "LinkedIn posting showed 31 connections work at Amazon."
+      ],
+      "status": "ready",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-amazon-principal-heartbeat",
+      "fit_score": 94,
+      "fit_reason": "Strong principal AI platform fit: leads Alexa International technical direction for runtime and offline Alexa+ architectures, global scale, complex datasets, access patterns, resilience, and cross-org technical alignment. Slightly lower than other Amazon principal roles because the basic qualifications include management experience.",
+      "fit_signals": [
+        "Principal Software Engineer",
+        "Alexa+ global architecture",
+        "GenAI runtime and offline systems",
+        "large-scale distributed systems",
+        "internationalization and localization",
+        "senior-level technical influence",
+        "architecture artifacts"
+      ],
+      "risk_flags": [
+        "Basic qualifications include 5+ years engineering team management; keep as principal-track but expect recruiter level/title clarification.",
+        "Application likely routes to Amazon Jobs and may require profile/login plus final legal/EEO answers."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Amazon",
+          "profile_url": "",
+          "notes": "LinkedIn posting showed 31 connections work at Amazon."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed 31 connections work at Amazon and 86 people clicked apply.",
+      "resume_theme": {
+        "name": "Principal GenAI runtime architecture and global rollout",
+        "positioning": "Position as a principal engineer for GenAI platform architecture, runtime/offline systems, international-scale rollout, and cross-org technical strategy.",
+        "key_pointers": [
+          "Lead with AM agent federation and governed multi-agent systems as GenAI runtime architecture evidence.",
+          "Use Internal IDE/Unleash to show AI-assisted engineering architecture and exemplary technical artifacts.",
+          "Map Salesforce multi-region rollout, proactive diagnostics, and anomaly alerts to global reliability and offline/online architecture concerns.",
+          "Use Brane/Niki leadership selectively to satisfy the management-experience signal without shifting out of the IC track."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260703-amazon-principal-software-engineer-alexa-in-8ef4aff4",
+      "resume_snapshot_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-alexa-in-8ef4aff4/resume.md",
+      "discovered_at": "2026-07-03T19:38:03Z",
+      "updated_at": "2026-07-03T19:40:57Z",
+      "notes": [
+        "Discovered by heartbeat IC search on 2026-07-04; imported because Alexa+ principal architecture maps well to current AI platform work, with management-qualification risk flagged."
+      ]
     },
     {
       "job_id": "linkedin-4380104127",
