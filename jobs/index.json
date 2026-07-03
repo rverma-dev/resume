@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T18:37:45Z",
+  "updated_at": "2026-07-03T18:41:10Z",
   "active_batch_id": "batch-20260704-ic-heartbeat-0004",
   "last_scheduler_run_at": "2026-07-03T18:37:25Z",
   "batch_size": 10,
@@ -1045,8 +1045,8 @@
         "Role owns next-generation on-demand compute, serverless execution, automated provisioning, SaaS delivery, and cloud platform standardization across AWS, Azure, and GCP.",
         "Enterprise AI platform positioning and cloud/SaaS strategy scope are high-value signals; salary is not visible."
       ],
-      "status": "archived",
-      "approval_status": "blocked",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260703-acd3380a",
       "fit_score": 91,
       "fit_reason": "Strong cloud platform architecture fit: multi-tenant and single-tenant SaaS models, serverless/event-driven execution, regional deployment patterns, automated provisioning, IaC, CI/CD, SRE, observability, DR, SLA-driven operations, security, governance, and FinOps all align with MuleSoft Hyperforce, Brane enterprise SaaS, Jupiter compliance/data platform, and SRE leadership evidence.",
@@ -1085,10 +1085,10 @@
           "work/incident_reviews/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea",
+      "resume_snapshot_path": "applications/resumes/app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:09Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ]
@@ -1482,9 +1482,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T12:04:51Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:10Z",
       "notes": [
-        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
+        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty.",
+        "Rejected from dashboard review."
       ]
     },
     {
@@ -1573,8 +1574,8 @@
         "Enterprise SaaS AI planning company with Fortune 50 customers and global platform scale.",
         "Posting requires 15+ years and leadership of production AI/ML systems, MLOps, LLM APIs, agentic frameworks, and cloud-native architectures."
       ],
-      "status": "archived",
-      "approval_status": "blocked",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260703-9e9108d1",
       "fit_score": 90,
       "fit_reason": "High AI engineering leadership fit: the posting asks for AI/ML team leadership, production-grade AI systems, cloud-native architecture, MLOps, LLM APIs, and agentic AI. Rohit's MuleSoft Pulse/agent federation work, local-first AI engineering systems, multi-agent governance, platform architecture, and stakeholder ownership map well, with location/on-site Gurgaon as the main risk.",
@@ -1614,10 +1615,10 @@
           "work/architecture/"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49",
+      "resume_snapshot_path": "applications/resumes/app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49/resume.md",
       "discovered_at": "2026-07-03T15:04:01Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:09Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ]
@@ -1745,9 +1746,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T15:04:01Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:10Z",
       "notes": [
-        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
+        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty.",
+        "Rejected from dashboard review."
       ]
     },
     {
@@ -1808,9 +1810,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T15:04:01Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:10Z",
       "notes": [
-        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
+        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty.",
+        "Rejected from dashboard review."
       ]
     },
     {
@@ -2024,9 +2027,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T11:22:55Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:10Z",
       "notes": [
-        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
+        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty.",
+        "Rejected from dashboard review."
       ]
     },
     {
@@ -2475,8 +2479,8 @@
         "Principal Staff/Principal Architect role with 15+ years requirement and organization-wide architecture governance scope.",
         "Mission-critical unified communications platform with cloud modernization and security/reliability requirements."
       ],
-      "status": "archived",
-      "approval_status": "blocked",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 94,
       "fit_reason": "Strong Principal Architect fit: cloud-native modernization, Kubernetes, event-driven systems, observability, platform engineering, automation, ADRs, reference architectures, and architecture governance. Company compensation signal is good but likely below Stripe/Uber/Databricks tier.",
@@ -2504,10 +2508,10 @@
           "work/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1",
+      "resume_snapshot_path": "applications/resumes/app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1/resume.md",
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:09Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ]
@@ -2528,8 +2532,8 @@
         "Remote Bengaluru role posted 16 hours ago with low visible click volume at discovery time.",
         "Scope includes enterprise AI architecture, governance, observability, compliance, and platform modernization."
       ],
-      "status": "archived",
-      "approval_status": "blocked",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 90,
       "fit_reason": "Excellent title and AI governance fit, especially agentic workflows, AI orchestration, evaluation, observability, and responsible AI guardrails. Score is lower than core tech-company infrastructure roles because JLL is not a top-priority compensation company and domain is enterprise real estate services.",
@@ -2557,10 +2561,10 @@
           "work/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260703-jll-principal-architect-ai-solutions-9c73f71b",
+      "resume_snapshot_path": "applications/resumes/app-20260703-jll-principal-architect-ai-solutions-9c73f71b/resume.md",
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:09Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ]
@@ -2847,8 +2851,8 @@
         "Distinguished Engineer role at a large US financial technology company",
         "Cloud, payments, decisioning, data and ML platform scope in regulated financial services; no exact compensation visible"
       ],
-      "status": "archived",
-      "approval_status": "blocked",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260703-2315da85",
       "fit_score": 96,
       "fit_reason": "Excellent senior IC leadership fit: enterprise architecture, cloud-native financial platforms, payments, decisioning, ML/data systems, cross-boundary roadmaps, and executive influence in a regulated environment.",
@@ -2890,10 +2894,10 @@
           "work/ADRs/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260703-capital-one-distinguished-engineer-51e80851",
+      "resume_snapshot_path": "applications/resumes/app-20260703-capital-one-distinguished-engineer-51e80851/resume.md",
       "discovered_at": "2026-07-03T09:06:00Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:09Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ]
@@ -3049,8 +3053,8 @@
         "Director platform owner role at Fortune 500-scale enterprise",
         "Global platform strategy, architecture, operations, and executive stakeholder scope; no exact compensation visible"
       ],
-      "status": "archived",
-      "approval_status": "blocked",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260703-2315da85",
       "fit_score": 89,
       "fit_reason": "Solid Director platform fit: global platform ownership, architecture standards, governance, integrations, CI/CD, observability, operational excellence, incident leadership, and team development.",
@@ -3092,10 +3096,10 @@
           "work/collaboration/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260703-cargill-director-platform-engineering-cargil-e9276436",
+      "resume_snapshot_path": "applications/resumes/app-20260703-cargill-director-platform-engineering-cargil-e9276436/resume.md",
       "discovered_at": "2026-07-03T09:06:00Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:09Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ]
@@ -3181,8 +3185,8 @@
         "VP band AI architecture role at large telecom operator",
         "20PB data lake, multi-model orchestration, token cost optimization, fraud shield, and data-sovereignty scope; no exact compensation visible"
       ],
-      "status": "archived",
-      "approval_status": "blocked",
+      "status": "approved",
+      "approval_status": "approved",
       "batch_id": "batch-20260703-2315da85",
       "fit_score": 84,
       "fit_reason": "Moderate-to-strong title and architecture fit: multi-agent and multi-LLM orchestration, RAG/vector ops, data sovereignty, high-concurrency systems, token cost optimization, and regulated telecom-scale data systems.",
@@ -3225,10 +3229,10 @@
           "work/RFCs/README.md"
         ]
       },
-      "application_id": null,
-      "resume_snapshot_path": null,
+      "application_id": "app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b",
+      "resume_snapshot_path": "applications/resumes/app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b/resume.md",
       "discovered_at": "2026-07-03T09:06:00Z",
-      "updated_at": "2026-07-03T17:59:46Z",
+      "updated_at": "2026-07-03T18:41:09Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ]
@@ -3677,6 +3681,60 @@
       ]
     },
     {
+      "job_id": "linkedin-4436301094",
+      "dedupe_key": "linkedin:4436301094",
+      "source": "linkedin",
+      "source_job_id": "4436301094",
+      "source_url": "https://www.linkedin.com/jobs/view/4436301094",
+      "company": "Recrew AI",
+      "role": "Principal Architect - Digital Platform & Cloud Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal Architect",
+      "compensation_signals": [
+        "Principal Architect role with competitive compensation and performance-linked growth mentioned; no salary range posted.",
+        "Role owns architecture strategy across global enterprise engagements and requires principal/staff-level architecture ownership."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 84,
+      "fit_reason": "Excellent cloud/platform architecture fit on paper: multi-tenant AWS platforms, Kubernetes, service mesh, Terraform, DevSecOps, SLO/SLA, observability, AIOps, networking, zero trust, and client executive architecture ownership, but employer/source ambiguity is high.",
+      "fit_signals": [
+        "Owns client-facing architecture strategy, platform discovery, solution blueprinting, and governance from pre-sales through delivery.",
+        "Requires AWS/EKS/Lambda/API Gateway/RDS/VPC, Kubernetes, Istio/Linkerd, Terraform, CI/CD, shift-left security, SLO/SLA, performance engineering, and FinOps.",
+        "Includes AI/ML-driven observability, predictive analytics, automated remediation, operational intelligence, and regulated-industry platform engineering."
+      ],
+      "risk_flags": [
+        "Posting appears to be from a staffing/recruiting company; end client is not named in the visible details.",
+        "Consulting/pre-sales delivery context may be less aligned with product/platform career trajectory; validate employer, package, and role authority before approval."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed 22 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Enterprise cloud platform principal architect",
+        "positioning": "Principal Architect for multi-tenant AWS platforms, Kubernetes/service mesh, DevSecOps, observability/AIOps, SLO governance, and cloud security.",
+        "key_pointers": [
+          "Lead with Brane enterprise SaaS platform/security stack and 30-person DevOps/SRE leadership for platform breadth.",
+          "Use MuleSoft Hyperforce and monitoring platform stories for multi-tenant cloud, Kubernetes, observability, SLOs, automation, and cost optimization.",
+          "Tie Jupiter zero-trust/compliance/SIEM evidence to cloud security and regulated-platform architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/incident_reviews/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": "app-20260703-recrew-ai-principal-architect-digital-platform-74994e90",
+      "resume_snapshot_path": "applications/resumes/app-20260703-recrew-ai-principal-architect-digital-platform-74994e90/resume.md",
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "notes": [
+        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
+      ]
+    },
+    {
       "job_id": "linkedin-4435280575",
       "dedupe_key": "linkedin:4435280575",
       "source": "linkedin",
@@ -3720,60 +3778,6 @@
           "work/architecture/",
           "work/design_docs/",
           "work/project_docs/"
-        ]
-      },
-      "application_id": null,
-      "resume_snapshot_path": null,
-      "discovered_at": "2026-07-03T13:07:25Z",
-      "updated_at": "2026-07-03T17:59:46Z",
-      "notes": [
-        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
-      ]
-    },
-    {
-      "job_id": "linkedin-4436301094",
-      "dedupe_key": "linkedin:4436301094",
-      "source": "linkedin",
-      "source_job_id": "4436301094",
-      "source_url": "https://www.linkedin.com/jobs/view/4436301094",
-      "company": "Recrew AI",
-      "role": "Principal Architect - Digital Platform & Cloud Engineering",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "Hybrid",
-      "experience_level": "Principal Architect",
-      "compensation_signals": [
-        "Principal Architect role with competitive compensation and performance-linked growth mentioned; no salary range posted.",
-        "Role owns architecture strategy across global enterprise engagements and requires principal/staff-level architecture ownership."
-      ],
-      "status": "archived",
-      "approval_status": "blocked",
-      "batch_id": "batch-20260703-114c6ff6",
-      "fit_score": 84,
-      "fit_reason": "Excellent cloud/platform architecture fit on paper: multi-tenant AWS platforms, Kubernetes, service mesh, Terraform, DevSecOps, SLO/SLA, observability, AIOps, networking, zero trust, and client executive architecture ownership, but employer/source ambiguity is high.",
-      "fit_signals": [
-        "Owns client-facing architecture strategy, platform discovery, solution blueprinting, and governance from pre-sales through delivery.",
-        "Requires AWS/EKS/Lambda/API Gateway/RDS/VPC, Kubernetes, Istio/Linkerd, Terraform, CI/CD, shift-left security, SLO/SLA, performance engineering, and FinOps.",
-        "Includes AI/ML-driven observability, predictive analytics, automated remediation, operational intelligence, and regulated-industry platform engineering."
-      ],
-      "risk_flags": [
-        "Posting appears to be from a staffing/recruiting company; end client is not named in the visible details.",
-        "Consulting/pre-sales delivery context may be less aligned with product/platform career trajectory; validate employer, package, and role authority before approval."
-      ],
-      "people": [],
-      "connections_summary": "LinkedIn detail showed 22 people clicked apply; no named connections captured.",
-      "resume_theme": {
-        "name": "Enterprise cloud platform principal architect",
-        "positioning": "Principal Architect for multi-tenant AWS platforms, Kubernetes/service mesh, DevSecOps, observability/AIOps, SLO governance, and cloud security.",
-        "key_pointers": [
-          "Lead with Brane enterprise SaaS platform/security stack and 30-person DevOps/SRE leadership for platform breadth.",
-          "Use MuleSoft Hyperforce and monitoring platform stories for multi-tenant cloud, Kubernetes, observability, SLOs, automation, and cost optimization.",
-          "Tie Jupiter zero-trust/compliance/SIEM evidence to cloud security and regulated-platform architecture."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/architecture/",
-          "work/incident_reviews/",
-          "work/ADRs/"
         ]
       },
       "application_id": null,

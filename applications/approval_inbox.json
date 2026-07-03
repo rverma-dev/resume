@@ -1,19 +1,23 @@
 {
   "schema_version": "approval_inbox.v1",
-  "updated_at": "2026-07-03T15:44:56Z",
+  "updated_at": "2026-07-03T18:41:11Z",
   "processed_issue_numbers": [
     19,
     20,
     21,
-    22
+    22,
+    23,
+    24
   ],
   "processed_batch_ids": [
     "approval-20260702-741f3ded",
+    "approval-20260703-7897c70e",
     "rejection-20260702-568de2d0",
+    "rejection-20260703-3b5705c4",
     "rejection-20260703-63c4d9ce",
     "rejection-20260703-7d8e57b8"
   ],
-  "last_processed_issue_number": 22,
+  "last_processed_issue_number": 24,
   "events": [
     {
       "issue_number": 19,
@@ -103,6 +107,114 @@
         ]
       },
       "url": "https://github.com/rverma-dev/resume/issues/22"
+    },
+    {
+      "issue_number": 23,
+      "payload_id": "approval-20260703-7897c70e",
+      "result": {
+        "created": 8,
+        "skipped": [
+          {
+            "job_id": "linkedin-4365274472",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80"
+          },
+          {
+            "job_id": "linkedin-4387409051",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-6sense-principal-architect-68cfd70b"
+          },
+          {
+            "job_id": "linkedin-4388472818",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-okta-staff-engineer-developer-platform-4af9192c"
+          },
+          {
+            "job_id": "linkedin-4391891539",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8"
+          },
+          {
+            "job_id": "linkedin-4398008892",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63"
+          },
+          {
+            "job_id": "linkedin-4408549670",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-zscaler-principal-site-reliability-engineer-4f168b68"
+          },
+          {
+            "job_id": "linkedin-4409208084",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-ebay-principal-architect-05d225bf"
+          },
+          {
+            "job_id": "linkedin-4415271375",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3"
+          },
+          {
+            "job_id": "linkedin-4418946375",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-toast-director-of-engineering-new-ventures-d617b98d"
+          },
+          {
+            "job_id": "linkedin-4427268518",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23"
+          },
+          {
+            "job_id": "linkedin-4433175429",
+            "reason": "application_already_exists",
+            "application_id": "app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79"
+          }
+        ],
+        "application_ids": [
+          "app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49",
+          "app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea",
+          "app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1",
+          "app-20260703-capital-one-distinguished-engineer-51e80851",
+          "app-20260703-cargill-director-platform-engineering-cargil-e9276436",
+          "app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b",
+          "app-20260703-recrew-ai-principal-architect-digital-platform-74994e90",
+          "app-20260703-jll-principal-architect-ai-solutions-9c73f71b"
+        ],
+        "repo": "/home/runner/work/resume/resume"
+      },
+      "url": "https://github.com/rverma-dev/resume/issues/23"
+    },
+    {
+      "issue_number": 24,
+      "payload_id": "rejection-20260703-3b5705c4",
+      "result": {
+        "rejected": 4,
+        "skipped": [
+          {
+            "job_id": "linkedin-4429004472",
+            "reason": "already_approved_or_applied"
+          },
+          {
+            "job_id": "linkedin-4435434504",
+            "reason": "already_approved_or_applied"
+          },
+          {
+            "job_id": "linkedin-4436338022",
+            "reason": "already_approved_or_applied"
+          },
+          {
+            "job_id": "linkedin-4436441487",
+            "reason": "already_approved_or_applied"
+          }
+        ],
+        "job_ids": [
+          "linkedin-4417120165",
+          "linkedin-4417499374",
+          "linkedin-4427922375",
+          "linkedin-4436711570"
+        ]
+      },
+      "url": "https://github.com/rverma-dev/resume/issues/24"
     }
   ]
 }

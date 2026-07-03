@@ -1,9 +1,386 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T18:37:45Z",
+  "updated_at": "2026-07-03T18:41:09Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49",
+      "job_id": "linkedin-4408713822",
+      "dedupe_key": "linkedin:4408713822",
+      "source": "linkedin",
+      "source_job_id": "4408713822",
+      "source_url": "https://www.linkedin.com/jobs/view/4408713822",
+      "company": "Anaplan",
+      "role": "Senior Manager, AI Engineering",
+      "location": "Gurgaon, Haryana, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-7897c70e",
+      "approved_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "High AI engineering leadership fit: the posting asks for AI/ML team leadership, production-grade AI systems, cloud-native architecture, MLOps, LLM APIs, and agentic AI. Rohit's MuleSoft Pulse/agent federation work, local-first AI engineering systems, multi-agent governance, platform architecture, and stakeholder ownership map well, with location/on-site Gurgaon as the main risk.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Anaplan",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 95 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 95 company alumni at Anaplan; no named direct connection was visible in fetched details.",
+      "resume_theme": {
+        "name": "AI platform engineering leadership",
+        "positioning": "Position Rohit as an AI platform and governance leader who converts enterprise signals into reliable, governed agentic systems and production AI infrastructure.",
+        "key_pointers": [
+          "Lead with MuleSoft Pulse/agent federation architecture: MCP-first facades, A2A delegation, DIAF evidence plane, RAG boundaries, audit and cost controls.",
+          "Mention Unleash multi-agent decision system, run ledger, governance, and local-first AI IDE work.",
+          "Tie observability and SRE experience to production model monitoring, reliability, and operational governance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea",
+      "job_id": "linkedin-4409305901",
+      "dedupe_key": "linkedin:4409305901",
+      "source": "linkedin",
+      "source_job_id": "4409305901",
+      "source_url": "https://www.linkedin.com/jobs/view/4409305901",
+      "company": "Teradata",
+      "role": "Elastic Compute Architect, Sr Principal Architect",
+      "location": "Hyderabad, Telangana, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-7897c70e",
+      "approved_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong cloud platform architecture fit: multi-tenant and single-tenant SaaS models, serverless/event-driven execution, regional deployment patterns, automated provisioning, IaC, CI/CD, SRE, observability, DR, SLA-driven operations, security, governance, and FinOps all align with MuleSoft Hyperforce, Brane enterprise SaaS, Jupiter compliance/data platform, and SRE leadership evidence.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Teradata",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 15 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 15 company alumni work at Teradata for this posting.",
+      "resume_theme": {
+        "name": "Senior principal cloud platform architect",
+        "positioning": "Cloud platform architect for automated SaaS provisioning, multi-cloud deployment, serverless/event-driven execution, SRE, security governance, FinOps, and enterprise AI/data platforms.",
+        "key_pointers": [
+          "Lead with MuleSoft Hyperforce migration and new-FI onboarding automation for regional deployment and SaaS platform operations.",
+          "Use Brane enterprise SaaS and on-prem distribution across Nutanix, Kafka, TiDB, ScyllaDB, ClickHouse, Glue, and S3 for platform breadth.",
+          "Use Jupiter compliance/SIEM plus MuleSoft $6M cost reduction to cover governance, observability, and cost outcomes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/ADRs/",
+          "work/incident_reviews/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1",
+      "job_id": "linkedin-4422351060",
+      "dedupe_key": "linkedin:4422351060",
+      "source": "linkedin",
+      "source_job_id": "4422351060",
+      "source_url": "https://www.linkedin.com/jobs/view/4422351060",
+      "company": "Motorola Solutions",
+      "role": "Principal Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-7897c70e",
+      "approved_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Principal Architect fit: cloud-native modernization, Kubernetes, event-driven systems, observability, platform engineering, automation, ADRs, reference architectures, and architecture governance. Company compensation signal is good but likely below Stripe/Uber/Databricks tier.",
+      "people": [],
+      "connections_summary": "LinkedIn showed 20 company alumni work at Motorola Solutions in the search result.",
+      "resume_theme": {
+        "name": "Principal cloud modernization architect",
+        "positioning": "Principal architect for multi-tenant platform modernization, architecture governance, observability, and secure cloud-native systems.",
+        "key_pointers": [
+          "15-RFC observability architecture series and cross-team technical direction at MuleSoft.",
+          "Built enterprise SaaS platform control plane, tenancy, metering, telemetry, billing, and on-prem distribution at Brane.",
+          "Security and compliance ownership across PCI-DSS, SOC 2, ISO 27001, NPCI/UPI SAR."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-capital-one-distinguished-engineer-51e80851",
+      "job_id": "linkedin-4432063758",
+      "dedupe_key": "linkedin:4432063758",
+      "source": "linkedin",
+      "source_job_id": "4432063758",
+      "source_url": "https://www.linkedin.com/jobs/view/4432063758",
+      "company": "Capital One",
+      "role": "Distinguished Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-7897c70e",
+      "approved_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent senior IC leadership fit: enterprise architecture, cloud-native financial platforms, payments, decisioning, ML/data systems, cross-boundary roadmaps, and executive influence in a regulated environment.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Capital One",
+          "profile_url": "",
+          "notes": "Search result showed 1 connection works here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 1 connection works here.",
+      "resume_theme": {
+        "name": "Distinguished financial platform architect",
+        "positioning": "Lead with regulated financial infrastructure, cloud architecture, payments correctness, and enterprise-scale platform influence.",
+        "key_pointers": [
+          "Use Jupiter $240M/month payments, PCI-DSS, SOC 2, ISO 27001, NPCI, and UPI SAR ownership for financial-regulatory credibility.",
+          "Connect Brane billing/metering and Salesforce Hyperforce observability to platform correctness and operational scale.",
+          "Use AM Agent Federation and MuleSoft Pulse as the AI/data/decisioning modernization bridge."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/README.md",
+          "work/ADRs/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-capital-one-distinguished-engineer-51e80851/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-capital-one-distinguished-engineer-51e80851/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-cargill-director-platform-engineering-cargil-e9276436",
+      "job_id": "linkedin-4433133605",
+      "dedupe_key": "linkedin:4433133605",
+      "source": "linkedin",
+      "source_job_id": "4433133605",
+      "source_url": "https://www.linkedin.com/jobs/view/4433133605",
+      "company": "Cargill",
+      "role": "Director, Platform Engineering, CargillNow",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-7897c70e",
+      "approved_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 89,
+      "fit_reason": "Solid Director platform fit: global platform ownership, architecture standards, governance, integrations, CI/CD, observability, operational excellence, incident leadership, and team development.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Cargill",
+          "profile_url": "",
+          "notes": "Search result showed 11 company alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 11 company alumni work here.",
+      "resume_theme": {
+        "name": "Enterprise platform engineering director",
+        "positioning": "Frame around global enterprise platform ownership, governance, integrations, SRE, CI/CD, and incident/operational maturity.",
+        "key_pointers": [
+          "Use Brane enterprise SaaS platform and 30-person DevOps/SRE leadership for platform-owner credibility.",
+          "Use Hyperforce migrations and rollout automation to show global platform transformation experience.",
+          "Use Integration Marketplace and Brane integration platform for API/integration governance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/README.md",
+          "work/collaboration/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-cargill-director-platform-engineering-cargil-e9276436/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-cargill-director-platform-engineering-cargil-e9276436/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b",
+      "job_id": "linkedin-4433164415",
+      "dedupe_key": "linkedin:4433164415",
+      "source": "linkedin",
+      "source_job_id": "4433164415",
+      "source_url": "https://www.linkedin.com/jobs/view/4433164415",
+      "company": "Vodafone Idea Limited",
+      "role": "VP - Principal AI Model Architect",
+      "location": "Mumbai Metropolitan Region, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-7897c70e",
+      "approved_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 84,
+      "fit_reason": "Moderate-to-strong title and architecture fit: multi-agent and multi-LLM orchestration, RAG/vector ops, data sovereignty, high-concurrency systems, token cost optimization, and regulated telecom-scale data systems.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Vodafone Idea Limited",
+          "profile_url": "",
+          "notes": "Search result showed 7 school alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 7 school alumni work here.",
+      "resume_theme": {
+        "name": "Data-sovereign AI orchestration architect",
+        "positioning": "Position around governed multi-agent/LLM orchestration, private data boundaries, cost controls, and high-throughput operational systems.",
+        "key_pointers": [
+          "Lead with AM Agent Federation architecture: MCP-first tools, A2A delegation, xAPI gateway, LangGraph contracts, and workload isolation.",
+          "Use diagnostic evidence plane constraints to show data-sovereignty, prompt-boundary, audit, and cost-control judgment.",
+          "Use Jupiter SIEM 200 GB/hour and Hyperforce observability scale for high-volume regulated operations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/README.md",
+          "work/RFCs/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-recrew-ai-principal-architect-digital-platform-74994e90",
+      "job_id": "linkedin-4436301094",
+      "dedupe_key": "linkedin:4436301094",
+      "source": "linkedin",
+      "source_job_id": "4436301094",
+      "source_url": "https://www.linkedin.com/jobs/view/4436301094",
+      "company": "Recrew AI",
+      "role": "Principal Architect - Digital Platform & Cloud Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-7897c70e",
+      "approved_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 84,
+      "fit_reason": "Excellent cloud/platform architecture fit on paper: multi-tenant AWS platforms, Kubernetes, service mesh, Terraform, DevSecOps, SLO/SLA, observability, AIOps, networking, zero trust, and client executive architecture ownership, but employer/source ambiguity is high.",
+      "people": [],
+      "connections_summary": "LinkedIn detail showed 22 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Enterprise cloud platform principal architect",
+        "positioning": "Principal Architect for multi-tenant AWS platforms, Kubernetes/service mesh, DevSecOps, observability/AIOps, SLO governance, and cloud security.",
+        "key_pointers": [
+          "Lead with Brane enterprise SaaS platform/security stack and 30-person DevOps/SRE leadership for platform breadth.",
+          "Use MuleSoft Hyperforce and monitoring platform stories for multi-tenant cloud, Kubernetes, observability, SLOs, automation, and cost optimization.",
+          "Tie Jupiter zero-trust/compliance/SIEM evidence to cloud security and regulated-platform architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/incident_reviews/",
+          "work/ADRs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-recrew-ai-principal-architect-digital-platform-74994e90/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-recrew-ai-principal-architect-digital-platform-74994e90/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-jll-principal-architect-ai-solutions-9c73f71b",
+      "job_id": "linkedin-4436377481",
+      "dedupe_key": "linkedin:4436377481",
+      "source": "linkedin",
+      "source_job_id": "4436377481",
+      "source_url": "https://www.linkedin.com/jobs/view/4436377481",
+      "company": "JLL",
+      "role": "Principal Architect, AI Solutions",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-7897c70e",
+      "approved_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-03T18:41:09Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Excellent title and AI governance fit, especially agentic workflows, AI orchestration, evaluation, observability, and responsible AI guardrails. Score is lower than core tech-company infrastructure roles because JLL is not a top-priority compensation company and domain is enterprise real estate services.",
+      "people": [],
+      "connections_summary": "LinkedIn showed 41 company alumni work at JLL in the search result.",
+      "resume_theme": {
+        "name": "Governed enterprise AI architect",
+        "positioning": "Principal architect for responsible AI platforms, agentic workflows, AI observability, evaluation, governance, and enterprise platform modernization.",
+        "key_pointers": [
+          "Designed AM agent federation with MCP-first tool facades, A2A delegation, xAPI gateway, LangGraph contracts, and workload isolation.",
+          "Architected governed diagnostic evidence plane with cited AI diagnoses, budgets, degradation flags, and audit/cost controls.",
+          "Built four-plane multi-agent decision system with typed agents, A2A AgentCards, governance, run ledger, and outcomes review."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-jll-principal-architect-ai-solutions-9c73f71b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-jll-principal-architect-ai-solutions-9c73f71b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a",
       "job_id": "linkedin-4384161589",
