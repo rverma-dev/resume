@@ -26,7 +26,10 @@ research packages only from evidence stored in this repository.
    source-backed compensation and level signals, preferably a Levels.fyi
    comparison URL when comparing Salesforce with a target company. Treat title
    mappings as inferred unless the source explicitly supports them, and record
-   uncertainty in `risk_flags`.
+   uncertainty in `risk_flags`. Do not let uncertainty force a downlevel: the
+   pipeline is stretch-first, so credible Staff / Principal / Architect roles
+   should remain high-priority, while safe below-target roles should be
+   penalized unless compensation or company fit is exceptional.
 4. Apply the location policy in `recruiting/config.json`: do not limit discovery
    to India; prefer India, UAE, global remote open to India/UAE, or relocation
    with sponsorship; avoid US-only roles because the candidate does not have

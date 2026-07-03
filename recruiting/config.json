@@ -8,13 +8,26 @@
   "target_compensation_inr_annual": 25000000,
   "level_comparison_policy": {
     "source_first": true,
+    "leveling_stance": "stretch_first",
     "primary_source": "Levels.fyi",
     "reference_compare_url": "https://www.levels.fyi/?tab=levels&compare=Salesforce%2COracle",
+    "underfit_policy": {
+      "underleveling_is_major_loss": true,
+      "prefer_credible_stretch_roles": true,
+      "penalize_safe_downlevel_roles": true,
+      "notes": [
+        "The recruiting goal is to level up, not merely match current title.",
+        "Do not downgrade Salesforce PMTS / Principal-equivalent platform ownership into generic Senior Engineer framing.",
+        "A role with credible Staff/Principal/Architect scope should remain high-priority even when exact cross-company level mapping is uncertain.",
+        "If a role appears below target level, record the downlevel risk clearly and score it lower unless compensation or company fit is exceptional."
+      ]
+    },
     "notes": [
       "Treat title-to-level mappings as compensation signals, not facts, unless a source explicitly supports the mapping.",
       "When comparing a target company with Salesforce, prefer a Levels.fyi company comparison URL or another visible source in compensation_signals.",
       "Record exact level names when visible; otherwise record the mapping as inferred and add a risk_flag.",
-      "Target compensation is total annual compensation, not just base salary."
+      "Target compensation is total annual compensation, not just base salary.",
+      "Avoid both overclaiming and underleveling, but treat underleveling as the more expensive failure mode."
     ],
     "required_candidate_fields": [
       "compensation_signals",
