@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T16:53:49Z",
+  "updated_at": "2026-07-03T17:46:36Z",
   "active_batch_id": "batch-20260703-9e9108d1",
   "last_scheduler_run_at": "2026-07-03T15:04:01Z",
   "batch_size": 10,
@@ -4523,6 +4523,7 @@
       "compensation_signals": [
         "priority high-paying company",
         "director AI infrastructure role at large global public company",
+        "user-provided payband signal: Coupang Director/senior AI-platform roles can meet 2.5cr+ total compensation at the right band",
         "no exact compensation visible in LinkedIn detail"
       ],
       "status": "approved",
@@ -4569,7 +4570,7 @@
       "application_id": "app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a",
       "resume_snapshot_path": "applications/resumes/app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T17:46:36Z",
       "notes": []
     },
     {
@@ -4927,6 +4928,7 @@
       "compensation_signals": [
         "director platform role at global payments company",
         "regulated financial platform domain",
+        "user-provided payband signal: Mastercard Director-level platform roles can meet 2.5cr+ total compensation at the right band",
         "no exact compensation visible in LinkedIn detail"
       ],
       "status": "approved",
@@ -4973,7 +4975,7 @@
       "application_id": "app-20260702-mastercard-director-platform-engineering-a13e12d9",
       "resume_snapshot_path": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T17:46:36Z",
       "notes": []
     },
     {

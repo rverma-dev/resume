@@ -6,6 +6,44 @@
   "allow_external_discovery": true,
   "allow_auto_apply": false,
   "target_compensation_inr_annual": 25000000,
+  "compensation_research_policy": {
+    "target_is_total_annual_compensation": true,
+    "payband_stance": "top_band_over_sparse_public_median",
+    "research_sources": [
+      "Levels.fyi for directional company and level comparisons",
+      "Recruiter-disclosed ranges",
+      "Offer or interview loop compensation signals",
+      "Credible India senior-tech compensation anecdotes from Blind, 6figr, Glassdoor, or AmbitionBox"
+    ],
+    "target_capable_companies": [
+      {
+        "company": "Salesforce",
+        "confidence": "high",
+        "notes": "Current company and internal L9-equivalent PMTS/Director paths can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "Amazon",
+        "confidence": "high",
+        "notes": "Principal/Director-equivalent senior India packages can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "Coupang",
+        "confidence": "high",
+        "notes": "Director and senior AI/platform roles can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "Mastercard",
+        "confidence": "medium_high",
+        "notes": "Director-level platform/engineering roles can meet the 2.5cr+ total compensation target at the right band."
+      }
+    ],
+    "scoring_notes": [
+      "Do not mark Salesforce, Amazon, Coupang, or Mastercard below target solely because public India medians are sparse or appear lower.",
+      "Use public medians as a floor/market signal, not as a hard ceiling for senior Director, Principal, Staff, or Distinguished roles.",
+      "If a target-capable company has unclear compensation, keep it in review and record the negotiation question instead of downranking it as below target.",
+      "A role at a target-capable company can still be rejected for underleveling, weak scope, location, or poor role fit."
+    ]
+  },
   "level_comparison_policy": {
     "source_first": true,
     "leveling_stance": "stretch_first",
@@ -72,11 +110,13 @@
     "Distinguished Engineer"
   ],
   "priority_companies": [
+    "Salesforce",
     "NVIDIA",
     "Google",
     "Amazon",
     "Databricks",
     "Coupang",
+    "Mastercard",
     "Microsoft",
     "Meta",
     "Uber",

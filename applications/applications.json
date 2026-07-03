@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T16:53:49Z",
+  "updated_at": "2026-07-03T17:46:36Z",
   "approval_required": true,
   "allow_auto_apply": false,
   "applications": [
@@ -254,7 +254,7 @@
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T17:46:36Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -287,7 +287,8 @@
       "resume_theme_path": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Compensation override: Mastercard Director-level platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
       ]
     },
     {
@@ -691,7 +692,7 @@
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T17:46:36Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -725,7 +726,8 @@
       "resume_theme_path": "applications/resumes/app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Compensation override: Coupang Director/senior AI-platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
       ]
     },
     {
