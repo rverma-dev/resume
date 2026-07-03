@@ -30,7 +30,7 @@ research packages only from evidence stored in this repository.
 5. Review the dashboard, multiselect roles, and open a prefilled GitHub
    approval or rejection issue.
 6. Submit the decision issue. The issue body carries only selected `job_ids`;
-   the scheduled `sync-approval-issues` workflow resolves full job details from
+   the scheduled recruiting issue workflow resolves full job details from
    `jobs/index.json`, imports unseen approval batches into application records
    and resume snapshots under `applications/resumes/<application-id>/`, and
    records rejection batches by marking jobs `approval_status=blocked` and
@@ -40,7 +40,11 @@ research packages only from evidence stored in this repository.
 7. Generate company-specific artifacts under `companies/<company-slug>/`.
 8. Generate an ATS-friendly PDF from the company resume.
 9. Apply only when external tooling is available and the run is authorized.
-10. Update `applications/applications.json` and
+10. After an actual submission, open or emit an `application.status.v1` issue
+   with `status=applied`. If browser/computer-use automation cannot safely
+   navigate or submit, open or emit the same schema with `status=needs_manual`
+   and a blocker. The scheduler imports that status into
+   `applications/applications.json`, `jobs/index.json`, and
    `applications/applications.jsonl`.
 11. Refresh the dashboard at `jobs/index.html`.
 
@@ -68,6 +72,12 @@ Import recruiting decision batches from GitHub issues:
 
 ```bash
 GITHUB_TOKEN=... python3 recruiting/scripts/sync_issue_approvals.py
+```
+
+Import an application status update:
+
+```bash
+python3 recruiting/scripts/import_application_status.py application-status.json
 ```
 
 Validate the tracker:

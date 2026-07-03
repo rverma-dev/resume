@@ -16,3 +16,9 @@ Import a dashboard approval batch locally with:
 ```bash
 python3 recruiting/scripts/import_approvals.py ~/Downloads/approval-batch.json
 ```
+
+Import an application status update after a real submission or manual blocker:
+
+```bash
+python3 recruiting/scripts/import_application_status.py ~/Downloads/application-status.json
+```

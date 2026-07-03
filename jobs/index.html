@@ -9,17 +9,20 @@ layout: null
   <title>Jobs and Applications</title>
   <style>
     :root {
-      color-scheme: light;
-      --ink: #111;
-      --muted: #626262;
-      --rule: #d8d8d8;
-      --accent: #0b4f8a;
-      --accent-ink: #fff;
-      --bg: #f6f6f6;
-      --surface: #fff;
-      --subtle: #fafafa;
-      --warning-bg: #fff7df;
-      --warning-rule: #e1c15f;
+      color-scheme: dark;
+      --ink: #f6f2ea;
+      --muted: #b9b1a6;
+      --soft: #d9d2c7;
+      --rule: rgba(246, 242, 234, .14);
+      --rule-strong: rgba(246, 242, 234, .24);
+      --accent: #d7a756;
+      --accent-2: #62a1be;
+      --danger: #d78484;
+      --bg: #070707;
+      --surface: rgba(13, 13, 13, .82);
+      --surface-strong: rgba(23, 23, 23, .92);
+      --subtle: rgba(246, 242, 234, .06);
+      --shadow: 0 24px 80px rgba(0, 0, 0, .38);
     }
 
     * {
@@ -28,35 +31,91 @@ layout: null
 
     body {
       margin: 0;
-      background: var(--bg);
+      background:
+        radial-gradient(circle at 18% 8%, rgba(98, 161, 190, .22), transparent 26%),
+        radial-gradient(circle at 78% 16%, rgba(215, 167, 86, .16), transparent 26%),
+        linear-gradient(180deg, #050505 0%, #0d0d0d 46%, #080808 100%);
       color: var(--ink);
       font: 14px/1.45 -apple-system, "Helvetica Neue", Arial, "Segoe UI", sans-serif;
     }
 
+    body::before {
+      position: fixed;
+      inset: 0;
+      content: "";
+      pointer-events: none;
+      background:
+        linear-gradient(180deg, rgba(7, 7, 7, .12) 0%, rgba(7, 7, 7, .78) 86%),
+        repeating-linear-gradient(90deg, rgba(255, 255, 255, .028) 0, rgba(255, 255, 255, .028) 1px, transparent 1px, transparent 58px);
+    }
+
     main {
-      max-width: 1320px;
-      margin: 28px auto 40px;
-      padding: 0 24px;
+      position: relative;
+      max-width: 1360px;
+      margin: 0 auto 56px;
+      padding: 96px 28px 0;
+      z-index: 1;
+    }
+
+    .tracker-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 18px 34px;
+      background: linear-gradient(180deg, rgba(7, 7, 7, .9), rgba(7, 7, 7, .35));
+      backdrop-filter: blur(14px);
+    }
+
+    .tracker-logo,
+    .tracker-nav a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .tracker-logo {
+      font-weight: 700;
+    }
+
+    .tracker-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 13px;
     }
 
     header {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 18px;
-      margin: 0 0 16px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: end;
+      margin: 0 0 20px;
     }
 
     h1 {
-      margin: 0 0 3px;
-      font-size: 24px;
-      line-height: 1.12;
+      max-width: 840px;
+      margin: 0 0 8px;
+      font-size: clamp(36px, 6vw, 68px);
+      line-height: 1;
+      letter-spacing: 0;
     }
 
     h2 {
-      margin: 22px 0 10px;
-      font-size: 16px;
+      margin: 0;
+      font-size: 18px;
       line-height: 1.2;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.25;
     }
 
     a {
@@ -70,9 +129,9 @@ layout: null
 
     button {
       min-height: 36px;
-      border: 1px solid var(--rule);
-      border-radius: 6px;
-      background: var(--surface);
+      border: 1px solid var(--rule-strong);
+      border-radius: 8px;
+      background: rgba(246, 242, 234, .07);
       color: var(--ink);
       padding: 7px 10px;
       font: inherit;
@@ -82,13 +141,13 @@ layout: null
     button.primary {
       border-color: var(--accent);
       background: var(--accent);
-      color: var(--accent-ink);
+      color: #17110a;
     }
 
     button.danger {
-      border-color: #9d2b2b;
-      background: #9d2b2b;
-      color: #fff;
+      border-color: rgba(215, 132, 132, .72);
+      background: rgba(215, 132, 132, .2);
+      color: #ffdada;
     }
 
     button:disabled {
@@ -108,24 +167,35 @@ layout: null
       font-size: 12px;
     }
 
+    .kicker {
+      margin: 0 0 12px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
     .metrics {
       display: grid;
-      grid-template-columns: repeat(5, minmax(120px, 1fr));
-      gap: 8px;
-      margin: 0 0 14px;
+      grid-template-columns: repeat(6, minmax(120px, 1fr));
+      gap: 1px;
+      margin: 0 0 18px;
+      border: 1px solid var(--rule);
+      background: var(--rule);
+      box-shadow: var(--shadow);
     }
 
     .metric {
-      min-height: 62px;
-      padding: 10px 12px;
-      border: 1px solid var(--rule);
-      border-radius: 8px;
+      min-height: 76px;
+      padding: 14px 16px;
       background: var(--surface);
     }
 
     .metric strong {
       display: block;
-      font-size: 22px;
+      color: #fff;
+      font-size: 26px;
       line-height: 1.05;
     }
 
@@ -138,17 +208,17 @@ layout: null
     .approval-bar {
       display: grid;
       gap: 10px;
-      margin: 0 0 14px;
+      margin: 0 0 16px;
     }
 
     .controls {
-      grid-template-columns: minmax(260px, 1fr) minmax(150px, 190px) minmax(150px, 190px) minmax(150px, 190px);
+      grid-template-columns: minmax(260px, 1fr) minmax(150px, 210px) minmax(150px, 210px) minmax(150px, 210px);
     }
 
     .approval-bar {
       grid-template-columns: auto auto auto auto minmax(260px, 1fr);
       align-items: center;
-      padding: 10px;
+      padding: 12px;
       border: 1px solid var(--rule);
       border-radius: 8px;
       background: var(--surface);
@@ -158,21 +228,63 @@ layout: null
     select {
       min-height: 36px;
       border: 1px solid var(--rule);
-      border-radius: 6px;
-      background: var(--surface);
+      border-radius: 8px;
+      background: rgba(246, 242, 234, .08);
       color: var(--ink);
       padding: 7px 9px;
       font: inherit;
     }
 
+    input::placeholder {
+      color: rgba(246, 242, 234, .46);
+    }
+
     .notice {
-      margin: 0 0 14px;
-      padding: 9px 10px;
-      border: 1px solid var(--warning-rule);
+      margin: 0 0 16px;
+      padding: 12px 14px;
+      border: 1px solid rgba(215, 167, 86, .48);
       border-radius: 8px;
-      background: var(--warning-bg);
-      color: #4d3b00;
+      background: rgba(215, 167, 86, .1);
+      color: #efd9a8;
       font-size: 13px;
+    }
+
+    .view-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 16px;
+    }
+
+    .view-tab {
+      min-height: 38px;
+      border-radius: 999px;
+      padding: 8px 14px;
+      color: var(--muted);
+    }
+
+    .view-tab.active {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #17110a;
+    }
+
+    .view-panel[hidden] {
+      display: none;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: end;
+      margin: 20px 0 12px;
+    }
+
+    .section-head p {
+      max-width: 720px;
+      margin: 6px 0 0;
+      color: var(--muted);
     }
 
     table {
@@ -197,7 +309,7 @@ layout: null
       text-transform: uppercase;
       letter-spacing: .04em;
       color: var(--muted);
-      background: var(--subtle);
+      background: rgba(246, 242, 234, .05);
     }
 
     tr:last-child td {
@@ -221,8 +333,8 @@ layout: null
       min-width: 38px;
       padding: 2px 7px;
       border-radius: 999px;
-      background: #eef5fb;
-      color: #123c60;
+      background: rgba(98, 161, 190, .18);
+      color: #d8f0fb;
       text-align: center;
       font-weight: 600;
     }
@@ -243,14 +355,137 @@ layout: null
       border-radius: 8px;
     }
 
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+    }
+
+    .job-card,
+    .app-card {
+      display: grid;
+      gap: 12px;
+      min-height: 100%;
+      padding: 15px;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: 0 10px 36px rgba(0, 0, 0, .18);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .card-meta,
+    .card-actions,
+    .card-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .card-meta {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .card-text {
+      margin: 0;
+      color: var(--soft);
+      font-size: 13px;
+    }
+
+    .pill {
+      display: inline-flex;
+      min-height: 24px;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--rule);
+      border-radius: 999px;
+      padding: 3px 8px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.2;
+      background: rgba(246, 242, 234, .05);
+    }
+
+    .pill input {
+      width: 14px;
+      height: 14px;
+      min-height: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .status-applied {
+      color: #c7f3ce;
+      border-color: rgba(115, 190, 128, .45);
+      background: rgba(115, 190, 128, .12);
+    }
+
+    .status-needs_manual {
+      color: #ffdada;
+      border-color: rgba(215, 132, 132, .5);
+      background: rgba(215, 132, 132, .14);
+    }
+
+    .kanban {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(260px, 1fr));
+      gap: 12px;
+      align-items: start;
+      overflow-x: auto;
+      padding-bottom: 8px;
+    }
+
+    .kanban-column {
+      min-width: 260px;
+      max-height: 72vh;
+      display: grid;
+      gap: 10px;
+      align-content: start;
+      overflow: auto;
+      padding: 12px;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      background: rgba(246, 242, 234, .04);
+    }
+
+    .kanban-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 2px;
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .kanban-count {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
     @media (max-width: 900px) {
       main {
-        margin-top: 18px;
-        padding: 0 14px;
+        padding: 18px 14px 0;
       }
 
+      .tracker-nav,
       header {
         display: block;
+      }
+
+      .tracker-nav {
+        position: static;
       }
 
       .timestamp {
@@ -268,28 +503,52 @@ layout: null
         overflow-x: auto;
         white-space: nowrap;
       }
+
+      .kanban {
+        grid-template-columns: 1fr;
+      }
+
+      .kanban-column {
+        max-height: none;
+      }
     }
   </style>
 </head>
 <body>
+  <nav class="tracker-nav" aria-label="Tracker navigation">
+    <a class="tracker-logo" href="{{ '/' | relative_url }}">Rohit Verma</a>
+    <div class="tracker-links">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/resume/' | relative_url }}">Resume</a>
+      <a href="https://github.com/rverma-dev/resume/issues/new">New issue</a>
+    </div>
+  </nav>
   <main>
     <header>
       <div>
+        <p class="kicker">Recruiting System</p>
         <h1>Jobs and Applications</h1>
         <p class="summary" id="summary">Loading tracker...</p>
       </div>
       <p class="timestamp" id="timestamp"></p>
     </header>
 
-    <p class="notice">Discovery is automated, but applications are not. Select roles here and open a prefilled GitHub approval issue. The scheduled importer turns approved issues into auditable application records and resume snapshots.</p>
+    <p class="notice">Discovery and tracking are automated, but application submission remains explicit. Approval issues create application records; later status issues mark an application as applied or flag it for manual follow-up when browser automation gets stuck.</p>
 
     <section class="metrics" aria-label="Pipeline summary">
       <div class="metric"><strong id="metric-jobs">0</strong><span>Jobs tracked</span></div>
-      <div class="metric"><strong id="metric-unreviewed">0</strong><span>Unreviewed</span></div>
+      <div class="metric"><strong id="metric-shortlist">0</strong><span>Shortlist</span></div>
       <div class="metric"><strong id="metric-selected">0</strong><span>Selected now</span></div>
-      <div class="metric"><strong id="metric-approved">0</strong><span>Approved</span></div>
+      <div class="metric"><strong id="metric-approved">0</strong><span>Approved queue</span></div>
       <div class="metric"><strong id="metric-applied">0</strong><span>Applied</span></div>
+      <div class="metric"><strong id="metric-manual">0</strong><span>Needs manual</span></div>
     </section>
+
+    <div class="view-tabs" role="tablist" aria-label="Tracker views">
+      <button type="button" class="view-tab active" data-view="shortlist">Shortlist</button>
+      <button type="button" class="view-tab" data-view="applications">Applications Board</button>
+      <button type="button" class="view-tab" data-view="archive">Archive</button>
+    </div>
 
     <div class="controls">
       <input id="search" type="search" placeholder="Search company, role, status, location, people, theme">
@@ -298,6 +557,7 @@ layout: null
         <option>approved</option>
         <option>tailoring</option>
         <option>ready</option>
+        <option>needs_manual</option>
         <option>applied</option>
         <option>interview</option>
         <option>rejected</option>
@@ -312,6 +572,7 @@ layout: null
         <option>approved</option>
         <option>tailoring</option>
         <option>ready</option>
+        <option>needs_manual</option>
         <option>applied</option>
         <option>archived</option>
       </select>
@@ -326,27 +587,46 @@ layout: null
       </select>
     </div>
 
-    <div class="approval-bar" aria-label="Approval controls">
-      <button type="button" id="select-visible">Select visible</button>
-      <button type="button" id="clear-selection">Clear selection</button>
-      <button type="button" class="primary" id="approve-selected" disabled>Open approval issue</button>
-      <button type="button" class="danger" id="reject-selected" disabled>Open rejection issue</button>
-      <p class="output" id="approval-output">No roles selected.</p>
-    </div>
-
-    <section aria-labelledby="jobs-heading">
-      <h2 id="jobs-heading">Job Inventory</h2>
+    <section class="view-panel" id="shortlist-view" aria-labelledby="shortlist-heading">
+      <div class="section-head">
+        <div>
+          <h2 id="shortlist-heading">Shortlist</h2>
+          <p>Only jobs that still need a decision appear here. Approved and archived roles move out of this view.</p>
+        </div>
+      </div>
+      <div class="approval-bar" aria-label="Approval controls">
+        <button type="button" id="select-visible">Select visible</button>
+        <button type="button" id="clear-selection">Clear selection</button>
+        <button type="button" class="primary" id="approve-selected" disabled>Open approval issue</button>
+        <button type="button" class="danger" id="reject-selected" disabled>Open rejection issue</button>
+        <p class="output" id="approval-output">No roles selected.</p>
+      </div>
       <div id="jobs-table"></div>
     </section>
 
-    <section aria-labelledby="applications-heading">
-      <h2 id="applications-heading">Applications</h2>
-      <div id="applications-table"></div>
+    <section class="view-panel" id="applications-view" aria-labelledby="applications-heading" hidden>
+      <div class="section-head">
+        <div>
+          <h2 id="applications-heading">Applications Board</h2>
+          <p>Approved records stay here until the scheduler or a manual update moves them to applied, interview, offer, or needs manual.</p>
+        </div>
+      </div>
+      <div id="application-board"></div>
+    </section>
+
+    <section class="view-panel" id="archive-view" aria-labelledby="archive-heading" hidden>
+      <div class="section-head">
+        <div>
+          <h2 id="archive-heading">Archive</h2>
+          <p>Rejected, blocked, and archived jobs stay out of the active shortlist.</p>
+        </div>
+      </div>
+      <div id="archive-table"></div>
     </section>
   </main>
 
   <script>
-    const state = { applications: [], jobs: [], errors: [] };
+    const state = { activeView: "shortlist", applications: [], jobs: [], errors: [] };
     const selectedJobIds = new Set(JSON.parse(localStorage.getItem("selectedJobIds") || "[]"));
     const exportedJobIds = new Set(JSON.parse(localStorage.getItem("exportedJobIds") || "[]"));
     const issueTrackerUrl = "https://github.com/rverma-dev/resume/issues";
@@ -393,6 +673,14 @@ layout: null
       return row.resume_snapshot_name || row.resume_name || "Base Resume";
     }
 
+    function statusLabel(value) {
+      return text(value || "approved").replaceAll("_", " ");
+    }
+
+    function statusClass(value) {
+      return `status-${text(value || "approved").replace(/[^a-z0-9_-]/gi, "_")}`;
+    }
+
     function score(row) {
       const value = row.fit_score ?? row.score ?? row.relevance_score;
       return value == null || value === "" ? "" : `<span class="score">${safe(value)}</span>`;
@@ -414,7 +702,13 @@ layout: null
       return state.applications.filter((row) => includesQuery(row, query) && (!status || row.status === status));
     }
 
-    function filteredJobs() {
+    function isArchivedJob(row) {
+      const approval = row.approval_status || "unreviewed";
+      const status = row.status || "discovered";
+      return ["archived", "blocked"].includes(approval) || ["archived", "rejected"].includes(status);
+    }
+
+    function filteredJobs(mode = "shortlist") {
       const query = document.querySelector("#search").value.trim().toLowerCase();
       const status = document.querySelector("#job-status").value;
       const approval = document.querySelector("#approval-status").value;
@@ -422,6 +716,7 @@ layout: null
         includesQuery(row, query)
         && (!status || row.status === status)
         && (!approval || (row.approval_status || "unreviewed") === approval)
+        && (mode === "archive" ? isArchivedJob(row) : canDecide(row))
       ));
     }
 
@@ -465,6 +760,157 @@ layout: null
       document.querySelector(target).innerHTML = `<table>${head}<tbody>${body}</tbody></table>`;
     }
 
+    function cardLink(value, label, urlBuilder = siteUrl) {
+      return value ? `<a class="pill" href="${safe(urlBuilder(value))}">${safe(label)}</a>` : "";
+    }
+
+    function jobCard(row) {
+      const checked = selectedJobIds.has(row.job_id) ? "checked" : "";
+      return `
+        <article class="job-card">
+          <div class="card-top">
+            <div>
+              <h3>${safe(row.company)}</h3>
+              <p class="card-text">${safe(row.role || row.title)}</p>
+            </div>
+            ${score(row)}
+          </div>
+          <p class="card-text">${themeSummary(row)}</p>
+          <div class="card-meta">
+            <span>${safe(row.location || "Location TBD")}</span>
+            <span class="pill">${safe(exportedJobIds.has(row.job_id) && (row.approval_status || "unreviewed") === "unreviewed" ? "exported" : (row.approval_status || "unreviewed"))}</span>
+          </div>
+          <div class="card-links">
+            ${cardLink(row.source_url || row.url, "Source")}
+          </div>
+          <label class="pill">
+            <input type="checkbox" data-job-id="${safe(row.job_id)}" ${checked} aria-label="Select ${safe(row.company)} ${safe(row.role)}">
+            Select
+          </label>
+        </article>
+      `;
+    }
+
+    function renderJobCards(target, rows, emptyText) {
+      if (!rows.length) {
+        document.querySelector(target).innerHTML = `<div class="empty">${safe(emptyText)}</div>`;
+        return;
+      }
+      document.querySelector(target).innerHTML = `<div class="card-grid">${rows.map(jobCard).join("")}</div>`;
+    }
+
+    function applicationStatusPayload(row, status) {
+      const createdAt = new Date().toISOString();
+      const updateSeed = `${row.application_id}|${status}|${createdAt}`;
+      const updateId = `application-${createdAt.slice(0, 10).replaceAll("-", "")}-${Math.abs(hashCode(updateSeed)).toString(16)}`;
+      const needsManual = status === "needs_manual";
+      return {
+        schema_version: "application.status.v1",
+        action: "update_application_status",
+        update_id: updateId,
+        created_at: createdAt,
+        application_id: row.application_id,
+        job_id: row.job_id,
+        company: row.company,
+        role: row.role,
+        status,
+        source: "static-dashboard",
+        auto_apply_allowed: false,
+        human_action_required: needsManual,
+        reason: needsManual
+          ? "Scheduler/browser automation could not safely complete this application. Manual follow-up is needed."
+          : "Application submitted; update tracker status.",
+        blocker: needsManual ? "Navigation or submission issue; inspect manually." : "",
+        applied_at: status === "applied" ? createdAt : ""
+      };
+    }
+
+    function applicationIssueUrl(row, status) {
+      const payload = applicationStatusPayload(row, status);
+      const titleStatus = status === "needs_manual" ? "Needs manual application" : "Applied";
+      const params = new URLSearchParams({
+        title: `${titleStatus}: ${row.company} - ${row.role}`,
+        labels: "recruiting-application,status-pending",
+        body: [
+          `${titleStatus} status update generated from the static applications board.`,
+          "",
+          "The scheduled importer will process this issue and close it after the tracker is updated.",
+          "",
+          "```json",
+          JSON.stringify(payload, null, 2),
+          "```",
+          ""
+        ].join("\n")
+      });
+      return `${issueTrackerUrl}/new?${params.toString()}`;
+    }
+
+    function applicationCard(row) {
+      const status = row.status || "approved";
+      const appliedText = row.applied_date || row.applied_at || "";
+      return `
+        <article class="app-card">
+          <div class="card-top">
+            <div>
+              <h3>${safe(row.company)}</h3>
+              <p class="card-text">${safe(row.role || row.title)}</p>
+            </div>
+            ${score(row)}
+          </div>
+          <div class="card-meta">
+            <span class="pill ${safe(statusClass(status))}">${safe(statusLabel(status))}</span>
+            <span>${safe(row.location || "Location TBD")}</span>
+          </div>
+          <p class="card-text">${safe(row.manual_action_reason || row.status_reason || row.fit_reason || "Approved for tailoring; not submitted yet.")}</p>
+          <div class="card-links">
+            ${cardLink(row.resume_snapshot_path || row.resume_path, resumeSnapshotLabel(row), printableResumeUrl)}
+            ${cardLink(row.resume_theme_path, "Theme Notes")}
+            ${cardLink(row.source_url, "Source")}
+          </div>
+          <div class="card-meta">
+            <span>Approved ${safe(row.approved_at || "")}</span>
+            ${appliedText ? `<span>Applied ${safe(appliedText)}</span>` : ""}
+          </div>
+          <div class="card-actions">
+            <button type="button" class="primary" data-application-action="applied" data-application-id="${safe(row.application_id)}">Mark applied</button>
+            <button type="button" class="danger" data-application-action="needs_manual" data-application-id="${safe(row.application_id)}">Needs manual</button>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderApplicationBoard(rows) {
+      const columns = [
+        { key: "approved", label: "Approved" },
+        { key: "tailoring", label: "Tailoring" },
+        { key: "ready", label: "Ready" },
+        { key: "needs_manual", label: "Needs Manual" },
+        { key: "applied", label: "Applied" },
+        { key: "interview", label: "Interview" }
+      ];
+      const html = columns.map((column) => {
+        const items = rows.filter((row) => (row.status || "approved") === column.key);
+        return `
+          <section class="kanban-column" aria-label="${safe(column.label)}">
+            <div class="kanban-title"><span>${safe(column.label)}</span><span class="kanban-count">${items.length}</span></div>
+            ${items.length ? items.map(applicationCard).join("") : `<div class="empty">No ${safe(column.label.toLowerCase())} applications.</div>`}
+          </section>
+        `;
+      }).join("");
+      document.querySelector("#application-board").innerHTML = `<div class="kanban">${html}</div>`;
+    }
+
+    function setActiveView(view) {
+      state.activeView = view;
+      document.querySelectorAll(".view-tab").forEach((button) => {
+        button.classList.toggle("active", button.dataset.view === view);
+      });
+      document.querySelectorAll(".view-panel").forEach((panel) => {
+        panel.hidden = panel.id !== `${view}-view`;
+      });
+      render();
+    }
+
     function updateSelectionState() {
       state.jobs.forEach((row) => {
         if (!canDecide(row)) selectedJobIds.delete(row.job_id);
@@ -480,51 +926,38 @@ layout: null
 
     function render() {
       const applications = filteredApplications();
-      const jobs = filteredJobs();
-      const unreviewed = state.jobs.filter((row) => (row.approval_status || "unreviewed") === "unreviewed").length;
-      const approved = state.applications.filter((row) => row.approval_status === "approved" || row.status === "approved").length;
+      const shortlist = filteredJobs("shortlist");
+      const archive = filteredJobs("archive");
+      const shortlistTotal = state.jobs.filter(canDecide).length;
+      const approved = state.applications.filter((row) => !["applied", "needs_manual", "rejected", "archived"].includes(row.status || "approved")).length;
       const applied = state.applications.filter((row) => row.status === "applied").length;
+      const manual = state.applications.filter((row) => row.status === "needs_manual").length;
 
       document.querySelector("#metric-jobs").textContent = state.jobs.length;
-      document.querySelector("#metric-unreviewed").textContent = unreviewed;
+      document.querySelector("#metric-shortlist").textContent = shortlistTotal;
       document.querySelector("#metric-approved").textContent = approved;
       document.querySelector("#metric-applied").textContent = applied;
+      document.querySelector("#metric-manual").textContent = manual;
 
-      const shown = `${jobs.length}/${state.jobs.length} jobs, ${applications.length}/${state.applications.length} applications shown`;
+      const shown = `${shortlist.length}/${shortlistTotal} shortlist, ${applications.length}/${state.applications.length} applications, ${archive.length} archived shown`;
       document.querySelector("#summary").textContent = state.errors.length ? `${shown}; ${state.errors.length} source failed` : shown;
       document.querySelector("#timestamp").textContent = new Date().toLocaleString();
 
-      table("#jobs-table", [
-        {
-          label: "",
-          className: "select-cell",
-          render: (row) => canDecide(row)
-            ? `<input type="checkbox" data-job-id="${safe(row.job_id)}" ${selectedJobIds.has(row.job_id) ? "checked" : ""} aria-label="Select ${safe(row.company)} ${safe(row.role)}">`
-            : ""
-        },
+      renderJobCards("#jobs-table", shortlist, "No actionable jobs in the shortlist.");
+
+      renderApplicationBoard(applications);
+
+      table("#archive-table", [
         { label: "Company", render: (row) => safe(row.company) },
         { label: "Role", className: "compact", render: (row) => safe(row.role || row.title) },
         { label: "Fit", render: score },
-        { label: "People", className: "compact", render: peopleSummary },
-        { label: "Resume Theme", className: "compact", render: themeSummary },
         { label: "Location", render: (row) => safe(row.location) },
         { label: "Source", render: (row) => link(row.source_url || row.url) },
-        { label: "Approval", render: (row) => safe(exportedJobIds.has(row.job_id) && (row.approval_status || "unreviewed") === "unreviewed" ? "exported" : (row.approval_status || "unreviewed")) },
+        { label: "Status", render: (row) => safe(row.status || "discovered") },
+        { label: "Approval", render: (row) => safe(row.approval_status || "unreviewed") },
         { label: "Batch", render: (row) => safe(row.batch_id) },
         { label: "Updated", render: (row) => safe(row.updated_at || row.discovered_at) }
-      ], jobs, "No jobs imported yet.");
-
-      table("#applications-table", [
-        { label: "Company", render: (row) => safe(row.company) },
-        { label: "Role", className: "compact", render: (row) => safe(row.role || row.title) },
-        { label: "Status", render: (row) => safe(row.status || "approved") },
-        { label: "Fit", render: score },
-        { label: "Approved", render: (row) => safe(row.approved_at) },
-        { label: "Applied", render: (row) => safe(row.applied_date || row.applied_at) },
-        { label: "Resume", render: (row) => link(row.resume_snapshot_path || row.resume_path, resumeSnapshotLabel(row), printableResumeUrl) },
-        { label: "Submitted Resume", render: (row) => link(row.submitted_resume_path, "Submitted Resume", printableResumeUrl) },
-        { label: "Theme", render: (row) => link(row.resume_theme_path, "Theme Notes") }
-      ], applications, "No applications approved yet.");
+      ], archive, "No archived jobs.");
 
       updateSelectionState();
     }
@@ -636,6 +1069,12 @@ layout: null
       document.querySelector("#approval-output").textContent = message;
     }
 
+    function openApplicationStatusIssue(applicationId, status) {
+      const application = state.applications.find((row) => row.application_id === applicationId);
+      if (!application) return;
+      window.open(applicationIssueUrl(application, status), "_blank", "noopener");
+    }
+
     function loadJson(path, key) {
       return fetch(path, { cache: "no-store" })
         .then((response) => response.ok ? response.json() : Promise.reject(new Error(`${path}: ${response.status}`)))
@@ -659,6 +1098,9 @@ layout: null
     document.querySelector("#application-status").addEventListener("change", render);
     document.querySelector("#job-status").addEventListener("change", render);
     document.querySelector("#approval-status").addEventListener("change", render);
+    document.querySelectorAll(".view-tab").forEach((button) => {
+      button.addEventListener("click", () => setActiveView(button.dataset.view));
+    });
     document.querySelector("#select-visible").addEventListener("click", () => {
       filteredJobs().filter(canDecide).forEach((row) => selectedJobIds.add(row.job_id));
       render();
@@ -675,6 +1117,12 @@ layout: null
       if (event.target.checked) selectedJobIds.add(jobId);
       else selectedJobIds.delete(jobId);
       render();
+    });
+    document.querySelector("#application-board").addEventListener("click", (event) => {
+      const action = event.target.dataset.applicationAction;
+      const applicationId = event.target.dataset.applicationId;
+      if (!action || !applicationId) return;
+      openApplicationStatusIssue(applicationId, action);
     });
   </script>
 </body>

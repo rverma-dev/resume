@@ -9,6 +9,11 @@ from pathlib import Path
 from pipeline_common import APPLICATIONS_PATH, JOBS_PATH, LEDGER_PATH, REPO_ROOT
 
 
+APPLICATION_STATUSES = {"approved", "tailoring", "ready", "needs_manual", "applied", "interview", "rejected", "offer", "archived"}
+JOB_STATUSES = {"discovered", "reviewing", "shortlisted", "approved", "tailoring", "ready", "needs_manual", "applied", "archived"}
+APPROVAL_STATUSES = {"unreviewed", "exported", "approved", "blocked", "applied", "archived"}
+
+
 def read_json(path: Path):
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
@@ -84,6 +89,10 @@ def main() -> int:
     for app in applications:
         if app.get("job_id") not in valid_job_ids:
             errors.append(f"application {app.get('application_id')} references unknown job_id {app.get('job_id')}")
+        if app.get("status") not in APPLICATION_STATUSES:
+            errors.append(f"application {app.get('application_id')} has unsupported status: {app.get('status')}")
+        if app.get("approval_status") not in APPROVAL_STATUSES:
+            errors.append(f"application {app.get('application_id')} has unsupported approval_status: {app.get('approval_status')}")
         for field in ("resume_snapshot_path", "submitted_resume_path"):
             value = app.get(field)
             if value:
@@ -92,6 +101,12 @@ def main() -> int:
                     errors.append(f"application {app.get('application_id')} missing {field}: {value}")
                 elif field == "resume_snapshot_path":
                     errors.extend(validate_resume_page(app, path))
+
+    for job in jobs:
+        if job.get("status") not in JOB_STATUSES:
+            errors.append(f"job {job.get('job_id')} has unsupported status: {job.get('status')}")
+        if job.get("approval_status") not in APPROVAL_STATUSES:
+            errors.append(f"job {job.get('job_id')} has unsupported approval_status: {job.get('approval_status')}")
 
     if errors:
         print("\n".join(errors))

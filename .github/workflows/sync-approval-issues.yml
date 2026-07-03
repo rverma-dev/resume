@@ -1,4 +1,4 @@
-name: Sync approval issues
+name: Sync recruiting issues
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Import issue approval batches
+      - name: Import recruiting issue payloads
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 recruiting/scripts/sync_issue_approvals.py
@@ -30,11 +30,11 @@ jobs:
       - name: Commit tracker updates
         run: |
           if git diff --quiet -- jobs/index.json applications/applications.json applications/applications.jsonl applications/resumes applications/approval_inbox.json; then
-            echo "No approval updates to commit."
+            echo "No recruiting issue updates to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add jobs/index.json applications/applications.json applications/applications.jsonl applications/resumes applications/approval_inbox.json
-          git commit -m "Sync approved recruiting jobs"
+          git commit -m "Sync recruiting issue updates"
           git push
