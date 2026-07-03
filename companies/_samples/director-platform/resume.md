@@ -13,7 +13,7 @@ Hyperforce observability modernization, and $240M/month banking infrastructure.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

@@ -17,7 +17,7 @@
 ## Experience
 
 <div class="role">
-  <strong>Principal Engineer (PMTS), MuleSoft (Salesforce)</strong>
+  <strong>Principal Engineer (PMTS), Salesforce</strong>
   <span>Bengaluru, India; remote US org | Feb 2025 – Present</span>
 </div>
 
