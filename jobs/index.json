@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T22:48:02Z",
+  "updated_at": "2026-07-03T23:09:11Z",
   "active_batch_id": "batch-20260704-ic-heartbeat-2234",
   "last_scheduler_run_at": "2026-07-03T22:41:42Z",
   "batch_size": 10,
@@ -384,7 +384,7 @@
         "Principal Engineer scope covers critical financial infrastructure, global transaction volume, architecture reviews, resilience, security, and compliance.",
         "No salary range was visible on LinkedIn."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2234",
       "fit_score": 93,
@@ -432,7 +432,7 @@
       "application_id": "app-20260703-mastercard-principal-engineer-baf6b503",
       "resume_snapshot_path": "applications/resumes/app-20260703-mastercard-principal-engineer-baf6b503/resume.md",
       "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-03T23:09:11Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; high confidence high-comp Principal target."
       ]
@@ -1746,7 +1746,7 @@
         "Senior Staff Databricks backend infrastructure role in India; no exact compensation visible",
         "user-provided target-company signal: Databricks can meet high-comp target at the right band"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-databricks-ic-heartbeat",
       "fit_score": 97,
@@ -1806,7 +1806,7 @@
       "application_id": "app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f",
       "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f/resume.md",
       "discovered_at": "2026-07-03T19:08:16Z",
-      "updated_at": "2026-07-03T19:08:26Z",
+      "updated_at": "2026-07-03T23:06:39Z",
       "notes": []
     },
     {
