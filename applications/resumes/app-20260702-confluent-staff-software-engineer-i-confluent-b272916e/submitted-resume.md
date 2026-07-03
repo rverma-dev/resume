@@ -8,12 +8,13 @@ permalink: /applications/resumes/app-20260702-confluent-staff-software-engineer-
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer focused on operating distributed data and observability platforms across hybrid/cloud environments with strong reliability and governance.
+
+Center the resume on operating distributed data and observability platforms across hybrid/cloud environments with strong reliability and governance.
 Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

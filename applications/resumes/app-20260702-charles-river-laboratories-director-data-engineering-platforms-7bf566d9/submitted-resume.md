@@ -8,12 +8,13 @@ permalink: /applications/resumes/app-20260702-charles-river-laboratories-directo
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Engineering leader with data-and-AI platform leader with global operations, compliance, and incident-management depth, while acknowledging cloud portability from AWS-heavy experience.
+
+Show a data-and-AI platform leader with global operations, compliance, and incident-management depth, while acknowledging cloud portability from AWS-heavy experience.
 Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

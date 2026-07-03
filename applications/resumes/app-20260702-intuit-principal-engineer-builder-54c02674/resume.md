@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - Intuit - Principal Engineer, Builder Resume
 permalink: /applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/
 ---
 # Rohit Verma
@@ -8,15 +8,13 @@ permalink: /applications/resumes/app-20260702-intuit-principal-engineer-builder-
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer specializing in multi-tenant observability platforms,
-local-first AI engineering systems, and governed agentic products. Built and
-operated 0->1 systems at scale including $240M/month payments infrastructure,
-approximately $6M annualized cost reduction in observability platforms, and
-enterprise-grade SaaS systems on Salesforce Hyperforce.
+
+Position as a Principal Engineer who has repeatedly built regulated, multi-tenant, AI-enabled and financial-grade systems with measurable reliability and cost outcomes.
+Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

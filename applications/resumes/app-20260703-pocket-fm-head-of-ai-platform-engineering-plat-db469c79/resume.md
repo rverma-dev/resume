@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - Pocket FM - Head of AI Platform Engineering (Platforms & Applications) Resume
 permalink: /applications/resumes/app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79/
 ---
 # Rohit Verma
@@ -8,11 +8,9 @@ permalink: /applications/resumes/app-20260703-pocket-fm-head-of-ai-platform-engi
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer specializing in multi-tenant observability platforms,
-local-first AI engineering systems, and governed agentic products. Built and
-operated 0->1 systems at scale including $240M/month payments infrastructure,
-approximately $6M annualized cost reduction in observability platforms, and
-enterprise-grade SaaS systems on Salesforce Hyperforce.
+
+AI platform leader who can turn governed agent systems, model-provider abstraction, observability, and cost controls into reusable product infrastructure.
+Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 

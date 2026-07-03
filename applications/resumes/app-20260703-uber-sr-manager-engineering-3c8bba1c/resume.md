@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - Uber - Sr Manager, Engineering Resume
 permalink: /applications/resumes/app-20260703-uber-sr-manager-engineering-3c8bba1c/
 ---
 # Rohit Verma
@@ -8,11 +8,9 @@ permalink: /applications/resumes/app-20260703-uber-sr-manager-engineering-3c8bba
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer specializing in multi-tenant observability platforms,
-local-first AI engineering systems, and governed agentic products. Built and
-operated 0->1 systems at scale including $240M/month payments infrastructure,
-approximately $6M annualized cost reduction in observability platforms, and
-enterprise-grade SaaS systems on Salesforce Hyperforce.
+
+Technical leader for distributed data systems, SLO-driven production operations, and real-time platform reliability at enterprise scale.
+Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 

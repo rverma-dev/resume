@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - GitLab - Staff Backend Engineer, SSCS: AI Governance Resume
 permalink: /applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1/
 ---
 # Rohit Verma
@@ -8,15 +8,13 @@ permalink: /applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer specializing in multi-tenant observability platforms,
-local-first AI engineering systems, and governed agentic products. Built and
-operated 0->1 systems at scale including $240M/month payments infrastructure,
-approximately $6M annualized cost reduction in observability platforms, and
-enterprise-grade SaaS systems on Salesforce Hyperforce.
+
+Make governed multi-agent systems and AM agent federation the lead story, supported by compliance/security experience and backend platform scale.
+Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

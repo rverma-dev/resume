@@ -8,12 +8,13 @@ permalink: /applications/resumes/app-20260702-jiohotstar-senior-director-enginee
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer with revenue-critical platform ownership across payments, billing, observability, and data systems, then connect distributed architecture to adtech-style scale and business outcomes.
+
+Lead with revenue-critical platform ownership across payments, billing, observability, and data systems, then connect distributed architecture to adtech-style scale and business outcomes.
 Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

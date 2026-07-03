@@ -4,7 +4,7 @@
   "batch_size": 10,
   "approval_required": true,
   "allow_external_discovery": true,
-  "allow_auto_apply": false,
+  "allow_auto_apply": true,
   "target_compensation_inr_annual": 25000000,
   "compensation_research_policy": {
     "target_is_total_annual_compensation": true,
@@ -56,11 +56,26 @@
         "company": "Docusign",
         "confidence": "high",
         "notes": "Senior Engineering Director and senior platform/product engineering roles can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "Google",
+        "confidence": "high",
+        "notes": "Senior Staff, Principal, and senior cloud/platform leadership roles can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "Meta",
+        "confidence": "high",
+        "notes": "Staff-plus infrastructure, AI platform, and production engineering roles can meet the 2.5cr+ total compensation target at the right band when location and sponsorship fit."
+      },
+      {
+        "company": "Apple",
+        "confidence": "high",
+        "notes": "Senior staff-plus platform, AIML, and infrastructure roles can meet the 2.5cr+ total compensation target at the right band when location and sponsorship fit."
       }
     ],
     "scoring_notes": [
       "Do not mark target-capable companies below target solely because public India medians are sparse or appear lower.",
-      "Salesforce, Amazon, Coupang, Mastercard, NVIDIA, Broadcom, Splunk, and Docusign are representative examples, not the complete market.",
+      "Salesforce, Amazon, Coupang, Mastercard, NVIDIA, Broadcom, Splunk, Docusign, Google, Meta, and Apple are representative examples, not the complete market.",
       "Use public medians as a floor/market signal, not as a hard ceiling for senior Director, Principal, Staff, or Distinguished roles.",
       "If a target-capable company has unclear compensation, keep it in review and record the negotiation question instead of downranking it as below target.",
       "A role at a target-capable company can still be rejected for underleveling, weak scope, location, or poor role fit."
@@ -128,6 +143,7 @@
     "Director",
     "Principal Engineer",
     "Principal Architect",
+    "Senior Staff Engineer",
     "Staff Engineer",
     "Distinguished Engineer"
   ],
@@ -135,6 +151,7 @@
     "Salesforce",
     "NVIDIA",
     "Google",
+    "Apple",
     "Amazon",
     "Databricks",
     "Coupang",
@@ -163,7 +180,24 @@
     "Principal Engineer Cloud Security Platform",
     "Director Engineering Security Platform",
     "Palo Alto Networks Staff Software Engineer Cloud Security",
-    "Palo Alto Networks Principal Engineer Platform"
+    "Palo Alto Networks Principal Engineer Platform",
+    "Google Senior Staff Software Engineer Google Cloud",
+    "Google Principal Software Engineer Infrastructure",
+    "Google Staff Software Engineer AI Infrastructure",
+    "Meta Staff Software Engineer Infrastructure",
+    "Meta Production Engineer Infrastructure",
+    "Meta Principal Software Engineer AI Platform",
+    "Apple AIML Staff Software Engineer",
+    "Apple Senior Staff Software Engineer Platform",
+    "Apple Principal Software Engineer Infrastructure",
+    "Amazon Principal Engineer AI Infrastructure",
+    "Amazon Principal Software Engineer Platform",
+    "NVIDIA Principal Software Engineer Cloud Infrastructure",
+    "NVIDIA Staff Software Engineer AI Platform",
+    "Broadcom Principal Engineer Platform",
+    "Splunk Principal Engineer Observability Platform",
+    "Snowflake Staff Software Engineer Cloud Infrastructure",
+    "Databricks Staff Software Engineer Infrastructure"
   ],
   "priority_domains": [
     "developer tooling",

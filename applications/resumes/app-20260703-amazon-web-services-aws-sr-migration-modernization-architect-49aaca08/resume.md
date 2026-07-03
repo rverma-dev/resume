@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - Amazon Web Services (AWS) - Sr. Migration Modernization Architect, Professional Services Resume
 permalink: /applications/resumes/app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08/
 ---
 # Rohit Verma
@@ -8,11 +8,9 @@ permalink: /applications/resumes/app-20260703-amazon-web-services-aws-sr-migrati
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer specializing in multi-tenant observability platforms,
-local-first AI engineering systems, and governed agentic products. Built and
-operated 0->1 systems at scale including $240M/month payments infrastructure,
-approximately $6M annualized cost reduction in observability platforms, and
-enterprise-grade SaaS systems on Salesforce Hyperforce.
+
+Position Rohit as a hands-on principal architect who has led cloud re-platforming, secure platform operations, GenAI/agent tooling, and stakeholder-facing architecture programs.
+Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 

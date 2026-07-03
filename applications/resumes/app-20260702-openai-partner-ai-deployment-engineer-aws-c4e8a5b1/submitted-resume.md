@@ -13,7 +13,7 @@ Built and operated 0->1 systems at scale including $240M/month payments infrastr
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

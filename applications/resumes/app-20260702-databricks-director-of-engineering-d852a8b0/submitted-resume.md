@@ -8,12 +8,13 @@ permalink: /applications/resumes/app-20260702-databricks-director-of-engineering
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer focused on Unleash/Internal IDE the center, backed by Salesforce platform ownership and prior org leadership, showing a credible Director story for developer productivity and AI-assisted engineering.
+
+Make Unleash/Internal IDE the center, backed by Salesforce platform ownership and prior org leadership, to show a credible Director story for developer productivity and AI-assisted engineering.
 Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

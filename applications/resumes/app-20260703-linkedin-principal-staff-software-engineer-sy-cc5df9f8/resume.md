@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - LinkedIn - Principal Staff Software Engineer, Systems Infrastructure Resume
 permalink: /applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/
 ---
 # Rohit Verma
@@ -8,11 +8,9 @@ permalink: /applications/resumes/app-20260703-linkedin-principal-staff-software-
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer specializing in multi-tenant observability platforms,
-local-first AI engineering systems, and governed agentic products. Built and
-operated 0->1 systems at scale including $240M/month payments infrastructure,
-approximately $6M annualized cost reduction in observability platforms, and
-enterprise-grade SaaS systems on Salesforce Hyperforce.
+
+Principal Staff systems engineer for BigData, pubsub, observability, compliance, AI platforms, interface design, and internet-scale distributed infrastructure.
+Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 

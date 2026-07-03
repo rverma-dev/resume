@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - Rubrik - Architect, AI Data Platform & Engineering Resume
 permalink: /applications/resumes/app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80/
 ---
 # Rohit Verma
@@ -8,11 +8,9 @@ permalink: /applications/resumes/app-20260703-rubrik-architect-ai-data-platform-
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer specializing in multi-tenant observability platforms,
-local-first AI engineering systems, and governed agentic products. Built and
-operated 0->1 systems at scale including $240M/month payments infrastructure,
-approximately $6M annualized cost reduction in observability platforms, and
-enterprise-grade SaaS systems on Salesforce Hyperforce.
+
+AI data platform architect for governed RAG, semantic layers, model governance, RBAC, observability, lineage, and trusted enterprise data products.
+Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 

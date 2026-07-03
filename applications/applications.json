@@ -1,9 +1,365 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T18:00:36Z",
+  "updated_at": "2026-07-03T18:19:03Z",
   "approval_required": true,
-  "allow_auto_apply": false,
+  "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260703-apple-senior-technical-architect-customer-67c10247",
+      "job_id": "job-apple-senior-technical-architect-customer-67c10247",
+      "dedupe_key": "url:https://jobs.apple.com/en-in/details/200642493-0321/senior-technical-architect-customer-systems?team=SFTWR",
+      "source": "apple-careers",
+      "source_job_id": "200642493-0321",
+      "source_url": "https://jobs.apple.com/en-in/details/200642493-0321/senior-technical-architect-customer-systems?team=SFTWR",
+      "company": "Apple",
+      "role": "Senior Technical Architect - Customer Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-ic-google-microsoft-apple",
+      "approved_at": "2026-07-03T18:18:30Z",
+      "updated_at": "2026-07-03T18:18:30Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 84,
+      "fit_reason": "Best visible Apple India IC/architect target from current official listings. Fit is plausible for platform architecture and customer systems, but exact level mapping and compensation band need recruiter validation before heavy tailoring.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "company alumni signal",
+          "role": "Apple",
+          "profile_url": "",
+          "notes": "LinkedIn company jobs page showed 676 company alumni on recommended Apple roles."
+        }
+      ],
+      "connections_summary": "LinkedIn Apple jobs page showed 676 company alumni signal on recommended roles.",
+      "resume_theme": {
+        "name": "Apple customer-systems technical architect",
+        "positioning": "Technical architect for enterprise customer systems, platform integration, compliance-grade SaaS, cloud reliability, and product/engineering decision velocity.",
+        "key_pointers": [
+          "Lead with enterprise SaaS architecture across Salesforce, Brane, Jupiter, and Niki.",
+          "Use customer/operational signal integration from Internal IDE and proactive diagnostics as product-engineering velocity proof.",
+          "Use compliance and platform reliability stories from Jupiter, Brane, and Hyperforce."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/architecture/",
+          "work/RFCs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-apple-senior-technical-architect-customer-67c10247/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-apple-senior-technical-architect-customer-67c10247/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-google-staff-software-engineer-foundation-s-4346ebfe",
+      "job_id": "linkedin-4421799599",
+      "dedupe_key": "linkedin:4421799599",
+      "source": "linkedin",
+      "source_job_id": "4421799599",
+      "source_url": "https://www.linkedin.com/jobs/view/4421799599",
+      "company": "Google",
+      "role": "Staff Software Engineer, Foundation Services",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-ic-google-microsoft-apple",
+      "approved_at": "2026-07-03T18:18:30Z",
+      "updated_at": "2026-07-03T18:18:30Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent high-comp IC target: Staff SWE for GCP resource management and governance, requiring large-scale infrastructure, distributed systems, software architecture, technical strategy, secure/reliable services, and cross-GCP platform integration.",
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Google",
+          "profile_url": "",
+          "notes": "LinkedIn recommendation showed 20 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn recommendation showed 20 connections work at Google.",
+      "resume_theme": {
+        "name": "GCP foundation services staff IC",
+        "positioning": "Staff cloud-platform engineer for resource governance, secure/reliable distributed systems, API design, platform integration, and cross-team technical strategy.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce observability, GIA2H/AU/UK rollout, and multi-region platform governance.",
+          "Use AM agent federation, proactive diagnostics, and anomaly detection alerts as governance and reliability proof.",
+          "Use Brane/Jupiter platform compliance and cloud-data platform ownership to show resource governance and secure cloud design."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-google-staff-software-engineer-foundation-s-4346ebfe/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-google-staff-software-engineer-foundation-s-4346ebfe/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-microsoft-principal-engineer-be0ba28d",
+      "job_id": "linkedin-4433829972",
+      "dedupe_key": "linkedin:4433829972",
+      "source": "linkedin",
+      "source_job_id": "4433829972",
+      "source_url": "https://www.linkedin.com/jobs/view/4433829972",
+      "company": "Microsoft",
+      "role": "Principal Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-ic-google-microsoft-apple",
+      "approved_at": "2026-07-03T18:18:30Z",
+      "updated_at": "2026-07-03T18:18:30Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong IC target for Azure Local/Specialized Clouds: principal-level architecture from ground-up, global rollouts, distributed systems, Kubernetes/Helm, SRE, security compliance, observability, edge/sovereign/disconnected cloud scenarios, and AI-driven development.",
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Microsoft",
+          "profile_url": "",
+          "notes": "LinkedIn recommendation showed 12 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn recommendation showed 12 connections work at Microsoft.",
+      "resume_theme": {
+        "name": "Azure specialized cloud principal IC",
+        "positioning": "Principal cloud-platform engineer for hybrid/sovereign/disconnected cloud architecture, Kubernetes/SRE, observability, security compliance, and global rollout execution.",
+        "key_pointers": [
+          "Lead with Hyperforce multi-region rollout, GIA2H/new-FI onboarding, and cloud observability platform ownership.",
+          "Use Brane full on-prem distribution and 2-engineer platform/security stack as edge/disconnected-cloud proof.",
+          "Use Internal IDE/Unleash as AI-driven development velocity evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/architecture/",
+          "work/RFCs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-microsoft-principal-engineer-be0ba28d/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-microsoft-principal-engineer-be0ba28d/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d",
+      "job_id": "linkedin-4380104127",
+      "dedupe_key": "linkedin:4380104127",
+      "source": "linkedin",
+      "source_job_id": "4380104127",
+      "source_url": "https://www.linkedin.com/jobs/view/4380104127",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - Developer Experience",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-ic-staff-plus-bigtech",
+      "approved_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-03T18:12:02Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Excellent IC fit for the Internal IDE/Unleash and platform productivity narrative: staff ownership across CI/CD, development environments, staging/demo environments, shipping velocity, cross-team strategy, security, reliability, incident command, and architecture.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Rippling",
+          "profile_url": "",
+          "notes": "LinkedIn posting showed IIT Kharagpur alumni signal and 138 company alumni on related result."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed school alumni signal.",
+      "resume_theme": {
+        "name": "Developer experience platform staff IC",
+        "positioning": "Staff developer-platform engineer for internal IDE, CI/CD, isolated workspaces, platform reliability, incident command, and AI-assisted engineering velocity.",
+        "key_pointers": [
+          "Lead with Internal IDE and Unleash: local-first workspaces, isolated git worktrees, terminal/chat/file/diff/browser/PR/GUS context, and automation loops.",
+          "Use Hyperforce diagnostics and anomaly detection alerts as reliability and incident-management proof.",
+          "Use Brane SRE/platform leadership to show DevOps, CI/CD, environments, security, and operational ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/design_docs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4",
+      "job_id": "linkedin-4388477075",
+      "dedupe_key": "linkedin:4388477075",
+      "source": "linkedin",
+      "source_job_id": "4388477075",
+      "source_url": "https://www.linkedin.com/jobs/view/4388477075",
+      "company": "Vonage",
+      "role": "Staff Architect (Golang, Distributed, System design)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "ready",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-ic-staff-plus-bigtech",
+      "approved_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-03T18:19:03Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 88,
+      "fit_reason": "Good Staff Architect IC fit for distributed/event-driven platform architecture, workflow orchestration, GCP, platform standards, SRE practices, and AI-assisted engineering adoption. Lower than top targets because compensation confidence and Golang depth are weaker.",
+      "people": [],
+      "connections_summary": "No named connections captured from posting.",
+      "resume_theme": {
+        "name": "Distributed workflow platform architect",
+        "positioning": "Staff architect for event-driven workflow orchestration, cloud platform standards, reliability, GCP-scale systems, and AI-assisted engineering practices.",
+        "key_pointers": [
+          "Use Visualizer topology and proactive diagnostics as evidence of workflow/platform architecture.",
+          "Use Hyperforce alerting and anomaly detection alerts to prove SRE and reliability depth.",
+          "Use Internal IDE/Unleash to show AI-assisted engineering adoption and platform standards."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Resume PDF prepared and LinkedIn Easy Apply flow opened to contact-info step. Next action would transmit contact/profile data to LinkedIn/Vonage and the final submit requires action-time confirmation, so this is a browser handoff rather than a confirmed submission."
+      ],
+      "status_reason": "Resume PDF prepared and LinkedIn Easy Apply flow opened to contact-info step. Next action would transmit contact/profile data to LinkedIn/Vonage and the final submit requires action-time confirmation, so this is a browser handoff rather than a confirmed submission.",
+      "last_status_update_id": "status-20260703-vonage-ready-browser-handoff",
+      "manual_action_required": false
+    },
+    {
+      "application_id": "app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6",
+      "job_id": "linkedin-4429001501",
+      "dedupe_key": "linkedin:4429001501",
+      "source": "linkedin",
+      "source_job_id": "4429001501",
+      "source_url": "https://www.linkedin.com/jobs/view/4429001501",
+      "company": "Coupang",
+      "role": "Staff Engineer - Backend (E-Commerce Engineering)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-ic-staff-plus-bigtech",
+      "approved_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-03T18:12:02Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong IC stretch fit at a target-capable company: group-level staff ownership for a real-time fraud platform with Java/Spring Boot, Kafka/Flink/Kafka Streams, Cassandra/NoSQL, architecture reviews, reliability strategy, cross-functional alignment, and measurable platform/business impact.",
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Coupang",
+          "profile_url": "",
+          "notes": "LinkedIn posting showed 2 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed 2 connections work at Coupang.",
+      "resume_theme": {
+        "name": "Event-driven backend platform staff IC",
+        "positioning": "Staff platform engineer for real-time decisioning, Java distributed systems, streaming reliability, architecture reviews, and group-level technical strategy.",
+        "key_pointers": [
+          "Lead with Hyperforce alerting, anomaly detection diagnostics, and incident prevention work to show reliability judgment.",
+          "Use Brane/Jupiter/Niki platform scale to show Java/Spring, distributed systems, compliance, and cross-functional delivery.",
+          "Frame Internal IDE/Unleash as developer-productivity leverage, secondary to backend platform reliability for this role."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f",
+      "job_id": "linkedin-4429396133",
+      "dedupe_key": "linkedin:4429396133",
+      "source": "linkedin",
+      "source_job_id": "4429396133",
+      "source_url": "https://www.linkedin.com/jobs/view/4429396133",
+      "company": "Operant AI",
+      "role": "Staff Software Engineer - AI & Agentic Security - APAC",
+      "location": "Bengaluru, Karnataka, India / Remote",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-ic-staff-plus-bigtech",
+      "approved_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-03T18:12:02Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 86,
+      "fit_reason": "Strong topical fit for agentic AI, MCP, cloud-native security, runtime defense, Kubernetes, incident response, and autonomous senior IC ownership. Lower than top targets because compensation target confidence is less certain and the role includes customer-facing APAC escalation/on-call duties.",
+      "people": [
+        {
+          "name": "Victoria M.",
+          "relationship": "job poster",
+          "role": "Sales Operations Lead",
+          "profile_url": "https://www.linkedin.com/in/vicmollo/",
+          "notes": "LinkedIn job poster shown on posting."
+        }
+      ],
+      "connections_summary": "Job poster visible: Victoria M., Sales Operations Lead.",
+      "resume_theme": {
+        "name": "Agentic AI security platform staff IC",
+        "positioning": "Staff engineer for MCP/agentic AI platform reliability, cloud-native runtime security, enterprise deployments, and async senior IC ownership.",
+        "key_pointers": [
+          "Lead with AM agent federation, governed multi-agent systems, Internal IDE, and MCP/A2A RFC work.",
+          "Use proactive diagnostics and anomaly detection alerts to show operational debugging, incident response, and reliability.",
+          "Use Brane/Salesforce platform stories for Kubernetes, cloud, security posture, and enterprise-scale operations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c",
       "job_id": "linkedin-4333046456",

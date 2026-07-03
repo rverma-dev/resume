@@ -8,12 +8,13 @@ permalink: /applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal engineer focused on governed multi-agent systems and AM agent federation the lead story, supported by compliance/security experience and backend platform scale.
+
+Make governed multi-agent systems and AM agent federation the lead story, supported by compliance/security experience and backend platform scale.
 Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

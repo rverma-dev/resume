@@ -1,41 +1,5 @@
 [
   {
-    "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
-    "company": "Databricks",
-    "role": "Director of Engineering (Data Infrastructure)",
-    "source_url": "https://www.linkedin.com/jobs/view/4340286558",
-    "submitted_resume_md": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
-    "application_id": "app-20260702-databricks-director-of-engineering-d852a8b0",
-    "company": "Databricks",
-    "role": "Director of Engineering",
-    "source_url": "https://www.linkedin.com/jobs/view/4352753152",
-    "submitted_resume_md": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
-    "application_id": "app-20260702-docusign-senior-engineering-director-a93cfc5b",
-    "company": "Docusign",
-    "role": "Senior Engineering Director",
-    "source_url": "https://www.linkedin.com/jobs/view/4376021942",
-    "submitted_resume_md": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
-    "application_id": "app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b",
-    "company": "Walmart Global Tech India",
-    "role": "DISTINGUISHED, SOFTWARE ENGINEER",
-    "source_url": "https://www.linkedin.com/jobs/view/4400498924",
-    "submitted_resume_md": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
     "application_id": "app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129",
     "company": "Airbnb",
     "role": "Senior Staff Software Engineer, Payments",
@@ -45,39 +9,21 @@
     "pages": 2
   },
   {
-    "application_id": "app-20260702-mastercard-director-platform-engineering-a13e12d9",
-    "company": "Mastercard",
-    "role": "Director - Platform Engineering",
-    "source_url": "https://www.linkedin.com/jobs/view/4406442627",
-    "submitted_resume_md": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/submitted-resume.pdf",
+    "application_id": "app-20260702-american-express-director-software-engineering-dc7520e5",
+    "company": "American Express",
+    "role": "Director Software Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4435087532",
+    "submitted_resume_md": "applications/resumes/app-20260702-american-express-director-software-engineering-dc7520e5/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-american-express-director-software-engineering-dc7520e5/submitted-resume.pdf",
     "pages": 2
   },
   {
-    "application_id": "app-20260702-intuit-director-software-engineering-3017f1a3",
-    "company": "Intuit",
-    "role": "Director, Software Engineering",
-    "source_url": "https://www.linkedin.com/jobs/view/4416143474",
-    "submitted_resume_md": "applications/resumes/app-20260702-intuit-director-software-engineering-3017f1a3/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-intuit-director-software-engineering-3017f1a3/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
-    "application_id": "app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c",
-    "company": "NVIDIA",
-    "role": "Senior Solutions Architect - Gen AI",
-    "source_url": "https://www.linkedin.com/jobs/view/4416338537",
-    "submitted_resume_md": "applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
-    "application_id": "app-20260702-google-senior-staff-software-engineer-googl-20feb543",
-    "company": "Google",
-    "role": "Senior Staff Software Engineer, Google Cloud",
-    "source_url": "https://www.linkedin.com/jobs/view/4418536466",
-    "submitted_resume_md": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/submitted-resume.pdf",
+    "application_id": "app-20260702-blinkrx-director-engineering-586d1421",
+    "company": "BlinkRx",
+    "role": "Director, Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4434320707",
+    "submitted_resume_md": "applications/resumes/app-20260702-blinkrx-director-engineering-586d1421/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-blinkrx-director-engineering-586d1421/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -90,24 +36,6 @@
     "pages": 2
   },
   {
-    "application_id": "app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1",
-    "company": "OpenAI",
-    "role": "Partner AI Deployment Engineer - AWS",
-    "source_url": "https://www.linkedin.com/jobs/view/4422847036",
-    "submitted_resume_md": "applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
-    "application_id": "app-20260702-thoughtspot-principal-software-engineer-4fcddad6",
-    "company": "ThoughtSpot",
-    "role": "Principal Software Engineer",
-    "source_url": "https://www.linkedin.com/jobs/view/4424349339",
-    "submitted_resume_md": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
     "application_id": "app-20260702-confluent-staff-software-engineer-i-confluent-b272916e",
     "company": "Confluent",
     "role": "Staff Software Engineer I - Confluent Platform",
@@ -117,21 +45,48 @@
     "pages": 2
   },
   {
-    "application_id": "app-20260702-intuit-principal-engineer-builder-54c02674",
-    "company": "Intuit",
-    "role": "Principal Engineer, Builder",
-    "source_url": "https://www.linkedin.com/jobs/view/4426107189",
-    "submitted_resume_md": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
     "application_id": "app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a",
     "company": "Coupang",
     "role": "Director Backend Engineering - AI Infrastructure",
     "source_url": "https://www.linkedin.com/jobs/view/4426938830",
     "submitted_resume_md": "applications/resumes/app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-databricks-director-of-engineering-d852a8b0",
+    "company": "Databricks",
+    "role": "Director of Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4352753152",
+    "submitted_resume_md": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
+    "company": "Databricks",
+    "role": "Director of Engineering (Data Infrastructure)",
+    "source_url": "https://www.linkedin.com/jobs/view/4340286558",
+    "submitted_resume_md": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2",
+    "company": "Databricks",
+    "role": "Staff Software Engineer - Multi Cloud Efficiency",
+    "source_url": "https://www.linkedin.com/jobs/view/4428930824",
+    "submitted_resume_md": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-docusign-senior-engineering-director-a93cfc5b",
+    "company": "Docusign",
+    "role": "Senior Engineering Director",
+    "source_url": "https://www.linkedin.com/jobs/view/4376021942",
+    "submitted_resume_md": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -153,48 +108,30 @@
     "pages": 2
   },
   {
-    "application_id": "app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2",
-    "company": "Databricks",
-    "role": "Staff Software Engineer - Multi Cloud Efficiency",
-    "source_url": "https://www.linkedin.com/jobs/view/4428930824",
-    "submitted_resume_md": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/submitted-resume.pdf",
+    "application_id": "app-20260702-google-senior-staff-software-engineer-googl-20feb543",
+    "company": "Google",
+    "role": "Senior Staff Software Engineer, Google Cloud",
+    "source_url": "https://www.linkedin.com/jobs/view/4418536466",
+    "submitted_resume_md": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/submitted-resume.pdf",
     "pages": 2
   },
   {
-    "application_id": "app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b",
-    "company": "NVIDIA AI",
-    "role": "Senior Cloud Software Engineer",
-    "source_url": "https://www.linkedin.com/jobs/view/4432395688",
-    "submitted_resume_md": "applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/submitted-resume.pdf",
+    "application_id": "app-20260702-intuit-director-software-engineering-3017f1a3",
+    "company": "Intuit",
+    "role": "Director, Software Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4416143474",
+    "submitted_resume_md": "applications/resumes/app-20260702-intuit-director-software-engineering-3017f1a3/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-intuit-director-software-engineering-3017f1a3/submitted-resume.pdf",
     "pages": 2
   },
   {
-    "application_id": "app-20260702-blinkrx-director-engineering-586d1421",
-    "company": "BlinkRx",
-    "role": "Director, Engineering",
-    "source_url": "https://www.linkedin.com/jobs/view/4434320707",
-    "submitted_resume_md": "applications/resumes/app-20260702-blinkrx-director-engineering-586d1421/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-blinkrx-director-engineering-586d1421/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
-    "application_id": "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
-    "company": "NVIDIA",
-    "role": "Senior Manager, Cloud Services Platform",
-    "source_url": "https://www.linkedin.com/jobs/view/4434366858",
-    "submitted_resume_md": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/submitted-resume.pdf",
-    "pages": 2
-  },
-  {
-    "application_id": "app-20260702-magnit-global-director-engineering-7864387c",
-    "company": "Magnit Global",
-    "role": "Director, Engineering",
-    "source_url": "https://www.linkedin.com/jobs/view/4434603870",
-    "submitted_resume_md": "applications/resumes/app-20260702-magnit-global-director-engineering-7864387c/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-magnit-global-director-engineering-7864387c/submitted-resume.pdf",
+    "application_id": "app-20260702-intuit-principal-engineer-builder-54c02674",
+    "company": "Intuit",
+    "role": "Principal Engineer, Builder",
+    "source_url": "https://www.linkedin.com/jobs/view/4426107189",
+    "submitted_resume_md": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -207,12 +144,327 @@
     "pages": 2
   },
   {
-    "application_id": "app-20260702-american-express-director-software-engineering-dc7520e5",
-    "company": "American Express",
-    "role": "Director Software Engineering",
-    "source_url": "https://www.linkedin.com/jobs/view/4435087532",
-    "submitted_resume_md": "applications/resumes/app-20260702-american-express-director-software-engineering-dc7520e5/submitted-resume.md",
-    "submitted_resume_pdf": "applications/resumes/app-20260702-american-express-director-software-engineering-dc7520e5/submitted-resume.pdf",
+    "application_id": "app-20260702-magnit-global-director-engineering-7864387c",
+    "company": "Magnit Global",
+    "role": "Director, Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4434603870",
+    "submitted_resume_md": "applications/resumes/app-20260702-magnit-global-director-engineering-7864387c/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-magnit-global-director-engineering-7864387c/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-mastercard-director-platform-engineering-a13e12d9",
+    "company": "Mastercard",
+    "role": "Director - Platform Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4406442627",
+    "submitted_resume_md": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b",
+    "company": "NVIDIA AI",
+    "role": "Senior Cloud Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4432395688",
+    "submitted_resume_md": "applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
+    "company": "NVIDIA",
+    "role": "Senior Manager, Cloud Services Platform",
+    "source_url": "https://www.linkedin.com/jobs/view/4434366858",
+    "submitted_resume_md": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c",
+    "company": "NVIDIA",
+    "role": "Senior Solutions Architect - Gen AI",
+    "source_url": "https://www.linkedin.com/jobs/view/4416338537",
+    "submitted_resume_md": "applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1",
+    "company": "OpenAI",
+    "role": "Partner AI Deployment Engineer - AWS",
+    "source_url": "https://www.linkedin.com/jobs/view/4422847036",
+    "submitted_resume_md": "applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-thoughtspot-principal-software-engineer-4fcddad6",
+    "company": "ThoughtSpot",
+    "role": "Principal Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4424349339",
+    "submitted_resume_md": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b",
+    "company": "Walmart Global Tech India",
+    "role": "DISTINGUISHED, SOFTWARE ENGINEER",
+    "source_url": "https://www.linkedin.com/jobs/view/4400498924",
+    "submitted_resume_md": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-6sense-principal-architect-68cfd70b",
+    "company": "6sense",
+    "role": "Principal Architect",
+    "source_url": "https://www.linkedin.com/jobs/view/4387409051",
+    "submitted_resume_md": "applications/resumes/app-20260703-6sense-principal-architect-68cfd70b/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-6sense-principal-architect-68cfd70b/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08",
+    "company": "Amazon Web Services (AWS)",
+    "role": "Sr. Migration Modernization Architect, Professional Services",
+    "source_url": "https://www.linkedin.com/jobs/view/4436338022",
+    "submitted_resume_md": "applications/resumes/app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-apple-senior-technical-architect-customer-67c10247",
+    "company": "Apple",
+    "role": "Senior Technical Architect - Customer Systems",
+    "source_url": "https://jobs.apple.com/en-in/details/200642493-0321/senior-technical-architect-customer-systems?team=SFTWR",
+    "submitted_resume_md": "applications/resumes/app-20260703-apple-senior-technical-architect-customer-67c10247/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-apple-senior-technical-architect-customer-67c10247/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-brevan-howard-head-of-security-engineering-15a0308d",
+    "company": "Brevan Howard",
+    "role": "Head of Security Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4435434504",
+    "submitted_resume_md": "applications/resumes/app-20260703-brevan-howard-head-of-security-engineering-15a0308d/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-brevan-howard-head-of-security-engineering-15a0308d/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6",
+    "company": "Coupang",
+    "role": "Staff Engineer - Backend (E-Commerce Engineering)",
+    "source_url": "https://www.linkedin.com/jobs/view/4429001501",
+    "submitted_resume_md": "applications/resumes/app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3",
+    "company": "Databricks",
+    "role": "Senior Engineering Manager - Backend",
+    "source_url": "https://www.linkedin.com/jobs/view/4415271375",
+    "submitted_resume_md": "applications/resumes/app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b",
+    "company": "DigitalOcean",
+    "role": "Senior Director of Engineering, Managed MySQL",
+    "source_url": "https://www.linkedin.com/jobs/view/4428629316",
+    "submitted_resume_md": "applications/resumes/app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-ebay-principal-architect-05d225bf",
+    "company": "eBay",
+    "role": "Principal Architect",
+    "source_url": "https://www.linkedin.com/jobs/view/4409208084",
+    "submitted_resume_md": "applications/resumes/app-20260703-ebay-principal-architect-05d225bf/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-ebay-principal-architect-05d225bf/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-emergent-staff-engineer-e28e5604",
+    "company": "Emergent",
+    "role": "Staff Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4433672024",
+    "submitted_resume_md": "applications/resumes/app-20260703-emergent-staff-engineer-e28e5604/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-emergent-staff-engineer-e28e5604/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63",
+    "company": "GE HealthCare",
+    "role": "Director PCS Cloud Operations SRE",
+    "source_url": "https://www.linkedin.com/jobs/view/4398008892",
+    "submitted_resume_md": "applications/resumes/app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec",
+    "company": "Google",
+    "role": "Senior Engineering Manager, Corp Eng",
+    "source_url": "https://www.linkedin.com/jobs/view/4416582680",
+    "submitted_resume_md": "applications/resumes/app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-google-staff-software-engineer-foundation-s-4346ebfe",
+    "company": "Google",
+    "role": "Staff Software Engineer, Foundation Services",
+    "source_url": "https://www.linkedin.com/jobs/view/4421799599",
+    "submitted_resume_md": "applications/resumes/app-20260703-google-staff-software-engineer-foundation-s-4346ebfe/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-google-staff-software-engineer-foundation-s-4346ebfe/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8",
+    "company": "LinkedIn",
+    "role": "Principal Staff Software Engineer, Systems Infrastructure",
+    "source_url": "https://www.linkedin.com/jobs/view/4391891539",
+    "submitted_resume_md": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-microsoft-principal-engineer-be0ba28d",
+    "company": "Microsoft",
+    "role": "Principal Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4433829972",
+    "submitted_resume_md": "applications/resumes/app-20260703-microsoft-principal-engineer-be0ba28d/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-microsoft-principal-engineer-be0ba28d/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8",
+    "company": "MSCI Inc.",
+    "role": "Executive Director AI Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4420725749",
+    "submitted_resume_md": "applications/resumes/app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-okta-staff-engineer-developer-platform-4af9192c",
+    "company": "Okta",
+    "role": "Staff Engineer, Developer Platform",
+    "source_url": "https://www.linkedin.com/jobs/view/4388472818",
+    "submitted_resume_md": "applications/resumes/app-20260703-okta-staff-engineer-developer-platform-4af9192c/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-okta-staff-engineer-developer-platform-4af9192c/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f",
+    "company": "Operant AI",
+    "role": "Staff Software Engineer - AI & Agentic Security - APAC",
+    "source_url": "https://www.linkedin.com/jobs/view/4429396133",
+    "submitted_resume_md": "applications/resumes/app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79",
+    "company": "Pocket FM",
+    "role": "Head of AI Platform Engineering (Platforms & Applications)",
+    "source_url": "https://www.linkedin.com/jobs/view/4433175429",
+    "submitted_resume_md": "applications/resumes/app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-rippling-senior-engineering-manager-platform-2ee45b98",
+    "company": "Rippling",
+    "role": "Senior Engineering Manager - Platform",
+    "source_url": "https://www.linkedin.com/jobs/view/4436441487",
+    "submitted_resume_md": "applications/resumes/app-20260703-rippling-senior-engineering-manager-platform-2ee45b98/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-rippling-senior-engineering-manager-platform-2ee45b98/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d",
+    "company": "Rippling",
+    "role": "Staff Software Engineer - AI Platform",
+    "source_url": "https://www.linkedin.com/jobs/view/4429004472",
+    "submitted_resume_md": "applications/resumes/app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d",
+    "company": "Rippling",
+    "role": "Staff Software Engineer - Developer Experience",
+    "source_url": "https://www.linkedin.com/jobs/view/4380104127",
+    "submitted_resume_md": "applications/resumes/app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80",
+    "company": "Rubrik",
+    "role": "Architect, AI Data Platform & Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4365274472",
+    "submitted_resume_md": "applications/resumes/app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c",
+    "company": "Rubrik",
+    "role": "Principal Engineer - Dev Platform (Developer Experience)",
+    "source_url": "https://www.linkedin.com/jobs/view/4333046456",
+    "submitted_resume_md": "applications/resumes/app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23",
+    "company": "ThoughtSpot",
+    "role": "Principal Engineer (Cloud Platforms)",
+    "source_url": "https://www.linkedin.com/jobs/view/4427268518",
+    "submitted_resume_md": "applications/resumes/app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-toast-director-of-engineering-new-ventures-d617b98d",
+    "company": "Toast",
+    "role": "Director of Engineering, New Ventures",
+    "source_url": "https://www.linkedin.com/jobs/view/4418946375",
+    "submitted_resume_md": "applications/resumes/app-20260703-toast-director-of-engineering-new-ventures-d617b98d/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-toast-director-of-engineering-new-ventures-d617b98d/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-uber-sr-manager-engineering-3c8bba1c",
+    "company": "Uber",
+    "role": "Sr Manager, Engineering",
+    "source_url": "https://www.linkedin.com/jobs/view/4434209590",
+    "submitted_resume_md": "applications/resumes/app-20260703-uber-sr-manager-engineering-3c8bba1c/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-uber-sr-manager-engineering-3c8bba1c/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4",
+    "company": "Vonage",
+    "role": "Staff Architect (Golang, Distributed, System design)",
+    "source_url": "https://www.linkedin.com/jobs/view/4388477075",
+    "submitted_resume_md": "applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-zscaler-principal-site-reliability-engineer-4f168b68",
+    "company": "Zscaler",
+    "role": "Principal Site Reliability Engineer (Linux/Networking/Automation)",
+    "source_url": "https://www.linkedin.com/jobs/view/4408549670",
+    "submitted_resume_md": "applications/resumes/app-20260703-zscaler-principal-site-reliability-engineer-4f168b68/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-zscaler-principal-site-reliability-engineer-4f168b68/submitted-resume.pdf",
     "pages": 2
   }
 ]

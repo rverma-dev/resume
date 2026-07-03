@@ -8,12 +8,13 @@ permalink: /applications/resumes/app-20260702-databricks-director-of-engineering
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215
 linkedin.com/in/rohit-verma-24084718 | github.com/rverma-dev
 
-Principal/director-caliber engineer for revenue-critical distributed infrastructure: Hyperforce alerting, Brane event billing, Jupiter payments/compliance, multi-region rollout, SLOs, DR, and cost/reliability outcomes.
+
+Model the resume around revenue-critical distributed infrastructure: Hyperforce alerting, Brane event billing, Jupiter payments/compliance, multi-region rollout, SLOs, DR, and cost/reliability outcomes.
 Built and operated 0->1 systems at scale including $240M/month payments infrastructure, approximately $6M annualized observability cost reduction, and enterprise-grade SaaS systems on Salesforce Hyperforce.
 
 ## Experience
 
-### Principal Engineer (PMTS), MuleSoft (Salesforce)
+### Principal Engineer (PMTS), Salesforce
 
 Bengaluru, India; remote US org | Feb 2025 - Present
 

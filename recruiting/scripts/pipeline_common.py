@@ -237,7 +237,7 @@ def load_applications() -> dict:
 def save_applications(data: dict) -> None:
     data["schema_version"] = "applications.index.v2"
     data["approval_required"] = True
-    data["allow_auto_apply"] = False
+    data["allow_auto_apply"] = bool(data.get("allow_auto_apply", False))
     data["updated_at"] = utc_now()
     data["applications"] = sorted(data.get("applications", []), key=lambda row: row.get("approved_at") or row.get("updated_at") or "", reverse=True)
     save_json(APPLICATIONS_PATH, data)
