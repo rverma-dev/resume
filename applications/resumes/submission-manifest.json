@@ -351,6 +351,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e",
+    "company": "Databricks",
+    "role": "Staff Software Engineer - Data Platform",
+    "source_url": "https://www.linkedin.com/jobs/view/4311490294",
+    "submitted_resume_md": "applications/resumes/app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b",
     "company": "DigitalOcean",
     "role": "Senior Director of Engineering, Managed MySQL",
@@ -420,6 +429,24 @@
     "source_url": "https://www.linkedin.com/jobs/view/4391891539",
     "submitted_resume_md": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205",
+    "company": "LinkedIn",
+    "role": "Sr. Staff Software Engineer, Systems Infrastructure",
+    "source_url": "https://www.linkedin.com/jobs/view/4397786457",
+    "submitted_resume_md": "applications/resumes/app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c",
+    "company": "Mastercard",
+    "role": "Principal Software Engineer - Java Architect, Microservices, Cloud, Springboot",
+    "source_url": "https://www.linkedin.com/jobs/view/4411882057",
+    "submitted_resume_md": "applications/resumes/app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -510,6 +537,15 @@
     "source_url": "https://www.linkedin.com/jobs/view/4333046456",
     "submitted_resume_md": "applications/resumes/app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260703-servicenow-principal-software-engineer-movework-fc31eead",
+    "company": "ServiceNow",
+    "role": "Principal Software Engineer - Moveworks",
+    "source_url": "https://www.linkedin.com/jobs/view/4436196087",
+    "submitted_resume_md": "applications/resumes/app-20260703-servicenow-principal-software-engineer-movework-fc31eead/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260703-servicenow-principal-software-engineer-movework-fc31eead/submitted-resume.pdf",
     "pages": 2
   },
   {

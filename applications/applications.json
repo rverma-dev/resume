@@ -1,9 +1,239 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T19:40:57Z",
+  "updated_at": "2026-07-03T20:08:06Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e",
+      "job_id": "linkedin-4311490294",
+      "dedupe_key": "linkedin:4311490294",
+      "source": "linkedin",
+      "source_job_id": "4311490294",
+      "source_url": "https://www.linkedin.com/jobs/view/4311490294",
+      "company": "Databricks",
+      "role": "Staff Software Engineer - Data Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-staff-principal-heartbeat-2004",
+      "approved_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-03T20:08:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong target-company Staff fit: cross-company Data Intelligence Platform containing business and product metrics, multi-cloud/geography/deployment tooling, logging, orchestration, data transformation, metric store, governance, data consumption, CI/CD, data quality testing, and IaC.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 694 company alumni on nearby Databricks postings."
+        },
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 57 school alumni on nearby Databricks postings."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed strong Databricks alumni signals; this is a distinct data-platform track from already approved Senior Staff Backend/Networking/Search roles.",
+      "resume_theme": {
+        "name": "Staff data intelligence platform and governance",
+        "positioning": "Position around enterprise data intelligence, observability signals, governance, data quality, and multi-cloud platform automation.",
+        "key_pointers": [
+          "Lead with Salesforce operational/customer signal integration, proactive diagnostics, and anomaly detection alerts.",
+          "Use Jupiter AWS data platform, Brane ClickHouse/Kafka pipelines, and Visualizer/Druid topology evidence for data-platform credibility.",
+          "Map testing automation and validation work to Databricks data quality and CI/CD expectations.",
+          "Emphasize governance, reliability, and multi-cloud deployment from Salesforce Hyperforce work."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205",
+      "job_id": "linkedin-4397786457",
+      "dedupe_key": "linkedin:4397786457",
+      "source": "linkedin",
+      "source_job_id": "4397786457",
+      "source_url": "https://www.linkedin.com/jobs/view/4397786457",
+      "company": "LinkedIn",
+      "role": "Sr. Staff Software Engineer, Systems Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-staff-principal-heartbeat-2004",
+      "approved_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-03T20:08:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent Senior Staff infrastructure fit: next-generation LinkedIn infrastructure and platforms across service delivery, scalable storage/replication, search, AI platform, experimentation, privacy/compliance, Kubernetes, gRPC, GraphQL, and large-scale distributed systems with architect-level influence.",
+      "people": [
+        {
+          "name": "Piyush Masrani",
+          "relationship": "2nd-degree network signal",
+          "role": "Software Engineering Manager at LinkedIn",
+          "profile_url": "https://www.linkedin.com/in/piyush-masrani/",
+          "notes": "LinkedIn people search surfaced 7 mutual connections."
+        },
+        {
+          "name": "Swapnil Chougule",
+          "relationship": "2nd-degree network signal",
+          "role": "Staff Data Engineer at LinkedIn",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced 14 mutual connections and agentic AI/data architecture signal."
+        }
+      ],
+      "connections_summary": "LinkedIn people search surfaced 2nd-degree LinkedIn engineering contacts; job posting also showed active applicant review.",
+      "resume_theme": {
+        "name": "Senior Staff systems infrastructure and AI platform",
+        "positioning": "Position as a Senior Staff infrastructure engineer for AI/platform foundations, distributed systems, observability, compliance, experimentation, and cross-org architecture.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce alerting, multi-region rollout, 3M alerts, and 50K-100K concurrent evaluations.",
+          "Use proactive diagnostics and anomaly alerts to map to AI platform observability, experimentation, and operational intelligence.",
+          "Use Brane/Jupiter distributed systems, compliance, and platform reliability to support privacy/compliance and large-scale systems requirements.",
+          "Bring Internal IDE/Unleash as developer platform and productivity tooling evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c",
+      "job_id": "linkedin-4411882057",
+      "dedupe_key": "linkedin:4411882057",
+      "source": "linkedin",
+      "source_job_id": "4411882057",
+      "source_url": "https://www.linkedin.com/jobs/view/4411882057",
+      "company": "Mastercard",
+      "role": "Principal Software Engineer - Java Architect, Microservices, Cloud, Springboot",
+      "location": "Pune Division, Maharashtra, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-staff-principal-heartbeat-2004",
+      "approved_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-03T20:08:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent principal payments-platform fit: Real Time Payments mission-critical infrastructure across live markets, low latency, high resilience, near-zero downtime, regulatory expectations, non-functional ownership, SLI/SLOs, observability, capacity planning, incident remediation, and cross-market architecture consistency.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Mastercard",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 74 company alumni on nearby Mastercard postings."
+        },
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Mastercard",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 120 school alumni on nearby Mastercard postings."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 74 company alumni and 120 school alumni on nearby Mastercard postings.",
+      "resume_theme": {
+        "name": "Principal real-time payments platform reliability",
+        "positioning": "Center Jupiter payments and regulated platform correctness, supported by Salesforce/Brane reliability, observability, and incident-prevention systems.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments infrastructure and regulated fintech/compliance experience.",
+          "Use Salesforce alerting scale, SLO/NFR thinking, anomaly alerts, and incident-prevention diagnostics as operational excellence proof.",
+          "Map Brane billing/event systems to correctness, idempotency, high-throughput event processing, and resilience.",
+          "Keep AI platform work as secondary unless framed as diagnostics and engineering productivity, not core RTP domain."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-servicenow-principal-software-engineer-movework-fc31eead",
+      "job_id": "linkedin-4436196087",
+      "dedupe_key": "linkedin:4436196087",
+      "source": "linkedin",
+      "source_job_id": "4436196087",
+      "source_url": "https://www.linkedin.com/jobs/view/4436196087",
+      "company": "ServiceNow",
+      "role": "Principal Software Engineer - Moveworks",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-staff-principal-heartbeat-2004",
+      "approved_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-03T20:08:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Excellent principal AI platform fit: Moveworks is an agentic AI assistant platform for enterprise workflow automation, with the role owning long-term architecture, platform infrastructure, microservices, K8s/Python/Golang/Postgres/data lakes, 10x scale, reliability, latency, cost efficiency, and business-aligned architecture.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "ServiceNow",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 1,548 company alumni for the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 1,548 company alumni; targeted ServiceNow/Moveworks recruiter search did not surface a reliable 1st/2nd-degree recruiter signal.",
+      "resume_theme": {
+        "name": "Principal agentic enterprise workflow platform",
+        "positioning": "Make the current Salesforce AI platform work the center: AM agent federation, Internal IDE/Unleash, proactive diagnostics, anomaly detection, governance, and business-signal automation for enterprise agentic workflows.",
+        "key_pointers": [
+          "Lead with AM agent federation and governed multi-agent systems as architecture for agentic enterprise workflows.",
+          "Use Internal IDE/Unleash to show practical employee-facing AI assistant and developer-workflow automation patterns.",
+          "Map proactive diagnostics and anomaly detection alerts to AI-driven insight, workflow automation, latency, reliability, and cost control.",
+          "Use Salesforce Hyperforce, Brane SaaS, and Jupiter payments to prove K8s/microservices/platform reliability at production scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-servicenow-principal-software-engineer-movework-fc31eead/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-servicenow-principal-software-engineer-movework-fc31eead/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-prime-vi-7c35cb95",
       "job_id": "linkedin-4345491058",
