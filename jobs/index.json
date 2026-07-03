@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T14:05:28Z",
-  "active_batch_id": "batch-20260703-acd3380a",
-  "last_scheduler_run_at": "2026-07-03T14:05:28Z",
+  "updated_at": "2026-07-03T15:04:01Z",
+  "active_batch_id": "batch-20260703-9e9108d1",
+  "last_scheduler_run_at": "2026-07-03T15:04:01Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -872,6 +872,322 @@
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T12:04:51Z",
       "updated_at": "2026-07-03T12:04:51Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4398571059",
+      "dedupe_key": "linkedin:4398571059",
+      "source": "linkedin",
+      "source_job_id": "4398571059",
+      "source_url": "https://www.linkedin.com/jobs/view/4398571059",
+      "company": "Rubrik",
+      "role": "Engineering Manager - Exocompute",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Engineering Manager / senior platform infrastructure leadership",
+      "compensation_signals": [
+        "Rubrik is a public enterprise security and AI infrastructure company, usually a strong compensation signal for Bengaluru senior platform roles.",
+        "Posting is for SaaS, hybrid SaaS, and on-prem data-plane infrastructure with performance, security, availability, and cost ownership."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-9e9108d1",
+      "fit_score": 92,
+      "fit_reason": "Strong enterprise platform match: Rubrik Exocompute owns a flexible data-plane platform across SaaS, hybrid SaaS, and on-prem deployments, matching Rohit's Hyperforce re-platforming, multi-tenant observability, cost reduction, and enterprise SaaS infrastructure leadership. The role is manager-titled rather than Director/Principal, so it is below the ideal trajectory but still a high-quality platform leadership fit.",
+      "fit_signals": [
+        "Data-plane/control-plane separation and deployment-model flexibility align with MuleSoft Hyperforce and Brane enterprise SaaS platform experience.",
+        "Posting explicitly asks for distributed systems, availability, performance optimization, cost management, and cloud/SaaS/on-prem enterprise platform experience.",
+        "Team leadership, roadmap ownership, stakeholder alignment, and distributed US/India collaboration align with prior 30-person DevOps/SRE leadership and cross-team architecture work.",
+        "Rubrik AI/security positioning improves compensation likelihood and strategic relevance."
+      ],
+      "risk_flags": [
+        "Formal title is Engineering Manager, not Director, Principal, or Staff; assess leveling carefully before prioritizing application effort.",
+        "On-site Bengaluru posting; verify flexibility before tailoring.",
+        "Visible job detail showed a job-poster/recruiter signal, but no outreach was performed."
+      ],
+      "people": [
+        {
+          "name": "Visible LinkedIn job poster",
+          "relationship": "2nd-degree LinkedIn signal",
+          "role": "Senior Talent Partner at Rubrik",
+          "profile_url": "",
+          "notes": "LinkedIn detail showed a 2nd-degree hiring-team/job-poster signal; no message or connection action taken."
+        },
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Rubrik",
+          "profile_url": "",
+          "notes": "LinkedIn detail showed IIT Kharagpur alumni signal for this posting."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed IIT Kharagpur alumni and a 2nd-degree Rubrik talent-partner/job-poster signal; no outreach performed.",
+      "resume_theme": {
+        "name": "Enterprise data-plane platform leadership",
+        "positioning": "Position Rohit as a principal-level platform builder who has re-platformed multi-tenant SaaS systems across cloud, data plane, observability, cost, and enterprise controls.",
+        "key_pointers": [
+          "Lead with Hyperforce alerts migration: 3M alerts, 50K-100K concurrent evaluations, P99 under 1s, and approximately $6M annualized cost reduction.",
+          "Emphasize Brane's 2-engineer platform/security stack and on-prem distribution experience for hybrid SaaS/on-prem credibility.",
+          "Use control-plane/data-plane and deployment-flexibility language from MuleSoft/Brane experience."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T15:04:01Z",
+      "updated_at": "2026-07-03T15:04:01Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4408713822",
+      "dedupe_key": "linkedin:4408713822",
+      "source": "linkedin",
+      "source_job_id": "4408713822",
+      "source_url": "https://www.linkedin.com/jobs/view/4408713822",
+      "company": "Anaplan",
+      "role": "Senior Manager, AI Engineering",
+      "location": "Gurgaon, Haryana, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Manager / AI engineering leadership, 15+ years",
+      "compensation_signals": [
+        "Enterprise SaaS AI planning company with Fortune 50 customers and global platform scale.",
+        "Posting requires 15+ years and leadership of production AI/ML systems, MLOps, LLM APIs, agentic frameworks, and cloud-native architectures."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-9e9108d1",
+      "fit_score": 90,
+      "fit_reason": "High AI engineering leadership fit: the posting asks for AI/ML team leadership, production-grade AI systems, cloud-native architecture, MLOps, LLM APIs, and agentic AI. Rohit's MuleSoft Pulse/agent federation work, local-first AI engineering systems, multi-agent governance, platform architecture, and stakeholder ownership map well, with location/on-site Gurgaon as the main risk.",
+      "fit_signals": [
+        "Agentic AI, LLM API, MLOps, model monitoring, and governance requirements match MuleSoft Pulse and governed multi-agent platform work.",
+        "Senior manager scope and 15+ years align with Director/Principal trajectory better than IC-only AI roles.",
+        "Cloud-native AI systems and enterprise SaaS context align with Hyperforce, Brane, and observability platform experience.",
+        "Business decision-making product context fits the resume's product and engineering decision-velocity story."
+      ],
+      "risk_flags": [
+        "On-site Gurgaon role; candidate preference is Bengaluru/remote India, so relocation or travel expectations need review.",
+        "Role emphasizes AI/ML team management and forecasting depth; may need tailoring around AI platform architecture rather than model research.",
+        "LinkedIn marked Easy Apply in search/detail, but no application flow was used."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Anaplan",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 95 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 95 company alumni at Anaplan; no named direct connection was visible in fetched details.",
+      "resume_theme": {
+        "name": "AI platform engineering leadership",
+        "positioning": "Position Rohit as an AI platform and governance leader who converts enterprise signals into reliable, governed agentic systems and production AI infrastructure.",
+        "key_pointers": [
+          "Lead with MuleSoft Pulse/agent federation architecture: MCP-first facades, A2A delegation, DIAF evidence plane, RAG boundaries, audit and cost controls.",
+          "Mention Unleash multi-agent decision system, run ledger, governance, and local-first AI IDE work.",
+          "Tie observability and SRE experience to production model monitoring, reliability, and operational governance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T15:04:01Z",
+      "updated_at": "2026-07-03T15:04:01Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4393410964",
+      "dedupe_key": "linkedin:4393410964",
+      "source": "linkedin",
+      "source_job_id": "4393410964",
+      "source_url": "https://www.linkedin.com/jobs/view/4393410964",
+      "company": "DevRev",
+      "role": "Senior Member of Technical Staff: ML Systems and Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior IC / ML infrastructure",
+      "compensation_signals": [
+        "AI-native product company backed by Khosla Ventures and Mayfield with $150M+ raised, a positive compensation and upside signal.",
+        "Posting owns distributed training, low-latency inference, LLM serving, Kubernetes, Argo, GPU scaling, and observability."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-9e9108d1",
+      "fit_score": 88,
+      "fit_reason": "Exceptional technical fit for AI infrastructure despite below-target formal level. The posting centers on ML systems, distributed training, low-latency inference, LLM serving frameworks, Kubernetes, ArgoCD/Workflows, Prometheus, Grafana, and OpenTelemetry, all close to Rohit's platform, observability, and agentic systems evidence.",
+      "fit_signals": [
+        "Kubernetes, ArgoCD, Argo Workflows, GitHub Actions, Prometheus, Grafana, OpenTelemetry, Python, and Go align directly with resume skills and recent platform work.",
+        "LLM serving and agentic action platform context aligns with MuleSoft Pulse, AM agent federation, and Unleash multi-agent systems.",
+        "Distributed systems, throughput, latency, autoscaling, and developer experience requirements map to Hyperforce observability and internal IDE work.",
+        "Bengaluru location is preferred."
+      ],
+      "risk_flags": [
+        "Title and stated minimum experience are below Director/Principal target; only prioritize if DevRev levels this as senior Staff/Principal-equivalent.",
+        "Role may require deeper hands-on ML/GPU kernel or model-serving specialization than the resume currently proves.",
+        "On-site Bengaluru; verify flexibility and leveling before approval."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "DevRev",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 1 connection works here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 1 connection works at DevRev; fetched details showed no named connection.",
+      "resume_theme": {
+        "name": "ML systems and agent infrastructure",
+        "positioning": "Position Rohit as a hands-on platform architect for reliable agentic and ML infrastructure, emphasizing Kubernetes, observability, low-latency systems, and AI governance.",
+        "key_pointers": [
+          "Lead with agent federation and governed diagnostic evidence plane for AI-native product context.",
+          "Use Hyperforce observability metrics to prove distributed scheduling, latency, scale, and operational discipline.",
+          "Highlight Unleash local-first IDE and multi-agent governance as developer-experience and agent-platform evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T15:04:01Z",
+      "updated_at": "2026-07-03T15:04:01Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4417120165",
+      "dedupe_key": "linkedin:4417120165",
+      "source": "linkedin",
+      "source_job_id": "4417120165",
+      "source_url": "https://www.linkedin.com/jobs/view/4417120165",
+      "company": "Infosys",
+      "role": "Director - Data Engineering and AI Platforms",
+      "location": "Bengaluru East, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Director / data engineering and AI platform leadership",
+      "compensation_signals": [
+        "Director-level title with banking, data platform modernization, GenAI enablement, responsible AI, governance, and executive communication requirements.",
+        "Compensation upside is less certain than product/platform companies because this appears to be a services or consulting context."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-9e9108d1",
+      "fit_score": 82,
+      "fit_reason": "Solid title and thematic fit around cloud-native data platform modernization, governed AI enablement, financial-services data, streaming/batch pipelines, and executive communication. The company and likely consulting context weaken compensation likelihood compared with priority product companies, so score remains conservative.",
+      "fit_signals": [
+        "Financial services and regulated data context aligns with Jupiter banking compliance, payment infrastructure, SIEM, and audits.",
+        "Data engineering, streaming/batch pipelines, cloud modernization, and AI enablement align with Brane, MuleSoft observability, Druid, ClickHouse, Kafka, Flink, and data platform evidence.",
+        "Executive speaking and enterprise strategy requirements align with principal architect and VP/GSL leadership history.",
+        "Bengaluru East is location-compatible."
+      ],
+      "risk_flags": [
+        "Potential services/consulting role; compensation may trail priority product companies despite Director title.",
+        "Posting text is broad and may be client-facing; verify hands-on platform ownership and reporting level before approval.",
+        "Over 100 clicks/applicants signal competitive funnel."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Infosys",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 2 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 2 connections at Infosys for this posting; no named person was visible in fetched details.",
+      "resume_theme": {
+        "name": "Governed data and AI platform modernization",
+        "positioning": "Position Rohit as a financial-services-aware platform architect who modernizes data and AI systems with governance, reliability, and executive-level architecture ownership.",
+        "key_pointers": [
+          "Use Jupiter compliance, payments, SIEM, and cloud data platform work for banking/regulatory credibility.",
+          "Highlight Brane and MuleSoft data/observability platforms for cloud-native modernization and data flow ownership.",
+          "Emphasize responsible AI, governance, and operational controls from MuleSoft Pulse and Unleash."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T15:04:01Z",
+      "updated_at": "2026-07-03T15:04:01Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4417499374",
+      "dedupe_key": "linkedin:4417499374",
+      "source": "linkedin",
+      "source_job_id": "4417499374",
+      "source_url": "https://www.linkedin.com/jobs/view/4417499374",
+      "company": "Cisco",
+      "role": "Network Systems Engineer - Data Center AI Network Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior network/datacenter infrastructure IC, 10+ years",
+      "compensation_signals": [
+        "Cisco is a high-quality global infrastructure company; AI-era data center networking is a strategically relevant infrastructure area.",
+        "Posting requires 10+ years and data center AI network design/operation with Nexus, VXLAN, BGP, RoCEv2, SONiC, Nvidia/Linux networking, Prometheus, Splunk, and Grafana."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-9e9108d1",
+      "fit_score": 80,
+      "fit_reason": "Borderline but worth tracking: the role is infrastructure-heavy and tied to AI data-center networking, Prometheus/Grafana observability, DevOps, incidents, and scalable network operations. It is not a Director/Principal platform role and may over-index on network engineering depth, so fit is conservative.",
+      "fit_signals": [
+        "AI data center infrastructure, reliability, observability, and DevOps operations align with platform/SRE background.",
+        "Nvidia/Linux networking, Prometheus, Grafana, incident/change management, and data-center scale overlap with cloud infrastructure and observability evidence.",
+        "Bengaluru location is preferred and Cisco is a strong compensation-quality company."
+      ],
+      "risk_flags": [
+        "Formal title is Network Systems Engineer and may be below desired Director/Principal/Staff platform trajectory.",
+        "Requires deep Cisco/Nexus/SONiC/RoCEv2 networking specialization not strongly foregrounded in the resume.",
+        "On-site Bengaluru posting; verify flexibility and seniority before approval."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Cisco",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 106 school alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 106 school alumni at Cisco for this posting; fetched details showed no named connection.",
+      "resume_theme": {
+        "name": "AI data center infrastructure reliability",
+        "positioning": "Position Rohit as a cloud infrastructure and observability leader who can connect large-scale platform operations with AI-era data center reliability.",
+        "key_pointers": [
+          "Emphasize SRE, observability, Prometheus/Grafana, incident and change-management credibility from MuleSoft, Brane, and Jupiter.",
+          "Use multi-tenant cloud infrastructure, Kubernetes, security, and performance/cost examples rather than generic software leadership.",
+          "Keep networking claims bounded to platform, infrastructure, and operational reliability evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/incident_reviews/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T15:04:01Z",
+      "updated_at": "2026-07-03T15:04:01Z",
       "notes": []
     },
     {
