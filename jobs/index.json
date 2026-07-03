@@ -1,11 +1,609 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T13:07:25Z",
-  "active_batch_id": "batch-20260703-114c6ff6",
-  "last_scheduler_run_at": "2026-07-03T13:07:25Z",
+  "updated_at": "2026-07-03T14:05:28Z",
+  "active_batch_id": "batch-20260703-acd3380a",
+  "last_scheduler_run_at": "2026-07-03T14:05:28Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
+    {
+      "job_id": "linkedin-4333046456",
+      "dedupe_key": "linkedin:4333046456",
+      "source": "linkedin",
+      "source_job_id": "4333046456",
+      "source_url": "https://www.linkedin.com/jobs/view/4333046456",
+      "company": "Rubrik",
+      "role": "Principal Engineer - Dev Platform (Developer Experience)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Engineer / Director-equivalent developer platform technical strategy",
+      "compensation_signals": [
+        "Rubrik is a public security and AI operations company with a Bengaluru Principal Engineer role.",
+        "Posting says this Principal Engineer operates at the same level as an Engineering Director and owns multi-quarter developer-platform strategy.",
+        "Scope spans CI/CD, observability, cloud infrastructure, core tooling, AI/ML productivity, and 10-18 engineers of cross-cutting effort; salary is not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 96,
+      "fit_reason": "Excellent platform and AI-productivity fit: the role is director-equivalent IC ownership for developer platform, infrastructure, observability, cloud tooling, AI/ML developer workflows, multi-org consensus, Staff-to-Principal mentorship, and long-range technical strategy. The resume has MuleSoft observability, Unleash/internal IDE, governed agents, Brane platform/SRE leadership, and cross-team RFC evidence.",
+      "fit_signals": [
+        "Role explicitly targets developer platform, infrastructure, core tools, CI/CD, observability, cloud infrastructure, and AI/ML productivity.",
+        "Director-equivalent Principal scope maps to the candidate's principal engineer trajectory and prior org/platform leadership.",
+        "Resume evidence includes Unleash/internal IDE, governed multi-agent systems, Hyperforce observability, Brane DevOps/SRE leadership, and platform RFC ownership."
+      ],
+      "risk_flags": [
+        "Posting says typically 18+ years of industry experience; candidate should position 15+ years plus Principal/VP/Architect scope carefully.",
+        "On-site Bengaluru expectations should be confirmed before approval.",
+        "External contribution expectation is visible; tailor around public-safe artifacts and architecture influence without exposing private evidence."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Rubrik",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 33 school alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 33 school alumni work at Rubrik for this posting.",
+      "resume_theme": {
+        "name": "Director-equivalent developer platform strategy",
+        "positioning": "Principal platform architect for developer productivity, AI-assisted engineering, observability, cloud infrastructure, and cross-org technical strategy.",
+        "key_pointers": [
+          "Lead with Internal IDE/Unleash: local-first workspaces, isolated git worktrees, terminal/chat/file/diff/browser/PR/GUS context, automations, and structured A2UI reports.",
+          "Use MuleSoft Hyperforce alerting and Visualizer to prove observability, cloud infrastructure, and distributed platform scale.",
+          "Use Brane 30-person DevOps/SRE leadership plus 2-engineer enterprise platform/security stack to show director-equivalent influence and leverage."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/design_docs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4429004472",
+      "dedupe_key": "linkedin:4429004472",
+      "source": "linkedin",
+      "source_job_id": "4429004472",
+      "source_url": "https://www.linkedin.com/jobs/view/4429004472",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - AI Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff Engineer / AI platform infrastructure technical lead",
+      "compensation_signals": [
+        "Rippling is a high-growth private company backed by top-tier investors and is high-compensation-likely for Staff roles.",
+        "Posting states core AI Platform ownership across agents, evals, automation, model-quality loops, sandboxing, scaling, latency, reliability, and reusable platform primitives.",
+        "High-impact Staff role in Bengaluru with over 100 applicants; salary and equity are not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 96,
+      "fit_reason": "Excellent AI infrastructure fit: background agents, automated workflows, eval systems, data pipelines, model-quality loops, sandboxing, latency, reliability, auditability, compliance, and enterprise controls map directly to the MuleSoft agent federation, diagnostic evidence plane, Internal IDE/Unleash, and platform observability stories.",
+      "fit_signals": [
+        "Role centers on AI agents, LLM/AI infrastructure, eval systems, automation platforms, model quality, sandboxing, and reliability.",
+        "Resume has governed multi-agent systems, AM Agent Federation, LangGraph/MCP/A2A contracts, evidence planes, audit/cost controls, and AI engineering IDE evidence.",
+        "Staff scope is hands-on and cross-functional, matching principal IC platform ownership."
+      ],
+      "risk_flags": [
+        "On-site Bengaluru policy should be validated before approval.",
+        "Posting prefers recent hands-on AI agent/LLM tooling work; tailor around MuleSoft Pulse, AM Agent Federation, and Unleash rather than older platform-only work.",
+        "Easy Apply is visible, but this batch did not and must not apply."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants with over 100 applicants; no named connection signal was visible.",
+      "resume_theme": {
+        "name": "AI platform infrastructure and governed agents",
+        "positioning": "Staff AI platform engineer for agents, evals, workflow automation, sandboxing, reliability, and enterprise-grade audit/security controls.",
+        "key_pointers": [
+          "Lead with AM Agent Federation and diagnostic evidence plane: MCP-first facades, A2A delegation, LangGraph contracts, memory/RAG boundaries, audit, budget, and source references.",
+          "Connect Unleash/internal IDE to agent-assisted engineering workflows, automation surfaces, isolated worktrees, and local-first developer productivity.",
+          "Use Hyperforce observability and Brane infrastructure evidence to prove production reliability, scale, and platform operations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4409208084",
+      "dedupe_key": "linkedin:4409208084",
+      "source": "linkedin",
+      "source_job_id": "4409208084",
+      "source_url": "https://www.linkedin.com/jobs/view/4409208084",
+      "company": "eBay",
+      "role": "Principal Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Director-level IC / Principal Architect for distributed data platform",
+      "compensation_signals": [
+        "eBay is a large global technology company with Principal Architect platform scope in Bengaluru.",
+        "Posting describes this as a director-level IC role for foundational distributed data platform systems used company-wide.",
+        "Scope includes real-time, batch, AI systems, platform operability, developer productivity, and cost efficiency; salary is not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 95,
+      "fit_reason": "Very strong Principal Architect fit: director-level IC ownership of large-scale distributed data platforms, streaming and batch workloads, data lifecycle, metadata, orchestration, developer APIs, AI-assisted diagnostics, observability, SLOs, and platform standardization closely matches the candidate's data/platform, observability, AI workflow, and architecture evidence.",
+      "fit_signals": [
+        "Role explicitly owns distributed data platform architecture for real-time, streaming, batch, and AI systems.",
+        "Requires Staff+/Principal cross-team architecture, platform APIs, data lifecycle management, observability, SLOs, and operational excellence.",
+        "Resume has Druid/Prometheus observability platforms, Brane event/data infrastructure, Jupiter data platform, and governed AI workflow evidence."
+      ],
+      "risk_flags": [
+        "Hybrid Bengaluru expectations should be confirmed.",
+        "There is another eBay role already tracked; keep this as a distinct principal data-platform architecture opportunity, not a duplicate application path.",
+        "Compensation is high-likelihood by company and level, but not visible in the posting."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "eBay",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 2 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 2 connections work at eBay for this posting.",
+      "resume_theme": {
+        "name": "Principal distributed data platform architect",
+        "positioning": "Director-level IC for real-time/batch data platforms, AI-assisted operability, developer APIs, observability, and cost-aware distributed systems.",
+        "key_pointers": [
+          "Use Anypoint Visualizer Druid-native topology and event scale to anchor distributed data platform evidence.",
+          "Use Brane event billing at 10M events/min and ClickHouse/Kafka/Glue/S3 data pipeline breadth for high-throughput data systems.",
+          "Tie AM Agent Federation and Unleash to AI-assisted diagnostics, safe remediation, and developer productivity."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4427268518",
+      "dedupe_key": "linkedin:4427268518",
+      "source": "linkedin",
+      "source_job_id": "4427268518",
+      "source_url": "https://www.linkedin.com/jobs/view/4427268518",
+      "company": "ThoughtSpot",
+      "role": "Principal Engineer (Cloud Platforms)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal Engineer / multi-tenant SaaS cloud platform technical anchor",
+      "compensation_signals": [
+        "Principal Engineer role at an agentic analytics platform company with explicit cloud platform ownership.",
+        "Scope includes multi-tenant SaaS, control plane/data plane, hybrid cloud, security, observability, and India platform-team growth.",
+        "High-ownership platform role likely above standard IC bands, though salary and equity are not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 95,
+      "fit_reason": "Very strong cloud platform fit: multi-tenant SaaS architecture, control/data plane separation, Kubernetes, GitOps, tenant isolation, resource governance, hybrid cloud, observability, zero-trust security, compliance, FinOps, and AI-augmented engineering map directly to MuleSoft Hyperforce, Brane enterprise SaaS, Jupiter compliance, and Unleash evidence.",
+      "fit_signals": [
+        "Role owns multi-tenant SaaS control plane and data plane architecture across AWS/GCP/Azure and on-prem environments.",
+        "Requires observability, OpenTelemetry, Prometheus, Grafana, zero trust, SOC 2, ISO 27001, GDPR, FinOps, and platform RFC leadership.",
+        "Resume has Hyperforce multi-tenant observability, Brane SaaS control plane, compliance, IaC, SRE, and AI-assisted engineering evidence."
+      ],
+      "risk_flags": [
+        "Another ThoughtSpot role is already approved; avoid duplicate outreach unless this cloud-platform role is a better target.",
+        "Hybrid Bengaluru expectations should be confirmed.",
+        "Posting emphasizes active use of AI coding assistants; tailor with Unleash/Internal IDE evidence without over-claiming public artifacts."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants; no named connection signal was visible.",
+      "resume_theme": {
+        "name": "Multi-tenant SaaS cloud platform principal",
+        "positioning": "Principal cloud platform architect for control planes, data planes, tenant isolation, hybrid cloud, observability, security, compliance, and AI-augmented engineering.",
+        "key_pointers": [
+          "Lead with Brane enterprise SaaS platform: control plane, tenancy, metering, telemetry, billing, and on-prem distribution.",
+          "Use MuleSoft Hyperforce alerting for multi-tenant alert evaluation, AMP sharding, blue-green deploys, and SLO-safe migration.",
+          "Use Jupiter compliance and SIEM plus Unleash AI engineering IDE to cover security/compliance and AI-augmented platform work."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/ADRs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4415271375",
+      "dedupe_key": "linkedin:4415271375",
+      "source": "linkedin",
+      "source_job_id": "4415271375",
+      "source_url": "https://www.linkedin.com/jobs/view/4415271375",
+      "company": "Databricks",
+      "role": "Senior Engineering Manager - Backend",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Engineering Manager / data and AI infrastructure backend leadership",
+      "compensation_signals": [
+        "Priority company and data/AI infrastructure platform business with senior engineering manager scope in Bengaluru.",
+        "Role builds infrastructure and products for Databricks platform at scale across resource management, multi-cloud services, ML/distributed systems, and developer operations tools.",
+        "More than 10,000 organizations and Fortune 500 customer base stated; compensation not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 94,
+      "fit_reason": "Strong manager/director trajectory fit at a priority company: large-scale distributed systems, multi-cloud data/AI infrastructure, ML and distributed systems intersection, cloud-agnostic services, engineering leadership, architecture reviews, monitoring, SLAs, roadmap ownership, and team growth align with the resume's platform, observability, data, AI, and org leadership evidence.",
+      "fit_signals": [
+        "Role needs 12+ years in large-scale distributed systems and experience building/scaling engineering teams.",
+        "Databricks platform scope includes resource management, multi-cloud services, ML/distributed systems, and engineering operations tools.",
+        "Resume has Brane/Niki org leadership, MuleSoft platform architecture, data/AI systems, and reliability/cost outcomes."
+      ],
+      "risk_flags": [
+        "On-site Bengaluru requirement should be validated against preferred working model.",
+        "Role is senior engineering manager rather than Director; still strong for Director path because Databricks platform scope is high quality.",
+        "Export-control language appears in the posting; no issue visible, but confirm during process if needed."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 1 connection works here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 1 connection works at Databricks; detail showed over 100 people clicked apply.",
+      "resume_theme": {
+        "name": "Data and AI infrastructure engineering leader",
+        "positioning": "Senior engineering leader for large-scale data/AI infrastructure, multi-cloud services, ML/distributed systems, engineering excellence, and team growth.",
+        "key_pointers": [
+          "Lead with Databricks-adjacent data/platform evidence: Visualizer Druid topology, Jupiter AWS data platform, Brane ClickHouse/Kafka data pipelines, and large-scale observability.",
+          "Use Brane 30-person DevOps/SRE and Niki 3 EM / 40 engineer leadership to prove people leadership.",
+          "Connect Unleash and governed agent systems to engineering productivity and AI platform direction."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/",
+          "work/collaboration/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4418946375",
+      "dedupe_key": "linkedin:4418946375",
+      "source": "linkedin",
+      "source_job_id": "4418946375",
+      "source_url": "https://www.linkedin.com/jobs/view/4418946375",
+      "company": "Toast",
+      "role": "Director of Engineering, New Ventures",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Director / new ventures technology lead with platform and infrastructure ownership",
+      "compensation_signals": [
+        "Director role at a public/high-growth commerce, AI, and fintech-adjacent platform company.",
+        "Posting states total rewards include competitive compensation and benefits; salary/equity are not visible.",
+        "Scope includes sourcing, building, scaling, funding decisions, and leading new business lines with platform/infrastructure and distributed systems expectations."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 93,
+      "fit_reason": "Strong Director fit: new 0->1 business-line ownership, platform/infrastructure team scaling, developer productivity, delivery platforms, automation, large-scale distributed systems, event-driven/cloud-native architecture, executive communication, and entrepreneurial ambiguity align with MuleSoft 0->1 platform work, Brane/Niki leadership, consulting platform redesigns, and Unleash/internal IDE evidence.",
+      "fit_signals": [
+        "Role requires 10+ years engineering, 5+ years senior leadership, platform/infrastructure team scaling, and inception-to-launch accountability.",
+        "Matches 0->1 product/platform work, high-growth ambiguity, developer productivity, delivery automation, and distributed systems architecture.",
+        "Resume has Brane full SaaS platform, Niki/Brane leadership, MuleSoft agent/platform foundation work, and consulting platform redesign evidence."
+      ],
+      "risk_flags": [
+        "Hybrid office expectations and Bengaluru location policy should be confirmed.",
+        "Restaurant/commerce domain is adjacent; tailor around platform, fintech/payments, and new-venture execution rather than domain depth.",
+        "Role may skew product/business-building; emphasize 0->1 ownership and executive communication."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Toast",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 6 school alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 6 school alumni work at Toast for this posting.",
+      "resume_theme": {
+        "name": "Director 0-to-1 platform venture leader",
+        "positioning": "Director-level technology leader for new ventures, platform/infrastructure teams, developer productivity, automation, and distributed systems from inception to scale.",
+        "key_pointers": [
+          "Lead with 0->1 MuleSoft agent federation, Hyperforce observability, and Unleash internal IDE product/platform stories.",
+          "Use Brane enterprise SaaS platform and Niki org leadership to prove team building, platform scaling, and executive accountability.",
+          "Use Jupiter/Niki payments and Brane billing evidence for fintech/commerce adjacency."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/collaboration/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436441487",
+      "dedupe_key": "linkedin:4436441487",
+      "source": "linkedin",
+      "source_job_id": "4436441487",
+      "source_url": "https://www.linkedin.com/jobs/view/4436441487",
+      "company": "Rippling",
+      "role": "Senior Engineering Manager - Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site / at least 3 days per week in-office for office-based employees",
+      "experience_level": "Senior Engineering Manager / core platform and compliance systems leadership",
+      "compensation_signals": [
+        "High-growth Rippling platform manager role backed by top-tier investors; compensation likely strong but not visible.",
+        "Role owns multiple horizontal platform charters across data deletion, web scripts, internationalisation, and configuration service.",
+        "Scope intersects platform scalability, developer productivity, compliance, configuration management, and customer-facing product quality."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 92,
+      "fit_reason": "Strong engineering-manager platform fit: shared platform systems, developer productivity, compliance, data lifecycle, configuration management, architecture reviews, operational metrics, incident follow-through, senior engineer mentorship, and cross-functional leadership align with the candidate's platform architecture, SRE/compliance, LaunchDarkly/config rollout, and org leadership evidence.",
+      "fit_signals": [
+        "Role requires 12+ years engineering, 3+ years management, and platform/infrastructure/developer-productivity team leadership.",
+        "Strong match to compliance, data lifecycle, configuration platforms, operational excellence, architecture reviews, and platform leverage.",
+        "Resume has Brane/Niki leadership, Jupiter compliance, MuleSoft platform rollouts, LaunchDarkly Relay Proxy support, and SRE evidence."
+      ],
+      "risk_flags": [
+        "On-site/in-office policy is explicit and should be confirmed before approval.",
+        "Senior Engineering Manager title is below Director, but company/charter quality makes it a credible Director-path role.",
+        "Role has compliance/config/internationalisation breadth; tailor around platform leverage rather than pure AI infrastructure."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Rippling",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 14 school alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 14 school alumni work at Rippling for this posting.",
+      "resume_theme": {
+        "name": "Core platform engineering manager",
+        "positioning": "Senior platform engineering leader for shared systems, compliance-sensitive workflows, configuration services, developer productivity, operational excellence, and senior-engineer growth.",
+        "key_pointers": [
+          "Use Brane 30-person DevOps/SRE leadership and Niki 3 EM / 40 engineer leadership for team-management proof.",
+          "Use MuleSoft Hyperforce rollout, LaunchDarkly Relay Proxy support, alerting platform, and Visualizer simplification for shared platform execution.",
+          "Use Jupiter compliance and Brane security stack to cover data lifecycle, auditability, and compliance-adjacent systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/architecture/",
+          "work/collaboration/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4409305901",
+      "dedupe_key": "linkedin:4409305901",
+      "source": "linkedin",
+      "source_job_id": "4409305901",
+      "source_url": "https://www.linkedin.com/jobs/view/4409305901",
+      "company": "Teradata",
+      "role": "Elastic Compute Architect, Sr Principal Architect",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "Hybrid / flexible work model stated",
+      "experience_level": "Senior Principal Architect / cloud platform engineering strategy",
+      "compensation_signals": [
+        "Senior Principal Architect title at large enterprise data and AI platform company.",
+        "Role owns next-generation on-demand compute, serverless execution, automated provisioning, SaaS delivery, and cloud platform standardization across AWS, Azure, and GCP.",
+        "Enterprise AI platform positioning and cloud/SaaS strategy scope are high-value signals; salary is not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 91,
+      "fit_reason": "Strong cloud platform architecture fit: multi-tenant and single-tenant SaaS models, serverless/event-driven execution, regional deployment patterns, automated provisioning, IaC, CI/CD, SRE, observability, DR, SLA-driven operations, security, governance, and FinOps all align with MuleSoft Hyperforce, Brane enterprise SaaS, Jupiter compliance/data platform, and SRE leadership evidence.",
+      "fit_signals": [
+        "Role reports into senior engineering leadership and shapes cloud/SaaS strategy across AWS, Azure, and GCP.",
+        "Requires cloud platform, infrastructure, SaaS engineering, SRE, DevOps, security-first architecture, cost optimization, and metrics-driven outcomes.",
+        "Resume has Hyperforce, Brane SaaS/on-prem platform, Jupiter data/compliance platform, IaC/SRE leadership, and cost reduction evidence."
+      ],
+      "risk_flags": [
+        "Hyderabad hybrid location is less preferred than Bengaluru or remote India.",
+        "Teradata compensation may be below top-tier platform/AI companies; validate package before approval.",
+        "A different Teradata role is already blocked; keep this separate because the cloud platform architect scope is materially stronger."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Teradata",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 15 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 15 company alumni work at Teradata for this posting.",
+      "resume_theme": {
+        "name": "Senior principal cloud platform architect",
+        "positioning": "Cloud platform architect for automated SaaS provisioning, multi-cloud deployment, serverless/event-driven execution, SRE, security governance, FinOps, and enterprise AI/data platforms.",
+        "key_pointers": [
+          "Lead with MuleSoft Hyperforce migration and new-FI onboarding automation for regional deployment and SaaS platform operations.",
+          "Use Brane enterprise SaaS and on-prem distribution across Nutanix, Kafka, TiDB, ScyllaDB, ClickHouse, Glue, and S3 for platform breadth.",
+          "Use Jupiter compliance/SIEM plus MuleSoft $6M cost reduction to cover governance, observability, and cost outcomes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/ADRs/",
+          "work/incident_reviews/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4365274472",
+      "dedupe_key": "linkedin:4365274472",
+      "source": "linkedin",
+      "source_job_id": "4365274472",
+      "source_url": "https://www.linkedin.com/jobs/view/4365274472",
+      "company": "Rubrik",
+      "role": "Architect, AI Data Platform & Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Architect / AI data platform and governance technical leader",
+      "compensation_signals": [
+        "Rubrik is a public security and AI operations company with an AI data platform architect role.",
+        "Scope owns enterprise data architecture vision, GenAI/self-service capabilities, RAG, semantic search, data governance, lineage, observability, and model governance.",
+        "10-15+ years platform architecture role at high-compensation-likely company; salary is not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 90,
+      "fit_reason": "Good AI data platform architecture fit: GenAI data architecture, RAG, semantic search, model governance, governed data layers, RBAC, metadata, observability, developer productivity, and production AI platform operations map to MuleSoft governed agents/evidence plane, Brane/Jupiter data platforms, vector search, compliance, and observability evidence. Conservative because the role appears more enterprise-data/internal architecture than core product infrastructure.",
+      "fit_signals": [
+        "Role includes AI-first enterprise data architecture, RAG, semantic search, governed semantic layers, data quality, lineage, observability, RBAC, and model governance.",
+        "Resume has governed AI systems, RAG/memory boundaries, vector search, Jupiter data/compliance platform, Brane data pipelines, and observability architecture.",
+        "Rubrik company direction around AI/security increases compensation and strategic relevance."
+      ],
+      "risk_flags": [
+        "On-site Bengaluru expectations should be confirmed.",
+        "Role may be more internal enterprise data architecture than product/platform engineering; validate engineering depth during review.",
+        "Posting mentions Claude Code/Cowork platform experience; tailor with AI engineering systems evidence without implying direct use if not backed."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Rubrik",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 60 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 60 company alumni work at Rubrik for this posting.",
+      "resume_theme": {
+        "name": "Governed AI data platform architecture",
+        "positioning": "AI data platform architect for governed RAG, semantic layers, model governance, RBAC, observability, lineage, and trusted enterprise data products.",
+        "key_pointers": [
+          "Use AM Agent Federation and diagnostic evidence plane for governed AI/RAG boundaries, source references, audit, cost, and tenant controls.",
+          "Use Jupiter multi-tenant AWS data platform and Brane ClickHouse/Kafka/Glue/S3 entity data pipeline for data architecture evidence.",
+          "Use Brane global search on vector embeddings plus Elasticsearch for semantic/faceted/typeahead/fuzzy search relevance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/",
+          "work/architecture/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4391891539",
+      "dedupe_key": "linkedin:4391891539",
+      "source": "linkedin",
+      "source_job_id": "4391891539",
+      "source_url": "https://www.linkedin.com/jobs/view/4391891539",
+      "company": "LinkedIn",
+      "role": "Principal Staff Software Engineer, Systems Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal Staff Engineer / large-scale systems infrastructure technical leader",
+      "compensation_signals": [
+        "Principal Staff role at LinkedIn in Bengaluru is high-compensation-likely.",
+        "Scope includes next-generation infrastructure and platforms: service delivery, data storage/replication, search, AI platform, experimentation, privacy, compliance, BigData ecosystem, observability, and pubsub systems.",
+        "Company-scale open-source infrastructure context and Principal Staff title indicate top technical ladder; salary is not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 90,
+      "fit_reason": "Strong platform-infrastructure fit by scope and company quality: very-large-scale distributed systems, data processing pipelines, pubsub, observability, compliance, AI platform, cross-team architecture, API/interface design, and strategy all align with the candidate's platform and observability record. Score is conservative because the posting requires 18+ years and heavy BigData depth.",
+      "fit_signals": [
+        "Role spans service delivery platform, data storage/replication, search, AI platform, experimentation, privacy/compliance, BigData, pubsub, and observability.",
+        "Resume has Druid/Prometheus observability scale, Kafka/Flink/ClickHouse/DynamoDB data systems, Brane search, compliance, and governed agent systems.",
+        "Principal Staff influence maps to cross-team RFCs, architecture ownership, and senior engineer mentorship evidence."
+      ],
+      "risk_flags": [
+        "Posting requires 18+ years programming and distributed systems; candidate should frame 15+ years plus Principal/VP/Architect scope carefully.",
+        "BigData systems like Hadoop/Spark/Iceberg are highly desirable; resume has Spark, Databricks, Flink, Druid, and data platform evidence but not every listed system.",
+        "Hybrid Bengaluru expectations should be confirmed. Easy Apply is visible, but this batch did not and must not apply."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants with over 100 applicants; no named connection signal was visible.",
+      "resume_theme": {
+        "name": "Principal staff systems infrastructure",
+        "positioning": "Principal Staff systems engineer for BigData, pubsub, observability, compliance, AI platforms, interface design, and internet-scale distributed infrastructure.",
+        "key_pointers": [
+          "Lead with Visualizer Druid-native topology and Anypoint Monitoring alerting scale for observability and distributed infrastructure proof.",
+          "Use Brane event-billing, workflow engine, entity data pipeline, and global search for BigData/pubsub/data-platform breadth.",
+          "Use AM Agent Federation and governance evidence for AI platform, privacy, compliance, and source-grounded diagnostic systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-03T14:05:28Z",
+      "notes": []
+    },
     {
       "job_id": "linkedin-4417789033",
       "dedupe_key": "linkedin:4417789033",
