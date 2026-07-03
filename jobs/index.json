@@ -1,11 +1,524 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T05:36:52Z",
-  "active_batch_id": "batch-20260702-179f69f0",
-  "last_scheduler_run_at": "2026-07-02T14:05:33Z",
+  "updated_at": "2026-07-03T09:06:00Z",
+  "active_batch_id": "batch-20260703-2315da85",
+  "last_scheduler_run_at": "2026-07-03T09:06:00Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
+    {
+      "job_id": "linkedin-4428469992",
+      "dedupe_key": "linkedin:4428469992",
+      "source": "linkedin",
+      "source_job_id": "4428469992",
+      "source_url": "https://www.linkedin.com/jobs/view/4428469992",
+      "company": "Rubrik",
+      "role": "Principal Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Public software/security/AI company with Principal Engineer role described as operating at Engineering Director level",
+        "Developer platform, infrastructure, observability, CI/CD, and AI productivity scope; no exact compensation visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 97,
+      "fit_reason": "Excellent Principal/Director-equivalent platform fit: developer platform strategy, AI-powered engineering productivity, CI/CD, observability, cloud infrastructure, cross-org influence, and coaching Staff engineers toward Principal impact.",
+      "fit_signals": [
+        "principal engineer",
+        "engineering director equivalent scope",
+        "developer platform",
+        "AI/ML productivity",
+        "CI/CD",
+        "observability",
+        "cloud infrastructure",
+        "cross-functional architecture"
+      ],
+      "risk_flags": [
+        "IC role rather than people-manager Director; resume should emphasize architecture influence, standards, and Staff/Principal mentorship over line management"
+      ],
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "AI developer platform principal",
+        "positioning": "Position as a Principal Engineer who builds AI-assisted developer systems and production platform foundations with director-level cross-org influence.",
+        "key_pointers": [
+          "Lead with Internal IDE and Unleash as local-first AI engineering systems for repo, PR, ticket, terminal, browser, and automation context.",
+          "Use Salesforce Hyperforce observability scale and $6M annualized cost reduction to prove platform operations and cost discipline.",
+          "Show Brane 30-person DevOps/SRE leadership and enterprise platform ownership to support cross-org standards and mentorship."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4432063758",
+      "dedupe_key": "linkedin:4432063758",
+      "source": "linkedin",
+      "source_job_id": "4432063758",
+      "source_url": "https://www.linkedin.com/jobs/view/4432063758",
+      "company": "Capital One",
+      "role": "Distinguished Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "executive",
+      "compensation_signals": [
+        "Distinguished Engineer role at a large US financial technology company",
+        "Cloud, payments, decisioning, data and ML platform scope in regulated financial services; no exact compensation visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 96,
+      "fit_reason": "Excellent senior IC leadership fit: enterprise architecture, cloud-native financial platforms, payments, decisioning, ML/data systems, cross-boundary roadmaps, and executive influence in a regulated environment.",
+      "fit_signals": [
+        "distinguished engineer",
+        "financial services technology",
+        "payments platforms",
+        "cloud architecture",
+        "enterprise architecture",
+        "ML and data capabilities",
+        "regulated systems",
+        "executive influence"
+      ],
+      "risk_flags": [
+        "Posting says Capital One will not sponsor a new applicant for employment authorization; verify India work authorization handling before investing heavily",
+        "Role is senior IC rather than Director; tailor toward architecture roadmaps and enterprise influence"
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Capital One",
+          "profile_url": "",
+          "notes": "Search result showed 1 connection works here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 1 connection works here.",
+      "resume_theme": {
+        "name": "Distinguished financial platform architect",
+        "positioning": "Lead with regulated financial infrastructure, cloud architecture, payments correctness, and enterprise-scale platform influence.",
+        "key_pointers": [
+          "Use Jupiter $240M/month payments, PCI-DSS, SOC 2, ISO 27001, NPCI, and UPI SAR ownership for financial-regulatory credibility.",
+          "Connect Brane billing/metering and Salesforce Hyperforce observability to platform correctness and operational scale.",
+          "Use AM Agent Federation and MuleSoft Pulse as the AI/data/decisioning modernization bridge."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/README.md",
+          "work/ADRs/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4420725749",
+      "dedupe_key": "linkedin:4420725749",
+      "source": "linkedin",
+      "source_job_id": "4420725749",
+      "source_url": "https://www.linkedin.com/jobs/view/4420725749",
+      "company": "MSCI Inc.",
+      "role": "Executive Director AI Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "executive",
+      "compensation_signals": [
+        "Executive Director AI Engineering role at global financial data and analytics company",
+        "Posting mentions transparent compensation schemes and comprehensive benefits; no exact local range visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 94,
+      "fit_reason": "Strong Executive Director AI platform fit: production GenAI systems, RAG, semantic search, multi-agent orchestration, cloud-native model serving, observability, governance, and engineering team leadership.",
+      "fit_signals": [
+        "executive director",
+        "AI engineering",
+        "LLMs",
+        "RAG",
+        "multi-agent orchestration",
+        "cloud-native AI infrastructure",
+        "model evaluation",
+        "AI governance"
+      ],
+      "risk_flags": [
+        "Requires 18+ years and large-scale production AI leadership; tailor carefully to avoid overstating recent AI production depth",
+        "Financial market-data domain fit is adjacent rather than direct"
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "MSCI Inc.",
+          "profile_url": "",
+          "notes": "Search result showed 6 company alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 6 company alumni work here.",
+      "resume_theme": {
+        "name": "Production AI platform executive",
+        "positioning": "Frame the profile around governed production AI platforms backed by cloud, observability, data, and regulated-systems experience.",
+        "key_pointers": [
+          "Lead with AM Agent Federation, MuleSoft Pulse, diagnostic evidence plane, RAG boundaries, LangGraph contracts, and agent governance.",
+          "Use Hyperforce alerting and Visualizer scale to prove cloud-native observability and data infrastructure depth.",
+          "Use Jupiter compliance and Brane enterprise platform leadership for financial-grade governance and executive communication."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/README.md",
+          "work/project_docs/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4433672024",
+      "dedupe_key": "linkedin:4433672024",
+      "source": "linkedin",
+      "source_job_id": "4433672024",
+      "source_url": "https://www.linkedin.com/jobs/view/4433672024",
+      "company": "Emergent",
+      "role": "Staff Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "AI-native company posting claims top-of-market salary and employee stock options",
+        "Backed by major investors and claims rapid ARR/user growth; no exact compensation visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 93,
+      "fit_reason": "Strong AI infrastructure fit despite Staff title: autonomous coding agents, distributed runtime execution, correctness, reliability, observability, verification, fault tolerance, and large-scale agent actions.",
+      "fit_signals": [
+        "autonomous coding agents",
+        "agent infrastructure",
+        "distributed systems",
+        "runtime execution environments",
+        "verification and correctness",
+        "observability",
+        "fault tolerance",
+        "top-of-market compensation signal"
+      ],
+      "risk_flags": [
+        "Staff title may be below target trajectory unless scope and compensation are exceptional",
+        "Company growth and compensation claims should be independently verified before prioritizing",
+        "On-site Bengaluru role; confirm work culture and role seniority expectations"
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Emergent",
+          "profile_url": "",
+          "notes": "Detail page showed Kuldeep and others in your network"
+        },
+        {
+          "name": "Shreya Shandilya",
+          "relationship": "job poster",
+          "role": "Talent Acquisition at Emergent",
+          "profile_url": "",
+          "notes": "Visible hiring-team signal on LinkedIn detail page; no outreach performed"
+        }
+      ],
+      "connections_summary": "LinkedIn detail page showed Kuldeep and others in your network, plus a visible hiring-team poster.",
+      "resume_theme": {
+        "name": "Autonomous coding agent infrastructure staff",
+        "positioning": "Make Unleash/Internal IDE and governed multi-agent systems the core story, backed by production observability and distributed systems scale.",
+        "key_pointers": [
+          "Lead with Unleash local-first AI engineering IDE and four-plane multi-agent decision system.",
+          "Use AM Agent Federation and governed diagnostic evidence plane for agent orchestration, tool facades, workload isolation, and audit controls.",
+          "Use Hyperforce alerting scale to prove reliability, observability, and runtime operations discipline."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4433133605",
+      "dedupe_key": "linkedin:4433133605",
+      "source": "linkedin",
+      "source_job_id": "4433133605",
+      "source_url": "https://www.linkedin.com/jobs/view/4433133605",
+      "company": "Cargill",
+      "role": "Director, Platform Engineering, CargillNow",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "director",
+      "compensation_signals": [
+        "Director platform owner role at Fortune 500-scale enterprise",
+        "Global platform strategy, architecture, operations, and executive stakeholder scope; no exact compensation visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 89,
+      "fit_reason": "Solid Director platform fit: global platform ownership, architecture standards, governance, integrations, CI/CD, observability, operational excellence, incident leadership, and team development.",
+      "fit_signals": [
+        "director platform engineering",
+        "global platform owner",
+        "enterprise integrations",
+        "governance",
+        "CI/CD",
+        "observability",
+        "incident leadership",
+        "executive stakeholders"
+      ],
+      "risk_flags": [
+        "ServiceNow specialization is not a direct resume strength; position as enterprise platform governance and integration rather than ServiceNow depth",
+        "Non-tech-company compensation may be below top-tier platform/AI companies"
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Cargill",
+          "profile_url": "",
+          "notes": "Search result showed 11 company alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 11 company alumni work here.",
+      "resume_theme": {
+        "name": "Enterprise platform engineering director",
+        "positioning": "Frame around global enterprise platform ownership, governance, integrations, SRE, CI/CD, and incident/operational maturity.",
+        "key_pointers": [
+          "Use Brane enterprise SaaS platform and 30-person DevOps/SRE leadership for platform-owner credibility.",
+          "Use Hyperforce migrations and rollout automation to show global platform transformation experience.",
+          "Use Integration Marketplace and Brane integration platform for API/integration governance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/README.md",
+          "work/collaboration/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4422360690",
+      "dedupe_key": "linkedin:4422360690",
+      "source": "linkedin",
+      "source_job_id": "4422360690",
+      "source_url": "https://www.linkedin.com/jobs/view/4422360690",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - Tax Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "High-compensation-likely late-stage US SaaS company backed by top investors",
+        "Mission-critical tax platform processing over $30B annual payroll and 1M+ employees; no exact compensation visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 89,
+      "fit_reason": "Strong Staff platform fit for correctness-critical distributed systems: payroll/tax infrastructure, auditability, reliability, global scale, engineering standards, and cross-functional technical strategy.",
+      "fit_signals": [
+        "staff engineer",
+        "tax platform",
+        "mission-critical correctness",
+        "distributed systems",
+        "auditability",
+        "global scale",
+        "engineering standards",
+        "technical strategy"
+      ],
+      "risk_flags": [
+        "Staff title may be below Director/Principal target unless compensation and scope are exceptional",
+        "Tax/payroll domain is adjacent to payments and compliance but not direct tax-platform experience"
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Rippling",
+          "profile_url": "",
+          "notes": "Search result showed 138 company alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 138 company alumni work here.",
+      "resume_theme": {
+        "name": "Correctness-critical payroll platform staff",
+        "positioning": "Use payments, billing, compliance, and SRE evidence to show readiness for correctness-critical financial platform architecture.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments and all-passed PCI-DSS/SOC 2/ISO 27001/NPCI/UPI SAR audits.",
+          "Use Brane 10M events/min sidecar billing and per-tenant rate limiting for revenue-critical infrastructure.",
+          "Use Hyperforce alerting reliability, blue-green deploys, and cost-to-serve reduction for operational rigor."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4433164415",
+      "dedupe_key": "linkedin:4433164415",
+      "source": "linkedin",
+      "source_job_id": "4433164415",
+      "source_url": "https://www.linkedin.com/jobs/view/4433164415",
+      "company": "Vodafone Idea Limited",
+      "role": "VP - Principal AI Model Architect",
+      "location": "Mumbai Metropolitan Region, India",
+      "work_type": "on_site",
+      "experience_level": "executive",
+      "compensation_signals": [
+        "VP band AI architecture role at large telecom operator",
+        "20PB data lake, multi-model orchestration, token cost optimization, fraud shield, and data-sovereignty scope; no exact compensation visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 84,
+      "fit_reason": "Moderate-to-strong title and architecture fit: multi-agent and multi-LLM orchestration, RAG/vector ops, data sovereignty, high-concurrency systems, token cost optimization, and regulated telecom-scale data systems.",
+      "fit_signals": [
+        "VP",
+        "principal AI model architect",
+        "multi-agent orchestration",
+        "multi-LLM routing",
+        "RAG",
+        "vector databases",
+        "data sovereignty",
+        "high-concurrency systems"
+      ],
+      "risk_flags": [
+        "Posting asks for 3-5 years focused on LLMs and agentic frameworks at FAANG/MAGMA or tier-1 AI startup; resume fit is credible but not exact",
+        "Mumbai on-site location may be a material constraint",
+        "Telecom compensation may not match priority-company platform/AI packages"
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Vodafone Idea Limited",
+          "profile_url": "",
+          "notes": "Search result showed 7 school alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 7 school alumni work here.",
+      "resume_theme": {
+        "name": "Data-sovereign AI orchestration architect",
+        "positioning": "Position around governed multi-agent/LLM orchestration, private data boundaries, cost controls, and high-throughput operational systems.",
+        "key_pointers": [
+          "Lead with AM Agent Federation architecture: MCP-first tools, A2A delegation, xAPI gateway, LangGraph contracts, and workload isolation.",
+          "Use diagnostic evidence plane constraints to show data-sovereignty, prompt-boundary, audit, and cost-control judgment.",
+          "Use Jupiter SIEM 200 GB/hour and Hyperforce observability scale for high-volume regulated operations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/README.md",
+          "work/RFCs/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4435434378",
+      "dedupe_key": "linkedin:4435434378",
+      "source": "linkedin",
+      "source_job_id": "4435434378",
+      "source_url": "https://www.linkedin.com/jobs/view/4435434378",
+      "company": "Moniepoint Group",
+      "role": "Head of Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "remote",
+      "experience_level": "director",
+      "compensation_signals": [
+        "Remote Head of Engineering role at high-scale fintech processing large payment volume",
+        "Posting mentions attractive salary, annual bonus, and benefits; no exact compensation visible"
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 82,
+      "fit_reason": "Leadership/platform/payment fit is meaningful: POS application platform, developer experience, observability, CI/CD, platform reliability, team scaling, and regulated high-volume payments.",
+      "fit_signals": [
+        "head of engineering",
+        "payments platform",
+        "developer experience",
+        "observability",
+        "CI/CD",
+        "platform reliability",
+        "team scaling",
+        "regulated fintech"
+      ],
+      "risk_flags": [
+        "Posting says direct POS terminal device software experience is non-negotiable; resume has payments and PCI evidence but not POS device/Android ownership",
+        "Requires EMV, P2PE, and deep Android/Kotlin POS application experience; likely a stretch unless undisclosed experience exists",
+        "Remote role but company/domain fit should be reviewed carefully before prioritizing"
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Moniepoint Group",
+          "profile_url": "",
+          "notes": "Search result showed 1 company alum works here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 1 company alum works here.",
+      "resume_theme": {
+        "name": "Payments platform engineering head",
+        "positioning": "If pursued, anchor on payments, regulated infrastructure, developer platform standards, and SRE leadership while being transparent about POS-device gap.",
+        "key_pointers": [
+          "Use Jupiter payments and Niki Payment SDK to support payments systems credibility.",
+          "Use Brane DevOps/SRE leadership and Hyperforce observability to show platform reliability and incident maturity.",
+          "Use Brane and Integration Marketplace evidence for platform tooling, SDKs, and shared engineering foundations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/README.md",
+          "work/project_docs/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
     {
       "job_id": "linkedin-4434646804",
       "dedupe_key": "linkedin:4434646804",
