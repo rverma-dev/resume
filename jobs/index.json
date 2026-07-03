@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T12:04:51Z",
-  "active_batch_id": "batch-20260703-a51e4447",
-  "last_scheduler_run_at": "2026-07-03T12:04:51Z",
+  "updated_at": "2026-07-03T13:07:25Z",
+  "active_batch_id": "batch-20260703-114c6ff6",
+  "last_scheduler_run_at": "2026-07-03T13:07:25Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -1825,6 +1825,529 @@
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T09:06:00Z",
       "updated_at": "2026-07-03T09:06:00Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4432378495",
+      "dedupe_key": "linkedin:4432378495",
+      "source": "linkedin",
+      "source_job_id": "4432378495",
+      "source_url": "https://www.linkedin.com/jobs/view/4432378495",
+      "company": "Providence India",
+      "role": "Director - AI Engineering",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "On-site",
+      "experience_level": "Director",
+      "compensation_signals": [
+        "Director-level AI platform and governance role in a large healthcare technology organization; no salary range posted.",
+        "Requires 15+ years and 8-10+ years leading large-scale platform/product engineering teams, which supports senior compensation expectations."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 92,
+      "fit_reason": "Excellent Director-level match for governed AI platforms, agentic systems, AI SDLC, distributed systems, observability, cost/latency controls, ADRs, and cross-functional architecture leadership.",
+      "fit_signals": [
+        "Owns enterprise strategy for AI platforms, agentic systems, reusable frameworks, MCP ecosystems, model/tooling choices, and AI-for-engineering KPIs.",
+        "Requires multi-model and multi-agent orchestration, context/memory engineering, AI quality, benchmarking, observability, cost, latency, and reliability.",
+        "Leadership scope includes ADRs, design reviews, AI governance, responsible AI controls, and senior expert mentoring."
+      ],
+      "risk_flags": [
+        "Hyderabad on-site location is a commute/relocation risk from Bengaluru.",
+        "Healthcare domain is adjacent; tailor around regulated AI governance and platform velocity rather than clinical depth."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed over 100 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Governed enterprise AI platform director",
+        "positioning": "Director-level AI platform leader for governed agentic systems, AI SDLC, observability, reusable frameworks, and regulated enterprise adoption.",
+        "key_pointers": [
+          "Lead with MuleSoft agent federation, diagnostic evidence plane, MCP/A2A contracts, LangGraph workflow contracts, memory/RAG boundaries, audit, budget, and safety controls.",
+          "Use Anypoint Monitoring and Visualizer scale stories for production observability, distributed platform reliability, and cost/latency discipline.",
+          "Tie Jupiter and Brane compliance/platform history to responsible AI, controls, ADRs, and regulated enterprise governance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4387409051",
+      "dedupe_key": "linkedin:4387409051",
+      "source": "linkedin",
+      "source_job_id": "4387409051",
+      "source_url": "https://www.linkedin.com/jobs/view/4387409051",
+      "company": "6sense",
+      "role": "Principal Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Architect",
+      "compensation_signals": [
+        "Principal Architect role at a fast-scaling SaaS company with stock options mentioned; no salary range posted.",
+        "Requires 12+ years and end-to-end ownership of large-scale distributed cloud systems, supporting senior IC/architect compensation."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 91,
+      "fit_reason": "Very strong Principal Architect fit for distributed cloud systems, platform evolution, architecture councils, event-driven systems, data platforms, Kubernetes, DevOps, cost optimization, and senior influence.",
+      "fit_signals": [
+        "Owns end-to-end architecture, long-term technical roadmap, architecture standards, risk mitigation, and senior technical reviews.",
+        "Requires large-scale distributed cloud systems, microservices, event-driven architecture, API/data modeling, integration patterns, and AWS/Azure/GCP.",
+        "Preferred qualifications include data-intensive, AI/ML, big-data platforms, CI/CD, IaC, Kubernetes, cloud cost optimization, and enterprise SaaS."
+      ],
+      "risk_flags": [
+        "Posting does not state remote/hybrid flexibility; Bengaluru on-site may affect logistics.",
+        "Compensation is inferred from company/staff-plus level and stock options, not a posted salary range."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 29 company alumni and over 100 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Distributed SaaS principal architect",
+        "positioning": "Principal Architect for cloud-scale SaaS systems, platform modernization, event-driven/data platforms, reliability, and architecture governance.",
+        "key_pointers": [
+          "Lead with MuleSoft multi-tenant observability and Visualizer scale: Prometheus, Druid, 50K-100K evaluations, topology freshness, and SLO-safe migration.",
+          "Use Brane platform story for enterprise SaaS control plane, tenancy, metering, telemetry, billing, and 2-engineer core infrastructure stack.",
+          "Highlight architecture governance through RFCs, ADRs, cross-team technical direction, and standards-setting."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436724539",
+      "dedupe_key": "linkedin:4436724539",
+      "source": "linkedin",
+      "source_job_id": "4436724539",
+      "source_url": "https://www.linkedin.com/jobs/view/4436724539",
+      "company": "HSBC",
+      "role": "Lead Java Engineer - IC (Core Java, Microservices, Kubernetes) / Senior Associate Director",
+      "location": "Pune Division, Maharashtra, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Associate Director",
+      "compensation_signals": [
+        "Senior Associate Director title at a global financial services institution; no salary range posted.",
+        "Platform scope serves thousands of engineers, supporting senior platform compensation expectations."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 89,
+      "fit_reason": "Strong developer platform and banking platform fit: next-generation application platform, Kubernetes, DevSecOps, Java microservices, cost efficiency, compliance, complex change, and senior leadership.",
+      "fit_signals": [
+        "Mission is to reshape software delivery through a next-generation application platform, tooling, automation, and developer experience for thousands of engineers.",
+        "Requires Kubernetes, DevSecOps, Java microservice architecture, complex regional/global change delivery, operational resilience, and RCA capability.",
+        "Senior Associate Director scope includes team leadership, engineering culture, management influence, and shared OKR/customer experience ownership."
+      ],
+      "risk_flags": [
+        "Pune hybrid location is a material location risk from Bengaluru.",
+        "Title mixes Lead Java Engineer IC with Senior Associate Director; clarify actual leadership and IC/manager expectations before approval."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 3 connections work here and detail showed 1 person clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Banking developer platform leader",
+        "positioning": "Senior platform engineering leader for Kubernetes developer platforms, DevSecOps, Java microservices, compliance, and large-bank operational resilience.",
+        "key_pointers": [
+          "Use MuleSoft Hyperforce rollout and alerting platform for Kubernetes, multi-region platform reliability, deployment automation, and SLO-safe change.",
+          "Tie Jupiter banking/compliance evidence to financial services, audit readiness, security, SIEM, and regulated platform operations.",
+          "Highlight Brane DevOps/SRE leadership and enterprise SaaS platform ownership for developer experience and platform governance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/",
+          "work/incident_reviews/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4426946202",
+      "dedupe_key": "linkedin:4426946202",
+      "source": "linkedin",
+      "source_job_id": "4426946202",
+      "source_url": "https://www.linkedin.com/jobs/view/4426946202",
+      "company": "Arctic Wolf",
+      "role": "Senior Staff Developer - Backend",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff",
+      "compensation_signals": [
+        "Senior Staff role at cybersecurity company with equity for all employees and private benefits mentioned; no salary range posted.",
+        "Company cites Cloud 100, CNBC Disruptor 50, Fortune Future 50/Cyber 60, 7,000+ customers, and 2,000+ channel partners."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 88,
+      "fit_reason": "Strong staff-level backend/platform security fit with scalable cloud services, AWS, Databricks, Kafka, AI-DLC, cybersecurity operations, security best practices, and architecture mentoring.",
+      "fit_signals": [
+        "Architects scalable, secure, high-performance backend services powering cybersecurity solutions.",
+        "Requires Go/Python/Java, Databricks, microservices, PostgreSQL, Kafka/RabbitMQ/SQS, AWS Lambda/API Gateway/S3/DynamoDB/ECS, security, and authorization.",
+        "Bonus and core signals include Kubernetes/ECS, Terraform/CloudFormation, CI/CD, XDR/MDR/SOC, NIST/MITRE, LangChain/Langfuse, and AI-DLC."
+      ],
+      "risk_flags": [
+        "On-site Bengaluru may be acceptable but verify hybrid/remote flexibility.",
+        "Role is Senior Staff IC rather than Director/Principal Architect; tailor toward platform architecture and security operations depth."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 1 connection works here and detail showed 38 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Cybersecurity backend platform staff engineer",
+        "positioning": "Senior Staff backend/platform engineer for cloud security operations, scalable services, AI-DLC, observability, and secure distributed systems.",
+        "key_pointers": [
+          "Lead with MuleSoft alerting and diagnostic evidence plane for observability, AI-DLC-adjacent governance, and production reliability.",
+          "Use Jupiter SIEM at 200 GB/hour plus compliance ownership to show security operations credibility.",
+          "Tie Brane and MuleSoft backend/platform scale to AWS, Kubernetes, Kafka, microservices, and cost/reliability tradeoffs."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/incident_reviews/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436740011",
+      "dedupe_key": "linkedin:4436740011",
+      "source": "linkedin",
+      "source_job_id": "4436740011",
+      "source_url": "https://www.linkedin.com/jobs/view/4436740011",
+      "company": "BNY",
+      "role": "Director, Full-Stack Engineer",
+      "location": "Pune/Pimpri-Chinchwad Area, India",
+      "work_type": "On-site",
+      "experience_level": "Director",
+      "compensation_signals": [
+        "Director role at a major global financial services platform company; no salary range posted.",
+        "Posting says BNY offers highly competitive compensation and pay-for-performance philosophy."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 87,
+      "fit_reason": "Good Director-level financial-platform fit around model risk management, AI-first engineering, governance, auditability, controls, architecture, stakeholder alignment, and regulated execution.",
+      "fit_signals": [
+        "Owns engineering strategy, architecture, and delivery for model risk management platforms with scalable, well-controlled systems.",
+        "Drives AI-first automation for model risk workflows, validation, controls testing, governance, and decision support.",
+        "Senior leadership scope includes engineering standards, platform-wide execution discipline, governance forums, coaching, and stakeholder partnership."
+      ],
+      "risk_flags": [
+        "Pune on-site location is a material location risk from Bengaluru.",
+        "Role is risk/model-management domain heavy; tailor around regulated platforms, controls, and AI engineering rather than pure infrastructure."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed 0 people clicked apply at capture time; no named connections captured.",
+      "resume_theme": {
+        "name": "Regulated AI engineering director",
+        "positioning": "Director-level engineering leader for AI-first regulated platforms, auditability, controls, governance, and resilient financial systems.",
+        "key_pointers": [
+          "Use Jupiter compliance ownership across ISO 27001, SOC 2, PCI-DSS, NPCI, UPI SAR plus banking platform/payment scale.",
+          "Tie MuleSoft governed AI/product architecture to auditable AI workflows, evidence controls, source references, and cost/safety budgets.",
+          "Highlight Brane enterprise platform and security stack for regulated SaaS readiness and operational governance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/ADRs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4416582680",
+      "dedupe_key": "linkedin:4416582680",
+      "source": "linkedin",
+      "source_job_id": "4416582680",
+      "source_url": "https://www.linkedin.com/jobs/view/4416582680",
+      "company": "Google",
+      "role": "Senior Engineering Manager, Corp Eng",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Engineering Manager",
+      "compensation_signals": [
+        "Senior Engineering Manager role at Google, a priority high-compensation-likely company; no salary range posted.",
+        "Requires large-scale infrastructure/distributed systems experience and technical/people leadership across teams."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 87,
+      "fit_reason": "Strong company and leadership signal with distributed systems and large-scale infrastructure requirements, but domain is Corp Eng finance enterprise platforms with SAP/S4HANA, making resume fit less direct than core infrastructure roles.",
+      "fit_signals": [
+        "Requires 8 years software development, 7 years building large-scale infrastructure/distributed systems, 5 years technical leadership, and 5 years people/team leadership.",
+        "Scope includes building and leading engineering teams, technical leadership for next-generation finance enterprise platforms, and influence across functions and organizational boundaries.",
+        "Google brand and senior manager title strongly support compensation and trajectory goals."
+      ],
+      "risk_flags": [
+        "Hyderabad on-site location is a commute/relocation risk from Bengaluru.",
+        "Corp Eng finance/SAP/Fieldglass domain is less aligned with AI infrastructure and cloud platform narrative; clarify domain appetite before approval."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 709 school alumni work here and detail showed over 100 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Large-scale enterprise platform engineering manager",
+        "positioning": "Senior engineering manager for distributed enterprise platforms, cross-functional technical leadership, infrastructure-scale delivery, and organizational influence.",
+        "key_pointers": [
+          "Use Brane 30-person DevOps/SRE organization and Niki 3 EM / 40 engineer leadership to prove people-management and multi-team ownership.",
+          "Lead with MuleSoft and Jupiter large-scale platform stories for distributed systems, infrastructure, reliability, and compliance.",
+          "Position Corp Eng as enterprise platform/productivity infrastructure, not as SAP-only implementation."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/",
+          "work/collaboration/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4430913240",
+      "dedupe_key": "linkedin:4430913240",
+      "source": "linkedin",
+      "source_job_id": "4430913240",
+      "source_url": "https://www.linkedin.com/jobs/view/4430913240",
+      "company": "First Citizens India",
+      "role": "Senior AI Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Architect / AVP",
+      "compensation_signals": [
+        "AI architect role at a top-20 U.S. financial institution GCC; no salary range posted.",
+        "Requires 10+ years in enterprise data architecture/engineering and production GenAI/LLM systems."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 85,
+      "fit_reason": "Strong AI architecture and AWS GenAI platform fit with RAG, agent orchestration, Bedrock/SageMaker/EKS, observability, cost controls, governance, and regulated financial-services context, but level/title consistency needs review.",
+      "fit_signals": [
+        "Designs and implements GenAI, LLM, agentic AI, RAG, multimodal pipelines, reusable components, accelerators, and enterprise AI patterns.",
+        "AWS stack includes Bedrock, SageMaker, Lambda, ECS/EKS, S3, DynamoDB, Aurora, OpenSearch, IAM, KMS, VPC, and CloudWatch.",
+        "Requires PoC-to-production transitions, operational readiness, observability, cost controls, governance standards, responsible data/AI usage, and mentoring."
+      ],
+      "risk_flags": [
+        "Posting has inconsistent title/level signals: Senior AI Architect, Position Title Principal Data Modeler, Career Level P4, Assistant Vice President, reports to Associate Director.",
+        "May be below target Director/Principal trajectory; human review should verify seniority and compensation before approval."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 2 school alumni and detail showed 83 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Financial-services GenAI platform architect",
+        "positioning": "AI architect for AWS-native GenAI platforms, RAG, agentic systems, governance, observability, and regulated financial-services production readiness.",
+        "key_pointers": [
+          "Lead with MuleSoft agent federation, diagnostic evidence plane, RAG/memory boundaries, and AI governance/audit controls.",
+          "Use Jupiter banking and compliance evidence to connect AI platform work to regulated financial systems.",
+          "Tie AWS/EKS/OpenSearch/Kubernetes evidence from MuleSoft/Jupiter/Brane to production cloud AI platform operations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4435280575",
+      "dedupe_key": "linkedin:4435280575",
+      "source": "linkedin",
+      "source_job_id": "4435280575",
+      "source_url": "https://www.linkedin.com/jobs/view/4435280575",
+      "company": "NVIDIA",
+      "role": "CPU Verification Infrastructure Tools Architect",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "On-site",
+      "experience_level": "Architect",
+      "compensation_signals": [
+        "Architect role at NVIDIA, a priority high-compensation-likely company; no salary range posted.",
+        "Posting states competitive salaries and generous benefits, and highlights NVIDIA as one of the technology world's desirable employers."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 84,
+      "fit_reason": "Strong NVIDIA/company and tooling-infrastructure signal, but the role is SoC/CPU/GPU verification, bare-metal, silicon bring-up, and RTL/emulation infrastructure, so it is adjacent rather than direct cloud/AI platform fit.",
+      "fit_signals": [
+        "Builds tools, infrastructure, and test frameworks across RTL simulations, C-simulations, emulation, FPGA, and silicon.",
+        "Architect-level work across scalable/maintainable software, C/C++/Python, system architecture, boot/security features, and test reuse across platforms.",
+        "Company is a priority target with strong AI/accelerated computing compensation likelihood."
+      ],
+      "risk_flags": [
+        "Hyderabad on-site location is a commute/relocation risk from Bengaluru.",
+        "Hardware/SoC/RTL/silicon bring-up domain is not strongly backed by the base resume; only pursue if NVIDIA brand and infrastructure tools scope outweigh domain gap."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 430 company alumni and detail showed 8 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Infrastructure tooling architect for accelerated computing",
+        "positioning": "Architect for high-quality infrastructure tooling, simulation/test frameworks, scalable engineering systems, and cross-domain platform reliability.",
+        "key_pointers": [
+          "Use Unleash/internal IDE and MuleSoft test harness/coherence-validator stories for developer tooling, test infrastructure, and engineering systems.",
+          "Tie platform primitives and distributed scheduling from MuleSoft plus Brane infra stack to scalable infrastructure engineering discipline.",
+          "Avoid over-claiming hardware depth; frame fit around tools, automation, architecture, and quality systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436301094",
+      "dedupe_key": "linkedin:4436301094",
+      "source": "linkedin",
+      "source_job_id": "4436301094",
+      "source_url": "https://www.linkedin.com/jobs/view/4436301094",
+      "company": "Recrew AI",
+      "role": "Principal Architect - Digital Platform & Cloud Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal Architect",
+      "compensation_signals": [
+        "Principal Architect role with competitive compensation and performance-linked growth mentioned; no salary range posted.",
+        "Role owns architecture strategy across global enterprise engagements and requires principal/staff-level architecture ownership."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 84,
+      "fit_reason": "Excellent cloud/platform architecture fit on paper: multi-tenant AWS platforms, Kubernetes, service mesh, Terraform, DevSecOps, SLO/SLA, observability, AIOps, networking, zero trust, and client executive architecture ownership, but employer/source ambiguity is high.",
+      "fit_signals": [
+        "Owns client-facing architecture strategy, platform discovery, solution blueprinting, and governance from pre-sales through delivery.",
+        "Requires AWS/EKS/Lambda/API Gateway/RDS/VPC, Kubernetes, Istio/Linkerd, Terraform, CI/CD, shift-left security, SLO/SLA, performance engineering, and FinOps.",
+        "Includes AI/ML-driven observability, predictive analytics, automated remediation, operational intelligence, and regulated-industry platform engineering."
+      ],
+      "risk_flags": [
+        "Posting appears to be from a staffing/recruiting company; end client is not named in the visible details.",
+        "Consulting/pre-sales delivery context may be less aligned with product/platform career trajectory; validate employer, package, and role authority before approval."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed 22 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Enterprise cloud platform principal architect",
+        "positioning": "Principal Architect for multi-tenant AWS platforms, Kubernetes/service mesh, DevSecOps, observability/AIOps, SLO governance, and cloud security.",
+        "key_pointers": [
+          "Lead with Brane enterprise SaaS platform/security stack and 30-person DevOps/SRE leadership for platform breadth.",
+          "Use MuleSoft Hyperforce and monitoring platform stories for multi-tenant cloud, Kubernetes, observability, SLOs, automation, and cost optimization.",
+          "Tie Jupiter zero-trust/compliance/SIEM evidence to cloud security and regulated-platform architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/incident_reviews/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4435037107",
+      "dedupe_key": "linkedin:4435037107",
+      "source": "linkedin",
+      "source_job_id": "4435037107",
+      "source_url": "https://www.linkedin.com/jobs/view/4435037107",
+      "company": "ARA Resources Pvt. Ltd.",
+      "role": "MS Agentic AI Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Architect",
+      "compensation_signals": [
+        "Agentic AI architect role for a leading technology consulting client; no salary range posted.",
+        "Requires 12-18 years and SME-level Microsoft agentic AI architecture ownership."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-114c6ff6",
+      "fit_score": 81,
+      "fit_reason": "Good agentic AI architecture keyword fit with multi-agent systems, responsible AI, Semantic Kernel, Autogen, Copilot Studio, and Azure AI services, but recruiter-posted unnamed-client context and Microsoft-stack specificity lower confidence.",
+      "fit_signals": [
+        "Designs and deploys advanced agentic AI solutions and multi-agent systems integrated into enterprise ecosystems.",
+        "Requires Microsoft AI Foundry, Semantic Kernel, Autogen, Copilot Studio, Azure AI services, LLMs/SLMs, Python, and responsible AI practices.",
+        "Mentors teams, drives architectural decisions across projects, and evaluates solution performance/optimizations."
+      ],
+      "risk_flags": [
+        "Posted by recruiter for an unnamed consulting client, not a direct Microsoft role; company quality and compensation are uncertain.",
+        "Microsoft/Azure-specific stack is less directly evidenced than AWS/Kubernetes/MuleSoft platform background; verify expectations before approval.",
+        "Easy Apply is visible, but no application was submitted and approval remains required."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed 28 applicants and active reviewing; no named connections captured.",
+      "resume_theme": {
+        "name": "Agentic AI enterprise architect",
+        "positioning": "Architect for enterprise multi-agent systems, responsible AI practices, orchestration frameworks, governance, and production AI adoption.",
+        "key_pointers": [
+          "Lead with MuleSoft agent federation, MCP/A2A architecture, LangGraph workflow contracts, and governed diagnostic evidence plane.",
+          "Use Unleash multi-agent decision system and local-first AI engineering IDE to show hands-on agent tooling and governance substrate design.",
+          "Frame Microsoft-stack gaps honestly while emphasizing transferable agent architecture, governance, and platform integration experience."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-03T13:07:25Z",
       "notes": []
     },
     {
