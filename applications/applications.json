@@ -1,9 +1,91 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T21:37:54Z",
+  "updated_at": "2026-07-03T22:06:43Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260703-confluent-principal-engineer-i-cloud-observabi-d893e69c",
+      "job_id": "linkedin-4407418159",
+      "dedupe_key": "linkedin:4407418159",
+      "source": "linkedin",
+      "source_job_id": "4407418159",
+      "source_url": "https://www.linkedin.com/jobs/view/4407418159",
+      "company": "Confluent",
+      "role": "Principal Engineer I - Cloud Observability",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-2204",
+      "approved_at": "2026-07-03T22:06:43Z",
+      "updated_at": "2026-07-03T22:06:43Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent principal IC fit: cloud observability roadmap, architecture, customer-facing telemetry capabilities, distributed systems, production services, large-scale cloud operations, metrics/logs/events/traces, Kafka/Flink/Druid/OpenSearch, and on-call production issue ownership.",
+      "people": [],
+      "connections_summary": "LinkedIn surfaced 93 company alumni in Confluent search results.",
+      "resume_theme": {
+        "name": "Principal cloud observability and streaming platform",
+        "positioning": "Frame as principal IC for cloud observability, streaming data platforms, operational intelligence, and reliable customer-facing telemetry systems.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS work on proactive diagnostics, anomaly alerts, MDAS alerts, and operational telemetry.",
+          "Emphasize large-scale distributed systems, customer-impacting production reliability, observability roadmap, and hands-on architecture.",
+          "Connect AI platform and agent federation work to telemetry-driven engineering and product decision velocity."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: proactive diagnostics, anomaly detection alerts, mdas-alerts, ms-op-alerts, AM Agent Federation"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-confluent-principal-engineer-i-cloud-observabi-d893e69c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-confluent-principal-engineer-i-cloud-observabi-d893e69c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-okta-staff-site-reliability-engineer-obse-913ac3de",
+      "job_id": "linkedin-4424864608",
+      "dedupe_key": "linkedin:4424864608",
+      "source": "linkedin",
+      "source_job_id": "4424864608",
+      "source_url": "https://www.linkedin.com/jobs/view/4424864608",
+      "company": "Okta",
+      "role": "Staff Site Reliability Engineer - Observability (Splunk)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-2204",
+      "approved_at": "2026-07-03T22:06:43Z",
+      "updated_at": "2026-07-03T22:06:43Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong observability/SRE fit: Staff role owning Splunk and Grafana observability ecosystems, scalable telemetry platforms, Terraform automation, OpenTelemetry, Prometheus, Kubernetes/EKS, incident response, and observability-driven development.",
+      "people": [],
+      "connections_summary": "LinkedIn shows 39 applicants and active review signal.",
+      "resume_theme": {
+        "name": "Staff SRE observability platform",
+        "positioning": "Tailor around observability platforms, telemetry pipelines, incident automation, anomaly detection, diagnostics, and enterprise-scale reliability.",
+        "key_pointers": [
+          "Lead with proactive diagnostics, anomaly detection alerts, MDAS alerts, and ms-op-alerts.",
+          "Emphasize Splunk-like log/metric workflow analogs, telemetry pipelines, incident reduction, and SRE automation.",
+          "Show platform reliability across Kubernetes, distributed services, security/compliance, and cross-team adoption."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: proactive diagnostics ADRs, anomaly detection alerts, mdas-alerts, ms-op-alerts"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-okta-staff-site-reliability-engineer-obse-913ac3de/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-okta-staff-site-reliability-engineer-obse-913ac3de/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc",
       "job_id": "linkedin-4387809855",
