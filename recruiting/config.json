@@ -9,6 +9,7 @@
   "compensation_research_policy": {
     "target_is_total_annual_compensation": true,
     "payband_stance": "top_band_over_sparse_public_median",
+    "target_capable_list_is_not_exhaustive": true,
     "research_sources": [
       "Levels.fyi for directional company and level comparisons",
       "Recruiter-disclosed ranges",
@@ -35,10 +36,31 @@
         "company": "Mastercard",
         "confidence": "medium_high",
         "notes": "Director-level platform/engineering roles can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "NVIDIA",
+        "confidence": "high",
+        "notes": "Senior Manager, Principal, Director, and senior AI/platform infrastructure roles can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "Broadcom",
+        "confidence": "high",
+        "notes": "Senior infrastructure, platform, security, and distributed-systems roles can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "Splunk",
+        "confidence": "high",
+        "notes": "Senior observability, data platform, and engineering leadership roles can meet the 2.5cr+ total compensation target at the right band."
+      },
+      {
+        "company": "Docusign",
+        "confidence": "high",
+        "notes": "Senior Engineering Director and senior platform/product engineering roles can meet the 2.5cr+ total compensation target at the right band."
       }
     ],
     "scoring_notes": [
-      "Do not mark Salesforce, Amazon, Coupang, or Mastercard below target solely because public India medians are sparse or appear lower.",
+      "Do not mark target-capable companies below target solely because public India medians are sparse or appear lower.",
+      "Salesforce, Amazon, Coupang, Mastercard, NVIDIA, Broadcom, Splunk, and Docusign are representative examples, not the complete market.",
       "Use public medians as a floor/market signal, not as a hard ceiling for senior Director, Principal, Staff, or Distinguished roles.",
       "If a target-capable company has unclear compensation, keep it in review and record the negotiation question instead of downranking it as below target.",
       "A role at a target-capable company can still be rejected for underleveling, weak scope, location, or poor role fit."
@@ -117,6 +139,9 @@
     "Databricks",
     "Coupang",
     "Mastercard",
+    "Broadcom",
+    "Splunk",
+    "Docusign",
     "Microsoft",
     "Meta",
     "Uber",

@@ -30,10 +30,12 @@ research packages only from evidence stored in this repository.
    pipeline is stretch-first, so credible Staff / Principal / Architect roles
    should remain high-priority, while safe below-target roles should be
    penalized unless compensation or company fit is exceptional.
-   Apply the compensation research policy before rejecting for pay: Salesforce,
-   Amazon, Coupang, and Mastercard are target-capable at the right senior band,
-   so sparse or lower public medians should be treated as directional evidence,
-   not a compensation ceiling.
+   Apply the compensation research policy before rejecting for pay. The
+   target-capable list is intentionally non-exhaustive: Salesforce, Amazon,
+   Coupang, Mastercard, NVIDIA, Broadcom, Splunk, Docusign, and similar
+   high-band tech/product companies can meet the target at the right senior
+   band, so sparse or lower public medians should be treated as directional
+   evidence, not a compensation ceiling.
 4. Apply the location policy in `recruiting/config.json`: do not limit discovery
    to India; prefer India, UAE, global remote open to India/UAE, or relocation
    with sponsorship; avoid US-only roles because the candidate does not have

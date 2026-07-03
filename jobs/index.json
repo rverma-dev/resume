@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T17:46:36Z",
+  "updated_at": "2026-07-03T17:49:58Z",
   "active_batch_id": "batch-20260703-9e9108d1",
   "last_scheduler_run_at": "2026-07-03T15:04:01Z",
   "batch_size": 10,
@@ -3986,6 +3986,7 @@
       "experience_level": "director",
       "compensation_signals": [
         "priority high-paying company",
+        "user-provided payband signal: NVIDIA senior manager/principal/director AI-platform roles can meet 2.5cr+ total compensation at the right band",
         "NVIDIA role mentions competitive salary and benefits but no exact compensation"
       ],
       "status": "approved",
@@ -4031,7 +4032,7 @@
       "application_id": "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
       "resume_snapshot_path": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T17:49:58Z",
       "notes": []
     },
     {
@@ -4587,6 +4588,7 @@
       "compensation_signals": [
         "senior director engineering role at scaled public SaaS company",
         "requires multi-team US/Bangalore leadership",
+        "user-provided payband signal: Docusign senior engineering director/platform roles can meet 2.5cr+ total compensation at the right band",
         "no exact compensation visible in LinkedIn detail"
       ],
       "status": "approved",
@@ -4632,7 +4634,7 @@
       "application_id": "app-20260702-docusign-senior-engineering-director-a93cfc5b",
       "resume_snapshot_path": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T17:49:58Z",
       "notes": []
     },
     {
