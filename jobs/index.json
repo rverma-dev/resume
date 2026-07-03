@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T15:04:01Z",
+  "updated_at": "2026-07-03T15:44:55Z",
   "active_batch_id": "batch-20260703-9e9108d1",
   "last_scheduler_run_at": "2026-07-03T15:04:01Z",
   "batch_size": 10,
@@ -674,8 +674,8 @@
         "P0 engineering leadership hire for a cloud-native, AI-native automotive retail platform.",
         "Scope includes full Chennai engineering organization, staff engineers, applied ML, platform dependencies, and US product counterpart ownership."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-a51e4447",
       "fit_score": 89,
       "fit_reason": "Strong Director trajectory fit: the role needs engineering org leadership, Java distributed SaaS architecture, event-driven systems, AWS, AI-native integration patterns, observability standards, and India-US execution. The resume has Director-adjacent org leadership, platform architecture, AI agent systems, and enterprise SaaS scale.",
@@ -709,8 +709,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T12:04:51Z",
-      "updated_at": "2026-07-03T12:04:51Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4408549670",
@@ -782,8 +784,8 @@
         "Senior client-facing technical accountability and capability-development responsibilities suggest higher-than-standard consulting band, but compensation is not visible.",
         "Databricks on Azure, Unity Catalog, SOC 2, ISO 27001, and AI workload platform foundations are preferred."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-a51e4447",
       "fit_score": 83,
       "fit_reason": "Good platform architecture and leadership fit: Azure platform, Kubernetes, Terraform, microservices, event-driven architecture, DevSecOps, governance, observability, cost management, and client-facing decision ownership align with the resume. Conservative because Blend is consulting/professional services and the title is Associate Director rather than Director/Principal at a priority company.",
@@ -817,8 +819,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T12:04:51Z",
-      "updated_at": "2026-07-03T12:04:51Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4427922375",
@@ -1523,8 +1527,8 @@
         "Role designs distributed systems for scalable, resilient, operable network automation and global region deployment efficiency.",
         "Principal IC4 role at Oracle Cloud Infrastructure is compensation-likely but not at priority-company ceiling."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-720683e4",
       "fit_score": 87,
       "fit_reason": "Good infrastructure fit for distributed systems, fleet automation, monitoring, incident response, runbooks, telemetry, access controls, and secure cloud networking. Conservative because networking-device automation and Linux systems engineering depth are more specialized than the resume center of gravity.",
@@ -1557,8 +1561,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T11:22:55Z",
-      "updated_at": "2026-07-03T11:22:55Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4416331735",
@@ -1628,8 +1634,8 @@
         "Scope includes backend, AI, data, frontend, QA, and DevOps teams with platform reliability, security, and release governance.",
         "Compensation quality is uncertain because company signal is weaker than target priority list."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-720683e4",
       "fit_score": 85,
       "fit_reason": "Strong role-scope alignment for Head of Engineering: cloud-native microservices, distributed systems, AI integrations, workflow orchestration, observability, DevOps, security, incident management, and AI-assisted SDLC. Conservative because company/compensation signal is unclear and Mumbai hybrid may not fit.",
@@ -1662,8 +1668,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T11:22:55Z",
-      "updated_at": "2026-07-03T11:22:55Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4374289623",
@@ -1681,8 +1689,8 @@
         "Role operates large-scale distributed systems at a company processing almost 3 trillion events per day.",
         "Object storage infrastructure spans over 2,000 Linux servers in critical production environments."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-720683e4",
       "fit_score": 83,
       "fit_reason": "Worth review for company quality, compensation signal, distributed systems scale, observability, storage, automation, and security, but below top tier because it is a Senior Linux systems role rather than Principal/Director and requires deep Linux internals/object-storage specialization.",
@@ -1715,8 +1723,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T11:22:55Z",
-      "updated_at": "2026-07-03T11:22:55Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4413495517",
@@ -1887,8 +1897,8 @@
         "1000+ engineering organization shipping dozens of times per day.",
         "Developer Experience owns CI/CD, development environments, and staging/demo environments with direct shipping velocity impact."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 93,
       "fit_reason": "Strong Staff platform fit through developer productivity, CI/CD, cloud/Kubernetes/Terraform bonus skills, incident leadership, threat modeling, and cross-team architecture. Conservative because it is Staff IC, not Principal/Director, and office-heavy.",
@@ -1919,8 +1929,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T10:06:14Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4388477075",
@@ -2040,8 +2052,8 @@
         "Greenfield Continuous Deployment team building GitLab's next-generation CD capabilities.",
         "Role connects GitLab core platform and AI strategy with durable orchestration and governance."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 89,
       "fit_reason": "Strong remote platform leadership match around CD, durable orchestration, live state awareness, AI-native governance, GitOps, blue/green/canary, and event-driven architecture. Score is conservative because it is EM rather than Director and location eligibility should be confirmed despite India remote listing.",
@@ -2072,8 +2084,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T10:06:14Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4427064478",
@@ -2142,8 +2156,8 @@
         "Posting mentions RSU stock grants and employer-paid medical insurance.",
         "Role supports multi-cloud dbt platform across AWS, Azure, and GCP with cell-based architecture."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 86,
       "fit_reason": "Solid platform infrastructure fit for multi-cloud, Kubernetes, Terraform, ArgoCD, DataDog, cell-based architecture, automation, cost optimization, and developer experience. Score is capped because the posting reads more senior engineer than Principal/Director despite Staff title.",
@@ -2174,8 +2188,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T10:06:14Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4388472818",
@@ -2484,6 +2500,72 @@
       "notes": []
     },
     {
+      "job_id": "linkedin-4422360690",
+      "dedupe_key": "linkedin:4422360690",
+      "source": "linkedin",
+      "source_job_id": "4422360690",
+      "source_url": "https://www.linkedin.com/jobs/view/4422360690",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - Tax Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "High-compensation-likely late-stage US SaaS company backed by top investors",
+        "Mission-critical tax platform processing over $30B annual payroll and 1M+ employees; no exact compensation visible"
+      ],
+      "status": "archived",
+      "approval_status": "blocked",
+      "batch_id": "batch-20260703-2315da85",
+      "fit_score": 89,
+      "fit_reason": "Strong Staff platform fit for correctness-critical distributed systems: payroll/tax infrastructure, auditability, reliability, global scale, engineering standards, and cross-functional technical strategy.",
+      "fit_signals": [
+        "staff engineer",
+        "tax platform",
+        "mission-critical correctness",
+        "distributed systems",
+        "auditability",
+        "global scale",
+        "engineering standards",
+        "technical strategy"
+      ],
+      "risk_flags": [
+        "Staff title may be below Director/Principal target unless compensation and scope are exceptional",
+        "Tax/payroll domain is adjacent to payments and compliance but not direct tax-platform experience"
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Rippling",
+          "profile_url": "",
+          "notes": "Search result showed 138 company alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 138 company alumni work here.",
+      "resume_theme": {
+        "name": "Correctness-critical payroll platform staff",
+        "positioning": "Use payments, billing, compliance, and SRE evidence to show readiness for correctness-critical financial platform architecture.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments and all-passed PCI-DSS/SOC 2/ISO 27001/NPCI/UPI SAR audits.",
+          "Use Brane 10M events/min sidecar billing and per-tenant rate limiting for revenue-critical infrastructure.",
+          "Use Hyperforce alerting reliability, blue-green deploys, and cost-to-serve reduction for operational rigor."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
+    },
+    {
       "job_id": "linkedin-4433133605",
       "dedupe_key": "linkedin:4433133605",
       "source": "linkedin",
@@ -2539,70 +2621,6 @@
           "resume/base_resume.md",
           "work/project_docs/README.md",
           "work/collaboration/README.md"
-        ]
-      },
-      "application_id": null,
-      "resume_snapshot_path": null,
-      "discovered_at": "2026-07-03T09:06:00Z",
-      "updated_at": "2026-07-03T09:06:00Z",
-      "notes": []
-    },
-    {
-      "job_id": "linkedin-4422360690",
-      "dedupe_key": "linkedin:4422360690",
-      "source": "linkedin",
-      "source_job_id": "4422360690",
-      "source_url": "https://www.linkedin.com/jobs/view/4422360690",
-      "company": "Rippling",
-      "role": "Staff Software Engineer - Tax Platform",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "on_site",
-      "experience_level": "mid_senior",
-      "compensation_signals": [
-        "High-compensation-likely late-stage US SaaS company backed by top investors",
-        "Mission-critical tax platform processing over $30B annual payroll and 1M+ employees; no exact compensation visible"
-      ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
-      "batch_id": "batch-20260703-2315da85",
-      "fit_score": 89,
-      "fit_reason": "Strong Staff platform fit for correctness-critical distributed systems: payroll/tax infrastructure, auditability, reliability, global scale, engineering standards, and cross-functional technical strategy.",
-      "fit_signals": [
-        "staff engineer",
-        "tax platform",
-        "mission-critical correctness",
-        "distributed systems",
-        "auditability",
-        "global scale",
-        "engineering standards",
-        "technical strategy"
-      ],
-      "risk_flags": [
-        "Staff title may be below Director/Principal target unless compensation and scope are exceptional",
-        "Tax/payroll domain is adjacent to payments and compliance but not direct tax-platform experience"
-      ],
-      "people": [
-        {
-          "name": "Company alumni",
-          "relationship": "alumni signal",
-          "role": "Rippling",
-          "profile_url": "",
-          "notes": "Search result showed 138 company alumni work here"
-        }
-      ],
-      "connections_summary": "LinkedIn search result showed 138 company alumni work here.",
-      "resume_theme": {
-        "name": "Correctness-critical payroll platform staff",
-        "positioning": "Use payments, billing, compliance, and SRE evidence to show readiness for correctness-critical financial platform architecture.",
-        "key_pointers": [
-          "Lead with Jupiter $240M/month payments and all-passed PCI-DSS/SOC 2/ISO 27001/NPCI/UPI SAR audits.",
-          "Use Brane 10M events/min sidecar billing and per-tenant rate limiting for revenue-critical infrastructure.",
-          "Use Hyperforce alerting reliability, blue-green deploys, and cost-to-serve reduction for operational rigor."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/ADRs/README.md",
-          "work/architecture/README.md"
         ]
       },
       "application_id": null,
@@ -2756,8 +2774,8 @@
         "Director-level AI platform and governance role in a large healthcare technology organization; no salary range posted.",
         "Requires 15+ years and 8-10+ years leading large-scale platform/product engineering teams, which supports senior compensation expectations."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-114c6ff6",
       "fit_score": 92,
       "fit_reason": "Excellent Director-level match for governed AI platforms, agentic systems, AI SDLC, distributed systems, observability, cost/latency controls, ADRs, and cross-functional architecture leadership.",
@@ -2791,8 +2809,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T13:07:25Z",
-      "updated_at": "2026-07-03T13:07:25Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4387409051",
@@ -2862,8 +2882,8 @@
         "Senior Associate Director title at a global financial services institution; no salary range posted.",
         "Platform scope serves thousands of engineers, supporting senior platform compensation expectations."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-114c6ff6",
       "fit_score": 89,
       "fit_reason": "Strong developer platform and banking platform fit: next-generation application platform, Kubernetes, DevSecOps, Java microservices, cost efficiency, compliance, complex change, and senior leadership.",
@@ -2896,8 +2916,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T13:07:25Z",
-      "updated_at": "2026-07-03T13:07:25Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4426946202",
@@ -2914,8 +2936,8 @@
         "Senior Staff role at cybersecurity company with equity for all employees and private benefits mentioned; no salary range posted.",
         "Company cites Cloud 100, CNBC Disruptor 50, Fortune Future 50/Cyber 60, 7,000+ customers, and 2,000+ channel partners."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260703-114c6ff6",
       "fit_score": 88,
       "fit_reason": "Strong staff-level backend/platform security fit with scalable cloud services, AWS, Databricks, Kafka, AI-DLC, cybersecurity operations, security best practices, and architecture mentoring.",
@@ -2948,8 +2970,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-03T13:07:25Z",
-      "updated_at": "2026-07-03T13:07:25Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4436740011",
@@ -3466,8 +3490,8 @@
         "staff role on very large consumer platform",
         "AI/data infrastructure scope; no exact compensation visible"
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 91,
       "fit_reason": "Strong Staff/Principal platform fit: hundreds of millions of RPM ingestion, Kafka, petabyte-scale S3, AI agents/MCP data foundations, cost optimization, observability, data governance, and technical mentorship.",
@@ -3511,8 +3535,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T13:04:46Z",
-      "notes": []
+      "updated_at": "2026-07-03T15:44:55Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4434320707",

@@ -1,17 +1,19 @@
 {
   "schema_version": "approval_inbox.v1",
-  "updated_at": "2026-07-03T05:36:53Z",
+  "updated_at": "2026-07-03T15:44:56Z",
   "processed_issue_numbers": [
     19,
     20,
-    21
+    21,
+    22
   ],
   "processed_batch_ids": [
     "approval-20260702-741f3ded",
     "rejection-20260702-568de2d0",
+    "rejection-20260703-63c4d9ce",
     "rejection-20260703-7d8e57b8"
   ],
-  "last_processed_issue_number": 21,
+  "last_processed_issue_number": 22,
   "events": [
     {
       "issue_number": 19,
@@ -77,6 +79,30 @@
         ]
       },
       "url": "https://github.com/rverma-dev/resume/issues/21"
+    },
+    {
+      "issue_number": 22,
+      "payload_id": "rejection-20260703-63c4d9ce",
+      "result": {
+        "rejected": 13,
+        "skipped": [],
+        "job_ids": [
+          "linkedin-4374289623",
+          "linkedin-4380104127",
+          "linkedin-4422360690",
+          "linkedin-4426946202",
+          "linkedin-4427046917",
+          "linkedin-4432375296",
+          "linkedin-4432378495",
+          "linkedin-4432781679",
+          "linkedin-4433177574",
+          "linkedin-4433185083",
+          "linkedin-4435380866",
+          "linkedin-4436375760",
+          "linkedin-4436724539"
+        ]
+      },
+      "url": "https://github.com/rverma-dev/resume/issues/22"
     }
   ]
 }
