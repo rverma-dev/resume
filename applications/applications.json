@@ -1,9 +1,181 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T20:08:06Z",
+  "updated_at": "2026-07-03T20:41:59Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260703-linkedin-principal-staff-software-engineer-li-6d6330e1",
+      "job_id": "linkedin-4391882662",
+      "dedupe_key": "linkedin:4391882662",
+      "source": "linkedin",
+      "source_job_id": "4391882662",
+      "source_url": "https://www.linkedin.com/jobs/view/4391882662",
+      "company": "LinkedIn",
+      "role": "Principal Staff Software Engineer - LinkedIn Sales Solutions",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-2034",
+      "approved_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-03T20:41:59Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong current-level IC fit: Principal Staff, 18+ years, distributed applications, high-volume 24x7 systems, architecture tradeoffs, cross-functional technical strategy, and software craftsmanship.",
+      "people": [],
+      "connections_summary": "LinkedIn page surfaced people in network including Shwetank; use for warm outreach if application is submitted.",
+      "resume_theme": {
+        "name": "Principal Staff distributed systems and AI platforms",
+        "positioning": "Position as a hands-on principal IC who has built high-scale enterprise platforms, AI-assisted engineering systems, observability/diagnostics platforms, and cross-team architecture direction.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS principal-scale distributed systems, AI platform, diagnostics, and reliability work.",
+          "Emphasize hands-on architecture across high-volume services, async patterns, reliability, observability, and execution quality.",
+          "Show cross-org influence without manager framing: ADRs, RFCs, architecture reviews, platform adoption, and technical decision closure."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "applications/resumes/*/theme.md",
+          "work evidence: mdas-alerts, ms-op-alerts, GIA2H, ACP, multi-region rollout RFCs"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-li-6d6330e1/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-li-6d6330e1/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn Easy Apply reached page 2/7 and required uploading the freshly rendered submitted resume PDF before continuing.",
+        "Chrome extension blocked file upload with Not allowed. To enable file upload, go to chrome://extensions in Chrome, click Details under the Codex extension, and enable Allow access to file URLs."
+      ],
+      "status_reason": "LinkedIn Easy Apply reached page 2/7 and required uploading the freshly rendered submitted resume PDF before continuing.",
+      "last_status_update_id": "status-20260704-linkedin-principal-staff-upload-blocked",
+      "manual_action_required": true,
+      "manual_action_reason": "Chrome extension blocked file upload with Not allowed. To enable file upload, go to chrome://extensions in Chrome, click Details under the Codex extension, and enable Allow access to file URLs.",
+      "manual_action_at": "2026-07-03T20:41:59Z"
+    },
+    {
+      "application_id": "app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012",
+      "job_id": "linkedin-4415274409",
+      "dedupe_key": "linkedin:4415274409",
+      "source": "linkedin",
+      "source_job_id": "4415274409",
+      "source_url": "https://www.linkedin.com/jobs/view/4415274409",
+      "company": "Databricks",
+      "role": "Staff Software Engineer (L6) - Partner Ecosystem",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-2034",
+      "approved_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-03T20:40:49Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong target-company IC fit: Staff/Sr Staff role building SQL drivers, partner connectivity, critical infrastructure, performance, reliability, telemetry, open-source repositories, and cross-functional technical leadership.",
+      "people": [],
+      "connections_summary": "LinkedIn surfaced one connection at Databricks.",
+      "resume_theme": {
+        "name": "Data and AI platform infrastructure",
+        "positioning": "Frame as a platform IC who builds reliable developer/data infrastructure, telemetry-backed systems, and open, integration-heavy platforms at enterprise scale.",
+        "key_pointers": [
+          "Prioritize Unlease/Superset fork, internal IDE, Agent Federation, diagnostics, and telemetry-driven platform work.",
+          "Emphasize connectors/integration platforms, reliable APIs, platform observability, and developer experience.",
+          "Keep architecture proof hands-on: code, RFCs, rollout automation, and production reliability."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: Unlease, internal IDE, mdas-alerts, multi-region rollout RFCs"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-boomi-principal-software-engineer-genai-5eaed28b",
+      "job_id": "linkedin-4417200637",
+      "dedupe_key": "linkedin:4417200637",
+      "source": "linkedin",
+      "source_job_id": "4417200637",
+      "source_url": "https://www.linkedin.com/jobs/view/4417200637",
+      "company": "Boomi",
+      "role": "Principal Software Engineer - GenAI",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-2034",
+      "approved_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-03T20:40:49Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 86,
+      "fit_reason": "Strong agentic AI platform fit: distributed backend systems, Python/Java, scalable microservices, agent orchestration, RAG, vector databases, Kubernetes/EKS, IaC, observability, SLOs, and incident response.",
+      "people": [],
+      "connections_summary": "LinkedIn surfaced 76 company alumni signal.",
+      "resume_theme": {
+        "name": "Agentic AI platform principal IC",
+        "positioning": "Tailor toward production-grade agentic AI systems, distributed backend platforms, observability, reliability, and cloud-native infrastructure.",
+        "key_pointers": [
+          "Lead with AM Agent Federation, internal IDE, proactive diagnostics, anomaly alerts, and AI platform integrations.",
+          "Tie agentic AI work to enterprise platform reliability, operational data, and customer/product decision velocity.",
+          "Show backend depth across Java/Python, distributed systems, vector/search/data stores, and production operations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: AM Agent Federation, internal IDE, proactive diagnostics ADRs, anomaly detection alerts"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-boomi-principal-software-engineer-genai-5eaed28b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-boomi-principal-software-engineer-genai-5eaed28b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-mastercard-principal-software-engineer-solution-e10d6ad6",
+      "job_id": "linkedin-4420123655",
+      "dedupe_key": "linkedin:4420123655",
+      "source": "linkedin",
+      "source_job_id": "4420123655",
+      "source_url": "https://www.linkedin.com/jobs/view/4420123655",
+      "company": "Mastercard",
+      "role": "Principal Software Engineer/Solution Architect",
+      "location": "Pune/Pimpri-Chinchwad Area",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-2034",
+      "approved_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-03T20:40:49Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Strong architecture-level fit for distributed, real-time decisioning platforms, APIs, services, data layers, operational workflows, modernization, resilience, observability, security, and enterprise governance.",
+      "people": [],
+      "connections_summary": "LinkedIn surfaced IIT Kharagpur alumni signal.",
+      "resume_theme": {
+        "name": "Principal architect for real-time enterprise platforms",
+        "positioning": "Model the resume around principal IC architecture for mission-critical enterprise platforms: distributed services, data-intensive workflows, observability, platform modernization, and governance.",
+        "key_pointers": [
+          "Highlight PMTS ownership of distributed diagnostics, anomaly alerts, operations automation, and reliability systems.",
+          "Emphasize API/service/data architecture decisions, platform migration, governance, and continuity of service.",
+          "Use Brane and Salesforce examples for secure enterprise-scale platform delivery."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: mdas-alerts ADRs/RFCs, anomaly detection alerts, proactive diagnostics"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-mastercard-principal-software-engineer-solution-e10d6ad6/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-mastercard-principal-software-engineer-solution-e10d6ad6/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e",
       "job_id": "linkedin-4311490294",
