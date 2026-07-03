@@ -22,14 +22,19 @@ research packages only from evidence stored in this repository.
 1. Discover up to 10 jobs per scheduled batch from configured MCP/browser
    sources, or import them manually into `jobs/index.json`.
 2. Score each job against the rubric in `recruiting/config.json`.
-3. Apply the location policy in `recruiting/config.json`: do not limit discovery
+3. Apply the level comparison policy in `recruiting/config.json`: use
+   source-backed compensation and level signals, preferably a Levels.fyi
+   comparison URL when comparing Salesforce with a target company. Treat title
+   mappings as inferred unless the source explicitly supports them, and record
+   uncertainty in `risk_flags`.
+4. Apply the location policy in `recruiting/config.json`: do not limit discovery
    to India; prefer India, UAE, global remote open to India/UAE, or relocation
    with sponsorship; avoid US-only roles because the candidate does not have
    H1B; treat UAE as viable because the candidate can self-sponsor.
-4. Match the company against `network.txt` and `avoid.txt`.
-5. Review the dashboard, multiselect roles, and open a prefilled GitHub
+5. Match the company against `network.txt` and `avoid.txt`.
+6. Review the dashboard, multiselect roles, and open a prefilled GitHub
    approval or rejection issue.
-6. Submit the decision issue. The issue body carries only selected `job_ids`;
+7. Submit the decision issue. The issue body carries only selected `job_ids`;
    the scheduled recruiting issue workflow resolves full job details from
    `jobs/index.json`, imports unseen approval batches into application records
    and resume snapshots under `applications/resumes/<application-id>/`, and
@@ -37,16 +42,16 @@ research packages only from evidence stored in this repository.
    `status=archived`. The workflow records the processed issue number in
    `applications/approval_inbox.json`, comments, labels the issue
    `approval-imported` or `rejection-imported`, and closes it.
-7. Generate company-specific artifacts under `companies/<company-slug>/`.
-8. Generate an ATS-friendly PDF from the company resume.
-9. Apply only when external tooling is available and the run is authorized.
-10. After an actual submission, open or emit an `application.status.v1` issue
+8. Generate company-specific artifacts under `companies/<company-slug>/`.
+9. Generate an ATS-friendly PDF from the company resume.
+10. Apply only when external tooling is available and the run is authorized.
+11. After an actual submission, open or emit an `application.status.v1` issue
    with `status=applied`. If browser/computer-use automation cannot safely
    navigate or submit, open or emit the same schema with `status=needs_manual`
    and a blocker. The scheduler imports that status into
    `applications/applications.json`, `jobs/index.json`, and
    `applications/applications.jsonl`.
-11. Refresh the dashboard at `jobs/index.html`.
+12. Refresh the dashboard at `jobs/index.html`.
 
 ## Local Commands
 

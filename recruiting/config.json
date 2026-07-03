@@ -6,6 +6,21 @@
   "allow_external_discovery": true,
   "allow_auto_apply": false,
   "target_compensation_inr_annual": 25000000,
+  "level_comparison_policy": {
+    "source_first": true,
+    "primary_source": "Levels.fyi",
+    "reference_compare_url": "https://www.levels.fyi/?tab=levels&compare=Salesforce%2COracle",
+    "notes": [
+      "Treat title-to-level mappings as compensation signals, not facts, unless a source explicitly supports the mapping.",
+      "When comparing a target company with Salesforce, prefer a Levels.fyi company comparison URL or another visible source in compensation_signals.",
+      "Record exact level names when visible; otherwise record the mapping as inferred and add a risk_flag.",
+      "Target compensation is total annual compensation, not just base salary."
+    ],
+    "required_candidate_fields": [
+      "compensation_signals",
+      "risk_flags"
+    ]
+  },
   "location_policy": {
     "do_not_limit_to_india": true,
     "preferred_locations": [
