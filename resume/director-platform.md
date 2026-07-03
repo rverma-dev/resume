@@ -88,16 +88,6 @@ enterprise engagements.
 - Supported DRDO Radar Unit flight-simulation systems with synthetic data
   generation and MIL/video data integration.
 
-### Senior Software Engineer, Atlassian
-
-Bengaluru, India | Aug 2023 - Mar 2024
-
-- Led architecture and delivery of Jira data-migration integration frameworks
-  supporting enterprise customer onboarding across a 9-member engineering team
-  and multiple cross-functional stakeholders.
-- Shipped Confluence image ALT-text generation using LAVIS/InstructBLIP,
-  contributing AI accessibility capability inside a global collaboration brand.
-
 ### Vice President / GSL - PaaS, Brane Enterprise
 
 Bengaluru, India | Jan 2021 - Jul 2023
@@ -121,7 +111,7 @@ Bengaluru, India | Jan 2021 - Jul 2023
   ClickHouse; built entity data pipeline on ClickHouse, Redis, Kafka Connect,
   Glue, and S3.
 
-### Principal Architect, Jupiter Money
+### Director of Engineering, Jupiter Money
 
 Bengaluru, India | Nov 2019 - Jan 2021
 
@@ -136,7 +126,7 @@ Bengaluru, India | Nov 2019 - Jan 2021
 - Built multi-tenant cloud-data platform on AWS, EMR, Airflow, Flink, and
   Kubernetes.
 
-### Principal Architect, Niki.ai
+### Director of Engineering, Niki.ai
 
 Bengaluru, India | Dec 2017 - Nov 2019
 
@@ -148,6 +138,16 @@ Bengaluru, India | Dec 2017 - Nov 2019
   resilience, and PCI-DSS-ready cloud infrastructure.
 - Modernized order fulfillment and promotions through event-sourced workflows
   and a self-serve rules engine.
+
+### Senior Software Engineer, Atlassian
+
+Bengaluru, India | Aug 2023 - Mar 2024
+
+- Led architecture and delivery of Jira data-migration integration frameworks
+  supporting enterprise customer onboarding across a 9-member engineering team
+  and multiple cross-functional stakeholders.
+- Shipped Confluence image ALT-text generation using LAVIS/InstructBLIP,
+  contributing AI accessibility capability inside a global collaboration brand.
 
 ### Lead Product Engineer, Sprinklr
 
