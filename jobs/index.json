@@ -1,11 +1,539 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T10:06:14Z",
-  "active_batch_id": "batch-20260703-3b2f177e",
-  "last_scheduler_run_at": "2026-07-03T10:06:14Z",
+  "updated_at": "2026-07-03T11:22:55Z",
+  "active_batch_id": "batch-20260703-720683e4",
+  "last_scheduler_run_at": "2026-07-03T11:22:55Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
+    {
+      "job_id": "linkedin-4433175429",
+      "dedupe_key": "linkedin:4433175429",
+      "source": "linkedin",
+      "source_job_id": "4433175429",
+      "source_url": "https://www.linkedin.com/jobs/view/4433175429",
+      "company": "Pocket FM",
+      "role": "Head of AI Platform Engineering (Platforms & Applications)",
+      "location": "Bangalore Urban, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Head of Engineering / AI platform organization leadership",
+      "compensation_signals": [
+        "Company states it has crossed $400M ARR and is entering an AI-centered growth phase.",
+        "Role owns both AI platform and AI applications strategy across a global entertainment ecosystem.",
+        "Scope includes AI economics at scale: cost visibility, model selection, latency optimization, caching, rate limiting, GPU and cloud efficiency."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 96,
+      "fit_reason": "Excellent Director/Head trajectory fit: owns AI platform, AI applications, vendor-agnostic model architecture, evaluation frameworks, observability, governance, AI economics, and organization scaling. Strong match to governed agent systems and platform leadership, with conservative risk for on-site expectation and consumer-entertainment domain shift.",
+      "fit_signals": [
+        "Requires 12+ years, senior engineer/EM leadership, and ownership of large-scale platforms.",
+        "Directly matches production AI platform, model routing, prompt management, evals, governance, observability, and cost controls.",
+        "Maps to MuleSoft agent federation, Internal IDE/Unleash, observability platform economics, and Brane/Jupiter platform leadership evidence."
+      ],
+      "risk_flags": [
+        "On-site Bangalore expectation; confirm flexibility before approval.",
+        "Consumer entertainment and content AI domain is adjacent rather than identical to enterprise platform background.",
+        "Compensation likely strong but not priority-company level; validate package before application."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 1 connection works at Pocket FM.",
+      "resume_theme": {
+        "name": "AI platform and economics leadership",
+        "positioning": "AI platform leader who can turn governed agent systems, model-provider abstraction, observability, and cost controls into reusable product infrastructure.",
+        "key_pointers": [
+          "MuleSoft agent federation and governed diagnostic evidence plane with MCP, A2A, LangGraph, audit, budget, and safety controls.",
+          "Internal IDE/Unleash multi-agent engineering platform with local-first workflows and governance substrate.",
+          "Anypoint Monitoring migration delivering approximately $6M annualized cost reduction with zero customer-visible SLO regression."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4406914338",
+      "dedupe_key": "linkedin:4406914338",
+      "source": "linkedin",
+      "source_job_id": "4406914338",
+      "source_url": "https://www.linkedin.com/jobs/view/4406914338",
+      "company": "NVIDIA",
+      "role": "Senior Infrastructure Software Systems Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior infrastructure IC / distributed workflow platform",
+      "compensation_signals": [
+        "Priority high-compensation-likely company in recruiting config.",
+        "Role builds distributed workflow platforms behind next-generation GPUs and AI chips.",
+        "Scope includes millions of regression and validation workloads across heterogeneous compute environments."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 94,
+      "fit_reason": "Strong platform-infrastructure fit despite senior rather than Principal title: distributed systems, dependency-aware execution, large-scale job orchestration, telemetry, profiling, developer productivity, and AI-chip validation infrastructure map closely to the resume. Conservative because the title may be below target trajectory.",
+      "fit_signals": [
+        "Requires 9+ years and first-principles distributed system design across APIs, data models, execution flows, and scaling.",
+        "Direct match to Internal IDE/Unleash developer productivity infrastructure and Brane workflow/event platform work.",
+        "NVIDIA compensation/company signal is very strong and the role is core AI infrastructure."
+      ],
+      "risk_flags": [
+        "Title is Senior rather than Staff/Principal; confirm level, scope, and compensation before approval.",
+        "Chip-design validation workflow familiarity is a plus, not current resume core.",
+        "Hybrid/in-office expectations should be confirmed."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 244 school alumni for nearby NVIDIA Bengaluru postings.",
+      "resume_theme": {
+        "name": "Distributed AI infrastructure workflows",
+        "positioning": "Infrastructure engineer for large-scale distributed workflow systems, developer productivity, observability, and performance-sensitive platform execution.",
+        "key_pointers": [
+          "Internal IDE/Unleash local-first workspace and automation platform for engineering productivity.",
+          "Brane workflow engine tuned to 10M TPS across Kafka, DynamoDB, TiDB, and Redis.",
+          "Anypoint Monitoring alert platform handling 50K-100K concurrent evaluations at P99 < 1s."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4435434504",
+      "dedupe_key": "linkedin:4435434504",
+      "source": "linkedin",
+      "source_job_id": "4435434504",
+      "source_url": "https://www.linkedin.com/jobs/view/4435434504",
+      "company": "Brevan Howard",
+      "role": "Head of Security Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Head of Security Engineering / security leadership",
+      "compensation_signals": [
+        "Global hedge fund / investment manager with over $35bn managed assets per posting.",
+        "Core CISO security leadership team role across cloud security, appsec, DevSecOps, AI/LLM/agentic ecosystem security, and incident support.",
+        "Financial-sector security leadership roles are compensation-likely but package must be validated."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 91,
+      "fit_reason": "Strong security/platform leadership fit: cloud security, DevSecOps, secure-by-design, AI/LLM/agentic ecosystem security, vulnerability management, and automation-first controls align with compliance-heavy banking/platform background. Conservative because it requires explicit cyber-security leadership depth and is on-site.",
+      "fit_signals": [
+        "Role owns security engineering strategy and control maturation in a build phase.",
+        "Resume has PCI-DSS, SOC 2, ISO 27001, NPCI/UPI SAR ownership plus DevSecOps, cloud, Kubernetes, and governed agent systems.",
+        "Financial services context maps to Jupiter Money compliance and payment security leadership."
+      ],
+      "risk_flags": [
+        "Hands-on security leadership role may expect deeper dedicated SecEng track record than resume headline suggests.",
+        "On-site Bengaluru expectation; confirm flexibility.",
+        "Compensation signal is inferred from hedge-fund sector; validate package before approval."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 2 school alumni work at Brevan Howard.",
+      "resume_theme": {
+        "name": "Security engineering and governed AI controls",
+        "positioning": "Security/platform leader with banking-grade compliance, cloud security, DevSecOps, and governed AI/agentic-system controls.",
+        "key_pointers": [
+          "Single technical owner for ISO 27001, SOC 2, PCI-DSS, NPCI, UPI SAR compliance and partner-bank audits at Jupiter Money.",
+          "MuleSoft governed diagnostic evidence plane with audit/cost controls and prompt exposure limits.",
+          "Brane enterprise SaaS platform/security stack built by a 2-engineer team with compliance readiness."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436711570",
+      "dedupe_key": "linkedin:4436711570",
+      "source": "linkedin",
+      "source_job_id": "4436711570",
+      "source_url": "https://www.linkedin.com/jobs/view/4436711570",
+      "company": "Demandbase",
+      "role": "Staff Software Engineer",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "Hybrid",
+      "experience_level": "Staff Engineer / AI platform technical leader",
+      "compensation_signals": [
+        "US-headquartered B2B SaaS company with India engineering presence.",
+        "Role is Staff-level and spans AI systems, backend platforms, data platforms, cloud infrastructure, and multi-team technical roadmap ownership.",
+        "Company positions itself as a pipeline AI platform for GTM automation at scale."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 90,
+      "fit_reason": "Strong Staff AI/platform fit: agentic solutions, production AI systems, backend/data/cloud infrastructure, observability, incident learnings, technical roadmaps, and responsible AI-assisted engineering map closely to the resume. Conservative because company/compensation signal is below top priority list and location is Hyderabad hybrid.",
+      "fit_signals": [
+        "Requires 12+ years and senior technical leadership across multiple teams/services/product areas.",
+        "Explicitly asks for agentic solutions, automation systems, AI-powered platform capabilities, reliability, observability, and production operations.",
+        "Resume supports this through MuleSoft agent systems, Internal IDE/Unleash, observability platforms, and Brane SaaS/event infrastructure."
+      ],
+      "risk_flags": [
+        "Hyderabad hybrid may require relocation or frequent travel; confirm flexibility.",
+        "Staff IC rather than Director/Principal Architect; validate seniority and compensation.",
+        "GTM/pipeline SaaS domain is adjacent rather than current domain."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 2 school alumni work at Demandbase.",
+      "resume_theme": {
+        "name": "Staff AI platform systems",
+        "positioning": "Staff-level platform IC for agentic systems, backend/data platforms, production operations, and responsible AI-assisted engineering.",
+        "key_pointers": [
+          "MuleSoft agent federation and governed multi-agent decision system with 11 typed agents.",
+          "Internal IDE/Unleash local-first AI engineering platform with repo/ticket/PR/terminal/browser context.",
+          "Anypoint Monitoring and Visualizer Hyperforce re-platforming across observability and topology systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4385924761",
+      "dedupe_key": "linkedin:4385924761",
+      "source": "linkedin",
+      "source_job_id": "4385924761",
+      "source_url": "https://www.linkedin.com/jobs/view/4385924761",
+      "company": "Texas Instruments India",
+      "role": "Principal Software Architect \u2013 Logistics Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site / unspecified",
+      "experience_level": "Principal Software Architect / global supply-chain platform architecture",
+      "compensation_signals": [
+        "Global semiconductor company with large-scale supply-chain transformation scope.",
+        "Role architects platforms processing 500,000+ orders/day and impacting 100,000+ customers worldwide.",
+        "Principal architect scope includes global stakeholders, 15+ engineer mentorship, platform modernization, and AI/ML/agentic AI frameworks."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 89,
+      "fit_reason": "Strong Principal Architect fit for distributed, event-driven, cloud-native platform modernization and global stakeholder leadership. Conservative because WMS/TMS domain-specific experience is a major requirement and may be a resume gap.",
+      "fit_signals": [
+        "Requires architecture of microservices, event-driven pipelines, auto-scaling services, observability, CI/CD, and compliance-sensitive integrations.",
+        "Resume has supply-adjacent payments/order/event systems, enterprise SaaS platform architecture, and large-scale observability/data platforms.",
+        "Role includes AI/ML optimization and agentic AI framework exposure as additional alignment."
+      ],
+      "risk_flags": [
+        "WMS/TMS and warehouse automation experience is explicitly required and not a core resume claim.",
+        "Semiconductor supply-chain/export-control context may add eligibility constraints.",
+        "Work type not clearly remote/hybrid in details; confirm on-site expectations."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 26 school alumni work at Texas Instruments India.",
+      "resume_theme": {
+        "name": "Principal platform modernization architect",
+        "positioning": "Principal architect for global, high-throughput, event-driven enterprise platforms with compliance, observability, and operational cost improvements.",
+        "key_pointers": [
+          "Jupiter hub-and-spoke payment architecture securing $240M/month card and UPI transactions.",
+          "Brane enterprise SaaS platform across tenancy, metering, telemetry, billing, and on-prem distribution.",
+          "Gaian platform redesign scaling 20K to 100K QPS and reducing permission checks from 25s to under 5ms."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436704458",
+      "dedupe_key": "linkedin:4436704458",
+      "source": "linkedin",
+      "source_job_id": "4436704458",
+      "source_url": "https://www.linkedin.com/jobs/view/4436704458",
+      "company": "phData",
+      "role": "Director - Data Engineering",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Director / strategic data and AI customer engineering leadership",
+      "compensation_signals": [
+        "Remote-first data and AI consultancy partnering with Snowflake, AWS, Anthropic, Azure, GCP, Fivetran, Pinecone, Glean, and dbt.",
+        "Role is described as strategic, high-pressure, mission-critical, and CTO-like for strategic customer accounts.",
+        "Partner ecosystem and account-expansion ownership may include senior consulting compensation but must be validated."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 88,
+      "fit_reason": "Good Director-level match for data/AI platform architecture, executive communication, cloud, MLOps, delivery oversight, and account strategy. Conservative because it is consulting/revenue-accountable rather than pure product/platform engineering.",
+      "fit_signals": [
+        "Requires 10+ years building complex data or AI/ML platforms in production and 3+ years consulting leadership with client ownership.",
+        "Remote India is directly aligned with location preference.",
+        "Resume supports cloud data platforms, AI systems, enterprise architecture, and stakeholder-heavy technical leadership."
+      ],
+      "risk_flags": [
+        "Consulting leadership and revenue accountability may be a material mode shift from current product/platform role.",
+        "Travel for customer meetings is required; confirm cadence.",
+        "Compensation may lag top product companies despite senior title."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 1 school alum works at phData.",
+      "resume_theme": {
+        "name": "Director data and AI platform advisor",
+        "positioning": "Executive-level data/AI platform architect who turns ambiguous enterprise needs into cloud roadmaps, architecture, production systems, and measurable outcomes.",
+        "key_pointers": [
+          "AWS EMR, Airflow, Flink, Kubernetes cloud-data platform at Jupiter Money.",
+          "Brane data/event platform across ClickHouse, Kafka Connect, Glue, S3, ScyllaDB, Kafka, TiDB, and Redis.",
+          "MuleSoft proactive diagnostics architecture turning operational signals into cited AI diagnoses."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4433177574",
+      "dedupe_key": "linkedin:4433177574",
+      "source": "linkedin",
+      "source_job_id": "4433177574",
+      "source_url": "https://www.linkedin.com/jobs/view/4433177574",
+      "company": "Oracle",
+      "role": "Principal Core Infrastructure Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Engineer IC4 / OCI network automation infrastructure",
+      "compensation_signals": [
+        "Large cloud infrastructure company with OCI networking scope.",
+        "Role designs distributed systems for scalable, resilient, operable network automation and global region deployment efficiency.",
+        "Principal IC4 role at Oracle Cloud Infrastructure is compensation-likely but not at priority-company ceiling."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 87,
+      "fit_reason": "Good infrastructure fit for distributed systems, fleet automation, monitoring, incident response, runbooks, telemetry, access controls, and secure cloud networking. Conservative because networking-device automation and Linux systems engineering depth are more specialized than the resume center of gravity.",
+      "fit_signals": [
+        "Requires distributed systems with scalability, resiliency, operability, alarms, dashboards, telemetry, incident response, and RCAs.",
+        "Maps to Hyperforce platform operations, Kubernetes/cloud infrastructure, observability, and rollout automation evidence.",
+        "OCI company quality and cloud infrastructure scope are strong."
+      ],
+      "risk_flags": [
+        "On-site Bengaluru expectation; confirm flexibility.",
+        "Networking-device management and Linux systems requirements may need careful resume positioning.",
+        "IC4 Principal may not meet Director trajectory depending on compensation/scope."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 6 connections work at Oracle.",
+      "resume_theme": {
+        "name": "Cloud network automation infrastructure",
+        "positioning": "Principal infrastructure engineer for resilient cloud automation, fleet operations, observability, incident response, and secure global deployment tooling.",
+        "key_pointers": [
+          "GIA2H and Hyperforce rollout work across app and infra repos, new-FI onboarding automation, and LaunchDarkly Relay Proxy support.",
+          "Anypoint Monitoring blue-green deploys and multi-region rollout with zero customer-visible SLO regression.",
+          "Brane full enterprise SaaS infrastructure, platform, and security stack built with a 2-engineer team."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4416331735",
+      "dedupe_key": "linkedin:4416331735",
+      "source": "linkedin",
+      "source_job_id": "4416331735",
+      "source_url": "https://www.linkedin.com/jobs/view/4416331735",
+      "company": "NVIDIA",
+      "role": "Senior Solutions Architect Networking",
+      "location": "Mumbai, Maharashtra, India",
+      "work_type": "On-site / unspecified",
+      "experience_level": "Senior Solutions Architect / AI-HPC networking infrastructure",
+      "compensation_signals": [
+        "Priority high-compensation-likely company in recruiting config.",
+        "Role builds large-scale AI/HPC infrastructure for customers and supports reliability of large AI clusters.",
+        "NVIDIA data-center/AI infrastructure roles are strong compensation signals, but customer-facing scope must be validated."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 86,
+      "fit_reason": "Good AI infrastructure architecture fit around large-scale AI/HPC clusters, monitoring, logging, alerting, lifecycle operations, automation, and cloud/network architecture. Conservative because the role is customer-facing networking-heavy and Mumbai-based, and it may be less aligned with product/platform leadership.",
+      "fit_signals": [
+        "Covers AI/HPC infrastructure, operational reliability, monitoring, alerting, deployment, and refinement.",
+        "Resume has cloud/platform architecture, observability, incident response, and large-scale distributed systems evidence.",
+        "Priority company and AI infrastructure domain make it worth human review despite title/location risks."
+      ],
+      "risk_flags": [
+        "Networking protocols and switch/router platform depth are central; validate fit before approval.",
+        "Mumbai location and customer-facing travel expectations may conflict with preference.",
+        "Senior Solutions Architect title may be less aligned with Director/Principal product-platform trajectory."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 430 company alumni for NVIDIA India postings.",
+      "resume_theme": {
+        "name": "AI cluster reliability architecture",
+        "positioning": "Cloud and observability architect for reliable AI/HPC infrastructure, automation, lifecycle operations, and customer-scale deployment support.",
+        "key_pointers": [
+          "Anypoint Monitoring platform with 50K-100K concurrent evaluations and Prometheus/Grafana observability depth.",
+          "Brane full on-prem distribution on Nutanix, ScyllaDB, Kafka, TiDB, and ClickHouse.",
+          "Led 30-person DevOps + SRE organization across CI/CD, observability, IaC, cost, incident response, and security."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4433185083",
+      "dedupe_key": "linkedin:4433185083",
+      "source": "linkedin",
+      "source_job_id": "4433185083",
+      "source_url": "https://www.linkedin.com/jobs/view/4433185083",
+      "company": "LTM",
+      "role": "Head of Engineering",
+      "location": "Mumbai, Maharashtra, India",
+      "work_type": "Hybrid",
+      "experience_level": "Head of Engineering / enterprise AI platform delivery leadership",
+      "compensation_signals": [
+        "Head of Engineering role owning enterprise-grade AI platform delivery and production operations.",
+        "Scope includes backend, AI, data, frontend, QA, and DevOps teams with platform reliability, security, and release governance.",
+        "Compensation quality is uncertain because company signal is weaker than target priority list."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 85,
+      "fit_reason": "Strong role-scope alignment for Head of Engineering: cloud-native microservices, distributed systems, AI integrations, workflow orchestration, observability, DevOps, security, incident management, and AI-assisted SDLC. Conservative because company/compensation signal is unclear and Mumbai hybrid may not fit.",
+      "fit_signals": [
+        "Role explicitly owns engineering organization for enterprise-grade AI platform delivery and operations.",
+        "Technical stack includes Kubernetes, cloud, Kafka/RabbitMQ, API gateways, observability, LLM ecosystems, and workflow orchestration.",
+        "Resume supports AI engineering systems, enterprise SaaS platform ownership, and multi-team leadership."
+      ],
+      "risk_flags": [
+        "Company identity/compensation signal is weaker than priority companies; review manually before approval.",
+        "Mumbai hybrid location may be a blocker.",
+        "Role may be delivery-execution heavy rather than architecture/product-platform heavy."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 11 school alumni work at LTM.",
+      "resume_theme": {
+        "name": "Enterprise AI platform engineering head",
+        "positioning": "Engineering head for AI platform delivery, production readiness, DevOps, observability, security, and AI-assisted engineering practices.",
+        "key_pointers": [
+          "Founding MuleSoft engineer for multi-tenant observability, agent federation, and agentic developer systems on Hyperforce.",
+          "Led 30-person DevOps + SRE organization and built Brane's enterprise SaaS platform stack.",
+          "Internal IDE/Unleash and governed multi-agent systems as proof of AI-assisted SDLC leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/design_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4374289623",
+      "dedupe_key": "linkedin:4374289623",
+      "source": "linkedin",
+      "source_job_id": "4374289623",
+      "source_url": "https://www.linkedin.com/jobs/view/4374289623",
+      "company": "CrowdStrike",
+      "role": "Senior Linux Systems Engineer - Object Storage (2PM -11PM IST)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site / unspecified",
+      "experience_level": "Senior systems engineer / large-scale object storage infrastructure",
+      "compensation_signals": [
+        "Security leader with explicit job-post benefit signal: market leader in compensation and equity awards.",
+        "Role operates large-scale distributed systems at a company processing almost 3 trillion events per day.",
+        "Object storage infrastructure spans over 2,000 Linux servers in critical production environments."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-720683e4",
+      "fit_score": 83,
+      "fit_reason": "Worth review for company quality, compensation signal, distributed systems scale, observability, storage, automation, and security, but below top tier because it is a Senior Linux systems role rather than Principal/Director and requires deep Linux internals/object-storage specialization.",
+      "fit_signals": [
+        "Requires 11+ years on large-scale distributed systems, observability, Prometheus/Grafana/ELK, automation with Python/Go, and security focus.",
+        "Resume has OpenSearch SIEM, Prometheus/Grafana observability, cloud/SRE leadership, and distributed platform operations.",
+        "High compensation signal and cybersecurity platform scale justify unreviewed tracking."
+      ],
+      "risk_flags": [
+        "Title and scope may be below Director/Principal trajectory.",
+        "Deep Linux kernel/object-storage requirements may be a mismatch.",
+        "2PM-11PM IST shift and on-site expectations need explicit review."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 156 company alumni work at CrowdStrike.",
+      "resume_theme": {
+        "name": "Large-scale security storage operations",
+        "positioning": "Distributed systems and SRE leader for security-scale storage, observability, automation, production operations, and incident-aware infrastructure.",
+        "key_pointers": [
+          "Jupiter in-house SIEM processing 200 GB/hour on OpenSearch with anomaly detection on banking logs.",
+          "Led 30-person DevOps + SRE organization across observability, IaC, incident response, and security.",
+          "Anypoint Monitoring and Prometheus/Grafana platform migration with large concurrency and cost reduction."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/incident_reviews/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-03T11:22:55Z",
+      "notes": []
+    },
     {
       "job_id": "linkedin-4413495517",
       "dedupe_key": "linkedin:4413495517",
