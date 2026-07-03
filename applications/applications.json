@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-02T15:36:53Z",
+  "updated_at": "2026-07-03T16:53:49Z",
   "approval_required": true,
   "allow_auto_apply": false,
   "applications": [
@@ -348,11 +348,11 @@
       "company": "NVIDIA",
       "role": "Senior Solutions Architect - Gen AI",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "rejected",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T16:53:49Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 82,
@@ -385,8 +385,13 @@
       "resume_theme_path": "applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Rejected after approved-list level review: Senior Solutions Architect is not strong enough for the target Director/Principal/Staff platform track, especially with GPU/LLM-depth mismatch.",
+        "Underleveling plus specialization mismatch; keep resume snapshot for audit, but prioritize higher-scope NVIDIA/AI infrastructure roles."
+      ],
+      "status_reason": "Rejected after approved-list level review: Senior Solutions Architect is not strong enough for the target Director/Principal/Staff platform track, especially with GPU/LLM-depth mismatch.",
+      "last_status_update_id": "level-review-20260703-nvidia-senior-solutions-architect",
+      "manual_action_required": false
     },
     {
       "application_id": "app-20260702-google-senior-staff-software-engineer-googl-20feb543",
@@ -883,11 +888,11 @@
       "company": "NVIDIA AI",
       "role": "Senior Cloud Software Engineer",
       "location": "Pune City, Maharashtra, India",
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "rejected",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T16:53:49Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 80,
@@ -910,8 +915,13 @@
       "resume_theme_path": "applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Rejected after approved-list level review: Senior Cloud Software Engineer is below the target Director/Principal/Staff trajectory and risks underleveling.",
+        "Underleveling risk is the primary blocker; keep resume snapshot for audit, but do not spend an application slot here."
+      ],
+      "status_reason": "Rejected after approved-list level review: Senior Cloud Software Engineer is below the target Director/Principal/Staff trajectory and risks underleveling.",
+      "last_status_update_id": "level-review-20260703-nvidia-senior-cloud-swe",
+      "manual_action_required": false
     },
     {
       "application_id": "app-20260702-blinkrx-director-engineering-586d1421",
