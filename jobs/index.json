@@ -1,11 +1,281 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T11:22:55Z",
-  "active_batch_id": "batch-20260703-720683e4",
-  "last_scheduler_run_at": "2026-07-03T11:22:55Z",
+  "updated_at": "2026-07-03T12:04:51Z",
+  "active_batch_id": "batch-20260703-a51e4447",
+  "last_scheduler_run_at": "2026-07-03T12:04:51Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
+    {
+      "job_id": "linkedin-4417789033",
+      "dedupe_key": "linkedin:4417789033",
+      "source": "linkedin",
+      "source_job_id": "4417789033",
+      "source_url": "https://www.linkedin.com/jobs/view/4417789033",
+      "company": "ABBYY",
+      "role": "Staff Engineer - Data/AI Platform Engineering",
+      "location": "Bengaluru East, Karnataka, India",
+      "work_type": "Hybrid / flexible options stated",
+      "experience_level": "Staff Engineer / hands-on data and AI platform architecture leadership",
+      "compensation_signals": [
+        "Enterprise AI and intelligent automation company with 10,000+ customers including Fortune 500 names.",
+        "Staff-level role defining architecture for production data, ML, MLOps, governance, inference, and compliance platforms.",
+        "Flexible work and global benefits are stated, but cash/equity compensation is not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-a51e4447",
+      "fit_score": 91,
+      "fit_reason": "Strong Staff/Principal trajectory fit: enterprise AI platform architecture, data governance, privacy, MLOps, model observability, scalable inference, cloud reliability, and cross-team technical leadership map closely to the MuleSoft agent platform, observability, compliance, and data-platform resume evidence.",
+      "fit_signals": [
+        "Role owns architecture across data lakes, document systems, AI pipelines, ingestion, processing, access layers, and ML lifecycle management.",
+        "Requires production ML deployment, model observability, privacy-preserving pipelines, compliance, and secure platform design.",
+        "Resume has governed AI systems, observability, compliance, data streaming, and 0->1 enterprise platform evidence."
+      ],
+      "risk_flags": [
+        "Company compensation may be below priority-company bands; validate package before approval.",
+        "Azure and document/OCR domain are adjacent rather than current resume center; tailor around enterprise AI/data platform governance.",
+        "Hybrid/flexible details should be confirmed before applying."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search showed 11 company alumni for the ABBYY posting.",
+      "resume_theme": {
+        "name": "Enterprise AI data platform architecture",
+        "positioning": "Staff platform architect for governed AI/data systems, model lifecycle reliability, observability, privacy, and production-grade enterprise infrastructure.",
+        "key_pointers": [
+          "MuleSoft agent federation and diagnostic evidence plane with MCP/A2A, LangGraph contracts, memory/RAG boundaries, workload isolation, audit, budget, and safety controls.",
+          "Anypoint Monitoring and Visualizer scale stories: Prometheus, Druid, multi-tenant alert evaluation, topology freshness, and production observability reliability.",
+          "Jupiter and Brane compliance/platform history covering SOC 2, ISO 27001, PCI-DSS, multi-tenant data platforms, and enterprise SaaS foundations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/",
+          "work/RFCs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T12:04:51Z",
+      "updated_at": "2026-07-03T12:04:51Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4432375296",
+      "dedupe_key": "linkedin:4432375296",
+      "source": "linkedin",
+      "source_job_id": "4432375296",
+      "source_url": "https://www.linkedin.com/jobs/view/4432375296",
+      "company": "Tekion Corp",
+      "role": "Director of Engineering",
+      "location": "Chennai, Tamil Nadu, India",
+      "work_type": "On-site",
+      "experience_level": "Director / site engineering leader managing managers and ~20 engineers",
+      "compensation_signals": [
+        "Job post states competitive compensation and generous stock options.",
+        "P0 engineering leadership hire for a cloud-native, AI-native automotive retail platform.",
+        "Scope includes full Chennai engineering organization, staff engineers, applied ML, platform dependencies, and US product counterpart ownership."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-a51e4447",
+      "fit_score": 89,
+      "fit_reason": "Strong Director trajectory fit: the role needs engineering org leadership, Java distributed SaaS architecture, event-driven systems, AWS, AI-native integration patterns, observability standards, and India-US execution. The resume has Director-adjacent org leadership, platform architecture, AI agent systems, and enterprise SaaS scale.",
+      "fit_signals": [
+        "Requires 12+ years, 5+ years leadership, manager-of-managers experience, and teams of 15+ engineers.",
+        "Matches Java backend systems, distributed microservices, event-driven architecture, SaaS on AWS, AI-native products, and MCP tool design.",
+        "Resume has 30-person DevOps/SRE leadership, 40-engineer Niki leadership, MuleSoft principal platform ownership, and Brane/Jupiter platform architecture."
+      ],
+      "risk_flags": [
+        "On-site Chennai requirement is a meaningful location risk from Bengaluru.",
+        "Automotive retail domain is adjacent; tailor around platform, AI-native architecture, and distributed execution rather than domain depth.",
+        "Executive delivery/accountability role may require emphasizing manager-of-managers evidence from Brane and Niki."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed over 100 applicants; no named connection signal was visible in fetched details.",
+      "resume_theme": {
+        "name": "AI-native engineering director",
+        "positioning": "Director-level platform leader who combines manager-of-managers execution with hands-on distributed systems, AI integration, observability, and India-US product engineering alignment.",
+        "key_pointers": [
+          "Lead with Brane 30-person DevOps/SRE org and Niki 3 EM / 40 engineer leadership to prove org ownership.",
+          "Use MuleSoft principal engineer ownership for Hyperforce observability, governed agent systems, and cross-team RFC direction.",
+          "Tie Java/distributed/event-driven requirements to Brane workflow/event billing, MuleSoft alerting, and Jupiter payments/compliance platforms."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/",
+          "work/collaboration/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T12:04:51Z",
+      "updated_at": "2026-07-03T12:04:51Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4408549670",
+      "dedupe_key": "linkedin:4408549670",
+      "source": "linkedin",
+      "source_job_id": "4408549670",
+      "source_url": "https://www.linkedin.com/jobs/view/4408549670",
+      "company": "Zscaler",
+      "role": "Principal Site Reliability Engineer (Linux/Networking/Automation)",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal SRE / cloud security platform operations engineering",
+      "compensation_signals": [
+        "High-compensation-likely public cloud security company with AI-forward Zero Trust Exchange platform messaging.",
+        "Principal-level role supporting FedRAMP cloud products, AWS GovCloud/private cloud, Kubernetes, IaC, monitoring, and incident automation.",
+        "Security platform and compliance scope can map to senior platform/SRE compensation bands, though salary is not visible."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-a51e4447",
+      "fit_score": 87,
+      "fit_reason": "Strong platform/SRE/security fit: FedRAMP operations, vulnerability management, continuous monitoring, Kubernetes, IaC, distributed systems, incident prevention, AIOps, and AI-driven anomaly detection align with the resume's observability, SRE, compliance, and security-platform experience. Conservative because the role is operationally heavy and Hyderabad hybrid.",
+      "fit_signals": [
+        "Requires 10+ years SRE with operations plus engineering, large-scale distributed systems, cloud services, Kubernetes, Terraform/Ansible, Python, networking, and web security.",
+        "Preferred AIOps, predictive autoscaling, and log anomaly detection align with MuleSoft alerting and Jupiter SIEM evidence.",
+        "Resume includes SOC 2/ISO/PCI compliance ownership, observability platform migration, incident response, SRE leadership, and cloud infrastructure."
+      ],
+      "risk_flags": [
+        "Hybrid Hyderabad location is a relocation/commute risk.",
+        "Role appears operations-heavy; confirm architecture and platform-building scope before approval.",
+        "FedRAMP/GovCloud specifics are adjacent but not direct resume evidence; use compliance and security-platform parallels cautiously."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search showed 3 connections work at Zscaler for the posting.",
+      "resume_theme": {
+        "name": "Cloud security SRE and observability",
+        "positioning": "Principal SRE/platform engineer for secure cloud infrastructure, compliance operations, observability automation, incident prevention, and AI-assisted reliability.",
+        "key_pointers": [
+          "Jupiter compliance ownership across ISO 27001, SOC 2, PCI-DSS, NPCI, UPI SAR plus in-house SIEM at 200 GB/hour.",
+          "MuleSoft alerting platform: 3M-alert migration, 50K-100K concurrent evaluations, P99 < 1s, multi-region rollout, SLO-safe migration.",
+          "Brane DevOps/SRE leadership across CI/CD, observability, IaC, cost, incident response, and security."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/incident_reviews/",
+          "work/architecture/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T12:04:51Z",
+      "updated_at": "2026-07-03T12:04:51Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436375760",
+      "dedupe_key": "linkedin:4436375760",
+      "source": "linkedin",
+      "source_job_id": "4436375760",
+      "source_url": "https://www.linkedin.com/jobs/view/4436375760",
+      "company": "Blend",
+      "role": "Associate Director - Platform Engineering",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "Hybrid",
+      "experience_level": "Associate Director / senior client-facing platform engineering workstream lead",
+      "compensation_signals": [
+        "Associate Director platform leadership scope across large client delivery, Azure, IaC, DevSecOps, observability, and governance.",
+        "Senior client-facing technical accountability and capability-development responsibilities suggest higher-than-standard consulting band, but compensation is not visible.",
+        "Databricks on Azure, Unity Catalog, SOC 2, ISO 27001, and AI workload platform foundations are preferred."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-a51e4447",
+      "fit_score": 83,
+      "fit_reason": "Good platform architecture and leadership fit: Azure platform, Kubernetes, Terraform, microservices, event-driven architecture, DevSecOps, governance, observability, cost management, and client-facing decision ownership align with the resume. Conservative because Blend is consulting/professional services and the title is Associate Director rather than Director/Principal at a priority company.",
+      "fit_signals": [
+        "Role leads platform engineering workstreams end-to-end with senior client accountability and technical decision ownership.",
+        "Strong match to cloud infrastructure, Kubernetes, Terraform/IaC, platform governance, observability, and security/compliance evidence.",
+        "Nice-to-have Databricks/Azure data platform and AI workload foundations align with prior data/platform work."
+      ],
+      "risk_flags": [
+        "Consulting delivery context may be less aligned with product/platform career trajectory.",
+        "Hybrid Hyderabad location risk.",
+        "Compensation likely needs validation against target before approval."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search showed 1 school alum for the Blend posting.",
+      "resume_theme": {
+        "name": "Enterprise cloud platform workstream leadership",
+        "positioning": "Client-facing platform architecture leader for secure cloud foundations, Kubernetes, IaC, DevSecOps, observability, and data/AI workload enablement.",
+        "key_pointers": [
+          "Brane enterprise SaaS platform and security stack built with a 2-engineer core team, plus 30-person DevOps/SRE org leadership.",
+          "MuleSoft Hyperforce work across multi-region rollout, new-FI onboarding automation, LaunchDarkly Relay Proxy, and GIA-mode deployment wiring.",
+          "Jupiter compliance/platform evidence for ISO 27001, SOC 2, PCI-DSS, SIEM, and AWS data platform ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/ADRs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T12:04:51Z",
+      "updated_at": "2026-07-03T12:04:51Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4427922375",
+      "dedupe_key": "linkedin:4427922375",
+      "source": "linkedin",
+      "source_job_id": "4427922375",
+      "source_url": "https://www.linkedin.com/jobs/view/4427922375",
+      "company": "LinkedIn",
+      "role": "Staff Software Engineer - ServiceNow",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Staff Engineer / enterprise platform architecture and governance",
+      "compensation_signals": [
+        "High-compensation-likely company with Staff-level Bengaluru role.",
+        "Scope impacts LinkedIn's 17,500+ employees and contingent workforce through enterprise operations platform architecture.",
+        "Staff ownership spans CMDB/ITOM, governance, analytics, platform integrations, data quality, and audit-ready documentation."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-a51e4447",
+      "fit_score": 80,
+      "fit_reason": "Borderline but worth tracking because it is Staff-level at LinkedIn in Bengaluru with enterprise platform architecture, governance, integrations, observability-adjacent ITOM/event management, analytics, and audit-ready documentation. Conservative because ServiceNow specialization is a major domain mismatch versus core distributed systems and AI infrastructure targets.",
+      "fit_signals": [
+        "Requires 10+ years software design and development plus technical authority across platform governance, CMDB/ITOM, integrations, analytics, and operations.",
+        "Maps partially to enterprise platform governance, operational data quality, compliance, and architecture documentation evidence.",
+        "Company and location are strong; role level meets Staff target."
+      ],
+      "risk_flags": [
+        "ServiceNow-specific CTA/CMA preference and module experience are not strong resume evidence.",
+        "May underuse distributed systems, AI infrastructure, and cloud platform strengths.",
+        "Hybrid office expectations should be confirmed."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants; no named connection signal was visible in fetched details.",
+      "resume_theme": {
+        "name": "Enterprise operations platform governance",
+        "positioning": "Staff platform engineer for enterprise operations systems, integration governance, operational data quality, compliance, observability, and architecture guardrails.",
+        "key_pointers": [
+          "MuleSoft RFC and platform governance work: architecture ownership, cross-team technical direction, launch controls, and test coherence.",
+          "Jupiter and Brane compliance/security platform evidence for audit-ready systems and operational controls.",
+          "Anypoint Monitoring and Visualizer evidence for observability, topology, and operational reliability at scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T12:04:51Z",
+      "updated_at": "2026-07-03T12:04:51Z",
+      "notes": []
+    },
     {
       "job_id": "linkedin-4433175429",
       "dedupe_key": "linkedin:4433175429",
