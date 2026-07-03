@@ -1,9 +1,1032 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T17:49:58Z",
+  "updated_at": "2026-07-03T18:00:36Z",
   "approval_required": true,
   "allow_auto_apply": false,
   "applications": [
+    {
+      "application_id": "app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c",
+      "job_id": "linkedin-4333046456",
+      "dedupe_key": "linkedin:4333046456",
+      "source": "linkedin",
+      "source_job_id": "4333046456",
+      "source_url": "https://www.linkedin.com/jobs/view/4333046456",
+      "company": "Rubrik",
+      "role": "Principal Engineer - Dev Platform (Developer Experience)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent platform and AI-productivity fit: the role is director-equivalent IC ownership for developer platform, infrastructure, observability, cloud tooling, AI/ML developer workflows, multi-org consensus, Staff-to-Principal mentorship, and long-range technical strategy. The resume has MuleSoft observability, Unleash/internal IDE, governed agents, Brane platform/SRE leadership, and cross-team RFC evidence.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Rubrik",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 33 school alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 33 school alumni work at Rubrik for this posting.",
+      "resume_theme": {
+        "name": "Director-equivalent developer platform strategy",
+        "positioning": "Principal platform architect for developer productivity, AI-assisted engineering, observability, cloud infrastructure, and cross-org technical strategy.",
+        "key_pointers": [
+          "Lead with Internal IDE/Unleash: local-first workspaces, isolated git worktrees, terminal/chat/file/diff/browser/PR/GUS context, automations, and structured A2UI reports.",
+          "Use MuleSoft Hyperforce alerting and Visualizer to prove observability, cloud infrastructure, and distributed platform scale.",
+          "Use Brane 30-person DevOps/SRE leadership plus 2-engineer enterprise platform/security stack to show director-equivalent influence and leverage."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/design_docs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80",
+      "job_id": "linkedin-4365274472",
+      "dedupe_key": "linkedin:4365274472",
+      "source": "linkedin",
+      "source_job_id": "4365274472",
+      "source_url": "https://www.linkedin.com/jobs/view/4365274472",
+      "company": "Rubrik",
+      "role": "Architect, AI Data Platform & Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Good AI data platform architecture fit: GenAI data architecture, RAG, semantic search, model governance, governed data layers, RBAC, metadata, observability, developer productivity, and production AI platform operations map to MuleSoft governed agents/evidence plane, Brane/Jupiter data platforms, vector search, compliance, and observability evidence. Conservative because the role appears more enterprise-data/internal architecture than core product infrastructure.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Rubrik",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 60 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 60 company alumni work at Rubrik for this posting.",
+      "resume_theme": {
+        "name": "Governed AI data platform architecture",
+        "positioning": "AI data platform architect for governed RAG, semantic layers, model governance, RBAC, observability, lineage, and trusted enterprise data products.",
+        "key_pointers": [
+          "Use AM Agent Federation and diagnostic evidence plane for governed AI/RAG boundaries, source references, audit, cost, and tenant controls.",
+          "Use Jupiter multi-tenant AWS data platform and Brane ClickHouse/Kafka/Glue/S3 entity data pipeline for data architecture evidence.",
+          "Use Brane global search on vector embeddings plus Elasticsearch for semantic/faceted/typeahead/fuzzy search relevance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/",
+          "work/architecture/",
+          "work/RFCs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-6sense-principal-architect-68cfd70b",
+      "job_id": "linkedin-4387409051",
+      "dedupe_key": "linkedin:4387409051",
+      "source": "linkedin",
+      "source_job_id": "4387409051",
+      "source_url": "https://www.linkedin.com/jobs/view/4387409051",
+      "company": "6sense",
+      "role": "Principal Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Very strong Principal Architect fit for distributed cloud systems, platform evolution, architecture councils, event-driven systems, data platforms, Kubernetes, DevOps, cost optimization, and senior influence.",
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 29 company alumni and over 100 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Distributed SaaS principal architect",
+        "positioning": "Principal Architect for cloud-scale SaaS systems, platform modernization, event-driven/data platforms, reliability, and architecture governance.",
+        "key_pointers": [
+          "Lead with MuleSoft multi-tenant observability and Visualizer scale: Prometheus, Druid, 50K-100K evaluations, topology freshness, and SLO-safe migration.",
+          "Use Brane platform story for enterprise SaaS control plane, tenancy, metering, telemetry, billing, and 2-engineer core infrastructure stack.",
+          "Highlight architecture governance through RFCs, ADRs, cross-team technical direction, and standards-setting."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/design_docs/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-6sense-principal-architect-68cfd70b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-6sense-principal-architect-68cfd70b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-okta-staff-engineer-developer-platform-4af9192c",
+      "job_id": "linkedin-4388472818",
+      "dedupe_key": "linkedin:4388472818",
+      "source": "linkedin",
+      "source_job_id": "4388472818",
+      "source_url": "https://www.linkedin.com/jobs/view/4388472818",
+      "company": "Okta",
+      "role": "Staff Engineer, Developer Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 85,
+      "fit_reason": "Good developer-platform and security fit through SDK/API ergonomics, open-source tooling, release automation, auth flows, retries, rate limiting, CI, and cross-team technical direction. Score is lower because it is narrower than distributed infrastructure and likely below Principal/Director trajectory.",
+      "people": [],
+      "connections_summary": "LinkedIn showed 8 school alumni work at Okta in the search result.",
+      "resume_theme": {
+        "name": "Secure developer tooling platform",
+        "positioning": "Staff engineer for secure developer experience, SDK/API contracts, automation, release workflows, and AI-era identity platform tooling.",
+        "key_pointers": [
+          "MCP-first tool facades, A2A contracts, SDK/API experience, and governed agentic workflows.",
+          "Unleash IDE distribution, release feeds, GitHub Enterprise Pages publishing, and unauthenticated download verification.",
+          "Security and compliance foundation across zero trust, PCI-DSS, SOC 2, ISO 27001, IAM design, and Keycloak."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-okta-staff-engineer-developer-platform-4af9192c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-okta-staff-engineer-developer-platform-4af9192c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8",
+      "job_id": "linkedin-4391891539",
+      "dedupe_key": "linkedin:4391891539",
+      "source": "linkedin",
+      "source_job_id": "4391891539",
+      "source_url": "https://www.linkedin.com/jobs/view/4391891539",
+      "company": "LinkedIn",
+      "role": "Principal Staff Software Engineer, Systems Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Strong platform-infrastructure fit by scope and company quality: very-large-scale distributed systems, data processing pipelines, pubsub, observability, compliance, AI platform, cross-team architecture, API/interface design, and strategy all align with the candidate's platform and observability record. Score is conservative because the posting requires 18+ years and heavy BigData depth.",
+      "people": [],
+      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants with over 100 applicants; no named connection signal was visible.",
+      "resume_theme": {
+        "name": "Principal staff systems infrastructure",
+        "positioning": "Principal Staff systems engineer for BigData, pubsub, observability, compliance, AI platforms, interface design, and internet-scale distributed infrastructure.",
+        "key_pointers": [
+          "Lead with Visualizer Druid-native topology and Anypoint Monitoring alerting scale for observability and distributed infrastructure proof.",
+          "Use Brane event-billing, workflow engine, entity data pipeline, and global search for BigData/pubsub/data-platform breadth.",
+          "Use AM Agent Federation and governance evidence for AI platform, privacy, compliance, and source-grounded diagnostic systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63",
+      "job_id": "linkedin-4398008892",
+      "dedupe_key": "linkedin:4398008892",
+      "source": "linkedin",
+      "source_job_id": "4398008892",
+      "source_url": "https://www.linkedin.com/jobs/view/4398008892",
+      "company": "GE HealthCare",
+      "role": "Director PCS Cloud Operations SRE",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Very strong match for Director SRE/CloudOps: the posting centers on SLIs/SLOs, observability, AIOps, incident management, AWS operations, DevSecOps, and FinOps, which mirrors Rohit's MuleSoft observability and Hyperforce platform work.",
+      "people": [],
+      "connections_summary": "LinkedIn detail did not show named reachable connections; search result showed 12 company alumni work there and posting has over 100 clicks.",
+      "resume_theme": {
+        "name": "Director cloud operations and observability",
+        "positioning": "Position Rohit as an SRE/CloudOps director candidate with proven observability, SLO, incident-readiness, FinOps, and secure cloud platform results.",
+        "key_pointers": [
+          "Lead with AMP migration, 80% cost-to-serve reduction, and zero customer-visible SLO regression.",
+          "Emphasize proactive diagnosis architecture, alert-storm dedup, tenant budgets, and degradation flags.",
+          "Highlight Hyperforce rollout, LaunchDarkly Relay Proxy, GIA-mode deployment wiring, and test/validation harnesses."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/project_docs/README.md",
+          "work/incident_reviews/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-zscaler-principal-site-reliability-engineer-4f168b68",
+      "job_id": "linkedin-4408549670",
+      "dedupe_key": "linkedin:4408549670",
+      "source": "linkedin",
+      "source_job_id": "4408549670",
+      "source_url": "https://www.linkedin.com/jobs/view/4408549670",
+      "company": "Zscaler",
+      "role": "Principal Site Reliability Engineer (Linux/Networking/Automation)",
+      "location": "Hyderabad, Telangana, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 87,
+      "fit_reason": "Strong platform/SRE/security fit: FedRAMP operations, vulnerability management, continuous monitoring, Kubernetes, IaC, distributed systems, incident prevention, AIOps, and AI-driven anomaly detection align with the resume's observability, SRE, compliance, and security-platform experience. Conservative because the role is operationally heavy and Hyderabad hybrid.",
+      "people": [],
+      "connections_summary": "LinkedIn search showed 3 connections work at Zscaler for the posting.",
+      "resume_theme": {
+        "name": "Cloud security SRE and observability",
+        "positioning": "Principal SRE/platform engineer for secure cloud infrastructure, compliance operations, observability automation, incident prevention, and AI-assisted reliability.",
+        "key_pointers": [
+          "Jupiter compliance ownership across ISO 27001, SOC 2, PCI-DSS, NPCI, UPI SAR plus in-house SIEM at 200 GB/hour.",
+          "MuleSoft alerting platform: 3M-alert migration, 50K-100K concurrent evaluations, P99 < 1s, multi-region rollout, SLO-safe migration.",
+          "Brane DevOps/SRE leadership across CI/CD, observability, IaC, cost, incident response, and security."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/incident_reviews/",
+          "work/architecture/",
+          "work/ADRs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-zscaler-principal-site-reliability-engineer-4f168b68/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-zscaler-principal-site-reliability-engineer-4f168b68/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-ebay-principal-architect-05d225bf",
+      "job_id": "linkedin-4409208084",
+      "dedupe_key": "linkedin:4409208084",
+      "source": "linkedin",
+      "source_job_id": "4409208084",
+      "source_url": "https://www.linkedin.com/jobs/view/4409208084",
+      "company": "eBay",
+      "role": "Principal Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Very strong Principal Architect fit: director-level IC ownership of large-scale distributed data platforms, streaming and batch workloads, data lifecycle, metadata, orchestration, developer APIs, AI-assisted diagnostics, observability, SLOs, and platform standardization closely matches the candidate's data/platform, observability, AI workflow, and architecture evidence.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "eBay",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 2 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 2 connections work at eBay for this posting.",
+      "resume_theme": {
+        "name": "Principal distributed data platform architect",
+        "positioning": "Director-level IC for real-time/batch data platforms, AI-assisted operability, developer APIs, observability, and cost-aware distributed systems.",
+        "key_pointers": [
+          "Use Anypoint Visualizer Druid-native topology and event scale to anchor distributed data platform evidence.",
+          "Use Brane event billing at 10M events/min and ClickHouse/Kafka/Glue/S3 data pipeline breadth for high-throughput data systems.",
+          "Tie AM Agent Federation and Unleash to AI-assisted diagnostics, safe remediation, and developer productivity."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-ebay-principal-architect-05d225bf/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-ebay-principal-architect-05d225bf/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-stripe-engineering-manager-operations-infra-51e5b8bf",
+      "job_id": "linkedin-4413495517",
+      "dedupe_key": "linkedin:4413495517",
+      "source": "linkedin",
+      "source_job_id": "4413495517",
+      "source_url": "https://www.linkedin.com/jobs/view/4413495517",
+      "company": "Stripe",
+      "role": "Engineering Manager - Operations Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "rejected",
+      "approval_status": "archived",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T18:00:36Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent fit for platform/infrastructure leadership: event streaming backbone, Tier0 infrastructure, observability, reliability, backpressure, graceful degradation, and org-level strategy. Strong compensation/company signal; title is manager rather than Director, so score stays below perfect.",
+      "people": [],
+      "connections_summary": "LinkedIn showed 4 connections work at Stripe.",
+      "resume_theme": {
+        "name": "Tier0 event infrastructure leadership",
+        "positioning": "Platform leader for high-scale financial and operational infrastructure, emphasizing payment-scale reliability, event streaming, observability, and cost-aware cloud operations.",
+        "key_pointers": [
+          "$240M/month payments infrastructure at Jupiter Money.",
+          "10M events/min event billing and Kafka/DynamoDB/TiDB/Redis platform work at Brane.",
+          "Multi-tenant observability migration delivering approximately $6M annualized cost reduction."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-stripe-engineering-manager-operations-infra-51e5b8bf/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-stripe-engineering-manager-operations-infra-51e5b8bf/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Rejected after full queue audit: Stripe is high-value, but plain Engineering Manager is not a clear current/next-level target versus Senior Manager, Director, Principal, or Staff-plus roles.",
+        "Leveling risk: prioritize Stripe Staff/Principal/Senior Manager/Director roles over plain Engineering Manager for this search."
+      ],
+      "status_reason": "Rejected after full queue audit: Stripe is high-value, but plain Engineering Manager is not a clear current/next-level target versus Senior Manager, Director, Principal, or Staff-plus roles.",
+      "last_status_update_id": "queue-audit-20260703-stripe-em-level",
+      "manual_action_required": false
+    },
+    {
+      "application_id": "app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3",
+      "job_id": "linkedin-4415271375",
+      "dedupe_key": "linkedin:4415271375",
+      "source": "linkedin",
+      "source_job_id": "4415271375",
+      "source_url": "https://www.linkedin.com/jobs/view/4415271375",
+      "company": "Databricks",
+      "role": "Senior Engineering Manager - Backend",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong manager/director trajectory fit at a priority company: large-scale distributed systems, multi-cloud data/AI infrastructure, ML and distributed systems intersection, cloud-agnostic services, engineering leadership, architecture reviews, monitoring, SLAs, roadmap ownership, and team growth align with the resume's platform, observability, data, AI, and org leadership evidence.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 1 connection works here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 1 connection works at Databricks; detail showed over 100 people clicked apply.",
+      "resume_theme": {
+        "name": "Data and AI infrastructure engineering leader",
+        "positioning": "Senior engineering leader for large-scale data/AI infrastructure, multi-cloud services, ML/distributed systems, engineering excellence, and team growth.",
+        "key_pointers": [
+          "Lead with Databricks-adjacent data/platform evidence: Visualizer Druid topology, Jupiter AWS data platform, Brane ClickHouse/Kafka data pipelines, and large-scale observability.",
+          "Use Brane 30-person DevOps/SRE and Niki 3 EM / 40 engineer leadership to prove people leadership.",
+          "Connect Unleash and governed agent systems to engineering productivity and AI platform direction."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/",
+          "work/collaboration/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec",
+      "job_id": "linkedin-4416582680",
+      "dedupe_key": "linkedin:4416582680",
+      "source": "linkedin",
+      "source_job_id": "4416582680",
+      "source_url": "https://www.linkedin.com/jobs/view/4416582680",
+      "company": "Google",
+      "role": "Senior Engineering Manager, Corp Eng",
+      "location": "Hyderabad, Telangana, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 87,
+      "fit_reason": "Strong company and leadership signal with distributed systems and large-scale infrastructure requirements, but domain is Corp Eng finance enterprise platforms with SAP/S4HANA, making resume fit less direct than core infrastructure roles.",
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 709 school alumni work here and detail showed over 100 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Large-scale enterprise platform engineering manager",
+        "positioning": "Senior engineering manager for distributed enterprise platforms, cross-functional technical leadership, infrastructure-scale delivery, and organizational influence.",
+        "key_pointers": [
+          "Use Brane 30-person DevOps/SRE organization and Niki 3 EM / 40 engineer leadership to prove people-management and multi-team ownership.",
+          "Lead with MuleSoft and Jupiter large-scale platform stories for distributed systems, infrastructure, reliability, and compliance.",
+          "Position Corp Eng as enterprise platform/productivity infrastructure, not as SAP-only implementation."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/",
+          "work/collaboration/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-toast-director-of-engineering-new-ventures-d617b98d",
+      "job_id": "linkedin-4418946375",
+      "dedupe_key": "linkedin:4418946375",
+      "source": "linkedin",
+      "source_job_id": "4418946375",
+      "source_url": "https://www.linkedin.com/jobs/view/4418946375",
+      "company": "Toast",
+      "role": "Director of Engineering, New Ventures",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong Director fit: new 0->1 business-line ownership, platform/infrastructure team scaling, developer productivity, delivery platforms, automation, large-scale distributed systems, event-driven/cloud-native architecture, executive communication, and entrepreneurial ambiguity align with MuleSoft 0->1 platform work, Brane/Niki leadership, consulting platform redesigns, and Unleash/internal IDE evidence.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Toast",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 6 school alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 6 school alumni work at Toast for this posting.",
+      "resume_theme": {
+        "name": "Director 0-to-1 platform venture leader",
+        "positioning": "Director-level technology leader for new ventures, platform/infrastructure teams, developer productivity, automation, and distributed systems from inception to scale.",
+        "key_pointers": [
+          "Lead with 0->1 MuleSoft agent federation, Hyperforce observability, and Unleash internal IDE product/platform stories.",
+          "Use Brane enterprise SaaS platform and Niki org leadership to prove team building, platform scaling, and executive accountability.",
+          "Use Jupiter/Niki payments and Brane billing evidence for fintech/commerce adjacency."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/collaboration/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-toast-director-of-engineering-new-ventures-d617b98d/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-toast-director-of-engineering-new-ventures-d617b98d/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8",
+      "job_id": "linkedin-4420725749",
+      "dedupe_key": "linkedin:4420725749",
+      "source": "linkedin",
+      "source_job_id": "4420725749",
+      "source_url": "https://www.linkedin.com/jobs/view/4420725749",
+      "company": "MSCI Inc.",
+      "role": "Executive Director AI Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Executive Director AI platform fit: production GenAI systems, RAG, semantic search, multi-agent orchestration, cloud-native model serving, observability, governance, and engineering team leadership.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "MSCI Inc.",
+          "profile_url": "",
+          "notes": "Search result showed 6 company alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 6 company alumni work here.",
+      "resume_theme": {
+        "name": "Production AI platform executive",
+        "positioning": "Frame the profile around governed production AI platforms backed by cloud, observability, data, and regulated-systems experience.",
+        "key_pointers": [
+          "Lead with AM Agent Federation, MuleSoft Pulse, diagnostic evidence plane, RAG boundaries, LangGraph contracts, and agent governance.",
+          "Use Hyperforce alerting and Visualizer scale to prove cloud-native observability and data infrastructure depth.",
+          "Use Jupiter compliance and Brane enterprise platform leadership for financial-grade governance and executive communication."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/README.md",
+          "work/project_docs/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23",
+      "job_id": "linkedin-4427268518",
+      "dedupe_key": "linkedin:4427268518",
+      "source": "linkedin",
+      "source_job_id": "4427268518",
+      "source_url": "https://www.linkedin.com/jobs/view/4427268518",
+      "company": "ThoughtSpot",
+      "role": "Principal Engineer (Cloud Platforms)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Very strong cloud platform fit: multi-tenant SaaS architecture, control/data plane separation, Kubernetes, GitOps, tenant isolation, resource governance, hybrid cloud, observability, zero-trust security, compliance, FinOps, and AI-augmented engineering map directly to MuleSoft Hyperforce, Brane enterprise SaaS, Jupiter compliance, and Unleash evidence.",
+      "people": [],
+      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants; no named connection signal was visible.",
+      "resume_theme": {
+        "name": "Multi-tenant SaaS cloud platform principal",
+        "positioning": "Principal cloud platform architect for control planes, data planes, tenant isolation, hybrid cloud, observability, security, compliance, and AI-augmented engineering.",
+        "key_pointers": [
+          "Lead with Brane enterprise SaaS platform: control plane, tenancy, metering, telemetry, billing, and on-prem distribution.",
+          "Use MuleSoft Hyperforce alerting for multi-tenant alert evaluation, AMP sharding, blue-green deploys, and SLO-safe migration.",
+          "Use Jupiter compliance and SIEM plus Unleash AI engineering IDE to cover security/compliance and AI-augmented platform work."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/ADRs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b",
+      "job_id": "linkedin-4428629316",
+      "dedupe_key": "linkedin:4428629316",
+      "source": "linkedin",
+      "source_job_id": "4428629316",
+      "source_url": "https://www.linkedin.com/jobs/view/4428629316",
+      "company": "DigitalOcean",
+      "role": "Senior Director of Engineering, Managed MySQL",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Exceptional Director trajectory fit: end-to-end ownership of Managed MySQL reliability, scale, observability, security, architecture, AI-native roadmap, and managers-of-managers leadership aligns with MuleSoft observability platform ownership and distributed systems background.",
+      "people": [],
+      "connections_summary": "LinkedIn detail did not show named reachable connections; posting shows DigitalOcean company profile and over 100 people clicked apply.",
+      "resume_theme": {
+        "name": "Director AI-native cloud data infrastructure",
+        "positioning": "Position Rohit as a principal-to-director platform leader who has run tier-0 observability/data infrastructure and can own reliability, scale, FinOps, and AI-native platform strategy.",
+        "key_pointers": [
+          "Lead with 3M-alert AMP migration, 80% cost-to-serve reduction, and $6M annualized observability savings.",
+          "Emphasize 50K-100K concurrent evaluations, 60+ AMP workspaces, SLO discipline, incident-readiness, and multi-region rollout.",
+          "Connect Druid-native topology and governed agentic systems to AI-ready data substrate strategy."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d",
+      "job_id": "linkedin-4429004472",
+      "dedupe_key": "linkedin:4429004472",
+      "source": "linkedin",
+      "source_job_id": "4429004472",
+      "source_url": "https://www.linkedin.com/jobs/view/4429004472",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - AI Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent AI infrastructure fit: background agents, automated workflows, eval systems, data pipelines, model-quality loops, sandboxing, latency, reliability, auditability, compliance, and enterprise controls map directly to the MuleSoft agent federation, diagnostic evidence plane, Internal IDE/Unleash, and platform observability stories.",
+      "people": [],
+      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants with over 100 applicants; no named connection signal was visible.",
+      "resume_theme": {
+        "name": "AI platform infrastructure and governed agents",
+        "positioning": "Staff AI platform engineer for agents, evals, workflow automation, sandboxing, reliability, and enterprise-grade audit/security controls.",
+        "key_pointers": [
+          "Lead with AM Agent Federation and diagnostic evidence plane: MCP-first facades, A2A delegation, LangGraph contracts, memory/RAG boundaries, audit, budget, and source references.",
+          "Connect Unleash/internal IDE to agent-assisted engineering workflows, automation surfaces, isolated worktrees, and local-first developer productivity.",
+          "Use Hyperforce observability and Brane infrastructure evidence to prove production reliability, scale, and platform operations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79",
+      "job_id": "linkedin-4433175429",
+      "dedupe_key": "linkedin:4433175429",
+      "source": "linkedin",
+      "source_job_id": "4433175429",
+      "source_url": "https://www.linkedin.com/jobs/view/4433175429",
+      "company": "Pocket FM",
+      "role": "Head of AI Platform Engineering (Platforms & Applications)",
+      "location": "Bangalore Urban, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent Director/Head trajectory fit: owns AI platform, AI applications, vendor-agnostic model architecture, evaluation frameworks, observability, governance, AI economics, and organization scaling. Strong match to governed agent systems and platform leadership, with conservative risk for on-site expectation and consumer-entertainment domain shift.",
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 1 connection works at Pocket FM.",
+      "resume_theme": {
+        "name": "AI platform and economics leadership",
+        "positioning": "AI platform leader who can turn governed agent systems, model-provider abstraction, observability, and cost controls into reusable product infrastructure.",
+        "key_pointers": [
+          "MuleSoft agent federation and governed diagnostic evidence plane with MCP, A2A, LangGraph, audit, budget, and safety controls.",
+          "Internal IDE/Unleash multi-agent engineering platform with local-first workflows and governance substrate.",
+          "Anypoint Monitoring migration delivering approximately $6M annualized cost reduction with zero customer-visible SLO regression."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/design_docs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-emergent-staff-engineer-e28e5604",
+      "job_id": "linkedin-4433672024",
+      "dedupe_key": "linkedin:4433672024",
+      "source": "linkedin",
+      "source_job_id": "4433672024",
+      "source_url": "https://www.linkedin.com/jobs/view/4433672024",
+      "company": "Emergent",
+      "role": "Staff Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong AI infrastructure fit despite Staff title: autonomous coding agents, distributed runtime execution, correctness, reliability, observability, verification, fault tolerance, and large-scale agent actions.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Emergent",
+          "profile_url": "",
+          "notes": "Detail page showed Kuldeep and others in your network"
+        },
+        {
+          "name": "Shreya Shandilya",
+          "relationship": "job poster",
+          "role": "Talent Acquisition at Emergent",
+          "profile_url": "",
+          "notes": "Visible hiring-team signal on LinkedIn detail page; no outreach performed"
+        }
+      ],
+      "connections_summary": "LinkedIn detail page showed Kuldeep and others in your network, plus a visible hiring-team poster.",
+      "resume_theme": {
+        "name": "Autonomous coding agent infrastructure staff",
+        "positioning": "Make Unleash/Internal IDE and governed multi-agent systems the core story, backed by production observability and distributed systems scale.",
+        "key_pointers": [
+          "Lead with Unleash local-first AI engineering IDE and four-plane multi-agent decision system.",
+          "Use AM Agent Federation and governed diagnostic evidence plane for agent orchestration, tool facades, workload isolation, and audit controls.",
+          "Use Hyperforce alerting scale to prove reliability, observability, and runtime operations discipline."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-emergent-staff-engineer-e28e5604/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-emergent-staff-engineer-e28e5604/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-uber-sr-manager-engineering-3c8bba1c",
+      "job_id": "linkedin-4434209590",
+      "dedupe_key": "linkedin:4434209590",
+      "source": "linkedin",
+      "source_job_id": "4434209590",
+      "source_url": "https://www.linkedin.com/jobs/view/4434209590",
+      "company": "Uber",
+      "role": "Sr Manager, Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Very strong alignment to distributed systems and data infrastructure leadership: relational database platform, Vitess/MySQL strategy, SLO ownership, incident culture, and senior leadership forums. Conservative because it is manager-track and likely expects database-internals depth.",
+      "people": [],
+      "connections_summary": "LinkedIn showed 5 connections work at Uber.",
+      "resume_theme": {
+        "name": "Online data platform leadership",
+        "positioning": "Technical leader for distributed data systems, SLO-driven production operations, and real-time platform reliability at enterprise scale.",
+        "key_pointers": [
+          "Multi-tenant data/cloud platform on AWS, EMR, Airflow, Flink, and Kubernetes.",
+          "In-house SIEM processing 200 GB/hour on OpenSearch.",
+          "10M TPS workflow/event platform across Kafka, DynamoDB, TiDB, and Redis."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-uber-sr-manager-engineering-3c8bba1c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-uber-sr-manager-engineering-3c8bba1c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-brevan-howard-head-of-security-engineering-15a0308d",
+      "job_id": "linkedin-4435434504",
+      "dedupe_key": "linkedin:4435434504",
+      "source": "linkedin",
+      "source_job_id": "4435434504",
+      "source_url": "https://www.linkedin.com/jobs/view/4435434504",
+      "company": "Brevan Howard",
+      "role": "Head of Security Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong security/platform leadership fit: cloud security, DevSecOps, secure-by-design, AI/LLM/agentic ecosystem security, vulnerability management, and automation-first controls align with compliance-heavy banking/platform background. Conservative because it requires explicit cyber-security leadership depth and is on-site.",
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 2 school alumni work at Brevan Howard.",
+      "resume_theme": {
+        "name": "Security engineering and governed AI controls",
+        "positioning": "Security/platform leader with banking-grade compliance, cloud security, DevSecOps, and governed AI/agentic-system controls.",
+        "key_pointers": [
+          "Single technical owner for ISO 27001, SOC 2, PCI-DSS, NPCI, UPI SAR compliance and partner-bank audits at Jupiter Money.",
+          "MuleSoft governed diagnostic evidence plane with audit/cost controls and prompt exposure limits.",
+          "Brane enterprise SaaS platform/security stack built by a 2-engineer team with compliance readiness."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-brevan-howard-head-of-security-engineering-15a0308d/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-brevan-howard-head-of-security-engineering-15a0308d/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08",
+      "job_id": "linkedin-4436338022",
+      "dedupe_key": "linkedin:4436338022",
+      "source": "linkedin",
+      "source_job_id": "4436338022",
+      "source_url": "https://www.linkedin.com/jobs/view/4436338022",
+      "company": "Amazon Web Services (AWS)",
+      "role": "Sr. Migration Modernization Architect, Professional Services",
+      "location": "Mumbai, Maharashtra, India; posting also says open for Delhi/NCR",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 88,
+      "fit_reason": "Strong company and cloud architecture fit, especially AWS modernization, Java/cloud-native systems, security/compliance, containers, CI/CD, and GenAI tooling; less direct than product/platform leadership because it is Professional Services and customer-facing migration work.",
+      "people": [
+        {
+          "name": "Rahul and others in your network",
+          "relationship": "visible LinkedIn network signal",
+          "role": "People you can reach out to",
+          "profile_url": "",
+          "notes": "LinkedIn displayed reachable network but did not expose full details in fetched posting."
+        }
+      ],
+      "connections_summary": "LinkedIn shows Rahul and others in network as reachable; search result showed 13 connections work at AWS.",
+      "resume_theme": {
+        "name": "AWS cloud modernization architect",
+        "positioning": "Position Rohit as a hands-on principal architect who has led cloud re-platforming, secure platform operations, GenAI/agent tooling, and stakeholder-facing architecture programs.",
+        "key_pointers": [
+          "Highlight Hyperforce re-platforming, multi-region rollout, and cloud governance mechanics.",
+          "Use Java/distributed systems, CI/CD, Kubernetes, observability, and compliance-ready platform examples.",
+          "Frame agent federation and local-first AI engineering systems as GenAI modernization accelerators."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/ADRs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-rippling-senior-engineering-manager-platform-2ee45b98",
+      "job_id": "linkedin-4436441487",
+      "dedupe_key": "linkedin:4436441487",
+      "source": "linkedin",
+      "source_job_id": "4436441487",
+      "source_url": "https://www.linkedin.com/jobs/view/4436441487",
+      "company": "Rippling",
+      "role": "Senior Engineering Manager - Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260703-current-next-level-audit",
+      "approved_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-03T17:59:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong engineering-manager platform fit: shared platform systems, developer productivity, compliance, data lifecycle, configuration management, architecture reviews, operational metrics, incident follow-through, senior engineer mentorship, and cross-functional leadership align with the candidate's platform architecture, SRE/compliance, LaunchDarkly/config rollout, and org leadership evidence.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Rippling",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 14 school alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed 14 school alumni work at Rippling for this posting.",
+      "resume_theme": {
+        "name": "Core platform engineering manager",
+        "positioning": "Senior platform engineering leader for shared systems, compliance-sensitive workflows, configuration services, developer productivity, operational excellence, and senior-engineer growth.",
+        "key_pointers": [
+          "Use Brane 30-person DevOps/SRE leadership and Niki 3 EM / 40 engineer leadership for team-management proof.",
+          "Use MuleSoft Hyperforce rollout, LaunchDarkly Relay Proxy support, alerting platform, and Visualizer simplification for shared platform execution.",
+          "Use Jupiter compliance and Brane security stack to cover data lifecycle, auditability, and compliance-adjacent systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/architecture/",
+          "work/collaboration/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-rippling-senior-engineering-manager-platform-2ee45b98/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-rippling-senior-engineering-manager-platform-2ee45b98/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
       "job_id": "linkedin-4340286558",
@@ -505,11 +1528,11 @@
       "company": "OpenAI",
       "role": "Partner AI Deployment Engineer - AWS",
       "location": "India / Bangalore",
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "rejected",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T18:00:36Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -542,8 +1565,13 @@
       "resume_theme_path": "applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Rejected after full queue audit: partner/customer deployment role is high-company-value but not a clear current/next-level core engineering, principal architect, or director path.",
+        "Role-shape risk: keep OpenAI as a target company, but do not spend an application slot on this partner-deployment track."
+      ],
+      "status_reason": "Rejected after full queue audit: partner/customer deployment role is high-company-value but not a clear current/next-level core engineering, principal architect, or director path.",
+      "last_status_update_id": "queue-audit-20260703-openai-role-shape",
+      "manual_action_required": false
     },
     {
       "application_id": "app-20260702-thoughtspot-principal-software-engineer-4fcddad6",
@@ -555,11 +1583,11 @@
       "company": "ThoughtSpot",
       "role": "Principal Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "rejected",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T17:59:36Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -584,8 +1612,13 @@
       "resume_theme_path": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Rejected after full queue audit: superseded by stronger ThoughtSpot Principal Engineer (Cloud Platforms) role; avoid duplicate company applications.",
+        "Duplicate/noisier ThoughtSpot path; keep the stronger cloud-platform principal role for application work."
+      ],
+      "status_reason": "Rejected after full queue audit: superseded by stronger ThoughtSpot Principal Engineer (Cloud Platforms) role; avoid duplicate company applications.",
+      "last_status_update_id": "queue-audit-20260703-thoughtspot-superseded",
+      "manual_action_required": false
     },
     {
       "application_id": "app-20260702-confluent-staff-software-engineer-i-confluent-b272916e",
@@ -741,11 +1774,11 @@
       "company": "GitLab",
       "role": "Staff Backend Engineer, Software Supply Chain Security",
       "location": "Greater Delhi Area / Remote",
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "rejected",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-03T17:59:36Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 87,
@@ -778,8 +1811,13 @@
       "resume_theme_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Rejected after full queue audit: weaker duplicate GitLab staff path with Ruby mismatch; keep the stronger GitLab AI Governance staff role approved.",
+        "Duplicate/noisier GitLab path; Ruby on Rails requirement creates avoidable tailoring risk."
+      ],
+      "status_reason": "Rejected after full queue audit: weaker duplicate GitLab staff path with Ruby mismatch; keep the stronger GitLab AI Governance staff role approved.",
+      "last_status_update_id": "queue-audit-20260703-gitlab-weaker-duplicate",
+      "manual_action_required": false
     },
     {
       "application_id": "app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1",
