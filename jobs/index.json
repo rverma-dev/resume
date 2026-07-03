@@ -1,11 +1,521 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T09:06:00Z",
-  "active_batch_id": "batch-20260703-2315da85",
-  "last_scheduler_run_at": "2026-07-03T09:06:00Z",
+  "updated_at": "2026-07-03T10:06:14Z",
+  "active_batch_id": "batch-20260703-3b2f177e",
+  "last_scheduler_run_at": "2026-07-03T10:06:14Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
+    {
+      "job_id": "linkedin-4413495517",
+      "dedupe_key": "linkedin:4413495517",
+      "source": "linkedin",
+      "source_job_id": "4413495517",
+      "source_url": "https://www.linkedin.com/jobs/view/4413495517",
+      "company": "Stripe",
+      "role": "Engineering Manager - Operations Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Engineering Manager / infrastructure leadership",
+      "compensation_signals": [
+        "Priority high-compensation-likely company in recruiting config.",
+        "Job post says Stripe is a financial infrastructure platform used by large enterprises and ambitious startups.",
+        "Role owns event infrastructure described as a reliable low-latency backbone capturing, routing, and persisting billions of events daily."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 97,
+      "fit_reason": "Excellent fit for platform/infrastructure leadership: event streaming backbone, Tier0 infrastructure, observability, reliability, backpressure, graceful degradation, and org-level strategy. Strong compensation/company signal; title is manager rather than Director, so score stays below perfect.",
+      "fit_signals": [
+        "Requires distributed systems depth and operating Tier0 infrastructure at massive scale.",
+        "Owns strategy for infrastructure supporting billions of daily events.",
+        "Maps to resume evidence in payments infrastructure, observability cost reduction, Kafka/Flink/data systems, and platform leadership."
+      ],
+      "risk_flags": [
+        "On-site/in-office expectation in Bengaluru; confirm flexibility.",
+        "Manager role rather than Director/Principal IC; confirm level and scope."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed 4 connections work at Stripe.",
+      "resume_theme": {
+        "name": "Tier0 event infrastructure leadership",
+        "positioning": "Platform leader for high-scale financial and operational infrastructure, emphasizing payment-scale reliability, event streaming, observability, and cost-aware cloud operations.",
+        "key_pointers": [
+          "$240M/month payments infrastructure at Jupiter Money.",
+          "10M events/min event billing and Kafka/DynamoDB/TiDB/Redis platform work at Brane.",
+          "Multi-tenant observability migration delivering approximately $6M annualized cost reduction."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4434209590",
+      "dedupe_key": "linkedin:4434209590",
+      "source": "linkedin",
+      "source_job_id": "4434209590",
+      "source_url": "https://www.linkedin.com/jobs/view/4434209590",
+      "company": "Uber",
+      "role": "Sr Manager, Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Engineering Manager / database platform leadership",
+      "compensation_signals": [
+        "Priority high-compensation-likely company in recruiting config.",
+        "Role leads Uber Online Data Platform systems including MySQL, Vitess, M3DB, ZK, ETCD, backup/restore, real-time analytics, Search, Flink, and Kafka.",
+        "Multi-layer leadership over senior engineers, TLMs, and engineering managers."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 96,
+      "fit_reason": "Very strong alignment to distributed systems and data infrastructure leadership: relational database platform, Vitess/MySQL strategy, SLO ownership, incident culture, and senior leadership forums. Conservative because it is manager-track and likely expects database-internals depth.",
+      "fit_signals": [
+        "Large-scale online data systems and distributed database operations.",
+        "Requires Go/Java, distributed systems fundamentals, roadmap ownership, and SLO/reliability ownership.",
+        "Resume supports Kafka/Flink/OpenSearch/data-platform operations, banking-grade payments, and cross-team technical leadership."
+      ],
+      "risk_flags": [
+        "Database internals/Vitess depth should be validated before approval.",
+        "Title is Sr Manager rather than Director; confirm compensation and reporting scope."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed 5 connections work at Uber.",
+      "resume_theme": {
+        "name": "Online data platform leadership",
+        "positioning": "Technical leader for distributed data systems, SLO-driven production operations, and real-time platform reliability at enterprise scale.",
+        "key_pointers": [
+          "Multi-tenant data/cloud platform on AWS, EMR, Airflow, Flink, and Kubernetes.",
+          "In-house SIEM processing 200 GB/hour on OpenSearch.",
+          "10M TPS workflow/event platform across Kafka, DynamoDB, TiDB, and Redis."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4422351060",
+      "dedupe_key": "linkedin:4422351060",
+      "source": "linkedin",
+      "source_job_id": "4422351060",
+      "source_url": "https://www.linkedin.com/jobs/view/4422351060",
+      "company": "Motorola Solutions",
+      "role": "Principal Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal Staff / Principal Architect",
+      "compensation_signals": [
+        "Large global technology company with 10001+ employees shown on LinkedIn.",
+        "Principal Staff/Principal Architect role with 15+ years requirement and organization-wide architecture governance scope.",
+        "Mission-critical unified communications platform with cloud modernization and security/reliability requirements."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 94,
+      "fit_reason": "Strong Principal Architect fit: cloud-native modernization, Kubernetes, event-driven systems, observability, platform engineering, automation, ADRs, reference architectures, and architecture governance. Company compensation signal is good but likely below Stripe/Uber/Databricks tier.",
+      "fit_signals": [
+        "Explicit platform modernization across cloud, Kubernetes, microservices, APIs, event-driven systems, observability, and automation.",
+        "Requires architecture governance, ADRs, standards, and mentoring technical leads.",
+        "Resume has principal architect trajectory, governance/RFCs, multi-tenant SaaS, observability, and security/compliance evidence."
+      ],
+      "risk_flags": [
+        "Relocation provided: none; location is Bengaluru hybrid, likely acceptable.",
+        "Domain is unified communications/safety; evaluate interest fit."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed 20 company alumni work at Motorola Solutions in the search result.",
+      "resume_theme": {
+        "name": "Principal cloud modernization architect",
+        "positioning": "Principal architect for multi-tenant platform modernization, architecture governance, observability, and secure cloud-native systems.",
+        "key_pointers": [
+          "15-RFC observability architecture series and cross-team technical direction at MuleSoft.",
+          "Built enterprise SaaS platform control plane, tenancy, metering, telemetry, billing, and on-prem distribution at Brane.",
+          "Security and compliance ownership across PCI-DSS, SOC 2, ISO 27001, NPCI/UPI SAR."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4380104127",
+      "dedupe_key": "linkedin:4380104127",
+      "source": "linkedin",
+      "source_job_id": "4380104127",
+      "source_url": "https://www.linkedin.com/jobs/view/4380104127",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - Developer Experience",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff Infrastructure Engineer",
+      "compensation_signals": [
+        "High-growth, high-compensation-likely private company; posting says raised $1.85B from top investors.",
+        "1000+ engineering organization shipping dozens of times per day.",
+        "Developer Experience owns CI/CD, development environments, and staging/demo environments with direct shipping velocity impact."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 93,
+      "fit_reason": "Strong Staff platform fit through developer productivity, CI/CD, cloud/Kubernetes/Terraform bonus skills, incident leadership, threat modeling, and cross-team architecture. Conservative because it is Staff IC, not Principal/Director, and office-heavy.",
+      "fit_signals": [
+        "Foundational DevEx systems with high leverage across a 1000+ engineer organization.",
+        "Requires distributed resilient systems, ambiguous cross-team initiatives, security/reliability, incident command, and mentoring.",
+        "Resume supports local-first AI engineering IDE, platform automation, CI/CD, Kubernetes, and multi-agent engineering systems."
+      ],
+      "risk_flags": [
+        "Posting says office-based employees work in office at least three days a week; confirm fit.",
+        "Over 100 people clicked apply; competition likely high."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search showed 138 company alumni work at Rippling for this result.",
+      "resume_theme": {
+        "name": "Developer platform velocity",
+        "positioning": "Staff platform engineer focused on developer velocity, CI/CD, environment automation, incident leadership, and secure reliable engineering systems.",
+        "key_pointers": [
+          "Built Unleash local-first AI engineering IDE with repo, ticket, PR, terminal, browser, automation, and agent context.",
+          "Introduced TEST_SCENARIOS manifests, APIM firing harnesses, Bruno coverage, and coherence-validator agent.",
+          "Led CI/CD, observability, IaC, cost, incident response, and security organization at Brane."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4388477075",
+      "dedupe_key": "linkedin:4388477075",
+      "source": "linkedin",
+      "source_job_id": "4388477075",
+      "source_url": "https://www.linkedin.com/jobs/view/4388477075",
+      "company": "Vonage",
+      "role": "Staff Architect (Golang, Distributed, System design)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff Engineer / Staff Architect",
+      "compensation_signals": [
+        "Staff Architect role requiring 12+ years and cross-team architecture leadership.",
+        "Cloud communications platform with commerce, payment, messaging, journey builder, and event-driven orchestration scope.",
+        "Benefits include private medical insurance and education reimbursement."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 92,
+      "fit_reason": "Strong architect fit for distributed/event-driven systems, workflow engines, GCP cloud architecture, SRE practices, revenue-critical systems, and AI-assisted engineering practices. Compensation/company tier likely below priority hyperscaler/fintech names, so score is capped.",
+      "fit_signals": [
+        "Requires workflow engines, routing/stateful execution, event-driven backend systems, and GCP operational excellence.",
+        "Explicitly values AI-assisted engineering adoption and architecture standards across teams.",
+        "Resume aligns with agentic engineering systems, workflow/event platforms, payments, and RFC-led architecture."
+      ],
+      "risk_flags": [
+        "Easy Apply is visible, but safety contract forbids applying; kept unreviewed.",
+        "Previous applicants/interviewed candidates are not eligible to reapply; verify no prior process."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search did not show named people; no visible connection count captured on detail page.",
+      "resume_theme": {
+        "name": "Event-driven platform architect",
+        "positioning": "Staff architect for event-driven commerce, messaging, workflow orchestration, cloud-native reliability, and AI-assisted engineering adoption.",
+        "key_pointers": [
+          "Payment SDK handling 1.2M transactions/day and partner payment architecture.",
+          "Dynamo-streams CQRS/event-sourcing order fulfillment at Niki.ai.",
+          "Agentic developer systems and governed multi-agent decision platform at MuleSoft/Unleash."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436377481",
+      "dedupe_key": "linkedin:4436377481",
+      "source": "linkedin",
+      "source_job_id": "4436377481",
+      "source_url": "https://www.linkedin.com/jobs/view/4436377481",
+      "company": "JLL",
+      "role": "Principal Architect, AI Solutions",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Remote",
+      "experience_level": "Principal Architect / senior technical leader",
+      "compensation_signals": [
+        "Principal Architect role at a large global enterprise with 10001+ employees shown on LinkedIn.",
+        "Remote Bengaluru role posted 16 hours ago with low visible click volume at discovery time.",
+        "Scope includes enterprise AI architecture, governance, observability, compliance, and platform modernization."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 90,
+      "fit_reason": "Excellent title and AI governance fit, especially agentic workflows, AI orchestration, evaluation, observability, and responsible AI guardrails. Score is lower than core tech-company infrastructure roles because JLL is not a top-priority compensation company and domain is enterprise real estate services.",
+      "fit_signals": [
+        "Requires LLM applications, retrieval, agentic workflows, tool orchestration, evaluation, AI observability, and AI governance.",
+        "Principal Architect operating across business units, standards, reference patterns, and executive/engineering influence.",
+        "Resume directly supports governed agentic products, MCP/A2A contracts, LangGraph workflows, RAG boundaries, evaluation, and compliance gating."
+      ],
+      "risk_flags": [
+        "Non-tech primary industry; compensation may not match target despite senior title.",
+        "Validate hands-on production AI expectations and reporting line."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed 41 company alumni work at JLL in the search result.",
+      "resume_theme": {
+        "name": "Governed enterprise AI architect",
+        "positioning": "Principal architect for responsible AI platforms, agentic workflows, AI observability, evaluation, governance, and enterprise platform modernization.",
+        "key_pointers": [
+          "Designed AM agent federation with MCP-first tool facades, A2A delegation, xAPI gateway, LangGraph contracts, and workload isolation.",
+          "Architected governed diagnostic evidence plane with cited AI diagnoses, budgets, degradation flags, and audit/cost controls.",
+          "Built four-plane multi-agent decision system with typed agents, A2A AgentCards, governance, run ledger, and outcomes review."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4427046917",
+      "dedupe_key": "linkedin:4427046917",
+      "source": "linkedin",
+      "source_job_id": "4427046917",
+      "source_url": "https://www.linkedin.com/jobs/view/4427046917",
+      "company": "GitLab",
+      "role": "Engineering Manager, Continuous Delivery",
+      "location": "Mumbai Metropolitan Region, India",
+      "work_type": "Remote",
+      "experience_level": "Engineering Manager / platform product leadership",
+      "compensation_signals": [
+        "Priority company in recruiting config with remote role and equity/ESPP benefits visible in posting.",
+        "Greenfield Continuous Deployment team building GitLab's next-generation CD capabilities.",
+        "Role connects GitLab core platform and AI strategy with durable orchestration and governance."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 89,
+      "fit_reason": "Strong remote platform leadership match around CD, durable orchestration, live state awareness, AI-native governance, GitOps, blue/green/canary, and event-driven architecture. Score is conservative because it is EM rather than Director and location eligibility should be confirmed despite India remote listing.",
+      "fit_signals": [
+        "Greenfield team building deployment orchestration and reconciliation systems.",
+        "Requires distributed systems, durable workflow execution, Kubernetes/GitOps, progressive delivery, governance, and event-driven architecture.",
+        "Resume supports rollout systems, blue-green/canary operations, agent governance, and developer platform tooling."
+      ],
+      "risk_flags": [
+        "Remote roles may carry country eligibility requirements; confirm India eligibility with recruiter.",
+        "Manager role; compensation and scope should be compared against Director/Principal targets."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed 122 company alumni work at GitLab for related Continuous Delivery result; posting also showed remote Mumbai Metropolitan Region.",
+      "resume_theme": {
+        "name": "Continuous delivery orchestration",
+        "positioning": "Engineering manager for reliable deployment orchestration, GitOps, progressive delivery, event-driven platforms, and AI-native governance.",
+        "key_pointers": [
+          "Hyperforce blue-green deploys and regional rollout work across app and infra repos.",
+          "Unleash local-first AI engineering IDE and multi-agent governance substrate.",
+          "TEST_SCENARIOS manifests and coherence-validator agent for implementation/test/RFC alignment."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4427064478",
+      "dedupe_key": "linkedin:4427064478",
+      "source": "linkedin",
+      "source_job_id": "4427064478",
+      "source_url": "https://www.linkedin.com/jobs/view/4427064478",
+      "company": "GitLab",
+      "role": "Engineering Manager, Gitlab Delivery: Upgrades",
+      "location": "Mumbai Metropolitan Region, India",
+      "work_type": "Remote",
+      "experience_level": "Engineering Manager / infrastructure platform leadership",
+      "compensation_signals": [
+        "Priority company in recruiting config with remote role and equity/ESPP benefits visible in posting.",
+        "Infrastructure Platforms department role supporting GitLab.com, GitLab Dedicated, and self-managed deployments.",
+        "Scope covers Kubernetes Operators, Helm charts, zero-downtime upgrades, and operational simplicity."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 88,
+      "fit_reason": "Good remote infrastructure-platform fit: Kubernetes Operators, Helm, stateful app upgrades, observability, zero-downtime operations, and incident management. Slightly below GitLab CD because it is less directly AI/governance aligned and may overlap with existing GitLab approved roles.",
+      "fit_signals": [
+        "Owns deployment tooling and operational patterns across GitLab.com, Dedicated, and self-managed environments.",
+        "Requires platform/SRE team leadership, Kubernetes, Helm, database lifecycle, schema migrations, and zero-downtime upgrades.",
+        "Resume maps to Hyperforce migration, blue-green deploys, Kubernetes leadership, observability, and distributed platform operations."
+      ],
+      "risk_flags": [
+        "Remote roles may carry country eligibility requirements; confirm India eligibility with recruiter.",
+        "Another GitLab EM role in this batch is a stronger fit; avoid over-prioritizing duplicate company pipeline."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed IIT Kharagpur school alumni and remote Mumbai Metropolitan Region on the detail page.",
+      "resume_theme": {
+        "name": "Kubernetes delivery platform",
+        "positioning": "Infrastructure-platform manager for zero-downtime upgrades, Kubernetes delivery tooling, observability, and operational simplicity at scale.",
+        "key_pointers": [
+          "Hyperforce re-platform with phased rollout, blue-green deploys, and zero customer-visible SLO regression.",
+          "Kubernetes/EKS, Istio, Argo Rollouts, GitHub Actions, Terraform/CDK platform experience.",
+          "Led DevOps/SRE organization across CI/CD, observability, IaC, cost, incident response, and security."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4435380866",
+      "dedupe_key": "linkedin:4435380866",
+      "source": "linkedin",
+      "source_job_id": "4435380866",
+      "source_url": "https://www.linkedin.com/jobs/view/4435380866",
+      "company": "Fivetran",
+      "role": "Staff Software Engineer - Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid / flexible office",
+      "experience_level": "Staff Infrastructure Engineer",
+      "compensation_signals": [
+        "Data infrastructure company valued over $5.6B according to posting.",
+        "Posting mentions RSU stock grants and employer-paid medical insurance.",
+        "Role supports multi-cloud dbt platform across AWS, Azure, and GCP with cell-based architecture."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 86,
+      "fit_reason": "Solid platform infrastructure fit for multi-cloud, Kubernetes, Terraform, ArgoCD, DataDog, cell-based architecture, automation, cost optimization, and developer experience. Score is capped because the posting reads more senior engineer than Principal/Director despite Staff title.",
+      "fit_signals": [
+        "Multi-cloud infrastructure platform for dbt Cloud across AWS/Azure/GCP.",
+        "Developer experience, observability, automation, Kubernetes, Terraform, ArgoCD, and cost optimization.",
+        "Resume supports multi-cloud/platform operations, observability cost reduction, Kubernetes, Terraform/CDK, and data infrastructure."
+      ],
+      "risk_flags": [
+        "Role text says 'senior engineer' in one section despite Staff title; confirm actual level.",
+        "Hybrid/flexible office details should be verified."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed 56 company alumni work at Fivetran in the search result.",
+      "resume_theme": {
+        "name": "Multi-cloud data infrastructure",
+        "positioning": "Staff infrastructure engineer for multi-cloud data platforms, Kubernetes automation, observability, cost optimization, and developer experience.",
+        "key_pointers": [
+          "Multi-tenant cloud-data platform on AWS, EMR, Airflow, Flink, and Kubernetes.",
+          "Druid-native topology processing and high-scale observability/data ingestion work.",
+          "Platform and infra stack across Terraform/CDK, Kubernetes/EKS, Argo Rollouts, and GitHub Actions."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4388472818",
+      "dedupe_key": "linkedin:4388472818",
+      "source": "linkedin",
+      "source_job_id": "4388472818",
+      "source_url": "https://www.linkedin.com/jobs/view/4388472818",
+      "company": "Okta",
+      "role": "Staff Engineer, Developer Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Staff Engineer / developer tooling",
+      "compensation_signals": [
+        "Public identity/security platform company with AI-to-human identity positioning in posting.",
+        "Role owns open-source and SaaS developer tooling across SDKs, CLI, IDE integrations, GitHub automation, and release strategy.",
+        "Security platform company with likely strong compensation but role scope is narrower than infra leadership roles."
+      ],
+      "status": "discovered",
+      "approval_status": "unreviewed",
+      "batch_id": "batch-20260703-3b2f177e",
+      "fit_score": 85,
+      "fit_reason": "Good developer-platform and security fit through SDK/API ergonomics, open-source tooling, release automation, auth flows, retries, rate limiting, CI, and cross-team technical direction. Score is lower because it is narrower than distributed infrastructure and likely below Principal/Director trajectory.",
+      "fit_signals": [
+        "Developer platform ownership across SDKs, CLI, IDE integrations, GitHub Actions, docs, and release strategy.",
+        "Identity/security context aligns with compliance, IAM, and platform governance background.",
+        "Resume supports OpenAI/Anthropic SDKs, MCP/A2A contracts, internal IDE, GitHub automation, and security/compliance leadership."
+      ],
+      "risk_flags": [
+        "LinkedIn title text appears truncated as 'taff Engineer'; normalized to Staff Engineer from context.",
+        "SDK/tooling scope may be too narrow for Director/Principal architecture goal."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed 8 school alumni work at Okta in the search result.",
+      "resume_theme": {
+        "name": "Secure developer tooling platform",
+        "positioning": "Staff engineer for secure developer experience, SDK/API contracts, automation, release workflows, and AI-era identity platform tooling.",
+        "key_pointers": [
+          "MCP-first tool facades, A2A contracts, SDK/API experience, and governed agentic workflows.",
+          "Unleash IDE distribution, release feeds, GitHub Enterprise Pages publishing, and unauthenticated download verification.",
+          "Security and compliance foundation across zero trust, PCI-DSS, SOC 2, ISO 27001, IAM design, and Keycloak."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md"
+        ]
+      },
+      "application_id": null,
+      "resume_snapshot_path": null,
+      "discovered_at": "2026-07-03T10:06:14Z",
+      "updated_at": "2026-07-03T10:06:14Z",
+      "notes": []
+    },
     {
       "job_id": "linkedin-4428469992",
       "dedupe_key": "linkedin:4428469992",
