@@ -3,53 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.name }} — Resume</title>
+  <title>{{ page.title | default: site.name }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
 </head>
-<body>
-  <main id="resume" class="resume">
-    {{ content }}
-  </main>
+<body class="site-body">
+  <canvas id="site-canvas" aria-hidden="true"></canvas>
+  <div class="site-sheen" aria-hidden="true"></div>
+  {{ content }}
   <script>
     (function () {
-      var zone;
+      var canvas = document.getElementById("site-canvas");
+      if (!canvas || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-      function removePdfControl() {
-        if (zone && zone.parentNode) {
-          zone.parentNode.removeChild(zone);
+      var ctx = canvas.getContext("2d");
+      var points = [];
+      var pointer = { x: -1000, y: -1000 };
+
+      function resize() {
+        var dpr = Math.min(window.devicePixelRatio || 1, 2);
+        canvas.width = Math.floor(window.innerWidth * dpr);
+        canvas.height = Math.floor(window.innerHeight * dpr);
+        canvas.style.width = window.innerWidth + "px";
+        canvas.style.height = window.innerHeight + "px";
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        seed();
+      }
+
+      function seed() {
+        var count = Math.max(42, Math.min(96, Math.floor(window.innerWidth * window.innerHeight / 17000)));
+        points = [];
+        for (var i = 0; i < count; i += 1) {
+          points.push({
+            x: Math.random() * window.innerWidth,
+            y: Math.random() * window.innerHeight,
+            vx: (Math.random() - 0.5) * 0.22,
+            vy: (Math.random() - 0.5) * 0.22,
+            r: Math.random() * 1.5 + 0.7
+          });
         }
       }
 
-      function addPdfControl() {
-        if (zone && zone.parentNode) return;
+      function tick() {
+        ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+        for (var i = 0; i < points.length; i += 1) {
+          var p = points[i];
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.x < -20) p.x = window.innerWidth + 20;
+          if (p.x > window.innerWidth + 20) p.x = -20;
+          if (p.y < -20) p.y = window.innerHeight + 20;
+          if (p.y > window.innerHeight + 20) p.y = -20;
 
-        zone = document.createElement("div");
-        zone.className = "download-pdf-zone";
-        zone.setAttribute("aria-label", "PDF controls");
-        zone.setAttribute("data-print-hidden", "true");
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = "rgba(224, 232, 240, 0.55)";
+          ctx.fill();
 
-        var button = document.createElement("button");
-        button.className = "download-pdf";
-        button.type = "button";
-        button.title = "Download PDF";
-        button.textContent = "Download PDF";
-        button.addEventListener("click", function () {
-          removePdfControl();
-          window.print();
-        });
+          for (var j = i + 1; j < points.length; j += 1) {
+            var q = points[j];
+            var dx = p.x - q.x;
+            var dy = p.y - q.y;
+            var d = Math.sqrt(dx * dx + dy * dy);
+            if (d < 145) {
+              ctx.strokeStyle = "rgba(98, 161, 190," + (0.16 * (1 - d / 145)) + ")";
+              ctx.lineWidth = 1;
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(q.x, q.y);
+              ctx.stroke();
+            }
+          }
 
-        zone.appendChild(button);
-        document.body.appendChild(zone);
+          var pdx = p.x - pointer.x;
+          var pdy = p.y - pointer.y;
+          var pd = Math.sqrt(pdx * pdx + pdy * pdy);
+          if (pd < 180) {
+            ctx.strokeStyle = "rgba(221, 171, 87," + (0.32 * (1 - pd / 180)) + ")";
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(pointer.x, pointer.y);
+            ctx.stroke();
+          }
+        }
+        requestAnimationFrame(tick);
       }
 
-      window.addEventListener("beforeprint", removePdfControl);
-      window.addEventListener("afterprint", addPdfControl);
-      if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", addPdfControl);
-      } else {
-        addPdfControl();
-      }
+      window.addEventListener("resize", resize);
+      window.addEventListener("pointermove", function (event) {
+        pointer.x = event.clientX;
+        pointer.y = event.clientY;
+      }, { passive: true });
+      window.addEventListener("pointerleave", function () {
+        pointer.x = -1000;
+        pointer.y = -1000;
+      });
+
+      resize();
+      requestAnimationFrame(tick);
     }());
   </script>
 </body>

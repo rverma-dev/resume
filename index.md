@@ -1,150 +1,156 @@
 ---
 layout: default
-title: Rohit Verma — Resume
+title: Rohit Verma — Platform Engineering
 ---
 
-<header class="masthead" style="display: grid; grid-template-columns: 220px 180px 1fr; grid-template-areas: 'identity email linkedin' 'identity phone github'; align-items: center; column-gap: 18px; row-gap: 1px; margin: 0 0 6px 0; font-family: -apple-system, Helvetica, Arial, sans-serif;">
-  <div class="identity" style="grid-area: identity;">
-    <h1 class="name" style="margin: 0; font-size: 20pt; line-height: 1; letter-spacing: .01em;">Rohit Verma</h1>
-    <span class="location" style="display: block; color: #555; font-size: 9.2pt; line-height: 1.25;">Bengaluru, India</span>
+<nav class="site-nav" aria-label="Primary navigation">
+  <a class="site-logo" href="{{ '/' | relative_url }}">Rohit Verma</a>
+  <div class="site-nav-links">
+    <a href="#resumes">Resumes</a>
+    <a href="{{ '/jobs/' | relative_url }}">Applications</a>
+    <a href="#connections">Connections</a>
+    <a href="#work">Work</a>
   </div>
-  <a class="contact-item email" style="grid-area: email; color: #0b4f8a; font-size: 9.2pt; line-height: 1.25; white-space: nowrap; text-decoration: none;" href="mailto:rohitatiit@gmail.com">rohitatiit@gmail.com</a>
-  <a class="contact-item phone" style="grid-area: phone; color: #0b4f8a; font-size: 9.2pt; line-height: 1.25; white-space: nowrap; text-decoration: none;" href="tel:+919988844215">+91 99888 44215</a>
-  <a class="contact-item linkedin" style="grid-area: linkedin; color: #0b4f8a; font-size: 9.2pt; line-height: 1.25; white-space: nowrap; text-decoration: none;" href="https://www.linkedin.com/in/rohit-verma-24084718">linkedin.com/in/rohit-verma-24084718</a>
-  <a class="contact-item github" style="grid-area: github; color: #0b4f8a; font-size: 9.2pt; line-height: 1.25; white-space: nowrap; text-decoration: none;" href="https://github.com/rverma-dev">github.com/rverma-dev</a>
-</header>
+  <a class="site-nav-action" href="{{ '/resume/' | relative_url }}">Open Resume</a>
+</nav>
 
-<div class="profile">
-  <p class="intro">Principal engineer specializing in multi-tenant observability platforms, local-first AI engineering systems, and governed agentic products.
-  Built and operated 0→1 systems at scale including <strong>$240M/month payments infrastructure</strong>, <strong>~$6M annualized cost reduction</strong> in observability platforms, and enterprise-grade SaaS systems on Salesforce Hyperforce.</p>
-</div>
+<main class="site-shell">
+  <section class="site-hero" id="top">
+    <div class="site-hero-content">
+      <p class="site-kicker">Technical Director / Head of Platform Engineering</p>
+      <h1>Building platform systems, then scaling the teams that operate them.</h1>
+      <p class="site-hero-copy">
+        Fifteen years across observability, cloud infrastructure, fintech,
+        enterprise SaaS, and AI engineering. I combine deep architecture with
+        operating systems for teams: roadmap shaping, execution rhythm,
+        automation, reliability, and product intuition.
+      </p>
+      <div class="site-hero-actions">
+        <a class="site-button primary" href="{{ '/resume/' | relative_url }}">Resume</a>
+        <a class="site-button" href="{{ '/jobs/' | relative_url }}">Applications Tracker</a>
+      </div>
+    </div>
+    <div class="site-proof-strip" aria-label="Career proof points">
+      <div><strong>3M</strong><span>alert definitions migrated with no customer-visible SLO regression</span></div>
+      <div><strong>80%</strong><span>observability cost-to-serve reduction</span></div>
+      <div><strong>40</strong><span>engineers across platform, DevOps, SRE, and security scope</span></div>
+      <div><strong>$240M/mo</strong><span>payments infrastructure at Jupiter Money</span></div>
+    </div>
+  </section>
 
-## Experience
+  <section class="site-section" id="resumes">
+    <div class="section-heading">
+      <p class="site-kicker">Resume System</p>
+      <h2>One profile, targeted surfaces.</h2>
+      <p>
+        The public site should not hedge. Each resume variant carries one
+        coherent story for one role family.
+      </p>
+    </div>
 
-<div class="role">
-  <strong>Principal Engineer (PMTS), MuleSoft (Salesforce)</strong>
-  <span>Bengaluru, India; remote US org | Feb 2025 – Present</span>
-</div>
+    <div class="resume-tabs">
+      <input type="radio" name="resume-tab" id="tab-platform" checked>
+      <input type="radio" name="resume-tab" id="tab-architect">
+      <input type="radio" name="resume-tab" id="tab-director">
+      <div class="tab-list" role="tablist" aria-label="Resume variants">
+        <label for="tab-platform">Head of Platform</label>
+        <label for="tab-architect">Principal Architect</label>
+        <label for="tab-director">Director Variant</label>
+      </div>
 
-Founding engineer (0→1) for multi-tenant observability, agent federation, and agentic developer systems on Salesforce Hyperforce. Owns architecture, RFCs, and cross-team technical direction.
+      <div class="tab-panels">
+        <article class="tab-panel platform-panel">
+          <h3>Technical Director / Head of Platform Engineering</h3>
+          <p>
+            Primary target for build-a-function and modernization roles: lead
+            through EMs, keep architecture in hand, and scale execution systems
+            around critical platforms.
+          </p>
+          <a href="{{ '/resume/' | relative_url }}">Open printable resume</a>
+        </article>
+        <article class="tab-panel architect-panel">
+          <h3>Senior Principal / Principal Architect</h3>
+          <p>
+            Fallback and high-probability path for top IC ladders: 0-&gt;1
+            platforms, multi-team technical direction, RFC programs, and the
+            hardest distributed systems work in the room.
+          </p>
+          <a href="{{ '/resume/base_resume.md' | relative_url }}">Open base Markdown</a>
+        </article>
+        <article class="tab-panel director-panel">
+          <h3>Director, Platform Engineering</h3>
+          <p>
+            Specialized variant for roles that explicitly need a builder who can
+            grow a function: Brane 2-&gt;40, Niki 3 EMs / 40 engineers, and
+            Salesforce de-facto platform-program leadership.
+          </p>
+          <a href="{{ '/companies/_samples/director-platform/resume.md' | relative_url }}">Open Director draft</a>
+        </article>
+      </div>
+    </div>
+  </section>
 
-<p class="project"><em>Anypoint Monitoring Alerts — Hyperforce re-platform + intelligent alerting</em></p>
+  <section class="site-section split-section" id="applications">
+    <div class="section-heading">
+      <p class="site-kicker">Applications</p>
+      <h2>Approval-gated static workflow.</h2>
+    </div>
+    <div class="site-grid three">
+      <article>
+        <h3>Discover</h3>
+        <p>LinkedIn discovery stays read-only and writes candidates as unreviewed jobs.</p>
+      </article>
+      <article>
+        <h3>Approve</h3>
+        <p>Selected jobs route through GitHub Issues so the static site can request changes without a database.</p>
+      </article>
+      <article>
+        <h3>Publish</h3>
+        <p>The scheduler polls issue metadata, imports approvals or rejections, and republishes GitHub Pages.</p>
+      </article>
+    </div>
+    <div class="site-actions-row">
+      <a class="site-button primary" href="{{ '/jobs/' | relative_url }}">Open tracker</a>
+      <a class="site-button" href="https://github.com/rverma-dev/resume/issues/new">Open GitHub issue composer</a>
+    </div>
+  </section>
 
-- Migrated **3M alerts** off legacy InfluxDB onto Amazon Managed Prometheus in phased rollout; delivered **~80% cost-to-serve reduction (~$6M annualized)** with zero customer-visible SLO regression.
-- Multi-tenant alert evaluation platform handling **50K–100K concurrent evaluations** at **P99 < 1s** across ≥2 regions with blue-green deploys.
-- Scaled to **60+ AMP workspaces** and **45K alerts per workspace** across enterprise tenants.
-- Drove AU/UK/GIA2H rollout work across app + infra repos: new-FI region automation, LaunchDarkly Relay Proxy, GIA-mode wiring, and production deploy config.
-- Built AI-native test discipline with `TEST_SCENARIOS` manifests, APIM local firing harnesses, Bruno coverage, and a coherence-validator agent across RFCs/tests/code.
-- Designed core platform primitives: tenant sharding, rule sync, buffering, distributed scheduling, and APIM alert migration paths.
-- Authored a 15-RFC series shaping observability architecture across adjacent teams; designed PromQL-native anomaly detection with z-score / robust bands, 26h smoothing, persistence gates, and explainable dynamic thresholds.
+  <section class="site-section split-section" id="connections">
+    <div class="section-heading">
+      <p class="site-kicker">Connections</p>
+      <h2>Warm paths matter more than cold applications.</h2>
+      <p>
+        The best Director jump is usually backchannel-led. This site should make
+        connection tracking a first-class workflow alongside job discovery.
+      </p>
+    </div>
+    <div class="site-grid two">
+      <article>
+        <h3>Target map</h3>
+        <p>Prioritize India, UAE, Singapore, UK, EU, and internal Salesforce paths. Treat external US roles as low-probability unless sponsorship is explicit.</p>
+      </article>
+      <article>
+        <h3>Reference path</h3>
+        <p>Collect people who can credibly say: he already led the platform program, shaped execution, and can own the org.</p>
+      </article>
+    </div>
+  </section>
 
-<p class="project"><em>Anypoint Visualizer — Hyperforce re-platform + Druid-native topology</em></p>
-
-- Scales to **10,000+ concurrent orgs**, **~15M applications**, and **~50M edges**, ingesting **500K–1M events/min** at peak.
-- **< 5-minute topology freshness SLO** via watermark-based incremental graph construction over Druid.
-- Simplified architecture: replaced Logstash with Druid-native ingestion; consolidated `visualizer-janitor` into `visualizer-topology-processor` via k8s leader election.
-
-<p class="project"><em>Proactive Diagnostics / MuleSoft Pulse — AM Agent Federation</em></p>
-
-- Authored HLD/ADRs for AM agent federation across existing omni/platform surfaces: MCP-first tool facades, A2A delegation path, xAPI model gateway integration, LangGraph workflow contracts, memory/RAG boundaries, and workload isolation.
-- Designed a governed diagnostic evidence plane that turns alert events into cited AI diagnoses over DIAF, app logs, metrics, traces, and KB/RAG without exposing raw archives, full logs, heap dumps, or tenant content to prompts.
-- Converted passive alerting into a proactive-diagnosis product architecture for **160K alerts/week**, with alert-storm dedup, per-tenant budgets, 5% runtime-overhead cap, source references, degradation flags, and audit/cost controls.
-
-<p class="project"><em>Internal IDE, <a href="https://git.soma.salesforce.com/pages/verma-r/unleash/">Unleash</a></em></p>
-
-- Built an internal IDE for agent-assisted engineering: repo, ticket, PR, terminal, browser, automation, and agent context in one local-first workspace.
-- Architected a **four-plane multi-agent decision system** (Knowledge / Decision Graph / Tiered Memory / Governance) with **11 typed agents**, A2A AgentCards, run ledger, path-tiered write authority, compliance hooks, repair detection, and outcomes review.
-- Built **Unleash**, a local-first AI engineering IDE from a Superset fork: isolated git worktrees, terminal/chat/file/diff/browser/PR/GUS context, autonomous and coordinator workspaces, automations, and structured A2UI reports.
-- Created the Unleash distribution surface with product docs, stable/canary `electron-updater` feeds, DMG release assets, branch-backed GitHub Enterprise Pages publishing, and unauthenticated download verification.
-
-<div class="role">
-  <strong>Independent Consultant</strong>
-  <span>Bengaluru, India | Mar 2024 – Feb 2025</span>
-</div>
-
-- Brandshark: low-latency GenAI video pipeline — chapterization, semantic search, content repurposing.
-- DRDO Radar Unit: flight-simulation system with synthetic data generation and MIL/video data integration.
-- Gaian Solutions: platform redesign — scaled **20K → 100K QPS**; rebuilt RBAC/ABAC reducing permission checks from **25 s → < 5 ms** at 100K QPS; introduced tenant-context sidecar architecture and cloud FinOps practices.
-
-<div class="role">
-  <strong>Senior Software Engineer, Atlassian</strong>
-  <span>Bengaluru, India | Aug 2023 – Mar 2024</span>
-</div>
-
-- Led JIRA data-migration integration frameworks for external sources across multiple cross-functional teams.
-- Shipped an ALT-text generator for Confluence images using LAVIS (InstructBLIP variant).
-
-<div class="role">
-  <strong>Vice President / GSL — PaaS, Brane Enterprise</strong>
-  <span>Bengaluru, India | Jan 2021 – Jul 2023</span>
-</div>
-
-- Architected and delivered the full enterprise SaaS platform — control plane, tenancy, metering, telemetry, billing, on-prem distribution — a MuleSoft-class integration platform for enterprise customers.
-- Built the entire infrastructure, platform, and security stack with a 2-engineer team (self + 1), achieving enterprise-scale deployment and compliance readiness.
-- NSL SaaS Accelerator with just-in-time IaC, reused across Entity Store, Tag Manager, Event Manager, and Schedulers.
-- Sidecar event-billing at **10M events/min** with per-tenant rate limiting; workflow engine tuned to **10M TPS** across Kafka, DynamoDB, TiDB, and Redis.
-- Full on-prem distribution on Nutanix, ScyllaDB, Kafka, TiDB, and ClickHouse; entity data pipeline on ClickHouse, Redis, Kafka Connect, Glue, and S3.
-- Led a 30-person DevOps + SRE organization across CI/CD (Flux), observability (GLTM), IaC, cost, incident response (Opsgenie + PagerDuty), security.
-- Global search on vector embeddings + Elasticsearch (semantic, faceted, typeahead, fuzzy).
-
-<div class="role">
-  <strong>Principal Architect, Jupiter Money</strong>
-  <span>Bengaluru, India | Nov 2019 – Jan 2021</span>
-</div>
-
-- Single technical owner for ISO 27001, SOC 2, PCI-DSS, NPCI, UPI SAR compliance and partner-bank audits — all passed.
-- Hub-and-spoke architecture with partner banks securing all card + UPI transactions at **$240M/month**.
-- In-house **SIEM processing 200 GB/hour** on OpenSearch with anomaly detection on banking logs.
-- Multi-tenant cloud-data platform on AWS + EMR + Airflow + Flink + Kubernetes.
-
-<div class="role">
-  <strong>Principal Architect, Niki.ai</strong>
-  <span>Bengaluru, India | Dec 2017 – Nov 2019</span>
-</div>
-
-- Led 3 EMs + 40 engineers; Payment SDK handling **1.2M transactions/day** for B2B partners.
-- Dynamo-streams-based order fulfillment on CQRS + event sourcing.
-- Replaced manual promotion engine with self-serve Kie rules engine; PCI-DSS multi-account cloud infrastructure.
-
-<div class="role">
-  <strong>Lead Product Engineer, Sprinklr</strong>
-  <span>Bengaluru, India | Jul 2017 – Dec 2017</span>
-</div>
-
-- Architected and shipped **Integration Marketplace V1** with Consul-based discovery and Pubsubhubbub lifecycle management; led V1 customer trial with SAP C4C.
-
-<div class="role">
-  <strong>Senior Software Engineer, Rokitt</strong>
-  <span>Bengaluru, India / New Jersey | May 2015 – Jul 2017</span>
-</div>
-
-- Personalized travel platform with **200+ endpoints** and third-party integrations (TripAdvisor et al.).
-- Large-scale data pipelines on Spark / Spark ML / Redis / Databricks.
-- Conceptualized and shipped **Genesis** — a synthetic-data generator that evolved into a commercial product (Boston Consulting acquisition validation engagement).
-
-<div class="role">
-  <strong>Earlier Experience</strong>
-  <span>May 2011 – Mar 2015</span>
-</div>
-
-- Sr. Software Engineer, QA Source (Bebo Technologies): refactored e-commerce platform for multi-tenancy; SOA + ES analytics.
-- Software Engineer, Mphasis (HP): core-banking APIs, SWIFT-over-JMS/MQTT bridge, SOAP services for Symantec Norton Store.
-
-## Education
-
-<div class="role education">
-  <strong>B.Tech (Hons), Indian Institute of Technology Kharagpur</strong>
-  <span>Jul 2007 – May 2011</span>
-</div>
-
-## Skills
-
-<div class="skills">
-  <div><strong>AI & Agent Systems:</strong> multi-agent orchestration, MCP / A2A contracts, LangGraph, Spring AI, governance substrates, RAG, vector search, LLM evaluation, compliance gating, OpenAI / Anthropic SDKs.</div>
-  <div><strong>Platform & Infra:</strong> AWS, Kubernetes / EKS, Istio, Cilium, Spinnaker, Argo Rollouts, GitHub Actions, Terraform / CDK, Nutanix.</div>
-  <div><strong>Data & Streaming:</strong> Kafka, Flink, KSQLDB, ClickHouse, TiDB, ScyllaDB, Cassandra, Redis, Hudi, DynamoDB, Druid, Amazon Managed Prometheus.</div>
-  <div><strong>Observability & SRE:</strong> OpenTelemetry, Grafana, Prometheus / PromQL, K6, OpenSearch, custom SIEM, anomaly detection, blue-green and canary rollouts.</div>
-  <div><strong>Security & Compliance:</strong> zero trust, PCI-DSS, SOC 2, ISO 27001, NPCI / UPI SAR, Keycloak, IAM design.</div>
-  <div><strong>Languages:</strong> Go, Python, TypeScript, Java.</div>
-  <div><strong>Articles:</strong> multi-agent systems, observability, platform architecture.</div>
-</div>
+  <section class="site-section" id="work">
+    <div class="section-heading">
+      <p class="site-kicker">Work System</p>
+      <h2>The evidence is the differentiator.</h2>
+      <p>
+        Banking, observability, compliance, agent platforms, developer tooling,
+        DRDO simulation, and enterprise integration work should become curated
+        evidence surfaces, not private recollection.
+      </p>
+    </div>
+    <div class="site-grid four">
+      <article><h3>Platform</h3><p>Hyperforce alerting, Brane PaaS, Jupiter banking infrastructure.</p></article>
+      <article><h3>AI Systems</h3><p>Agent federation, local-first IDE, governed diagnostic workflows.</p></article>
+      <article><h3>Compliance</h3><p>PCI-DSS, SOC 2, ISO 27001, NPCI, UPI SAR, partner-bank audits.</p></article>
+      <article><h3>Product</h3><p>Startup product intuition across fintech, marketplaces, travel, and developer tools.</p></article>
+    </div>
+  </section>
+</main>

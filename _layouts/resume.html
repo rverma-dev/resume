@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.name }} — Resume</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+<body>
+  <main id="resume" class="resume">
+    {{ content }}
+  </main>
+  <script>
+    (function () {
+      var zone;
+
+      function removePdfControl() {
+        if (zone && zone.parentNode) {
+          zone.parentNode.removeChild(zone);
+        }
+      }
+
+      function addPdfControl() {
+        if (zone && zone.parentNode) return;
+
+        zone = document.createElement("div");
+        zone.className = "download-pdf-zone";
+        zone.setAttribute("aria-label", "PDF controls");
+        zone.setAttribute("data-print-hidden", "true");
+
+        var button = document.createElement("button");
+        button.className = "download-pdf";
+        button.type = "button";
+        button.title = "Download PDF";
+        button.textContent = "Download PDF";
+        button.addEventListener("click", function () {
+          removePdfControl();
+          window.print();
+        });
+
+        zone.appendChild(button);
+        document.body.appendChild(zone);
+      }
+
+      window.addEventListener("beforeprint", removePdfControl);
+      window.addEventListener("afterprint", addPdfControl);
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", addPdfControl);
+      } else {
+        addPdfControl();
+      }
+    }());
+  </script>
+</body>
+</html>
