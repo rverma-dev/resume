@@ -75,7 +75,7 @@ title: Rohit Verma — Platform Engineering
             platforms, multi-team technical direction, RFC programs, and the
             hardest distributed systems work in the room.
           </p>
-          <a href="{{ '/resume/base_resume.md' | relative_url }}">Open base Markdown</a>
+          <a href="{{ '/resume/principal-architect/' | relative_url }}">Open printable resume</a>
         </article>
         <article class="tab-panel director-panel">
           <h3>Director, Platform Engineering</h3>
@@ -84,7 +84,7 @@ title: Rohit Verma — Platform Engineering
             grow a function: Brane 2-&gt;40, Niki 3 EMs / 40 engineers, and
             Salesforce de-facto platform-program leadership.
           </p>
-          <a href="{{ '/companies/_samples/director-platform/resume.md' | relative_url }}">Open Director draft</a>
+          <a href="{{ '/resume/director-platform/' | relative_url }}">Open printable resume</a>
         </article>
       </div>
     </div>
