@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T20:41:59Z",
-  "active_batch_id": "batch-20260704-ic-heartbeat-2034",
-  "last_scheduler_run_at": "2026-07-03T20:40:28Z",
+  "updated_at": "2026-07-03T21:06:27Z",
+  "active_batch_id": "batch-20260704-ic-heartbeat-2104",
+  "last_scheduler_run_at": "2026-07-03T21:06:12Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -299,6 +299,156 @@
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported despite Staff level because Databricks data-platform scope is distinct and target-company aligned."
       ]
+    },
+    {
+      "job_id": "linkedin-4431867213",
+      "dedupe_key": "linkedin:4431867213",
+      "source": "linkedin",
+      "source_job_id": "4431867213",
+      "source_url": "https://www.linkedin.com/jobs/view/4431867213",
+      "company": "Coupang",
+      "role": "Senior Staff Cloud Backend Engineer - Observability and Site Reliability",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [
+        "User-listed high-comp target company for India.",
+        "Senior Staff observability/SRE role with 12+ years and platform operations scope."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2104",
+      "fit_score": 97,
+      "fit_reason": "Very strong fit for the user's recent work: senior staff observability/SRE platform role requiring telemetry, alerting, large-scale monitoring, Kubernetes, Terraform, RCA, post-incident reviews, automation, and reliability ownership.",
+      "fit_signals": [
+        "Direct overlap with proactive diagnostics, anomaly detection alerts, MDAS alerts, and operational intelligence work.",
+        "Requires large-scale observability and telemetry platforms, real-time monitoring, high performance, scalability, SRE practices, Kubernetes internals, Prometheus, Grafana, ELK, Docker, Terraform.",
+        "Preferred qualifications include LLM inference or large-scale training cluster infrastructure, matching AI infrastructure trajectory."
+      ],
+      "risk_flags": [
+        "Same target company as other Coupang roles; keep as top priority because this is the clearest observability/SRE match.",
+        "Role may blend datacenter operations with backend platform engineering; resume should keep software/platform ownership prominent."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn surfaced 30 company alumni in the search result set.",
+      "resume_theme": {
+        "name": "Observability, SRE, and AI infrastructure",
+        "positioning": "Make the resume a direct observability/SRE platform story: anomaly detection alerts, proactive diagnostics, telemetry platforms, RCA automation, reliability guardrails, and AI infrastructure readiness.",
+        "key_pointers": [
+          "Lead with proactive diagnostics and anomaly detection alerts as the core recent Salesforce proof.",
+          "Show MDAS alerts, ms-op-alerts, multi-region rollout automation, incident feedback loops, and platform reliability improvements.",
+          "Tie AI platform work to operational intelligence and LLM inference infrastructure where truthful."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: proactive diagnostics ADRs, anomaly detection alerts, mdas-alerts, ms-op-alerts"
+        ]
+      },
+      "application_id": "app-20260703-coupang-senior-staff-cloud-backend-engineer-389813ea",
+      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-cloud-backend-engineer-389813ea/resume.md",
+      "discovered_at": "2026-07-03T21:06:12Z",
+      "updated_at": "2026-07-03T21:06:27Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4434386476",
+      "dedupe_key": "linkedin:4434386476",
+      "source": "linkedin",
+      "source_job_id": "4434386476",
+      "source_url": "https://www.linkedin.com/jobs/view/4434386476",
+      "company": "Coupang",
+      "role": "Senior Staff Software Engineer - Gateway Services",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [
+        "User-listed high-comp target company for India.",
+        "Senior Staff/Staff infrastructure platform role with service mesh ownership across Coupang services."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2104",
+      "fit_score": 96,
+      "fit_reason": "Excellent next-level IC fit: senior staff/staff platform role owning service mesh, traffic infrastructure, service discovery, load balancing, resiliency, traffic management, failure recovery, observability, and large-scale distributed systems.",
+      "fit_signals": [
+        "Gateway Services team builds Coupang's traffic infrastructure layer using service mesh.",
+        "Requires Istio/Envoy, Kubernetes, ArgoCD, SPIFFE, Go/Rust/C++, and large-scale distributed systems.",
+        "Role explicitly asks for architecture design, operational excellence, technical leadership across platform teams, and critical infrastructure ownership."
+      ],
+      "risk_flags": [
+        "Same target company as existing Coupang entries; keep because this track is distinctly platform/service-mesh infrastructure.",
+        "Hybrid Bengaluru/Hyderabad logistics should be confirmed before final submission."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn surfaced 2 connections at Coupang in the search result set.",
+      "resume_theme": {
+        "name": "Service mesh and platform infrastructure",
+        "positioning": "Position as a senior principal IC for service reliability, platform architecture, traffic control, observability, and distributed systems at enterprise scale.",
+        "key_pointers": [
+          "Lead with Salesforce platform diagnostics, multi-region rollout, observability, and control-plane style work.",
+          "Emphasize distributed systems, operational excellence, incident reduction, traffic/routing mental models, and hands-on architecture.",
+          "Use internal IDE and AM Agent Federation only where they show platform leverage, not as the center of the service-mesh resume."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: mdas-alerts, ms-op-alerts, multi-region rollouts, proactive diagnostics ADRs"
+        ]
+      },
+      "application_id": "app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561",
+      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561/resume.md",
+      "discovered_at": "2026-07-03T21:06:12Z",
+      "updated_at": "2026-07-03T21:06:27Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4424358808",
+      "dedupe_key": "linkedin:4424358808",
+      "source": "linkedin",
+      "source_job_id": "4424358808",
+      "source_url": "https://www.linkedin.com/jobs/view/4424358808",
+      "company": "Coupang",
+      "role": "Senior Staff System Engineer, GPU Fleet",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Staff / Principal-scope IC",
+      "compensation_signals": [
+        "User-listed high-comp target company for India.",
+        "GPU fleet and AI infrastructure role with principal-level scope, autonomy, and fleet-level ownership."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-2104",
+      "fit_score": 93,
+      "fit_reason": "Strong AI infrastructure fit: senior staff hands-on IC role owning hyperscale GPU compute infrastructure, fleet architecture, reliability, automation, diagnostics, observability, incident reviews, and production operations for AI training/inference workloads.",
+      "fit_signals": [
+        "Posting explicitly says principal-level scope, autonomy, and decision-making authority without people management.",
+        "Owns GPU fleet architecture, hardware/firmware/OS/drivers/networking/observability, automation, diagnostics, remediation, and reliability.",
+        "Maps to AI infrastructure trajectory, production reliability, systems debugging, automation, and incident/postmortem leadership."
+      ],
+      "risk_flags": [
+        "Role is systems/fleet heavy; resume must avoid overclaiming direct GPU fleet experience and instead emphasize transferable infrastructure/SRE/platform ownership.",
+        "One month old; verify external availability before spending application effort."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn surfaced 30 company alumni in the search result set.",
+      "resume_theme": {
+        "name": "AI infrastructure and fleet reliability",
+        "positioning": "Frame around production infrastructure ownership, reliability automation, diagnostics, fleet-scale systems thinking, and AI platform readiness, while staying honest about GPU-specific experience.",
+        "key_pointers": [
+          "Emphasize platform/SRE ownership, automation, diagnostics, large-scale incident reduction, and multi-region operational work.",
+          "Show AI platform and AM Agent Federation as enterprise AI infrastructure work, not GPU-specific ownership.",
+          "Use Brane/Salesforce enterprise-scale platform proof for security, compliance, and production operations."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: proactive diagnostics, anomaly alerts, multi-region rollout RFCs, AM Agent Federation"
+        ]
+      },
+      "application_id": "app-20260703-coupang-senior-staff-system-engineer-gpu-fle-1fd7fe5b",
+      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-system-engineer-gpu-fle-1fd7fe5b/resume.md",
+      "discovered_at": "2026-07-03T21:06:12Z",
+      "updated_at": "2026-07-03T21:06:27Z",
+      "notes": []
     },
     {
       "job_id": "linkedin-4391882662",
