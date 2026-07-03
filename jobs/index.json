@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-02T15:36:55Z",
+  "updated_at": "2026-07-03T05:36:52Z",
   "active_batch_id": "batch-20260702-179f69f0",
   "last_scheduler_run_at": "2026-07-02T14:05:33Z",
   "batch_size": 10,
@@ -1941,8 +1941,8 @@
         "Remote India senior GenAI engineer role at a public EV infrastructure company; compensation likely solid but level is below target Director/Principal trajectory.",
         "Role reports to Senior Manager-Information Security, suggesting individual-contributor scope rather than org-level platform leadership."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260702-179f69f0",
       "fit_score": 87,
       "fit_reason": "Strong technical fit for production LLM/RAG/agent systems, distributed systems, AI observability, LLMOps, and security-by-design; level is below preferred Director/Principal range, so fit score is capped.",
@@ -1975,8 +1975,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T14:05:33Z",
-      "updated_at": "2026-07-02T14:05:33Z",
-      "notes": []
+      "updated_at": "2026-07-03T05:36:52Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4427042094",
@@ -1993,8 +1995,8 @@
         "Remote India senior platform role at a large software company; likely below target Director/Principal compensation ceiling.",
         "US-based Director reporting line and portfolio-wide observability ownership may still make it a strong tactical fit."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260702-179f69f0",
       "fit_score": 86,
       "fit_reason": "Excellent observability-domain fit: shared Datadog tenant governance, APM, log pipelines, SLO maturity, migration from fragmented tooling, cost governance, and product-team enablement map closely to MuleSoft observability platform evidence; level is below target, so score is capped.",
@@ -2028,8 +2030,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T14:05:33Z",
-      "updated_at": "2026-07-02T14:05:33Z",
-      "notes": []
+      "updated_at": "2026-07-03T05:36:52Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4427512098",
@@ -2046,8 +2050,8 @@
         "Avalara describes compensation package, paid time off, parental leave, and bonus eligibility; remote India senior role likely solid but below Director/Principal target.",
         "Company says it is a billion-dollar business with 54B API calls and 6.6M tax returns per year, signaling meaningful production scale."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260702-179f69f0",
       "fit_score": 84,
       "fit_reason": "Good distributed systems plus AI-enabled platform fit, especially cloud-native systems, AI automation, reliability, observability, cost efficiency, and mentoring; seniority is below target and narrower than principal/director trajectory.",
@@ -2088,8 +2092,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T14:05:33Z",
-      "updated_at": "2026-07-02T14:05:33Z",
-      "notes": []
+      "updated_at": "2026-07-03T05:36:52Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4436352029",
@@ -2106,8 +2112,8 @@
         "G42/Inception AI infrastructure and GPU/model-serving scope can imply strong AI-infra compensation, but posting says engagement is via an external workforce partner.",
         "Remote India role with Azure AI/GPU/AKS infrastructure leadership may be attractive if contract terms and compensation are confirmed."
       ],
-      "status": "discovered",
-      "approval_status": "unreviewed",
+      "status": "archived",
+      "approval_status": "blocked",
       "batch_id": "batch-20260702-179f69f0",
       "fit_score": 83,
       "fit_reason": "Good AI infrastructure and platform operations fit across AKS, Terraform, DevSecOps, incident response, GPU node pools, AI Foundry, model serving, runbooks, dashboards, and FinOps; score is limited by lead-level title and external-workforce signal.",
@@ -2140,8 +2146,10 @@
       "application_id": null,
       "resume_snapshot_path": null,
       "discovered_at": "2026-07-02T14:05:33Z",
-      "updated_at": "2026-07-02T14:05:33Z",
-      "notes": []
+      "updated_at": "2026-07-03T05:36:52Z",
+      "notes": [
+        "Rejected from dashboard review."
+      ]
     },
     {
       "job_id": "linkedin-4432777693",
