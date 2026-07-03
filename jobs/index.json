@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T23:09:11Z",
+  "updated_at": "2026-07-03T23:37:26Z",
   "active_batch_id": "batch-20260704-ic-heartbeat-2234",
   "last_scheduler_run_at": "2026-07-03T22:41:42Z",
   "batch_size": 10,
@@ -1556,7 +1556,7 @@
         "Google Senior Staff/L7 IC role is target-compensation-capable at the right band.",
         "No salary range visible in the LinkedIn posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-0004",
       "fit_score": 91,
@@ -1591,7 +1591,7 @@
       "application_id": "app-20260703-google-senior-staff-software-engineer-creat-8c029467",
       "resume_snapshot_path": "applications/resumes/app-20260703-google-senior-staff-software-engineer-creat-8c029467/resume.md",
       "discovered_at": "2026-07-03T18:37:25Z",
-      "updated_at": "2026-07-03T18:37:45Z",
+      "updated_at": "2026-07-03T23:37:26Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported because it is explicit Google Senior Staff/L7 IC scope."
       ]
@@ -2100,7 +2100,7 @@
         "Principal Prime Video CoreTech infrastructure role; no salary range visible in LinkedIn posting.",
         "LinkedIn search showed 2,019 company alumni for nearby Amazon postings."
       ],
-      "status": "ready",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-amazon-principal-heartbeat",
       "fit_score": 95,
@@ -2147,7 +2147,7 @@
       "application_id": "app-20260703-amazon-principal-software-engineer-prime-vi-7c35cb95",
       "resume_snapshot_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-prime-vi-7c35cb95/resume.md",
       "discovered_at": "2026-07-03T19:38:03Z",
-      "updated_at": "2026-07-03T19:40:57Z",
+      "updated_at": "2026-07-03T23:37:26Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported as distinct Amazon principal global infrastructure track."
       ]
