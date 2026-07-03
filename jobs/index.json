@@ -1,11 +1,184 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T18:19:03Z",
-  "active_batch_id": "batch-20260703-ic-google-microsoft-apple",
-  "last_scheduler_run_at": "2026-07-03T18:18:00Z",
+  "updated_at": "2026-07-03T18:37:45Z",
+  "active_batch_id": "batch-20260704-ic-heartbeat-0004",
+  "last_scheduler_run_at": "2026-07-03T18:37:25Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
+    {
+      "job_id": "linkedin-4384161589",
+      "dedupe_key": "linkedin:4384161589",
+      "source": "linkedin",
+      "source_job_id": "4384161589",
+      "source_url": "https://www.linkedin.com/jobs/view/4384161589",
+      "company": "Amazon",
+      "role": "Principal Software Engineer, Alexa AI (AURORA)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Software Engineer / AI runtime platform IC",
+      "compensation_signals": [
+        "Amazon Principal Software Engineer is target-compensation-capable at the right band.",
+        "No salary range visible in the LinkedIn posting."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-0004",
+      "fit_score": 97,
+      "fit_reason": "Excellent high-comp IC target: Amazon principal AI runtime role spanning model routing/orchestration, distributed inference latency, evaluation/regression infrastructure, AI runtime platforms, safe rollout, observability, reliability, and cross-org technical strategy.",
+      "fit_signals": [
+        "Amazon is a user-identified target-compensation-capable company.",
+        "Role is Principal Software Engineer in Alexa AI AURORA, the AI runtime backbone and horizontal intelligence organization.",
+        "Posting maps directly to agent orchestration, model routing, evaluation gates, runtime reliability, latency/cost optimization, and science-to-production platform architecture."
+      ],
+      "risk_flags": [
+        "Likely high bar for ML inference/runtime depth; tailor around platform/runtime architecture and avoid overstating research ownership.",
+        "On-site Bengaluru expectation should be acceptable before final submission."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Amazon",
+          "profile_url": "",
+          "notes": "LinkedIn posting showed 31 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed 31 connections work at Amazon.",
+      "resume_theme": {
+        "name": "AI runtime orchestration principal IC",
+        "positioning": "Principal engineer for AI runtime platforms, model/tool routing, evaluation gates, low-latency distributed systems, reliability, and safe global rollout.",
+        "key_pointers": [
+          "Lead with AM agent federation, Internal IDE, and governed multi-agent systems: MCP/A2A, tool facades, orchestration contracts, memory/RAG boundaries, and governance.",
+          "Use anomaly detection alerts and proactive diagnostics as evidence of evaluation gates, explainability, degradation flags, and operational safeguards.",
+          "Use Hyperforce/Brane large-scale distributed platform work to show reliability, latency, observability, and global rollout execution."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a",
+      "resume_snapshot_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a/resume.md",
+      "discovered_at": "2026-07-03T18:37:25Z",
+      "updated_at": "2026-07-03T18:37:45Z",
+      "notes": [
+        "Discovered by heartbeat IC search on 2026-07-04; imported as top-priority Amazon principal AI/runtime role."
+      ]
+    },
+    {
+      "job_id": "linkedin-4435459172",
+      "dedupe_key": "linkedin:4435459172",
+      "source": "linkedin",
+      "source_job_id": "4435459172",
+      "source_url": "https://www.linkedin.com/jobs/view/4435459172",
+      "company": "Google",
+      "role": "Senior Staff Software Engineer, Creator Studio Support",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff Software Engineer / Google L7 IC",
+      "compensation_signals": [
+        "Google Senior Staff/L7 IC role is target-compensation-capable at the right band.",
+        "No salary range visible in the LinkedIn posting."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-0004",
+      "fit_score": 91,
+      "fit_reason": "Strong high-comp IC target: Google Senior Staff/L7 role designing AI-powered troubleshooting support architecture, support lifecycle entity schema, interoperability across first- and third-party tools, quality measurement, and applied GenAI at consumer scale.",
+      "fit_signals": [
+        "Google is a priority high-compensation company and this posting explicitly asks for IC contributions at L7.",
+        "Role owns architecture for AI-powered troubleshooting partner, support lifecycle schema, interoperability, and quality measurement.",
+        "Resume has Internal IDE/Unleash, proactive diagnostics, AM agent federation, governed evidence planes, and AI-assisted engineering systems."
+      ],
+      "risk_flags": [
+        "Domain is YouTube support/consumer operations rather than core cloud infrastructure; tailor around AI support automation and product-engineering velocity.",
+        "On-site Bengaluru expectation should be acceptable before final submission."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn result showed 3 people clicked apply within 5 hours; no named connections captured.",
+      "resume_theme": {
+        "name": "Applied GenAI support-platform senior staff IC",
+        "positioning": "Senior Staff engineer for AI troubleshooting platforms, support workflow architecture, evidence-backed diagnostics, quality measurement, and interoperable tool ecosystems.",
+        "key_pointers": [
+          "Lead with proactive diagnostics and AM agent federation: alert-to-diagnosis evidence plane, MCP/A2A tool facades, source references, and governance.",
+          "Use Internal IDE/Unleash to show AI-assisted engineering, local-first workflows, and decision velocity.",
+          "Use Visualizer/Hyperforce observability and anomaly alerts as supportability and troubleshooting architecture proof."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260703-google-senior-staff-software-engineer-creat-8c029467",
+      "resume_snapshot_path": "applications/resumes/app-20260703-google-senior-staff-software-engineer-creat-8c029467/resume.md",
+      "discovered_at": "2026-07-03T18:37:25Z",
+      "updated_at": "2026-07-03T18:37:45Z",
+      "notes": [
+        "Discovered by heartbeat IC search on 2026-07-04; imported because it is explicit Google Senior Staff/L7 IC scope."
+      ]
+    },
+    {
+      "job_id": "linkedin-4430526616",
+      "dedupe_key": "linkedin:4430526616",
+      "source": "linkedin",
+      "source_job_id": "4430526616",
+      "source_url": "https://www.linkedin.com/jobs/view/4430526616",
+      "company": "TrueFoundry",
+      "role": "Principal Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Staff Software Engineer / agentic AI platform IC",
+      "compensation_signals": [
+        "Principal Staff title at an AI infrastructure startup may be compensation-relevant, but no public salary range is visible.",
+        "Treat as high-fit application-volume candidate until recruiter confirms cash/equity band."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-heartbeat-0004",
+      "fit_score": 90,
+      "fit_reason": "Very strong thematic IC fit for production agentic infrastructure: AI Gateway, LLM Gateway, MCP Gateway, Guardrails, Agent Gateway, model routing, tool/server management, observability, cost policy, governance, Kubernetes, and enterprise customer engineering.",
+      "fit_signals": [
+        "Role is Principal Staff SWE and explicitly covers production AI control planes, model routing, MCP server management, agent orchestration, and governance.",
+        "Resume has AM agent federation, MCP/A2A RFCs, Internal IDE/Unleash, proactive diagnostics, and cloud-native platform/SRE ownership.",
+        "Easy Apply signal visible on LinkedIn."
+      ],
+      "risk_flags": [
+        "Compensation target is less certain than Google/Amazon/NVIDIA/Databricks; keep recruiter compensation screen as a gate.",
+        "Customer escalation/technical face duties are significant; tailor around platform architecture plus customer-aware engineering without over-indexing on support."
+      ],
+      "people": [],
+      "connections_summary": "No named connections captured from posting.",
+      "resume_theme": {
+        "name": "Agentic AI control-plane principal staff IC",
+        "positioning": "Principal Staff engineer for AI gateway/control-plane architecture, MCP/tool lifecycle, agent orchestration, guardrails, observability, Kubernetes, and enterprise platform reliability.",
+        "key_pointers": [
+          "Lead with AM agent federation, governed multi-agent systems, MCP/A2A contracts, and Internal IDE/Unleash.",
+          "Use proactive diagnostics and anomaly detection alerts to show observability, guardrails, and operational excellence.",
+          "Use Brane/Salesforce platform stories for Kubernetes, SRE, customer-facing enterprise architecture, and scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb",
+      "resume_snapshot_path": "applications/resumes/app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb/resume.md",
+      "discovered_at": "2026-07-03T18:37:25Z",
+      "updated_at": "2026-07-03T18:37:45Z",
+      "notes": [
+        "Discovered by heartbeat IC search on 2026-07-04; imported as high-fit but compensation-risk flagged Easy Apply candidate."
+      ]
+    },
     {
       "job_id": "linkedin-4380104127",
       "dedupe_key": "linkedin:4380104127",

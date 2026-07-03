@@ -1,9 +1,149 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T18:19:03Z",
+  "updated_at": "2026-07-03T18:37:45Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a",
+      "job_id": "linkedin-4384161589",
+      "dedupe_key": "linkedin:4384161589",
+      "source": "linkedin",
+      "source_job_id": "4384161589",
+      "source_url": "https://www.linkedin.com/jobs/view/4384161589",
+      "company": "Amazon",
+      "role": "Principal Software Engineer, Alexa AI (AURORA)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-0004",
+      "approved_at": "2026-07-03T18:37:45Z",
+      "updated_at": "2026-07-03T18:37:45Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent high-comp IC target: Amazon principal AI runtime role spanning model routing/orchestration, distributed inference latency, evaluation/regression infrastructure, AI runtime platforms, safe rollout, observability, reliability, and cross-org technical strategy.",
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Amazon",
+          "profile_url": "",
+          "notes": "LinkedIn posting showed 31 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed 31 connections work at Amazon.",
+      "resume_theme": {
+        "name": "AI runtime orchestration principal IC",
+        "positioning": "Principal engineer for AI runtime platforms, model/tool routing, evaluation gates, low-latency distributed systems, reliability, and safe global rollout.",
+        "key_pointers": [
+          "Lead with AM agent federation, Internal IDE, and governed multi-agent systems: MCP/A2A, tool facades, orchestration contracts, memory/RAG boundaries, and governance.",
+          "Use anomaly detection alerts and proactive diagnostics as evidence of evaluation gates, explainability, degradation flags, and operational safeguards.",
+          "Use Hyperforce/Brane large-scale distributed platform work to show reliability, latency, observability, and global rollout execution."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb",
+      "job_id": "linkedin-4430526616",
+      "dedupe_key": "linkedin:4430526616",
+      "source": "linkedin",
+      "source_job_id": "4430526616",
+      "source_url": "https://www.linkedin.com/jobs/view/4430526616",
+      "company": "TrueFoundry",
+      "role": "Principal Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-0004",
+      "approved_at": "2026-07-03T18:37:45Z",
+      "updated_at": "2026-07-03T18:37:45Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Very strong thematic IC fit for production agentic infrastructure: AI Gateway, LLM Gateway, MCP Gateway, Guardrails, Agent Gateway, model routing, tool/server management, observability, cost policy, governance, Kubernetes, and enterprise customer engineering.",
+      "people": [],
+      "connections_summary": "No named connections captured from posting.",
+      "resume_theme": {
+        "name": "Agentic AI control-plane principal staff IC",
+        "positioning": "Principal Staff engineer for AI gateway/control-plane architecture, MCP/tool lifecycle, agent orchestration, guardrails, observability, Kubernetes, and enterprise platform reliability.",
+        "key_pointers": [
+          "Lead with AM agent federation, governed multi-agent systems, MCP/A2A contracts, and Internal IDE/Unleash.",
+          "Use proactive diagnostics and anomaly detection alerts to show observability, guardrails, and operational excellence.",
+          "Use Brane/Salesforce platform stories for Kubernetes, SRE, customer-facing enterprise architecture, and scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-google-senior-staff-software-engineer-creat-8c029467",
+      "job_id": "linkedin-4435459172",
+      "dedupe_key": "linkedin:4435459172",
+      "source": "linkedin",
+      "source_job_id": "4435459172",
+      "source_url": "https://www.linkedin.com/jobs/view/4435459172",
+      "company": "Google",
+      "role": "Senior Staff Software Engineer, Creator Studio Support",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-0004",
+      "approved_at": "2026-07-03T18:37:45Z",
+      "updated_at": "2026-07-03T18:37:45Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong high-comp IC target: Google Senior Staff/L7 role designing AI-powered troubleshooting support architecture, support lifecycle entity schema, interoperability across first- and third-party tools, quality measurement, and applied GenAI at consumer scale.",
+      "people": [],
+      "connections_summary": "LinkedIn result showed 3 people clicked apply within 5 hours; no named connections captured.",
+      "resume_theme": {
+        "name": "Applied GenAI support-platform senior staff IC",
+        "positioning": "Senior Staff engineer for AI troubleshooting platforms, support workflow architecture, evidence-backed diagnostics, quality measurement, and interoperable tool ecosystems.",
+        "key_pointers": [
+          "Lead with proactive diagnostics and AM agent federation: alert-to-diagnosis evidence plane, MCP/A2A tool facades, source references, and governance.",
+          "Use Internal IDE/Unleash to show AI-assisted engineering, local-first workflows, and decision velocity.",
+          "Use Visualizer/Hyperforce observability and anomaly alerts as supportability and troubleshooting architecture proof."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-google-senior-staff-software-engineer-creat-8c029467/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-google-senior-staff-software-engineer-creat-8c029467/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260703-apple-senior-technical-architect-customer-67c10247",
       "job_id": "job-apple-senior-technical-architect-customer-67c10247",
