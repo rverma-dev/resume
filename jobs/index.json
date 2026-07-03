@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T22:41:47Z",
+  "updated_at": "2026-07-03T22:48:02Z",
   "active_batch_id": "batch-20260704-ic-heartbeat-2234",
   "last_scheduler_run_at": "2026-07-03T22:41:42Z",
   "batch_size": 10,
@@ -316,7 +316,7 @@
         "Senior Staff title with platform ownership, AI/ML, GenAI, LLM APIs, vector databases, RAG, and agentic framework scope.",
         "Posting states eligibility for cash bonus, equity rewards, and benefits, though no India range was visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2234",
       "fit_score": 94,
@@ -363,7 +363,7 @@
       "application_id": "app-20260703-intuit-senior-staff-software-engineer-577cec22",
       "resume_snapshot_path": "applications/resumes/app-20260703-intuit-senior-staff-software-engineer-577cec22/resume.md",
       "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-03T22:47:47Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; approved because this is a Senior Staff AI platform role at a high-comp target."
       ]
@@ -801,8 +801,8 @@
         "Comp target is less certain than Big Tech/Databricks/Coupang, but data control plane and open-source infrastructure scope are strategically aligned.",
         "No salary range was visible."
       ],
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "batch_id": "batch-20260704-ic-heartbeat-2234",
       "fit_score": 87,
       "fit_reason": "Good Staff data-platform fit: dbt Fusion adapters/connectivity infrastructure, Rust/Go/Arrow/open standards, SDK/runtime/connectors, data execution systems, CI/testing/profiling/release readiness, RFCs, public code architecture, resilience, debuggability, and API clarity.",
@@ -848,7 +848,7 @@
       "application_id": "app-20260703-dbt-labs-staff-software-engineer-ae37edd4",
       "resume_snapshot_path": "applications/resumes/app-20260703-dbt-labs-staff-software-engineer-ae37edd4/resume.md",
       "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-03T22:48:02Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; strategic Staff data-platform backup with compensation uncertainty."
       ]

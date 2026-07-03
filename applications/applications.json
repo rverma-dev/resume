@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T22:41:47Z",
+  "updated_at": "2026-07-03T22:48:02Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -73,11 +73,11 @@
       "company": "dbt Labs",
       "role": "Staff Software Engineer",
       "location": "India",
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "rejected",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2234",
       "approved_at": "2026-07-03T22:41:47Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-03T22:48:02Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 87,
@@ -112,8 +112,13 @@
       "resume_theme_path": "applications/resumes/app-20260703-dbt-labs-staff-software-engineer-ae37edd4/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "External Greenhouse application URL for dbt Labs returned: The job you are looking for is no longer open. Archived to avoid applying to a closed requisition.",
+        "Company application page is closed at https://job-boards.greenhouse.io/dbtlabsinc/jobs/4641221005."
+      ],
+      "status_reason": "External Greenhouse application URL for dbt Labs returned: The job you are looking for is no longer open. Archived to avoid applying to a closed requisition.",
+      "last_status_update_id": "status-20260704-dbt-closed",
+      "manual_action_required": false
     },
     {
       "application_id": "app-20260703-mastercard-principal-engineer-baf6b503",
@@ -229,11 +234,11 @@
       "company": "Intuit",
       "role": "Senior Staff Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2234",
       "approved_at": "2026-07-03T22:41:47Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-03T22:47:47Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -268,8 +273,15 @@
       "resume_theme_path": "applications/resumes/app-20260703-intuit-senior-staff-software-engineer-577cec22/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Intuit Avature accepted pasted resume content and advanced to Personal Info/Register, but final submission was not completed.",
+        "Manual completion required: Avature asks for a new account password/password confirmation, home postal code, country/state confirmation, area of interest selection, privacy acknowledgement, and cleanup of auto-parsed employment rows before continuing to EEO."
+      ],
+      "status_reason": "Intuit Avature accepted pasted resume content and advanced to Personal Info/Register, but final submission was not completed.",
+      "last_status_update_id": "status-20260704-intuit-avature-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: Avature asks for a new account password/password confirmation, home postal code, country/state confirmation, area of interest selection, privacy acknowledgement, and cleanup of auto-parsed employment rows before continuing to EEO.",
+      "manual_action_at": "2026-07-03T22:47:47Z"
     },
     {
       "application_id": "app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281",
