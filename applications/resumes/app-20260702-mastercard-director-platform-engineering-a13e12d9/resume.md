@@ -1,3 +1,8 @@
+---
+layout: resume
+title: Rohit Verma - Base Resume
+permalink: /applications/resumes/app-20260702-mastercard-director-platform-engineering-a13e12d9/
+---
 # Rohit Verma
 
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215

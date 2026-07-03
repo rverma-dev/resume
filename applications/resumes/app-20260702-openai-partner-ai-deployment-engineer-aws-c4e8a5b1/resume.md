@@ -1,3 +1,8 @@
+---
+layout: resume
+title: Rohit Verma - Base Resume
+permalink: /applications/resumes/app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1/
+---
 # Rohit Verma
 
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215

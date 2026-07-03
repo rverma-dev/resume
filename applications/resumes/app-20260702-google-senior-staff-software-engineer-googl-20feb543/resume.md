@@ -1,3 +1,8 @@
+---
+layout: resume
+title: Rohit Verma - Base Resume
+permalink: /applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/
+---
 # Rohit Verma
 
 Bengaluru, India | rohitatiit@gmail.com | +91 99888 44215

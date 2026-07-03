@@ -4,7 +4,8 @@
 - `applications.jsonl` is the append-only audit ledger.
 - `index.html` redirects to the public GitHub Pages tracker at `/jobs/`.
 - `resumes/<application-id>/resume.md` is the resume snapshot for an approved
-  application.
+  application and is published as a printable page at
+  `/applications/resumes/<application-id>/`.
 - `resumes/<application-id>/theme.md` stores the role-specific tailoring notes.
 
 Keep the JSON files deterministic where possible. Append new decisions to the

@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import shutil
 from pathlib import Path
 
 from pipeline_common import (
@@ -77,6 +76,19 @@ def write_theme(path: Path, job: dict, application_id: str, now: str) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def write_base_resume_snapshot(path: Path, application_id: str) -> None:
+    base_resume = BASE_RESUME_PATH.read_text(encoding="utf-8").lstrip()
+    front_matter = [
+        "---",
+        "layout: resume",
+        "title: Rohit Verma - Base Resume",
+        f"permalink: /applications/resumes/{application_id}/",
+        "---",
+        "",
+    ]
+    path.write_text("\n".join(front_matter) + base_resume, encoding="utf-8")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("approval_batch", type=Path, help="approval-batch JSON exported from jobs dashboard")
@@ -111,7 +123,7 @@ def main() -> int:
         snapshot_dir.mkdir(parents=True, exist_ok=True)
         resume_snapshot_path = snapshot_dir / "resume.md"
         theme_path = snapshot_dir / "theme.md"
-        shutil.copyfile(BASE_RESUME_PATH, resume_snapshot_path)
+        write_base_resume_snapshot(resume_snapshot_path, application_id)
         write_theme(theme_path, job, application_id, now)
 
         application = {

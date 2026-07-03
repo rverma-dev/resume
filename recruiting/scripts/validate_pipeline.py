@@ -44,6 +44,29 @@ def validate_jsonl(path: Path) -> list[str]:
     return errors
 
 
+def validate_resume_page(app: dict, path: Path) -> list[str]:
+    if path.name != "resume.md" or "applications/resumes" not in path.as_posix():
+        return []
+
+    relative = path.relative_to(REPO_ROOT)
+    expected_permalink = f"/applications/resumes/{path.parent.name}/"
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---\n"):
+        return [f"application {app.get('application_id')} resume snapshot is missing Jekyll front matter: {relative}"]
+
+    try:
+        front_matter = text.split("---", 2)[1]
+    except IndexError:
+        return [f"application {app.get('application_id')} resume snapshot has invalid Jekyll front matter: {relative}"]
+
+    errors = []
+    if "layout: resume" not in front_matter:
+        errors.append(f"application {app.get('application_id')} resume snapshot missing layout: resume: {relative}")
+    if f"permalink: {expected_permalink}" not in front_matter:
+        errors.append(f"application {app.get('application_id')} resume snapshot missing permalink {expected_permalink}: {relative}")
+    return errors
+
+
 def main() -> int:
     errors = []
     jobs_data = read_json(JOBS_PATH)
@@ -63,8 +86,12 @@ def main() -> int:
             errors.append(f"application {app.get('application_id')} references unknown job_id {app.get('job_id')}")
         for field in ("resume_snapshot_path", "submitted_resume_path"):
             value = app.get(field)
-            if value and not (REPO_ROOT / value).exists():
-                errors.append(f"application {app.get('application_id')} missing {field}: {value}")
+            if value:
+                path = REPO_ROOT / value
+                if not path.exists():
+                    errors.append(f"application {app.get('application_id')} missing {field}: {value}")
+                elif field == "resume_snapshot_path":
+                    errors.extend(validate_resume_page(app, path))
 
     if errors:
         print("\n".join(errors))

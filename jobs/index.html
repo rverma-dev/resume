@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -347,6 +350,7 @@
     const selectedJobIds = new Set(JSON.parse(localStorage.getItem("selectedJobIds") || "[]"));
     const exportedJobIds = new Set(JSON.parse(localStorage.getItem("exportedJobIds") || "[]"));
     const issueTrackerUrl = "https://github.com/rverma-dev/resume/issues";
+    const siteBaseUrl = "{{ site.baseurl }}";
 
     const text = (value) => value == null ? "" : String(value);
     const safe = (value) => text(value)
@@ -360,9 +364,33 @@
       localStorage.setItem("exportedJobIds", JSON.stringify([...exportedJobIds]));
     }
 
-    function link(value, label = "open") {
+    function isExternalUrl(value) {
+      return /^(https?:|mailto:|tel:)/.test(text(value));
+    }
+
+    function siteUrl(value) {
       if (!value) return "";
-      return `<a href="${safe(value)}">${safe(label)}</a>`;
+      const raw = text(value);
+      if (isExternalUrl(raw) || raw.startsWith("#")) return raw;
+      const cleanBase = siteBaseUrl.replace(/\/$/, "");
+      const cleanPath = raw.replace(/^\/+/, "");
+      return `${cleanBase}/${cleanPath}`;
+    }
+
+    function printableResumeUrl(value) {
+      const raw = text(value).replace(/^\/+/, "");
+      const match = raw.match(/^applications\/resumes\/([^/]+)\/resume\.md$/);
+      if (match) return siteUrl(`applications/resumes/${match[1]}/`);
+      return siteUrl(value);
+    }
+
+    function link(value, label = "open", urlBuilder = siteUrl) {
+      if (!value) return "";
+      return `<a href="${safe(urlBuilder(value))}">${safe(label)}</a>`;
+    }
+
+    function resumeSnapshotLabel(row) {
+      return row.resume_snapshot_name || row.resume_name || "Base Resume";
     }
 
     function score(row) {
@@ -493,9 +521,9 @@
         { label: "Fit", render: score },
         { label: "Approved", render: (row) => safe(row.approved_at) },
         { label: "Applied", render: (row) => safe(row.applied_date || row.applied_at) },
-        { label: "Resume Snapshot", render: (row) => link(row.resume_snapshot_path || row.resume_path) },
-        { label: "Submitted Resume", render: (row) => link(row.submitted_resume_path) },
-        { label: "Theme", render: (row) => link(row.resume_theme_path) }
+        { label: "Resume", render: (row) => link(row.resume_snapshot_path || row.resume_path, resumeSnapshotLabel(row), printableResumeUrl) },
+        { label: "Submitted Resume", render: (row) => link(row.submitted_resume_path, "Submitted Resume", printableResumeUrl) },
+        { label: "Theme", render: (row) => link(row.resume_theme_path, "Theme Notes") }
       ], applications, "No applications approved yet.");
 
       updateSelectionState();
