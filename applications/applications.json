@@ -1,9 +1,91 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T21:06:27Z",
+  "updated_at": "2026-07-03T21:37:54Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc",
+      "job_id": "linkedin-4387809855",
+      "dedupe_key": "linkedin:4387809855",
+      "source": "linkedin",
+      "source_job_id": "4387809855",
+      "source_url": "https://www.linkedin.com/jobs/view/4387809855",
+      "company": "6sense",
+      "role": "Staff Software Engineer - Backend Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-2134",
+      "approved_at": "2026-07-03T21:37:53Z",
+      "updated_at": "2026-07-03T21:37:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 88,
+      "fit_reason": "Good staff platform fit: backend frameworks, scalable customer-facing APIs, platform ecosystem evolution, developer productivity, observability, CI/CD, Kubernetes, AI coding workflows, and cross-team technical influence.",
+      "people": [],
+      "connections_summary": "LinkedIn surfaced 29 company alumni in the search result set.",
+      "resume_theme": {
+        "name": "Backend platform and developer productivity",
+        "positioning": "Tailor toward hands-on staff engineering for backend platform frameworks, scalable APIs, internal developer experience, AI-assisted engineering workflows, and operational excellence.",
+        "key_pointers": [
+          "Lead with internal IDE, Unlease/Superset fork, AM Agent Federation, and AI-assisted developer productivity systems.",
+          "Emphasize backend platform APIs, frameworks, observability, CI/CD, Kubernetes, and cross-team technical influence.",
+          "Keep Salesforce PMTS header as the senior current proof and avoid over-indexing on older startup titles."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: Unlease, internal IDE, AM Agent Federation, proactive diagnostics"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260703-atlassian-principal-data-engineer-6ca2b58f",
+      "job_id": "linkedin-4418926891",
+      "dedupe_key": "linkedin:4418926891",
+      "source": "linkedin",
+      "source_job_id": "4418926891",
+      "source_url": "https://www.linkedin.com/jobs/view/4418926891",
+      "company": "Atlassian",
+      "role": "Principal Data Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-heartbeat-2134",
+      "approved_at": "2026-07-03T21:37:53Z",
+      "updated_at": "2026-07-03T21:37:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong principal IC fit for large-scale data systems, streaming-first pipelines, microservices architecture, data models, operational data quality, Spark/Flink/Kafka/Airflow, and cross-team technical direction.",
+      "people": [],
+      "connections_summary": "LinkedIn search surfaced 4 connections at Atlassian.",
+      "resume_theme": {
+        "name": "Principal data and telemetry platform engineering",
+        "positioning": "Frame the resume around data-driven platform engineering: telemetry pipelines, operational intelligence, diagnostics, anomaly detection, scalable data models, and cross-team technical direction.",
+        "key_pointers": [
+          "Lead with proactive diagnostics, anomaly detection alerts, MDAS alerts, and operational signal integration.",
+          "Emphasize scalable data pipelines, low-latency analytics, reliability feedback loops, and architecture across teams.",
+          "Show principal IC ownership through RFCs/ADRs, platform contracts, and execution across Salesforce systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: proactive diagnostics ADRs, anomaly detection alerts, mdas-alerts, ms-op-alerts"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260703-atlassian-principal-data-engineer-6ca2b58f/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260703-atlassian-principal-data-engineer-6ca2b58f/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260703-coupang-senior-staff-system-engineer-gpu-fle-1fd7fe5b",
       "job_id": "linkedin-4424358808",
