@@ -1,11 +1,94 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T02:09:49Z",
-  "active_batch_id": "batch-20260704-ebay-shipping-architect-heartbeat",
-  "last_scheduler_run_at": "2026-07-04T02:05:17Z",
+  "updated_at": "2026-07-04T02:43:01Z",
+  "active_batch_id": "batch-20260704-uber-staff-ic-heartbeat-0234",
+  "last_scheduler_run_at": "2026-07-04T02:40:56Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "linkedin-4426808289",
+      "dedupe_key": "linkedin:4426808289",
+      "source": "linkedin",
+      "source_job_id": "4426808289",
+      "source_url": "https://www.linkedin.com/jobs/view/4426808289",
+      "company": "Uber",
+      "role": "Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Staff Software Engineer IC",
+      "compensation_signals": [
+        "Uber Staff Software Engineer roles in India are plausible 2.5cr+ targets depending on level, stock, and negotiation.",
+        "Payments is a core business-critical domain with strong compensation potential.",
+        "LinkedIn posting showed 5 connections at Uber and over 100 applicants/clicks."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-uber-staff-ic-heartbeat-0234",
+      "fit_score": 86,
+      "fit_reason": "Strong high-comp IC target at Staff level in Uber Payments. The role needs 10+ years of large-scale software engineering, technical leadership, roadmap ownership, mentorship, payments-domain execution, and cross-functional influence. Fit is reduced versus platform/AI infra roles because the posting is Android-heavy rather than backend/platform-first.",
+      "fit_signals": [
+        "Staff Software Engineer",
+        "Uber Payments",
+        "10+ years large-scale software engineering",
+        "technical leadership and roadmap ownership",
+        "cross-functional product/design/business influence",
+        "payments platform impact"
+      ],
+      "risk_flags": [
+        "Posting is Android/mobile-heavy, so tailor only if comfortable positioning recent platform and distributed systems work toward product engineering leadership.",
+        "Application is managed off LinkedIn and may require Uber careers login, legal, EEO, work authorization, or compensation answers before submission."
+      ],
+      "people": [
+        {
+          "name": "Amal SB",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Recruiting @ Uber; India-Recruiter (Product and Design Hiring)",
+          "profile_url": "https://www.linkedin.com/in/amalsb/",
+          "notes": "Bengaluru recruiter result with Sathish M G, Rajeev T L, and 9 other mutual connections."
+        },
+        {
+          "name": "Sagar Sumit",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Staff Engineer at Uber",
+          "profile_url": "https://www.linkedin.com/in/sagar-sumit/",
+          "notes": "Bengaluru senior staff engineering signal with 12 mutual connections."
+        },
+        {
+          "name": "Harsha Atmakuri",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Staff Software Engineer at Uber",
+          "profile_url": "https://www.linkedin.com/in/harsha-atmakuri/",
+          "notes": "Bengaluru Staff Software Engineer signal with 22 mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn showed 5 connections at Uber. Search found Amal SB (2nd-degree recruiter in Bengaluru) plus Staff/Senior Staff engineering contacts including Sagar Sumit and Harsha Atmakuri.",
+      "resume_theme": {
+        "name": "Staff payments platform and product engineering leader",
+        "positioning": "Position as a Staff-level engineer who combines platform architecture, distributed systems reliability, and product-facing execution: Salesforce AM agent federation/Internal IDE, anomaly detection alerts, proactive diagnostics, payments experience at Jupiter Money, and high-scale backend/platform ownership.",
+        "key_pointers": [
+          "Use Jupiter Money payment and banking-platform work as the domain bridge for payments product engineering.",
+          "Use Salesforce AM agent federation, Internal IDE/Unleash, proactive diagnostics, and anomaly detection alerts to show Staff-level roadmap definition and cross-functional technical leadership.",
+          "Emphasize large-scale distributed systems, service reliability, testing automation, and incident-prevention experience rather than Android-specific implementation.",
+          "Call out mentorship, architecture review, and raising engineering quality bars across multi-team systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-uber-staff-software-engineer-359dee86",
+      "resume_snapshot_path": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/resume.md",
+      "discovered_at": "2026-07-04T02:40:56Z",
+      "updated_at": "2026-07-04T02:43:01Z",
+      "notes": [
+        "Discovered by IC heartbeat on 2026-07-04 via LinkedIn search for Uber Staff Software Engineer Principal Engineer Platform Infrastructure India.",
+        "Approved because Staff IC level clears next/current-level filter despite Android/payments specialization."
+      ]
+    },
     {
       "job_id": "linkedin-4436196087",
       "dedupe_key": "linkedin:4436196087",

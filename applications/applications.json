@@ -1,9 +1,83 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T02:09:49Z",
+  "updated_at": "2026-07-04T02:43:01Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-uber-staff-software-engineer-359dee86",
+      "job_id": "linkedin-4426808289",
+      "dedupe_key": "linkedin:4426808289",
+      "source": "linkedin",
+      "source_job_id": "4426808289",
+      "source_url": "https://www.linkedin.com/jobs/view/4426808289",
+      "company": "Uber",
+      "role": "Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-uber-staff-software-engineer",
+      "approved_at": "2026-07-04T02:40:56Z",
+      "updated_at": "2026-07-04T02:43:01Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 86,
+      "fit_reason": "Strong high-comp IC target at Staff level in Uber Payments. The role needs 10+ years of large-scale software engineering, technical leadership, roadmap ownership, mentorship, payments-domain execution, and cross-functional influence. Fit is reduced versus platform/AI infra roles because the posting is Android-heavy rather than backend/platform-first.",
+      "people": [
+        {
+          "name": "Amal SB",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Recruiting @ Uber; India-Recruiter (Product and Design Hiring)",
+          "profile_url": "https://www.linkedin.com/in/amalsb/",
+          "notes": "Bengaluru recruiter result with Sathish M G, Rajeev T L, and 9 other mutual connections."
+        },
+        {
+          "name": "Sagar Sumit",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Staff Engineer at Uber",
+          "profile_url": "https://www.linkedin.com/in/sagar-sumit/",
+          "notes": "Bengaluru senior staff engineering signal with 12 mutual connections."
+        },
+        {
+          "name": "Harsha Atmakuri",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Staff Software Engineer at Uber",
+          "profile_url": "https://www.linkedin.com/in/harsha-atmakuri/",
+          "notes": "Bengaluru Staff Software Engineer signal with 22 mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn showed 5 connections at Uber. Search found Amal SB (2nd-degree recruiter in Bengaluru) plus Staff/Senior Staff engineering contacts including Sagar Sumit and Harsha Atmakuri.",
+      "resume_theme": {
+        "name": "Staff payments platform and product engineering leader",
+        "positioning": "Position as a Staff-level engineer who combines platform architecture, distributed systems reliability, and product-facing execution: Salesforce AM agent federation/Internal IDE, anomaly detection alerts, proactive diagnostics, payments experience at Jupiter Money, and high-scale backend/platform ownership.",
+        "key_pointers": [
+          "Use Jupiter Money payment and banking-platform work as the domain bridge for payments product engineering.",
+          "Use Salesforce AM agent federation, Internal IDE/Unleash, proactive diagnostics, and anomaly detection alerts to show Staff-level roadmap definition and cross-functional technical leadership.",
+          "Emphasize large-scale distributed systems, service reliability, testing automation, and incident-prevention experience rather than Android-specific implementation.",
+          "Call out mentorship, architecture review, and raising engineering quality bars across multi-team systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/theme.md",
+      "submitted_resume_path": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/submitted-resume.pdf",
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn Apply resolved to Uber Careers job 157102 for Staff Android Engineer, and the company page showed Job removed with no active apply form for the Bengaluru posting.",
+        "Unavailable application URL / removed Uber job posting. Rendered resume for manual follow-up: applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/submitted-resume.pdf"
+      ],
+      "status_reason": "Application not submitted. LinkedIn Apply resolved to Uber Careers job 157102 for Staff Android Engineer, and the company page showed Job removed with no active apply form for the Bengaluru posting.",
+      "last_status_update_id": "status-20260704-uber-staff-software-engineer-job-removed",
+      "manual_action_required": true,
+      "manual_action_reason": "Unavailable application URL / removed Uber job posting. Rendered resume for manual follow-up: applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/submitted-resume.pdf",
+      "manual_action_at": "2026-07-04T02:43:01Z"
+    },
     {
       "application_id": "app-20260704-ebay-principal-mts-architect-shipping-1cbaf4a8",
       "job_id": "linkedin-4378146818",
