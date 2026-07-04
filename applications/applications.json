@@ -1,9 +1,139 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T10:39:27Z",
+  "updated_at": "2026-07-04T11:09:29Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-moody-s-corporation-staff-software-engineer-acb5abc9",
+      "job_id": "linkedin-4417748713",
+      "dedupe_key": "linkedin:4417748713",
+      "source": "linkedin",
+      "source_job_id": "4417748713",
+      "source_url": "https://www.linkedin.com/jobs/view/4417748713",
+      "company": "Moody's Corporation",
+      "role": "Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1104-ic-staff-platform",
+      "approved_at": "2026-07-04T11:09:29Z",
+      "updated_at": "2026-07-04T11:09:29Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Good Staff IC fit: multi-year/multi-team engineering strategy, AI risk/transformation, data platforms, scalable APIs/microservices, Kubernetes/cloud-native systems, monitoring, and architecture leadership.",
+      "people": [],
+      "connections_summary": "LinkedIn result shows one connection works at Moody's in the visible search result.",
+      "resume_theme": {
+        "name": "Staff AI Data Platform Strategy",
+        "positioning": "Emphasize AI-governed platform architecture, multi-team technical strategy, data/streaming systems, risk/compliance controls, and measurable business outcomes.",
+        "key_pointers": [
+          "Lead with proactive diagnostics/agent federation as governed AI operational architecture.",
+          "Use Anypoint Visualizer and Brane/Jupiter data-platform work for scalable data systems evidence.",
+          "Use compliance/SIEM/security governance examples for Moody's risk and trust emphasis."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Principal Architect, Jupiter Money",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-moody-s-corporation-staff-software-engineer-acb5abc9/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-moody-s-corporation-staff-software-engineer-acb5abc9/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-sailpoint-staff-software-engineer-java-1dc6c551",
+      "job_id": "linkedin-4428155287",
+      "dedupe_key": "linkedin:4428155287",
+      "source": "linkedin",
+      "source_job_id": "4428155287",
+      "source_url": "https://www.linkedin.com/jobs/view/4428155287",
+      "company": "SailPoint",
+      "role": "Staff Software Engineer - Java",
+      "location": "Pune Division, Maharashtra, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1104-ic-staff-platform",
+      "approved_at": "2026-07-04T11:09:29Z",
+      "updated_at": "2026-07-04T11:09:29Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong Staff IC fit in cloud-native identity security platform group: SaaS microservices, event-driven architecture, AWS, SLOs, observability, distributed data processing, and AI familiarity.",
+      "people": [],
+      "connections_summary": "LinkedIn result shows school/company alumni signal for SailPoint; no direct person captured.",
+      "resume_theme": {
+        "name": "Staff Identity SaaS Platform",
+        "positioning": "Position around cloud-native SaaS platform architecture, identity/security governance, event-driven systems, observability SLOs, and AI-assisted platform operations.",
+        "key_pointers": [
+          "Use Salesforce Hyperforce multi-tenant alerting and SLO/cost work for SaaS reliability evidence.",
+          "Use Jupiter compliance/SIEM and Brane security/platform stack to align with identity security domain.",
+          "Emphasize Java/platform microservices, Kubernetes, observability, and event-driven data/streaming systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Principal Architect, Jupiter Money",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-sailpoint-staff-software-engineer-java-1dc6c551/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-sailpoint-staff-software-engineer-java-1dc6c551/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-coupang-senior-staff-software-engineer-fdf7f7b7",
+      "job_id": "linkedin-4430391886",
+      "dedupe_key": "linkedin:4430391886",
+      "source": "linkedin",
+      "source_job_id": "4430391886",
+      "source_url": "https://www.linkedin.com/jobs/view/4430391886",
+      "company": "Coupang",
+      "role": "Senior Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1104-ic-staff-platform",
+      "approved_at": "2026-07-04T11:09:29Z",
+      "updated_at": "2026-07-04T11:09:29Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent high-comp Staff+ IC fit: Gateway Services team, service mesh, traffic management, workload/service management infrastructure, large-scale distributed systems, Go/Rust/C++, cloud, operational excellence, and platform technical leadership.",
+      "people": [],
+      "connections_summary": "LinkedIn search result shows company alumni/connection signal for Coupang; exact people not captured in detail view.",
+      "resume_theme": {
+        "name": "Senior Staff Service Mesh Platform",
+        "positioning": "Lead with multi-tenant Hyperforce platform primitives, scheduling/evaluation at scale, Kubernetes rollout discipline, Druid/topology infrastructure, and platform operational excellence.",
+        "key_pointers": [
+          "Map Salesforce alert evaluation and tenant sharding/scheduling work to service-management infrastructure design.",
+          "Use Hyperforce AU/UK/GIA2H rollout and Kubernetes/LaunchDarkly relay proxy work as cloud platform operating evidence.",
+          "Bring Brane PaaS/on-prem distribution and 10M events/min platform proof for infra scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-coupang-senior-staff-software-engineer-fdf7f7b7/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-coupang-senior-staff-software-engineer-fdf7f7b7/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-equinix-principal-devsecops-platform-enginee-547aa025",
       "job_id": "linkedin-4419242960",
