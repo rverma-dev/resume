@@ -1,9 +1,120 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T00:36:26Z",
+  "updated_at": "2026-07-04T01:11:53Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-google-staff-software-engineer-search-platf-e04279ab",
+      "job_id": "linkedin-4423975933",
+      "dedupe_key": "linkedin:4423975933",
+      "source": "linkedin",
+      "source_job_id": "4423975933",
+      "source_url": "https://www.linkedin.com/jobs/view/4423975933",
+      "company": "Google",
+      "role": "Staff Software Engineer, Search Platforms",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-google-search-platforms-heartbeat",
+      "approved_at": "2026-07-04T01:11:53Z",
+      "updated_at": "2026-07-04T01:11:53Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent target-company Staff role combining Search-scale platform systems, developer experience, agentic workflows, MCP, Agent-to-Agent patterns, LLM-powered automation, quality, and engineering guidance. This is directly aligned to Internal IDE/Unleash, AM agent federation, proactive diagnostics, anomaly detection alerts, and platform reliability work.",
+      "people": [
+        {
+          "name": "Google network",
+          "relationship": "LinkedIn connection signal",
+          "role": "Google",
+          "profile_url": "",
+          "notes": "LinkedIn job card showed 20 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn job card showed 20 connections at Google; named connection/referral mapping should be researched before manual application.",
+      "resume_theme": {
+        "name": "Agentic developer platforms at search scale",
+        "positioning": "Position as a staff-level platform engineer building agentic developer tools, federated agent systems, proactive diagnostics, and production alerting systems that improve engineering velocity and operational quality.",
+        "key_pointers": [
+          "Lead with Internal IDE/Unleash as a practical developer-experience platform that integrates operational and customer signals.",
+          "Use AM agent federation to map directly to MCP, A2A, multi-agent architecture, and governed agent workflows.",
+          "Emphasize proactive diagnostics and anomaly detection alerts as LLM-powered investigation and quality systems, not standalone prompts.",
+          "Tie Salesforce multi-region rollout, observability cost reduction, and platform reliability to Search-scale platform ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-search-platf-e04279ab/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-google-staff-software-engineer-search-platf-e04279ab/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-broadcom-staff-software-engineer-5c7e6b85",
+      "job_id": "linkedin-4408392595",
+      "dedupe_key": "linkedin:4408392595",
+      "source": "linkedin",
+      "source_job_id": "4408392595",
+      "source_url": "https://www.linkedin.com/jobs/view/4408392595",
+      "company": "Broadcom",
+      "role": "Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-broadcom-staff-heartbeat",
+      "approved_at": "2026-07-04T01:08:00Z",
+      "updated_at": "2026-07-04T01:10:37Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Staff-level Broadcom infrastructure software role across Linux/Fabric OS user and kernel components, performance tuning, release streams, and production troubleshooting. Strong systems/platform fit at a user-targeted high-comp company, though narrower than principal scope.",
+      "people": [
+        {
+          "name": "Broadcom company network",
+          "relationship": "LinkedIn network signal",
+          "role": "Broadcom",
+          "profile_url": "",
+          "notes": "LinkedIn posting showed broad reachability and company network signals, but no named connection was captured."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed network reachability at Broadcom; no reliable named recruiter or hiring-manager contact captured in this pass.",
+      "resume_theme": {
+        "name": "Systems infrastructure and platform reliability",
+        "positioning": "Position as a hands-on staff-level infrastructure engineer who owns production-critical platform systems, reliability loops, and scale/cost outcomes across Salesforce alerting, Jupiter payments, and Brane enterprise infrastructure.",
+        "key_pointers": [
+          "Lead with Salesforce anomaly detection alerts, proactive diagnostics, and multi-region operational rollouts as production infrastructure ownership.",
+          "Use Jupiter payments and Brane billing/infrastructure work to show correctness, performance, and reliability under high-volume production load.",
+          "Frame Internal IDE/Unleash as an engineering productivity and troubleshooting accelerator rather than a generic AI platform.",
+          "Emphasize cross-team execution, release reliability, observability, and hands-on systems depth."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-broadcom-staff-software-engineer-5c7e6b85/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-broadcom-staff-software-engineer-5c7e6b85/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application attempt reached the Broadcom Workday posting for requisition R025888, but the controlled Chrome session rendered a blank Workday page with no visible form controls after two attempts.",
+        "Manual application required at Broadcom Workday because the external Workday page did not render an application form in Chrome automation."
+      ],
+      "status_reason": "Application attempt reached the Broadcom Workday posting for requisition R025888, but the controlled Chrome session rendered a blank Workday page with no visible form controls after two attempts.",
+      "last_status_update_id": "status-20260704-broadcom-staff-workday-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual application required at Broadcom Workday because the external Workday page did not render an application form in Chrome automation.",
+      "manual_action_at": "2026-07-04T01:10:37Z"
+    },
     {
       "application_id": "app-20260703-databricks-staff-software-engineer-infrastructu-10faa193",
       "job_id": "linkedin-4297757022",

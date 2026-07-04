@@ -781,5 +781,23 @@
     "submitted_resume_md": "applications/resumes/app-20260703-zscaler-principal-site-reliability-engineer-4f168b68/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260703-zscaler-principal-site-reliability-engineer-4f168b68/submitted-resume.pdf",
     "pages": 2
+  },
+  {
+    "application_id": "app-20260704-broadcom-staff-software-engineer-5c7e6b85",
+    "company": "Broadcom",
+    "role": "Staff Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4408392595",
+    "submitted_resume_md": "applications/resumes/app-20260704-broadcom-staff-software-engineer-5c7e6b85/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-broadcom-staff-software-engineer-5c7e6b85/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-search-platf-e04279ab",
+    "company": "Google",
+    "role": "Staff Software Engineer, Search Platforms",
+    "source_url": "https://www.linkedin.com/jobs/view/4423975933",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-search-platf-e04279ab/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-search-platf-e04279ab/submitted-resume.pdf",
+    "pages": 2
   }
 ]

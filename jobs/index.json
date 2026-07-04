@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T00:36:26Z",
-  "active_batch_id": "batch-20260704-ic-heartbeat-2234",
-  "last_scheduler_run_at": "2026-07-03T22:41:42Z",
+  "updated_at": "2026-07-04T01:11:53Z",
+  "active_batch_id": "batch-20260704-google-search-platforms-heartbeat",
+  "last_scheduler_run_at": "2026-07-04T01:11:53Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 10,
+  "jobs_per_scheduler_run": 1,
   "jobs": [
     {
       "job_id": "linkedin-4436196087",
@@ -1652,6 +1652,70 @@
       ]
     },
     {
+      "job_id": "linkedin-4423975933",
+      "dedupe_key": "linkedin:4423975933",
+      "source": "linkedin",
+      "source_job_id": "4423975933",
+      "source_url": "https://www.linkedin.com/jobs/view/4423975933",
+      "company": "Google",
+      "role": "Staff Software Engineer, Search Platforms",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "User identified Google as a high-compensation target company",
+        "Staff-level Google India role is aligned with the desired current/next-level IC track"
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-google-search-platforms-heartbeat",
+      "fit_score": 96,
+      "fit_reason": "Excellent target-company Staff role combining Search-scale platform systems, developer experience, agentic workflows, MCP, Agent-to-Agent patterns, LLM-powered automation, quality, and engineering guidance. This is directly aligned to Internal IDE/Unleash, AM agent federation, proactive diagnostics, anomaly detection alerts, and platform reliability work.",
+      "fit_signals": [
+        "Google Staff Software Engineer role in Search Platforms",
+        "Explicit agentic workflows, multi-agent architectures, MCP, ADK, and A2A communication patterns",
+        "Developer experience for Search developers and platform systems at Search scale",
+        "Requires technical leadership, quality focus, testing, launch, and production software delivery"
+      ],
+      "risk_flags": [
+        "Google external application flow previously required legal name, phone, resume upload, employment-history, privacy consent, and truth-certification answers",
+        "On-site Bengaluru role; validate compensation/level fit before heavy manual effort"
+      ],
+      "people": [
+        {
+          "name": "Google network",
+          "relationship": "LinkedIn connection signal",
+          "role": "Google",
+          "profile_url": "",
+          "notes": "LinkedIn job card showed 20 connections work here."
+        }
+      ],
+      "connections_summary": "LinkedIn job card showed 20 connections at Google; named connection/referral mapping should be researched before manual application.",
+      "resume_theme": {
+        "name": "Agentic developer platforms at search scale",
+        "positioning": "Position as a staff-level platform engineer building agentic developer tools, federated agent systems, proactive diagnostics, and production alerting systems that improve engineering velocity and operational quality.",
+        "key_pointers": [
+          "Lead with Internal IDE/Unleash as a practical developer-experience platform that integrates operational and customer signals.",
+          "Use AM agent federation to map directly to MCP, A2A, multi-agent architecture, and governed agent workflows.",
+          "Emphasize proactive diagnostics and anomaly detection alerts as LLM-powered investigation and quality systems, not standalone prompts.",
+          "Tie Salesforce multi-region rollout, observability cost reduction, and platform reliability to Search-scale platform ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-google-staff-software-engineer-search-platf-e04279ab",
+      "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-search-platf-e04279ab/resume.md",
+      "discovered_at": "2026-07-04T01:11:53Z",
+      "updated_at": "2026-07-04T01:11:53Z",
+      "notes": [
+        "LinkedIn details captured 2026-07-04: reposted 1 week ago, over 100 people clicked apply, responses managed off LinkedIn."
+      ]
+    },
+    {
       "job_id": "linkedin-4374516043",
       "dedupe_key": "linkedin:4374516043",
       "source": "linkedin",
@@ -1880,6 +1944,69 @@
       "discovered_at": "2026-07-03T19:08:16Z",
       "updated_at": "2026-07-03T19:08:26Z",
       "notes": []
+    },
+    {
+      "job_id": "linkedin-4408392595",
+      "dedupe_key": "linkedin:4408392595",
+      "source": "linkedin",
+      "source_job_id": "4408392595",
+      "source_url": "https://www.linkedin.com/jobs/view/4408392595",
+      "company": "Broadcom",
+      "role": "Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "User identified Broadcom as a company capable of strong compensation for senior/staff-plus roles"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-broadcom-staff-heartbeat",
+      "fit_score": 90,
+      "fit_reason": "Staff-level Broadcom infrastructure software role across Linux/Fabric OS user and kernel components, performance tuning, release streams, and production troubleshooting. Strong systems/platform fit at a user-targeted high-comp company, though narrower than principal scope.",
+      "fit_signals": [
+        "Explicit Staff Software Engineer title at Broadcom",
+        "Linux/Fabric OS infrastructure components with C/C++ and Python",
+        "Performance tuning and scalability requirements for infrastructure components",
+        "Multiple release streams, troubleshooting, and cross-geo technical collaboration"
+      ],
+      "risk_flags": [
+        "8-12 years requirement may map closer to Staff than Senior Staff/Principal",
+        "Responses are managed off LinkedIn; external portal may require manual legal or identity answers"
+      ],
+      "people": [
+        {
+          "name": "Broadcom company network",
+          "relationship": "LinkedIn network signal",
+          "role": "Broadcom",
+          "profile_url": "",
+          "notes": "LinkedIn posting showed broad reachability and company network signals, but no named connection was captured."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed network reachability at Broadcom; no reliable named recruiter or hiring-manager contact captured in this pass.",
+      "resume_theme": {
+        "name": "Systems infrastructure and platform reliability",
+        "positioning": "Position as a hands-on staff-level infrastructure engineer who owns production-critical platform systems, reliability loops, and scale/cost outcomes across Salesforce alerting, Jupiter payments, and Brane enterprise infrastructure.",
+        "key_pointers": [
+          "Lead with Salesforce anomaly detection alerts, proactive diagnostics, and multi-region operational rollouts as production infrastructure ownership.",
+          "Use Jupiter payments and Brane billing/infrastructure work to show correctness, performance, and reliability under high-volume production load.",
+          "Frame Internal IDE/Unleash as an engineering productivity and troubleshooting accelerator rather than a generic AI platform.",
+          "Emphasize cross-team execution, release reliability, observability, and hands-on systems depth."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-broadcom-staff-software-engineer-5c7e6b85",
+      "resume_snapshot_path": "applications/resumes/app-20260704-broadcom-staff-software-engineer-5c7e6b85/resume.md",
+      "discovered_at": "2026-07-04T01:08:00Z",
+      "updated_at": "2026-07-04T01:10:37Z",
+      "notes": [
+        "LinkedIn details captured 2026-07-04: reposted 2 weeks ago, over 100 people clicked apply, responses managed off LinkedIn, requisition R025888."
+      ]
     },
     {
       "job_id": "linkedin-4401425673",
