@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T08:48:39Z",
+  "updated_at": "2026-07-04T09:07:06Z",
   "active_batch_id": "batch-20260704-0834-ic-staff-plus",
   "last_scheduler_run_at": "2026-07-04T08:48:25Z",
   "batch_size": 10,
@@ -5447,7 +5447,7 @@
         "Posting asks for 17+ years plus 5+ years as Principal or Staff Architect, indicating a senior band.",
         "Role Type is explicitly Individual Contributor and covers flagship enterprise product architecture."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0834-ic-staff-plus",
       "fit_score": 98,
@@ -5487,7 +5487,7 @@
       "application_id": "app-20260704-nice-principal-software-architect-2bd6b161",
       "resume_snapshot_path": "applications/resumes/app-20260704-nice-principal-software-architect-2bd6b161/resume.md",
       "discovered_at": "2026-07-04T08:48:25Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-04T09:06:08Z",
       "notes": [
         "Net-new source ID and no semantic equivalent found for NiCE in the tracker during the 08:34 heartbeat."
       ]
@@ -5628,7 +5628,7 @@
         "Posting requires 12+ years and strategic AI architecture ownership.",
         "Role is actively reviewing applicants and Easy Apply on LinkedIn."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0834-ic-staff-plus",
       "fit_score": 92,
@@ -5666,7 +5666,7 @@
       "application_id": "app-20260704-cvent-technical-architect-ai-bengaluru-1221e5db",
       "resume_snapshot_path": "applications/resumes/app-20260704-cvent-technical-architect-ai-bengaluru-1221e5db/resume.md",
       "discovered_at": "2026-07-04T08:48:25Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-04T09:07:06Z",
       "notes": [
         "Kept despite comp uncertainty because the AI architecture scope matches current Salesforce work closely."
       ]

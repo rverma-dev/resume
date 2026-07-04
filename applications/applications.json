@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T08:48:39Z",
+  "updated_at": "2026-07-04T09:07:06Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -14,11 +14,11 @@
       "company": "Cvent",
       "role": "Technical Architect - AI (Bengaluru)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0834-ic-staff-plus",
       "approved_at": "2026-07-04T08:48:39Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-04T09:07:06Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -45,8 +45,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-cvent-technical-architect-ai-bengaluru-1221e5db/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected LinkedIn Easy Apply during 09:04 heartbeat; modal/form is reachable but cannot be safely completed autonomously.",
+        "LinkedIn Easy Apply requires phone/profile confirmation, resume upload, radio/required application questions, saving answers/resume to LinkedIn, and final Submit application action. These require user-provided answers and action-time approval before transmission."
+      ],
+      "status_reason": "Inspected LinkedIn Easy Apply during 09:04 heartbeat; modal/form is reachable but cannot be safely completed autonomously.",
+      "last_status_update_id": "status-20260704-0904-cvent-manual-linkedin-easy-apply",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply requires phone/profile confirmation, resume upload, radio/required application questions, saving answers/resume to LinkedIn, and final Submit application action. These require user-provided answers and action-time approval before transmission.",
+      "manual_action_at": "2026-07-04T09:07:06Z"
     },
     {
       "application_id": "app-20260704-netskope-staff-sre-dns-specialist-platform-en-966dc27f",
@@ -146,11 +153,11 @@
       "company": "NiCE",
       "role": "Principal Software Architect",
       "location": "Pune City, Maharashtra, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0834-ic-staff-plus",
       "approved_at": "2026-07-04T08:48:39Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-04T09:06:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -178,8 +185,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-nice-principal-software-architect-2bd6b161/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected NiCE Greenhouse application during 09:04 heartbeat; external form is reachable but cannot be completed autonomously.",
+        "Greenhouse form requires sensitive/personal and compensation answers before submission: phone, current employer, current location, current compensation, notice period, expected compensation, total relevant experience in months, relevant skills, and resume upload. Final submission also requires action-time approval."
+      ],
+      "status_reason": "Inspected NiCE Greenhouse application during 09:04 heartbeat; external form is reachable but cannot be completed autonomously.",
+      "last_status_update_id": "status-20260704-0904-nice-manual-greenhouse",
+      "manual_action_required": true,
+      "manual_action_reason": "Greenhouse form requires sensitive/personal and compensation answers before submission: phone, current employer, current location, current compensation, notice period, expected compensation, total relevant experience in months, relevant skills, and resume upload. Final submission also requires action-time approval.",
+      "manual_action_at": "2026-07-04T09:06:08Z"
     },
     {
       "application_id": "app-20260704-tmus-global-solutions-principal-engineer-agentic-ai-t500-2-2ff63578",
