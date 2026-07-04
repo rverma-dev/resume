@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T14:36:34Z",
+  "updated_at": "2026-07-04T15:05:56Z",
   "active_batch_id": "batch-20260704-1434-ic-rubrik-principal",
   "last_scheduler_run_at": "2026-07-04T14:36:26Z",
   "batch_size": 10,
@@ -1126,8 +1126,8 @@
         "Oracle Principal/PMTS-level OCI roles are plausible stretch targets; compare with Salesforce PMTS/L9 during recruiter discussion.",
         "No exact salary range visible in LinkedIn posting."
       ],
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "batch_id": "batch-20260704-security-platform-ic-0604",
       "fit_score": 94,
       "fit_reason": "Strong Principal OCI infrastructure fit: network automation, distributed fleet management, global-region deployment tooling, secure OCI networking infrastructure, monitoring, alarms, telemetry, runbooks, incident response, and RCA ownership.",
@@ -1178,7 +1178,7 @@
       "application_id": "app-20260704-oracle-principal-software-engineer-62bba00e",
       "resume_snapshot_path": "applications/resumes/app-20260704-oracle-principal-software-engineer-62bba00e/resume.md",
       "discovered_at": "2026-07-04T06:10:22Z",
-      "updated_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-04T15:05:56Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
       ],
@@ -2344,6 +2344,75 @@
       "resume_snapshot_name": "IC Resume"
     },
     {
+      "job_id": "linkedin-4435215953",
+      "dedupe_key": "linkedin:4435215953",
+      "source": "linkedin",
+      "source_job_id": "4435215953",
+      "source_url": "https://www.linkedin.com/jobs/view/4435215953",
+      "company": "Coupang",
+      "role": "Senior Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Staff backend IC",
+      "compensation_signals": [
+        "Coupang is a user-identified high-comp target at Senior Staff/Director-equivalent bands.",
+        "Senior Staff role reports to Senior Director and owns technical north star for Rocket Growth supply-chain domain.",
+        "No salary range was visible."
+      ],
+      "status": "archived",
+      "approval_status": "archived",
+      "batch_id": "batch-20260704-ic-heartbeat-2234",
+      "fit_score": 90,
+      "fit_reason": "Strong Senior Staff distributed backend fit: next-generation products, supply-chain systems, domain technical north star, roadmap and scalable architecture, stakeholder alignment, mission-critical projects, AWS, Java/Python, large-system architecture, and production issue handling.",
+      "fit_signals": [
+        "Senior Staff IC",
+        "reports to Senior Director",
+        "domain technical north star",
+        "large-scale distributed systems",
+        "supply chain platform",
+        "AWS",
+        "mission-critical architecture"
+      ],
+      "risk_flags": [
+        "Supply-chain domain depth should be positioned through platform architecture rather than claiming direct domain expertise.",
+        "Hybrid Bengaluru requirement should be confirmed."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Coupang",
+          "profile_url": "",
+          "notes": "LinkedIn search showed 30 company alumni on Coupang Senior Staff postings."
+        }
+      ],
+      "connections_summary": "Coupang Senior Staff postings show company alumni signal; prioritize referral if available.",
+      "resume_theme": {
+        "name": "Senior Staff commerce platform architecture",
+        "positioning": "Position around high-scale commerce and financial platform architecture, distributed reliability, and cross-team technical direction.",
+        "key_pointers": [
+          "Lead with Jupiter payments, Brane event billing, and Salesforce observability scale.",
+          "Use proactive diagnostics/anomaly alerts to prove production issue handling and root-cause depth.",
+          "Frame Internal IDE/agent federation as engineering productivity leverage, secondary to backend platform execution.",
+          "Emphasize roadmap/technical north-star work through RFCs, ADRs, and cross-team rollouts."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260703-coupang-senior-staff-software-engineer-76d97207",
+      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-76d97207/resume.md",
+      "discovered_at": "2026-07-03T22:41:42Z",
+      "updated_at": "2026-07-04T15:05:56Z",
+      "notes": [
+        "Imported from 2026-07-04 heartbeat search; distinct Coupang Rocket Growth/Supply Chain Senior Staff role."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
       "job_id": "linkedin-4297757022",
       "dedupe_key": "linkedin:4297757022",
       "source": "linkedin",
@@ -2417,75 +2486,6 @@
       "updated_at": "2026-07-03T22:41:47Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; distinct Databricks infrastructure posting but lower priority than already approved Senior Staff roles."
-      ],
-      "resume_snapshot_name": "IC Resume"
-    },
-    {
-      "job_id": "linkedin-4435215953",
-      "dedupe_key": "linkedin:4435215953",
-      "source": "linkedin",
-      "source_job_id": "4435215953",
-      "source_url": "https://www.linkedin.com/jobs/view/4435215953",
-      "company": "Coupang",
-      "role": "Senior Staff Software Engineer",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "Hybrid",
-      "experience_level": "Senior Staff backend IC",
-      "compensation_signals": [
-        "Coupang is a user-identified high-comp target at Senior Staff/Director-equivalent bands.",
-        "Senior Staff role reports to Senior Director and owns technical north star for Rocket Growth supply-chain domain.",
-        "No salary range was visible."
-      ],
-      "status": "approved",
-      "approval_status": "approved",
-      "batch_id": "batch-20260704-ic-heartbeat-2234",
-      "fit_score": 90,
-      "fit_reason": "Strong Senior Staff distributed backend fit: next-generation products, supply-chain systems, domain technical north star, roadmap and scalable architecture, stakeholder alignment, mission-critical projects, AWS, Java/Python, large-system architecture, and production issue handling.",
-      "fit_signals": [
-        "Senior Staff IC",
-        "reports to Senior Director",
-        "domain technical north star",
-        "large-scale distributed systems",
-        "supply chain platform",
-        "AWS",
-        "mission-critical architecture"
-      ],
-      "risk_flags": [
-        "Supply-chain domain depth should be positioned through platform architecture rather than claiming direct domain expertise.",
-        "Hybrid Bengaluru requirement should be confirmed."
-      ],
-      "people": [
-        {
-          "name": "Company alumni",
-          "relationship": "alumni signal",
-          "role": "Coupang",
-          "profile_url": "",
-          "notes": "LinkedIn search showed 30 company alumni on Coupang Senior Staff postings."
-        }
-      ],
-      "connections_summary": "Coupang Senior Staff postings show company alumni signal; prioritize referral if available.",
-      "resume_theme": {
-        "name": "Senior Staff commerce platform architecture",
-        "positioning": "Position around high-scale commerce and financial platform architecture, distributed reliability, and cross-team technical direction.",
-        "key_pointers": [
-          "Lead with Jupiter payments, Brane event billing, and Salesforce observability scale.",
-          "Use proactive diagnostics/anomaly alerts to prove production issue handling and root-cause depth.",
-          "Frame Internal IDE/agent federation as engineering productivity leverage, secondary to backend platform execution.",
-          "Emphasize roadmap/technical north-star work through RFCs, ADRs, and cross-team rollouts."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/architecture/",
-          "work/RFCs/",
-          "work/project_docs/"
-        ]
-      },
-      "application_id": "app-20260703-coupang-senior-staff-software-engineer-76d97207",
-      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-76d97207/resume.md",
-      "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
-      "notes": [
-        "Imported from 2026-07-04 heartbeat search; distinct Coupang Rocket Growth/Supply Chain Senior Staff role."
       ],
       "resume_snapshot_name": "IC Resume"
     },
@@ -6210,8 +6210,8 @@
       "compensation_signals": [
         "Rubrik principal engineering roles are high-band target-company roles; posting explicitly says same level as Engineering Director."
       ],
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "batch_id": "batch-20260704-1134-ic-rubrik-platform",
       "fit_score": 98,
       "fit_reason": "Exceptional IC leveling fit: Principal Engineer in Developer Platform, explicitly director-equivalent, owning multi-system SDLC/developer productivity strategy, AI/ML productivity integration, CI/CD, observability, cloud infrastructure, platform scale, and cross-org technical influence.",
@@ -6247,7 +6247,7 @@
       "application_id": "app-20260704-rubrik-principal-engineer-df7bad6a",
       "resume_snapshot_path": "applications/resumes/app-20260704-rubrik-principal-engineer-df7bad6a/resume.md",
       "discovered_at": "2026-07-04T11:36:39Z",
-      "updated_at": "2026-07-04T11:36:48Z",
+      "updated_at": "2026-07-04T15:05:55Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -7913,8 +7913,8 @@
         "Amazon is target-capable in recruiting config for 2.5cr+ total compensation at Principal/Director-equivalent bands.",
         "Principal Software Engineer title with GenAI Alexa+ architecture scope."
       ],
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 94,
       "fit_reason": "Principal GenAI/distributed-systems technical leadership role for Alexa+ international architecture, runtime/offline systems, scalability, extensibility, and cross-org influence.",
@@ -7947,7 +7947,7 @@
       "application_id": "app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1",
       "resume_snapshot_path": "applications/resumes/app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1/resume.md",
       "discovered_at": "2026-07-04T07:45:15Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-04T15:05:56Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -8513,8 +8513,8 @@
         "Posting says this Principal Engineer operates at the same level as an Engineering Director and owns multi-quarter developer-platform strategy.",
         "Scope spans CI/CD, observability, cloud infrastructure, core tooling, AI/ML productivity, and 10-18 engineers of cross-cutting effort; salary is not visible."
       ],
-      "status": "approved",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "batch_id": "batch-20260703-acd3380a",
       "fit_score": 96,
       "fit_reason": "Excellent platform and AI-productivity fit: the role is director-equivalent IC ownership for developer platform, infrastructure, observability, cloud tooling, AI/ML developer workflows, multi-org consensus, Staff-to-Principal mentorship, and long-range technical strategy. The resume has MuleSoft observability, Unleash/internal IDE, governed agents, Brane platform/SRE leadership, and cross-team RFC evidence.",
@@ -8557,7 +8557,7 @@
       "application_id": "app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c",
       "resume_snapshot_path": "applications/resumes/app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-04T15:05:55Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
