@@ -1,9 +1,123 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T21:58:28Z",
+  "updated_at": "2026-07-04T22:31:34Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-alphasense-staff-software-engineer-d5868734",
+      "job_id": "official-alphasense-8462858002",
+      "dedupe_key": "url:https://job-boards.greenhouse.io/alphasense/jobs/8462858002",
+      "source": "official",
+      "source_job_id": "8462858002",
+      "source_url": "https://job-boards.greenhouse.io/alphasense/jobs/8462858002",
+      "company": "AlphaSense",
+      "role": "Staff Software Engineer",
+      "location": "Remote - India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-uipath-alphasense-ic",
+      "approved_at": "2026-07-04T22:31:34Z",
+      "updated_at": "2026-07-04T22:31:34Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong Staff IC fit: technical direction, ambiguous system ownership, real-time ingestion pipelines, multi-vendor API integrations, entitlement enforcement, distributed systems, compliance, low-latency content delivery, SLO/SLI ownership, RFC leadership, observability, and AI-assisted development match platform/search/content systems experience.",
+      "people": [],
+      "connections_summary": "LinkedIn MCP exact people filter returned 0 associated members; company page showed Sandeep and 8 other connections follow the page, but no named employee contact was captured.",
+      "resume_theme": {
+        "name": "Search/content platform staff IC",
+        "positioning": "Position Rohit as a Staff platform engineer for business-critical search/content systems: real-time ingestion, entitlement enforcement, low-latency delivery, observability, and compliance-aware distributed architecture.",
+        "key_pointers": [
+          "Lead with Salesforce observability, anomaly detection, proactive diagnostics, and SLO-backed production ownership.",
+          "Use Jupiter payments/compliance and Brane enterprise security/compliance readiness as analogs for entitlement and regulated access-control systems.",
+          "Map AM agent federation and Internal IDE/Unleash to AI-assisted development, RFC leadership, and engineering standards influence.",
+          "Emphasize cross-team architecture, migrations, failure-mode thinking, and build-it/run-it ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/incident_reviews/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-alphasense-staff-software-engineer-d5868734/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-alphasense-staff-software-engineer-d5868734/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-uipath-principal-software-engineer-bcdc1cd7",
+      "job_id": "official-uipath-d7d6857f",
+      "dedupe_key": "url:https://jobs.ashbyhq.com/uipath/d7d6857f-47b7-45d9-869e-72696fd6e0b5",
+      "source": "official",
+      "source_job_id": "d7d6857f-47b7-45d9-869e-72696fd6e0b5",
+      "source_url": "https://jobs.ashbyhq.com/uipath/d7d6857f-47b7-45d9-869e-72696fd6e0b5",
+      "company": "UiPath",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-uipath-alphasense-ic",
+      "approved_at": "2026-07-04T22:31:34Z",
+      "updated_at": "2026-07-04T22:31:34Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Excellent Principal IC fit: agentic governance platform, distributed backend systems, policy enforcement, audit logging, access control, workflow observability, AI coding-agent adoption, reliability/SLOs, Kubernetes/cloud infrastructure, anomaly detection, and compliance automation map directly to current Salesforce platform/agent work.",
+      "people": [
+        {
+          "name": "Ayush Jain",
+          "relationship": "2nd degree",
+          "role": "Principal Engineering Manager @ UiPath | Building Agentic AI Governance | AI Agents, LLMs, MCP, Enterprise AI Platforms",
+          "profile_url": "https://www.linkedin.com/in/ayushjain94/",
+          "notes": "Surfaced by LinkedIn people search for Principal Software Engineer Agentic Governance Platform Bengaluru."
+        },
+        {
+          "name": "Sanjay Kumar",
+          "relationship": "2nd degree",
+          "role": "Senior Engineering Leader | AI-Powered Platforms",
+          "profile_url": "https://www.linkedin.com/in/tosanjayrajpal/",
+          "notes": "Surfaced by LinkedIn people search for Principal Software Engineer Agentic Governance Platform Bengaluru."
+        },
+        {
+          "name": "Suhail Siddiqi",
+          "relationship": "2nd degree",
+          "role": "Engineering Leader @ UiPath | Building Agentic AI & Governance Platforms | LLMs, RAG, MCP, Policy-as-Code",
+          "profile_url": "https://www.linkedin.com/in/suhail-siddiqi-91902372/",
+          "notes": "Surfaced by LinkedIn people search for Principal Software Engineer Agentic Governance Platform Bengaluru."
+        }
+      ],
+      "connections_summary": "LinkedIn MCP found 3 relevant 2nd-degree Bengaluru engineering contacts for Agentic Governance Platform keywords.",
+      "resume_theme": {
+        "name": "Agentic governance platform principal IC",
+        "positioning": "Position Rohit as a Principal platform engineer for governed agentic systems: policy enforcement, auditability, access control, workflow observability, anomaly detection, and responsible AI-assisted engineering at enterprise scale.",
+        "key_pointers": [
+          "Lead with AM agent federation, proactive diagnostics ADRs, anomaly detection alerts, and governed evidence-plane work from Salesforce.",
+          "Use Internal IDE/Unleash as proof of AI-assisted developer productivity and platform-quality workflow design.",
+          "Map Hyperforce observability, SLOs, Prometheus-native alerting, and multi-region rollouts to UiPath reliability and platform modernization needs.",
+          "Frame RFC leadership, MCP/tool facades, audit/cost controls, and compliance-minded platform governance as the differentiator."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/design_docs/README.md",
+          "work/project_docs/README.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-uipath-principal-software-engineer-bcdc1cd7/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-uipath-principal-software-engineer-bcdc1cd7/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-singlestore-sr-principal-software-engineer-884e7fac",
       "job_id": "official-singlestore-7867768",

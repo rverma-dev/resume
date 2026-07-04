@@ -1,11 +1,154 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T21:58:28Z",
-  "active_batch_id": "batch-20260704-singlestore-ic",
-  "last_scheduler_run_at": "2026-07-04T21:58:21Z",
+  "updated_at": "2026-07-04T22:31:34Z",
+  "active_batch_id": "batch-20260704-uipath-alphasense-ic",
+  "last_scheduler_run_at": "2026-07-04T22:31:27Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 1,
+  "jobs_per_scheduler_run": 2,
   "jobs": [
+    {
+      "job_id": "official-uipath-d7d6857f",
+      "dedupe_key": "url:https://jobs.ashbyhq.com/uipath/d7d6857f-47b7-45d9-869e-72696fd6e0b5",
+      "source": "official",
+      "source_job_id": "d7d6857f-47b7-45d9-869e-72696fd6e0b5",
+      "source_url": "https://jobs.ashbyhq.com/uipath/d7d6857f-47b7-45d9-869e-72696fd6e0b5",
+      "company": "UiPath",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid / flexible by team",
+      "experience_level": "Principal Software Engineer / IC",
+      "compensation_signals": [
+        "Principal IC role at an agentic automation platform company; likely worth pursuing for seniority and AI-platform leverage even though India pay band was not validated in public data.",
+        "Enterprise governance, automation, and AI developer-tooling scope can support current/next-level positioning if compensation clears target."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-uipath-alphasense-ic",
+      "fit_score": 98,
+      "fit_reason": "Excellent Principal IC fit: agentic governance platform, distributed backend systems, policy enforcement, audit logging, access control, workflow observability, AI coding-agent adoption, reliability/SLOs, Kubernetes/cloud infrastructure, anomaly detection, and compliance automation map directly to current Salesforce platform/agent work.",
+      "fit_signals": [
+        "Own architecture and delivery of backend systems powering enterprise-grade governance, control, and observability across agentic automation workflows.",
+        "Includes policy enforcement, audit logging, access control, workflow observability, SLOs, Prometheus/Grafana, cloud infrastructure, Kubernetes, CI/CD, and IaC.",
+        "Explicitly values AI coding agents and responsible team adoption of Copilot/Cursor/Claude Code-style engineering workflows.",
+        "Requires 13+ years and 5+ years distributed/backend architecture experience, matching senior IC trajectory."
+      ],
+      "risk_flags": [
+        "Official Ashby flow likely requires candidate-verified legal, work authorization, EEO, consent, or location answers before final submission.",
+        "Hybrid/flexible office expectations and compensation band should be validated before prioritizing interview time.",
+        "LinkedIn ID 4384044962 verified via MCP; source URL is official Ashby posting."
+      ],
+      "people": [
+        {
+          "name": "Ayush Jain",
+          "relationship": "2nd degree",
+          "role": "Principal Engineering Manager @ UiPath | Building Agentic AI Governance | AI Agents, LLMs, MCP, Enterprise AI Platforms",
+          "profile_url": "https://www.linkedin.com/in/ayushjain94/",
+          "notes": "Surfaced by LinkedIn people search for Principal Software Engineer Agentic Governance Platform Bengaluru."
+        },
+        {
+          "name": "Sanjay Kumar",
+          "relationship": "2nd degree",
+          "role": "Senior Engineering Leader | AI-Powered Platforms",
+          "profile_url": "https://www.linkedin.com/in/tosanjayrajpal/",
+          "notes": "Surfaced by LinkedIn people search for Principal Software Engineer Agentic Governance Platform Bengaluru."
+        },
+        {
+          "name": "Suhail Siddiqi",
+          "relationship": "2nd degree",
+          "role": "Engineering Leader @ UiPath | Building Agentic AI & Governance Platforms | LLMs, RAG, MCP, Policy-as-Code",
+          "profile_url": "https://www.linkedin.com/in/suhail-siddiqi-91902372/",
+          "notes": "Surfaced by LinkedIn people search for Principal Software Engineer Agentic Governance Platform Bengaluru."
+        }
+      ],
+      "connections_summary": "LinkedIn MCP found 3 relevant 2nd-degree Bengaluru engineering contacts for Agentic Governance Platform keywords.",
+      "resume_theme": {
+        "name": "Agentic governance platform principal IC",
+        "positioning": "Position Rohit as a Principal platform engineer for governed agentic systems: policy enforcement, auditability, access control, workflow observability, anomaly detection, and responsible AI-assisted engineering at enterprise scale.",
+        "key_pointers": [
+          "Lead with AM agent federation, proactive diagnostics ADRs, anomaly detection alerts, and governed evidence-plane work from Salesforce.",
+          "Use Internal IDE/Unleash as proof of AI-assisted developer productivity and platform-quality workflow design.",
+          "Map Hyperforce observability, SLOs, Prometheus-native alerting, and multi-region rollouts to UiPath reliability and platform modernization needs.",
+          "Frame RFC leadership, MCP/tool facades, audit/cost controls, and compliance-minded platform governance as the differentiator."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/design_docs/README.md",
+          "work/project_docs/README.md"
+        ]
+      },
+      "application_id": "app-20260704-uipath-principal-software-engineer-bcdc1cd7",
+      "resume_snapshot_path": "applications/resumes/app-20260704-uipath-principal-software-engineer-bcdc1cd7/resume.md",
+      "discovered_at": "2026-07-04T22:31:27Z",
+      "updated_at": "2026-07-04T22:31:34Z",
+      "notes": [
+        "LinkedIn MCP verification: job 4384044962 reposted 1 day ago, responses managed off LinkedIn, over 100 people clicked apply.",
+        "Official application URL uses Ashby posting d7d6857f-47b7-45d9-869e-72696fd6e0b5."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "official-alphasense-8462858002",
+      "dedupe_key": "url:https://job-boards.greenhouse.io/alphasense/jobs/8462858002",
+      "source": "official",
+      "source_job_id": "8462858002",
+      "source_url": "https://job-boards.greenhouse.io/alphasense/jobs/8462858002",
+      "company": "AlphaSense",
+      "role": "Staff Software Engineer",
+      "location": "Remote - India",
+      "work_type": "Remote",
+      "experience_level": "Staff Software Engineer / IC",
+      "compensation_signals": [
+        "Remote India Staff role at a global AI/search market-intelligence company; compensation may be below Principal target but scope is senior and AI/platform-aligned.",
+        "Over 6,000 enterprise customers and S&P 500-heavy customer base signal meaningful business-critical platform scale."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-uipath-alphasense-ic",
+      "fit_score": 93,
+      "fit_reason": "Strong Staff IC fit: technical direction, ambiguous system ownership, real-time ingestion pipelines, multi-vendor API integrations, entitlement enforcement, distributed systems, compliance, low-latency content delivery, SLO/SLI ownership, RFC leadership, observability, and AI-assisted development match platform/search/content systems experience.",
+      "fit_signals": [
+        "Own technical direction and roadmap for broker research content systems and entitlement enforcement across distributed systems.",
+        "Real-time ingestion pipelines, multi-vendor APIs, low-latency content delivery, compliance, reliability, and search/content processing align with platform infrastructure strengths.",
+        "Explicitly values Claude Code, Cursor, Copilot, production AI/ML integration, RFCs, architectural reviews, and cross-team influence without formal authority.",
+        "Remote India role fits location flexibility."
+      ],
+      "risk_flags": [
+        "Staff title may be a lateral or slight under-level versus Principal/Director target; keep only because domain and remote fit are strong.",
+        "Exact compensation band not validated; verify early before deep interview loops.",
+        "LinkedIn people search with exact platform/search/entitlements filter returned 0 associated members; relationship path is weak for now.",
+        "Official Greenhouse flow likely requires candidate-verified legal, work authorization, EEO, consent, or location answers before final submission."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn MCP exact people filter returned 0 associated members; company page showed Sandeep and 8 other connections follow the page, but no named employee contact was captured.",
+      "resume_theme": {
+        "name": "Search/content platform staff IC",
+        "positioning": "Position Rohit as a Staff platform engineer for business-critical search/content systems: real-time ingestion, entitlement enforcement, low-latency delivery, observability, and compliance-aware distributed architecture.",
+        "key_pointers": [
+          "Lead with Salesforce observability, anomaly detection, proactive diagnostics, and SLO-backed production ownership.",
+          "Use Jupiter payments/compliance and Brane enterprise security/compliance readiness as analogs for entitlement and regulated access-control systems.",
+          "Map AM agent federation and Internal IDE/Unleash to AI-assisted development, RFC leadership, and engineering standards influence.",
+          "Emphasize cross-team architecture, migrations, failure-mode thinking, and build-it/run-it ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/incident_reviews/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": "app-20260704-alphasense-staff-software-engineer-d5868734",
+      "resume_snapshot_path": "applications/resumes/app-20260704-alphasense-staff-software-engineer-d5868734/resume.md",
+      "discovered_at": "2026-07-04T22:31:27Z",
+      "updated_at": "2026-07-04T22:31:34Z",
+      "notes": [
+        "LinkedIn MCP verification: job 4417700428 reposted 1 day ago, remote India, responses managed off LinkedIn, over 100 people clicked apply.",
+        "Official application URL uses Greenhouse job 8462858002."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "linkedin-4426808289",
       "dedupe_key": "linkedin:4426808289",
