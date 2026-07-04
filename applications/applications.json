@@ -1,9 +1,68 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T01:39:31Z",
+  "updated_at": "2026-07-04T02:09:49Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-ebay-principal-mts-architect-shipping-1cbaf4a8",
+      "job_id": "linkedin-4378146818",
+      "dedupe_key": "linkedin:4378146818",
+      "source": "linkedin",
+      "source_job_id": "4378146818",
+      "source_url": "https://www.linkedin.com/jobs/view/4378146818",
+      "company": "eBay",
+      "role": "Principal MTS Architect - Shipping",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ebay-shipping-architect-heartbeat",
+      "approved_at": "2026-07-04T02:05:18Z",
+      "updated_at": "2026-07-04T02:09:49Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong principal-level architecture fit: eBay Shipping owns globally distributed, low-latency, high-availability shipping and fulfillment platforms across 190+ markets, with explicit Principal-level influence, enterprise architecture, high-throughput backend systems, SLAs, microservices, product/payments/fulfillment collaboration, and senior engineer mentorship.",
+      "people": [
+        {
+          "name": "Suman and eBay network",
+          "relationship": "LinkedIn network signal",
+          "role": "eBay",
+          "profile_url": "",
+          "notes": "LinkedIn posting showed Suman and others in network."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed Suman and others in network; referral/contact mapping should be researched before manual submission.",
+      "resume_theme": {
+        "name": "Principal commerce and logistics platform architecture",
+        "positioning": "Position as a principal-level platform architect who has owned commerce-adjacent payments correctness, distributed platform reliability, observability, and cross-org technical strategy for high-scale systems.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments infrastructure, reconciliation, and production correctness as commerce-grade platform evidence.",
+          "Use Salesforce anomaly detection alerts, proactive diagnostics, and observability cost reduction to show operational excellence, monitorability, and reliability loops.",
+          "Highlight Brane enterprise infrastructure and multi-region rollout as cloud-native platform, compliance, and cross-team architecture ownership.",
+          "Frame Internal IDE/Unleash and AM agent federation as engineering velocity tools that help senior teams reason about production systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-ebay-principal-mts-architect-shipping-1cbaf4a8/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-ebay-principal-mts-architect-shipping-1cbaf4a8/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application attempt reached the eBay external form for R0072820 and verified the first page required resume upload plus contact fields, but the controlled Chrome upload flow timed out on the hidden file input and tab recovery timed out before safe completion.",
+        "Manual application required because eBay's resume-upload control could not be completed reliably through Chrome automation in this session; no final submission was made."
+      ],
+      "status_reason": "Application attempt reached the eBay external form for R0072820 and verified the first page required resume upload plus contact fields, but the controlled Chrome upload flow timed out on the hidden file input and tab recovery timed out before safe completion.",
+      "last_status_update_id": "status-20260704-ebay-shipping-upload-timeout",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual application required because eBay's resume-upload control could not be completed reliably through Chrome automation in this session; no final submission was made.",
+      "manual_action_at": "2026-07-04T02:09:49Z"
+    },
     {
       "application_id": "app-20260704-prime-video-amazon-mgm-studi-principal-software-engineer-prime-vi-44f40484",
       "job_id": "linkedin-4436130594",
