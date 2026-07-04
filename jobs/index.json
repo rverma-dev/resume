@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-03T23:37:26Z",
+  "updated_at": "2026-07-04T00:05:46Z",
   "active_batch_id": "batch-20260704-ic-heartbeat-2234",
   "last_scheduler_run_at": "2026-07-03T22:41:42Z",
   "batch_size": 10,
@@ -2603,7 +2603,7 @@
         "Apple is a high-compensation-capable target company at senior staff-plus/architect bands.",
         "No public salary range visible on the official posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-ic-google-microsoft-apple",
       "fit_score": 84,
@@ -2645,7 +2645,7 @@
       "application_id": "app-20260703-apple-senior-technical-architect-customer-67c10247",
       "resume_snapshot_path": "applications/resumes/app-20260703-apple-senior-technical-architect-customer-67c10247/resume.md",
       "discovered_at": "2026-07-03T18:18:00Z",
-      "updated_at": "2026-07-03T18:18:30Z",
+      "updated_at": "2026-07-04T00:05:46Z",
       "notes": [
         "Imported from Apple official careers search after user noted Apple was missing from queue."
       ]

@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-03T23:37:26Z",
+  "updated_at": "2026-07-04T00:05:46Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -2200,11 +2200,11 @@
       "company": "Apple",
       "role": "Senior Technical Architect - Customer Systems",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-ic-google-microsoft-apple",
       "approved_at": "2026-07-03T18:18:30Z",
-      "updated_at": "2026-07-03T18:18:30Z",
+      "updated_at": "2026-07-04T00:05:46Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 84,
@@ -2238,8 +2238,15 @@
       "resume_theme_path": "applications/resumes/app-20260703-apple-senior-technical-architect-customer-67c10247/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Apple Jobs application URL redirected to Apple ID sign-in; not submitted.",
+        "Requires user-controlled Apple ID sign-in before the application form is available. Chrome automation was also blocked by an open extension UI on the sign-in page, so no profile, CV upload, or submission step was completed."
+      ],
+      "status_reason": "Apple Jobs application URL redirected to Apple ID sign-in; not submitted.",
+      "last_status_update_id": "status-20260704-apple-technical-architect-apple-id-login",
+      "manual_action_required": true,
+      "manual_action_reason": "Requires user-controlled Apple ID sign-in before the application form is available. Chrome automation was also blocked by an open extension UI on the sign-in page, so no profile, CV upload, or submission step was completed.",
+      "manual_action_at": "2026-07-04T00:05:46Z"
     },
     {
       "application_id": "app-20260703-google-staff-software-engineer-foundation-s-4346ebfe",
