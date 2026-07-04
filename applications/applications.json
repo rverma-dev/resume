@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T09:07:06Z",
+  "updated_at": "2026-07-04T09:36:11Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -551,11 +551,11 @@
       "company": "GitLab",
       "role": "Staff Backend Engineer (Go), Continuous Delivery",
       "location": "Greater Delhi Area, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T09:36:11Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -581,8 +581,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected GitLab Greenhouse application during 09:34 heartbeat; external form is reachable but cannot be completed autonomously.",
+        "GitLab Greenhouse requires personal/contact fields, resume upload, employment-agreement or post-employment restriction answer, visa sponsorship answer, current country of residence, optional EEO/self-identification fields, a reCAPTCHA response element, and final Submit application action. These require user-provided legal/work-authorization answers and action-time approval."
+      ],
+      "status_reason": "Inspected GitLab Greenhouse application during 09:34 heartbeat; external form is reachable but cannot be completed autonomously.",
+      "last_status_update_id": "status-20260704-0934-gitlab-manual-greenhouse",
+      "manual_action_required": true,
+      "manual_action_reason": "GitLab Greenhouse requires personal/contact fields, resume upload, employment-agreement or post-employment restriction answer, visa sponsorship answer, current country of residence, optional EEO/self-identification fields, a reCAPTCHA response element, and final Submit application action. These require user-provided legal/work-authorization answers and action-time approval.",
+      "manual_action_at": "2026-07-04T09:36:11Z"
     },
     {
       "application_id": "app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f",
@@ -3283,11 +3290,11 @@
       "company": "Google",
       "role": "Staff Software Engineer, Infrastructure, Google Cloud",
       "location": "Bengaluru, Karnataka, India; Hyderabad, Telangana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-google-official-staff-batch",
       "approved_at": "2026-07-04T03:07:04Z",
-      "updated_at": "2026-07-04T03:07:04Z",
+      "updated_at": "2026-07-04T09:36:11Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -3337,8 +3344,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-google-staff-software-engineer-infrastructu-a45b5762/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected Google Careers application during 09:34 heartbeat; job is available and application flow opens, but cannot be completed autonomously.",
+        "Google Careers opens a five-step application flow requiring legal name/profile fields, phone number, resume upload, privacy acknowledgements, role information, voluntary self-identification, review, and final apply. It is signed in with verma.r@salesforce.com and requires user-provided personal data plus action-time approval before transmission."
+      ],
+      "status_reason": "Inspected Google Careers application during 09:34 heartbeat; job is available and application flow opens, but cannot be completed autonomously.",
+      "last_status_update_id": "status-20260704-0934-google-manual-careers-profile",
+      "manual_action_required": true,
+      "manual_action_reason": "Google Careers opens a five-step application flow requiring legal name/profile fields, phone number, resume upload, privacy acknowledgements, role information, voluntary self-identification, review, and final apply. It is signed in with verma.r@salesforce.com and requires user-provided personal data plus action-time approval before transmission.",
+      "manual_action_at": "2026-07-04T09:36:11Z"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-search-servi-e7e344cc",

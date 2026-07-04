@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T09:07:06Z",
+  "updated_at": "2026-07-04T09:36:11Z",
   "active_batch_id": "batch-20260704-0834-ic-staff-plus",
   "last_scheduler_run_at": "2026-07-04T08:48:25Z",
   "batch_size": 10,
@@ -4307,7 +4307,7 @@
         "Google Cloud infrastructure is a high-compensation platform domain.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff-heartbeat-0304",
       "fit_score": 98,
@@ -4368,7 +4368,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-infrastructu-a45b5762",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-infrastructu-a45b5762/resume.md",
       "discovered_at": "2026-07-04T03:06:47Z",
-      "updated_at": "2026-07-04T03:07:04Z",
+      "updated_at": "2026-07-04T09:36:11Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ]
@@ -5806,7 +5806,7 @@
         "Remote Staff role at global DevSecOps and AI agent platform company; validate India band with recruiter.",
         "High-visibility greenfield CD platform tied to GitLab AI strategy."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 98,
@@ -5840,7 +5840,7 @@
       "application_id": "app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da",
       "resume_snapshot_path": "applications/resumes/app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T09:36:11Z",
       "notes": []
     },
     {
