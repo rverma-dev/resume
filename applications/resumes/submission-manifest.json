@@ -792,6 +792,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-adobe-software-development-engineer-5-arch-8c1382e7",
+    "company": "Adobe",
+    "role": "Software Development Engineer 5 (Architect)",
+    "source_url": "https://www.linkedin.com/jobs/view/4422839076",
+    "submitted_resume_md": "applications/resumes/app-20260704-adobe-software-development-engineer-5-arch-8c1382e7/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-adobe-software-development-engineer-5-arch-8c1382e7/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1",
     "company": "Amazon",
     "role": "Principal Software Engineer, Alexa International",
@@ -807,6 +816,15 @@
     "source_url": "https://www.linkedin.com/jobs/view/4406871773",
     "submitted_resume_md": "applications/resumes/app-20260704-amazon-principal-software-engineer-delivery-ac28c835/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-amazon-principal-software-engineer-delivery-ac28c835/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-arm-principal-software-engineer-41c4b3a7",
+    "company": "Arm",
+    "role": "Principal Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4417516075",
+    "submitted_resume_md": "applications/resumes/app-20260704-arm-principal-software-engineer-41c4b3a7/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-arm-principal-software-engineer-41c4b3a7/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -1242,6 +1260,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-mastercard-sr-principal-software-engineer-6b81cca6",
+    "company": "Mastercard",
+    "role": "Sr. Principal Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4353004447",
+    "submitted_resume_md": "applications/resumes/app-20260704-mastercard-sr-principal-software-engineer-6b81cca6/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-mastercard-sr-principal-software-engineer-6b81cca6/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-mongodb-staff-engineer-0082bb96",
     "company": "MongoDB",
     "role": "Staff Engineer",
@@ -1582,8 +1609,5 @@
     "submitted_resume_md": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/submitted-resume.pdf",
     "pages": 2
-  }
-]
-2
   }
 ]

@@ -1,9 +1,211 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T15:43:22Z",
+  "updated_at": "2026-07-04T19:23:40Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-mastercard-sr-principal-software-engineer-6b81cca6",
+      "job_id": "linkedin-4353004447",
+      "dedupe_key": "linkedin:4353004447",
+      "source": "linkedin",
+      "source_job_id": "4353004447",
+      "source_url": "https://www.linkedin.com/jobs/view/4353004447",
+      "company": "Mastercard",
+      "role": "Sr. Principal Software Engineer",
+      "location": "Pune/Pimpri-Chinchwad Area, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1741-ic-principal-architects",
+      "approved_at": "2026-07-04T19:23:40Z",
+      "updated_at": "2026-07-04T19:23:40Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Good next-level Principal/Sr Principal fit across secure payments platform architecture, B2B microservices, cloud migration, data and application architecture, event/command messaging, resiliency, contract-driven services, and technical leadership across senior IC and management stakeholders. Score is moderated by team-management wording and weaker direct AI-platform scope.",
+      "people": [
+        {
+          "name": "Atul Mishra",
+          "relationship": "2nd degree connection",
+          "role": "Principal Software Engineer at Mastercard, Software Development, Architecture, Leadership",
+          "profile_url": "https://www.linkedin.com/in/atulmishra007/",
+          "notes": "Relevant Principal engineering contact from Mastercard people search."
+        },
+        {
+          "name": "Sandeep C Gaikwad",
+          "relationship": "2nd degree connection",
+          "role": "Principal Software Engineer at Mastercard",
+          "profile_url": "https://www.linkedin.com/in/sandeep-c-gaikwad-525a602/",
+          "notes": "Relevant Principal engineering contact from Mastercard people search."
+        },
+        {
+          "name": "Khushvant Singh",
+          "relationship": "2nd degree connection",
+          "role": "Director, Software Engineering at Mastercard",
+          "profile_url": "https://www.linkedin.com/in/khushvantsingh/",
+          "notes": "Relevant engineering leadership contact from Mastercard people search."
+        }
+      ],
+      "connections_summary": "Mastercard people search showed multiple 2nd-degree Principal/Director engineering contacts and India/Pune engineering density.",
+      "resume_theme": {
+        "name": "Sr Principal regulated payments platform architect",
+        "positioning": "Model as a senior technical leader for regulated, reliable platform systems: secure integrations, cloud migration, event-driven services, data contracts, diagnostics, anomaly detection, and operational correctness.",
+        "key_pointers": [
+          "Lead with regulated enterprise platform reliability: anomaly detection alerts, proactive diagnostics, multi-region rollout discipline, and API contract governance.",
+          "Emphasize Java/cloud/platform architecture, event-driven services, observability, testing automation, resiliency, and cross-team technical influence.",
+          "Use Salesforce/MuleSoft experience as secure enterprise integration and decision-velocity platform work; avoid over-indexing on AI if the recruiter wants payments/core platform depth.",
+          "Prepare a concise explanation for Senior Principal vs Director trajectory: current target is L9-equivalent technical leadership with optional org leadership expansion."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "/Users/rverma/conductor/repos/mdas-alerts",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-mastercard-sr-principal-software-engineer-6b81cca6/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-mastercard-sr-principal-software-engineer-6b81cca6/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-arm-principal-software-engineer-41c4b3a7",
+      "job_id": "linkedin-4417516075",
+      "dedupe_key": "linkedin:4417516075",
+      "source": "linkedin",
+      "source_job_id": "4417516075",
+      "source_url": "https://www.linkedin.com/jobs/view/4417516075",
+      "company": "Arm",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1741-ic-principal-architects",
+      "approved_at": "2026-07-04T19:23:40Z",
+      "updated_at": "2026-07-04T19:23:40Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Solid next-level Principal fit for infrastructure platform leadership, observability, telemetry, diagnostics, testing, CI/release, and technical direction. Score is moderated because the role is firmware/pre-silicon/system software heavy and less directly aligned with Java/cloud/agentic platform work.",
+      "people": [
+        {
+          "name": "Akash Ranjan",
+          "relationship": "2nd degree connection",
+          "role": "Senior Software Engineer, Digital Platform at Arm",
+          "profile_url": "https://www.linkedin.com/in/akash-ranjan-7a9127ba/",
+          "notes": "Relevant platform software contact from Arm people search."
+        },
+        {
+          "name": "Sameer Hakke",
+          "relationship": "2nd degree connection",
+          "role": "Data and Analytics Platform Specialist at Arm",
+          "profile_url": "https://www.linkedin.com/in/sameer-hakke-8b40401ab/",
+          "notes": "Relevant data/AI platform contact from Arm people search."
+        },
+        {
+          "name": "Jay Jayatheerthan",
+          "relationship": "2nd degree connection",
+          "role": "Director of Software Engineering, SoC pre/post silicon",
+          "profile_url": "",
+          "notes": "Relevant software engineering leadership contact from Arm people search."
+        }
+      ],
+      "connections_summary": "Arm people search surfaced 2nd-degree platform/software and software engineering leadership contacts, with India/Karnataka employee signal for the filtered search.",
+      "resume_theme": {
+        "name": "Principal infrastructure robustness and diagnostics platform",
+        "positioning": "Position as a Principal infrastructure/platform engineer focused on observability, diagnostics, telemetry, reliability, testing automation, and platform-level technical direction.",
+        "key_pointers": [
+          "Lead with proactive diagnostics, anomaly detection alerts, multi-region rollout testing, and observability work as the closest match to Arm platform robustness and telemetry requirements.",
+          "Keep agentic AI/internal IDE work secondary unless framed as engineering productivity and diagnostic automation, not firmware expertise.",
+          "Emphasize cross-team architecture, technical risk management, testing/release discipline, and operating ambiguous infrastructure programs.",
+          "Be transparent about needing domain ramp on firmware/pre-silicon/Arm-specific systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "/Users/rverma/conductor/repos/mdas-alerts",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-arm-principal-software-engineer-41c4b3a7/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-arm-principal-software-engineer-41c4b3a7/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-adobe-software-development-engineer-5-arch-8c1382e7",
+      "job_id": "linkedin-4422839076",
+      "dedupe_key": "linkedin:4422839076",
+      "source": "linkedin",
+      "source_job_id": "4422839076",
+      "source_url": "https://www.linkedin.com/jobs/view/4422839076",
+      "company": "Adobe",
+      "role": "Software Development Engineer 5 (Architect)",
+      "location": "Noida, Uttar Pradesh, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1741-ic-principal-architects",
+      "approved_at": "2026-07-04T19:23:40Z",
+      "updated_at": "2026-07-04T19:23:40Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Strong next-level IC architect fit: backend platform architecture, distributed systems, event-driven systems, APIs, data pipelines, AI-first platform capabilities, DevOps/observability, production reliability, legacy modernization, and cross-team technical leadership.",
+      "people": [
+        {
+          "name": "Chandan Kumar",
+          "relationship": "2nd degree connection",
+          "role": "Search and backend platform architect at Adobe",
+          "profile_url": "https://www.linkedin.com/in/chandany5/",
+          "notes": "Relevant backend/platform architect signal from Adobe people search."
+        },
+        {
+          "name": "Sanchit Mehra",
+          "relationship": "2nd degree connection",
+          "role": "Technical Architect, Backend, Platform Engineering, LLM/RAG/Agentic AI",
+          "profile_url": "https://www.linkedin.com/in/sanchitmehra-bits/",
+          "notes": "Relevant Adobe backend/platform/AI contact from company people search."
+        },
+        {
+          "name": "Praveen Adlakha",
+          "relationship": "2nd degree connection",
+          "role": "Engineering leader at Adobe, building for scale",
+          "profile_url": "https://www.linkedin.com/in/praveen-adlakha-b5bb2516/",
+          "notes": "Engineering leadership contact with scale signal from Adobe people search."
+        }
+      ],
+      "connections_summary": "Adobe people search showed current Adobe connections plus multiple 2nd-degree backend/platform/AI contacts; search result also showed 603 company alumni for several Adobe India roles.",
+      "resume_theme": {
+        "name": "P50 backend platform architect for AI-first enterprise systems",
+        "positioning": "Position as an IC architect who turns enterprise signals into reliable platform capabilities: governed agent federation, diagnostics, anomaly alerts, internal IDE/productivity systems, observability, and scalable backend architecture.",
+        "key_pointers": [
+          "Lead with AM agent federation, proactive diagnostics, anomaly detection alerts, and internal IDE as proof of AI-first platform architecture in enterprise systems.",
+          "Emphasize distributed backend design, API contracts, event-driven signals, observability, CI/CD, testing automation, and production reliability.",
+          "Use Unlease/Superset fork only as platform UX/data-product evidence where relevant; keep the main narrative backend architecture and AI-enabled platform engineering.",
+          "Frame leadership as cross-team architecture and standards, not people management."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "/Users/rverma/conductor/repos/unleash",
+          "/Users/rverma/conductor/repos/mdas-alerts",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-adobe-software-development-engineer-5-arch-8c1382e7/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-adobe-software-development-engineer-5-arch-8c1382e7/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc",
       "job_id": "linkedin-4415593304",
