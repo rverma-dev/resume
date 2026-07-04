@@ -1,9 +1,84 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T22:31:34Z",
+  "updated_at": "2026-07-04T23:01:51Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-mastercard-principal-engineer-real-time-payment-069eb94b",
+      "job_id": "linkedin-4414012990",
+      "dedupe_key": "linkedin:4414012990",
+      "source": "linkedin",
+      "source_job_id": "4414012990",
+      "source_url": "https://www.linkedin.com/jobs/view/4414012990",
+      "company": "Mastercard",
+      "role": "Principal Engineer, Real-time Payments (Technology & Architecture)",
+      "location": "Pune/Pimpri-Chinchwad Area, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-mastercard-rtp-ic",
+      "approved_at": "2026-07-04T23:01:39Z",
+      "updated_at": "2026-07-04T23:01:51Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Very strong Principal IC fit: real-time payments platform architecture, low-latency/high-resilience financial infrastructure, microservices/event-driven design, cross-market platform consistency, non-functional ownership, SLO/SLI observability, incident remediation, security, and hands-on technical leadership map directly to Rohit's payments, platform, observability, and regulated systems evidence.",
+      "people": [
+        {
+          "name": "Kaushal Gour",
+          "relationship": "2nd degree",
+          "role": "Lead Backend Engineer | Java, Spring Boot, Kafka, Spring AI | FinTech & Payments | Microservices at Scale",
+          "profile_url": "https://www.linkedin.com/in/kaushal-gour-a30a1b29/",
+          "notes": "Surfaced by LinkedIn people search for Principal Engineer Real-time Payments Technology Architecture Pune."
+        },
+        {
+          "name": "Siva Hari",
+          "relationship": "2nd degree",
+          "role": "Product Manager @ Mastercard | Secure Global Money Movement, Mastercard Move, Cards & Digital Payments",
+          "profile_url": "https://www.linkedin.com/in/sivahari/",
+          "notes": "Surfaced by LinkedIn people search for Principal Engineer Real-time Payments Technology Architecture Pune."
+        },
+        {
+          "name": "Pradip Kadam",
+          "relationship": "2nd degree",
+          "role": "Global Product Leader | Payments & FinTech Ecosystems | Core Switch Modernization | Revenue-Scaled Platforms",
+          "profile_url": "https://www.linkedin.com/in/pradipkadam/",
+          "notes": "Surfaced by LinkedIn people search for Principal Engineer Real-time Payments Technology Architecture Pune."
+        }
+      ],
+      "connections_summary": "LinkedIn MCP found 18 associated Mastercard members for RTP/architecture/Pune keywords, including 2nd-degree payments/backend/product contacts; the job search result showed 74 company alumni work at Mastercard.",
+      "resume_theme": {
+        "name": "Real-time payments platform principal IC",
+        "positioning": "Position Rohit as a Principal engineer for regulated, mission-critical real-time payments platforms: high-throughput distributed systems, NFR/SLO ownership, cross-market architecture consistency, observability, security, and hands-on technical leadership.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments, Brane 10M events/min billing, and regulated platform/security readiness.",
+          "Use Salesforce Hyperforce alerting and observability outcomes for SLOs, capacity, failure modes, incident analysis, and multi-region platform operation.",
+          "Map anomaly detection alerts and proactive diagnostics to production readiness, incident prevention, and operational intelligence for RTP systems.",
+          "Frame RFC leadership, reference architectures, design reviews, and cross-team technical alignment as evidence of influence without formal authority."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/incident_reviews/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-mastercard-principal-engineer-real-time-payment-069eb94b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-mastercard-principal-engineer-real-time-payment-069eb94b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn MCP verified a current off-LinkedIn Mastercard RTP Principal Engineer posting; no external submission was attempted.",
+        "External application URL is unresolved: LinkedIn says responses are managed off LinkedIn, while public Mastercard/Workday surfaces are inconsistent for this requisition. Browser verification or recruiter/referral path is required before final submission."
+      ],
+      "status_reason": "LinkedIn MCP verified a current off-LinkedIn Mastercard RTP Principal Engineer posting; no external submission was attempted.",
+      "last_status_update_id": "status-20260704-mastercard-rtp-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "External application URL is unresolved: LinkedIn says responses are managed off LinkedIn, while public Mastercard/Workday surfaces are inconsistent for this requisition. Browser verification or recruiter/referral path is required before final submission.",
+      "manual_action_at": "2026-07-04T23:01:51Z"
+    },
     {
       "application_id": "app-20260704-alphasense-staff-software-engineer-d5868734",
       "job_id": "official-alphasense-8462858002",
