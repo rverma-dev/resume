@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T12:13:49Z",
-  "active_batch_id": "batch-20260704-1204-ic-platform",
-  "last_scheduler_run_at": "2026-07-04T12:13:43Z",
+  "updated_at": "2026-07-04T12:37:32Z",
+  "active_batch_id": "batch-20260704-1234-ic-platform",
+  "last_scheduler_run_at": "2026-07-04T12:37:24Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 1,
+  "jobs_per_scheduler_run": 3,
   "jobs": [
     {
       "job_id": "linkedin-4426808289",
@@ -5509,6 +5509,199 @@
       "updated_at": "2026-07-04T01:39:31Z",
       "notes": [
         "LinkedIn details captured 2026-07-04: posted 2 days ago, 18 people clicked apply, responses managed off LinkedIn, Amazon Job ID A10463881."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4382498198",
+      "dedupe_key": "linkedin:4382498198",
+      "source": "linkedin",
+      "source_job_id": "4382498198",
+      "source_url": "https://www.linkedin.com/jobs/view/4382498198",
+      "company": "Teradata",
+      "role": "Senior Staff AI Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "senior_staff",
+      "compensation_signals": [
+        "Senior Staff/Principal AI role at a large public enterprise data platform company; validate India band and equity/RSU upside against 2.5cr+ target."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1234-ic-platform",
+      "fit_score": 97,
+      "fit_reason": "Excellent Senior Staff/Principal AI platform fit: job text describes Principal AI Engineer responsibilities, 15+ years, backend/distributed/data platform development, agentic systems, LLMs, REST APIs, SQL/NoSQL, Kubernetes, public cloud, architecture influence, mentoring, production debugging, and product roadmap contribution.",
+      "fit_signals": [
+        "15+ years and Principal AI Engineer scope align with current/next-level IC target.",
+        "Agentic systems and LLM product platform maps directly to Salesforce AM agent federation, Internal IDE/Unleash, and governed AI platform systems.",
+        "Distributed backend/data platform, Kubernetes, cloud, and roadmap influence align with Salesforce PMTS and prior platform leadership evidence."
+      ],
+      "risk_flags": [
+        "Title shown as Senior Staff AI Engineer but body says Principal AI Engineer; clarify level during recruiter screen.",
+        "Compensation may vary by Teradata India band; validate early against 2.5cr+ goal.",
+        "Hybrid Bengaluru expectations should be verified."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn company search showed 15 people from the current company were hired at Teradata, but no named India contacts were exposed by the narrow people search.",
+      "resume_theme": {
+        "name": "Agentic Data Platform Senior Staff IC",
+        "positioning": "Make current Salesforce AI platform work the center: AM agent federation, Internal IDE/Unleash, proactive diagnostics, anomaly detection, governance, evaluation quality, and production backend/data-platform architecture.",
+        "key_pointers": [
+          "Lead with AM agent federation and Internal IDE/Unleash as production agentic systems, not prompt experiments.",
+          "Use proactive diagnostics and anomaly detection alerts to show production AI/signal systems with measurable operational impact.",
+          "Map Teradata's autonomous knowledge platform to Salesforce operational/customer-signal integration and governed decision systems.",
+          "Back the seniority claim with 15+ RFC/ADR architecture ownership, PMTS scope, and cross-team execution."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "Salesforce AM agent federation and Internal IDE/Unleash work",
+          "Proactive diagnostics ADR/RFC evidence",
+          "Anomaly detection alerts and MDAS alerting platform evidence"
+        ]
+      },
+      "application_id": "app-20260704-teradata-senior-staff-ai-engineer-f420482e",
+      "resume_snapshot_path": "applications/resumes/app-20260704-teradata-senior-staff-ai-engineer-f420482e/resume.md",
+      "discovered_at": "2026-07-04T12:37:24Z",
+      "updated_at": "2026-07-04T12:37:32Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail at 2026-07-04 12:34 UTC heartbeat pass.",
+        "Do not mark applied unless external Teradata submission is confirmed."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4374271196",
+      "dedupe_key": "linkedin:4374271196",
+      "source": "linkedin",
+      "source_job_id": "4374271196",
+      "source_url": "https://www.linkedin.com/jobs/view/4374271196",
+      "company": "Okta",
+      "role": "Staff Software Engineer - Data Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Okta is a high-quality public enterprise security/SaaS company with equity upside; validate India Staff band against 2.5cr+ target."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1234-ic-platform",
+      "fit_score": 96,
+      "fit_reason": "Strong Staff data-platform and identity/security infrastructure fit: foundational data services, streaming analytics, telemetry, ML/data platform, high-volume low-latency distributed services, Kinesis/Kafka/Flink/Snowflake/Kubernetes/AWS, production reliability, data observability, design ownership, and mentoring.",
+      "fit_signals": [
+        "Staff role in enterprise identity/security infrastructure, matching Salesforce platform and security-governed systems narrative.",
+        "Data/ML platform plus telemetry aligns directly with proactive diagnostics, anomaly detection alerts, and operational signal pipelines.",
+        "Kafka/Flink/Kubernetes/AWS/Snowflake distributed-systems stack maps to Brane, Jupiter, and Salesforce production platform evidence."
+      ],
+      "risk_flags": [
+        "Staff rather than Senior Staff/Principal; still acceptable because Okta and data/security platform scope are strong.",
+        "Hybrid Bengaluru role; validate location expectations.",
+        "Easy Apply may still require user-confirmed legal/work authorization or profile data before submission."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn company search surfaced a weak company-level signal that a connection works at Okta; narrow India people search returned no named contacts in this pass.",
+      "resume_theme": {
+        "name": "Identity Data Platform Staff IC",
+        "positioning": "Position as a Staff platform engineer for secure, high-volume telemetry/data infrastructure: Salesforce operational intelligence, anomaly detection, proactive diagnostics, Brane enterprise infrastructure, and Jupiter payments reliability.",
+        "key_pointers": [
+          "Lead with Salesforce anomaly detection alerts, proactive diagnostics, telemetry quality, and multi-region alerting as data-platform/observability proof.",
+          "Map Okta identity/security context to Brane compliance/security readiness and tenant-safe Salesforce Hyperforce operations.",
+          "Use Kafka/Kubernetes/cloud/platform evidence from Brane, Jupiter, and Salesforce to cover streaming and distributed systems requirements.",
+          "Keep AI framing practical: production signal quality and ML/data platform readiness, not generic AI buzzwords."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "Salesforce anomaly detection alerts and proactive diagnostics work",
+          "Brane enterprise security/compliance infrastructure",
+          "Jupiter payments reliability and distributed backend scale"
+        ]
+      },
+      "application_id": "app-20260704-okta-staff-software-engineer-data-platfor-4b1e3660",
+      "resume_snapshot_path": "applications/resumes/app-20260704-okta-staff-software-engineer-data-platfor-4b1e3660/resume.md",
+      "discovered_at": "2026-07-04T12:37:24Z",
+      "updated_at": "2026-07-04T12:37:32Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail at 2026-07-04 12:34 UTC heartbeat pass.",
+        "Do not mark applied unless LinkedIn Easy Apply or Okta submission is confirmed."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4362791763",
+      "dedupe_key": "linkedin:4362791763",
+      "source": "linkedin",
+      "source_job_id": "4362791763",
+      "source_url": "https://www.linkedin.com/jobs/view/4362791763",
+      "company": "F5",
+      "role": "Principal Software Development Engineer",
+      "location": "Bangalore Rural District, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "principal",
+      "compensation_signals": [
+        "Principal role at F5, a public app delivery/security platform company; validate India Principal band and equity against 2.5cr+ target."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1234-ic-platform",
+      "fit_score": 94,
+      "fit_reason": "Strong Principal distributed systems/cloud networking fit: routing control plane, distributed cloud networking, multi-cloud connectivity, multi-tenant behavior, high availability, deterministic failover, Kubernetes networking, state synchronization, observability, production debugging, architecture direction, and mentoring; requires 12+ years.",
+      "fit_signals": [
+        "Principal title and 12+ year requirement match current/next-level target.",
+        "Control-plane, multi-cloud, multi-tenant, Kubernetes, observability, and reliability map to Salesforce Hyperforce alerting and platform rollout work.",
+        "Architecture direction, design reviews, mentoring, and testing strategy fit PMTS-style technical leadership."
+      ],
+      "risk_flags": [
+        "Deep networking/control-plane role; tailor carefully around distributed systems, platform reliability, and cloud operations rather than overstating network-protocol ownership.",
+        "On-site Bangalore Rural location; validate commute/relocation expectations.",
+        "Compensation band must be validated before prioritizing over Big Tech/Databricks/Coupang/Okta-style roles."
+      ],
+      "people": [
+        {
+          "name": "Umesh Kumar M",
+          "relationship": "2nd-degree",
+          "role": "Principal Software Engineer at F5",
+          "profile_url": "https://www.linkedin.com/in/umeshkumarm/",
+          "notes": "Relevant F5 principal engineering contact surfaced by LinkedIn people search."
+        },
+        {
+          "name": "Sooraj Thekkedath",
+          "relationship": "2nd-degree",
+          "role": "Senior Principal Software Engineer at F5",
+          "profile_url": "https://www.linkedin.com/in/sooraj-thekkedath-0734599/",
+          "notes": "Senior Principal F5 engineering contact surfaced by LinkedIn people search."
+        },
+        {
+          "name": "Puspenjit Datta",
+          "relationship": "2nd-degree",
+          "role": "Principal Software Engineer at F5; Sr. Tech Lead & Architect",
+          "profile_url": "https://www.linkedin.com/in/puspenjit/",
+          "notes": "Relevant architecture/principal engineering contact with mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed 52 people from the current company were hired at F5. People search found 2nd-degree principal/senior-principal engineering contacts including Umesh Kumar M, Sooraj Thekkedath, and Puspenjit Datta.",
+      "resume_theme": {
+        "name": "Distributed Cloud Control Plane Principal IC",
+        "positioning": "Position as a Principal platform engineer for multi-region, tenant-safe distributed control planes: Salesforce Hyperforce alerting, Brane cloud platform/security, Jupiter high-scale backend reliability, and production observability/debuggability.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce multi-region rollout, tenant-safe alert evaluation, LaunchDarkly Relay Proxy, and platform reliability ownership.",
+          "Use Brane enterprise infrastructure/security and 10M events/min billing to show cloud platform and distributed systems scale.",
+          "Map F5 control-plane requirements to design reviews, RFCs/ADRs, rollout safety, observability, and failure-mode testing rather than claiming deep routing protocol specialization.",
+          "Keep Kubernetes/cloud networking phrasing precise: cloud-native platform operations, service connectivity, multi-region behavior, and production diagnostics."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "Salesforce Hyperforce alerting and multi-region rollout evidence",
+          "Brane platform/security infrastructure evidence",
+          "Jupiter high-scale backend/payments reliability evidence"
+        ]
+      },
+      "application_id": "app-20260704-f5-principal-software-development-engin-50c0e123",
+      "resume_snapshot_path": "applications/resumes/app-20260704-f5-principal-software-development-engin-50c0e123/resume.md",
+      "discovered_at": "2026-07-04T12:37:24Z",
+      "updated_at": "2026-07-04T12:37:32Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail at 2026-07-04 12:34 UTC heartbeat pass.",
+        "Do not mark applied unless external F5 submission is confirmed."
       ],
       "resume_snapshot_name": "IC Resume"
     },
