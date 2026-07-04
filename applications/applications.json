@@ -1,9 +1,76 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T11:36:48Z",
+  "updated_at": "2026-07-04T12:13:49Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-walmart-global-tech-india-staff-software-engineer-73d75150",
+      "job_id": "linkedin-4413679209",
+      "dedupe_key": "linkedin:4413679209",
+      "source": "linkedin",
+      "source_job_id": "4413679209",
+      "source_url": "https://www.linkedin.com/jobs/view/4413679209",
+      "company": "Walmart Global Tech India",
+      "role": "STAFF, SOFTWARE ENGINEER",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1204-ic-platform",
+      "approved_at": "2026-07-04T12:13:49Z",
+      "updated_at": "2026-07-04T12:13:49Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Staff software role for Walmart International supply-chain and customer-experience platforms used across 26 countries and millions of customers; asks for 10-15 years, high-scale application/platform development, Java/Spring Boot microservices, Mongo/Cassandra, Kafka, Docker/Kubernetes, Azure/GCP, CI/CD, root-cause analysis, and cross-geo technical influence.",
+      "people": [
+        {
+          "name": "Tarun Kumar",
+          "relationship": "LinkedIn company result",
+          "role": "Works at Walmart Global Tech India",
+          "profile_url": "",
+          "notes": "Company search surfaced this as a direct people signal."
+        },
+        {
+          "name": "Shridhar Hegde",
+          "relationship": "2nd-degree",
+          "role": "Staff Software Engineer at Walmart Global Tech India",
+          "profile_url": "https://www.linkedin.com/in/shridhar-hegde-6b752b23/",
+          "notes": "Relevant Staff-level engineering contact; mutual connections shown in LinkedIn people search."
+        },
+        {
+          "name": "Shubham Syal",
+          "relationship": "2nd-degree",
+          "role": "Software Engineer III at Walmart Global Tech India",
+          "profile_url": "https://www.linkedin.com/in/shubham-syal-here/",
+          "notes": "2nd-degree engineering contact with mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search surfaced Tarun Kumar at Walmart Global Tech India. People search found 2nd-degree engineering contacts including Shridhar Hegde, Staff Software Engineer, plus Software Engineer III contacts with mutual connections.",
+      "resume_theme": {
+        "name": "Global Retail Platform Staff IC",
+        "positioning": "Position as a Staff+ platform engineer who has operated global-scale distributed systems, incident-prevention loops, and product-facing backend platforms across Salesforce Hyperforce, Jupiter payments, and Brane enterprise infrastructure.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce alerting, multi-region rollout, anomaly detection alerts, proactive diagnostics, and operational signal quality.",
+          "Use Jupiter $240M/month payments and Brane 10M events/min billing to prove high-scale customer and transaction platforms.",
+          "Map Kafka, Kubernetes, microservices, CI/CD, and root-cause analysis asks to concrete production reliability and platform ownership evidence.",
+          "Keep the role framed as current-level Staff platform IC, while noting that compensation and leveling should be validated early."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/",
+          "Salesforce PMTS Hyperforce alerting, proactive diagnostics, anomaly detection alerts, AM agent federation, and Internal IDE/Unleash work",
+          "Jupiter Money payments scale and Brane platform/security scale bullets"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-walmart-global-tech-india-staff-software-engineer-73d75150/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-walmart-global-tech-india-staff-software-engineer-73d75150/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-rubrik-staff-cloud-security-architect-6577bd5a",
       "job_id": "linkedin-4387402192",

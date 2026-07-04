@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T11:36:48Z",
-  "active_batch_id": "batch-20260704-1134-ic-rubrik-platform",
-  "last_scheduler_run_at": "2026-07-04T11:36:39Z",
+  "updated_at": "2026-07-04T12:13:49Z",
+  "active_batch_id": "batch-20260704-1204-ic-platform",
+  "last_scheduler_run_at": "2026-07-04T12:13:43Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 2,
+  "jobs_per_scheduler_run": 1,
   "jobs": [
     {
       "job_id": "linkedin-4426808289",
@@ -5509,6 +5509,85 @@
       "updated_at": "2026-07-04T01:39:31Z",
       "notes": [
         "LinkedIn details captured 2026-07-04: posted 2 days ago, 18 people clicked apply, responses managed off LinkedIn, Amazon Job ID A10463881."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4413679209",
+      "dedupe_key": "linkedin:4413679209",
+      "source": "linkedin",
+      "source_job_id": "4413679209",
+      "source_url": "https://www.linkedin.com/jobs/view/4413679209",
+      "company": "Walmart Global Tech India",
+      "role": "STAFF, SOFTWARE ENGINEER",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Walmart Global Tech is a large public-company technology center with incentive awards; validate India Staff band against 2.5cr+ target before final commitment."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1204-ic-platform",
+      "fit_score": 91,
+      "fit_reason": "Staff software role for Walmart International supply-chain and customer-experience platforms used across 26 countries and millions of customers; asks for 10-15 years, high-scale application/platform development, Java/Spring Boot microservices, Mongo/Cassandra, Kafka, Docker/Kubernetes, Azure/GCP, CI/CD, root-cause analysis, and cross-geo technical influence.",
+      "fit_signals": [
+        "10-15 years required, matching current senior/principal tenure rather than mid-level hiring.",
+        "Platform-scale microservices, event processing, cloud architecture, Kubernetes, and CI/CD align with Salesforce Hyperforce alerting, Brane platform, and Jupiter payments work.",
+        "Role explicitly asks for owning and leading product delivery with junior developers plus cross-geography engineering influence."
+      ],
+      "risk_flags": [
+        "Staff title is below Principal/Senior Staff priority; keep as acceptable but lower priority than L9+/Principal-equivalent targets.",
+        "Daily Bengaluru office expectation; validate commute and flexibility.",
+        "Compensation band must be validated against 2.5cr+ goal before heavy interview investment."
+      ],
+      "people": [
+        {
+          "name": "Tarun Kumar",
+          "relationship": "LinkedIn company result",
+          "role": "Works at Walmart Global Tech India",
+          "profile_url": "",
+          "notes": "Company search surfaced this as a direct people signal."
+        },
+        {
+          "name": "Shridhar Hegde",
+          "relationship": "2nd-degree",
+          "role": "Staff Software Engineer at Walmart Global Tech India",
+          "profile_url": "https://www.linkedin.com/in/shridhar-hegde-6b752b23/",
+          "notes": "Relevant Staff-level engineering contact; mutual connections shown in LinkedIn people search."
+        },
+        {
+          "name": "Shubham Syal",
+          "relationship": "2nd-degree",
+          "role": "Software Engineer III at Walmart Global Tech India",
+          "profile_url": "https://www.linkedin.com/in/shubham-syal-here/",
+          "notes": "2nd-degree engineering contact with mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search surfaced Tarun Kumar at Walmart Global Tech India. People search found 2nd-degree engineering contacts including Shridhar Hegde, Staff Software Engineer, plus Software Engineer III contacts with mutual connections.",
+      "resume_theme": {
+        "name": "Global Retail Platform Staff IC",
+        "positioning": "Position as a Staff+ platform engineer who has operated global-scale distributed systems, incident-prevention loops, and product-facing backend platforms across Salesforce Hyperforce, Jupiter payments, and Brane enterprise infrastructure.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce alerting, multi-region rollout, anomaly detection alerts, proactive diagnostics, and operational signal quality.",
+          "Use Jupiter $240M/month payments and Brane 10M events/min billing to prove high-scale customer and transaction platforms.",
+          "Map Kafka, Kubernetes, microservices, CI/CD, and root-cause analysis asks to concrete production reliability and platform ownership evidence.",
+          "Keep the role framed as current-level Staff platform IC, while noting that compensation and leveling should be validated early."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/",
+          "Salesforce PMTS Hyperforce alerting, proactive diagnostics, anomaly detection alerts, AM agent federation, and Internal IDE/Unleash work",
+          "Jupiter Money payments scale and Brane platform/security scale bullets"
+        ]
+      },
+      "application_id": "app-20260704-walmart-global-tech-india-staff-software-engineer-73d75150",
+      "resume_snapshot_path": "applications/resumes/app-20260704-walmart-global-tech-india-staff-software-engineer-73d75150/resume.md",
+      "discovered_at": "2026-07-04T12:13:43Z",
+      "updated_at": "2026-07-04T12:13:49Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail at 2026-07-04 12:04 UTC heartbeat pass.",
+        "Do not mark applied unless external Walmart submission is confirmed."
       ],
       "resume_snapshot_name": "IC Resume"
     },
