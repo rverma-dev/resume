@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T06:46:59Z",
-  "active_batch_id": "batch-20260704-ic-platform-ai-0634",
-  "last_scheduler_run_at": "2026-07-04T06:46:59Z",
+  "updated_at": "2026-07-04T07:12:15Z",
+  "active_batch_id": "batch-20260704-ic-platform-0704",
+  "last_scheduler_run_at": "2026-07-04T07:11:58Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -1730,6 +1730,378 @@
       "resume_snapshot_path": "applications/resumes/app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8/resume.md",
       "discovered_at": "2026-07-04T06:46:59Z",
       "updated_at": "2026-07-04T06:46:59Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4436490443",
+      "dedupe_key": "linkedin:4436490443",
+      "source": "linkedin",
+      "source_job_id": "4436490443",
+      "source_url": "https://www.linkedin.com/jobs/view/4436490443",
+      "company": "Freshworks",
+      "role": "Staff Engineer - Systems",
+      "location": "Chennai, Tamil Nadu, India",
+      "work_type": "On-site",
+      "experience_level": "Staff / principal-level architectural responsibilities",
+      "compensation_signals": [
+        "Staff Engineer IC4 role at Freshworks, a public SaaS product company.",
+        "Posting frames the role as principal technical architect for foundational infrastructure.",
+        "No salary range visible; compensation target should be validated with recruiter."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-platform-0704",
+      "fit_score": 95,
+      "fit_reason": "Excellent Staff systems/platform fit: principal technical architect for foundational infrastructure, multi-tenant cloud-native distributed systems, Tier-0 reliability, multi-region DR, observability, AI-driven platform evolution, and org-wide engineering standards.",
+      "fit_signals": [
+        "Role explicitly says Staff Engineer acts as principal technical architect.",
+        "Multi-tenant SaaS infrastructure, five-nines availability, multi-region fault tolerance, service mesh, chaos, observability, and AI platform evolution are direct matches.",
+        "Cross-org architecture and force-multiplier responsibilities align with PMTS/platform narrative."
+      ],
+      "risk_flags": [
+        "Chennai on-site expectation should be confirmed.",
+        "9+ years minimum is lower than current level, but scope is Staff/principal architecture; do not downrank solely on years.",
+        "Compensation target not visible."
+      ],
+      "people": [
+        {
+          "name": "Freshworks network",
+          "relationship": "company/network signal",
+          "role": "Freshworks",
+          "profile_url": "",
+          "notes": "LinkedIn surfaced Freshworks as a high-visibility promoted Staff role."
+        }
+      ],
+      "connections_summary": "No direct named connection captured; company is a high-visibility India SaaS product employer.",
+      "resume_theme": {
+        "name": "Staff foundational systems and AI platform",
+        "positioning": "Staff/principal systems architect for multi-tenant SaaS infrastructure, reliability, observability, AI-driven platform evolution, and engineering standards.",
+        "key_pointers": [
+          "Use Hyperforce alerts, anomaly detection, and proactive diagnostics for observability and Tier-0 reliability.",
+          "Use Internal IDE/Unleash for developer velocity and AI-driven platform evolution.",
+          "Use Brane and Salesforce platform ownership for multi-region, operational excellence, and cross-org standards."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-freshworks-staff-engineer-systems-68e9c62a",
+      "resume_snapshot_path": "applications/resumes/app-20260704-freshworks-staff-engineer-systems-68e9c62a/resume.md",
+      "discovered_at": "2026-07-04T07:11:58Z",
+      "updated_at": "2026-07-04T07:12:15Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4416074840",
+      "dedupe_key": "linkedin:4416074840",
+      "source": "linkedin",
+      "source_job_id": "4416074840",
+      "source_url": "https://www.linkedin.com/jobs/view/4416074840",
+      "company": "SonicWall",
+      "role": "Senior Principal Engineer - Go / Golang experience is a must",
+      "location": "Pune Division, Maharashtra, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Principal Engineer",
+      "compensation_signals": [
+        "Senior Principal Engineer role at SonicWall, a global cybersecurity product company.",
+        "Role owns API platform architecture for Cloud Secure Edge and Zero Trust access.",
+        "No salary range visible; compensation target requires recruiter validation."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-platform-0704",
+      "fit_score": 94,
+      "fit_reason": "Strong Senior Principal cloud security platform fit: owns the API platform for SonicWall Cloud Secure Edge, designs Zero Trust distributed systems and secure Go services, drives API lifecycle, CI/CD/CT, developer productivity, and global technical mentorship.",
+      "fit_signals": [
+        "Senior Principal IC title avoids underleveling.",
+        "Cloud Secure Edge, Zero Trust access, API security, distributed systems, SaaS, and cloud-native architecture align with platform/security trajectory.",
+        "AI-first engineering and developer productivity connect to Internal IDE, governed agents, and Unleash work."
+      ],
+      "risk_flags": [
+        "Strong Go requirement; tailor around Java/platform architecture plus any Go-adjacent systems experience without overclaiming.",
+        "Pune hybrid location needs relocation/remote discussion.",
+        "Compensation target not visible publicly."
+      ],
+      "people": [
+        {
+          "name": "Ashutosh Maheshwari",
+          "relationship": "2nd-degree / school alum signal",
+          "role": "Senior Product Manager at SonicWall",
+          "profile_url": "https://www.linkedin.com/in/asmaheshwari/",
+          "notes": "LinkedIn showed reachable hiring/network signal for the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn showed a 2nd-degree school-alum connection at SonicWall.",
+      "resume_theme": {
+        "name": "Senior Principal cloud security API platform",
+        "positioning": "Senior Principal platform engineer for cloud security APIs, Zero Trust, distributed systems, governance, CI/CD, and AI-assisted developer productivity.",
+        "key_pointers": [
+          "Lead with AM agent federation and governed multi-agent systems for policy, trust, and security platform framing.",
+          "Use Internal IDE and Unleash to show developer productivity, API/platform delivery, and software delivery governance.",
+          "Use Hyperforce alerts, anomaly detection, and proactive diagnostics for reliability and observability proof."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43",
+      "resume_snapshot_path": "applications/resumes/app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43/resume.md",
+      "discovered_at": "2026-07-04T07:11:58Z",
+      "updated_at": "2026-07-04T07:12:15Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4369499266",
+      "dedupe_key": "linkedin:4369499266",
+      "source": "linkedin",
+      "source_job_id": "4369499266",
+      "source_url": "https://www.linkedin.com/jobs/view/4369499266",
+      "company": "MongoDB",
+      "role": "Staff Engineer",
+      "location": "Gurugram, Haryana, India",
+      "work_type": "Hybrid",
+      "experience_level": "Staff Engineer",
+      "compensation_signals": [
+        "Staff Engineer role at MongoDB, a global data platform company.",
+        "Role builds a new platform for customers to build AI applications using MongoDB.",
+        "No salary range visible; Staff band compensation should be validated with recruiter."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-platform-0704",
+      "fit_score": 93,
+      "fit_reason": "Strong Staff AI/data platform fit: provides technical leadership and architecture for a new AI application platform, high-scale compute/data distributed systems, developer experience, and 15-20 person distributed-systems infrastructure project leadership.",
+      "fit_signals": [
+        "AI application platform, distributed systems infrastructure, foundational cloud services, and high-scale data systems align with current work.",
+        "Leadership of 15-20 person distributed-systems projects maps to prior platform/architecture leadership.",
+        "MongoDB is a strong product/company signal for data and AI platform work."
+      ],
+      "risk_flags": [
+        "Gurugram hybrid location requires relocation/remote discussion.",
+        "Staff rather than Senior Staff/Principal, but the platform scope is strong.",
+        "Compensation target not visible."
+      ],
+      "people": [
+        {
+          "name": "MongoDB network",
+          "relationship": "company signal",
+          "role": "MongoDB",
+          "profile_url": "",
+          "notes": "LinkedIn surfaced the role as promoted and managed off LinkedIn."
+        }
+      ],
+      "connections_summary": "No named connection captured; role is at a high-quality data platform company.",
+      "resume_theme": {
+        "name": "Staff AI application data platform",
+        "positioning": "Staff data/platform engineer for AI application infrastructure, distributed systems, developer experience, and high-scale cloud services.",
+        "key_pointers": [
+          "Lead with Internal IDE, governed AI platform systems, and AM agent federation for AI application platform positioning.",
+          "Use Hyperforce observability and anomaly detection for platform reliability and operational intelligence.",
+          "Use Brane and Salesforce architecture work to show distributed-systems project leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-mongodb-staff-engineer-0082bb96",
+      "resume_snapshot_path": "applications/resumes/app-20260704-mongodb-staff-engineer-0082bb96/resume.md",
+      "discovered_at": "2026-07-04T07:11:58Z",
+      "updated_at": "2026-07-04T07:12:15Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4426604583",
+      "dedupe_key": "linkedin:4426604583",
+      "source": "linkedin",
+      "source_job_id": "4426604583",
+      "source_url": "https://www.linkedin.com/jobs/view/4426604583",
+      "company": "Cvent",
+      "role": "SRE Architect",
+      "location": "Gurugram, Haryana, India",
+      "work_type": "Hybrid",
+      "experience_level": "Architect / Staff-plus SRE",
+      "compensation_signals": [
+        "SRE Architect role at Cvent, a large SaaS/events technology provider.",
+        "Posting requires 14+ years in SRE, cloud architecture, or infrastructure with organization-wide impact.",
+        "No salary range visible; compensation target should be validated."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-platform-0704",
+      "fit_score": 92,
+      "fit_reason": "Strong SRE/platform architecture fit: owns enterprise reliability architecture, AWS multi-account/multi-region, SLI/SLO/error budget frameworks, observability, incident management, AI-powered operational intelligence, developer productivity, and org-wide SRE standards.",
+      "fit_signals": [
+        "14+ years and architecture/team-wide influence fit current-level IC positioning.",
+        "Multi-region AWS, SRE frameworks, observability, incident response, reliability scorecards, and AI operational tooling align strongly.",
+        "Directly maps to proactive diagnostics, anomaly detection alerts, and Hyperforce observability."
+      ],
+      "risk_flags": [
+        "Cvent compensation ceiling is less certain than top-tier product companies; validate before prioritizing.",
+        "Gurugram hybrid location requires relocation/remote discussion.",
+        "Easy Apply likely requires resume upload; Chrome upload path previously failed."
+      ],
+      "people": [
+        {
+          "name": "Priyanshi Ruhela",
+          "relationship": "2nd-degree / hiring team",
+          "role": "Assistant Team Lead - Talent Acquisition at Cvent",
+          "profile_url": "https://www.linkedin.com/in/priyanshi-ruhela/",
+          "notes": "LinkedIn showed the hiring team contact and school alumni signal."
+        }
+      ],
+      "connections_summary": "LinkedIn showed a hiring-team contact and IIT Kharagpur alumni signal.",
+      "resume_theme": {
+        "name": "SRE architecture and AI operational intelligence",
+        "positioning": "Staff-plus SRE architect for multi-region cloud reliability, observability, incident response, AI-powered operational intelligence, and developer productivity.",
+        "key_pointers": [
+          "Lead with proactive diagnostics and anomaly detection alerts as the closest role match.",
+          "Use Hyperforce alerting and Visualizer for large-scale observability and operational intelligence.",
+          "Use Brane DevOps/SRE leadership for multi-region reliability, standards, and incident maturity."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-cvent-sre-architect-4147eb8f",
+      "resume_snapshot_path": "applications/resumes/app-20260704-cvent-sre-architect-4147eb8f/resume.md",
+      "discovered_at": "2026-07-04T07:11:58Z",
+      "updated_at": "2026-07-04T07:12:15Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4430588193",
+      "dedupe_key": "linkedin:4430588193",
+      "source": "linkedin",
+      "source_job_id": "4430588193",
+      "source_url": "https://www.linkedin.com/jobs/view/4430588193",
+      "company": "Expedia Group",
+      "role": "Principal Software Development Engineer - Gen AI",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Software Development Engineer",
+      "compensation_signals": [
+        "Principal Software Development Engineer role at Expedia Group, a global travel marketplace and technology company.",
+        "Indexed listing indicates production GenAI/LLM, distributed systems, and platform architecture responsibilities.",
+        "No salary range visible; compensation should be validated with recruiter."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-platform-0704",
+      "fit_score": 91,
+      "fit_reason": "Strong Principal GenAI product-platform fit: principal IC title, production LLM/GenAI systems, distributed systems, platform architecture, operational excellence, and large-scale product environment align with recent Salesforce AI platform and agentic IDE work.",
+      "fit_signals": [
+        "Principal title and GenAI product/platform scope match current-level IC goal.",
+        "Expedia is a large global product company with Bengaluru engineering presence.",
+        "Role connects to governed AI systems, Internal IDE, and platform reliability narratives."
+      ],
+      "risk_flags": [
+        "LinkedIn detail page was sparse; use recruiter/official posting to validate full requirements before applying.",
+        "On-site Bengaluru expectation should be confirmed.",
+        "Compensation target not visible."
+      ],
+      "people": [
+        {
+          "name": "Expedia Group network",
+          "relationship": "company signal",
+          "role": "Expedia Group",
+          "profile_url": "",
+          "notes": "LinkedIn showed the role as promoted and managed off LinkedIn."
+        }
+      ],
+      "connections_summary": "No named direct connection captured.",
+      "resume_theme": {
+        "name": "Principal GenAI product platform",
+        "positioning": "Principal AI platform engineer for production GenAI systems, LLM-backed product architecture, operational excellence, and distributed systems.",
+        "key_pointers": [
+          "Lead with governed multi-agent systems, AM agent federation, and Internal IDE for production GenAI platform proof.",
+          "Use proactive diagnostics and anomaly detection alerts for AI system observability and operational quality.",
+          "Use Salesforce platform architecture and Brane infrastructure evidence for distributed systems and scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-expedia-group-principal-software-development-engin-b25a7a5e",
+      "resume_snapshot_path": "applications/resumes/app-20260704-expedia-group-principal-software-development-engin-b25a7a5e/resume.md",
+      "discovered_at": "2026-07-04T07:11:58Z",
+      "updated_at": "2026-07-04T07:12:15Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4408718499",
+      "dedupe_key": "linkedin:4408718499",
+      "source": "linkedin",
+      "source_job_id": "4408718499",
+      "source_url": "https://www.linkedin.com/jobs/view/4408718499",
+      "company": "NatWest Group",
+      "role": "Principal Engineer, VP",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Engineer / VP",
+      "compensation_signals": [
+        "Principal Engineer at Vice President level in a large global bank.",
+        "Posting requires 15 years, distributed systems, high-throughput low-latency platforms, AWS, Kubernetes, observability, and senior-level influence.",
+        "No salary range visible; bank VP compensation may or may not meet target and should be validated."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-ic-platform-0704",
+      "fit_score": 89,
+      "fit_reason": "Good Principal platform fit: VP-level role for engineering centre of excellence, distributed systems, high-throughput low-latency platforms, AWS/Kubernetes, resilience, observability, operational excellence, and senior influence. Lower priority than product-platform companies because compensation and scope ceiling need validation.",
+      "fit_signals": [
+        "Principal Engineer / VP level avoids title underleveling.",
+        "15-year requirement, platform architecture, distributed systems, AWS, Kubernetes, APIs, resilience, and observability align well.",
+        "Banking environment values governance and operational rigor."
+      ],
+      "risk_flags": [
+        "Bank VP titles can map inconsistently; validate level and compensation before high-priority application.",
+        "On-site Bengaluru expectation should be confirmed.",
+        "Role may be platform governance-heavy rather than product/platform build-heavy."
+      ],
+      "people": [
+        {
+          "name": "NatWest network",
+          "relationship": "company signal",
+          "role": "NatWest Group",
+          "profile_url": "",
+          "notes": "LinkedIn surfaced company/network signal in India search results."
+        }
+      ],
+      "connections_summary": "No named direct connection captured.",
+      "resume_theme": {
+        "name": "Principal banking platform engineering",
+        "positioning": "Principal platform architect for distributed systems, AWS/Kubernetes, resilience, observability, governance, and senior engineering influence.",
+        "key_pointers": [
+          "Use payments/compliance work at Jupiter and platform leadership at Salesforce to match banking governance.",
+          "Use Hyperforce alerts and proactive diagnostics for observability and operational excellence.",
+          "Use Brane infrastructure/SRE leadership for platform reliability and cross-team standards."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-natwest-group-principal-engineer-vp-dca6a5a9",
+      "resume_snapshot_path": "applications/resumes/app-20260704-natwest-group-principal-engineer-vp-dca6a5a9/resume.md",
+      "discovered_at": "2026-07-04T07:11:58Z",
+      "updated_at": "2026-07-04T07:12:15Z",
       "notes": []
     },
     {
