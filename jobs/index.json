@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T01:11:53Z",
-  "active_batch_id": "batch-20260704-google-search-platforms-heartbeat",
-  "last_scheduler_run_at": "2026-07-04T01:11:53Z",
+  "updated_at": "2026-07-04T01:39:31Z",
+  "active_batch_id": "batch-20260704-amazon-prime-commerce-heartbeat",
+  "last_scheduler_run_at": "2026-07-04T01:38:04Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -2345,6 +2345,71 @@
       "updated_at": "2026-07-04T00:36:26Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported because Alexa+ principal architecture maps well to current AI platform work, with management-qualification risk flagged."
+      ]
+    },
+    {
+      "job_id": "linkedin-4436130594",
+      "dedupe_key": "linkedin:4436130594",
+      "source": "linkedin",
+      "source_job_id": "4436130594",
+      "source_url": "https://www.linkedin.com/jobs/view/4436130594",
+      "company": "Prime Video & Amazon MGM Studios",
+      "role": "Principal Software Engineer, Prime Video Commerce Tech",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "User identified Amazon as a company that can meet the high-compensation target",
+        "Principal Software Engineer Amazon role aligns to current/next-level IC track"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-amazon-prime-commerce-heartbeat",
+      "fit_score": 98,
+      "fit_reason": "Exceptional Principal IC fit at Amazon: owns Prime Video offers-to-payments commerce architecture for hundreds of millions of customers, millions of TPS, four-nines availability, multi-country payments, platform orchestration, AI/GenAI-powered commerce, agent-callable services, AI-native SDLC, and Principal-level mentoring.",
+      "fit_signals": [
+        "Principal Software Engineer role at Amazon/Prime Video",
+        "Global offers and payments transaction path for hundreds of millions of customers",
+        "Millions of requests per second, four-nines availability, resiliency, monitorability, and latency/customer-experience ownership",
+        "AI/GenAI-powered commerce, agent-callable service interfaces, AI-native SDLC, and operational tooling",
+        "Principal mentoring and VP-level cross-organization influence"
+      ],
+      "risk_flags": [
+        "Amazon application flows previously required Amazon.jobs login/OAuth before form access",
+        "High bar role; resume should strongly foreground payments, distributed systems, and AI-native platform architecture"
+      ],
+      "people": [
+        {
+          "name": "Prime Video / Amazon network",
+          "relationship": "LinkedIn network signal",
+          "role": "Prime Video & Amazon MGM Studios",
+          "profile_url": "",
+          "notes": "LinkedIn job card showed 8 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn job card showed 8 company alumni at Prime Video & Amazon MGM Studios; referral mapping should be researched before manual submission.",
+      "resume_theme": {
+        "name": "Principal commerce platform and AI-native operations",
+        "positioning": "Position as a principal-level platform engineer who has owned payments correctness, distributed commerce-like systems, production alerting/anomaly platforms, and AI-native developer/operations tooling.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments infrastructure, correctness, reconciliation, and production transaction reliability.",
+          "Use Salesforce anomaly detection alerts, proactive diagnostics, and observability cost reduction as four-nines-style operational excellence evidence.",
+          "Frame Internal IDE/Unleash and AM agent federation as AI-native SDLC and agent-callable operations/developer platform work.",
+          "Emphasize multi-region rollout, service boundaries, data contracts, resiliency, monitorability, and cross-org technical leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-prime-video-amazon-mgm-studi-principal-software-engineer-prime-vi-44f40484",
+      "resume_snapshot_path": "applications/resumes/app-20260704-prime-video-amazon-mgm-studi-principal-software-engineer-prime-vi-44f40484/resume.md",
+      "discovered_at": "2026-07-04T01:38:04Z",
+      "updated_at": "2026-07-04T01:39:31Z",
+      "notes": [
+        "LinkedIn details captured 2026-07-04: posted 2 days ago, 18 people clicked apply, responses managed off LinkedIn, Amazon Job ID A10463881."
       ]
     },
     {

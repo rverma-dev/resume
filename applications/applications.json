@@ -1,9 +1,68 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T01:11:53Z",
+  "updated_at": "2026-07-04T01:39:31Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-prime-video-amazon-mgm-studi-principal-software-engineer-prime-vi-44f40484",
+      "job_id": "linkedin-4436130594",
+      "dedupe_key": "linkedin:4436130594",
+      "source": "linkedin",
+      "source_job_id": "4436130594",
+      "source_url": "https://www.linkedin.com/jobs/view/4436130594",
+      "company": "Prime Video & Amazon MGM Studios",
+      "role": "Principal Software Engineer, Prime Video Commerce Tech",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-amazon-prime-commerce-heartbeat",
+      "approved_at": "2026-07-04T01:38:04Z",
+      "updated_at": "2026-07-04T01:39:31Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Exceptional Principal IC fit at Amazon: owns Prime Video offers-to-payments commerce architecture for hundreds of millions of customers, millions of TPS, four-nines availability, multi-country payments, platform orchestration, AI/GenAI-powered commerce, agent-callable services, AI-native SDLC, and Principal-level mentoring.",
+      "people": [
+        {
+          "name": "Prime Video / Amazon network",
+          "relationship": "LinkedIn network signal",
+          "role": "Prime Video & Amazon MGM Studios",
+          "profile_url": "",
+          "notes": "LinkedIn job card showed 8 company alumni work here."
+        }
+      ],
+      "connections_summary": "LinkedIn job card showed 8 company alumni at Prime Video & Amazon MGM Studios; referral mapping should be researched before manual submission.",
+      "resume_theme": {
+        "name": "Principal commerce platform and AI-native operations",
+        "positioning": "Position as a principal-level platform engineer who has owned payments correctness, distributed commerce-like systems, production alerting/anomaly platforms, and AI-native developer/operations tooling.",
+        "key_pointers": [
+          "Lead with Jupiter $240M/month payments infrastructure, correctness, reconciliation, and production transaction reliability.",
+          "Use Salesforce anomaly detection alerts, proactive diagnostics, and observability cost reduction as four-nines-style operational excellence evidence.",
+          "Frame Internal IDE/Unleash and AM agent federation as AI-native SDLC and agent-callable operations/developer platform work.",
+          "Emphasize multi-region rollout, service boundaries, data contracts, resiliency, monitorability, and cross-org technical leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-prime-video-amazon-mgm-studi-principal-software-engineer-prime-vi-44f40484/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-prime-video-amazon-mgm-studi-principal-software-engineer-prime-vi-44f40484/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application attempt reached Amazon.jobs for Job ID 10463881, then the Apply Now flow redirected to passport.amazon.jobs before the application form.",
+        "Manual application required because Amazon.jobs requires credential/OAuth login before the application form can be completed."
+      ],
+      "status_reason": "Application attempt reached Amazon.jobs for Job ID 10463881, then the Apply Now flow redirected to passport.amazon.jobs before the application form.",
+      "last_status_update_id": "status-20260704-amazon-prime-commerce-login",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual application required because Amazon.jobs requires credential/OAuth login before the application form can be completed.",
+      "manual_action_at": "2026-07-04T01:39:31Z"
+    },
     {
       "application_id": "app-20260704-google-staff-software-engineer-search-platf-e04279ab",
       "job_id": "linkedin-4423975933",
