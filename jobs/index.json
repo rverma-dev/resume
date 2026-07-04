@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T13:42:10Z",
+  "updated_at": "2026-07-04T14:09:39Z",
   "active_batch_id": "batch-20260704-1334-ic-platform",
   "last_scheduler_run_at": "2026-07-04T13:42:03Z",
   "batch_size": 10,
@@ -176,7 +176,7 @@
         "Explicit Sr. Staff Software Engineer infrastructure role; no salary range visible.",
         "LinkedIn posting is Easy Apply and marked actively reviewing applicants."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-principal-heartbeat-2004",
       "fit_score": 97,
@@ -230,7 +230,7 @@
       "application_id": "app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205",
       "resume_snapshot_path": "applications/resumes/app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205/resume.md",
       "discovered_at": "2026-07-03T20:07:52Z",
-      "updated_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-04T14:09:39Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported as explicit Senior Staff infrastructure role."
       ],

@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T13:42:10Z",
+  "updated_at": "2026-07-04T14:09:39Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -5757,11 +5757,11 @@
       "company": "LinkedIn",
       "role": "Sr. Staff Software Engineer, Systems Infrastructure",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-principal-heartbeat-2004",
       "approved_at": "2026-07-03T20:08:06Z",
-      "updated_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-04T14:09:39Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -5803,9 +5803,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn Easy Apply flow was verified in Chrome and reached page 2 of 7, the resume selection/upload step. The posting is reachable and logged in, but no external submission was made.",
+        "Requires action-time user confirmation before uploading the tailored submitted-resume PDF to LinkedIn and before final application submission; older saved LinkedIn resumes are present but should not be selected for this tailored application without confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn Easy Apply flow was verified in Chrome and reached page 2 of 7, the resume selection/upload step. The posting is reachable and logged in, but no external submission was made.",
+      "last_status_update_id": "status-20260704-1404-linkedin-sr-staff-systems-resume-confirmation",
+      "manual_action_required": true,
+      "manual_action_reason": "Requires action-time user confirmation before uploading the tailored submitted-resume PDF to LinkedIn and before final application submission; older saved LinkedIn resumes are present but should not be selected for this tailored application without confirmation.",
+      "manual_action_at": "2026-07-04T14:09:39Z"
     },
     {
       "application_id": "app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c",
