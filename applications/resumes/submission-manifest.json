@@ -810,6 +810,24 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77",
+    "company": "Autodesk",
+    "role": "Senior Principal Engineer (Java, AWS)",
+    "source_url": "https://www.linkedin.com/jobs/view/4393428028",
+    "submitted_resume_md": "applications/resumes/app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-autodesk-software-architect-b63b9113",
+    "company": "Autodesk",
+    "role": "Software Architect",
+    "source_url": "https://www.linkedin.com/jobs/view/4366525934",
+    "submitted_resume_md": "applications/resumes/app-20260704-autodesk-software-architect-b63b9113/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-autodesk-software-architect-b63b9113/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-broadcom-staff-software-engineer-5c7e6b85",
     "company": "Broadcom",
     "role": "Staff Software Engineer",
@@ -942,6 +960,15 @@
     "source_url": "https://www.linkedin.com/jobs/view/4436490443",
     "submitted_resume_md": "applications/resumes/app-20260704-freshworks-staff-engineer-systems-68e9c62a/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-freshworks-staff-engineer-systems-68e9c62a/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da",
+    "company": "GitLab",
+    "role": "Staff Backend Engineer (Go), Continuous Delivery",
+    "source_url": "https://www.linkedin.com/jobs/view/4427046855",
+    "submitted_resume_md": "applications/resumes/app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -1152,6 +1179,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-mongodb-staff-engineer-amp-a6b5e798",
+    "company": "MongoDB",
+    "role": "Staff Engineer, AMP",
+    "source_url": "https://www.linkedin.com/jobs/view/4397745218",
+    "submitted_resume_md": "applications/resumes/app-20260704-mongodb-staff-engineer-amp-a6b5e798/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-mongodb-staff-engineer-amp-a6b5e798/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-natwest-group-principal-engineer-vp-dca6a5a9",
     "company": "NatWest Group",
     "role": "Principal Engineer, VP",
@@ -1167,6 +1203,24 @@
     "source_url": "https://www.linkedin.com/jobs/view/4370393696",
     "submitted_resume_md": "applications/resumes/app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-okta-principal-software-engineer-0378711d",
+    "company": "Okta",
+    "role": "Principal Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4432761764",
+    "submitted_resume_md": "applications/resumes/app-20260704-okta-principal-software-engineer-0378711d/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-okta-principal-software-engineer-0378711d/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-okta-software-architect-java-backend-ac5eb19a",
+    "company": "Okta",
+    "role": "Software Architect, Java Backend",
+    "source_url": "https://www.linkedin.com/jobs/view/4422791677",
+    "submitted_resume_md": "applications/resumes/app-20260704-okta-software-architect-java-backend-ac5eb19a/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-okta-software-architect-java-backend-ac5eb19a/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -1224,6 +1278,24 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-reltio-principal-architect-73ba5d20",
+    "company": "Reltio",
+    "role": "Principal Architect",
+    "source_url": "https://www.linkedin.com/jobs/view/4306134204",
+    "submitted_resume_md": "applications/resumes/app-20260704-reltio-principal-architect-73ba5d20/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-reltio-principal-architect-73ba5d20/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c",
+    "company": "Rippling",
+    "role": "Staff Software Engineer - Tax Calculation",
+    "source_url": "https://www.linkedin.com/jobs/view/4338788907",
+    "submitted_resume_md": "applications/resumes/app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43",
     "company": "SonicWall",
     "role": "Senior Principal Engineer - Go / Golang experience is a must",
@@ -1242,6 +1314,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-toast-principal-software-engineer-c3d5ec01",
+    "company": "Toast",
+    "role": "Principal Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4432369431",
+    "submitted_resume_md": "applications/resumes/app-20260704-toast-principal-software-engineer-c3d5ec01/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-toast-principal-software-engineer-c3d5ec01/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-uber-staff-software-engineer-359dee86",
     "company": "Uber",
     "role": "Staff Software Engineer",
@@ -1257,6 +1338,15 @@
     "source_url": "https://www.linkedin.com/jobs/view/4382776237",
     "submitted_resume_md": "applications/resumes/app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f",
+    "company": "Warner Bros. Discovery",
+    "role": "Senior Staff Software Engineer - Golang (Consumer Team)",
+    "source_url": "https://www.linkedin.com/jobs/view/4427941826",
+    "submitted_resume_md": "applications/resumes/app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f/submitted-resume.pdf",
     "pages": 2
   },
   {

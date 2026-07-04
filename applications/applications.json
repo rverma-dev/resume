@@ -1,9 +1,439 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T07:46:15Z",
+  "updated_at": "2026-07-04T08:12:06Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-reltio-principal-architect-73ba5d20",
+      "job_id": "linkedin-4306134204",
+      "dedupe_key": "linkedin:4306134204",
+      "source": "linkedin",
+      "source_job_id": "4306134204",
+      "source_url": "https://www.linkedin.com/jobs/view/4306134204",
+      "company": "Reltio",
+      "role": "Principal Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Principal Architect role for multi-tenant cloud-native data/SaaS platform with agentic AI, control planes, observability, resilience, security/compliance, ADRs, and executive/customer influence.",
+      "people": [],
+      "connections_summary": "LinkedIn showed Reltio company alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Principal architecture for enterprise AI data platforms",
+        "positioning": "Use head/principal platform narrative: AI agents, governance, multi-cloud SaaS, ADRs, security, observability, and executive decision support.",
+        "key_pointers": [
+          "Emphasize AM agent federation, governed multi-agent systems, and internal AI IDE.",
+          "Feature ADR/RFC authorship, proactive diagnostics, anomaly detection alerts, and multi-region rollouts.",
+          "Frame platform/security/data governance work as enterprise AI context architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-reltio-principal-architect-73ba5d20/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-reltio-principal-architect-73ba5d20/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c",
+      "job_id": "linkedin-4338788907",
+      "dedupe_key": "linkedin:4338788907",
+      "source": "linkedin",
+      "source_job_id": "4338788907",
+      "source_url": "https://www.linkedin.com/jobs/view/4338788907",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - Tax Calculation",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Staff platform role with distributed systems, real-time data pipelines, policy DSL, compliance/tax calculation engine, cross-country platformization, and technical mentorship.",
+      "people": [],
+      "connections_summary": "LinkedIn showed Rippling company alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Policy engine and distributed compliance platform",
+        "positioning": "Frame around platformized policy/rules engines, distributed systems, payments scale, reliability, and governance.",
+        "key_pointers": [
+          "Use payments infrastructure and platform governance as primary proof.",
+          "Highlight DSL/policy-control parallels from AM agent federation and platform governance work.",
+          "Emphasize real-time pipelines, accuracy, compliance, and operational reliability."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-autodesk-software-architect-b63b9113",
+      "job_id": "linkedin-4366525934",
+      "dedupe_key": "linkedin:4366525934",
+      "source": "linkedin",
+      "source_job_id": "4366525934",
+      "source_url": "https://www.linkedin.com/jobs/view/4366525934",
+      "company": "Autodesk",
+      "role": "Software Architect",
+      "location": "Pune Division, Maharashtra, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent agentic AI architecture role defining autonomous agents, multi-agent frameworks, LLM-powered agents, orchestration, memory, governance, observability, safety, and production AI platform patterns.",
+      "people": [],
+      "connections_summary": "LinkedIn showed Autodesk company alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Agentic AI platform architecture",
+        "positioning": "Make AM agent federation, internal AI IDE, governed multi-agent systems, evaluations, telemetry, and safety controls the core narrative.",
+        "key_pointers": [
+          "Lead with AM agent federation and internal IDE rather than generic AI claims.",
+          "Highlight governance, telemetry, evals, anomaly detection, and responsible AI patterns.",
+          "Use ADR/RFC artifacts to prove architecture leadership and production-readiness thinking."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-autodesk-software-architect-b63b9113/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-autodesk-software-architect-b63b9113/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77",
+      "job_id": "linkedin-4393428028",
+      "dedupe_key": "linkedin:4393428028",
+      "source": "linkedin",
+      "source_job_id": "4393428028",
+      "source_url": "https://www.linkedin.com/jobs/view/4393428028",
+      "company": "Autodesk",
+      "role": "Senior Principal Engineer (Java, AWS)",
+      "location": "Pune Division, Maharashtra, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Senior Principal Search Infrastructure role across Autodesk Platform Services, distributed data-intensive microservices, search/vector/ML infrastructure, multi-tenant SaaS, Java/AWS, reliability, security, and strategic roadmap influence.",
+      "people": [],
+      "connections_summary": "LinkedIn showed Autodesk company alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Senior Principal search and AI platform infrastructure",
+        "positioning": "Frame around AI infrastructure, search/retrieval-adjacent platform work, Java/AWS, distributed systems, and platform services.",
+        "key_pointers": [
+          "Use internal AI IDE and agent federation to demonstrate AI platform experience.",
+          "Highlight Java/cloud architecture, API-first platform design, and reliability/security.",
+          "Connect proactive diagnostics and anomaly detection to observability and platform excellence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-mongodb-staff-engineer-amp-a6b5e798",
+      "job_id": "linkedin-4397745218",
+      "dedupe_key": "linkedin:4397745218",
+      "source": "linkedin",
+      "source_job_id": "4397745218",
+      "source_url": "https://www.linkedin.com/jobs/view/4397745218",
+      "company": "MongoDB",
+      "role": "Staff Engineer, AMP",
+      "location": "India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Staff AI modernization platform role for enterprise GenAI deployment infrastructure, air-gapped/restricted environments, orchestration, telemetry, authentication, API gateways, security-first execution, and technical leadership.",
+      "people": [],
+      "connections_summary": "LinkedIn showed MongoDB company alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Enterprise GenAI modernization platform",
+        "positioning": "Position around enterprise AI platforms, governed agents, secure deployment constraints, telemetry, and platform operations.",
+        "key_pointers": [
+          "Use internal IDE, AM agent federation, and governed AI systems as strongest AI platform proof.",
+          "Highlight telemetry, security, data governance, and enterprise deployment constraints.",
+          "Show platform architecture, API gateways/control planes, and technical mentorship."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-mongodb-staff-engineer-amp-a6b5e798/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-mongodb-staff-engineer-amp-a6b5e798/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-okta-software-architect-java-backend-ac5eb19a",
+      "job_id": "linkedin-4422791677",
+      "dedupe_key": "linkedin:4422791677",
+      "source": "linkedin",
+      "source_job_id": "4422791677",
+      "source_url": "https://www.linkedin.com/jobs/view/4422791677",
+      "company": "Okta",
+      "role": "Software Architect, Java Backend",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Principal/Architect identity platform role spanning secure cloud infrastructure, LCM platform, Java backend, scalability/security, cross-team strategy, and technical leadership over 20+ engineer initiatives.",
+      "people": [],
+      "connections_summary": "LinkedIn showed Okta company alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Identity security platform architecture",
+        "positioning": "Focus on secure platform architecture, Java backend, APIs, governance, and cross-team leadership.",
+        "key_pointers": [
+          "Emphasize platform governance, AM agent federation controls, and secure-by-design architecture.",
+          "Use Java/cloud/distributed systems experience prominently.",
+          "Connect testing automations and ADRs to operational/security engineering maturity."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/design_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-okta-software-architect-java-backend-ac5eb19a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-okta-software-architect-java-backend-ac5eb19a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da",
+      "job_id": "linkedin-4427046855",
+      "dedupe_key": "linkedin:4427046855",
+      "source": "linkedin",
+      "source_job_id": "4427046855",
+      "source_url": "https://www.linkedin.com/jobs/view/4427046855",
+      "company": "GitLab",
+      "role": "Staff Backend Engineer (Go), Continuous Delivery",
+      "location": "Greater Delhi Area, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Staff backend role building AI-native Continuous Delivery platform foundation: reconciliation, live state awareness, durable orchestration, Kubernetes, GitOps, and policy-based governance.",
+      "people": [],
+      "connections_summary": "LinkedIn showed school/company alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "AI-native delivery orchestration and platform governance",
+        "positioning": "Center the resume on internal IDE, AM agent federation, governed AI systems, CI/CD automation, and RFC-driven platform execution.",
+        "key_pointers": [
+          "Feature internal IDE and testing automations as developer-productivity and delivery-platform evidence.",
+          "Tie AM agent federation to AI-native governance and orchestration.",
+          "Highlight Kubernetes, platform reliability, written RFCs, and cross-team architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f",
+      "job_id": "linkedin-4427941826",
+      "dedupe_key": "linkedin:4427941826",
+      "source": "linkedin",
+      "source_job_id": "4427941826",
+      "source_url": "https://www.linkedin.com/jobs/view/4427941826",
+      "company": "Warner Bros. Discovery",
+      "role": "Senior Staff Software Engineer - Golang (Consumer Team)",
+      "location": "Greater Hyderabad Area, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Senior Staff platform role for global streaming/authentication services with Kubernetes, service mesh, API gateways, observability, ADRs/runbooks, incident response, org-level strategy, and cross-team standards.",
+      "people": [],
+      "connections_summary": "LinkedIn showed WBD company context; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Senior Staff global platform reliability",
+        "positioning": "Tailor toward global-scale platform services, observability, ADRs/runbooks, incident response, and distributed architecture.",
+        "key_pointers": [
+          "Emphasize multi-region rollouts, proactive diagnostics, anomaly detection alerts, and operational excellence.",
+          "Highlight architecture docs, runbooks, self-serve workflows, and cross-team standards.",
+          "Use cloud/Kubernetes/API platform experience without overclaiming Golang depth."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/incident_reviews/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-toast-principal-software-engineer-c3d5ec01",
+      "job_id": "linkedin-4432369431",
+      "dedupe_key": "linkedin:4432369431",
+      "source": "linkedin",
+      "source_job_id": "4432369431",
+      "source_url": "https://www.linkedin.com/jobs/view/4432369431",
+      "company": "Toast",
+      "role": "Principal Software Engineer",
+      "location": "Chennai, Tamil Nadu, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Principal backend architecture role for enterprise SaaS, event-driven systems, financial/accounting platforms, org-wide technical roadmap, Java/Kotlin, cloud, and AI-assisted engineering practices.",
+      "people": [],
+      "connections_summary": "LinkedIn did not expose named connections; no direct connection captured.",
+      "resume_theme": {
+        "name": "Enterprise SaaS backend architecture",
+        "positioning": "Tailor toward platform architecture, payments/financial system scale, distributed systems, and technical strategy.",
+        "key_pointers": [
+          "Use $240M/month payments infrastructure and platform ownership as primary business-scale proof.",
+          "Highlight Java/cloud architecture, event-driven systems, API design, and cross-team standards.",
+          "Include AI-assisted internal IDE only as engineering productivity signal."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-toast-principal-software-engineer-c3d5ec01/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-toast-principal-software-engineer-c3d5ec01/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-okta-principal-software-engineer-0378711d",
+      "job_id": "linkedin-4432761764",
+      "dedupe_key": "linkedin:4432761764",
+      "source": "linkedin",
+      "source_job_id": "4432761764",
+      "source_url": "https://www.linkedin.com/jobs/view/4432761764",
+      "company": "Okta",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
+      "approved_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T08:12:06Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent Principal role for identity lifecycle imports platform: monolith-to-microservices migration, distributed systems, batch and real-time sync, Java/Spring, multi-region cloud, operational excellence, and cross-team architecture ownership.",
+      "people": [],
+      "connections_summary": "LinkedIn showed Okta company alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Principal identity platform modernization",
+        "positioning": "Model around Java platform modernization, secure lifecycle systems, distributed sync, and operational excellence.",
+        "key_pointers": [
+          "Lead with platform modernization, API orchestration, reliability, and multi-region rollout work.",
+          "Tie AM agent federation and internal IDE to identity/governance/control-plane thinking.",
+          "Emphasize Java, cloud, observability, technical risk management, and senior IC mentorship."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-okta-principal-software-engineer-0378711d/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-okta-principal-software-engineer-0378711d/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-databricks-staff-software-engineer-money-1bb68c5e",
       "job_id": "linkedin-4297742131",
