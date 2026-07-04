@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T20:29:03Z",
-  "active_batch_id": "batch-20260704-2026-ic-microsoft-ai-trust",
-  "last_scheduler_run_at": "2026-07-04T20:28:55Z",
+  "updated_at": "2026-07-04T21:05:26Z",
+  "active_batch_id": "batch-20260704-stripe-ic",
+  "last_scheduler_run_at": "2026-07-04T21:05:19Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -87,6 +87,97 @@
       "notes": [
         "Discovered by IC heartbeat on 2026-07-04 via LinkedIn search for Uber Staff Software Engineer Principal Engineer Platform Infrastructure India.",
         "Approved because Staff IC level clears next/current-level filter despite Android/payments specialization."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "official-stripe-7217778",
+      "dedupe_key": "url:https://stripe.com/jobs/listing/staff-engineer-seller-systems/7217778",
+      "source": "official",
+      "source_job_id": "7217778",
+      "source_url": "https://stripe.com/jobs/listing/staff-engineer-seller-systems/7217778",
+      "company": "Stripe",
+      "role": "Staff Engineer, Seller Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff IC",
+      "compensation_signals": [
+        "Stripe is a high-compensation target company; official posting does not disclose India pay range.",
+        "Staff-level role with multi-year technical strategy ownership and global enterprise revenue systems scope."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-stripe-ic",
+      "fit_score": 97,
+      "fit_reason": "Excellent Staff IC fit: official Stripe Seller Systems role owns multi-year technical strategy for global seller infrastructure, hybrid first-party plus Salesforce architecture, approvals, contracting, onboarding, activation, AI-assisted workflows, internal platforms used by other engineering and GTM teams, and senior engineer mentorship. Strong match to Internal IDE/agentic workflows, Salesforce platform context, distributed systems, governance, and enterprise platform execution.",
+      "fit_signals": [
+        "Official Stripe listing for Staff Engineer, Seller Systems in Bengaluru.",
+        "Role requires 10+ years building software systems, including user-facing products and internal platforms leveraged by other engineering teams.",
+        "Role explicitly calls for multi-year technical strategy, ambiguous fast-moving environments, senior engineer mentorship, and clear technical communication.",
+        "Team builds end-to-end selling systems across deal modeling, negotiation, approvals, contracting, onboarding, and activation.",
+        "Posting mentions first-party Stripe components interoperating with third-party standard business components including Salesforce.",
+        "Posting names AI-enabled workflows for seller productivity."
+      ],
+      "risk_flags": [
+        "In-office expectation for Bengaluru may be 100% office depending Stripe Delivery Center/team policy; confirm before final submission.",
+        "Official posting does not disclose India compensation; pay fit is inferred from company/staff level and should be researched before negotiation.",
+        "GTM/Sales Systems domain is adjacent to platform work; tailor resume to internal platform, workflow, approvals, governance, and Salesforce interoperability rather than pure product backend."
+      ],
+      "people": [
+        {
+          "name": "Sahastranshu + 3 connections",
+          "relationship": "LinkedIn company connection signal",
+          "role": "Connections work at Stripe",
+          "profile_url": "",
+          "notes": "Company search showed 4 reachable connections at Stripe."
+        },
+        {
+          "name": "Suhas M.",
+          "relationship": "3rd degree",
+          "role": "Staff Software Engineer | Stripe",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced for Staff Engineer/Seller Systems keywords."
+        },
+        {
+          "name": "Kondal Reddy K.",
+          "relationship": "3rd degree",
+          "role": "Engineering Manager, Seller Systems at Stripe",
+          "profile_url": "",
+          "notes": "Likely role/team-adjacent contact from LinkedIn people search."
+        },
+        {
+          "name": "Eugen Feller",
+          "relationship": "2nd degree",
+          "role": "Staff Software Engineer at Stripe",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as a Staff Engineer connection path."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Sahastranshu + 3 other connections at Stripe; people search found 8 Seller Systems/Staff Engineer-adjacent associated members including Staff Engineer and Seller Systems contacts.",
+      "resume_theme": {
+        "name": "Staff internal platform and AI workflow systems",
+        "positioning": "Staff+ platform engineer for Stripe Seller Systems: internal platforms, Salesforce-adjacent workflow infrastructure, approvals/onboarding automation, AI-assisted execution, governance, reliability, and multi-year technical strategy for global revenue systems.",
+        "key_pointers": [
+          "Lead with PMTS Salesforce platform work, Internal IDE/Unleash distribution, AM agent federation, proactive diagnostics, and anomaly detection alerts as proof of internal platform velocity and governed AI workflows.",
+          "Frame Niki.ai/Jupiter/Brane payments and compliance experience around regulated transaction systems, workflow correctness, platform reliability, and cross-functional product/engineering execution.",
+          "Use Salesforce/MuleSoft domain familiarity carefully: emphasize Salesforce interoperability and enterprise platform context without overclaiming GTM ownership.",
+          "Highlight multi-year strategy, mentoring senior engineers, ambiguous domain learning, and clear technical communication because the posting explicitly asks for those Staff-level behaviors."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260704-stripe-staff-engineer-seller-systems-c25d9e89",
+      "resume_snapshot_path": "applications/resumes/app-20260704-stripe-staff-engineer-seller-systems-c25d9e89/resume.md",
+      "discovered_at": "2026-07-04T21:05:19Z",
+      "updated_at": "2026-07-04T21:05:26Z",
+      "notes": [
+        "Verified against the official Stripe listing during the 2026-07-04 20:56 UTC heartbeat.",
+        "Imported as approved-for-tailoring only; no external application was submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },

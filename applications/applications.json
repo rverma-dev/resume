@@ -1,9 +1,84 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T20:29:03Z",
+  "updated_at": "2026-07-04T21:05:26Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-stripe-staff-engineer-seller-systems-c25d9e89",
+      "job_id": "official-stripe-7217778",
+      "dedupe_key": "url:https://stripe.com/jobs/listing/staff-engineer-seller-systems/7217778",
+      "source": "official",
+      "source_job_id": "7217778",
+      "source_url": "https://stripe.com/jobs/listing/staff-engineer-seller-systems/7217778",
+      "company": "Stripe",
+      "role": "Staff Engineer, Seller Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-stripe-ic",
+      "approved_at": "2026-07-04T21:05:26Z",
+      "updated_at": "2026-07-04T21:05:26Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent Staff IC fit: official Stripe Seller Systems role owns multi-year technical strategy for global seller infrastructure, hybrid first-party plus Salesforce architecture, approvals, contracting, onboarding, activation, AI-assisted workflows, internal platforms used by other engineering and GTM teams, and senior engineer mentorship. Strong match to Internal IDE/agentic workflows, Salesforce platform context, distributed systems, governance, and enterprise platform execution.",
+      "people": [
+        {
+          "name": "Sahastranshu + 3 connections",
+          "relationship": "LinkedIn company connection signal",
+          "role": "Connections work at Stripe",
+          "profile_url": "",
+          "notes": "Company search showed 4 reachable connections at Stripe."
+        },
+        {
+          "name": "Suhas M.",
+          "relationship": "3rd degree",
+          "role": "Staff Software Engineer | Stripe",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced for Staff Engineer/Seller Systems keywords."
+        },
+        {
+          "name": "Kondal Reddy K.",
+          "relationship": "3rd degree",
+          "role": "Engineering Manager, Seller Systems at Stripe",
+          "profile_url": "",
+          "notes": "Likely role/team-adjacent contact from LinkedIn people search."
+        },
+        {
+          "name": "Eugen Feller",
+          "relationship": "2nd degree",
+          "role": "Staff Software Engineer at Stripe",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as a Staff Engineer connection path."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Sahastranshu + 3 other connections at Stripe; people search found 8 Seller Systems/Staff Engineer-adjacent associated members including Staff Engineer and Seller Systems contacts.",
+      "resume_theme": {
+        "name": "Staff internal platform and AI workflow systems",
+        "positioning": "Staff+ platform engineer for Stripe Seller Systems: internal platforms, Salesforce-adjacent workflow infrastructure, approvals/onboarding automation, AI-assisted execution, governance, reliability, and multi-year technical strategy for global revenue systems.",
+        "key_pointers": [
+          "Lead with PMTS Salesforce platform work, Internal IDE/Unleash distribution, AM agent federation, proactive diagnostics, and anomaly detection alerts as proof of internal platform velocity and governed AI workflows.",
+          "Frame Niki.ai/Jupiter/Brane payments and compliance experience around regulated transaction systems, workflow correctness, platform reliability, and cross-functional product/engineering execution.",
+          "Use Salesforce/MuleSoft domain familiarity carefully: emphasize Salesforce interoperability and enterprise platform context without overclaiming GTM ownership.",
+          "Highlight multi-year strategy, mentoring senior engineers, ambiguous domain learning, and clear technical communication because the posting explicitly asks for those Staff-level behaviors."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-stripe-staff-engineer-seller-systems-c25d9e89/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-stripe-staff-engineer-seller-systems-c25d9e89/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-microsoft-ai-senior-principal-architect-ads-trust-789c0e94",
       "job_id": "linkedin-4430705336",
