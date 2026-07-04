@@ -1,9 +1,96 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T11:09:29Z",
+  "updated_at": "2026-07-04T11:36:48Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-rubrik-staff-cloud-security-architect-6577bd5a",
+      "job_id": "linkedin-4387402192",
+      "dedupe_key": "linkedin:4387402192",
+      "source": "linkedin",
+      "source_job_id": "4387402192",
+      "source_url": "https://www.linkedin.com/jobs/view/4387402192",
+      "company": "Rubrik",
+      "role": "Staff Cloud Security Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1134-ic-rubrik-platform",
+      "approved_at": "2026-07-04T11:36:48Z",
+      "updated_at": "2026-07-04T11:36:48Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Strong Staff IC fit in cloud security architecture: secure cloud architecture, governance frameworks, reference architectures, Kubernetes, CI/CD, IaC, microservices, cloud incident response, and AI/security company context.",
+      "people": [],
+      "connections_summary": "LinkedIn search result shows 60 company alumni at Rubrik.",
+      "resume_theme": {
+        "name": "Staff Cloud Security Platform Architect",
+        "positioning": "Position around cloud platform governance, compliance, security controls, Kubernetes/IaC, SIEM, incident readiness, and tenant-safe Hyperforce architecture.",
+        "key_pointers": [
+          "Use Jupiter PCI-DSS/SOC2/ISO/NPCI compliance and SIEM scale as direct security governance evidence.",
+          "Use Brane platform/security stack and DevOps/SRE/security org leadership for cloud/platform security breadth.",
+          "Use Salesforce Hyperforce multi-region platform work for tenant-safe cloud operations and governance."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Architect, Jupiter Money",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-rubrik-staff-cloud-security-architect-6577bd5a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-rubrik-staff-cloud-security-architect-6577bd5a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-rubrik-principal-engineer-df7bad6a",
+      "job_id": "linkedin-4426055207",
+      "dedupe_key": "linkedin:4426055207",
+      "source": "linkedin",
+      "source_job_id": "4426055207",
+      "source_url": "https://www.linkedin.com/jobs/view/4426055207",
+      "company": "Rubrik",
+      "role": "Principal Engineer",
+      "location": "Greater Bengaluru Area",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1134-ic-rubrik-platform",
+      "approved_at": "2026-07-04T11:36:48Z",
+      "updated_at": "2026-07-04T11:36:48Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Exceptional IC leveling fit: Principal Engineer in Developer Platform, explicitly director-equivalent, owning multi-system SDLC/developer productivity strategy, AI/ML productivity integration, CI/CD, observability, cloud infrastructure, platform scale, and cross-org technical influence.",
+      "people": [],
+      "connections_summary": "LinkedIn search result shows 60 company alumni at Rubrik.",
+      "resume_theme": {
+        "name": "Director-Equivalent Principal Developer Platform",
+        "positioning": "Position as PMTS/principal IC who has already built developer/agentic IDE systems, governed agent platforms, observability infrastructure, and multi-region Hyperforce platform programs with director-scale technical scope.",
+        "key_pointers": [
+          "Lead with Internal IDE/Unleash and agentic developer systems as direct developer-productivity platform evidence.",
+          "Use Anypoint Monitoring Alerts and Visualizer to show CI/CD-adjacent platform, observability, cloud infrastructure, and multi-region operational scale.",
+          "Use Brane VP/GSL platform org scale to demonstrate director-equivalent influence while keeping the role positioned as IC technical strategy."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-rubrik-principal-engineer-df7bad6a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-rubrik-principal-engineer-df7bad6a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-moody-s-corporation-staff-software-engineer-acb5abc9",
       "job_id": "linkedin-4417748713",
