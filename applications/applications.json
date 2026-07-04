@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T00:05:46Z",
+  "updated_at": "2026-07-04T00:36:26Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -1257,11 +1257,11 @@
       "company": "Amazon",
       "role": "Principal Software Engineer, Amazon Payments, WW Installments, Amazon Payments",
       "location": "Bengaluru, Karnataka, India",
-      "status": "ready",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-amazon-principal-heartbeat",
       "approved_at": "2026-07-03T19:38:15Z",
-      "updated_at": "2026-07-03T19:40:57Z",
+      "updated_at": "2026-07-04T00:36:26Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -1297,11 +1297,15 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10385832/principal-software-engineer-amazon-payments-ww-installments-amazon-payments with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful."
+        "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10385832/principal-software-engineer-amazon-payments-ww-installments-amazon-payments with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful.",
+        "Amazon Jobs application for job 10385832 reached the account login gate; not submitted.",
+        "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication."
       ],
-      "status_reason": "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10385832/principal-software-engineer-amazon-payments-ww-installments-amazon-payments with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful.",
-      "last_status_update_id": "status-20260704-amazon-payments-ready",
-      "manual_action_required": false
+      "status_reason": "Amazon Jobs application for job 10385832 reached the account login gate; not submitted.",
+      "last_status_update_id": "status-20260704-amazon-payments-principal-login",
+      "manual_action_required": true,
+      "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
+      "manual_action_at": "2026-07-04T00:36:26Z"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-rbs-tech-a5aca81e",
@@ -1313,11 +1317,11 @@
       "company": "Amazon",
       "role": "Principal Software Engineer, RBS - Tech",
       "location": "Bengaluru, Karnataka, India",
-      "status": "ready",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-amazon-principal-heartbeat",
       "approved_at": "2026-07-03T19:38:15Z",
-      "updated_at": "2026-07-03T19:40:57Z",
+      "updated_at": "2026-07-04T00:36:26Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 99,
@@ -1354,11 +1358,15 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10427785/principal-software-engineer-rbs-tech with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful."
+        "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10427785/principal-software-engineer-rbs-tech with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful.",
+        "Amazon Jobs application for job 10427785 reached the account login gate; not submitted.",
+        "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication."
       ],
-      "status_reason": "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10427785/principal-software-engineer-rbs-tech with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful.",
-      "last_status_update_id": "status-20260704-amazon-rbs-ready",
-      "manual_action_required": false
+      "status_reason": "Amazon Jobs application for job 10427785 reached the account login gate; not submitted.",
+      "last_status_update_id": "status-20260704-amazon-rbs-principal-login",
+      "manual_action_required": true,
+      "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
+      "manual_action_at": "2026-07-04T00:36:26Z"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-alexa-in-8ef4aff4",
@@ -1370,11 +1378,11 @@
       "company": "Amazon",
       "role": "Principal Software Engineer, Alexa International",
       "location": "Bengaluru, Karnataka, India",
-      "status": "ready",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-amazon-principal-heartbeat",
       "approved_at": "2026-07-03T19:38:15Z",
-      "updated_at": "2026-07-03T19:40:57Z",
+      "updated_at": "2026-07-04T00:36:26Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -1410,11 +1418,15 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10439737/principal-software-engineer-alexa-international with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful."
+        "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10439737/principal-software-engineer-alexa-international with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful.",
+        "Amazon Jobs application for job 10439737 reached the account login gate; not submitted.",
+        "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication."
       ],
-      "status_reason": "Canonical Amazon Jobs page verified at https://www.amazon.jobs/en/jobs/10439737/principal-software-engineer-alexa-international with Apply now link; submitted-resume PDF is prepared. Not externally submitted because final application/upload requires action-time confirmation and any required legal/EEO/work-authorization answers must be truthful.",
-      "last_status_update_id": "status-20260704-amazon-alexa-ready",
-      "manual_action_required": false
+      "status_reason": "Amazon Jobs application for job 10439737 reached the account login gate; not submitted.",
+      "last_status_update_id": "status-20260704-amazon-alexa-international-principal-login",
+      "manual_action_required": true,
+      "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
+      "manual_action_at": "2026-07-04T00:36:26Z"
     },
     {
       "application_id": "app-20260703-broadcom-senior-software-architect-0421392e",
@@ -2053,11 +2065,11 @@
       "company": "Amazon",
       "role": "Principal Software Engineer, Alexa AI (AURORA)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-0004",
       "approved_at": "2026-07-03T18:37:45Z",
-      "updated_at": "2026-07-03T18:37:45Z",
+      "updated_at": "2026-07-04T00:36:26Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -2092,8 +2104,15 @@
       "resume_theme_path": "applications/resumes/app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Amazon Jobs application for job 3163024 reached the account login gate; not submitted.",
+        "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication."
+      ],
+      "status_reason": "Amazon Jobs application for job 3163024 reached the account login gate; not submitted.",
+      "last_status_update_id": "status-20260704-amazon-alexa-ai-principal-login",
+      "manual_action_required": true,
+      "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
+      "manual_action_at": "2026-07-04T00:36:26Z"
     },
     {
       "application_id": "app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb",
