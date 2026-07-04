@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T21:05:26Z",
-  "active_batch_id": "batch-20260704-stripe-ic",
-  "last_scheduler_run_at": "2026-07-04T21:05:19Z",
+  "updated_at": "2026-07-04T21:07:32Z",
+  "active_batch_id": "batch-20260704-panw-ic",
+  "last_scheduler_run_at": "2026-07-04T21:07:22Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -1404,6 +1404,95 @@
       "updated_at": "2026-07-04T06:10:42Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "official-panw-96647884400",
+      "dedupe_key": "url:https://jobs.paloaltonetworks.com/en/job/hyderabad/senior-staff-software-engineer/47263/96647884400",
+      "source": "official",
+      "source_job_id": "96647884400",
+      "source_url": "https://jobs.paloaltonetworks.com/en/job/hyderabad/senior-staff-software-engineer/47263/96647884400",
+      "company": "Palo Alto Networks",
+      "role": "Senior Staff Software Engineer",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [
+        "Palo Alto Networks is a high-compensation cybersecurity/platform company; exact India pay range was not disclosed in the indexed posting.",
+        "Senior Staff IC role in Product Engineering and cloud security product scope is credible current/next-level fit."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-panw-ic",
+      "fit_score": 95,
+      "fit_reason": "Strong Senior Staff IC fit: Palo Alto Networks product-engineering role in Hyderabad for a strategic Cloud Security product. Matches platform/security, distributed systems, observability/diagnostics, anomaly detection, governed AI workflows, and enterprise-scale cloud systems. Company and level are aligned with the high-comp Staff+/Principal target band.",
+      "fit_signals": [
+        "Official Palo Alto Networks indexed listing for Senior Staff Software Engineer in Hyderabad Product Engineering.",
+        "Search snippet states the role is for a strategic Cloud Security product.",
+        "Company is a cybersecurity platform leader with India engineering presence.",
+        "LinkedIn people search showed a large senior/staff cloud-security engineering network, including India-based second-degree paths."
+      ],
+      "risk_flags": [
+        "Detail page redirects to the careers shell in this environment; verify the full posting in the browser before final submission.",
+        "Exact technology stack and team scope need portal confirmation before tailoring beyond cloud security/platform positioning.",
+        "On-site expectations and compensation are not confirmed; do not mark applied without manual portal confirmation."
+      ],
+      "people": [
+        {
+          "name": "Rohik Galli",
+          "relationship": "2nd degree",
+          "role": "Sr Staff Software Engineer @ Palo Alto Networks",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as a senior staff connection path."
+        },
+        {
+          "name": "Sameer Garg",
+          "relationship": "2nd degree",
+          "role": "Sr Staff Engineer at Palo Alto Networks",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as a senior staff connection path."
+        },
+        {
+          "name": "Jayanth Kumar",
+          "relationship": "2nd degree",
+          "role": "Senior Staff Engineer | Data Security",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced cloud/security senior staff signal."
+        },
+        {
+          "name": "Harmeet Singh Gujral",
+          "relationship": "2nd degree",
+          "role": "Principal Software Engineer @ Palo Alto Networks | Cloud Cyber Security",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced principal cloud cyber security signal."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed 191 company alumni and people search showed 335 senior/staff cloud-security associated members, with multiple 2nd-degree senior staff/principal paths.",
+      "resume_theme": {
+        "name": "Senior Staff cloud security platform systems",
+        "positioning": "Senior Staff platform/security engineer for Palo Alto Networks cloud security: Hyperforce-scale observability, anomaly detection, proactive diagnostics, secure agentic workflows, cloud platform architecture, reliability, and cross-org technical direction.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS Hyperforce observability, anomaly detection alerts, proactive diagnostics, AM agent federation, and internal platform governance.",
+          "Frame Brane security/compliance stack and payments/regulatory systems as evidence of secure platform execution and enterprise readiness.",
+          "Keep security claims evidence-backed: emphasize platform reliability, diagnostics, governance, and secure-by-design infrastructure rather than unsupported threat-research claims.",
+          "Use multi-region rollout, GIA2H, LaunchDarkly Relay Proxy, and observability migration as proof of cloud platform depth."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/",
+          "work/incident_reviews/"
+        ]
+      },
+      "application_id": "app-20260704-palo-alto-networks-senior-staff-software-engineer-80487e4f",
+      "resume_snapshot_path": "applications/resumes/app-20260704-palo-alto-networks-senior-staff-software-engineer-80487e4f/resume.md",
+      "discovered_at": "2026-07-04T21:07:22Z",
+      "updated_at": "2026-07-04T21:07:32Z",
+      "notes": [
+        "Verified via official Palo Alto Networks indexed listing during the 2026-07-04 20:56 UTC heartbeat; full detail page requires browser/manual confirmation.",
+        "Imported as approved-for-tailoring only; no external application was submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },
