@@ -1476,6 +1476,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc",
+    "company": "ServiceTitan",
+    "role": "Principal Software Engineer, Data Platform",
+    "source_url": "https://www.linkedin.com/jobs/view/4415593304",
+    "submitted_resume_md": "applications/resumes/app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43",
     "company": "SonicWall",
     "role": "Senior Principal Engineer - Go / Golang experience is a must",
@@ -1573,5 +1582,8 @@
     "submitted_resume_md": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/submitted-resume.pdf",
     "pages": 2
+  }
+]
+2
   }
 ]

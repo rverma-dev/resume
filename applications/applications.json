@@ -1,9 +1,145 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T15:05:56Z",
+  "updated_at": "2026-07-04T15:43:22Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc",
+      "job_id": "linkedin-4415593304",
+      "dedupe_key": "linkedin:4415593304",
+      "source": "linkedin",
+      "source_job_id": "4415593304",
+      "source_url": "https://www.linkedin.com/jobs/view/4415593304",
+      "company": "ServiceTitan",
+      "role": "Principal Software Engineer, Data Platform",
+      "location": "Greater Kolkata Area, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1534-ic-agentic-data-platform",
+      "approved_at": "2026-07-04T15:43:22Z",
+      "updated_at": "2026-07-04T15:43:22Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Principal IC fit for data/platform architecture: semantic layer as single source of truth, governed data products, agentic analytics, platform APIs, query performance, cost optimization, and AI-assisted engineering workflows. Less direct than ServiceNow because it is data platform-first rather than core agent infrastructure.",
+      "people": [
+        {
+          "name": "Mihir Vaidya",
+          "relationship": "2nd degree connection",
+          "role": "VP of Engineering at ServiceTitan",
+          "profile_url": "https://www.linkedin.com/in/vaidyamihir/",
+          "notes": "Relevant leadership contact from company people search."
+        },
+        {
+          "name": "Nirvikar Kumar Singh",
+          "relationship": "2nd degree connection",
+          "role": "Software Engineering Director & India Lead at ServiceTitan",
+          "profile_url": "https://www.linkedin.com/in/nirvikarsingh/",
+          "notes": "India leadership contact with agentic AI development signal."
+        },
+        {
+          "name": "Sanyukt Sharma",
+          "relationship": "2nd degree connection",
+          "role": "Software Engineer at ServiceTitan, Building Large-Scale Data Platforms",
+          "profile_url": "https://www.linkedin.com/in/sanyuktsharma/",
+          "notes": "Directly relevant data platform contact from company people search."
+        }
+      ],
+      "connections_summary": "LinkedIn company people search surfaced ServiceTitan 2nd-degree engineering leadership and data-platform contacts, including India leadership and AI/platform architecture contacts.",
+      "resume_theme": {
+        "name": "Principal semantic data platform and agentic analytics",
+        "positioning": "Model as a Principal engineer who builds governed data/platform abstractions for AI-ready enterprise products: anomaly detection, diagnostics, semantic signals, metadata contracts, and developer productivity automation.",
+        "key_pointers": [
+          "Tie Salesforce anomaly detection alerts and proactive diagnostics to metric governance, data quality, and operational signal semantics.",
+          "Use Unlease/superset fork and internal IDE work as evidence of platform UX plus data-facing developer productivity.",
+          "Frame MCP/A2A RFCs and agent federation as AI-readable interface and governance work, not generic prompt tooling.",
+          "Emphasize API contracts, versioned architecture decisions, testing automation, and large-scale reliable platform ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "/Users/rverma/conductor/repos/unleash",
+          "/Users/rverma/conductor/repos/mdas-alerts",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77",
+      "job_id": "linkedin-4417470643",
+      "dedupe_key": "linkedin:4417470643",
+      "source": "linkedin",
+      "source_job_id": "4417470643",
+      "source_url": "https://www.linkedin.com/jobs/view/4417470643",
+      "company": "ServiceNow",
+      "role": "Senior Staff AI-Native Software Engineer - Agentic Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1534-ic-agentic-data-platform",
+      "approved_at": "2026-07-04T15:43:22Z",
+      "updated_at": "2026-07-04T15:43:22Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Excellent Staff+ fit for current Salesforce work: production-grade agentic systems, enterprise workflow agents, MCP/action fabric, RAG and retrieval evaluation, model integration, safety/governance, observability, human-in-the-loop controls, and senior technical leadership across AI platform infrastructure.",
+      "people": [
+        {
+          "name": "Tushar Jain",
+          "relationship": "2nd degree connection",
+          "role": "AI Platform Architect & Lead at ServiceNow",
+          "profile_url": "https://www.linkedin.com/in/tushar-jain-991b9535/",
+          "notes": "LinkedIn company people search for AI platform surfaced this profile."
+        },
+        {
+          "name": "Hara Rath",
+          "relationship": "2nd degree connection",
+          "role": "Engineering Manager, Agentic AI Platform at ServiceNow",
+          "profile_url": "https://www.linkedin.com/in/hara-prasad-rath/",
+          "notes": "Relevant agentic AI platform contact from company people search."
+        },
+        {
+          "name": "Ankit Agrawal",
+          "relationship": "2nd degree connection",
+          "role": "Director, Data Platform & AI Products at ServiceNow",
+          "profile_url": "",
+          "notes": "Relevant leadership contact from company people search."
+        }
+      ],
+      "connections_summary": "LinkedIn people search showed ServiceNow AI platform/agentic AI 2nd-degree contacts and 323 India employees in the AI platform-filtered employee view.",
+      "resume_theme": {
+        "name": "Enterprise agentic AI platform Staff+",
+        "positioning": "Position as a Senior Staff platform engineer for governed agentic AI: MCP/A2A federation, production diagnostics, anomaly detection, internal IDE, evaluation/observability, and enterprise workflow automation.",
+        "key_pointers": [
+          "Lead with AM agent federation, proactive diagnostics ADRs, anomaly detection alerts, and internal IDE as evidence of governed AI systems inside enterprise workflows.",
+          "Emphasize production platform discipline: observability, safety, human-in-the-loop control, reliability, and architecture decisions rather than prompt-only AI work.",
+          "Tie multi-region rollouts, testing automation, and RFC ownership to ServiceNow's Fortune 500-scale enterprise platform expectations.",
+          "Mention MCP/A2A, retrieval/evaluation, model integration tradeoffs, and action/workflow governance where backed by local work artifacts."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/mdas-alerts",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-rubrik-principal-engineer-3af89aa6",
       "job_id": "linkedin-4428469992",

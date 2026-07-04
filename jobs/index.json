@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T15:05:56Z",
-  "active_batch_id": "batch-20260704-1434-ic-rubrik-principal",
-  "last_scheduler_run_at": "2026-07-04T14:36:26Z",
+  "updated_at": "2026-07-04T15:43:22Z",
+  "active_batch_id": "batch-20260704-1534-ic-agentic-data-platform",
+  "last_scheduler_run_at": "2026-07-04T15:43:14Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 1,
+  "jobs_per_scheduler_run": 2,
   "jobs": [
     {
       "job_id": "linkedin-4426808289",
@@ -5509,6 +5509,168 @@
       "updated_at": "2026-07-04T01:39:31Z",
       "notes": [
         "LinkedIn details captured 2026-07-04: posted 2 days ago, 18 people clicked apply, responses managed off LinkedIn, Amazon Job ID A10463881."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4417470643",
+      "dedupe_key": "linkedin:4417470643",
+      "source": "linkedin",
+      "source_job_id": "4417470643",
+      "source_url": "https://www.linkedin.com/jobs/view/4417470643",
+      "company": "ServiceNow",
+      "role": "Senior Staff AI-Native Software Engineer - Agentic Systems",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Staff / Individual Contributor",
+      "compensation_signals": [
+        "Senior Staff AI platform role at ServiceNow, a large public enterprise platform company with strong India engineering presence.",
+        "Scope includes Fortune 500-scale Now Assist, AI Agents, Action Fabric/MCP, AI Control Tower, and governed enterprise agent systems, which is aligned with next-level Staff+ AI infrastructure compensation lanes."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1534-ic-agentic-data-platform",
+      "fit_score": 98,
+      "fit_reason": "Excellent Staff+ fit for current Salesforce work: production-grade agentic systems, enterprise workflow agents, MCP/action fabric, RAG and retrieval evaluation, model integration, safety/governance, observability, human-in-the-loop controls, and senior technical leadership across AI platform infrastructure.",
+      "fit_signals": [
+        "Design and operate production multi-agent systems with orchestration, tool use, planning loops, memory, failure recovery, observability, and governance.",
+        "Build enterprise-grounded reasoning over CMDB, Workflow Data Fabric, and Knowledge Graph with RAG, hybrid search, re-ranking, and evaluation.",
+        "Integrate Anthropic, Google, and OpenAI frontier models into Sense-Decide-Act-Govern architecture with cost, latency, and capability tradeoffs.",
+        "Direct overlap with AM agent federation, proactive diagnostics, anomaly alerts, internal IDE, MCP/A2A RFCs, and governed production AI systems."
+      ],
+      "risk_flags": [
+        "Must avoid overclaiming hands-on production depth with every named frontier SDK; tailor to architecture, governance, evaluation, and platform delivery evidence.",
+        "Confirm final ServiceNow level and compensation band during recruiter screen."
+      ],
+      "people": [
+        {
+          "name": "Tushar Jain",
+          "relationship": "2nd degree connection",
+          "role": "AI Platform Architect & Lead at ServiceNow",
+          "profile_url": "https://www.linkedin.com/in/tushar-jain-991b9535/",
+          "notes": "LinkedIn company people search for AI platform surfaced this profile."
+        },
+        {
+          "name": "Hara Rath",
+          "relationship": "2nd degree connection",
+          "role": "Engineering Manager, Agentic AI Platform at ServiceNow",
+          "profile_url": "https://www.linkedin.com/in/hara-prasad-rath/",
+          "notes": "Relevant agentic AI platform contact from company people search."
+        },
+        {
+          "name": "Ankit Agrawal",
+          "relationship": "2nd degree connection",
+          "role": "Director, Data Platform & AI Products at ServiceNow",
+          "profile_url": "",
+          "notes": "Relevant leadership contact from company people search."
+        }
+      ],
+      "connections_summary": "LinkedIn people search showed ServiceNow AI platform/agentic AI 2nd-degree contacts and 323 India employees in the AI platform-filtered employee view.",
+      "resume_theme": {
+        "name": "Enterprise agentic AI platform Staff+",
+        "positioning": "Position as a Senior Staff platform engineer for governed agentic AI: MCP/A2A federation, production diagnostics, anomaly detection, internal IDE, evaluation/observability, and enterprise workflow automation.",
+        "key_pointers": [
+          "Lead with AM agent federation, proactive diagnostics ADRs, anomaly detection alerts, and internal IDE as evidence of governed AI systems inside enterprise workflows.",
+          "Emphasize production platform discipline: observability, safety, human-in-the-loop control, reliability, and architecture decisions rather than prompt-only AI work.",
+          "Tie multi-region rollouts, testing automation, and RFC ownership to ServiceNow's Fortune 500-scale enterprise platform expectations.",
+          "Mention MCP/A2A, retrieval/evaluation, model integration tradeoffs, and action/workflow governance where backed by local work artifacts."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/mdas-alerts",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77",
+      "resume_snapshot_path": "applications/resumes/app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77/resume.md",
+      "discovered_at": "2026-07-04T15:43:14Z",
+      "updated_at": "2026-07-04T15:43:22Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-04 heartbeat.",
+        "Responses managed off LinkedIn; no external application submission attempted in this import."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4415593304",
+      "dedupe_key": "linkedin:4415593304",
+      "source": "linkedin",
+      "source_job_id": "4415593304",
+      "source_url": "https://www.linkedin.com/jobs/view/4415593304",
+      "company": "ServiceTitan",
+      "role": "Principal Software Engineer, Data Platform",
+      "location": "Greater Kolkata Area, India",
+      "work_type": "Remote",
+      "experience_level": "Principal / Individual Contributor",
+      "compensation_signals": [
+        "Principal remote data platform role at a US SaaS company; compensation must be confirmed but title and scope are next-level aligned.",
+        "Scope covers semantic model architecture, data governance, agentic analytics, and platform abstractions consumed by multiple product teams."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1534-ic-agentic-data-platform",
+      "fit_score": 94,
+      "fit_reason": "Strong Principal IC fit for data/platform architecture: semantic layer as single source of truth, governed data products, agentic analytics, platform APIs, query performance, cost optimization, and AI-assisted engineering workflows. Less direct than ServiceNow because it is data platform-first rather than core agent infrastructure.",
+      "fit_signals": [
+        "Own semantic model architecture for business metrics, dimensions, entities, and logic across reporting and agentic analytics.",
+        "Build platform governance, self-service onboarding, versioning, testing, validation, and developer-friendly abstractions.",
+        "Operate across Snowflake/ClickHouse-style OLAP, Spark, Kafka/Kinesis, SQL/Python, APIs, and large-scale fault-tolerant systems.",
+        "Useful bridge to anomaly detection alerts, proactive diagnostics, data quality, semantic interfaces, and AI-readable enterprise metadata."
+      ],
+      "risk_flags": [
+        "Requires strong semantic modeling/dbt/MetricFlow framing; tailor carefully from diagnostics/anomaly/platform data evidence without overstating dbt depth.",
+        "Confirm India remote compensation and US overlap expectations before prioritizing submission."
+      ],
+      "people": [
+        {
+          "name": "Mihir Vaidya",
+          "relationship": "2nd degree connection",
+          "role": "VP of Engineering at ServiceTitan",
+          "profile_url": "https://www.linkedin.com/in/vaidyamihir/",
+          "notes": "Relevant leadership contact from company people search."
+        },
+        {
+          "name": "Nirvikar Kumar Singh",
+          "relationship": "2nd degree connection",
+          "role": "Software Engineering Director & India Lead at ServiceTitan",
+          "profile_url": "https://www.linkedin.com/in/nirvikarsingh/",
+          "notes": "India leadership contact with agentic AI development signal."
+        },
+        {
+          "name": "Sanyukt Sharma",
+          "relationship": "2nd degree connection",
+          "role": "Software Engineer at ServiceTitan, Building Large-Scale Data Platforms",
+          "profile_url": "https://www.linkedin.com/in/sanyuktsharma/",
+          "notes": "Directly relevant data platform contact from company people search."
+        }
+      ],
+      "connections_summary": "LinkedIn company people search surfaced ServiceTitan 2nd-degree engineering leadership and data-platform contacts, including India leadership and AI/platform architecture contacts.",
+      "resume_theme": {
+        "name": "Principal semantic data platform and agentic analytics",
+        "positioning": "Model as a Principal engineer who builds governed data/platform abstractions for AI-ready enterprise products: anomaly detection, diagnostics, semantic signals, metadata contracts, and developer productivity automation.",
+        "key_pointers": [
+          "Tie Salesforce anomaly detection alerts and proactive diagnostics to metric governance, data quality, and operational signal semantics.",
+          "Use Unlease/superset fork and internal IDE work as evidence of platform UX plus data-facing developer productivity.",
+          "Frame MCP/A2A RFCs and agent federation as AI-readable interface and governance work, not generic prompt tooling.",
+          "Emphasize API contracts, versioned architecture decisions, testing automation, and large-scale reliable platform ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "/Users/rverma/conductor/repos/unleash",
+          "/Users/rverma/conductor/repos/mdas-alerts",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "application_id": "app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc",
+      "resume_snapshot_path": "applications/resumes/app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc/resume.md",
+      "discovered_at": "2026-07-04T15:43:14Z",
+      "updated_at": "2026-07-04T15:43:22Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-04 heartbeat.",
+        "Responses managed off LinkedIn; no external application submission attempted in this import."
       ],
       "resume_snapshot_name": "IC Resume"
     },
