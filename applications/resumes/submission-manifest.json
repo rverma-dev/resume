@@ -801,6 +801,24 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-google-staff-software-engineer-code-intelli-0bca1606",
+    "company": "Google",
+    "role": "Staff Software Engineer, Code Intelligence",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/119947057115865798-staff-software-engineer-code-intelligence",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-code-intelli-0bca1606/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-code-intelli-0bca1606/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-data-indexin-b959b8c4",
+    "company": "Google",
+    "role": "Staff Software Engineer, Data Indexing, Web Apps",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/77879568190317254-staff-software-engineer-data-indexing-web-apps",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-data-indexin-b959b8c4/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-data-indexin-b959b8c4/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-google-staff-software-engineer-gcp-csm-3579afd9",
     "company": "Google",
     "role": "Staff Software Engineer, GCP CSM",
@@ -819,12 +837,39 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-google-staff-software-engineer-google-cloud-35332b81",
+    "company": "Google",
+    "role": "Staff Software Engineer, Google Cloud",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/112072232559092422-staff-software-engineer-google-cloud",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-google-cloud-35332b81/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-google-cloud-35332b81/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-google-sdn-c-3a9b3dc3",
+    "company": "Google",
+    "role": "Staff Software Engineer, Google SDN Control Plane",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/120197400022131398-staff-software-engineer-google-sdn-control-plane",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-google-sdn-c-3a9b3dc3/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-google-sdn-c-3a9b3dc3/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-google-staff-software-engineer-infrastructu-a45b5762",
     "company": "Google",
     "role": "Staff Software Engineer, Infrastructure, Google Cloud",
     "source_url": "https://www.google.com/about/careers/applications/jobs/results/137005277793657542-staff-software-engineer-infrastructure-google-cloud",
     "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-infrastructu-a45b5762/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-infrastructu-a45b5762/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-search-next-de810d13",
+    "company": "Google",
+    "role": "Staff Software Engineer, Search Next",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/74520160836166342-staff-software-engineer-search-next",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-search-next-de810d13/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-search-next-de810d13/submitted-resume.pdf",
     "pages": 2
   },
   {
