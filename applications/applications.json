@@ -1,9 +1,366 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T06:10:42Z",
+  "updated_at": "2026-07-04T06:46:59Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-harness-principal-engineer-ab5623cd",
+      "job_id": "linkedin-4399511624",
+      "dedupe_key": "linkedin:4399511624",
+      "source": "linkedin",
+      "source_job_id": "4399511624",
+      "source_url": "https://www.linkedin.com/jobs/view/4399511624",
+      "company": "Harness",
+      "role": "Principal Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
+      "approved_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-04T06:46:59Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Excellent AI software-delivery platform fit: Principal Engineer for cross-platform initiatives, distributed systems, software delivery, governance, reliability, security, feature flags, internal developer portal, and AI/ML-infused delivery workflows maps strongly to Unleash, Internal IDE, governed agents, observability, and platform automation.",
+      "people": [
+        {
+          "name": "Company network",
+          "relationship": "connection signal",
+          "role": "Harness",
+          "profile_url": "",
+          "notes": "LinkedIn related results showed Harness connection signal."
+        }
+      ],
+      "connections_summary": "LinkedIn showed Harness network signal in related job context.",
+      "resume_theme": {
+        "name": "AI software delivery and developer platform",
+        "positioning": "Principal platform engineer for AI software delivery, feature flags, internal developer portals, governance, reliability, and cross-platform execution.",
+        "key_pointers": [
+          "Lead with Unleash and Internal IDE because they map directly to feature flags, developer portals, software delivery, and productivity.",
+          "Use governed multi-agent systems and AM agent federation to show AI governance and policy-driven controls.",
+          "Use Hyperforce alerts, anomaly detection, and proactive diagnostics for reliability and operational excellence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/ADRs/",
+          "work/RFCs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-harness-principal-engineer-ab5623cd/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-harness-principal-engineer-ab5623cd/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-d-e-shaw-india-private-limit-principal-tech-middleware-a24c634d",
+      "job_id": "linkedin-4408524467",
+      "dedupe_key": "linkedin:4408524467",
+      "source": "linkedin",
+      "source_job_id": "4408524467",
+      "source_url": "https://www.linkedin.com/jobs/view/4408524467",
+      "company": "D. E. Shaw India Private Limited",
+      "role": "Principal, Tech (Middleware)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
+      "approved_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-04T06:46:59Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent principal distributed-systems fit: core real-time messaging middleware, low-latency data streaming, shared platform/framework ownership, scalability, observability, developer ergonomics, cross-team technical leadership, and production troubleshooting map directly to platform/observability/distributed-systems resume evidence.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "D. E. Shaw India",
+          "profile_url": "",
+          "notes": "LinkedIn showed school alumni for the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn showed IIT Kharagpur alumni signal for the role.",
+      "resume_theme": {
+        "name": "Principal real-time platform and middleware",
+        "positioning": "Principal distributed-systems architect for real-time data streaming, observability, developer ergonomics, and resilient shared platforms.",
+        "key_pointers": [
+          "Lead with Hyperforce alerting, Visualizer, anomaly detection, and proactive diagnostics for production observability and root-cause loops.",
+          "Use Internal IDE/Unleash to prove developer-productivity platform leverage and structured delivery workflows.",
+          "Use Brane and Niki/Jupiter platform leadership for scale, architecture review, and mentoring evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-d-e-shaw-india-private-limit-principal-tech-middleware-a24c634d/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-d-e-shaw-india-private-limit-principal-tech-middleware-a24c634d/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-postman-staff-engineer-product-trust-99d9236e",
+      "job_id": "linkedin-4409920609",
+      "dedupe_key": "linkedin:4409920609",
+      "source": "linkedin",
+      "source_job_id": "4409920609",
+      "source_url": "https://www.linkedin.com/jobs/view/4409920609",
+      "company": "Postman",
+      "role": "Staff Engineer, Product Trust",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
+      "approved_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-04T06:46:59Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong Staff security-platform fit: role owns strategy, roadmap, architecture, availability, and platform quality for security/product trust systems, with vault/token scanning/cryptography signals that connect to governance, policy, secure agent systems, and platform reliability evidence.",
+      "people": [
+        {
+          "name": "Varun and network",
+          "relationship": "network signal",
+          "role": "Postman",
+          "profile_url": "",
+          "notes": "LinkedIn displayed people reachable in network for this posting."
+        }
+      ],
+      "connections_summary": "LinkedIn showed reachable network signal for the Product Trust posting.",
+      "resume_theme": {
+        "name": "Product trust and secure platform architecture",
+        "positioning": "Staff security-platform architect for governance, policy, identity/trust, reliability, and secure developer/API platforms.",
+        "key_pointers": [
+          "Use governed multi-agent systems and AM agent federation to show policy, trust, and accountable agentic actions.",
+          "Use anomaly detection alerts and proactive diagnostics to prove reliability and operational trust.",
+          "Use Brane security/compliance readiness and platform stack ownership for broader trust-platform evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-postman-staff-engineer-product-trust-99d9236e/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-postman-staff-engineer-product-trust-99d9236e/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-teradata-staff-architect-ai-platform-6e2d5446",
+      "job_id": "linkedin-4410453411",
+      "dedupe_key": "linkedin:4410453411",
+      "source": "linkedin",
+      "source_job_id": "4410453411",
+      "source_url": "https://www.linkedin.com/jobs/view/4410453411",
+      "company": "Teradata",
+      "role": "Staff Architect - AI Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
+      "approved_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-04T06:46:59Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong agentic AI platform architecture fit: role builds production-grade agent frameworks, LLM pipelines, observability/evaluation layers, governance, identity/policy enforcement, multi-agent coordination, and enterprise deployment foundations, closely matching recent governed AI platform and agent federation work.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Teradata",
+          "profile_url": "",
+          "notes": "LinkedIn showed 10 school alumni for related Teradata AI Platform results."
+        }
+      ],
+      "connections_summary": "LinkedIn showed IIT Kharagpur alumni signal for Teradata AI Platform postings.",
+      "resume_theme": {
+        "name": "Agentic AI platform architecture",
+        "positioning": "Staff AI platform architect for governed agents, LLM pipelines, observability, evaluation, identity/policy enforcement, and enterprise-safe deployment.",
+        "key_pointers": [
+          "Lead with governed multi-agent systems, AM agent federation, and Internal IDE as agentic platform proof.",
+          "Use proactive diagnostics and anomaly detection alerts for observability/evaluation/reliability framing.",
+          "Use Brane platform/security and Salesforce platform ownership for enterprise governance and scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-teradata-staff-architect-ai-platform-6e2d5446/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-teradata-staff-architect-ai-platform-6e2d5446/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8",
+      "job_id": "linkedin-4432381944",
+      "dedupe_key": "linkedin:4432381944",
+      "source": "linkedin",
+      "source_job_id": "4432381944",
+      "source_url": "https://www.linkedin.com/jobs/view/4432381944",
+      "company": "Databricks",
+      "role": "Staff Data and AI Engineer, Finance",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
+      "approved_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-04T06:46:59Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 89,
+      "fit_reason": "Good Staff data/AI platform fit: technical authority over complex pipelines, AI use cases, internal finance applications, governance, CI/CD, SOX-compatible change management, and stakeholder-facing platform delivery. Domain is finance-heavy, so rank below core infrastructure roles.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn showed company alumni signal on Databricks India results."
+        }
+      ],
+      "connections_summary": "LinkedIn showed Databricks alumni/network signal in related search results.",
+      "resume_theme": {
+        "name": "Staff internal data and AI platform",
+        "positioning": "Staff platform engineer for internal AI/data systems, governed data products, automation, anomaly detection, and stakeholder-facing applications.",
+        "key_pointers": [
+          "Use Internal IDE/Unleash and governed AI platform work to show internal application/platform ownership.",
+          "Use anomaly detection alerts and proactive diagnostics to connect to finance forecasting/anomaly use cases.",
+          "Use Salesforce operational/customer signal integration to show business-facing AI/data products."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/ADRs/",
+          "work/RFCs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-postman-staff-engineer-observability-platfor-f23037c3",
+      "job_id": "linkedin-4432528544",
+      "dedupe_key": "linkedin:4432528544",
+      "source": "linkedin",
+      "source_job_id": "4432528544",
+      "source_url": "https://www.linkedin.com/jobs/view/4432528544",
+      "company": "Postman",
+      "role": "Staff Engineer - Observability Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
+      "approved_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-04T06:46:59Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Excellent observability/platform fit: role owns metrics, logging, tracing, alerting, operational analytics, incident diagnosis, AIOps/anomaly detection, and company-wide instrumentation standards, matching the candidate's alerts, proactive diagnostics, anomaly detection, and platform reliability work.",
+      "people": [
+        {
+          "name": "Company network",
+          "relationship": "connection signal",
+          "role": "Postman",
+          "profile_url": "",
+          "notes": "LinkedIn showed one connection or alumni signal on related Postman results."
+        }
+      ],
+      "connections_summary": "LinkedIn showed Postman network/alumni signals in related results.",
+      "resume_theme": {
+        "name": "Observability and operational intelligence platform",
+        "positioning": "Staff/principal observability architect for telemetry, alerting, anomaly detection, operational analytics, and developer productivity.",
+        "key_pointers": [
+          "Lead with anomaly detection alerts and proactive diagnostics as the closest role-specific proof.",
+          "Use MuleSoft Hyperforce alerts and Visualizer for large-scale observability, telemetry, and operational intelligence.",
+          "Use Internal IDE/Unleash to show developer tooling and productivity systems around diagnostics."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-postman-staff-engineer-observability-platfor-f23037c3/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-postman-staff-engineer-observability-platfor-f23037c3/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-capital-one-distinguished-ai-engineer-2431d08c",
+      "job_id": "linkedin-4436151492",
+      "dedupe_key": "linkedin:4436151492",
+      "source": "linkedin",
+      "source_job_id": "4436151492",
+      "source_url": "https://www.linkedin.com/jobs/view/4436151492",
+      "company": "Capital One",
+      "role": "Distinguished AI Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
+      "approved_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-04T06:46:59Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong up-level AI infrastructure fit: role builds foundation model training, LLM inference, similarity search, guardrails, evaluation, governance, observability, and production AI optimization, matching agentic platform, diagnostics, anomaly detection, and distributed platform evidence.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Capital One",
+          "profile_url": "",
+          "notes": "LinkedIn showed 77 school alumni for the Distinguished AI posting."
+        }
+      ],
+      "connections_summary": "LinkedIn showed school alumni signal for Capital One.",
+      "resume_theme": {
+        "name": "Distinguished AI infrastructure and governance",
+        "positioning": "Distinguished/principal AI platform architect for LLM systems, guardrails, evaluation, governance, observability, and scalable production AI.",
+        "key_pointers": [
+          "Lead with governed multi-agent systems, AM agent federation, and Internal IDE for production AI platform systems.",
+          "Use proactive diagnostics and anomaly detection alerts to emphasize AI observability/evaluation loops.",
+          "Use Salesforce platform leadership and Brane infrastructure/security stack as scale and governance proof."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-capital-one-distinguished-ai-engineer-2431d08c/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-capital-one-distinguished-ai-engineer-2431d08c/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-harness-principal-software-engineer-appsec-f7f04b94",
       "job_id": "linkedin-4352301375",
@@ -4475,11 +4832,11 @@
       "company": "Vonage",
       "role": "Staff Architect (Golang, Distributed, System design)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "ready",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-ic-staff-plus-bigtech",
       "approved_at": "2026-07-03T18:12:02Z",
-      "updated_at": "2026-07-03T18:19:03Z",
+      "updated_at": "2026-07-04T06:46:59Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -4506,11 +4863,15 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Resume PDF prepared and LinkedIn Easy Apply flow opened to contact-info step. Next action would transmit contact/profile data to LinkedIn/Vonage and the final submit requires action-time confirmation, so this is a browser handoff rather than a confirmed submission."
+        "Resume PDF prepared and LinkedIn Easy Apply flow opened to contact-info step. Next action would transmit contact/profile data to LinkedIn/Vonage and the final submit requires action-time confirmation, so this is a browser handoff rather than a confirmed submission.",
+        "LinkedIn Easy Apply opened successfully and reached the resume page, but final submission was not completed.",
+        "Chrome LinkedIn Easy Apply file upload was rejected before the tailored PDF could be attached; avoid submitting with unmapped older LinkedIn resumes. Use applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/submitted-resume.pdf manually."
       ],
-      "status_reason": "Resume PDF prepared and LinkedIn Easy Apply flow opened to contact-info step. Next action would transmit contact/profile data to LinkedIn/Vonage and the final submit requires action-time confirmation, so this is a browser handoff rather than a confirmed submission.",
-      "last_status_update_id": "status-20260703-vonage-ready-browser-handoff",
-      "manual_action_required": false
+      "status_reason": "LinkedIn Easy Apply opened successfully and reached the resume page, but final submission was not completed.",
+      "last_status_update_id": "status-20260704-vonage-easy-apply-upload-blocked",
+      "manual_action_required": true,
+      "manual_action_reason": "Chrome LinkedIn Easy Apply file upload was rejected before the tailored PDF could be attached; avoid submitting with unmapped older LinkedIn resumes. Use applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/submitted-resume.pdf manually.",
+      "manual_action_at": "2026-07-04T06:46:59Z"
     },
     {
       "application_id": "app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6",
