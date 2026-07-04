@@ -1,9 +1,77 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T19:23:40Z",
+  "updated_at": "2026-07-04T20:29:03Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-microsoft-ai-senior-principal-architect-ads-trust-789c0e94",
+      "job_id": "linkedin-4430705336",
+      "dedupe_key": "linkedin:4430705336",
+      "source": "linkedin",
+      "source_job_id": "4430705336",
+      "source_url": "https://www.linkedin.com/jobs/view/4430705336",
+      "company": "Microsoft AI",
+      "role": "Senior Principal Architect - Ads Trust & Safety AI Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-2026-ic-microsoft-ai-trust",
+      "approved_at": "2026-07-04T20:29:03Z",
+      "updated_at": "2026-07-04T20:29:03Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 99,
+      "fit_reason": "Exceptional Staff+/Principal Architect fit: agentic investigation workflows, LLM-powered reasoning, RAG and evidence generation, model orchestration, risk/fraud/security decisioning, human-in-the-loop review, auditability, governance, operational safety, platform strategy, and reusable abstractions across multiple engineering/science teams.",
+      "people": [
+        {
+          "name": "Rohan Sharma",
+          "relationship": "2nd degree connection",
+          "role": "Principal PM, Microsoft AI, AI Platform Strategy, Trust & Monetization",
+          "profile_url": "https://www.linkedin.com/in/rohansharma15/",
+          "notes": "Relevant Microsoft AI platform/trust contact from company people search."
+        },
+        {
+          "name": "Shashank Gupta",
+          "relationship": "2nd degree connection",
+          "role": "Senior Applied Scientist at Microsoft AI, RL and Ranking",
+          "profile_url": "https://www.linkedin.com/in/shashank-gupta-7038a223/",
+          "notes": "Relevant AI science contact from Microsoft AI people search."
+        },
+        {
+          "name": "Anand Ravi",
+          "relationship": "2nd degree connection",
+          "role": "Principal Product Manager, GenAI and ML-powered products at scale",
+          "profile_url": "https://www.linkedin.com/in/anandkumarravi/",
+          "notes": "Relevant GenAI/ML platform contact from Microsoft AI people search."
+        }
+      ],
+      "connections_summary": "Microsoft AI people search surfaced 2nd-degree AI platform/trust, applied science, and GenAI platform contacts; posting itself showed 19 company alumni work there.",
+      "resume_theme": {
+        "name": "Senior Principal governed agentic trust platform architect",
+        "positioning": "Lead with governed enterprise agent systems and operational signal intelligence: AM agent federation, MCP/A2A, proactive diagnostics, anomaly detection alerts, source-grounded evidence, human-in-loop controls, auditability, and production safety.",
+        "key_pointers": [
+          "Map AM agent federation and MCP/A2A RFCs directly to agentic workflow orchestration, tool use, governance, and reusable platform abstractions.",
+          "Use proactive diagnostics and anomaly detection alerts as evidence for risk scoring, signal quality, investigation workflows, and operational decisioning systems.",
+          "Emphasize auditability, provenance, confidence, fallback behavior, observability, rollout safety, and human override; this is the strongest overlap with Microsoft Trust & Safety AI Platform.",
+          "Frame Internal IDE and Unlease/Superset fork as productivity/evidence tooling, not the main story; keep the main narrative high-integrity AI platform architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/mdas-alerts",
+          "/Users/rverma/conductor/repos/unleash"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-microsoft-ai-senior-principal-architect-ads-trust-789c0e94/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-microsoft-ai-senior-principal-architect-ads-trust-789c0e94/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-mastercard-sr-principal-software-engineer-6b81cca6",
       "job_id": "linkedin-4353004447",
