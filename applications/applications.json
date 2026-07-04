@@ -1,9 +1,288 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T05:38:37Z",
+  "updated_at": "2026-07-04T06:10:42Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-harness-principal-software-engineer-appsec-f7f04b94",
+      "job_id": "linkedin-4352301375",
+      "dedupe_key": "linkedin:4352301375",
+      "source": "linkedin",
+      "source_job_id": "4352301375",
+      "source_url": "https://www.linkedin.com/jobs/view/4352301375",
+      "company": "Harness",
+      "role": "Principal Software Engineer (Appsec)",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-security-platform-ic-0604",
+      "approved_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-04T06:10:42Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Principal IC fit at AI software delivery platform company: AppSec/security product domain, cross-platform initiatives, technical leadership across geographies, architecture committees, Java/gRPC microservices, Docker, Kubernetes, Kafka, API design, security testing orchestration, governance, and developer-platform leverage.",
+      "people": [
+        {
+          "name": "Bharath Chowdary",
+          "relationship": "LinkedIn network signal",
+          "role": "Harness network contact signal",
+          "profile_url": "",
+          "notes": "LinkedIn detail showed Bharath Chowdary and others in network."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed Bharath Chowdary and others in network; targeted people search did not surface a reliable named recruiter/contact.",
+      "resume_theme": {
+        "name": "Principal AppSec and AI software-delivery platform",
+        "positioning": "Position around secure software delivery, platform governance, developer productivity, AI-assisted engineering workflows, and large-scale Java/Kubernetes platform systems.",
+        "key_pointers": [
+          "Lead with Internal IDE, Unleash, and testing automation for developer-platform leverage.",
+          "Use Salesforce PMTS platform ownership and Hyperforce-scale reliability as architecture depth.",
+          "Use proactive diagnostics and anomaly detection alerts to show post-code operational intelligence.",
+          "Connect Brane/Jupiter/Niki to secure financial/customer-facing system design without overstating AppSec specialization."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-harness-principal-software-engineer-appsec-f7f04b94/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-harness-principal-software-engineer-appsec-f7f04b94/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41",
+      "job_id": "linkedin-4382776237",
+      "dedupe_key": "linkedin:4382776237",
+      "source": "linkedin",
+      "source_job_id": "4382776237",
+      "source_url": "https://www.linkedin.com/jobs/view/4382776237",
+      "company": "Walmart Global Tech India",
+      "role": "Principal, Software Engineer, Information Security",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-security-platform-ic-0604",
+      "approved_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-04T06:10:42Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Strong Principal security-platform fit: architecture and delivery of identity, authentication, authorization, non-human identity, AI identity control plane, continuous authentication, adaptive authorization, policy-as-code, observability, audit, compliance controls, and distributed identity services for agentic AI ecosystems.",
+      "people": [
+        {
+          "name": "Nilabh Sagar",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Principal Software Engineer at Walmart Global Tech India; AI/ML Platforms and Distributed Systems",
+          "profile_url": "https://www.linkedin.com/in/nilabhsagar/",
+          "notes": "LinkedIn people search showed a directly relevant Walmart Principal engineering signal."
+        },
+        {
+          "name": "Aswini Atibudhi",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Distinguished AI Architect at Walmart Global Tech",
+          "profile_url": "https://www.linkedin.com/in/aswiniatibudhi/",
+          "notes": "LinkedIn people search showed Distinguished AI Architect signal."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed Tarun Kumar and others in network; people search found Walmart Principal/Distinguished AI platform contacts.",
+      "resume_theme": {
+        "name": "Principal AI identity and security control-plane architecture",
+        "positioning": "Position around AM agent federation, secure agent identity/control-plane design, enterprise SaaS platform ownership, proactive diagnostics, auditability, and distributed systems reliability.",
+        "key_pointers": [
+          "Lead with PMTS-level platform ownership and AM agent federation as AI control-plane evidence.",
+          "Use proactive diagnostics and anomaly detection alerts to show observability, audit, and runtime-risk thinking.",
+          "Connect Hyperforce/Salesforce systems to secure enterprise SaaS and cross-team governance.",
+          "Use Brane/Jupiter/Niki security/financial-grade systems only where evidence supports the claim."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a",
+      "job_id": "linkedin-4407852861",
+      "dedupe_key": "linkedin:4407852861",
+      "source": "linkedin",
+      "source_job_id": "4407852861",
+      "source_url": "https://www.linkedin.com/jobs/view/4407852861",
+      "company": "Zscaler",
+      "role": "Staff Software Engineer - Java/Agentic AI/Big Data",
+      "location": "Bengaluru East, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-security-platform-ic-0604",
+      "approved_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-04T06:10:42Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent Staff AI/security data-platform fit: ZDX data platform, massive network data streams, anomaly/threat detection, near-real-time analysis, Agentic AI workflows, multi-agent orchestration, observability, real-time agent serving, distributed infrastructure, and cloud-scale AI security.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "company alumni signal",
+          "role": "Zscaler",
+          "profile_url": "",
+          "notes": "LinkedIn job/search showed strong company-alumni signal but no reliable named 1st/2nd-degree recruiter in this pass."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed Zscaler company alumni; targeted people search did not surface a reliable named recruiter/contact.",
+      "resume_theme": {
+        "name": "Staff agentic AI security data platform",
+        "positioning": "Position around anomaly detection alerts, proactive diagnostics, AM agent federation, production AI/data pipelines, observability, and distributed security-platform systems.",
+        "key_pointers": [
+          "Lead with anomaly detection alerts and proactive diagnostics for detection, telemetry, and operational intelligence.",
+          "Use AM agent federation and Internal IDE as evidence of agent workflows and tool orchestration.",
+          "Connect Salesforce platform scale to Zscaler's data/security platform scale.",
+          "Emphasize Java/distributed systems/platform reliability where supported by base resume evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc",
+      "job_id": "linkedin-4417300791",
+      "dedupe_key": "linkedin:4417300791",
+      "source": "linkedin",
+      "source_job_id": "4417300791",
+      "source_url": "https://www.linkedin.com/jobs/view/4417300791",
+      "company": "Zscaler",
+      "role": "Principal DevSecOps Engineer (Design/Architecture)",
+      "location": "Bengaluru East, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-security-platform-ic-0604",
+      "approved_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-04T06:10:42Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong Principal security/platform architecture fit: long-term DevSecOps roadmap, CI/CD security integration, infrastructure-as-code, cloud operations, AI guardrails, Responsible AI, evaluation/monitoring, governance-aware implementation, Kubernetes/Terraform/Ansible, and secure MLOps pipeline adjacency.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "company alumni signal",
+          "role": "Zscaler",
+          "profile_url": "",
+          "notes": "LinkedIn job/search showed company-alumni signal but no reliable named 1st/2nd-degree recruiter in this pass."
+        }
+      ],
+      "connections_summary": "LinkedIn search showed Zscaler company alumni; no reliable named recruiter/contact captured.",
+      "resume_theme": {
+        "name": "Principal DevSecOps, AI guardrails, and cloud security architecture",
+        "positioning": "Position around DevSecOps architecture, secure delivery automation, AI governance/guardrails, platform reliability, and enterprise operational controls.",
+        "key_pointers": [
+          "Use Salesforce PMTS and testing automation to show secure delivery and platform governance.",
+          "Use proactive diagnostics and anomaly detection alerts for evaluation/monitoring and operational controls.",
+          "Mention AM agent federation only as AI guardrail/control-plane evidence, not as a generic AI buzzword.",
+          "Emphasize cross-team architecture and reliability over hands-off process leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-oracle-principal-software-engineer-62bba00e",
+      "job_id": "linkedin-4434946769",
+      "dedupe_key": "linkedin:4434946769",
+      "source": "linkedin",
+      "source_job_id": "4434946769",
+      "source_url": "https://www.linkedin.com/jobs/view/4434946769",
+      "company": "Oracle",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-security-platform-ic-0604",
+      "approved_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-04T06:10:42Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Principal OCI infrastructure fit: network automation, distributed fleet management, global-region deployment tooling, secure OCI networking infrastructure, monitoring, alarms, telemetry, runbooks, incident response, and RCA ownership.",
+      "people": [
+        {
+          "name": "Vinay Hegde",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Principal Member of Technical Staff at OCI - Oracle",
+          "profile_url": "https://www.linkedin.com/in/vinay-hegde/",
+          "notes": "LinkedIn people search showed OCI PMTS signal and mutual connections."
+        },
+        {
+          "name": "Arindam Mallik",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Principal Member of Technical Staff at Oracle India; OCI GenAI and distributed systems",
+          "profile_url": "https://www.linkedin.com/in/arindam-mallik/",
+          "notes": "LinkedIn people search showed Oracle India PMTS signal."
+        }
+      ],
+      "connections_summary": "LinkedIn people search found Oracle/OCI Principal engineering contacts; no recruiter or outreach action was taken.",
+      "resume_theme": {
+        "name": "Principal OCI network automation and operational excellence",
+        "positioning": "Position around distributed systems, cloud control-plane automation, fleet observability, multi-region rollout, diagnostics, incident response, and service reliability.",
+        "key_pointers": [
+          "Lead with Hyperforce-scale platform and PMTS ownership at Salesforce.",
+          "Use proactive diagnostics, anomaly detection alerts, and testing automation as monitoring/telemetry/runbook-adjacent evidence.",
+          "Frame multi-region rollout work as relevant to global OCI deployment and fleet automation.",
+          "Keep AI platform work as a differentiator, not the main fit story."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-oracle-principal-software-engineer-62bba00e/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-oracle-principal-software-engineer-62bba00e/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-abnormal-ai-staff-software-engineer-mpp-growth-fc37d8ce",
       "job_id": "linkedin-4381540155",

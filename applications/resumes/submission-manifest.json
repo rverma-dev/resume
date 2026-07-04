@@ -990,6 +990,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-harness-principal-software-engineer-appsec-f7f04b94",
+    "company": "Harness",
+    "role": "Principal Software Engineer (Appsec)",
+    "source_url": "https://www.linkedin.com/jobs/view/4352301375",
+    "submitted_resume_md": "applications/resumes/app-20260704-harness-principal-software-engineer-appsec-f7f04b94/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-harness-principal-software-engineer-appsec-f7f04b94/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-linkedin-sr-staff-software-engineer-f1e870f2",
     "company": "LinkedIn",
     "role": "Sr. Staff Software Engineer",
@@ -1026,6 +1035,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-oracle-principal-software-engineer-62bba00e",
+    "company": "Oracle",
+    "role": "Principal Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4434946769",
+    "submitted_resume_md": "applications/resumes/app-20260704-oracle-principal-software-engineer-62bba00e/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-oracle-principal-software-engineer-62bba00e/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-prime-video-amazon-mgm-studi-principal-software-engineer-prime-vi-44f40484",
     "company": "Prime Video & Amazon MGM Studios",
     "role": "Principal Software Engineer, Prime Video Commerce Tech",
@@ -1041,6 +1059,33 @@
     "source_url": "https://www.linkedin.com/jobs/view/4426808289",
     "submitted_resume_md": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41",
+    "company": "Walmart Global Tech India",
+    "role": "Principal, Software Engineer, Information Security",
+    "source_url": "https://www.linkedin.com/jobs/view/4382776237",
+    "submitted_resume_md": "applications/resumes/app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc",
+    "company": "Zscaler",
+    "role": "Principal DevSecOps Engineer (Design/Architecture)",
+    "source_url": "https://www.linkedin.com/jobs/view/4417300791",
+    "submitted_resume_md": "applications/resumes/app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a",
+    "company": "Zscaler",
+    "role": "Staff Software Engineer - Java/Agentic AI/Big Data",
+    "source_url": "https://www.linkedin.com/jobs/view/4407852861",
+    "submitted_resume_md": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/submitted-resume.pdf",
     "pages": 2
   }
 ]
