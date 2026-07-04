@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T09:36:11Z",
+  "updated_at": "2026-07-04T10:09:44Z",
   "active_batch_id": "batch-20260704-0834-ic-staff-plus",
   "last_scheduler_run_at": "2026-07-04T08:48:25Z",
   "batch_size": 10,
@@ -105,7 +105,7 @@
         "Moveworks agentic AI platform role at ServiceNow scale; no salary range visible.",
         "LinkedIn search result showed 1,548 company alumni for the posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-principal-heartbeat-2004",
       "fit_score": 98,
@@ -153,7 +153,7 @@
       "application_id": "app-20260703-servicenow-principal-software-engineer-movework-fc31eead",
       "resume_snapshot_path": "applications/resumes/app-20260703-servicenow-principal-software-engineer-movework-fc31eead/resume.md",
       "discovered_at": "2026-07-03T20:07:52Z",
-      "updated_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-04T10:09:44Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported as top-priority principal agentic AI platform role."
       ]
@@ -5858,7 +5858,7 @@
         "Principal Architect reporting to Global Head of Technology/SVP Engineering.",
         "Reltio is SAP-owned; validate post-acquisition India principal architect compensation."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 97,
@@ -5892,7 +5892,7 @@
       "application_id": "app-20260704-reltio-principal-architect-73ba5d20",
       "resume_snapshot_path": "applications/resumes/app-20260704-reltio-principal-architect-73ba5d20/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T10:09:44Z",
       "notes": []
     },
     {
@@ -5910,7 +5910,7 @@
         "Okta is a high-band identity/security platform company; validate India principal compensation.",
         "12+ years, cross-team ownership, massive-scale identity lifecycle platform modernization."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 97,
@@ -5944,7 +5944,7 @@
       "application_id": "app-20260704-okta-principal-software-engineer-0378711d",
       "resume_snapshot_path": "applications/resumes/app-20260704-okta-principal-software-engineer-0378711d/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T10:09:44Z",
       "notes": []
     },
     {
@@ -6312,6 +6312,58 @@
       "notes": []
     },
     {
+      "job_id": "linkedin-4297754026",
+      "dedupe_key": "linkedin:4297754026",
+      "source": "linkedin",
+      "source_job_id": "4297754026",
+      "source_url": "https://www.linkedin.com/jobs/view/4297754026",
+      "company": "Databricks",
+      "role": "Senior Staff Software Engineer (Backend)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "senior_staff",
+      "compensation_signals": [
+        "Databricks is target-capable in recruiting config priority companies.",
+        "Senior Staff executive IC role with 15+ years requirement and company-wide infrastructure/product direction ownership."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 98,
+      "fit_reason": "Best-in-batch Senior Staff backend/infrastructure role with executive IC language, large-scale distributed systems, exabytes/day platform scale, production reliability, roadmap ownership, and cross-team initiatives.",
+      "fit_signals": [
+        "Full ownership of product or infrastructure direction in a major area.",
+        "Large-scale distributed systems, fleet of millions of VMs, terabytes of logs, exabytes of data per day.",
+        "Lead high-impact company projects, review committees, org-wide initiatives, and mentor senior engineers."
+      ],
+      "risk_flags": [
+        "Application should go through Databricks official careers page per posting note.",
+        "Validate exact India level mapping and total compensation range with recruiter."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Databricks company alumni/school alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Senior Staff distributed systems and AI infrastructure",
+        "positioning": "Use Staff-plus platform narrative: AI infrastructure, distributed systems, reliability, governance, observability, and senior technical decision-making.",
+        "key_pointers": [
+          "Show PMTS-level ownership as executive IC technical direction rather than team-only delivery.",
+          "Feature anomaly detection alerts, proactive diagnostics, AM agent federation, and multi-region platform operations.",
+          "Highlight design docs/RFCs, cross-org influence, and production issue prevention."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2",
+      "resume_snapshot_path": "applications/resumes/app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T10:09:44Z",
+      "notes": []
+    },
+    {
       "job_id": "linkedin-4427048791",
       "dedupe_key": "linkedin:4427048791",
       "source": "linkedin",
@@ -6369,58 +6421,6 @@
       "resume_snapshot_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
       "updated_at": "2026-07-04T07:46:08Z",
-      "notes": []
-    },
-    {
-      "job_id": "linkedin-4297754026",
-      "dedupe_key": "linkedin:4297754026",
-      "source": "linkedin",
-      "source_job_id": "4297754026",
-      "source_url": "https://www.linkedin.com/jobs/view/4297754026",
-      "company": "Databricks",
-      "role": "Senior Staff Software Engineer (Backend)",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "on_site",
-      "experience_level": "senior_staff",
-      "compensation_signals": [
-        "Databricks is target-capable in recruiting config priority companies.",
-        "Senior Staff executive IC role with 15+ years requirement and company-wide infrastructure/product direction ownership."
-      ],
-      "status": "approved",
-      "approval_status": "approved",
-      "batch_id": "batch-20260704-0734-ic-staff-plus",
-      "fit_score": 98,
-      "fit_reason": "Best-in-batch Senior Staff backend/infrastructure role with executive IC language, large-scale distributed systems, exabytes/day platform scale, production reliability, roadmap ownership, and cross-team initiatives.",
-      "fit_signals": [
-        "Full ownership of product or infrastructure direction in a major area.",
-        "Large-scale distributed systems, fleet of millions of VMs, terabytes of logs, exabytes of data per day.",
-        "Lead high-impact company projects, review committees, org-wide initiatives, and mentor senior engineers."
-      ],
-      "risk_flags": [
-        "Application should go through Databricks official careers page per posting note.",
-        "Validate exact India level mapping and total compensation range with recruiter."
-      ],
-      "people": [],
-      "connections_summary": "LinkedIn showed Databricks company alumni/school alumni signals; no direct named connection captured.",
-      "resume_theme": {
-        "name": "Senior Staff distributed systems and AI infrastructure",
-        "positioning": "Use Staff-plus platform narrative: AI infrastructure, distributed systems, reliability, governance, observability, and senior technical decision-making.",
-        "key_pointers": [
-          "Show PMTS-level ownership as executive IC technical direction rather than team-only delivery.",
-          "Feature anomaly detection alerts, proactive diagnostics, AM agent federation, and multi-region platform operations.",
-          "Highlight design docs/RFCs, cross-org influence, and production issue prevention."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/ADRs/",
-          "work/RFCs/",
-          "work/architecture/"
-        ]
-      },
-      "application_id": "app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2",
-      "resume_snapshot_path": "applications/resumes/app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2/resume.md",
-      "discovered_at": "2026-07-04T07:45:15Z",
-      "updated_at": "2026-07-04T07:45:54Z",
       "notes": []
     },
     {

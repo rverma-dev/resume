@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T09:36:11Z",
+  "updated_at": "2026-07-04T10:09:44Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -293,11 +293,11 @@
       "company": "Reltio",
       "role": "Principal Architect",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T10:09:44Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -323,8 +323,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-reltio-principal-architect-73ba5d20/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected LinkedIn offsite route and Reltio Greenhouse form during the 10:04 heartbeat; no application was submitted.",
+        "Reltio Greenhouse requires contact fields, country/phone, location, resume upload, current company, optional LinkedIn/website/self-ID fields, reCAPTCHA field, and final Submit application approval."
+      ],
+      "status_reason": "Inspected LinkedIn offsite route and Reltio Greenhouse form during the 10:04 heartbeat; no application was submitted.",
+      "last_status_update_id": "status-20260704-1004-reltio-principal-architect-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Reltio Greenhouse requires contact fields, country/phone, location, resume upload, current company, optional LinkedIn/website/self-ID fields, reCAPTCHA field, and final Submit application approval.",
+      "manual_action_at": "2026-07-04T10:09:44Z"
     },
     {
       "application_id": "app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c",
@@ -687,11 +694,11 @@
       "company": "Okta",
       "role": "Principal Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-04T10:09:44Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -717,8 +724,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-okta-principal-software-engineer-0378711d/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected LinkedIn Easy Apply route during the 10:04 heartbeat; no application was submitted.",
+        "Okta LinkedIn Easy Apply opens a four-page application and blocks at contact info: required phone country code, mobile phone number, email/profile confirmation, location entry, then Next/review/final Submit application steps."
+      ],
+      "status_reason": "Inspected LinkedIn Easy Apply route during the 10:04 heartbeat; no application was submitted.",
+      "last_status_update_id": "status-20260704-1004-okta-principal-swe-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Okta LinkedIn Easy Apply opens a four-page application and blocks at contact info: required phone country code, mobile phone number, email/profile confirmation, location entry, then Next/review/final Submit application steps.",
+      "manual_action_at": "2026-07-04T10:09:44Z"
     },
     {
       "application_id": "app-20260704-databricks-staff-software-engineer-money-1bb68c5e",
@@ -773,11 +787,11 @@
       "company": "Databricks",
       "role": "Senior Staff Software Engineer (Backend)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0734-ic-staff-plus",
       "approved_at": "2026-07-04T07:45:54Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-04T10:09:44Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -803,8 +817,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected LinkedIn offsite route and Databricks Greenhouse form during the 10:04 heartbeat; no application was submitted.",
+        "Databricks Greenhouse requires personal contact fields, resume upload, LinkedIn profile, current firm, work authorization, visa sponsorship, prior Databricks employment, sanctions/export-control attestations, reCAPTCHA field, and final Submit application approval."
+      ],
+      "status_reason": "Inspected LinkedIn offsite route and Databricks Greenhouse form during the 10:04 heartbeat; no application was submitted.",
+      "last_status_update_id": "status-20260704-1004-databricks-senior-staff-backend-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Databricks Greenhouse requires personal contact fields, resume upload, LinkedIn profile, current firm, work authorization, visa sponsorship, prior Databricks employment, sanctions/export-control attestations, reCAPTCHA field, and final Submit application approval.",
+      "manual_action_at": "2026-07-04T10:09:44Z"
     },
     {
       "application_id": "app-20260704-databricks-staff-software-engineer-backend-20111ff7",
@@ -4921,11 +4942,11 @@
       "company": "ServiceNow",
       "role": "Principal Software Engineer - Moveworks",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-principal-heartbeat-2004",
       "approved_at": "2026-07-03T20:08:06Z",
-      "updated_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-04T10:09:44Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -4961,8 +4982,15 @@
       "resume_theme_path": "applications/resumes/app-20260703-servicenow-principal-software-engineer-movework-fc31eead/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected LinkedIn offsite route, ServiceNow careers page, and SmartRecruiters Easy Apply form during the 10:04 heartbeat; no application was submitted.",
+        "ServiceNow SmartRecruiters requires profile/personal information, experience, education, profile links, resume, optional hiring-team message, multi-step Next flow, privacy notice, and final submission approval."
+      ],
+      "status_reason": "Inspected LinkedIn offsite route, ServiceNow careers page, and SmartRecruiters Easy Apply form during the 10:04 heartbeat; no application was submitted.",
+      "last_status_update_id": "status-20260704-1004-servicenow-moveworks-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "ServiceNow SmartRecruiters requires profile/personal information, experience, education, profile links, resume, optional hiring-team message, multi-step Next flow, privacy notice, and final submission approval.",
+      "manual_action_at": "2026-07-04T10:09:44Z"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-prime-vi-7c35cb95",
