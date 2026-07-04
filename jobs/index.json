@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T21:07:32Z",
-  "active_batch_id": "batch-20260704-panw-ic",
-  "last_scheduler_run_at": "2026-07-04T21:07:22Z",
+  "updated_at": "2026-07-04T21:58:28Z",
+  "active_batch_id": "batch-20260704-singlestore-ic",
+  "last_scheduler_run_at": "2026-07-04T21:58:21Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -1060,6 +1060,90 @@
       "updated_at": "2026-07-04T05:12:25Z",
       "notes": [
         "Official Google Careers posting verified on 2026-07-04; no external submission performed."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "official-singlestore-7867768",
+      "dedupe_key": "url:https://job-boards.greenhouse.io/singlestore/jobs/7867768",
+      "source": "official",
+      "source_job_id": "7867768",
+      "source_url": "https://job-boards.greenhouse.io/singlestore/jobs/7867768",
+      "company": "SingleStore",
+      "role": "Sr./Principal Software Engineer",
+      "location": "India",
+      "work_type": "Remote/India",
+      "experience_level": "Senior/Staff/Principal IC",
+      "compensation_signals": [
+        "SingleStore is a venture-backed cloud-native database company; India pay range is not disclosed in the posting.",
+        "Title includes Principal and scope includes release-defining cloud platform and database infrastructure projects."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-singlestore-ic",
+      "fit_score": 91,
+      "fit_reason": "Strong IC platform fit with some leveling uncertainty: official SingleStore India posting spans Senior/Staff/Principal, owns release-defining work across distributed systems, cloud infrastructure, database technology, networking, control plane, managed service infrastructure, billing systems, reliability, production debugging, and engineer mentorship. The database/cloud platform scope maps well to Hyperforce observability, multi-region rollout, anomaly detection, proactive diagnostics, and payments/platform experience.",
+      "fit_signals": [
+        "Official SingleStore Greenhouse job 7867768 for India Sr./Principal Software Engineer.",
+        "Posting describes end-to-end ownership of large release-defining projects at the intersection of distributed systems, cloud infrastructure, and database technology.",
+        "Role includes technical direction, complex system-level problem solving, force-multiplier impact, and mentoring while staying hands-on.",
+        "Responsibilities include cloud platform, networking, control plane, managed service infrastructure, billing systems, data synchronization, and production debugging.",
+        "SingleStore product positioning is cloud-native real-time transactional plus analytical database workloads at scale."
+      ],
+      "risk_flags": [
+        "Level is open across Senior, Staff, and Principal; confirm expected interview level before spending heavy tailoring time.",
+        "Posting asks 6+ years minimum, so final leveling could undercut the target unless recruiter confirms Principal scope.",
+        "India compensation is undisclosed; validate pay band before prioritizing over Amazon/Databricks/Google/NVIDIA tier roles.",
+        "Billing/control-plane focus is adjacent but not identical to database kernel work; tailor around platform ownership and reliability rather than overstating database internals."
+      ],
+      "people": [
+        {
+          "name": "Rrammesh Prusty",
+          "relationship": "2nd degree",
+          "role": "Staff Software Engineer, SingleStore",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as a Staff Engineer connection path."
+        },
+        {
+          "name": "K. K. George",
+          "relationship": "2nd degree",
+          "role": "Senior Director of Engineering",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as an engineering leadership path."
+        },
+        {
+          "name": "Vinay S.",
+          "relationship": "2nd degree",
+          "role": "Database professional / data management products",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as database/product-adjacent path."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed 7 people from the user's company were hired at SingleStore; people search found 2nd-degree Staff Engineer and engineering leadership paths.",
+      "resume_theme": {
+        "name": "Principal cloud database platform systems",
+        "positioning": "Principal platform engineer for SingleStore cloud database infrastructure: distributed systems, control plane, managed services, billing correctness, observability, reliability, multi-region rollout, and production debugging at scale.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS Hyperforce observability migration, anomaly detection alerts, proactive diagnostics, and multi-region rollout work as evidence of cloud platform ownership.",
+          "Use Jupiter/Niki payments and billing-adjacent transaction systems to support the posting's billing/data synchronization and correctness angle.",
+          "Frame Internal IDE/Unleash and AM agent federation as developer/platform velocity systems, not as consumer-product work.",
+          "Emphasize reliability, production debugging, control-plane design, distributed scheduling, and technical mentorship."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/",
+          "work/incident_reviews/"
+        ]
+      },
+      "application_id": "app-20260704-singlestore-sr-principal-software-engineer-884e7fac",
+      "resume_snapshot_path": "applications/resumes/app-20260704-singlestore-sr-principal-software-engineer-884e7fac/resume.md",
+      "discovered_at": "2026-07-04T21:58:21Z",
+      "updated_at": "2026-07-04T21:58:28Z",
+      "notes": [
+        "Verified against official SingleStore Greenhouse listing during the 2026-07-04 21:56 UTC heartbeat.",
+        "Imported as approved-for-tailoring only; no external application was submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },

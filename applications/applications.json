@@ -1,9 +1,77 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T21:07:32Z",
+  "updated_at": "2026-07-04T21:58:28Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-singlestore-sr-principal-software-engineer-884e7fac",
+      "job_id": "official-singlestore-7867768",
+      "dedupe_key": "url:https://job-boards.greenhouse.io/singlestore/jobs/7867768",
+      "source": "official",
+      "source_job_id": "7867768",
+      "source_url": "https://job-boards.greenhouse.io/singlestore/jobs/7867768",
+      "company": "SingleStore",
+      "role": "Sr./Principal Software Engineer",
+      "location": "India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-singlestore-ic",
+      "approved_at": "2026-07-04T21:58:28Z",
+      "updated_at": "2026-07-04T21:58:28Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong IC platform fit with some leveling uncertainty: official SingleStore India posting spans Senior/Staff/Principal, owns release-defining work across distributed systems, cloud infrastructure, database technology, networking, control plane, managed service infrastructure, billing systems, reliability, production debugging, and engineer mentorship. The database/cloud platform scope maps well to Hyperforce observability, multi-region rollout, anomaly detection, proactive diagnostics, and payments/platform experience.",
+      "people": [
+        {
+          "name": "Rrammesh Prusty",
+          "relationship": "2nd degree",
+          "role": "Staff Software Engineer, SingleStore",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as a Staff Engineer connection path."
+        },
+        {
+          "name": "K. K. George",
+          "relationship": "2nd degree",
+          "role": "Senior Director of Engineering",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as an engineering leadership path."
+        },
+        {
+          "name": "Vinay S.",
+          "relationship": "2nd degree",
+          "role": "Database professional / data management products",
+          "profile_url": "",
+          "notes": "LinkedIn people search surfaced as database/product-adjacent path."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed 7 people from the user's company were hired at SingleStore; people search found 2nd-degree Staff Engineer and engineering leadership paths.",
+      "resume_theme": {
+        "name": "Principal cloud database platform systems",
+        "positioning": "Principal platform engineer for SingleStore cloud database infrastructure: distributed systems, control plane, managed services, billing correctness, observability, reliability, multi-region rollout, and production debugging at scale.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS Hyperforce observability migration, anomaly detection alerts, proactive diagnostics, and multi-region rollout work as evidence of cloud platform ownership.",
+          "Use Jupiter/Niki payments and billing-adjacent transaction systems to support the posting's billing/data synchronization and correctness angle.",
+          "Frame Internal IDE/Unleash and AM agent federation as developer/platform velocity systems, not as consumer-product work.",
+          "Emphasize reliability, production debugging, control-plane design, distributed scheduling, and technical mentorship."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/",
+          "work/incident_reviews/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-singlestore-sr-principal-software-engineer-884e7fac/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-singlestore-sr-principal-software-engineer-884e7fac/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-palo-alto-networks-senior-staff-software-engineer-80487e4f",
       "job_id": "official-panw-96647884400",
