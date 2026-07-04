@@ -792,6 +792,24 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1",
+    "company": "Amazon",
+    "role": "Principal Software Engineer, Alexa International",
+    "source_url": "https://www.linkedin.com/jobs/view/4423542178",
+    "submitted_resume_md": "applications/resumes/app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-amazon-principal-software-engineer-delivery-ac28c835",
+    "company": "Amazon",
+    "role": "Principal Software Engineer, Delivery Experience (DEX)",
+    "source_url": "https://www.linkedin.com/jobs/view/4406871773",
+    "submitted_resume_md": "applications/resumes/app-20260704-amazon-principal-software-engineer-delivery-ac28c835/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-amazon-principal-software-engineer-delivery-ac28c835/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-broadcom-staff-software-engineer-5c7e6b85",
     "company": "Broadcom",
     "role": "Staff Software Engineer",
@@ -816,6 +834,24 @@
     "source_url": "https://www.linkedin.com/jobs/view/4436151492",
     "submitted_resume_md": "applications/resumes/app-20260704-capital-one-distinguished-ai-engineer-2431d08c/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-capital-one-distinguished-ai-engineer-2431d08c/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-confluent-staff-security-engineer-ii-b779f524",
+    "company": "Confluent",
+    "role": "Staff Security Engineer II",
+    "source_url": "https://www.linkedin.com/jobs/view/4374741178",
+    "submitted_resume_md": "applications/resumes/app-20260704-confluent-staff-security-engineer-ii-b779f524/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-confluent-staff-security-engineer-ii-b779f524/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-confluent-staff-software-engineer-i-sre-6a28446b",
+    "company": "Confluent",
+    "role": "Staff Software Engineer I - SRE",
+    "source_url": "https://www.linkedin.com/jobs/view/4383711798",
+    "submitted_resume_md": "applications/resumes/app-20260704-confluent-staff-software-engineer-i-sre-6a28446b/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-confluent-staff-software-engineer-i-sre-6a28446b/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -846,12 +882,39 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2",
+    "company": "Databricks",
+    "role": "Senior Staff Software Engineer (Backend)",
+    "source_url": "https://www.linkedin.com/jobs/view/4297754026",
+    "submitted_resume_md": "applications/resumes/app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8",
     "company": "Databricks",
     "role": "Staff Data and AI Engineer, Finance",
     "source_url": "https://www.linkedin.com/jobs/view/4432381944",
     "submitted_resume_md": "applications/resumes/app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-databricks-staff-software-engineer-backend-20111ff7",
+    "company": "Databricks",
+    "role": "Staff Software Engineer - Backend",
+    "source_url": "https://www.linkedin.com/jobs/view/4348219534",
+    "submitted_resume_md": "applications/resumes/app-20260704-databricks-staff-software-engineer-backend-20111ff7/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-databricks-staff-software-engineer-backend-20111ff7/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-databricks-staff-software-engineer-money-1bb68c5e",
+    "company": "Databricks",
+    "role": "Staff Software Engineer (Money)",
+    "source_url": "https://www.linkedin.com/jobs/view/4297742131",
+    "submitted_resume_md": "applications/resumes/app-20260704-databricks-staff-software-engineer-money-1bb68c5e/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-databricks-staff-software-engineer-money-1bb68c5e/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -1095,6 +1158,15 @@
     "source_url": "https://www.linkedin.com/jobs/view/4408718499",
     "submitted_resume_md": "applications/resumes/app-20260704-natwest-group-principal-engineer-vp-dca6a5a9/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-natwest-group-principal-engineer-vp-dca6a5a9/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2",
+    "company": "Netskope",
+    "role": "Principal Engineer, Platform R&D",
+    "source_url": "https://www.linkedin.com/jobs/view/4370393696",
+    "submitted_resume_md": "applications/resumes/app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2/submitted-resume.pdf",
     "pages": 2
   },
   {

@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T07:12:15Z",
-  "active_batch_id": "batch-20260704-ic-platform-0704",
-  "last_scheduler_run_at": "2026-07-04T07:11:58Z",
+  "updated_at": "2026-07-04T07:46:15Z",
+  "active_batch_id": "batch-20260704-0734-ic-staff-plus",
+  "last_scheduler_run_at": "2026-07-04T07:45:15Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 10,
   "jobs": [
@@ -2980,56 +2980,6 @@
       "notes": []
     },
     {
-      "job_id": "linkedin-4434386476",
-      "dedupe_key": "linkedin:4434386476",
-      "source": "linkedin",
-      "source_job_id": "4434386476",
-      "source_url": "https://www.linkedin.com/jobs/view/4434386476",
-      "company": "Coupang",
-      "role": "Senior Staff Software Engineer - Gateway Services",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "Hybrid",
-      "experience_level": "Senior Staff IC",
-      "compensation_signals": [
-        "User-listed high-comp target company for India.",
-        "Senior Staff/Staff infrastructure platform role with service mesh ownership across Coupang services."
-      ],
-      "status": "approved",
-      "approval_status": "approved",
-      "batch_id": "batch-20260704-ic-heartbeat-2104",
-      "fit_score": 96,
-      "fit_reason": "Excellent next-level IC fit: senior staff/staff platform role owning service mesh, traffic infrastructure, service discovery, load balancing, resiliency, traffic management, failure recovery, observability, and large-scale distributed systems.",
-      "fit_signals": [
-        "Gateway Services team builds Coupang's traffic infrastructure layer using service mesh.",
-        "Requires Istio/Envoy, Kubernetes, ArgoCD, SPIFFE, Go/Rust/C++, and large-scale distributed systems.",
-        "Role explicitly asks for architecture design, operational excellence, technical leadership across platform teams, and critical infrastructure ownership."
-      ],
-      "risk_flags": [
-        "Same target company as existing Coupang entries; keep because this track is distinctly platform/service-mesh infrastructure.",
-        "Hybrid Bengaluru/Hyderabad logistics should be confirmed before final submission."
-      ],
-      "people": [],
-      "connections_summary": "LinkedIn surfaced 2 connections at Coupang in the search result set.",
-      "resume_theme": {
-        "name": "Service mesh and platform infrastructure",
-        "positioning": "Position as a senior principal IC for service reliability, platform architecture, traffic control, observability, and distributed systems at enterprise scale.",
-        "key_pointers": [
-          "Lead with Salesforce platform diagnostics, multi-region rollout, observability, and control-plane style work.",
-          "Emphasize distributed systems, operational excellence, incident reduction, traffic/routing mental models, and hands-on architecture.",
-          "Use internal IDE and AM Agent Federation only where they show platform leverage, not as the center of the service-mesh resume."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work evidence: mdas-alerts, ms-op-alerts, multi-region rollouts, proactive diagnostics ADRs"
-        ]
-      },
-      "application_id": "app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561",
-      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561/resume.md",
-      "discovered_at": "2026-07-03T21:06:12Z",
-      "updated_at": "2026-07-03T21:06:27Z",
-      "notes": []
-    },
-    {
       "job_id": "linkedin-4424358808",
       "dedupe_key": "linkedin:4424358808",
       "source": "linkedin",
@@ -5480,6 +5430,534 @@
       "notes": [
         "LinkedIn details captured 2026-07-04: posted 2 days ago, 18 people clicked apply, responses managed off LinkedIn, Amazon Job ID A10463881."
       ]
+    },
+    {
+      "job_id": "linkedin-4427048791",
+      "dedupe_key": "linkedin:4427048791",
+      "source": "linkedin",
+      "source_job_id": "4427048791",
+      "source_url": "https://www.linkedin.com/jobs/view/4427048791",
+      "company": "GitLab",
+      "role": "Staff Backend Engineer, SSCS: AI Governance",
+      "location": "Greater Delhi Area, India",
+      "work_type": "remote",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Staff remote role at a global DevSecOps/AI agent platform company; validate country hiring and total compensation target with recruiter.",
+        "AI governance and enterprise compliance scope aligns with high-impact platform IC profile."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 98,
+      "fit_reason": "Top-fit Staff backend role at the intersection of AI agents, governance, auditability, compliance, backend architecture, policy controls, and platform integrations.",
+      "fit_signals": [
+        "Define backend architecture for AI governance systems, auditability, policy enforcement, and enterprise reporting.",
+        "Design AI audit event systems, event schemas, pipelines, storage, retention, and export surfaces.",
+        "Govern GitLab Duo agents, tool registry usage, RBAC/ABAC/policy-as-code, GraphQL/REST APIs, Postgres/ClickHouse, and RFC-driven cross-team efforts."
+      ],
+      "risk_flags": [
+        "GitLab remote roles can have country-specific eligibility; confirm India hiring and compensation band.",
+        "Ruby on Rails production SaaS experience is requested; tailor around Java/platform/API governance and Python/AI systems, not Ruby depth."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "GitLab",
+          "profile_url": "",
+          "notes": "2 school alumni work here"
+        }
+      ],
+      "connections_summary": "LinkedIn showed GitLab remote role; no direct named connection captured.",
+      "resume_theme": {
+        "name": "AI agent governance and enterprise platform controls",
+        "positioning": "Make AM agent federation, internal IDE, governed multi-agent systems, auditability, and policy controls the center of the resume variant.",
+        "key_pointers": [
+          "Use AM agent federation and internal AI IDE as direct AI agent platform/governance evidence.",
+          "Highlight auditability, policy enforcement, enterprise reporting, secure agent/tool use, and backend platform architecture.",
+          "Include Slack/testing automations and RFCs as evidence of async, design-led, cross-team execution."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1",
+      "resume_snapshot_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1/resume.md",
+      "discovered_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-04T07:46:08Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4297754026",
+      "dedupe_key": "linkedin:4297754026",
+      "source": "linkedin",
+      "source_job_id": "4297754026",
+      "source_url": "https://www.linkedin.com/jobs/view/4297754026",
+      "company": "Databricks",
+      "role": "Senior Staff Software Engineer (Backend)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "senior_staff",
+      "compensation_signals": [
+        "Databricks is target-capable in recruiting config priority companies.",
+        "Senior Staff executive IC role with 15+ years requirement and company-wide infrastructure/product direction ownership."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 98,
+      "fit_reason": "Best-in-batch Senior Staff backend/infrastructure role with executive IC language, large-scale distributed systems, exabytes/day platform scale, production reliability, roadmap ownership, and cross-team initiatives.",
+      "fit_signals": [
+        "Full ownership of product or infrastructure direction in a major area.",
+        "Large-scale distributed systems, fleet of millions of VMs, terabytes of logs, exabytes of data per day.",
+        "Lead high-impact company projects, review committees, org-wide initiatives, and mentor senior engineers."
+      ],
+      "risk_flags": [
+        "Application should go through Databricks official careers page per posting note.",
+        "Validate exact India level mapping and total compensation range with recruiter."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Databricks company alumni/school alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Senior Staff distributed systems and AI infrastructure",
+        "positioning": "Use Staff-plus platform narrative: AI infrastructure, distributed systems, reliability, governance, observability, and senior technical decision-making.",
+        "key_pointers": [
+          "Show PMTS-level ownership as executive IC technical direction rather than team-only delivery.",
+          "Feature anomaly detection alerts, proactive diagnostics, AM agent federation, and multi-region platform operations.",
+          "Highlight design docs/RFCs, cross-org influence, and production issue prevention."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2",
+      "resume_snapshot_path": "applications/resumes/app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T07:45:54Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4434386476",
+      "dedupe_key": "linkedin:4434386476",
+      "source": "linkedin",
+      "source_job_id": "4434386476",
+      "source_url": "https://www.linkedin.com/jobs/view/4434386476",
+      "company": "Coupang",
+      "role": "Senior Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "senior_staff",
+      "compensation_signals": [
+        "Coupang is target-capable in recruiting config for senior platform/AI roles.",
+        "Senior Staff/Staff Gateway Services role in traffic infrastructure and service mesh."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 97,
+      "fit_reason": "Excellent Senior Staff/Staff infrastructure role owning service mesh, traffic management, workload/service management, cloud-native platform components, and cross-platform technical leadership.",
+      "fit_signals": [
+        "Gateway Services owns traffic infrastructure using Service Mesh: discovery, load balancing, resiliency, traffic management, failure recovery, observability.",
+        "Architect workload and service management infrastructure using Istio/Envoy, Kubernetes, ArgoCD, SPIFFE and Go/Rust/C++.",
+        "Requires Staff/Senior Staff level technical leadership across multiple platform teams."
+      ],
+      "risk_flags": [
+        "Posting brackets Senior Staff/Staff together; validate exact level and compensation band.",
+        "Deep service mesh experience required; tailor around platform architecture, APIs, cloud, and observability."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Coupang school/company alumni and connection signals in search results; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Cloud-native traffic platform and service mesh",
+        "positioning": "Model resume around platform engineering, distributed systems, observability, API management, and cloud-native reliability.",
+        "key_pointers": [
+          "Emphasize platform control planes, API/runtime work, and cross-org technical leadership.",
+          "Tie proactive diagnostics and anomaly detection to observability/failure recovery.",
+          "Show Java/cloud/Kubernetes architecture depth while acknowledging Go/Rust/C++ ramp potential."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/architecture/",
+          "work/incident_reviews/"
+        ]
+      },
+      "application_id": "app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561",
+      "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561/resume.md",
+      "discovered_at": "2026-07-03T21:06:12Z",
+      "updated_at": "2026-07-04T07:46:15Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4297742131",
+      "dedupe_key": "linkedin:4297742131",
+      "source": "linkedin",
+      "source_job_id": "4297742131",
+      "source_url": "https://www.linkedin.com/jobs/view/4297742131",
+      "company": "Databricks",
+      "role": "Staff Software Engineer (Money)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Databricks is target-capable in recruiting config priority companies.",
+        "Staff platform role owns usage governance infrastructure across Databricks products."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 96,
+      "fit_reason": "Strong platform governance role covering usage admission control, product governance infrastructure, anomaly detection, security-sensitive data, cloud/Kubernetes, and cross-functional leadership.",
+      "fit_signals": [
+        "Own critical components for resource admission control and usage governance infrastructure.",
+        "Enhance reliability, accuracy, CI/CD, test frameworks, data quality, end-to-end reconciliation, and anomaly detection.",
+        "Requires 12+ years, large-scale distributed systems, software security, cloud/Kubernetes, and cross-boundary leadership."
+      ],
+      "risk_flags": [
+        "Application should go through Databricks official careers page per posting note.",
+        "Domain is commercial/usage governance; tailor toward platform governance rather than finance-only framing."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Databricks company alumni/school alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Usage governance, anomaly detection, and platform reliability",
+        "positioning": "Tie Salesforce anomaly detection alerts and governed agent/platform work to Databricks usage governance and secure platform control planes.",
+        "key_pointers": [
+          "Put anomaly detection alerts, proactive diagnostics, and platform governance high in the summary.",
+          "Use AM agent federation and internal AI IDE as examples of governed developer/platform systems.",
+          "Highlight cloud/Kubernetes, secure data handling, reliability, and cross-team requirements ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-databricks-staff-software-engineer-money-1bb68c5e",
+      "resume_snapshot_path": "applications/resumes/app-20260704-databricks-staff-software-engineer-money-1bb68c5e/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T07:45:54Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4370393696",
+      "dedupe_key": "linkedin:4370393696",
+      "source": "linkedin",
+      "source_job_id": "4370393696",
+      "source_url": "https://www.linkedin.com/jobs/view/4370393696",
+      "company": "Netskope",
+      "role": "Principal Engineer, Platform R&D",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "remote",
+      "experience_level": "principal",
+      "compensation_signals": [
+        "Principal role at a cloud security platform company; validate recruiter-disclosed total compensation.",
+        "Requires 12+ years plus 1-2 years as Sr Staff Software Engineer or Lead Engineer."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 96,
+      "fit_reason": "Excellent principal platform/security role designing and scaling production services, complex computing systems, cloud security platform infrastructure, distributed services, automation, and technical mentorship.",
+      "fit_signals": [
+        "Lead tactical and strategic infrastructure and product initiatives for production services.",
+        "Architect, design, build, and manage complex computing systems for scale, reliability, security, and maintainability.",
+        "Requires distributed/scalable services, cloud/virtualization, Kubernetes, AWS/GCP, Rust/Go/C/C++/Python."
+      ],
+      "risk_flags": [
+        "Compensation target not prevalidated for Netskope India; research recruiter range.",
+        "Role has lower-level wording in education section; rely on Principal/Sr Staff requirement as level signal."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Netskope company alumni signal; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Principal cloud security platform infrastructure",
+        "positioning": "Frame Salesforce work as cloud security/platform governance, scalable services, automation, and technical leadership.",
+        "key_pointers": [
+          "Emphasize platform R&D, production services, cloud/Kubernetes, security, observability, and automation.",
+          "Use anomaly detection/proactive diagnostics as operational reliability and security signal.",
+          "Highlight RFC/ADR culture, architecture mentoring, and cross-team design influence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2",
+      "resume_snapshot_path": "applications/resumes/app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T07:45:54Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4406871773",
+      "dedupe_key": "linkedin:4406871773",
+      "source": "linkedin",
+      "source_job_id": "4406871773",
+      "source_url": "https://www.linkedin.com/jobs/view/4406871773",
+      "company": "Amazon",
+      "role": "Principal Software Engineer, Delivery Experience (DEX)",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "on_site",
+      "experience_level": "principal",
+      "compensation_signals": [
+        "Amazon is target-capable in recruiting config for 2.5cr+ total compensation at Principal/Director-equivalent bands.",
+        "Principal role claims billions of incremental OPS impact, 200M+ Prime member product surface, and 30+ partner org influence."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 95,
+      "fit_reason": "Principal architecture role spanning delivery systems, international expansion, Tier-1 services, cross-org influence, latency/scalability, and high-business-impact platform decisions.",
+      "fit_signals": [
+        "Own technical foundation and architecture coherence across 30+ partner organizations.",
+        "Drive real-time architectural decisions for customer experience, fulfillment, search, shipping, and checkout surfaces.",
+        "12+ years professional software development and system architecture requirement aligns with current senior IC trajectory."
+      ],
+      "risk_flags": [
+        "Delivery-domain specificity may require fast ramp on Amazon promise/fulfillment systems.",
+        "Validate compensation band and exact Amazon level with recruiter."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Amazon connection/alumni signal in search results; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Large-scale platform architecture and cross-org influence",
+        "positioning": "Model resume around platform architecture, operational reliability, multi-region rollouts, and cross-team decision velocity.",
+        "key_pointers": [
+          "Lead with PMTS platform scope, multi-region rollouts, proactive diagnostics, and reliability/observability ownership.",
+          "Translate Salesforce platform governance and architecture decisions into Amazon-style mechanisms and written artifacts.",
+          "Emphasize performance, scale, operational excellence, and cross-functional influence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/incident_reviews/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-amazon-principal-software-engineer-delivery-ac28c835",
+      "resume_snapshot_path": "applications/resumes/app-20260704-amazon-principal-software-engineer-delivery-ac28c835/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T07:45:54Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4348219534",
+      "dedupe_key": "linkedin:4348219534",
+      "source": "linkedin",
+      "source_job_id": "4348219534",
+      "source_url": "https://www.linkedin.com/jobs/view/4348219534",
+      "company": "Databricks",
+      "role": "Staff Software Engineer - Backend",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Databricks is target-capable in recruiting config priority companies.",
+        "Staff role in Data and AI infrastructure platform with 12+ years requirement."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 95,
+      "fit_reason": "Strong Staff backend role across Databricks data and AI infrastructure platform, distributed systems, cloud storage backends, service architecture, monitoring, and developer experience.",
+      "fit_signals": [
+        "12+ years production experience and large-scale distributed systems from scratch.",
+        "Problems span product to infrastructure: distributed systems, service architecture, monitoring, workflow orchestration, developer experience.",
+        "Data and AI infrastructure platform, Mosaic AI, SaaS/service-oriented architecture."
+      ],
+      "risk_flags": [
+        "Application should go through Databricks official careers page per posting note.",
+        "Staff is target-current/stretched less than Senior Staff; keep compensation validation explicit."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Databricks company alumni/school alumni signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Backend platform and developer experience",
+        "positioning": "Position around backend platform architecture, developer productivity, workflow orchestration, observability, and AI infrastructure.",
+        "key_pointers": [
+          "Emphasize internal IDE, developer platform, agentic tooling, and diagnostics work.",
+          "Show evidence of large-scale service architecture, Java/cloud/Kubernetes, and operational excellence.",
+          "Connect anomaly detection and proactive diagnostics to monitoring and workflow orchestration."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-databricks-staff-software-engineer-backend-20111ff7",
+      "resume_snapshot_path": "applications/resumes/app-20260704-databricks-staff-software-engineer-backend-20111ff7/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T07:45:54Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4423542178",
+      "dedupe_key": "linkedin:4423542178",
+      "source": "linkedin",
+      "source_job_id": "4423542178",
+      "source_url": "https://www.linkedin.com/jobs/view/4423542178",
+      "company": "Amazon",
+      "role": "Principal Software Engineer, Alexa International",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "on_site",
+      "experience_level": "principal",
+      "compensation_signals": [
+        "Amazon is target-capable in recruiting config for 2.5cr+ total compensation at Principal/Director-equivalent bands.",
+        "Principal Software Engineer title with GenAI Alexa+ architecture scope."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 94,
+      "fit_reason": "Principal GenAI/distributed-systems technical leadership role for Alexa+ international architecture, runtime/offline systems, scalability, extensibility, and cross-org influence.",
+      "fit_signals": [
+        "Lead technical direction for Alexa International and GenAI-based Alexa+ architectures.",
+        "Architect large-scale distributed systems integrating complex datasets and access patterns.",
+        "Mentor engineers/scientists and influence senior-level decisions across Alexa/Amazon."
+      ],
+      "risk_flags": [
+        "Description asks for 5+ years engineering team management experience; treat as IC technical-leadership with management-adjacent expectations.",
+        "Validate compensation band and exact Amazon level with recruiter."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Amazon company/school alumni signal in search results; no direct named connection captured.",
+      "resume_theme": {
+        "name": "GenAI distributed systems technical leadership",
+        "positioning": "Position around AM agent federation, internal AI IDE, multi-agent governance, large-scale platform architecture, and cross-org technical strategy.",
+        "key_pointers": [
+          "Emphasize Salesforce PMTS-level platform ownership without MuleSoft in the role header.",
+          "Highlight AM agent federation, internal IDE, proactive diagnostics, anomaly detection alerts, and enterprise AI governance.",
+          "Use evidence for distributed system design, agent runtime/orchestration, observability, and executive-facing technical docs."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1",
+      "resume_snapshot_path": "applications/resumes/app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T07:45:54Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4383711798",
+      "dedupe_key": "linkedin:4383711798",
+      "source": "linkedin",
+      "source_job_id": "4383711798",
+      "source_url": "https://www.linkedin.com/jobs/view/4383711798",
+      "company": "Confluent",
+      "role": "Staff Software Engineer I - SRE",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Staff role at a major data streaming/cloud infrastructure company; validate total compensation target with recruiter.",
+        "Horizontal reliability standards/tooling role across a 800-1000 engineer autonomous organization."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 94,
+      "fit_reason": "Strong Staff SRE/platform reliability role for multi-cloud event streaming, proactive reliability engineering, incident tooling automation, SLOs, observability, and cross-team reliability standards.",
+      "fit_signals": [
+        "Confluent Cloud processes millions of events per second across AWS, GCP, and Azure.",
+        "75% engineering work building automation/tooling, analyzing systemic failure patterns, and designing reliability improvements.",
+        "SLO/SLA frameworks, error budgets, observability, Kubernetes, incident response standards, and AI-assisted documentation/incident analysis."
+      ],
+      "risk_flags": [
+        "Compensation target not prevalidated for Confluent India; research recruiter range.",
+        "Role includes incident commander/on-call responsibilities; ensure appetite for SRE scope."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Confluent alumni/connection signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Proactive reliability engineering and observability",
+        "positioning": "Use proactive diagnostics, anomaly detection alerts, incident automation, and multi-region rollouts as the core story.",
+        "key_pointers": [
+          "Lead with proactive diagnostics and anomaly detection alerts as reliability engineering evidence.",
+          "Highlight observability, incident-review quality, root-cause analysis, and SLO-style thinking.",
+          "Tie Slack/GUS/testing automations to tooling that reduces operational toil."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/incident_reviews/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-confluent-staff-software-engineer-i-sre-6a28446b",
+      "resume_snapshot_path": "applications/resumes/app-20260704-confluent-staff-software-engineer-i-sre-6a28446b/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T07:45:54Z",
+      "notes": []
+    },
+    {
+      "job_id": "linkedin-4374741178",
+      "dedupe_key": "linkedin:4374741178",
+      "source": "linkedin",
+      "source_job_id": "4374741178",
+      "source_url": "https://www.linkedin.com/jobs/view/4374741178",
+      "company": "Confluent",
+      "role": "Staff Security Engineer II",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Staff role at a major data streaming/cloud infrastructure company; validate total compensation target with recruiter.",
+        "Security architecture role across cloud services and on-prem products."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0734-ic-staff-plus",
+      "fit_score": 93,
+      "fit_reason": "Strong Staff application security architecture role spanning product security, distributed systems, cloud-native pipelines, threat modeling, security automation, and AI/LLM security workflow automation.",
+      "fit_signals": [
+        "Define long-term application security posture across cloud services and on-prem products.",
+        "Lead security design reviews for complex distributed systems and standardize threat modeling/security design standards.",
+        "Architect security automation and orchestration integrated into cloud-native deployment pipelines."
+      ],
+      "risk_flags": [
+        "Compensation target not prevalidated for Confluent India; research recruiter range.",
+        "Application security specialization may require tailoring Salesforce security/platform evidence heavily."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed Confluent alumni/connection signals; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Security platform architecture and governance automation",
+        "positioning": "Emphasize DevSecOps, platform governance, secure-by-design architecture, and AI-assisted security automation.",
+        "key_pointers": [
+          "Highlight security platform engineering, governed AI systems, and policy/control-plane work.",
+          "Use AM agent federation and internal IDE governance as evidence for secure product/platform architecture.",
+          "Connect testing automations and RFCs to secure SDLC and design review maturity."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/design_docs/"
+        ]
+      },
+      "application_id": "app-20260704-confluent-staff-security-engineer-ii-b779f524",
+      "resume_snapshot_path": "applications/resumes/app-20260704-confluent-staff-security-engineer-ii-b779f524/resume.md",
+      "discovered_at": "2026-07-04T07:45:15Z",
+      "updated_at": "2026-07-04T07:45:54Z",
+      "notes": []
     },
     {
       "job_id": "linkedin-4380104127",
@@ -9948,68 +10426,6 @@
       },
       "application_id": "app-20260702-databricks-director-of-engineering-d852a8b0",
       "resume_snapshot_path": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/resume.md",
-      "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T15:36:53Z",
-      "notes": []
-    },
-    {
-      "job_id": "linkedin-4427048791",
-      "dedupe_key": "linkedin:4427048791",
-      "source": "linkedin",
-      "source_job_id": "4427048791",
-      "source_url": "https://www.linkedin.com/jobs/view/4427048791",
-      "company": "GitLab",
-      "role": "Staff Backend Engineer, SSCS: AI Governance",
-      "location": "Greater Delhi Area / Remote",
-      "work_type": "remote",
-      "experience_level": "mid_senior",
-      "compensation_signals": [
-        "remote staff role with equity benefits mentioned",
-        "exact compensation not visible"
-      ],
-      "status": "approved",
-      "approval_status": "approved",
-      "batch_id": "batch-20260702-linkedin-001",
-      "fit_score": 90,
-      "fit_reason": "Excellent AI governance and backend architecture match: auditability, policy enforcement, AI agents, enterprise reporting, tool governance, RFC-driven async engineering. Level is Staff IC, not Director/Principal.",
-      "fit_signals": [
-        "AI governance",
-        "agent auditability",
-        "policy enforcement",
-        "backend architecture",
-        "compliance",
-        "RFC-driven engineering"
-      ],
-      "risk_flags": [
-        "Strong Ruby on Rails requirement is not prominent in current resume",
-        "Staff IC may not advance Director trajectory"
-      ],
-      "people": [
-        {
-          "name": "School alumni",
-          "relationship": "alumni signal",
-          "role": "GitLab",
-          "profile_url": "",
-          "notes": "2 school alumni work here"
-        }
-      ],
-      "connections_summary": "2 school alumni work here from LinkedIn search signal.",
-      "resume_theme": {
-        "name": "AI governance backend architect",
-        "positioning": "Make governed multi-agent systems and AM agent federation the lead story, supported by compliance/security experience and backend platform scale.",
-        "key_pointers": [
-          "Lead with four-plane governed multi-agent system, run ledger, path-tiered write authority, and compliance hooks.",
-          "Use AM Agent Federation and proactive diagnostics audit/cost controls to map to AI agent governance.",
-          "Bring Jupiter/Brane compliance experience to cover regulated enterprise adoption."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/ADRs/",
-          "work/RFCs/"
-        ]
-      },
-      "application_id": "app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1",
-      "resume_snapshot_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
       "updated_at": "2026-07-02T15:36:53Z",
       "notes": []
