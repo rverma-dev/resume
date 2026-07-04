@@ -801,12 +801,57 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-google-staff-software-engineer-gcp-csm-3579afd9",
+    "company": "Google",
+    "role": "Staff Software Engineer, GCP CSM",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/110728893362512582-staff-software-engineer-gcp-csm",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-gcp-csm-3579afd9/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-gcp-csm-3579afd9/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-git-developm-49258975",
+    "company": "Google",
+    "role": "Staff Software Engineer, Git Development Suite",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/76513839557812934-staff-software-engineer-git-development-suite",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-git-developm-49258975/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-git-developm-49258975/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-infrastructu-a45b5762",
+    "company": "Google",
+    "role": "Staff Software Engineer, Infrastructure, Google Cloud",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/137005277793657542-staff-software-engineer-infrastructure-google-cloud",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-infrastructu-a45b5762/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-infrastructu-a45b5762/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-google-staff-software-engineer-search-platf-e04279ab",
     "company": "Google",
     "role": "Staff Software Engineer, Search Platforms",
     "source_url": "https://www.linkedin.com/jobs/view/4423975933",
     "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-search-platf-e04279ab/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-search-platf-e04279ab/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-search-servi-e7e344cc",
+    "company": "Google",
+    "role": "Staff Software Engineer, Search Serving Infrastructure",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/126794684436488902-staff-software-engineer-search-serving-infrastructure",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-search-servi-e7e344cc/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-search-servi-e7e344cc/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-server-found-28dc27fa",
+    "company": "Google",
+    "role": "Staff Software Engineer, Server Foundations",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/120997657656074950-staff-software-engineer-server-foundations",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-server-found-28dc27fa/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-server-found-28dc27fa/submitted-resume.pdf",
     "pages": 2
   },
   {
