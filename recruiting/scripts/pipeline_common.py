@@ -15,8 +15,14 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 JOBS_PATH = REPO_ROOT / "jobs" / "index.json"
 APPLICATIONS_PATH = REPO_ROOT / "applications" / "applications.json"
 LEDGER_PATH = REPO_ROOT / "applications" / "applications.jsonl"
-BASE_RESUME_PATH = REPO_ROOT / "resume" / "base_resume.md"
+IC_RESUME_PATH = REPO_ROOT / "resume" / "base_resume.md"
+BASE_RESUME_PATH = IC_RESUME_PATH
+DIRECTOR_PLATFORM_RESUME_PATH = REPO_ROOT / "_includes" / "platform-leadership-resume.md"
 RESUME_SNAPSHOT_ROOT = REPO_ROOT / "applications" / "resumes"
+MANAGEMENT_ROLE_RE = re.compile(
+    r"\b(director|engineering manager|senior manager|sr\.?\s+manager|head of|head,|executive director|vp|vice president)\b",
+    re.IGNORECASE,
+)
 
 TRACKING_PARAMS = {
     "currentJobId",
@@ -47,6 +53,22 @@ def clean_text(value) -> str:
     if value is None:
         return ""
     return re.sub(r"\s+", " ", str(value)).strip()
+
+
+def is_management_role(role: str) -> bool:
+    return bool(MANAGEMENT_ROLE_RE.search(clean_text(role)))
+
+
+def resume_snapshot_name_for_role(role: str) -> str:
+    if is_management_role(role):
+        return "Director Platform Resume"
+    return "IC Resume"
+
+
+def resume_source_path_for_role(role: str) -> Path:
+    if is_management_role(role):
+        return DIRECTOR_PLATFORM_RESUME_PATH
+    return IC_RESUME_PATH
 
 
 def load_json(path: Path, default):

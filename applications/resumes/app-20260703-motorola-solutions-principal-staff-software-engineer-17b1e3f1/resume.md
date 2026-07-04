@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - IC Resume
 permalink: /applications/resumes/app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1/
 ---
 # Rohit Verma

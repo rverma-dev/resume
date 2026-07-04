@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - IC Resume
 permalink: /applications/resumes/app-20260703-recrew-ai-principal-architect-digital-platform-74994e90/
 ---
 # Rohit Verma

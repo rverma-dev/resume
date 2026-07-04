@@ -16,7 +16,15 @@ from reportlab.lib.units import inch
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
 from xml.sax.saxutils import escape
 
-from pipeline_common import APPLICATIONS_PATH, BASE_RESUME_PATH, REPO_ROOT, clean_text, load_applications, repo_relative, save_json
+from pipeline_common import (
+    IC_RESUME_PATH,
+    REPO_ROOT,
+    clean_text,
+    load_applications,
+    repo_relative,
+    resume_source_path_for_role,
+    save_json,
+)
 
 
 MANIFEST_PATH = REPO_ROOT / "applications" / "resumes" / "submission-manifest.json"
@@ -50,8 +58,12 @@ def front_matter(app: dict) -> str:
     )
 
 
-def current_base_with_theme(app: dict) -> str:
-    body = strip_front_matter(BASE_RESUME_PATH.read_text(encoding="utf-8"))
+def current_resume_with_theme(app: dict) -> str:
+    source_path = resume_source_path_for_role(app.get("role"))
+    body = strip_front_matter(source_path.read_text(encoding="utf-8"))
+    if source_path != IC_RESUME_PATH:
+        return body
+
     lines = body.splitlines()
     theme = app.get("resume_theme") or {}
     positioning = clean_text(theme.get("positioning")) or clean_text(app.get("fit_reason"))
@@ -263,8 +275,9 @@ def main() -> int:
         submitted_md = output_dir / "submitted-resume.md"
         submitted_pdf = output_dir / "submitted-resume.pdf"
 
-        markdown = front_matter(app) + current_base_with_theme(app)
-        snapshot_markdown = front_matter({**app, "application_id": app_id}).replace("/submitted/", "/") + current_base_with_theme(app)
+        resume_body = current_resume_with_theme(app)
+        markdown = front_matter(app) + resume_body
+        snapshot_markdown = front_matter({**app, "application_id": app_id}).replace("/submitted/", "/") + resume_body
         snapshot_path.write_text(snapshot_markdown, encoding="utf-8")
         submitted_md.write_text(markdown, encoding="utf-8")
         render_pdf(markdown, submitted_pdf, f"Rohit Verma - {app.get('company')} - {app.get('role')} Resume")

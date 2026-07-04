@@ -23,7 +23,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from pipeline_common import REPO_ROOT, save_json, utc_now
+from pipeline_common import REPO_ROOT, load_applications, load_jobs, save_applications, save_jobs, save_json, utc_now
 
 
 DEFAULT_STATE_PATH = REPO_ROOT / "applications" / "approval_inbox.json"
@@ -150,6 +150,81 @@ def import_payload(payload: dict) -> dict:
         temp_path.unlink(missing_ok=True)
 
 
+def set_value(row: dict, key: str, value) -> bool:
+    if value in (None, "") or row.get(key) == value:
+        return False
+    row[key] = value
+    return True
+
+
+def annotate_issue_metadata(payload: dict, result: dict, issue: dict) -> dict:
+    issue_number = issue.get("number")
+    issue_url = issue.get("html_url") or ""
+    if not issue_number:
+        return {"applications": 0, "jobs": 0}
+
+    data_apps = load_applications()
+    data_jobs = load_jobs()
+    applications = data_apps.get("applications", [])
+    jobs = data_jobs.get("jobs", [])
+    by_app_id = {app.get("application_id"): app for app in applications if app.get("application_id")}
+    by_job_id = {job.get("job_id"): job for job in jobs if job.get("job_id")}
+
+    touched_apps = set()
+    touched_jobs = set()
+
+    def annotate_app(app_id: str, prefix: str) -> None:
+        app = by_app_id.get(app_id)
+        if not app:
+            return
+        changed = False
+        changed |= set_value(app, f"{prefix}_issue_number", issue_number)
+        changed |= set_value(app, f"{prefix}_issue_url", issue_url)
+        changed |= set_value(app, f"{prefix}_issue_label", f"#{issue_number}")
+        if changed:
+            touched_apps.add(app_id)
+        job_id = app.get("job_id")
+        if job_id:
+            annotate_job(job_id, prefix)
+
+    def annotate_job(job_id: str, prefix: str) -> None:
+        job = by_job_id.get(job_id)
+        if not job:
+            return
+        changed = False
+        changed |= set_value(job, f"{prefix}_issue_number", issue_number)
+        changed |= set_value(job, f"{prefix}_issue_url", issue_url)
+        changed |= set_value(job, f"{prefix}_issue_label", f"#{issue_number}")
+        if changed:
+            touched_jobs.add(job_id)
+
+    schema_version = payload.get("schema_version")
+    if schema_version == "approval.batch.v1":
+        app_ids = set(result.get("application_ids") or [])
+        for skipped in result.get("skipped") or []:
+            if isinstance(skipped, dict) and skipped.get("application_id"):
+                app_ids.add(skipped["application_id"])
+        for app_id in app_ids:
+            annotate_app(app_id, "approval")
+        for job_id in payload.get("job_ids") or []:
+            annotate_job(job_id, "approval")
+    elif schema_version == "rejection.batch.v1":
+        for job_id in result.get("job_ids") or []:
+            annotate_job(job_id, "rejection")
+    elif schema_version == "application.status.v1":
+        app_id = result.get("application_id") or payload.get("application_id")
+        if app_id:
+            annotate_app(app_id, "status")
+
+    if touched_apps:
+        data_apps["applications"] = applications
+        save_applications(data_apps)
+    if touched_jobs:
+        data_jobs["jobs"] = jobs
+        save_jobs(data_jobs)
+    return {"applications": len(touched_apps), "jobs": len(touched_jobs)}
+
+
 def issue_labels(issue: dict) -> list[str]:
     labels = []
     for label in issue.get("labels") or []:
@@ -226,6 +301,7 @@ def main() -> int:
                 issue_seen_labels.add(imported_label(payload))
                 continue
             result = import_payload(payload)
+            result["issue_metadata_updates"] = annotate_issue_metadata(payload, result, issue)
             imported.append({"issue_number": issue_number, "payload_id": payload_id, "result": result, "url": issue.get("html_url")})
             issue_imported_payloads.append(payload_id)
             issue_imported_labels.add(imported_label(payload))

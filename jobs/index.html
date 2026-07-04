@@ -670,7 +670,39 @@ layout: null
     }
 
     function resumeSnapshotLabel(row) {
-      return row.resume_snapshot_name || row.resume_name || "Base Resume";
+      return row.resume_snapshot_name || row.resume_name || "IC Resume";
+    }
+
+    function shortBatchId(value) {
+      const raw = text(value);
+      if (!raw) return "";
+      const compact = raw
+        .replace(/^approval-/, "a-")
+        .replace(/^rejection-/, "r-")
+        .replace(/^batch-/, "b-")
+        .replace("-heartbeat", "-hb");
+      return compact.length > 28 ? `${compact.slice(0, 18)}...${compact.slice(-6)}` : compact;
+    }
+
+    function issueNumber(row) {
+      return row.approval_issue_number || row.rejection_issue_number || row.status_issue_number || row.issue_number || "";
+    }
+
+    function issueUrl(row) {
+      return row.approval_issue_url || row.rejection_issue_url || row.status_issue_url || row.issue_url || "";
+    }
+
+    function batchLabel(row) {
+      const number = issueNumber(row);
+      if (number) return `#${number}`;
+      return shortBatchId(row.approval_batch_id || row.rejection_batch_id || row.batch_id);
+    }
+
+    function batchLink(row) {
+      const label = batchLabel(row);
+      if (!label) return "";
+      const url = issueUrl(row);
+      return url && label.startsWith("#") ? `<a href="${safe(url)}">${safe(label)}</a>` : safe(label);
     }
 
     function statusLabel(value) {
@@ -869,6 +901,7 @@ layout: null
           </div>
           <div class="card-meta">
             <span>Approved ${safe(row.approved_at || "")}</span>
+            ${batchLabel(row) ? `<span>Batch ${batchLink(row)}</span>` : ""}
             ${appliedText ? `<span>Applied ${safe(appliedText)}</span>` : ""}
           </div>
           <div class="card-actions">
@@ -955,7 +988,7 @@ layout: null
         { label: "Source", render: (row) => link(row.source_url || row.url) },
         { label: "Status", render: (row) => safe(row.status || "discovered") },
         { label: "Approval", render: (row) => safe(row.approval_status || "unreviewed") },
-        { label: "Batch", render: (row) => safe(row.batch_id) },
+        { label: "Batch", render: batchLink },
         { label: "Updated", render: (row) => safe(row.updated_at || row.discovered_at) }
       ], archive, "No archived jobs.");
 

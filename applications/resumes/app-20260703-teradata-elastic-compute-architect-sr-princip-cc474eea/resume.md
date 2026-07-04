@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - IC Resume
 permalink: /applications/resumes/app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea/
 ---
 # Rohit Verma

@@ -8,8 +8,9 @@ research packages only from evidence stored in this repository.
 
 - Never invent experience, projects, metrics, responsibilities, relationships,
   compensation, visa facts, or technologies.
-- Every generated resume claim must be traceable to `resume/base_resume.md` or
-  evidence under `work/`.
+- Every generated resume claim must be traceable to `resume/base_resume.md`
+  (the IC resume source), `_includes/platform-leadership-resume.md` (the
+  director/platform-leadership source), or evidence under `work/`.
 - Never overwrite `resume/base_resume.md`.
 - Never apply to a role unless external application tooling is configured and
   the run is explicitly authorized for applications.
@@ -46,11 +47,12 @@ research packages only from evidence stored in this repository.
 7. Submit the decision issue. The issue body carries only selected `job_ids`;
    the scheduled recruiting issue workflow resolves full job details from
    `jobs/index.json`, imports unseen approval batches into application records
-   and resume snapshots under `applications/resumes/<application-id>/`, and
-   records rejection batches by marking jobs `approval_status=blocked` and
-   `status=archived`. The workflow records the processed issue number in
-   `applications/approval_inbox.json`, comments, labels the issue
-   `approval-imported` or `rejection-imported`, and closes it.
+   and role-appropriate resume snapshots under
+   `applications/resumes/<application-id>/`, and records rejection batches by
+   marking jobs `approval_status=blocked` and `status=archived`. The workflow
+   records the processed issue number in `applications/approval_inbox.json`,
+   annotates affected records with that GitHub issue number, comments, labels
+   the issue `approval-imported` or `rejection-imported`, and closes it.
 8. Generate company-specific artifacts under `companies/<company-slug>/`.
 9. Generate an ATS-friendly PDF from the company resume.
 10. Apply only when external tooling is available and the run is authorized.
@@ -118,7 +120,8 @@ companies/<company-slug>/
 
 Use these locations for retrieval:
 
-- `resume/base_resume.md`
+- `resume/base_resume.md` (IC resume source)
+- `_includes/platform-leadership-resume.md` (director/platform-leadership source)
 - `work/ADRs/`
 - `work/RFCs/`
 - `work/design_docs/`

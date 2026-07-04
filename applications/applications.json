@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T10:09:44Z",
+  "updated_at": "2026-07-04T10:24:47Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -53,7 +53,8 @@
       "last_status_update_id": "status-20260704-0904-cvent-manual-linkedin-easy-apply",
       "manual_action_required": true,
       "manual_action_reason": "LinkedIn Easy Apply requires phone/profile confirmation, resume upload, radio/required application questions, saving answers/resume to LinkedIn, and final Submit application action. These require user-provided answers and action-time approval before transmission.",
-      "manual_action_at": "2026-07-04T09:07:06Z"
+      "manual_action_at": "2026-07-04T09:07:06Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-netskope-staff-sre-dns-specialist-platform-en-966dc27f",
@@ -97,7 +98,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-intuit-principal-ai-scientist-gtm-tech-b77c782f",
@@ -141,7 +143,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-nice-principal-software-architect-2bd6b161",
@@ -193,7 +196,8 @@
       "last_status_update_id": "status-20260704-0904-nice-manual-greenhouse",
       "manual_action_required": true,
       "manual_action_reason": "Greenhouse form requires sensitive/personal and compensation answers before submission: phone, current employer, current location, current compensation, notice period, expected compensation, total relevant experience in months, relevant skills, and resume upload. Final submission also requires action-time approval.",
-      "manual_action_at": "2026-07-04T09:06:08Z"
+      "manual_action_at": "2026-07-04T09:06:08Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-tmus-global-solutions-principal-engineer-agentic-ai-t500-2-2ff63578",
@@ -237,7 +241,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-outreach-staff-applied-scientist-knowledge-gr-cefae26f",
@@ -281,7 +286,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-reltio-principal-architect-73ba5d20",
@@ -331,7 +337,8 @@
       "last_status_update_id": "status-20260704-1004-reltio-principal-architect-manual",
       "manual_action_required": true,
       "manual_action_reason": "Reltio Greenhouse requires contact fields, country/phone, location, resume upload, current company, optional LinkedIn/website/self-ID fields, reCAPTCHA field, and final Submit application approval.",
-      "manual_action_at": "2026-07-04T10:09:44Z"
+      "manual_action_at": "2026-07-04T10:09:44Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c",
@@ -374,7 +381,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-autodesk-software-architect-b63b9113",
@@ -417,7 +425,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77",
@@ -460,7 +469,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-mongodb-staff-engineer-amp-a6b5e798",
@@ -503,7 +513,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-okta-software-architect-java-backend-ac5eb19a",
@@ -546,7 +557,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da",
@@ -596,7 +608,8 @@
       "last_status_update_id": "status-20260704-0934-gitlab-manual-greenhouse",
       "manual_action_required": true,
       "manual_action_reason": "GitLab Greenhouse requires personal/contact fields, resume upload, employment-agreement or post-employment restriction answer, visa sponsorship answer, current country of residence, optional EEO/self-identification fields, a reCAPTCHA response element, and final Submit application action. These require user-provided legal/work-authorization answers and action-time approval.",
-      "manual_action_at": "2026-07-04T09:36:11Z"
+      "manual_action_at": "2026-07-04T09:36:11Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f",
@@ -639,7 +652,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-toast-principal-software-engineer-c3d5ec01",
@@ -682,7 +696,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-okta-principal-software-engineer-0378711d",
@@ -732,7 +747,8 @@
       "last_status_update_id": "status-20260704-1004-okta-principal-swe-manual",
       "manual_action_required": true,
       "manual_action_reason": "Okta LinkedIn Easy Apply opens a four-page application and blocks at contact info: required phone country code, mobile phone number, email/profile confirmation, location entry, then Next/review/final Submit application steps.",
-      "manual_action_at": "2026-07-04T10:09:44Z"
+      "manual_action_at": "2026-07-04T10:09:44Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-databricks-staff-software-engineer-money-1bb68c5e",
@@ -775,7 +791,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2",
@@ -825,7 +842,8 @@
       "last_status_update_id": "status-20260704-1004-databricks-senior-staff-backend-manual",
       "manual_action_required": true,
       "manual_action_reason": "Databricks Greenhouse requires personal contact fields, resume upload, LinkedIn profile, current firm, work authorization, visa sponsorship, prior Databricks employment, sanctions/export-control attestations, reCAPTCHA field, and final Submit application approval.",
-      "manual_action_at": "2026-07-04T10:09:44Z"
+      "manual_action_at": "2026-07-04T10:09:44Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-databricks-staff-software-engineer-backend-20111ff7",
@@ -868,7 +886,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2",
@@ -911,7 +930,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-confluent-staff-security-engineer-ii-b779f524",
@@ -954,7 +974,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-confluent-staff-software-engineer-i-sre-6a28446b",
@@ -997,7 +1018,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-amazon-principal-software-engineer-delivery-ac28c835",
@@ -1040,7 +1062,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-amazon-principal-software-engineer-alexa-in-7b3e37f1",
@@ -1083,7 +1106,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-mongodb-staff-engineer-0082bb96",
@@ -1134,7 +1158,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-natwest-group-principal-engineer-vp-dca6a5a9",
@@ -1185,7 +1210,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "application_id": "app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43",
@@ -1236,7 +1262,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-cvent-sre-architect-4147eb8f",
@@ -1287,7 +1314,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-expedia-group-principal-software-development-engin-b25a7a5e",
@@ -1338,7 +1366,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-freshworks-staff-engineer-systems-68e9c62a",
@@ -1389,7 +1418,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-harness-principal-engineer-ab5623cd",
@@ -1440,7 +1470,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-d-e-shaw-india-private-limit-principal-tech-middleware-a24c634d",
@@ -1491,7 +1522,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-postman-staff-engineer-product-trust-99d9236e",
@@ -1542,7 +1574,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-teradata-staff-architect-ai-platform-6e2d5446",
@@ -1593,7 +1626,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8",
@@ -1644,7 +1678,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-postman-staff-engineer-observability-platfor-f23037c3",
@@ -1695,7 +1730,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-capital-one-distinguished-ai-engineer-2431d08c",
@@ -1746,7 +1782,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-harness-principal-software-engineer-appsec-f7f04b94",
@@ -1799,7 +1836,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41",
@@ -1859,7 +1897,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a",
@@ -1912,7 +1951,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc",
@@ -1965,7 +2005,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-oracle-principal-software-engineer-62bba00e",
@@ -2025,7 +2066,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-abnormal-ai-staff-software-engineer-mpp-growth-fc37d8ce",
@@ -2078,7 +2120,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-cadence-sr-principal-software-engineer-c2a4af02",
@@ -2131,7 +2174,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-oracle-lead-principal-engineer-0df55b22",
@@ -2191,7 +2235,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-oracle-principal-software-engineer-27875304",
@@ -2258,7 +2303,8 @@
       "last_status_update_id": "status-20260704-oracle-agentic-devtools-auth-gate",
       "manual_action_required": true,
       "manual_action_reason": "Oracle Careers reached /apply/email authentication screen requiring email or phone, profile creation/maintenance consent, and agreement to terms before continuing. User action-time review is required before entering contact data or accepting terms.",
-      "manual_action_at": "2026-07-04T05:38:37Z"
+      "manual_action_at": "2026-07-04T05:38:37Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e",
@@ -2325,7 +2371,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-linkedin-sr-staff-software-engineer-f1e870f2",
@@ -2385,7 +2432,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-linkedin-sr-staff-software-engineer-machine-l-622ade83",
@@ -2452,7 +2500,8 @@
       "last_status_update_id": "status-20260704-linkedin-sr-staff-ml-contact-confirmation",
       "manual_action_required": true,
       "manual_action_reason": "Advancing would transmit profile/contact information into LinkedIn's application workflow, and later steps may require resume upload or final submit confirmation. User action-time review is required before transmitting that data.",
-      "manual_action_at": "2026-07-04T05:14:18Z"
+      "manual_action_at": "2026-07-04T05:14:18Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-coupang-sr-staff-backend-engineer-9f74afd4",
@@ -2519,7 +2568,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-play-games-d-f6ab33c4",
@@ -2579,7 +2629,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-ads-b69111e3",
@@ -2639,7 +2690,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-analytics-fabb3946",
@@ -2699,7 +2751,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-cloud-sql-po-15c57a4d",
@@ -2759,7 +2812,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-google-one-s-dd207eee",
@@ -2819,7 +2873,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-search-featu-ed937ca2",
@@ -2879,7 +2934,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-code-intelli-0bca1606",
@@ -2939,7 +2995,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-data-indexin-b959b8c4",
@@ -2999,7 +3056,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-google-cloud-35332b81",
@@ -3059,7 +3117,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-google-sdn-c-3a9b3dc3",
@@ -3119,7 +3178,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-search-next-de810d13",
@@ -3179,7 +3239,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-gcp-csm-3579afd9",
@@ -3239,7 +3300,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-git-developm-49258975",
@@ -3299,7 +3361,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-infrastructu-a45b5762",
@@ -3373,7 +3436,8 @@
       "last_status_update_id": "status-20260704-0934-google-manual-careers-profile",
       "manual_action_required": true,
       "manual_action_reason": "Google Careers opens a five-step application flow requiring legal name/profile fields, phone number, resume upload, privacy acknowledgements, role information, voluntary self-identification, review, and final apply. It is signed in with verma.r@salesforce.com and requires user-provided personal data plus action-time approval before transmission.",
-      "manual_action_at": "2026-07-04T09:36:11Z"
+      "manual_action_at": "2026-07-04T09:36:11Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-search-servi-e7e344cc",
@@ -3433,7 +3497,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-server-found-28dc27fa",
@@ -3493,7 +3558,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-uber-staff-software-engineer-359dee86",
@@ -3567,7 +3633,8 @@
       "last_status_update_id": "status-20260704-uber-staff-software-engineer-job-removed",
       "manual_action_required": true,
       "manual_action_reason": "Unavailable application URL / removed Uber job posting. Rendered resume for manual follow-up: applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/submitted-resume.pdf",
-      "manual_action_at": "2026-07-04T02:43:01Z"
+      "manual_action_at": "2026-07-04T02:43:01Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-ebay-principal-mts-architect-shipping-1cbaf4a8",
@@ -3626,7 +3693,8 @@
       "last_status_update_id": "status-20260704-ebay-shipping-upload-timeout",
       "manual_action_required": true,
       "manual_action_reason": "Manual application required because eBay's resume-upload control could not be completed reliably through Chrome automation in this session; no final submission was made.",
-      "manual_action_at": "2026-07-04T02:09:49Z"
+      "manual_action_at": "2026-07-04T02:09:49Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-prime-video-amazon-mgm-studi-principal-software-engineer-prime-vi-44f40484",
@@ -3685,7 +3753,8 @@
       "last_status_update_id": "status-20260704-amazon-prime-commerce-login",
       "manual_action_required": true,
       "manual_action_reason": "Manual application required because Amazon.jobs requires credential/OAuth login before the application form can be completed.",
-      "manual_action_at": "2026-07-04T01:39:31Z"
+      "manual_action_at": "2026-07-04T01:39:31Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-search-platf-e04279ab",
@@ -3737,7 +3806,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260704-broadcom-staff-software-engineer-5c7e6b85",
@@ -3796,7 +3866,8 @@
       "last_status_update_id": "status-20260704-broadcom-staff-workday-blank",
       "manual_action_required": true,
       "manual_action_reason": "Manual application required at Broadcom Workday because the external Workday page did not render an application form in Chrome automation.",
-      "manual_action_at": "2026-07-04T01:10:37Z"
+      "manual_action_at": "2026-07-04T01:10:37Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-databricks-staff-software-engineer-infrastructu-10faa193",
@@ -3855,7 +3926,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-dbt-labs-staff-software-engineer-ae37edd4",
@@ -3912,7 +3984,8 @@
       ],
       "status_reason": "External Greenhouse application URL for dbt Labs returned: The job you are looking for is no longer open. Archived to avoid applying to a closed requisition.",
       "last_status_update_id": "status-20260704-dbt-closed",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-mastercard-principal-engineer-baf6b503",
@@ -3971,7 +4044,8 @@
       "last_status_update_id": "status-20260704-mastercard-principal-engineer-personal-info",
       "manual_action_required": true,
       "manual_action_reason": "Requires user-confirmed previous Mastercard worker/contractor answer and privacy/consent acknowledgement before continuing. Form also requests contact/location/source details and may add further Workday questions after this step; cannot proceed or submit without user confirmation.",
-      "manual_action_at": "2026-07-03T23:09:11Z"
+      "manual_action_at": "2026-07-03T23:09:11Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-coupang-staff-engineer-backend-finance-platf-7c3c6b15",
@@ -4023,7 +4097,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-intuit-senior-staff-software-engineer-577cec22",
@@ -4082,7 +4157,8 @@
       "last_status_update_id": "status-20260704-intuit-avature-manual",
       "manual_action_required": true,
       "manual_action_reason": "Manual completion required: Avature asks for a new account password/password confirmation, home postal code, country/state confirmation, area of interest selection, privacy acknowledgement, and cleanup of auto-parsed employment rows before continuing to EEO.",
-      "manual_action_at": "2026-07-03T22:47:47Z"
+      "manual_action_at": "2026-07-03T22:47:47Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281",
@@ -4134,7 +4210,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-intuit-staff-software-engineer-systems-072eeea9",
@@ -4186,7 +4263,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e",
@@ -4238,7 +4316,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-coupang-senior-staff-software-engineer-76d97207",
@@ -4290,7 +4369,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-confluent-principal-engineer-i-cloud-observabi-d893e69c",
@@ -4331,7 +4411,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-okta-staff-site-reliability-engineer-obse-913ac3de",
@@ -4372,7 +4453,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc",
@@ -4413,7 +4495,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-atlassian-principal-data-engineer-6ca2b58f",
@@ -4454,7 +4537,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-coupang-senior-staff-system-engineer-gpu-fle-1fd7fe5b",
@@ -4495,7 +4579,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-coupang-senior-staff-cloud-backend-engineer-389813ea",
@@ -4536,7 +4621,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561",
@@ -4581,7 +4667,8 @@
       ],
       "status_reason": "Resynced existing approved application after duplicate-aware job upsert refreshed the job row.",
       "last_status_update_id": "status-20260704-0734-coupang-approved-resync",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-linkedin-principal-staff-software-engineer-li-6d6330e1",
@@ -4630,7 +4717,8 @@
       "last_status_update_id": "status-20260704-linkedin-principal-staff-upload-blocked",
       "manual_action_required": true,
       "manual_action_reason": "Chrome extension blocked file upload with Not allowed. To enable file upload, go to chrome://extensions in Chrome, click Details under the Codex extension, and enable Allow access to file URLs.",
-      "manual_action_at": "2026-07-03T20:41:59Z"
+      "manual_action_at": "2026-07-03T20:41:59Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012",
@@ -4671,7 +4759,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-boomi-principal-software-engineer-genai-5eaed28b",
@@ -4712,7 +4801,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-mastercard-principal-software-engineer-solution-e10d6ad6",
@@ -4753,7 +4843,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e",
@@ -4812,7 +4903,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205",
@@ -4871,7 +4963,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c",
@@ -4930,7 +5023,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-servicenow-principal-software-engineer-movework-fc31eead",
@@ -4990,7 +5084,8 @@
       "last_status_update_id": "status-20260704-1004-servicenow-moveworks-manual",
       "manual_action_required": true,
       "manual_action_reason": "ServiceNow SmartRecruiters requires profile/personal information, experience, education, profile links, resume, optional hiring-team message, multi-step Next flow, privacy notice, and final submission approval.",
-      "manual_action_at": "2026-07-04T10:09:44Z"
+      "manual_action_at": "2026-07-04T10:09:44Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-prime-vi-7c35cb95",
@@ -5050,7 +5145,8 @@
       "last_status_update_id": "status-20260704-amazon-prime-video-principal-login",
       "manual_action_required": true,
       "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
-      "manual_action_at": "2026-07-03T23:37:26Z"
+      "manual_action_at": "2026-07-03T23:37:26Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-amazon-p-2eaf8932",
@@ -5110,7 +5206,8 @@
       "last_status_update_id": "status-20260704-amazon-payments-principal-login",
       "manual_action_required": true,
       "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
-      "manual_action_at": "2026-07-04T00:36:26Z"
+      "manual_action_at": "2026-07-04T00:36:26Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-rbs-tech-a5aca81e",
@@ -5171,7 +5268,8 @@
       "last_status_update_id": "status-20260704-amazon-rbs-principal-login",
       "manual_action_required": true,
       "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
-      "manual_action_at": "2026-07-04T00:36:26Z"
+      "manual_action_at": "2026-07-04T00:36:26Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-alexa-in-8ef4aff4",
@@ -5231,7 +5329,8 @@
       "last_status_update_id": "status-20260704-amazon-alexa-international-principal-login",
       "manual_action_required": true,
       "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
-      "manual_action_at": "2026-07-04T00:36:26Z"
+      "manual_action_at": "2026-07-04T00:36:26Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-broadcom-senior-software-architect-0421392e",
@@ -5283,7 +5382,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f",
@@ -5356,7 +5456,8 @@
       "last_status_update_id": "status-20260704-databricks-senior-staff-backend-legal-workauth",
       "manual_action_required": true,
       "manual_action_reason": "Requires user-confirmed legal authorization to work in the application country, future visa sponsorship need, U.S. sanctions/export-control attestations, and prior Databricks employment answer. Cannot answer or submit truthfully without user confirmation.",
-      "manual_action_at": "2026-07-03T23:06:39Z"
+      "manual_action_at": "2026-07-03T23:06:39Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d",
@@ -5422,7 +5523,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae",
@@ -5481,7 +5583,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49",
@@ -5532,7 +5635,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea",
@@ -5583,7 +5690,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1",
@@ -5624,7 +5735,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-capital-one-distinguished-engineer-51e80851",
@@ -5674,7 +5789,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-cargill-director-platform-engineering-cargil-e9276436",
@@ -5724,7 +5843,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b",
@@ -5774,7 +5897,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-recrew-ai-principal-architect-digital-platform-74994e90",
@@ -5817,7 +5944,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-jll-principal-architect-ai-solutions-9c73f71b",
@@ -5858,7 +5989,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a",
@@ -5917,7 +6052,8 @@
       "last_status_update_id": "status-20260704-amazon-alexa-ai-principal-login",
       "manual_action_required": true,
       "manual_action_reason": "Requires Amazon.jobs email/password login or OAuth login with Amazon, Google, Apple, or LinkedIn before the application form is available. Cannot create or use an account without user-controlled authentication.",
-      "manual_action_at": "2026-07-04T00:36:26Z"
+      "manual_action_at": "2026-07-04T00:36:26Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb",
@@ -5961,7 +6097,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-google-senior-staff-software-engineer-creat-8c029467",
@@ -6012,7 +6149,8 @@
       "last_status_update_id": "status-20260704-google-senior-staff-creator-profile",
       "manual_action_required": true,
       "manual_action_reason": "Requires user-confirmed legal name, phone country/number, resume upload, current/previous Alphabet employment answer, privacy consent, and truth-certification before continuing to role information, voluntary self-identification, and review. Cannot answer or submit truthfully without user confirmation.",
-      "manual_action_at": "2026-07-03T23:37:26Z"
+      "manual_action_at": "2026-07-03T23:37:26Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-apple-senior-technical-architect-customer-67c10247",
@@ -6070,7 +6208,8 @@
       "last_status_update_id": "status-20260704-apple-technical-architect-apple-id-login",
       "manual_action_required": true,
       "manual_action_reason": "Requires user-controlled Apple ID sign-in before the application form is available. Chrome automation was also blocked by an open extension UI on the sign-in page, so no profile, CV upload, or submission step was completed.",
-      "manual_action_at": "2026-07-04T00:05:46Z"
+      "manual_action_at": "2026-07-04T00:05:46Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-google-staff-software-engineer-foundation-s-4346ebfe",
@@ -6122,7 +6261,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-microsoft-principal-engineer-be0ba28d",
@@ -6173,7 +6313,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d",
@@ -6225,7 +6366,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4",
@@ -6276,7 +6418,8 @@
       "last_status_update_id": "status-20260704-vonage-easy-apply-upload-blocked",
       "manual_action_required": true,
       "manual_action_reason": "Chrome LinkedIn Easy Apply file upload was rejected before the tailored PDF could be attached; avoid submitting with unmapped older LinkedIn resumes. Use applications/resumes/app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4/submitted-resume.pdf manually.",
-      "manual_action_at": "2026-07-04T06:46:59Z"
+      "manual_action_at": "2026-07-04T06:46:59Z",
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6",
@@ -6327,7 +6470,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f",
@@ -6379,7 +6523,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c",
@@ -6431,7 +6576,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80",
@@ -6482,7 +6628,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-6sense-principal-architect-68cfd70b",
@@ -6526,7 +6676,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-okta-staff-engineer-developer-platform-4af9192c",
@@ -6567,7 +6721,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8",
@@ -6610,7 +6768,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63",
@@ -6653,7 +6815,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-zscaler-principal-site-reliability-engineer-4f168b68",
@@ -6696,7 +6862,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-ebay-principal-architect-05d225bf",
@@ -6747,7 +6917,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-stripe-engineering-manager-operations-infra-51e5b8bf",
@@ -6793,7 +6967,8 @@
       ],
       "status_reason": "Rejected after full queue audit: Stripe is high-value, but plain Engineering Manager is not a clear current/next-level target versus Senior Manager, Director, Principal, or Staff-plus roles.",
       "last_status_update_id": "queue-audit-20260703-stripe-em-level",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "application_id": "app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3",
@@ -6844,7 +7019,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec",
@@ -6887,7 +7066,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "application_id": "app-20260703-toast-director-of-engineering-new-ventures-d617b98d",
@@ -6938,7 +7118,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8",
@@ -6988,7 +7172,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "application_id": "app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23",
@@ -7031,7 +7216,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b",
@@ -7074,7 +7263,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "application_id": "app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d",
@@ -7118,7 +7308,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79",
@@ -7160,7 +7351,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
     },
     {
       "application_id": "app-20260703-emergent-staff-engineer-e28e5604",
@@ -7217,7 +7412,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-uber-sr-manager-engineering-3c8bba1c",
@@ -7258,7 +7454,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "application_id": "app-20260703-brevan-howard-head-of-security-engineering-15a0308d",
@@ -7300,7 +7497,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "application_id": "app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08",
@@ -7351,7 +7549,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "application_id": "app-20260703-rippling-senior-engineering-manager-platform-2ee45b98",
@@ -7402,7 +7601,8 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
@@ -7453,7 +7653,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-databricks-director-of-engineering-d852a8b0",
@@ -7503,7 +7707,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-docusign-senior-engineering-director-a93cfc5b",
@@ -7554,7 +7762,11 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "Compensation override: Docusign senior engineering director/platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b",
@@ -7597,7 +7809,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129",
@@ -7639,7 +7855,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-mastercard-director-platform-engineering-a13e12d9",
@@ -7690,7 +7910,11 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "Compensation override: Mastercard Director-level platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-intuit-director-software-engineering-3017f1a3",
@@ -7738,7 +7962,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c",
@@ -7793,7 +8021,11 @@
       ],
       "status_reason": "Rejected after approved-list level review: Senior Solutions Architect is not strong enough for the target Director/Principal/Staff platform track, especially with GPU/LLM-depth mismatch.",
       "last_status_update_id": "level-review-20260703-nvidia-senior-solutions-architect",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-google-senior-staff-software-engineer-googl-20feb543",
@@ -7843,7 +8075,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9",
@@ -7893,7 +8129,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1",
@@ -7948,7 +8188,11 @@
       ],
       "status_reason": "Rejected after full queue audit: partner/customer deployment role is high-company-value but not a clear current/next-level core engineering, principal architect, or director path.",
       "last_status_update_id": "queue-audit-20260703-openai-role-shape",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-thoughtspot-principal-software-engineer-4fcddad6",
@@ -7995,7 +8239,11 @@
       ],
       "status_reason": "Rejected after full queue audit: superseded by stronger ThoughtSpot Principal Engineer (Cloud Platforms) role; avoid duplicate company applications.",
       "last_status_update_id": "queue-audit-20260703-thoughtspot-superseded",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-confluent-staff-software-engineer-i-confluent-b272916e",
@@ -8037,7 +8285,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-intuit-principal-engineer-builder-54c02674",
@@ -8087,7 +8339,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a",
@@ -8139,7 +8395,11 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "Compensation override: Coupang Director/senior AI-platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573",
@@ -8194,7 +8454,11 @@
       ],
       "status_reason": "Rejected after full queue audit: weaker duplicate GitLab staff path with Ruby mismatch; keep the stronger GitLab AI Governance staff role approved.",
       "last_status_update_id": "queue-audit-20260703-gitlab-weaker-duplicate",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1",
@@ -8248,7 +8512,11 @@
       ],
       "status_reason": "Resynced existing approved application after duplicate-aware job upsert refreshed the job row.",
       "last_status_update_id": "status-20260704-0734-gitlab-approved-resync",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2",
@@ -8298,7 +8566,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b",
@@ -8343,7 +8615,11 @@
       ],
       "status_reason": "Rejected after approved-list level review: Senior Cloud Software Engineer is below the target Director/Principal/Staff trajectory and risks underleveling.",
       "last_status_update_id": "level-review-20260703-nvidia-senior-cloud-swe",
-      "manual_action_required": false
+      "manual_action_required": false,
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-blinkrx-director-engineering-586d1421",
@@ -8392,7 +8668,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
@@ -8443,7 +8723,11 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "Compensation override: NVIDIA senior manager/principal/director AI-platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-magnit-global-director-engineering-7864387c",
@@ -8493,7 +8777,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-jiohotstar-senior-director-engineering-928a574f",
@@ -8543,7 +8831,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     },
     {
       "application_id": "app-20260702-american-express-director-software-engineering-dc7520e5",
@@ -8593,7 +8885,11 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script."
-      ]
+      ],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - IC Resume
 permalink: /applications/resumes/app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b/
 ---
 # Rohit Verma

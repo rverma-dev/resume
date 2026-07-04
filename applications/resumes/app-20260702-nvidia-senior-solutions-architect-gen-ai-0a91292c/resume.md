@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - IC Resume
 permalink: /applications/resumes/app-20260702-nvidia-senior-solutions-architect-gen-ai-0a91292c/
 ---
 # Rohit Verma

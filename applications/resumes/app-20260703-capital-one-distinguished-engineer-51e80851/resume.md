@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Rohit Verma - Base Resume
+title: Rohit Verma - IC Resume
 permalink: /applications/resumes/app-20260703-capital-one-distinguished-engineer-51e80851/
 ---
 # Rohit Verma

@@ -8,7 +8,6 @@ import json
 from pathlib import Path
 
 from pipeline_common import (
-    BASE_RESUME_PATH,
     REPO_ROOT,
     RESUME_SNAPSHOT_ROOT,
     append_ledger,
@@ -16,6 +15,8 @@ from pipeline_common import (
     load_applications,
     load_jobs,
     repo_relative,
+    resume_snapshot_name_for_role,
+    resume_source_path_for_role,
     save_applications,
     save_jobs,
     short_hash,
@@ -62,7 +63,7 @@ def write_theme(path: Path, job: dict, application_id: str, now: str) -> None:
     ]
     lines.extend([f"- {pointer}" for pointer in pointers] or ["- TBD during tailoring."])
     lines.extend(["", "## Evidence References", ""])
-    lines.extend([f"- {ref}" for ref in evidence_refs] or ["- Must be backed by `resume/base_resume.md` or `work/` evidence before use."])
+    lines.extend([f"- {ref}" for ref in evidence_refs] or ["- Must be backed by `resume/base_resume.md`, `_includes/platform-leadership-resume.md`, or `work/` evidence before use."])
     lines.extend(["", "## People / Connections", ""])
     if people:
         for person in people:
@@ -76,17 +77,17 @@ def write_theme(path: Path, job: dict, application_id: str, now: str) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def write_base_resume_snapshot(path: Path, application_id: str) -> None:
-    base_resume = BASE_RESUME_PATH.read_text(encoding="utf-8").lstrip()
+def write_resume_snapshot(path: Path, application_id: str, job: dict, snapshot_name: str) -> None:
+    resume_body = resume_source_path_for_role(job.get("role")).read_text(encoding="utf-8").lstrip()
     front_matter = [
         "---",
         "layout: resume",
-        "title: Rohit Verma - Base Resume",
+        f"title: Rohit Verma - {snapshot_name}",
         f"permalink: /applications/resumes/{application_id}/",
         "---",
         "",
     ]
-    path.write_text("\n".join(front_matter) + base_resume, encoding="utf-8")
+    path.write_text("\n".join(front_matter) + resume_body, encoding="utf-8")
 
 
 def main() -> int:
@@ -123,7 +124,8 @@ def main() -> int:
         snapshot_dir.mkdir(parents=True, exist_ok=True)
         resume_snapshot_path = snapshot_dir / "resume.md"
         theme_path = snapshot_dir / "theme.md"
-        write_base_resume_snapshot(resume_snapshot_path, application_id)
+        resume_snapshot_name = resume_snapshot_name_for_role(job.get("role"))
+        write_resume_snapshot(resume_snapshot_path, application_id, job, resume_snapshot_name)
         write_theme(theme_path, job, application_id, now)
 
         application = {
@@ -148,6 +150,7 @@ def main() -> int:
             "people": job.get("people") or [],
             "connections_summary": job.get("connections_summary"),
             "resume_theme": job.get("resume_theme") or {},
+            "resume_snapshot_name": resume_snapshot_name,
             "resume_snapshot_path": repo_relative(resume_snapshot_path),
             "resume_theme_path": repo_relative(theme_path),
             "submitted_resume_path": None,
@@ -161,6 +164,7 @@ def main() -> int:
             by_job_id[job_id]["status"] = "approved"
             by_job_id[job_id]["approval_status"] = "approved"
             by_job_id[job_id]["application_id"] = application_id
+            by_job_id[job_id]["resume_snapshot_name"] = resume_snapshot_name
             by_job_id[job_id]["resume_snapshot_path"] = repo_relative(resume_snapshot_path)
             by_job_id[job_id]["updated_at"] = now
 
@@ -171,6 +175,7 @@ def main() -> int:
             "job_id": job_id,
             "company": application.get("company"),
             "role": application.get("role"),
+            "resume_snapshot_name": application.get("resume_snapshot_name"),
             "resume_snapshot_path": application.get("resume_snapshot_path"),
             "resume_theme_path": application.get("resume_theme_path"),
         })
