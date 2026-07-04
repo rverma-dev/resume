@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T13:09:36Z",
-  "active_batch_id": "batch-20260704-1304-ic-nutanix",
-  "last_scheduler_run_at": "2026-07-04T13:09:28Z",
+  "updated_at": "2026-07-04T13:42:10Z",
+  "active_batch_id": "batch-20260704-1334-ic-platform",
+  "last_scheduler_run_at": "2026-07-04T13:42:03Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 2,
   "jobs": [
@@ -5509,6 +5509,173 @@
       "updated_at": "2026-07-04T01:39:31Z",
       "notes": [
         "LinkedIn details captured 2026-07-04: posted 2 days ago, 18 people clicked apply, responses managed off LinkedIn, Amazon Job ID A10463881."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4429640284",
+      "dedupe_key": "linkedin:4429640284",
+      "source": "linkedin",
+      "source_job_id": "4429640284",
+      "source_url": "https://www.linkedin.com/jobs/view/4429640284",
+      "company": "Cohesity",
+      "role": "Staff Software Engineer, Storage Filesystem",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Staff role at Cohesity, a late-stage data security and distributed storage platform company; validate India Staff band and equity against 2.5cr+ target.",
+        "LinkedIn posting is Easy Apply and actively reviewing applicants, but no compensation range is visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1334-ic-platform",
+      "fit_score": 95,
+      "fit_reason": "Excellent Staff IC distributed systems fit: Cohesity data platform/storage filesystem work maps to Salesforce Hyperforce platform reliability, proactive diagnostics, anomaly detection alerts, Brane enterprise infrastructure, and high-scale backend correctness; role is Staff-level, full-time, Bengaluru hybrid, and aligned with cloud data/security infrastructure.",
+      "fit_signals": [
+        "Staff IC title and Bengaluru hybrid location match the current IC target lane.",
+        "Cohesity company profile emphasizes data protection, security, ransomware recovery, hybrid cloud, multicloud, distributed systems, AI, and generative AI.",
+        "Company jobs page surfaced this as a C++, distributed storage, filesystems, and cloud-skills Staff Software Engineer role.",
+        "Distributed storage/filesystem work maps to tenant-safe distributed systems, observability, failure handling, and production reliability themes."
+      ],
+      "risk_flags": [
+        "Deep storage/filesystem role; tailor around distributed systems, reliability, observability, and platform infrastructure without overstating storage-kernel specialization.",
+        "Compensation band must be validated before prioritizing over Google, NVIDIA, Databricks, Coupang, Amazon, or Salesforce-equivalent L9+ roles.",
+        "Hybrid Bengaluru expectation should be confirmed."
+      ],
+      "people": [
+        {
+          "name": "Nilesh Mandal",
+          "relationship": "2nd-degree",
+          "role": "Staff Software Engineer at Cohesity; Distributed Systems, C++, GoLang",
+          "profile_url": "https://www.linkedin.com/in/nilesh-mandal-523755181/",
+          "notes": "Relevant Staff distributed-systems/C++ contact surfaced by LinkedIn people search."
+        },
+        {
+          "name": "Deepanker Mishra",
+          "relationship": "2nd-degree",
+          "role": "GenAI at Cohesity; current Staff Software Engineer",
+          "profile_url": "https://www.linkedin.com/in/deepankermishra/",
+          "notes": "Relevant Staff/GenAI Cohesity contact with mutual connections."
+        },
+        {
+          "name": "Harish Bansal",
+          "relationship": "2nd-degree",
+          "role": "Staff Engineer at Cohesity; NoSQL, database internals, distributed systems, C++",
+          "profile_url": "https://www.linkedin.com/in/harish-bansal-b9988a23/",
+          "notes": "Relevant Staff engineering contact surfaced by LinkedIn people search."
+        },
+        {
+          "name": "Ketan Mahajan",
+          "relationship": "2nd-degree",
+          "role": "Staff Engineer at Cohesity",
+          "profile_url": "https://www.linkedin.com/in/ketan-mahajan-ab86611b/",
+          "notes": "Relevant Staff engineering contact surfaced by LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn company profile showed 31 company alumni work at Cohesity for recommended Staff storage roles. People search found 2nd-degree Staff engineering contacts including Nilesh Mandal, Deepanker Mishra, Harish Bansal, and Ketan Mahajan.",
+      "resume_theme": {
+        "name": "Staff distributed storage and platform reliability IC",
+        "positioning": "Position as a Staff platform engineer for cloud-scale distributed infrastructure: Salesforce Hyperforce multi-region reliability, proactive diagnostics, anomaly detection alerts, Brane enterprise infrastructure, and high-scale backend correctness.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce multi-region alerting, tenant-safe evaluation, proactive diagnostics, anomaly detection, and production reliability ownership.",
+          "Use Brane enterprise SaaS/on-prem infrastructure across Nutanix, Kafka, TiDB, ScyllaDB, ClickHouse, Glue, and S3 to show distributed platform breadth.",
+          "Map Cohesity storage/filesystem needs to distributed systems fundamentals: consistency, fault tolerance, scale-out behavior, observability, and customer production debugging.",
+          "Keep storage-specific claims precise and evidence-backed; emphasize architecture, reliability, diagnostics, and cross-team technical leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: proactive diagnostics ADRs, anomaly detection alerts, mdas-alerts, ms-op-alerts",
+          "Brane platform/security and enterprise deployment evidence"
+        ]
+      },
+      "application_id": "app-20260704-cohesity-staff-software-engineer-storage-file-4bbff912",
+      "resume_snapshot_path": "applications/resumes/app-20260704-cohesity-staff-software-engineer-storage-file-4bbff912/resume.md",
+      "discovered_at": "2026-07-04T13:42:03Z",
+      "updated_at": "2026-07-04T13:42:10Z",
+      "notes": [
+        "Fetched via LinkedIn MCP on 2026-07-04; no external submission attempted in this import batch.",
+        "Prioritize referral/connection outreach because Easy Apply shows over 100 applicants."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4340353013",
+      "dedupe_key": "linkedin:4340353013",
+      "source": "linkedin",
+      "source_job_id": "4340353013",
+      "source_url": "https://www.linkedin.com/jobs/view/4340353013",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - Payroll Products",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Staff role at Rippling, a high-growth private workforce platform company with strong equity potential; validate India Staff band against 2.5cr+ target.",
+        "LinkedIn company profile says Rippling has raised $1.2B from top-tier investors; no salary range is visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1334-ic-platform",
+      "fit_score": 94,
+      "fit_reason": "Strong Staff IC platform/product fit: Payroll Products is a high-scale business-critical domain where distributed systems, correctness, compliance, workflow automation, observability, and platform architecture map well to Salesforce platform ownership, PMTS-level technical leadership, payments/backend systems, and customer/operational signal integration.",
+      "fit_signals": [
+        "Staff IC title and Bengaluru full-time role match current IC target lane.",
+        "Rippling sits on a unified workforce platform spanning payroll, IT, expenses, applicant tracking, and automation, which fits platform architecture and data-flow narratives.",
+        "Payroll Products is likely correctness/compliance heavy and business-critical, aligning with Jupiter payments, Salesforce enterprise systems, and production reliability work.",
+        "LinkedIn shows 138 company alumni signal and multiple 2nd-degree Staff/engineering contacts at Rippling."
+      ],
+      "risk_flags": [
+        "Duplicate-company saturation: several Rippling roles are already tracked or approved; keep only if this payroll domain is materially stronger than weaker Rippling variants.",
+        "On-site Bengaluru expectation should be confirmed.",
+        "Compensation band and equity liquidity should be validated against the 2.5cr+ target before deep investment."
+      ],
+      "people": [
+        {
+          "name": "Divyansh Kumar",
+          "relationship": "2nd-degree",
+          "role": "Staff Software Engineer at Rippling",
+          "profile_url": "https://www.linkedin.com/in/mrdivyansh/",
+          "notes": "Relevant Rippling Staff engineering contact surfaced by LinkedIn people search."
+        },
+        {
+          "name": "Rushikesh Potdar",
+          "relationship": "2nd-degree",
+          "role": "Staff Software Engineer; Global FinTech & Compliance Platforms at Scale; Distributed Systems; Platform Architecture; AI Infrastructure",
+          "profile_url": "https://www.linkedin.com/in/rushikeshpotdar1993/",
+          "notes": "Highly relevant fintech/compliance/platform Staff contact surfaced by LinkedIn people search."
+        },
+        {
+          "name": "Amandeep Sachan",
+          "relationship": "2nd-degree",
+          "role": "Engineering at Rippling; ex-Amazon",
+          "profile_url": "https://www.linkedin.com/in/amandeepsachan/",
+          "notes": "Relevant Bengaluru engineering contact surfaced by LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn company profile showed 138 people from current company were hired at Rippling. People search found 2nd-degree Staff/engineering contacts including Divyansh Kumar, Rushikesh Potdar, and Amandeep Sachan.",
+      "resume_theme": {
+        "name": "Staff payroll platform and correctness IC",
+        "positioning": "Position as a Staff platform engineer for business-critical payroll/workforce systems: correctness, compliance-aware distributed workflows, customer/operational signal integration, and high-scale production reliability.",
+        "key_pointers": [
+          "Lead with PMTS-level Salesforce platform ownership, AM agent federation, Internal IDE, proactive diagnostics, and anomaly detection alerts for platform/system design maturity.",
+          "Use Jupiter Money payments, Niki.ai business-critical systems, and Brane enterprise infrastructure to show correctness and operational rigor.",
+          "Frame Rippling fit around platform data models, workflow automation, compliance-sensitive backend design, observability, and multi-team technical leadership.",
+          "Avoid overfitting to payroll-specific claims; emphasize transferable financial-grade backend and distributed platform evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "Jupiter Money payments/backend scale evidence",
+          "Salesforce proactive diagnostics, anomaly detection alerts, and AM agent federation evidence"
+        ]
+      },
+      "application_id": "app-20260704-rippling-staff-software-engineer-payroll-prod-c86aa5d7",
+      "resume_snapshot_path": "applications/resumes/app-20260704-rippling-staff-software-engineer-payroll-prod-c86aa5d7/resume.md",
+      "discovered_at": "2026-07-04T13:42:03Z",
+      "updated_at": "2026-07-04T13:42:10Z",
+      "notes": [
+        "Fetched via LinkedIn MCP on 2026-07-04; no external submission attempted in this import batch.",
+        "Review against existing Rippling approvals before application execution to avoid over-concentrating one company."
       ],
       "resume_snapshot_name": "IC Resume"
     },
