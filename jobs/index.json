@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T14:09:39Z",
-  "active_batch_id": "batch-20260704-1334-ic-platform",
-  "last_scheduler_run_at": "2026-07-04T13:42:03Z",
+  "updated_at": "2026-07-04T14:36:34Z",
+  "active_batch_id": "batch-20260704-1434-ic-rubrik-principal",
+  "last_scheduler_run_at": "2026-07-04T14:36:26Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 2,
+  "jobs_per_scheduler_run": 1,
   "jobs": [
     {
       "job_id": "linkedin-4426808289",
@@ -5513,6 +5513,93 @@
       "resume_snapshot_name": "IC Resume"
     },
     {
+      "job_id": "linkedin-4428469992",
+      "dedupe_key": "linkedin:4428469992",
+      "source": "linkedin",
+      "source_job_id": "4428469992",
+      "source_url": "https://www.linkedin.com/jobs/view/4428469992",
+      "company": "Rubrik",
+      "role": "Principal Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "principal",
+      "compensation_signals": [
+        "Principal Engineer role at Rubrik, a public security and AI company; posting explicitly says the role operates at the same level as an Engineering Director.",
+        "Developer Platform, AI-powered productivity, CI/CD, observability, cloud infrastructure, and cross-org scope are high-compensation-relevant; no exact salary range is visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1434-ic-rubrik-principal",
+      "fit_score": 98,
+      "fit_reason": "Excellent next-level IC fit: Principal Engineer role described as Engineering Director-equivalent, owning 3+ year Developer Platform strategy across infrastructure, CI/CD, observability, AI-powered productivity, SDLC, engineering velocity, standards, cross-org consensus, and mentoring Staff engineers toward Principal impact.",
+      "fit_signals": [
+        "Principal Engineer title with explicit Engineering Director-equivalent impact and 18+ year expectation.",
+        "Developer Platform organization maps directly to Internal IDE, Unleash, testing automation, CI/CD, and engineering productivity work.",
+        "AI/ML productivity, platform scaling, observability, cloud infrastructure, and multi-quarter ambiguous problem ownership map strongly to recent Salesforce platform and agentic IDE work.",
+        "Rubrik company profile positions the company at the intersection of data protection, cyber resilience, and enterprise AI acceleration."
+      ],
+      "risk_flags": [
+        "On-site Bengaluru expectation should be confirmed.",
+        "IC role rather than people-manager Director; tailor around Principal/Director-equivalent architecture influence, standards, and Staff/Principal mentorship rather than line management.",
+        "Compensation band should be validated against the 2.5cr+ target, but public-company Principal scope makes it worth applying."
+      ],
+      "people": [
+        {
+          "name": "Karthik K",
+          "relationship": "2nd-degree",
+          "role": "Platform Engineering Leader; Engineering Manager at Rubrik; Kubernetes, Bazel, CI/CD, Observability, AI SDLC",
+          "profile_url": "https://www.linkedin.com/in/karthikkannan92/",
+          "notes": "Highly relevant Developer Platform / AI SDLC contact surfaced by LinkedIn people search."
+        },
+        {
+          "name": "Upaang Saxena",
+          "relationship": "2nd-degree",
+          "role": "Engineering Leader at Rubrik; SaaS, Hybrid Multi Cloud, Core Product and Platform Team",
+          "profile_url": "https://www.linkedin.com/in/upaangsaxena/",
+          "notes": "Relevant Rubrik platform engineering manager with 17 mutual connections."
+        },
+        {
+          "name": "Ravi Lakhotia",
+          "relationship": "2nd-degree",
+          "role": "Staff Engineer at Rubrik",
+          "profile_url": "https://www.linkedin.com/in/raviplakhotia/",
+          "notes": "Relevant Staff engineering contact with 16 mutual connections."
+        },
+        {
+          "name": "Sivananda H.",
+          "relationship": "2nd-degree",
+          "role": "Director of Enterprise Architecture at Rubrik",
+          "profile_url": "https://www.linkedin.com/in/sivanand131/",
+          "notes": "Senior architecture contact surfaced by LinkedIn people search with 23 mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company page showed Principal Engineer - Dev Platform as recommended with 60 company alumni. People search found relevant 2nd-degree Rubrik contacts including Karthik K, Upaang Saxena, Ravi Lakhotia, and Sivananda H.",
+      "resume_theme": {
+        "name": "Principal AI developer platform and engineering productivity IC",
+        "positioning": "Position as a Principal/Director-equivalent platform engineer for AI-assisted developer systems, engineering productivity, observability, CI/CD, and cross-org technical standards.",
+        "key_pointers": [
+          "Lead with Internal IDE and Unleash as developer productivity systems spanning repo, PR, ticket, terminal, browser, and automation context.",
+          "Use Salesforce Hyperforce observability, proactive diagnostics, anomaly detection alerts, and multi-region platform rollout to prove operational platform maturity.",
+          "Connect testing automations, CI/CD, ADR/RFC governance, and cross-team platform standards to Rubrik's SDLC and Developer Platform mission.",
+          "Show Brane enterprise infrastructure and security/compliance as proof of durable platform foundations and cross-functional execution."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work evidence: Internal IDE, Unleash, proactive diagnostics ADRs, anomaly detection alerts, mdas-alerts, ms-op-alerts",
+          "Brane platform/security and enterprise deployment evidence"
+        ]
+      },
+      "application_id": "app-20260704-rubrik-principal-engineer-3af89aa6",
+      "resume_snapshot_path": "applications/resumes/app-20260704-rubrik-principal-engineer-3af89aa6/resume.md",
+      "discovered_at": "2026-07-03T09:06:00Z",
+      "updated_at": "2026-07-04T14:36:34Z",
+      "notes": [
+        "Restored from archived queue during 2026-07-04 heartbeat after live LinkedIn detail confirmed Principal/Director-equivalent Developer Platform scope.",
+        "No external submission attempted in this import batch."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
       "job_id": "linkedin-4429640284",
       "dedupe_key": "linkedin:4429640284",
       "source": "linkedin",
@@ -10670,63 +10757,6 @@
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
       "approval_issue_label": "#23"
-    },
-    {
-      "job_id": "linkedin-4428469992",
-      "dedupe_key": "linkedin:4428469992",
-      "source": "linkedin",
-      "source_job_id": "4428469992",
-      "source_url": "https://www.linkedin.com/jobs/view/4428469992",
-      "company": "Rubrik",
-      "role": "Principal Engineer",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "on_site",
-      "experience_level": "mid_senior",
-      "compensation_signals": [
-        "Public software/security/AI company with Principal Engineer role described as operating at Engineering Director level",
-        "Developer platform, infrastructure, observability, CI/CD, and AI productivity scope; no exact compensation visible"
-      ],
-      "status": "archived",
-      "approval_status": "blocked",
-      "batch_id": "batch-20260703-2315da85",
-      "fit_score": 97,
-      "fit_reason": "Excellent Principal/Director-equivalent platform fit: developer platform strategy, AI-powered engineering productivity, CI/CD, observability, cloud infrastructure, cross-org influence, and coaching Staff engineers toward Principal impact.",
-      "fit_signals": [
-        "principal engineer",
-        "engineering director equivalent scope",
-        "developer platform",
-        "AI/ML productivity",
-        "CI/CD",
-        "observability",
-        "cloud infrastructure",
-        "cross-functional architecture"
-      ],
-      "risk_flags": [
-        "IC role rather than people-manager Director; resume should emphasize architecture influence, standards, and Staff/Principal mentorship over line management"
-      ],
-      "people": [],
-      "connections_summary": "No visible connection signal captured from detail page.",
-      "resume_theme": {
-        "name": "AI developer platform principal",
-        "positioning": "Position as a Principal Engineer who builds AI-assisted developer systems and production platform foundations with director-level cross-org influence.",
-        "key_pointers": [
-          "Lead with Internal IDE and Unleash as local-first AI engineering systems for repo, PR, ticket, terminal, browser, and automation context.",
-          "Use Salesforce Hyperforce observability scale and $6M annualized cost reduction to prove platform operations and cost discipline.",
-          "Show Brane 30-person DevOps/SRE leadership and enterprise platform ownership to support cross-org standards and mentorship."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/project_docs/README.md",
-          "work/architecture/README.md"
-        ]
-      },
-      "application_id": null,
-      "resume_snapshot_path": null,
-      "discovered_at": "2026-07-03T09:06:00Z",
-      "updated_at": "2026-07-03T17:59:46Z",
-      "notes": [
-        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
-      ]
     },
     {
       "job_id": "linkedin-4432063758",
