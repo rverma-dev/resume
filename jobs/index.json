@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T12:37:32Z",
-  "active_batch_id": "batch-20260704-1234-ic-platform",
-  "last_scheduler_run_at": "2026-07-04T12:37:24Z",
+  "updated_at": "2026-07-04T13:09:36Z",
+  "active_batch_id": "batch-20260704-1304-ic-nutanix",
+  "last_scheduler_run_at": "2026-07-04T13:09:28Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 3,
+  "jobs_per_scheduler_run": 2,
   "jobs": [
     {
       "job_id": "linkedin-4426808289",
@@ -5509,6 +5509,164 @@
       "updated_at": "2026-07-04T01:39:31Z",
       "notes": [
         "LinkedIn details captured 2026-07-04: posted 2 days ago, 18 people clicked apply, responses managed off LinkedIn, Amazon Job ID A10463881."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4431598008",
+      "dedupe_key": "linkedin:4431598008",
+      "source": "linkedin",
+      "source_job_id": "4431598008",
+      "source_url": "https://www.linkedin.com/jobs/view/4431598008",
+      "company": "Nutanix",
+      "role": "Senior Staff Engineer (15+ years of experience)",
+      "location": "Pune Division, Maharashtra, India",
+      "work_type": "hybrid",
+      "experience_level": "senior_staff",
+      "compensation_signals": [
+        "Senior Staff role at Nutanix, a public cloud infrastructure/HCI company; validate India Senior Staff band and equity against 2.5cr+ target."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1304-ic-nutanix",
+      "fit_score": 97,
+      "fit_reason": "Excellent Senior Staff infrastructure fit: 15+ years, Nutanix Distributed Storage Fabric / Core Data Path, shared-nothing distributed file systems, Kubernetes-native storage, HCI/hybrid cloud, AI workload storage, performance/scale/resiliency, failure recovery, production customer troubleshooting, and mentoring/technical direction for 15-20 engineers.",
+      "fit_signals": [
+        "Senior Staff role explicitly requiring 15+ years in distributed systems/storage/file systems/OS or related product engineering.",
+        "Distributed data path, control plane, cloud-native AOS, Kubernetes, resiliency, disaster recovery, and fault tolerance align with Salesforce Hyperforce platform and Brane enterprise infrastructure evidence.",
+        "AI systems storage and hybrid cloud platform context gives a strong infra/AI-adjacent compensation-relevant narrative."
+      ],
+      "risk_flags": [
+        "Deep storage/HCI role; tailor around distributed systems, cloud platform, reliability, and on-prem/Nutanix experience without overstating storage-kernel specialization.",
+        "Hybrid Pune expectation with at least 3 onsite days; validate location flexibility.",
+        "Compensation band must be validated against 2.5cr+ goal before deep interview investment."
+      ],
+      "people": [
+        {
+          "name": "Harihara Sricharan",
+          "relationship": "LinkedIn company result / direct connection signal",
+          "role": "Works at Nutanix",
+          "profile_url": "",
+          "notes": "Company search showed Harihara Sricharan and one other connection work at Nutanix."
+        },
+        {
+          "name": "Anand Bhat",
+          "relationship": "2nd-degree",
+          "role": "Senior Staff Engineer at Nutanix",
+          "profile_url": "",
+          "notes": "Relevant Senior Staff engineering contact surfaced in LinkedIn people search with mutual connections."
+        },
+        {
+          "name": "Krishna Pandey",
+          "relationship": "2nd-degree",
+          "role": "Senior Member of Technical Staff at Nutanix; ex-NetApp",
+          "profile_url": "https://www.linkedin.com/in/krishna-pandey-40169030/",
+          "notes": "Relevant distributed systems/storage-adjacent contact with mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Harihara Sricharan and one other connection work at Nutanix. People search found 2nd-degree Nutanix engineering contacts including Anand Bhat, Senior Staff Engineer, and Krishna Pandey, Senior MTS/ex-NetApp.",
+      "resume_theme": {
+        "name": "Distributed Storage Senior Staff IC",
+        "positioning": "Position as a Senior Staff platform engineer for cloud-scale distributed infrastructure: Salesforce Hyperforce alerting/control-plane reliability, Brane enterprise SaaS/on-prem platform, Jupiter high-scale backend correctness, and production diagnostics.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce multi-region alerting, tenant-safe evaluation, proactive diagnostics, anomaly detection, and production reliability ownership.",
+          "Use Brane enterprise SaaS/on-prem distribution across Nutanix, Kafka, TiDB, ScyllaDB, ClickHouse, Glue, and S3 for platform breadth.",
+          "Map Nutanix DSF/Core Data Path to distributed systems fundamentals: concurrency, fault tolerance, scale-out, observability, and customer production debugging.",
+          "Keep storage-specific claims precise; emphasize adjacent ownership of high-throughput, resilient platform systems rather than kernel/filesystem implementation unless directly evidenced."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "Brane enterprise/on-prem infrastructure and security readiness evidence",
+          "Salesforce Hyperforce alerting, proactive diagnostics, anomaly detection alerts, and multi-region rollout evidence",
+          "Jupiter high-scale payments/backend reliability evidence"
+        ]
+      },
+      "application_id": "app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680",
+      "resume_snapshot_path": "applications/resumes/app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680/resume.md",
+      "discovered_at": "2026-07-04T13:09:28Z",
+      "updated_at": "2026-07-04T13:09:36Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail at 2026-07-04 13:04 UTC heartbeat pass.",
+        "Do not mark applied unless external Nutanix submission is confirmed."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4418829587",
+      "dedupe_key": "linkedin:4418829587",
+      "source": "linkedin",
+      "source_job_id": "4418829587",
+      "source_url": "https://www.linkedin.com/jobs/view/4418829587",
+      "company": "Nutanix",
+      "role": "Staff Engineer - Dev",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "staff",
+      "compensation_signals": [
+        "Staff Engineer role at Nutanix Cloud Manager; public cloud infrastructure/HCI company with equity upside, but validate India Staff band against 2.5cr+ target."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-1304-ic-nutanix",
+      "fit_score": 94,
+      "fit_reason": "Strong Staff platform fit: Nutanix Cloud Manager, hybrid multi-cloud platform, application/infrastructure-as-code, anomaly detection, operational automation, governance, financial accountability, security operations, web-scale distributed applications, storage/networking/virtualization/cloud technologies, Kafka/Pulsar/NATS, roadmap/customer interaction, and 15+ years.",
+      "fit_signals": [
+        "15+ years and Staff Engineer role with technical leadership, architecture, mentoring, roadmap, NFR, and customer interaction.",
+        "Hybrid multi-cloud, application/platform management, anomaly detection, governance, and automation align strongly with current Salesforce diagnostics/platform work.",
+        "Cloud/storage/networking/virtualization plus messaging systems fit Brane, Jupiter, and Salesforce infrastructure evidence."
+      ],
+      "risk_flags": [
+        "Same company as the stronger Senior Staff DSF role; prioritize Senior Staff if application capacity or recruiter attention is limited.",
+        "Hybrid Bengaluru expectation with 3 onsite days; validate flexibility.",
+        "Compensation band for Staff may be below Senior Staff/Principal targets; validate early."
+      ],
+      "people": [
+        {
+          "name": "Harihara Sricharan",
+          "relationship": "LinkedIn company result / direct connection signal",
+          "role": "Works at Nutanix",
+          "profile_url": "",
+          "notes": "Company search showed Harihara Sricharan and one other connection work at Nutanix."
+        },
+        {
+          "name": "Varun Belur Sudhindra",
+          "relationship": "2nd-degree",
+          "role": "Member of Technical Staff - 4, Nutanix Kubernetes Platform",
+          "profile_url": "https://www.linkedin.com/in/varunbs95/",
+          "notes": "Relevant Kubernetes platform contact surfaced in LinkedIn people search."
+        },
+        {
+          "name": "Archana Ganesan",
+          "relationship": "2nd-degree",
+          "role": "Senior Engineering Manager at Nutanix",
+          "profile_url": "",
+          "notes": "Relevant engineering leader contact surfaced in LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Harihara Sricharan and one other connection work at Nutanix. People search found 2nd-degree contacts relevant to Nutanix Kubernetes Platform and engineering leadership, including Varun Belur Sudhindra and Archana Ganesan.",
+      "resume_theme": {
+        "name": "Hybrid Multi-Cloud Platform Staff IC",
+        "positioning": "Position as a Staff platform engineer for hybrid/multi-cloud operational platforms: Salesforce proactive diagnostics, anomaly detection alerts, AM agent federation/Internal IDE automation, Brane cloud/on-prem platform, and Jupiter high-scale backend systems.",
+        "key_pointers": [
+          "Lead with Salesforce proactive diagnostics and anomaly detection alerts to match Nutanix Cloud Manager anomaly detection and operational automation.",
+          "Use AM agent federation/Internal IDE/Unleash as developer/operator productivity and governance automation proof.",
+          "Map NFR, roadmap, customer interaction, and design/RFC ownership to PMTS-level technical leadership.",
+          "Use Brane/Jupiter/Salesforce platform evidence for distributed systems, cloud, messaging, reliability, and scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "Salesforce proactive diagnostics and anomaly detection alerts evidence",
+          "Salesforce AM agent federation and Internal IDE/Unleash work",
+          "Brane enterprise/on-prem platform evidence"
+        ]
+      },
+      "application_id": "app-20260704-nutanix-staff-engineer-dev-56399205",
+      "resume_snapshot_path": "applications/resumes/app-20260704-nutanix-staff-engineer-dev-56399205/resume.md",
+      "discovered_at": "2026-07-04T13:09:28Z",
+      "updated_at": "2026-07-04T13:09:36Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail at 2026-07-04 13:04 UTC heartbeat pass.",
+        "Do not mark applied unless external Nutanix submission is confirmed."
       ],
       "resume_snapshot_name": "IC Resume"
     },

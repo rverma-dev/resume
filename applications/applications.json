@@ -1,9 +1,143 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T12:37:32Z",
+  "updated_at": "2026-07-04T13:09:36Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-nutanix-staff-engineer-dev-56399205",
+      "job_id": "linkedin-4418829587",
+      "dedupe_key": "linkedin:4418829587",
+      "source": "linkedin",
+      "source_job_id": "4418829587",
+      "source_url": "https://www.linkedin.com/jobs/view/4418829587",
+      "company": "Nutanix",
+      "role": "Staff Engineer - Dev",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1304-ic-nutanix",
+      "approved_at": "2026-07-04T13:09:36Z",
+      "updated_at": "2026-07-04T13:09:36Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Staff platform fit: Nutanix Cloud Manager, hybrid multi-cloud platform, application/infrastructure-as-code, anomaly detection, operational automation, governance, financial accountability, security operations, web-scale distributed applications, storage/networking/virtualization/cloud technologies, Kafka/Pulsar/NATS, roadmap/customer interaction, and 15+ years.",
+      "people": [
+        {
+          "name": "Harihara Sricharan",
+          "relationship": "LinkedIn company result / direct connection signal",
+          "role": "Works at Nutanix",
+          "profile_url": "",
+          "notes": "Company search showed Harihara Sricharan and one other connection work at Nutanix."
+        },
+        {
+          "name": "Varun Belur Sudhindra",
+          "relationship": "2nd-degree",
+          "role": "Member of Technical Staff - 4, Nutanix Kubernetes Platform",
+          "profile_url": "https://www.linkedin.com/in/varunbs95/",
+          "notes": "Relevant Kubernetes platform contact surfaced in LinkedIn people search."
+        },
+        {
+          "name": "Archana Ganesan",
+          "relationship": "2nd-degree",
+          "role": "Senior Engineering Manager at Nutanix",
+          "profile_url": "",
+          "notes": "Relevant engineering leader contact surfaced in LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Harihara Sricharan and one other connection work at Nutanix. People search found 2nd-degree contacts relevant to Nutanix Kubernetes Platform and engineering leadership, including Varun Belur Sudhindra and Archana Ganesan.",
+      "resume_theme": {
+        "name": "Hybrid Multi-Cloud Platform Staff IC",
+        "positioning": "Position as a Staff platform engineer for hybrid/multi-cloud operational platforms: Salesforce proactive diagnostics, anomaly detection alerts, AM agent federation/Internal IDE automation, Brane cloud/on-prem platform, and Jupiter high-scale backend systems.",
+        "key_pointers": [
+          "Lead with Salesforce proactive diagnostics and anomaly detection alerts to match Nutanix Cloud Manager anomaly detection and operational automation.",
+          "Use AM agent federation/Internal IDE/Unleash as developer/operator productivity and governance automation proof.",
+          "Map NFR, roadmap, customer interaction, and design/RFC ownership to PMTS-level technical leadership.",
+          "Use Brane/Jupiter/Salesforce platform evidence for distributed systems, cloud, messaging, reliability, and scale."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "Salesforce proactive diagnostics and anomaly detection alerts evidence",
+          "Salesforce AM agent federation and Internal IDE/Unleash work",
+          "Brane enterprise/on-prem platform evidence"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-nutanix-staff-engineer-dev-56399205/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-nutanix-staff-engineer-dev-56399205/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680",
+      "job_id": "linkedin-4431598008",
+      "dedupe_key": "linkedin:4431598008",
+      "source": "linkedin",
+      "source_job_id": "4431598008",
+      "source_url": "https://www.linkedin.com/jobs/view/4431598008",
+      "company": "Nutanix",
+      "role": "Senior Staff Engineer (15+ years of experience)",
+      "location": "Pune Division, Maharashtra, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1304-ic-nutanix",
+      "approved_at": "2026-07-04T13:09:36Z",
+      "updated_at": "2026-07-04T13:09:36Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent Senior Staff infrastructure fit: 15+ years, Nutanix Distributed Storage Fabric / Core Data Path, shared-nothing distributed file systems, Kubernetes-native storage, HCI/hybrid cloud, AI workload storage, performance/scale/resiliency, failure recovery, production customer troubleshooting, and mentoring/technical direction for 15-20 engineers.",
+      "people": [
+        {
+          "name": "Harihara Sricharan",
+          "relationship": "LinkedIn company result / direct connection signal",
+          "role": "Works at Nutanix",
+          "profile_url": "",
+          "notes": "Company search showed Harihara Sricharan and one other connection work at Nutanix."
+        },
+        {
+          "name": "Anand Bhat",
+          "relationship": "2nd-degree",
+          "role": "Senior Staff Engineer at Nutanix",
+          "profile_url": "",
+          "notes": "Relevant Senior Staff engineering contact surfaced in LinkedIn people search with mutual connections."
+        },
+        {
+          "name": "Krishna Pandey",
+          "relationship": "2nd-degree",
+          "role": "Senior Member of Technical Staff at Nutanix; ex-NetApp",
+          "profile_url": "https://www.linkedin.com/in/krishna-pandey-40169030/",
+          "notes": "Relevant distributed systems/storage-adjacent contact with mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Harihara Sricharan and one other connection work at Nutanix. People search found 2nd-degree Nutanix engineering contacts including Anand Bhat, Senior Staff Engineer, and Krishna Pandey, Senior MTS/ex-NetApp.",
+      "resume_theme": {
+        "name": "Distributed Storage Senior Staff IC",
+        "positioning": "Position as a Senior Staff platform engineer for cloud-scale distributed infrastructure: Salesforce Hyperforce alerting/control-plane reliability, Brane enterprise SaaS/on-prem platform, Jupiter high-scale backend correctness, and production diagnostics.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce multi-region alerting, tenant-safe evaluation, proactive diagnostics, anomaly detection, and production reliability ownership.",
+          "Use Brane enterprise SaaS/on-prem distribution across Nutanix, Kafka, TiDB, ScyllaDB, ClickHouse, Glue, and S3 for platform breadth.",
+          "Map Nutanix DSF/Core Data Path to distributed systems fundamentals: concurrency, fault tolerance, scale-out, observability, and customer production debugging.",
+          "Keep storage-specific claims precise; emphasize adjacent ownership of high-throughput, resilient platform systems rather than kernel/filesystem implementation unless directly evidenced."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "Brane enterprise/on-prem infrastructure and security readiness evidence",
+          "Salesforce Hyperforce alerting, proactive diagnostics, anomaly detection alerts, and multi-region rollout evidence",
+          "Jupiter high-scale payments/backend reliability evidence"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-f5-principal-software-development-engin-50c0e123",
       "job_id": "linkedin-4362791763",
