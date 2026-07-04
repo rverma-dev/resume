@@ -1,9 +1,242 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T05:14:18Z",
+  "updated_at": "2026-07-04T05:38:37Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-abnormal-ai-staff-software-engineer-mpp-growth-fc37d8ce",
+      "job_id": "linkedin-4381540155",
+      "dedupe_key": "linkedin:4381540155",
+      "source": "linkedin",
+      "source_job_id": "4381540155",
+      "source_url": "https://www.linkedin.com/jobs/view/4381540155",
+      "company": "Abnormal AI",
+      "role": "Staff Software Engineer - MPP Growth",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-staff-plus-ic-0534",
+      "approved_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-04T05:37:16Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong Staff IC role at a high-growth AI security company: multi-product platform, customer journey systems, distributed applications across multiple data centers, operational SLAs, technical leadership for 15+ engineers, and enterprise security/customer-facing platform impact.",
+      "people": [
+        {
+          "name": "Aarthi Balaraman",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Lead Recruiter at Sarvam; ex-Abnormal AI, Google, Rubrik",
+          "profile_url": "https://www.linkedin.com/in/aarthibalaraman/",
+          "notes": "LinkedIn people search showed 32 mutual connections and ex-Abnormal AI recruiter signal."
+        }
+      ],
+      "connections_summary": "LinkedIn people search found an ex-Abnormal AI recruiter with strong mutual-connection signal; no outreach was performed.",
+      "resume_theme": {
+        "name": "Staff AI security platform and distributed SaaS systems",
+        "positioning": "Position around enterprise SaaS platform ownership, security-adjacent systems, distributed applications, operational SLAs, and AI platform leverage.",
+        "key_pointers": [
+          "Lead with enterprise SaaS and platform systems impact from Salesforce PMTS work.",
+          "Use anomaly detection alerts, proactive diagnostics, and testing automation to show operational SLAs and reliability.",
+          "Use AM agent federation and Internal IDE as AI platform leverage, not as unrelated side projects.",
+          "Use Brane/Jupiter/Niki to show small-team ownership of customer-facing and financial-grade systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-abnormal-ai-staff-software-engineer-mpp-growth-fc37d8ce/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-abnormal-ai-staff-software-engineer-mpp-growth-fc37d8ce/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-cadence-sr-principal-software-engineer-c2a4af02",
+      "job_id": "linkedin-4416515399",
+      "dedupe_key": "linkedin:4416515399",
+      "source": "linkedin",
+      "source_job_id": "4416515399",
+      "source_url": "https://www.linkedin.com/jobs/view/4416515399",
+      "company": "Cadence",
+      "role": "Sr Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-staff-plus-ic-0534",
+      "approved_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-04T05:37:16Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Sr Principal AI-agent infrastructure fit: Cadence ChipStack SuperAgent team, scalable agent infrastructure, evaluation systems, RAG/data pipelines, context engineering, observability, CI/testing, production LLM reliability, and high-performance engineering workflows.",
+      "people": [
+        {
+          "name": "Indian Institute of Technology, Kharagpur alumni",
+          "relationship": "school alumni signal",
+          "role": "Cadence network signal",
+          "profile_url": "",
+          "notes": "LinkedIn job detail showed IIT Kharagpur school alumni reachability."
+        }
+      ],
+      "connections_summary": "LinkedIn job detail surfaced IIT Kharagpur alumni reachability; no named recruiter or hiring manager was captured in this pass.",
+      "resume_theme": {
+        "name": "Sr Principal AI-agent infrastructure and evaluation systems",
+        "positioning": "Position around agentic AI infrastructure, evaluation systems, RAG/data pipelines, observability, testing automation, and production-grade reliability for complex engineering workflows.",
+        "key_pointers": [
+          "Lead with AM agent federation, Internal IDE, Unleash, and proactive diagnostics as agentic workflow systems.",
+          "Use anomaly detection alerts and testing automation to show evaluation, observability, and regression discipline.",
+          "Use PMTS platform ownership to show architecture depth beyond prompt engineering.",
+          "Mention distributed systems and production reliability before domain-specific EDA language."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-cadence-sr-principal-software-engineer-c2a4af02/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-cadence-sr-principal-software-engineer-c2a4af02/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-oracle-lead-principal-engineer-0df55b22",
+      "job_id": "linkedin-4427299055",
+      "dedupe_key": "linkedin:4427299055",
+      "source": "linkedin",
+      "source_job_id": "4427299055",
+      "source_url": "https://www.linkedin.com/jobs/view/4427299055",
+      "company": "Oracle",
+      "role": "Lead Principal Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-staff-plus-ic-0534",
+      "approved_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-04T05:37:16Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent Principal/IC5 cloud infrastructure fit: OCI Compute control plane, distributed multi-tenant systems, multi-region scalability, SLOs, latency/durability, automation, observability, self-healing mechanisms, and cross-team technical roadmap ownership.",
+      "people": [
+        {
+          "name": "Manish Agrawal",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Principal Member of Technical Staff at Oracle",
+          "profile_url": "https://www.linkedin.com/in/manishkagrawal/",
+          "notes": "LinkedIn people search showed 6 mutual connections."
+        },
+        {
+          "name": "Mohan Kumar L N",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Principal Member of Technical Staff at Oracle Cloud; ex-Databricks",
+          "profile_url": "https://www.linkedin.com/in/reachmohan-now/",
+          "notes": "LinkedIn people search showed Oracle Cloud PMTS signal and mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn people search found Oracle PMTS/Oracle Cloud contacts; no named recruiter was captured in this pass.",
+      "resume_theme": {
+        "name": "Principal OCI compute control plane and distributed systems",
+        "positioning": "Position around PMTS-level distributed systems architecture, multi-region rollout, control-plane reliability, observability, automation, and operational excellence.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS platform ownership, Hyperforce-scale SaaS systems, and multi-region rollout experience.",
+          "Use proactive diagnostics, anomaly detection alerts, and testing automation to show SLO/observability/self-healing depth.",
+          "Use Brane/Jupiter/Niki platform history for control-plane, secure systems, and small-team architecture ownership.",
+          "Keep AI platform work as a differentiator while making distributed compute/control-plane fit obvious."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-oracle-lead-principal-engineer-0df55b22/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-oracle-lead-principal-engineer-0df55b22/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-oracle-principal-software-engineer-27875304",
+      "job_id": "linkedin-4435734475",
+      "dedupe_key": "linkedin:4435734475",
+      "source": "linkedin",
+      "source_job_id": "4435734475",
+      "source_url": "https://www.linkedin.com/jobs/view/4435734475",
+      "company": "Oracle",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-staff-plus-ic-0534",
+      "approved_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-04T05:38:37Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Excellent Principal IC fit: OCI Developer Tools role building agentic AI-powered developer tools across code, debug, test, deploy, automation, cloud diagnostics, RAG, tool use, workflow orchestration, evaluation, telemetry, guardrails, and enterprise safety. Directly maps to Internal IDE, Unleash, AM agent federation, proactive diagnostics, and platform-scale AI systems.",
+      "people": [
+        {
+          "name": "Manish Agrawal",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Principal Member of Technical Staff at Oracle",
+          "profile_url": "https://www.linkedin.com/in/manishkagrawal/",
+          "notes": "LinkedIn people search showed 6 mutual connections."
+        },
+        {
+          "name": "Mohan Kumar L N",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Principal Member of Technical Staff at Oracle Cloud; ex-Databricks",
+          "profile_url": "https://www.linkedin.com/in/reachmohan-now/",
+          "notes": "LinkedIn people search showed Oracle Cloud PMTS signal and mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn job detail showed Pradipta and others in network. People search found 2nd-degree Oracle PMTS/Oracle Cloud contacts, but no outreach was performed.",
+      "resume_theme": {
+        "name": "Principal agentic developer tools and OCI-style cloud diagnostics",
+        "positioning": "Position around Internal IDE, Unleash, AM agent federation, proactive diagnostics, anomaly detection alerts, evaluation/telemetry loops, and safe agentic workflows for enterprise cloud engineering.",
+        "key_pointers": [
+          "Lead with agentic developer-platform work: Internal IDE, Unleash, AM agent federation, and AI-assisted engineering workflows.",
+          "Use proactive diagnostics and anomaly detection alerts as evidence of cloud diagnostics, telemetry, evaluation, and operational intelligence.",
+          "Show PMTS-level architecture ownership across distributed systems, reliability, and enterprise SaaS constraints.",
+          "Emphasize safety controls, auditability, workflow orchestration, and human-in-the-loop patterns where evidence supports them."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "resume_snapshot_path": "applications/resumes/app-20260704-oracle-principal-software-engineer-27875304/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-oracle-principal-software-engineer-27875304/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn Apply resolved to Oracle Careers job 338819, titled Principal Platform Software Engineer, and the Oracle job page was active.",
+        "Oracle Careers reached /apply/email authentication screen requiring email or phone, profile creation/maintenance consent, and agreement to terms before continuing. User action-time review is required before entering contact data or accepting terms."
+      ],
+      "status_reason": "Application not submitted. LinkedIn Apply resolved to Oracle Careers job 338819, titled Principal Platform Software Engineer, and the Oracle job page was active.",
+      "last_status_update_id": "status-20260704-oracle-agentic-devtools-auth-gate",
+      "manual_action_required": true,
+      "manual_action_reason": "Oracle Careers reached /apply/email authentication screen requiring email or phone, profile creation/maintenance consent, and agreement to terms before continuing. User action-time review is required before entering contact data or accepting terms.",
+      "manual_action_at": "2026-07-04T05:38:37Z"
+    },
     {
       "application_id": "app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e",
       "job_id": "job-google-deepmind-staff-developer-experience-engineer-d234ad0e",
