@@ -1,9 +1,136 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-04T10:24:47Z",
+  "updated_at": "2026-07-04T10:39:27Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260704-equinix-principal-devsecops-platform-enginee-547aa025",
+      "job_id": "linkedin-4419242960",
+      "dedupe_key": "linkedin:4419242960",
+      "source": "linkedin",
+      "source_job_id": "4419242960",
+      "source_url": "https://www.linkedin.com/jobs/view/4419242960",
+      "company": "Equinix",
+      "role": "Principal DevSecOps Platform Engineer - AI Automation",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1034-ic-principal-platform",
+      "approved_at": "2026-07-04T10:39:27Z",
+      "updated_at": "2026-07-04T10:39:27Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Excellent Staff+/Principal IC fit: platform engineering, enterprise CI/CD, secure SDLC, policy-as-code, Kubernetes, cloud infrastructure, RAG, agent workflows, AI operational automation, observability, and org-wide technical influence.",
+      "people": [],
+      "connections_summary": "LinkedIn result shows school alumni at Equinix; no direct connection captured.",
+      "resume_theme": {
+        "name": "AI DevSecOps Platform Principal",
+        "positioning": "Tailor around Salesforce Hyperforce platform operations, governed agentic diagnostics, test automation, compliance/security platform governance, and multi-tenant observability automation.",
+        "key_pointers": [
+          "Lead with Anypoint Monitoring Alerts: multi-tenant evaluations, cost reduction, regional rollouts, and reliability controls.",
+          "Highlight proactive diagnostics / agent federation: RAG, source-referenced AI diagnoses, sandboxing, governance, budgets, audit/cost controls.",
+          "Use Jupiter SIEM/compliance and Brane DevOps/SRE/security org leadership as DevSecOps governance evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Principal Architect, Jupiter Money",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-equinix-principal-devsecops-platform-enginee-547aa025/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-equinix-principal-devsecops-platform-enginee-547aa025/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-autodesk-principal-software-engineer-a04ab883",
+      "job_id": "linkedin-4426942231",
+      "dedupe_key": "linkedin:4426942231",
+      "source": "linkedin",
+      "source_job_id": "4426942231",
+      "source_url": "https://www.linkedin.com/jobs/view/4426942231",
+      "company": "Autodesk",
+      "role": "Principal Software Engineer",
+      "location": "Pune Division, Maharashtra, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1034-ic-principal-platform",
+      "approved_at": "2026-07-04T10:39:27Z",
+      "updated_at": "2026-07-04T10:39:27Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 84,
+      "fit_reason": "Principal IC title at a strong product company with Easy Apply. LinkedIn did not expose detailed JD in the captured view, so fit is title/company-level with verification required before final submission.",
+      "people": [],
+      "connections_summary": "No connection signal captured in the visible LinkedIn detail view.",
+      "resume_theme": {
+        "name": "Principal Platform Engineer",
+        "positioning": "Keep this as a broad principal IC resume: multi-tenant platform architecture, AI engineering systems, observability, distributed systems, and payments-scale reliability.",
+        "key_pointers": [
+          "Lead with PMTS Salesforce platform ownership and 15-RFC architecture program.",
+          "Use AI/internal IDE and governed agentic systems to show current platform innovation.",
+          "Use Brane/Jupiter/Niki scale stories for older broad product/platform depth."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-autodesk-principal-software-engineer-a04ab883/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-autodesk-principal-software-engineer-a04ab883/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
+    {
+      "application_id": "app-20260704-broadcom-kubernetes-platform-architect-india-1e82676a",
+      "job_id": "linkedin-4428416172",
+      "dedupe_key": "linkedin:4428416172",
+      "source": "linkedin",
+      "source_job_id": "4428416172",
+      "source_url": "https://www.linkedin.com/jobs/view/4428416172",
+      "company": "Broadcom",
+      "role": "Kubernetes Platform Architect (India, Bangalore, Remote)",
+      "location": "Bengaluru, Karnataka, India / Remote",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260704-1034-ic-principal-platform",
+      "approved_at": "2026-07-04T10:39:27Z",
+      "updated_at": "2026-07-04T10:39:27Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 88,
+      "fit_reason": "High-comp target company with enterprise Kubernetes/VCF platform architecture, customer modernization, reference architectures, DevOps, security, and executive-facing technical leadership. Strong platform/SRE/Kubernetes fit, with customer-facing/travel risk.",
+      "people": [],
+      "connections_summary": "LinkedIn result shows 77 school alumni at Broadcom.",
+      "resume_theme": {
+        "name": "Enterprise Kubernetes Platform Architect",
+        "positioning": "Position around multi-tenant Kubernetes/SaaS platform architecture, Hyperforce regional rollout, SRE/DevOps governance, and enterprise customer-grade platform adoption.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce platform work: 60+ AMP workspaces, multi-region rollout, LaunchDarkly Relay Proxy, and tenant-safe platform operations.",
+          "Use Brane PaaS/on-prem distribution and DevOps/SRE org scale as enterprise platform modernization proof.",
+          "Emphasize customer-grade governance: security, compliance, reference architecture, observability, and rollout controls."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260704-broadcom-kubernetes-platform-architect-india-1e82676a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260704-broadcom-kubernetes-platform-architect-india-1e82676a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260704-cvent-technical-architect-ai-bengaluru-1221e5db",
       "job_id": "linkedin-4330711515",
