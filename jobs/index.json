@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T08:12:06Z",
-  "active_batch_id": "batch-20260704-0804-ic-staff-plus",
-  "last_scheduler_run_at": "2026-07-04T08:11:53Z",
+  "updated_at": "2026-07-04T08:48:39Z",
+  "active_batch_id": "batch-20260704-0834-ic-staff-plus",
+  "last_scheduler_run_at": "2026-07-04T08:48:25Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 10,
+  "jobs_per_scheduler_run": 6,
   "jobs": [
     {
       "job_id": "linkedin-4426808289",
@@ -5429,6 +5429,366 @@
       "updated_at": "2026-07-04T01:39:31Z",
       "notes": [
         "LinkedIn details captured 2026-07-04: posted 2 days ago, 18 people clicked apply, responses managed off LinkedIn, Amazon Job ID A10463881."
+      ]
+    },
+    {
+      "job_id": "linkedin-4413627244",
+      "dedupe_key": "linkedin:4413627244",
+      "source": "linkedin",
+      "source_job_id": "4413627244",
+      "source_url": "https://www.linkedin.com/jobs/view/4413627244",
+      "company": "NiCE",
+      "role": "Principal Software Architect",
+      "location": "Pune City, Maharashtra, India",
+      "work_type": "hybrid",
+      "experience_level": "Principal / Staff Architect IC",
+      "compensation_signals": [
+        "Principal architect IC role at a global enterprise SaaS company; no public salary range visible.",
+        "Posting asks for 17+ years plus 5+ years as Principal or Staff Architect, indicating a senior band.",
+        "Role Type is explicitly Individual Contributor and covers flagship enterprise product architecture."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0834-ic-staff-plus",
+      "fit_score": 98,
+      "fit_reason": "Excellent next-level IC fit: explicit Principal Software Architect, enterprise SaaS used by millions, multi-tenant cloud, event-driven orchestration, SLA/SLO ownership, observability, security/compliance, and direct agentic AI architecture using LLM pipelines, RAG, multi-agent workflows, and AI-assisted engineering.",
+      "fit_signals": [
+        "Principal Software Architect IC",
+        "17+ years seniority signal",
+        "agentic AI and multi-agent workflows",
+        "multi-tenant SaaS on AWS",
+        "SLOs, observability, failure-mode analysis",
+        "security architecture and AI guardrails",
+        "Java, Python, full-stack architecture"
+      ],
+      "risk_flags": [
+        "Pune hybrid expectations need practical feasibility check.",
+        "Application is managed off LinkedIn and may require company portal login plus legal, EEO, work authorization, or compensation answers before submission."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed over 100 people clicked apply; no direct named connection captured in this pass.",
+      "resume_theme": {
+        "name": "Principal enterprise agentic AI SaaS architect",
+        "positioning": "Lead with Salesforce AM agent federation, Internal IDE/Unleash, proactive diagnostics, anomaly detection alerts, and multi-region platform reliability as evidence for principal-level agentic AI and enterprise SaaS architecture.",
+        "key_pointers": [
+          "Frame AM agent federation and governed multi-agent systems as the strongest match for agent orchestration, guardrails, RAG, and LLM pipelines.",
+          "Use proactive diagnostics, anomaly detection alerts, and testing automation to prove observability, SLO ownership, failure analysis, and production AI reliability.",
+          "Use Hyperforce multi-region rollouts and 50K-100K concurrent evaluation scale as distributed systems and resilience evidence.",
+          "Highlight secure multi-tenant SaaS, compliance, CI/CD guardrails, and platform architecture reviews."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-nice-principal-software-architect-2bd6b161",
+      "resume_snapshot_path": "applications/resumes/app-20260704-nice-principal-software-architect-2bd6b161/resume.md",
+      "discovered_at": "2026-07-04T08:48:25Z",
+      "updated_at": "2026-07-04T08:48:39Z",
+      "notes": [
+        "Net-new source ID and no semantic equivalent found for NiCE in the tracker during the 08:34 heartbeat."
+      ]
+    },
+    {
+      "job_id": "linkedin-4435159311",
+      "dedupe_key": "linkedin:4435159311",
+      "source": "linkedin",
+      "source_job_id": "4435159311",
+      "source_url": "https://www.linkedin.com/jobs/view/4435159311",
+      "company": "TMUS Global Solutions",
+      "role": "Principal Engineer - Agentic AI [T500-27209]",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "on_site",
+      "experience_level": "Principal Engineer IC",
+      "compensation_signals": [
+        "Principal Engineer role for T-Mobile's global technology organization; no public salary range visible.",
+        "Enterprise AI architecture, strategy, and large-scale deployment scope suggests senior IC band.",
+        "Posting is Easy Apply and had over 100 applicants."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0834-ic-staff-plus",
+      "fit_score": 95,
+      "fit_reason": "Strong principal AI architecture fit: enterprise AI strategy, LLM applications, RAG, LangChain/LlamaIndex orchestration, vector databases, reusable AI components, governance, monitoring, responsible AI, and executive/business leader influence.",
+      "fit_signals": [
+        "Principal Engineer - Agentic AI",
+        "enterprise AI architecture and strategy",
+        "LLM applications, RAG, vector databases",
+        "LangChain and LlamaIndex",
+        "AI monitoring and KPIs",
+        "responsible AI, data security, governance",
+        "cross-functional leadership"
+      ],
+      "risk_flags": [
+        "On-site Hyderabad requirement needs feasibility check.",
+        "Could skew toward enterprise architecture/integration rather than deep platform product engineering; tailor around production systems and developer platforms."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed over 100 applicants; no direct named connection captured in this pass.",
+      "resume_theme": {
+        "name": "Principal agentic AI enterprise architecture",
+        "positioning": "Use current Salesforce AI platform work as an enterprise-scale agentic AI transformation story spanning strategy, production deployment, governance, and measurable business outcomes.",
+        "key_pointers": [
+          "Lead with AM agent federation, governed multi-agent systems, and Internal IDE/Unleash.",
+          "Show production rollout discipline through proactive diagnostics, anomaly detection alerts, monitoring, KPIs, and guardrails.",
+          "Emphasize reusable components, RFC/ADR standards, and mentoring across engineering teams.",
+          "Frame operational and customer signals as the data foundation for decision intelligence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260704-tmus-global-solutions-principal-engineer-agentic-ai-t500-2-2ff63578",
+      "resume_snapshot_path": "applications/resumes/app-20260704-tmus-global-solutions-principal-engineer-agentic-ai-t500-2-2ff63578/resume.md",
+      "discovered_at": "2026-07-04T08:48:25Z",
+      "updated_at": "2026-07-04T08:48:39Z",
+      "notes": [
+        "Precise agentic AI Principal IC query result; net-new in tracker."
+      ]
+    },
+    {
+      "job_id": "linkedin-4435450065",
+      "dedupe_key": "linkedin:4435450065",
+      "source": "linkedin",
+      "source_job_id": "4435450065",
+      "source_url": "https://www.linkedin.com/jobs/view/4435450065",
+      "company": "Outreach",
+      "role": "Staff Applied Scientist - Knowledge Graphs & AI",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "remote",
+      "experience_level": "Staff AI IC",
+      "compensation_signals": [
+        "Staff IC role at an AI-first revenue platform with RSU program explicitly mentioned.",
+        "Posting says highly competitive salary; no exact range visible.",
+        "Role has greenfield core AI architecture scope and 34 applicants at capture time."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0834-ic-staff-plus",
+      "fit_score": 94,
+      "fit_reason": "Strong AI platform fit if positioned toward applied systems rather than pure research: agentic AI platform, per-tenant contextual knowledge graphs, reasoning systems, information extraction, recommendations, production reliability, monitoring, data drift, latency, and cross-functional engineering/product impact.",
+      "fit_signals": [
+        "Staff Applied Scientist",
+        "agentic AI platform",
+        "knowledge graphs and reasoning systems",
+        "per-tenant contextual graph architecture",
+        "entity resolution, temporal modeling, ontology design",
+        "production model operations",
+        "RSU and competitive salary signal"
+      ],
+      "risk_flags": [
+        "PhD/research expectation may be a fit risk if screened narrowly.",
+        "Tailor must emphasize production systems, graph/context architecture, and AI platform delivery rather than claiming academic research credentials."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 34 applicants and Outreach's agentic AI positioning; no direct named connection captured in this pass.",
+      "resume_theme": {
+        "name": "Context graph and agentic AI platform systems",
+        "positioning": "Position current work as production context architecture for agents: federation, operational signal mining, proactive diagnostics, anomaly detection, and enterprise knowledge/context systems.",
+        "key_pointers": [
+          "Use AM agent federation and governed multi-agent systems as the agentic platform anchor.",
+          "Map proactive diagnostics, anomaly detection alerts, and MDAS/RFC work to signal extraction, context modeling, and operational reasoning.",
+          "Emphasize production reliability: drift, latency, monitoring, evaluation, and human-in-the-loop guardrails.",
+          "Avoid overstating research credentials; focus on applied architecture and shipped systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-outreach-staff-applied-scientist-knowledge-gr-cefae26f",
+      "resume_snapshot_path": "applications/resumes/app-20260704-outreach-staff-applied-scientist-knowledge-gr-cefae26f/resume.md",
+      "discovered_at": "2026-07-04T08:48:25Z",
+      "updated_at": "2026-07-04T08:48:39Z",
+      "notes": [
+        "Added as a stretch AI IC role because Staff scope and agentic platform content are strong despite scientist-title risk."
+      ]
+    },
+    {
+      "job_id": "linkedin-4330711515",
+      "dedupe_key": "linkedin:4330711515",
+      "source": "linkedin",
+      "source_job_id": "4330711515",
+      "source_url": "https://www.linkedin.com/jobs/view/4330711515",
+      "company": "Cvent",
+      "role": "Technical Architect - AI (Bengaluru)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "Technical Architect / Staff-plus IC",
+      "compensation_signals": [
+        "Architect AI role at a 5,000+ employee enterprise SaaS provider; no salary range visible.",
+        "Posting requires 12+ years and strategic AI architecture ownership.",
+        "Role is actively reviewing applicants and Easy Apply on LinkedIn."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0834-ic-staff-plus",
+      "fit_score": 92,
+      "fit_reason": "Strong AI architecture fit: LLMs, agents, RAG, eval frameworks, enterprise SaaS integration, Java/TypeScript/AWS/CDK, AI standards, developer productivity tooling, and long-term AI technology decision-making.",
+      "fit_signals": [
+        "Technical Architect - AI",
+        "LLMs, agents, RAG, evaluation frameworks",
+        "enterprise SaaS AI features",
+        "Java, TypeScript, AWS, CDK/CloudFormation",
+        "AI best practices and reuse",
+        "developer productivity automation"
+      ],
+      "risk_flags": [
+        "Title may map below Principal at some companies, so compensate by tailoring for cross-org architecture scope.",
+        "Compensation signal is weaker than top-tier product companies until recruiter confirms band."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed active applicant review; no direct named connection captured in this pass.",
+      "resume_theme": {
+        "name": "Enterprise AI architect and developer productivity",
+        "positioning": "Position as an AI platform architect who turns internal/customer operational signals into production LLM, RAG, agent, evaluation, and developer productivity systems.",
+        "key_pointers": [
+          "Use Internal IDE/Unleash as the developer productivity and AI-augmented engineering proof point.",
+          "Use AM agent federation, proactive diagnostics, and anomaly detection alerts to show enterprise AI platformization.",
+          "Emphasize AI evals, testing automation, RFC/ADR authorship, and standards reusable across teams.",
+          "Map AWS/cloud-native platform ownership and Java/TypeScript-adjacent full-stack experience to Cvent's stack."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-cvent-technical-architect-ai-bengaluru-1221e5db",
+      "resume_snapshot_path": "applications/resumes/app-20260704-cvent-technical-architect-ai-bengaluru-1221e5db/resume.md",
+      "discovered_at": "2026-07-04T08:48:25Z",
+      "updated_at": "2026-07-04T08:48:39Z",
+      "notes": [
+        "Kept despite comp uncertainty because the AI architecture scope matches current Salesforce work closely."
+      ]
+    },
+    {
+      "job_id": "linkedin-4407011818",
+      "dedupe_key": "linkedin:4407011818",
+      "source": "linkedin",
+      "source_job_id": "4407011818",
+      "source_url": "https://www.linkedin.com/jobs/view/4407011818",
+      "company": "Intuit",
+      "role": "Principal AI Scientist - GTM Tech",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Principal AI IC",
+      "compensation_signals": [
+        "Principal AI role at Intuit with cash bonus and equity rewards explicitly mentioned.",
+        "Posting asks for executive influence, multi-year vision, ML platform strategy, and mission-critical AI solutions.",
+        "Over 100 people clicked apply; no salary range visible."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0834-ic-staff-plus",
+      "fit_score": 89,
+      "fit_reason": "Strong seniority and compensation signal with partial thematic fit: principal AI leadership, multi-year technology vision, ML platform architecture, large datasets, model deployment, executive influence, and operational rigor. Fit is lower than platform engineering roles because GTM/marketing AI and scientist title may screen for ML research depth.",
+      "fit_signals": [
+        "Principal AI Scientist",
+        "cash bonus and equity rewards",
+        "ML platform architecture and strategy",
+        "multi-year product and technology vision",
+        "executive influence",
+        "large datasets and ML pipelines",
+        "design reviews and operational rigor"
+      ],
+      "risk_flags": [
+        "GTM/marketing AI domain may be less aligned with infrastructure/platform narrative.",
+        "Scientist screening may expect deeper ML publications or formal research credentials; tailor toward applied ML platform leadership without overstating."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search showed 151 company alumni for Intuit roles; no direct named connection captured in this pass.",
+      "resume_theme": {
+        "name": "Principal applied AI platform and business signal systems",
+        "positioning": "Frame the Salesforce work around business and operational decision velocity: customer/operational signals, agentic AI, proactive diagnostics, anomaly detection, and ML/AI platform governance.",
+        "key_pointers": [
+          "Use Internal IDE/Unleash and AM agent federation to show applied AI systems that improve engineering/product decisions.",
+          "Map proactive diagnostics and anomaly alerts to large-scale signal processing, business impact, and operational rigor.",
+          "Emphasize multi-year platform vision, cross-functional influence, and reusable AI governance patterns.",
+          "Avoid overclaiming research depth; center shipped applied AI platform outcomes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-intuit-principal-ai-scientist-gtm-tech-b77c782f",
+      "resume_snapshot_path": "applications/resumes/app-20260704-intuit-principal-ai-scientist-gtm-tech-b77c782f/resume.md",
+      "discovered_at": "2026-07-04T08:48:25Z",
+      "updated_at": "2026-07-04T08:48:39Z",
+      "notes": [
+        "Added as a compensation-oriented Principal AI stretch role with clear fit risks documented."
+      ]
+    },
+    {
+      "job_id": "linkedin-4386838730",
+      "dedupe_key": "linkedin:4386838730",
+      "source": "linkedin",
+      "source_job_id": "4386838730",
+      "source_url": "https://www.linkedin.com/jobs/view/4386838730",
+      "company": "Netskope",
+      "role": "Staff SRE, DNS Specialist, Platform Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "remote",
+      "experience_level": "Staff Platform/SRE IC",
+      "compensation_signals": [
+        "Staff IC role at a cloud security and networking company; no salary range visible.",
+        "Remote India role in a global platform engineering organization.",
+        "Netskope platform/security market is a plausible high-comp target, subject to band confirmation."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0834-ic-staff-plus",
+      "fit_score": 86,
+      "fit_reason": "Good platform/security fit but less AI-specific: Staff SRE role for global DNS infrastructure, cloud security platform reliability, DNSSEC, automation, Prometheus observability, incident response, multi-datacenter/CDN-style environments, and production platform engineering.",
+      "fit_signals": [
+        "Staff SRE",
+        "Platform Engineering",
+        "global DNS infrastructure",
+        "security cloud infrastructure",
+        "DNSSEC, BIND, PowerDNS",
+        "Prometheus monitoring and alerting",
+        "automation and infrastructure as code"
+      ],
+      "risk_flags": [
+        "Specialist DNS/SRE role has lower overlap with agentic AI platform work.",
+        "5+ year requirement is below desired seniority despite Staff title; keep as secondary target, not top priority."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed over 100 applicants and company context for Netskope security cloud; no direct named connection captured in this pass.",
+      "resume_theme": {
+        "name": "Staff platform reliability and security cloud SRE",
+        "positioning": "Use Salesforce alerting, anomaly detection, proactive diagnostics, Hyperforce multi-region operations, and Brane security/compliance platform work to show Staff-level reliability and security infrastructure ownership.",
+        "key_pointers": [
+          "Lead with proactive diagnostics, anomaly detection alerts, and alerting scale for observability/incident-prevention impact.",
+          "Use Hyperforce multi-region rollout and platform operations as global reliability evidence.",
+          "Use Brane security/compliance infrastructure and SaaS operations for cloud security context.",
+          "De-emphasize AI-specific content unless framed as operational intelligence and automation."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-netskope-staff-sre-dns-specialist-platform-en-966dc27f",
+      "resume_snapshot_path": "applications/resumes/app-20260704-netskope-staff-sre-dns-specialist-platform-en-966dc27f/resume.md",
+      "discovered_at": "2026-07-04T08:48:25Z",
+      "updated_at": "2026-07-04T08:48:39Z",
+      "notes": [
+        "Kept as a secondary high-comp security platform Staff role; explicit risk recorded for narrow DNS specialization."
       ]
     },
     {
