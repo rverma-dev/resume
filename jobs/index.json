@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T04:37:38Z",
-  "active_batch_id": "batch-20260704-google-play-games-heartbeat-0434",
-  "last_scheduler_run_at": "2026-07-04T04:37:22Z",
+  "updated_at": "2026-07-04T05:14:18Z",
+  "active_batch_id": "batch-20260704-staff-plus-ic-0504",
+  "last_scheduler_run_at": "2026-07-04T05:12:10Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 1,
+  "jobs_per_scheduler_run": 4,
   "jobs": [
     {
       "job_id": "linkedin-4426808289",
@@ -381,6 +381,308 @@
       "updated_at": "2026-07-03T20:08:06Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported despite Staff level because Databricks data-platform scope is distinct and target-company aligned."
+      ]
+    },
+    {
+      "job_id": "linkedin-4406149195",
+      "dedupe_key": "linkedin:4406149195",
+      "source": "linkedin",
+      "source_job_id": "4406149195",
+      "source_url": "https://www.linkedin.com/jobs/view/4406149195",
+      "company": "LinkedIn",
+      "role": "Sr. Staff Software Engineer, Machine Learning",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "senior_staff_ic",
+      "compensation_signals": [
+        "LinkedIn is a large global technology company and Senior Staff IC role is target-compensation-capable, though no exact salary range was visible in the LinkedIn posting.",
+        "Stretch-first leveling: Senior Staff is aligned with target current/next-level IC search."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-staff-plus-ic-0504",
+      "fit_score": 97,
+      "fit_reason": "Excellent Senior Staff AI/ML platform fit: technical leadership for large-scale ML systems across ranking, recommendations, personalization, generative AI, reinforcement learning, LLMs, experimentation, evaluation, robustness, and production health. Strong match to agentic systems, anomaly detection, proactive diagnostics, and platform-scale architecture.",
+      "fit_signals": [
+        "Senior Staff / technical roadmap ownership",
+        "LLMs, generative AI, search/recommendations, reinforcement learning",
+        "Production-grade ML systems, evaluation, post-production health",
+        "Cross-functional architecture and platform adoption"
+      ],
+      "risk_flags": [
+        "ML depth expectations may require positioning engineering leadership and production ML systems over pure research publication depth.",
+        "LinkedIn Easy Apply may require manual profile/resume upload confirmation before final submit."
+      ],
+      "people": [
+        {
+          "name": "Aditya Hegde",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Staff Software Engineer at LinkedIn",
+          "profile_url": "https://www.linkedin.com/in/hegde-aditya/",
+          "notes": "LinkedIn people search showed 17 mutual connections; useful for warm engineering context."
+        },
+        {
+          "name": "Piyush Masrani",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Software Engineering Manager at LinkedIn",
+          "profile_url": "https://www.linkedin.com/in/piyush-masrani/",
+          "notes": "LinkedIn people search showed 7 mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed active applicant review and over 100 applicants. People search found 2nd-degree LinkedIn engineering contacts, including Senior Staff and manager signals.",
+      "resume_theme": {
+        "name": "Senior Staff AI systems and production ML platform",
+        "positioning": "Position around AI platform systems, AM agent federation, proactive diagnostics, anomaly detection alerts, signal quality/evaluation loops, and production decision systems at Salesforce scale.",
+        "key_pointers": [
+          "Lead with production AI platform and agentic systems, not pure research.",
+          "Use anomaly detection alerts and proactive diagnostics as evidence of signal quality, evaluation, reliability, and post-production health.",
+          "Use Internal IDE and Unleash to show developer workflow intelligence and platform adoption.",
+          "Tie Jupiter/Niki customer-scale systems to ranking, personalization, and business-impact ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-linkedin-sr-staff-software-engineer-machine-l-622ade83",
+      "resume_snapshot_path": "applications/resumes/app-20260704-linkedin-sr-staff-software-engineer-machine-l-622ade83/resume.md",
+      "discovered_at": "2026-07-04T05:12:10Z",
+      "updated_at": "2026-07-04T05:14:18Z",
+      "notes": [
+        "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
+      ]
+    },
+    {
+      "job_id": "linkedin-4432187039",
+      "dedupe_key": "linkedin:4432187039",
+      "source": "linkedin",
+      "source_job_id": "4432187039",
+      "source_url": "https://www.linkedin.com/jobs/view/4432187039",
+      "company": "Coupang",
+      "role": "Sr Staff Backend Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "senior_staff_ic",
+      "compensation_signals": [
+        "Coupang is explicitly target-compensation-capable in recruiting/config.json for senior AI/platform roles; Senior Staff backend is a credible current/next-level IC.",
+        "No exact salary range was visible in the LinkedIn posting."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-staff-plus-ic-0504",
+      "fit_score": 94,
+      "fit_reason": "Strong Senior Staff backend/platform fit at a target-capable company: distributed systems, architecture quality, scalable highly available products, Java/Python/AWS, container-based testing environments, critical issue deep dives, and global-market platform work. Distinct from already tracked Coupang Gateway/GPU/observability roles.",
+      "fit_signals": [
+        "Senior Staff backend IC",
+        "Distributed systems and highly available architecture",
+        "Java/Python/AWS and container-based testing",
+        "Cross-geo engineering leadership and critical system issue ownership"
+      ],
+      "risk_flags": [
+        "Posting is broad backend/product-platform rather than specifically AI infrastructure; use platform reliability and distributed architecture theme.",
+        "Responses are managed off LinkedIn; application likely redirects to Coupang portal and may require manual legal/work authorization answers."
+      ],
+      "people": [
+        {
+          "name": "Matheen Ali",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Staff Software Engineer 2 at Coupang",
+          "profile_url": "https://www.linkedin.com/in/matheen-ali-55a4374b/",
+          "notes": "LinkedIn people search showed mutual connections."
+        },
+        {
+          "name": "Vatsal Goyal",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Staff Software Engineer at Coupang",
+          "profile_url": "https://www.linkedin.com/in/vatsal-goyal/",
+          "notes": "LinkedIn people search showed 5 mutual connections."
+        },
+        {
+          "name": "Debmalya Roy",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Staff Software Engineer at Coupang; Agentic AI",
+          "profile_url": "https://www.linkedin.com/in/debmalya-roy/",
+          "notes": "LinkedIn people search showed 8 mutual connections and agentic AI signal."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed over 100 people clicked apply. People search surfaced multiple 2nd-degree Coupang Staff Software Engineers in Bengaluru, including an Agentic AI signal.",
+      "resume_theme": {
+        "name": "Senior Staff backend and distributed platform",
+        "positioning": "Position around high-scale backend architecture, platform reliability, containerized testing, multi-region rollouts, proactive diagnostics, and production operations.",
+        "key_pointers": [
+          "Lead with distributed systems and PMTS-level architecture ownership.",
+          "Use proactive diagnostics, anomaly detection, and testing automation to show production operational depth.",
+          "Use Jupiter/Niki payment and product-scale backend stories to connect to commerce platform impact.",
+          "Frame AI platform and Internal IDE work as Staff-level platform leverage."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-coupang-sr-staff-backend-engineer-9f74afd4",
+      "resume_snapshot_path": "applications/resumes/app-20260704-coupang-sr-staff-backend-engineer-9f74afd4/resume.md",
+      "discovered_at": "2026-07-04T05:12:10Z",
+      "updated_at": "2026-07-04T05:12:25Z",
+      "notes": [
+        "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
+      ]
+    },
+    {
+      "job_id": "linkedin-4391895482",
+      "dedupe_key": "linkedin:4391895482",
+      "source": "linkedin",
+      "source_job_id": "4391895482",
+      "source_url": "https://www.linkedin.com/jobs/view/4391895482",
+      "company": "LinkedIn",
+      "role": "Sr. Staff Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "senior_staff_ic",
+      "compensation_signals": [
+        "LinkedIn is a large global technology company and Senior Staff IC role is target-compensation-capable, though no exact salary range was visible in the LinkedIn posting.",
+        "Stretch-first leveling: Senior Staff is aligned with target current/next-level IC search."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-staff-plus-ic-0504",
+      "fit_score": 93,
+      "fit_reason": "Strong Senior Staff platform fit for the next-gen financial platform: distributed transactions, secure multi-datacenter systems, compliance-sensitive architecture, shared technical stack, and cross-team technical leadership. Slightly below AI/platform roles because the domain is finance engineering rather than AI infrastructure.",
+      "fit_signals": [
+        "Senior Staff / technical leader role",
+        "Distributed applications and transaction management",
+        "Secure platform foundations across compliance-heavy business systems",
+        "Cross-team design patterns, mentorship, and shared technical stack"
+      ],
+      "risk_flags": [
+        "Domain is financial platforms, not core AI infra; resume should frame this as distributed platform architecture and reliability.",
+        "LinkedIn Easy Apply may require manual profile/resume upload confirmation before final submit."
+      ],
+      "people": [
+        {
+          "name": "Aditya Hegde",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Staff Software Engineer at LinkedIn",
+          "profile_url": "https://www.linkedin.com/in/hegde-aditya/",
+          "notes": "LinkedIn people search showed 17 mutual connections; useful for warm engineering context."
+        },
+        {
+          "name": "Piyush Masrani",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Software Engineering Manager at LinkedIn",
+          "profile_url": "https://www.linkedin.com/in/piyush-masrani/",
+          "notes": "LinkedIn people search showed 7 mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed active applicant review and over 100 applicants. People search found 2nd-degree LinkedIn engineering contacts for warm outreach.",
+      "resume_theme": {
+        "name": "Senior Staff distributed financial platform architecture",
+        "positioning": "Position around platform architecture, secure distributed transactions, operational maturity, automation, compliance-aware engineering, and multi-region systems ownership.",
+        "key_pointers": [
+          "Use Salesforce PMTS work to show Hyperforce-scale SaaS systems, telemetry, and reliability decisions.",
+          "Use Brane/Jupiter/Niki platform work to show secure financial/customer-scale systems and small-team architecture ownership.",
+          "Emphasize testing automation, multi-region rollouts, operational guardrails, and compliance-ready delivery.",
+          "Keep AI platform work as a differentiator but lead with distributed systems and architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-linkedin-sr-staff-software-engineer-f1e870f2",
+      "resume_snapshot_path": "applications/resumes/app-20260704-linkedin-sr-staff-software-engineer-f1e870f2/resume.md",
+      "discovered_at": "2026-07-04T05:12:10Z",
+      "updated_at": "2026-07-04T05:12:25Z",
+      "notes": [
+        "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
+      ]
+    },
+    {
+      "job_id": "job-google-deepmind-staff-developer-experience-engineer-d234ad0e",
+      "dedupe_key": "url:https://www.google.com/about/careers/applications/jobs/results/132507027548054214-staff-developer-experience-engineer-deepmind",
+      "source": "google_careers",
+      "source_job_id": "132507027548054214",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/132507027548054214-staff-developer-experience-engineer-deepmind",
+      "company": "Google DeepMind",
+      "role": "Staff Developer Experience Engineer, DeepMind",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "onsite",
+      "experience_level": "staff_ic",
+      "compensation_signals": [
+        "Google/DeepMind staff-level roles are target-compensation-capable per recruiting/config.json target-capable company policy, though no exact India salary range was visible.",
+        "Stretch-first leveling: Staff role is aligned with target IC search despite domain caveat."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-staff-plus-ic-0504",
+      "fit_score": 88,
+      "fit_reason": "Good Staff-level Google DeepMind fit for agentic developer platforms, internal IDE systems, developer workflow intelligence, and technical strategy across AI developer experience. Scored below core Staff SWE roles because the job is developer experience/developer relations oriented rather than primary backend/platform engineering.",
+      "fit_signals": [
+        "Staff-level Google DeepMind role in Bengaluru",
+        "Developer experience strategy and AI developer platforms",
+        "Agentic IDE and internal tooling relevance",
+        "Strong brand and compensation signal"
+      ],
+      "risk_flags": [
+        "Role appears developer experience / developer relations oriented; verify engineering depth and coding expectations before applying.",
+        "Not a core distributed systems or backend platform role; keep resume tailored toward agentic IDE, Unleash, and developer-platform leverage."
+      ],
+      "people": [
+        {
+          "name": "Om Shankar",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Applied AI at Google; Vertex AI Studio, DeepMind Web Agent SDKs",
+          "profile_url": "https://www.linkedin.com/in/omshiv/",
+          "notes": "LinkedIn people search showed direct topical relevance to DeepMind Web Agent SDKs."
+        },
+        {
+          "name": "Telmo Martins",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "People & Talent; ex Google and DeepMind",
+          "profile_url": "https://www.linkedin.com/in/martinstelmo/",
+          "notes": "LinkedIn people search surfaced a talent-side Google/DeepMind signal in UAE network."
+        },
+        {
+          "name": "Praveen Pillai",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter at Google; APAC Engineering Hiring",
+          "profile_url": "https://www.linkedin.com/in/praveen-pillai/",
+          "notes": "Prior Google people search surfaced APAC engineering hiring relevance."
+        }
+      ],
+      "connections_summary": "Official Google Careers posting verified. LinkedIn people search found Google/DeepMind topical and talent signals; no outreach performed.",
+      "resume_theme": {
+        "name": "Staff AI developer experience and agentic IDE platform",
+        "positioning": "Position around Internal IDE, Unleash, AM agent federation, agentic developer workflows, platform adoption, and AI systems that improve engineering and product decision velocity.",
+        "key_pointers": [
+          "Lead with Internal IDE and Unleash as developer-experience platform work.",
+          "Use AM agent federation and proactive diagnostics to show AI system design and operational signal integration.",
+          "Frame anomaly detection alerts as production feedback loops and reliability intelligence.",
+          "Keep distributed systems and PMTS platform ownership visible to avoid sounding purely devrel."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e",
+      "resume_snapshot_path": "applications/resumes/app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e/resume.md",
+      "discovered_at": "2026-07-04T05:12:10Z",
+      "updated_at": "2026-07-04T05:12:25Z",
+      "notes": [
+        "Official Google Careers posting verified on 2026-07-04; no external submission performed."
       ]
     },
     {

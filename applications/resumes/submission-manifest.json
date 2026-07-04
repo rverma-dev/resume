@@ -792,12 +792,30 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-coupang-sr-staff-backend-engineer-9f74afd4",
+    "company": "Coupang",
+    "role": "Sr Staff Backend Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4432187039",
+    "submitted_resume_md": "applications/resumes/app-20260704-coupang-sr-staff-backend-engineer-9f74afd4/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-coupang-sr-staff-backend-engineer-9f74afd4/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-ebay-principal-mts-architect-shipping-1cbaf4a8",
     "company": "eBay",
     "role": "Principal MTS Architect - Shipping",
     "source_url": "https://www.linkedin.com/jobs/view/4378146818",
     "submitted_resume_md": "applications/resumes/app-20260704-ebay-principal-mts-architect-shipping-1cbaf4a8/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-ebay-principal-mts-architect-shipping-1cbaf4a8/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e",
+    "company": "Google DeepMind",
+    "role": "Staff Developer Experience Engineer, DeepMind",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/132507027548054214-staff-developer-experience-engineer-deepmind",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e/submitted-resume.pdf",
     "pages": 2
   },
   {
@@ -951,6 +969,24 @@
     "source_url": "https://www.google.com/about/careers/applications/jobs/results/120997657656074950-staff-software-engineer-server-foundations",
     "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-server-found-28dc27fa/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-server-found-28dc27fa/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-linkedin-sr-staff-software-engineer-f1e870f2",
+    "company": "LinkedIn",
+    "role": "Sr. Staff Software Engineer",
+    "source_url": "https://www.linkedin.com/jobs/view/4391895482",
+    "submitted_resume_md": "applications/resumes/app-20260704-linkedin-sr-staff-software-engineer-f1e870f2/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-linkedin-sr-staff-software-engineer-f1e870f2/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-linkedin-sr-staff-software-engineer-machine-l-622ade83",
+    "company": "LinkedIn",
+    "role": "Sr. Staff Software Engineer, Machine Learning",
+    "source_url": "https://www.linkedin.com/jobs/view/4406149195",
+    "submitted_resume_md": "applications/resumes/app-20260704-linkedin-sr-staff-software-engineer-machine-l-622ade83/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-linkedin-sr-staff-software-engineer-machine-l-622ade83/submitted-resume.pdf",
     "pages": 2
   },
   {
