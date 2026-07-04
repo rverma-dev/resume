@@ -801,6 +801,33 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-google-staff-software-engineer-ads-b69111e3",
+    "company": "Google",
+    "role": "Staff Software Engineer, Ads",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/115093153412719302-staff-software-engineer-ads",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-ads-b69111e3/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-ads-b69111e3/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-analytics-fabb3946",
+    "company": "Google",
+    "role": "Staff Software Engineer, Analytics",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/110997468304286406-staff-software-engineer-analytics",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-analytics-fabb3946/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-analytics-fabb3946/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-cloud-sql-po-15c57a4d",
+    "company": "Google",
+    "role": "Staff Software Engineer, Cloud SQL Postgres",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/141782040461615814-staff-software-engineer-cloud-sql-postgres",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-cloud-sql-po-15c57a4d/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-cloud-sql-po-15c57a4d/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-google-staff-software-engineer-code-intelli-0bca1606",
     "company": "Google",
     "role": "Staff Software Engineer, Code Intelligence",
@@ -846,6 +873,15 @@
     "pages": 2
   },
   {
+    "application_id": "app-20260704-google-staff-software-engineer-google-one-s-dd207eee",
+    "company": "Google",
+    "role": "Staff Software Engineer, Google One Security Development",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/79831948754592454-staff-software-engineer-google-one-security-development",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-google-one-s-dd207eee/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-google-one-s-dd207eee/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
     "application_id": "app-20260704-google-staff-software-engineer-google-sdn-c-3a9b3dc3",
     "company": "Google",
     "role": "Staff Software Engineer, Google SDN Control Plane",
@@ -861,6 +897,15 @@
     "source_url": "https://www.google.com/about/careers/applications/jobs/results/137005277793657542-staff-software-engineer-infrastructure-google-cloud",
     "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-infrastructu-a45b5762/submitted-resume.md",
     "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-infrastructu-a45b5762/submitted-resume.pdf",
+    "pages": 2
+  },
+  {
+    "application_id": "app-20260704-google-staff-software-engineer-search-featu-ed937ca2",
+    "company": "Google",
+    "role": "Staff Software Engineer, Search Feature",
+    "source_url": "https://www.google.com/about/careers/applications/jobs/results/134835185437811398-staff-software-engineer-search-feature",
+    "submitted_resume_md": "applications/resumes/app-20260704-google-staff-software-engineer-search-featu-ed937ca2/submitted-resume.md",
+    "submitted_resume_pdf": "applications/resumes/app-20260704-google-staff-software-engineer-search-featu-ed937ca2/submitted-resume.pdf",
     "pages": 2
   },
   {

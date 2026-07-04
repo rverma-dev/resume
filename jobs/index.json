@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T03:37:36Z",
-  "active_batch_id": "batch-20260704-google-official-staff2-heartbeat-0334",
-  "last_scheduler_run_at": "2026-07-04T03:37:17Z",
+  "updated_at": "2026-07-04T04:05:37Z",
+  "active_batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
+  "last_scheduler_run_at": "2026-07-04T04:05:16Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 5,
   "jobs": [
@@ -1796,6 +1796,380 @@
       "updated_at": "2026-07-04T01:11:53Z",
       "notes": [
         "LinkedIn details captured 2026-07-04: reposted 1 week ago, over 100 people clicked apply, responses managed off LinkedIn."
+      ]
+    },
+    {
+      "job_id": "job-google-staff-software-engineer-analytics-fabb3946",
+      "dedupe_key": "url:https://www.google.com/about/careers/applications/jobs/results/110997468304286406-staff-software-engineer-analytics",
+      "source": "google_careers",
+      "source_job_id": "110997468304286406",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/110997468304286406-staff-software-engineer-analytics",
+      "company": "Google",
+      "role": "Staff Software Engineer, Analytics",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Staff Software Engineer IC",
+      "compensation_signals": [
+        "Google Staff Software Engineer in India is a plausible 2.5cr+ target depending on level, equity, and negotiation.",
+        "Analytics infrastructure is a core high-scale Google engineering domain.",
+        "LinkedIn company search showed 20+ direct/indirect connections at Google."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
+      "fit_score": 94,
+      "fit_reason": "Strong Staff IC fit for large-scale analytics infrastructure: active Google Careers role requires C++, large-scale infrastructure/distributed systems, data analytics, SQL pipelines, architecture/design, and product launch depth.",
+      "fit_signals": [
+        "Staff Software Engineer",
+        "analytics infrastructure",
+        "large-scale distributed systems",
+        "SQL and data pipelines",
+        "software design and architecture",
+        "testing and launching products"
+      ],
+      "risk_flags": [
+        "Google Careers application requires user-confirmed legal/contact/privacy/truth-certification answers before submission.",
+        "C++ depth should be positioned carefully through platform architecture unless confirmed in interview prep."
+      ],
+      "people": [
+        {
+          "name": "Aditya Tiwari",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter at Google; leadership hiring for Staff / Sr Staff / Engineering Managers",
+          "profile_url": "https://www.linkedin.com/in/aditya-tiwari-755b76161/",
+          "notes": "Bengaluru recruiter result with mutual connections including Mayank Bhagya and Anmol Kapoor."
+        },
+        {
+          "name": "Ashwin Kumar",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter - Consumer & Compute at Google",
+          "profile_url": "https://www.linkedin.com/in/ashwinkumar27/",
+          "notes": "Consumer/compute recruiter signal with 13 mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Chandra and 20 other connections at Google. People search found Bengaluru Staff/Sr Staff and consumer/compute recruiter signals.",
+      "resume_theme": {
+        "name": "Large-scale analytics infrastructure Staff engineer",
+        "positioning": "Position Salesforce operational intelligence, anomaly detection alerts, proactive diagnostics, and platform signal pipelines as Staff-level analytics infrastructure evidence.",
+        "key_pointers": [
+          "Use anomaly detection alerts and proactive diagnostics as analytics-to-action systems.",
+          "Map Salesforce operational signals and RFC/ADR work to scalable data and decision pipelines.",
+          "Emphasize multi-region reliability and test automation for production launch maturity.",
+          "Use AM agent federation and Internal IDE/Unleash as examples of business and engineering signal integration."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-google-staff-software-engineer-analytics-fabb3946",
+      "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-analytics-fabb3946/resume.md",
+      "discovered_at": "2026-07-04T04:05:16Z",
+      "updated_at": "2026-07-04T04:05:37Z",
+      "notes": [
+        "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
+      ]
+    },
+    {
+      "job_id": "job-google-staff-software-engineer-google-one-s-dd207eee",
+      "dedupe_key": "url:https://www.google.com/about/careers/applications/jobs/results/79831948754592454-staff-software-engineer-google-one-security-development",
+      "source": "google_careers",
+      "source_job_id": "79831948754592454",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/79831948754592454-staff-software-engineer-google-one-security-development",
+      "company": "Google",
+      "role": "Staff Software Engineer, Google One Security Development",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Staff Software Engineer IC",
+      "compensation_signals": [
+        "Google Staff Software Engineer in India is a plausible 2.5cr+ target depending on level, equity, and negotiation.",
+        "Security platform roles at Google are high-impact and compensation-relevant.",
+        "LinkedIn company search showed 20+ direct/indirect connections at Google."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
+      "fit_score": 93,
+      "fit_reason": "Strong Staff IC fit for secure platform development, architecture, launch ownership, and large-scale production engineering. Good narrative overlap with governed agent systems, security boundaries, and enterprise platform work.",
+      "fit_signals": [
+        "Staff Software Engineer",
+        "security development",
+        "software design and architecture",
+        "production launch ownership",
+        "large-scale platform engineering",
+        "trust and safety domain"
+      ],
+      "risk_flags": [
+        "Google Careers application requires user-confirmed legal/contact/privacy/truth-certification answers before submission.",
+        "Security specialization should be supported through platform/security boundary evidence rather than broad security claims."
+      ],
+      "people": [
+        {
+          "name": "Aditya Tiwari",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter at Google; leadership hiring for Staff / Sr Staff / Engineering Managers",
+          "profile_url": "https://www.linkedin.com/in/aditya-tiwari-755b76161/",
+          "notes": "Bengaluru recruiter result with mutual connections including Mayank Bhagya and Anmol Kapoor."
+        },
+        {
+          "name": "Vivek K S",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter (Engineering Leadership) at Google",
+          "profile_url": "https://www.linkedin.com/in/vivek-k-s-a08728155/",
+          "notes": "Engineering leadership recruiter signal with seven mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Chandra and 20 other connections at Google. People search found Bengaluru 2nd-degree Staff/Sr Staff leadership recruiters.",
+      "resume_theme": {
+        "name": "Secure platform and governed agent systems Staff engineer",
+        "positioning": "Use governed AM agent federation, enterprise platform controls, diagnostics, and reliability work to position for secure Google One platform engineering.",
+        "key_pointers": [
+          "Lead with AM agent federation governance, policy boundaries, and enterprise workflow controls.",
+          "Use Internal IDE/Unleash and proactive diagnostics to show practical secure platform enablement.",
+          "Map Brane compliance/security readiness and Salesforce platform work to enterprise-grade security expectations.",
+          "Emphasize reliability, test automation, and architecture decisions for trust-sensitive systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-google-staff-software-engineer-google-one-s-dd207eee",
+      "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-google-one-s-dd207eee/resume.md",
+      "discovered_at": "2026-07-04T04:05:16Z",
+      "updated_at": "2026-07-04T04:05:37Z",
+      "notes": [
+        "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
+      ]
+    },
+    {
+      "job_id": "job-google-staff-software-engineer-cloud-sql-po-15c57a4d",
+      "dedupe_key": "url:https://www.google.com/about/careers/applications/jobs/results/141782040461615814-staff-software-engineer-cloud-sql-postgres",
+      "source": "google_careers",
+      "source_job_id": "141782040461615814",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/141782040461615814-staff-software-engineer-cloud-sql-postgres",
+      "company": "Google",
+      "role": "Staff Software Engineer, Cloud SQL Postgres",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Staff Software Engineer IC",
+      "compensation_signals": [
+        "Google Staff Software Engineer in India is a plausible 2.5cr+ target depending on level, equity, and negotiation.",
+        "Managed databases and Google Cloud storage services are high-value platform domains.",
+        "LinkedIn company search showed 20+ direct/indirect connections at Google."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
+      "fit_score": 92,
+      "fit_reason": "Good Staff IC fit for managed database/storage infrastructure and Google Cloud platform work. Fit is below top infra roles because the posting expects database internals/PostgreSQL depth that should be validated during screening.",
+      "fit_signals": [
+        "Staff Software Engineer",
+        "Google Cloud SQL",
+        "PostgreSQL and database internals",
+        "managed services",
+        "storage and database systems",
+        "platform reliability"
+      ],
+      "risk_flags": [
+        "Google Careers application requires user-confirmed legal/contact/privacy/truth-certification answers before submission.",
+        "Database-internals specialization may be a fit risk unless mapped through platform/storage architecture and prior backend systems."
+      ],
+      "people": [
+        {
+          "name": "Aditya Tiwari",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter at Google; leadership hiring for Staff / Sr Staff / Engineering Managers",
+          "profile_url": "https://www.linkedin.com/in/aditya-tiwari-755b76161/",
+          "notes": "Bengaluru recruiter result with mutual connections including Mayank Bhagya and Anmol Kapoor."
+        },
+        {
+          "name": "Shankar Selvaraj",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Recruiter at Google; Google Cloud India growth",
+          "profile_url": "",
+          "notes": "Google Cloud staffing signal from LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Chandra and 20 other connections at Google. People search found Staff/Sr Staff leadership and Google Cloud recruiter signals.",
+      "resume_theme": {
+        "name": "Managed database and cloud platform Staff engineer",
+        "positioning": "Frame the resume around platform reliability, distributed backend systems, operational diagnostics, and multi-region service readiness for managed cloud systems.",
+        "key_pointers": [
+          "Use Hyperforce and multi-region platform work to show cloud service readiness.",
+          "Use proactive diagnostics and anomaly detection to show reliability ownership for managed services.",
+          "Use Jupiter and Brane backend/platform work for storage-adjacent production systems credibility.",
+          "Avoid overstating PostgreSQL internals unless backed by interview prep or direct evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-google-staff-software-engineer-cloud-sql-po-15c57a4d",
+      "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-cloud-sql-po-15c57a4d/resume.md",
+      "discovered_at": "2026-07-04T04:05:16Z",
+      "updated_at": "2026-07-04T04:05:37Z",
+      "notes": [
+        "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
+      ]
+    },
+    {
+      "job_id": "job-google-staff-software-engineer-search-featu-ed937ca2",
+      "dedupe_key": "url:https://www.google.com/about/careers/applications/jobs/results/134835185437811398-staff-software-engineer-search-feature",
+      "source": "google_careers",
+      "source_job_id": "134835185437811398",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/134835185437811398-staff-software-engineer-search-feature",
+      "company": "Google",
+      "role": "Staff Software Engineer, Search Feature",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Staff Software Engineer IC",
+      "compensation_signals": [
+        "Google Staff Software Engineer in India is a plausible 2.5cr+ target depending on level, equity, and negotiation.",
+        "Search is a core Google engineering domain with strong compensation potential.",
+        "LinkedIn company search showed 20+ direct/indirect connections at Google."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
+      "fit_score": 92,
+      "fit_reason": "Good Staff IC fit for Search feature architecture and product launch ownership. Fit is somewhat lower than infrastructure roles but still clears the Google Staff/high-comp bar.",
+      "fit_signals": [
+        "Staff Software Engineer",
+        "Search feature engineering",
+        "software design and architecture",
+        "testing and launching products",
+        "large-scale software development"
+      ],
+      "risk_flags": [
+        "Google Careers application requires user-confirmed legal/contact/privacy/truth-certification answers before submission.",
+        "Product/search-feature domain may require tailoring toward user-impact and launch outcomes, not just platform infrastructure."
+      ],
+      "people": [
+        {
+          "name": "Aditya Tiwari",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter at Google; leadership hiring for Staff / Sr Staff / Engineering Managers",
+          "profile_url": "https://www.linkedin.com/in/aditya-tiwari-755b76161/",
+          "notes": "Bengaluru recruiter result with mutual connections including Mayank Bhagya and Anmol Kapoor."
+        },
+        {
+          "name": "Ashwin Kumar",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter - Consumer & Compute at Google",
+          "profile_url": "https://www.linkedin.com/in/ashwinkumar27/",
+          "notes": "Consumer/compute recruiter signal with 13 mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Chandra and 20 other connections at Google. People search found Bengaluru Staff/Sr Staff and consumer/compute recruiter signals.",
+      "resume_theme": {
+        "name": "Search feature and production platform Staff engineer",
+        "positioning": "Position around product-facing platform impact, high-scale service reliability, diagnostics, and AI-assisted workflows to bridge infrastructure and Search feature ownership.",
+        "key_pointers": [
+          "Use Internal IDE/Unleash and AM agent federation to show product/engineering workflow impact.",
+          "Use proactive diagnostics and anomaly detection alerts to prove user-impacting operational quality.",
+          "Highlight product-facing platform outcomes from Jupiter, Niki.ai, and Salesforce work.",
+          "Emphasize cross-functional stakeholder influence and launch discipline."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-google-staff-software-engineer-search-featu-ed937ca2",
+      "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-search-featu-ed937ca2/resume.md",
+      "discovered_at": "2026-07-04T04:05:16Z",
+      "updated_at": "2026-07-04T04:05:37Z",
+      "notes": [
+        "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
+      ]
+    },
+    {
+      "job_id": "job-google-staff-software-engineer-ads-b69111e3",
+      "dedupe_key": "url:https://www.google.com/about/careers/applications/jobs/results/115093153412719302-staff-software-engineer-ads",
+      "source": "google_careers",
+      "source_job_id": "115093153412719302",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/115093153412719302-staff-software-engineer-ads",
+      "company": "Google",
+      "role": "Staff Software Engineer, Ads",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "Staff Software Engineer IC",
+      "compensation_signals": [
+        "Google Staff Software Engineer in India is a plausible 2.5cr+ target depending on level, equity, and negotiation.",
+        "Google Ads is a core business-critical compensation domain.",
+        "LinkedIn company search showed 20+ direct/indirect connections at Google."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
+      "fit_score": 91,
+      "fit_reason": "Good Staff IC fit for Google Ads full-stack/backend architecture and launch ownership. Lower than platform-infra roles but still strong for Google Staff/high-comp and product-scale engineering.",
+      "fit_signals": [
+        "Staff Software Engineer",
+        "Google Ads",
+        "full-stack/backend engineering",
+        "software design and architecture",
+        "testing and launching products",
+        "product-scale systems"
+      ],
+      "risk_flags": [
+        "Google Careers application requires user-confirmed legal/contact/privacy/truth-certification answers before submission.",
+        "Ads full-stack domain needs tailoring toward product impact, experimentation, and business outcomes."
+      ],
+      "people": [
+        {
+          "name": "Aditya Tiwari",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter at Google; leadership hiring for Staff / Sr Staff / Engineering Managers",
+          "profile_url": "https://www.linkedin.com/in/aditya-tiwari-755b76161/",
+          "notes": "Bengaluru recruiter result with mutual connections including Mayank Bhagya and Anmol Kapoor."
+        },
+        {
+          "name": "Ashwin Kumar",
+          "relationship": "2nd-degree LinkedIn connection",
+          "role": "Senior Technical Recruiter - Consumer & Compute at Google",
+          "profile_url": "https://www.linkedin.com/in/ashwinkumar27/",
+          "notes": "Consumer/compute recruiter signal with 13 mutual connections."
+        }
+      ],
+      "connections_summary": "LinkedIn company search showed Chandra and 20 other connections at Google. People search found Bengaluru Staff/Sr Staff and consumer/compute recruiter signals.",
+      "resume_theme": {
+        "name": "Ads-scale product platform Staff engineer",
+        "positioning": "Bridge platform reliability and product/business impact: Salesforce business-signal AI platform, Internal IDE/Unleash, anomaly detection, and Jupiter/Niki product-scale systems.",
+        "key_pointers": [
+          "Lead with business-signal automation and decision velocity from current Salesforce AI/platform work.",
+          "Use product-facing scale from Jupiter and Niki.ai as Ads-relevant product engineering evidence.",
+          "Show proactive diagnostics and anomaly detection as production quality and business-impact monitoring.",
+          "Emphasize architecture, experimentation support, and launch safety."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/ADRs/",
+          "work/RFCs/",
+          "work/project_docs/",
+          "applications/resumes/"
+        ]
+      },
+      "application_id": "app-20260704-google-staff-software-engineer-ads-b69111e3",
+      "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-ads-b69111e3/resume.md",
+      "discovered_at": "2026-07-04T04:05:16Z",
+      "updated_at": "2026-07-04T04:05:37Z",
+      "notes": [
+        "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ]
     },
     {
