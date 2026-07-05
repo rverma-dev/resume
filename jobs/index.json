@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T14:29:17Z",
-  "active_batch_id": "batch-4426686251",
-  "last_scheduler_run_at": "2026-07-05T14:29:10Z",
+  "updated_at": "2026-07-05T14:59:20Z",
+  "active_batch_id": "batch-4431673517",
+  "last_scheduler_run_at": "2026-07-05T14:59:12Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -255,6 +255,63 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Official Google Careers corroboration: https://www.google.com/about/careers/applications/jobs/results/76513839557812934-staff-software-engineer-git-development-suite"
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4431673517",
+      "dedupe_key": "linkedin:4431673517",
+      "source": "linkedin",
+      "source_job_id": "4431673517",
+      "source_url": "https://www.linkedin.com/jobs/view/4431673517",
+      "company": "AlphaSense",
+      "role": "Principal Engineer, Software",
+      "location": "India",
+      "work_type": "remote",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Principal IC role at AlphaSense, an AI search and market intelligence platform with 2,000+ employees; posting does not disclose salary."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4431673517",
+      "fit_score": 94,
+      "fit_reason": "Principal IC role owning AI/content platform architecture for large-scale unstructured document and multimedia processing, LLM/CV extraction, production AI reliability, distributed systems, observability, and cross-team technical direction.",
+      "fit_signals": [
+        "Foundational technical authority for AlphaSense Content portfolio, processing and extracting insights from millions of unstructured documents and multimedia files daily.",
+        "Researches, architects, and prototypes LLM, computer vision, document ingestion, classification, entity extraction, and image search capabilities.",
+        "Designs scalable, cost-effective AI services and data processing pipelines with high reliability and throughput.",
+        "Requires mastery of large-scale distributed systems, async patterns, streaming, queuing, caching, observability, DevOps/MLOps, IaC, Docker, and Kubernetes.",
+        "Explicitly expects influencing engineering direction across multiple teams without direct authority."
+      ],
+      "risk_flags": [
+        "Remote India role but exact compensation is not disclosed; validate compensation band during recruiter screen.",
+        "Role asks for 14+ years and 8+ years production backend framework depth; verify fit with resume evidence before external submission.",
+        "AlphaSense has fraud-warning language; only use official AlphaSense careers or trusted LinkedIn flow for application."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn shows IIT Kharagpur alumni reachability but individual connection details were not expanded.",
+      "resume_theme": {
+        "name": "Principal AI content platform engineer",
+        "positioning": "Position Rohit as a principal-level platform engineer who builds reliable, observable, governed AI/data platforms and turns ambiguous cross-team product and operational problems into scalable architectures.",
+        "key_pointers": [
+          "Lead with MuleSoft AI platform work integrating customer and operational signals to improve product and engineering decision velocity.",
+          "Emphasize distributed systems, platform reliability, observability, governance, and cross-team architecture influence.",
+          "Use Brane infrastructure story for small-team ownership of enterprise-scale platform, security, and compliance readiness."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/design_docs/"
+        ]
+      },
+      "application_id": "app-20260705-alphasense-principal-engineer-software-b3c240fe",
+      "resume_snapshot_path": "applications/resumes/app-20260705-alphasense-principal-engineer-software-b3c240fe/resume.md",
+      "discovered_at": "2026-07-05T14:59:12Z",
+      "updated_at": "2026-07-05T14:59:20Z",
+      "notes": [
+        "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },

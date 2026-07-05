@@ -1,9 +1,53 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T14:29:17Z",
+  "updated_at": "2026-07-05T14:59:20Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-alphasense-principal-engineer-software-b3c240fe",
+      "job_id": "linkedin-4431673517",
+      "dedupe_key": "linkedin:4431673517",
+      "source": "linkedin",
+      "source_job_id": "4431673517",
+      "source_url": "https://www.linkedin.com/jobs/view/4431673517",
+      "company": "AlphaSense",
+      "role": "Principal Engineer, Software",
+      "location": "India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4431673517",
+      "approved_at": "2026-07-05T14:59:20Z",
+      "updated_at": "2026-07-05T14:59:20Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Principal IC role owning AI/content platform architecture for large-scale unstructured document and multimedia processing, LLM/CV extraction, production AI reliability, distributed systems, observability, and cross-team technical direction.",
+      "people": [],
+      "connections_summary": "LinkedIn shows IIT Kharagpur alumni reachability but individual connection details were not expanded.",
+      "resume_theme": {
+        "name": "Principal AI content platform engineer",
+        "positioning": "Position Rohit as a principal-level platform engineer who builds reliable, observable, governed AI/data platforms and turns ambiguous cross-team product and operational problems into scalable architectures.",
+        "key_pointers": [
+          "Lead with MuleSoft AI platform work integrating customer and operational signals to improve product and engineering decision velocity.",
+          "Emphasize distributed systems, platform reliability, observability, governance, and cross-team architecture influence.",
+          "Use Brane infrastructure story for small-team ownership of enterprise-scale platform, security, and compliance readiness."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/design_docs/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-alphasense-principal-engineer-software-b3c240fe/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-alphasense-principal-engineer-software-b3c240fe/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e",
       "job_id": "linkedin-4426686251",
