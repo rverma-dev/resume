@@ -1,9 +1,54 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T15:26:52Z",
+  "updated_at": "2026-07-05T16:01:01Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e",
+      "job_id": "linkedin-4416640331",
+      "dedupe_key": "linkedin:4416640331",
+      "source": "linkedin",
+      "source_job_id": "4416640331",
+      "source_url": "https://www.linkedin.com/jobs/view/4416640331",
+      "company": "Netskope",
+      "role": "Sr. Staff Engineer, Enterprise Browser",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4416640331",
+      "approved_at": "2026-07-05T16:01:01Z",
+      "updated_at": "2026-07-05T16:01:01Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 89,
+      "fit_reason": "Senior Staff IC role in Netskope's Enterprise Browser team, building secure browser capabilities for cloud security/SSE/SWG products with distributed systems, performance, scalability, high availability, and advanced analytics requirements.",
+      "people": [],
+      "connections_summary": "LinkedIn shows IIT Kharagpur alumni and a hiring-team contact, but no outreach was sent.",
+      "resume_theme": {
+        "name": "Senior Staff secure platform systems engineer",
+        "positioning": "Position Rohit as a senior staff platform engineer with secure distributed systems, product-platform architecture, reliability, observability, governance, and AI/security platform experience; avoid overstating browser-internals depth until verified.",
+        "key_pointers": [
+          "Lead with platform architecture, governance, operational excellence, and secure multi-tenant systems from MuleSoft and Brane.",
+          "Highlight experience turning ambiguous platform problems into reliable, scalable, developer-consumable systems.",
+          "Call out security/compliance readiness and operational guardrails without inventing Chromium-specific experience."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/incident_reviews/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-harness-staff-security-research-engineer-57fb1a0f",
       "job_id": "linkedin-4315411540",

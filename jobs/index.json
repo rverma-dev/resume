@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T15:26:52Z",
-  "active_batch_id": "batch-4315411540",
-  "last_scheduler_run_at": "2026-07-05T15:26:45Z",
+  "updated_at": "2026-07-05T16:01:01Z",
+  "active_batch_id": "batch-4416640331",
+  "last_scheduler_run_at": "2026-07-05T16:00:53Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -429,6 +429,63 @@
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from previously rejected Arctic Wolf Senior Staff Backend posting linkedin:4426946202."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4416640331",
+      "dedupe_key": "linkedin:4416640331",
+      "source": "linkedin",
+      "source_job_id": "4416640331",
+      "source_url": "https://www.linkedin.com/jobs/view/4416640331",
+      "company": "Netskope",
+      "role": "Sr. Staff Engineer, Enterprise Browser",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "remote",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Sr. Staff IC role at Netskope, a public cloud/network/data security platform company; posting does not disclose salary."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4416640331",
+      "fit_score": 89,
+      "fit_reason": "Senior Staff IC role in Netskope's Enterprise Browser team, building secure browser capabilities for cloud security/SSE/SWG products with distributed systems, performance, scalability, high availability, and advanced analytics requirements.",
+      "fit_signals": [
+        "Builds next-generation secure enterprise browser capabilities inside Netskope's cloud, network, and data security platform.",
+        "Extends Chromium modules and gRPC services to support secure corporate traffic, SWG/SSE controls, policy enforcement, and user-action management.",
+        "Works on performance optimization, scalability, high availability, containerization, and advanced analytics for enterprise security products.",
+        "Requires technical mentorship and senior-staff-level influence across engineering implementation and design."
+      ],
+      "risk_flags": [
+        "Role is specialized around Chromium, C++, memory profiling, and browser internals; verify resume evidence before external submission.",
+        "Posting says the team is hiring across levels; confirm actual level and compensation band during recruiter screen.",
+        "Remote role tied to Bengaluru; confirm India remote expectations and any office/travel requirements."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn shows IIT Kharagpur alumni and a hiring-team contact, but no outreach was sent.",
+      "resume_theme": {
+        "name": "Senior Staff secure platform systems engineer",
+        "positioning": "Position Rohit as a senior staff platform engineer with secure distributed systems, product-platform architecture, reliability, observability, governance, and AI/security platform experience; avoid overstating browser-internals depth until verified.",
+        "key_pointers": [
+          "Lead with platform architecture, governance, operational excellence, and secure multi-tenant systems from MuleSoft and Brane.",
+          "Highlight experience turning ambiguous platform problems into reliable, scalable, developer-consumable systems.",
+          "Call out security/compliance readiness and operational guardrails without inventing Chromium-specific experience."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/incident_reviews/"
+        ]
+      },
+      "application_id": "app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e",
+      "resume_snapshot_path": "applications/resumes/app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e/resume.md",
+      "discovered_at": "2026-07-05T16:00:53Z",
+      "updated_at": "2026-07-05T16:01:01Z",
+      "notes": [
+        "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },
