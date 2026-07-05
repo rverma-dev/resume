@@ -1,11 +1,75 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T10:30:16Z",
-  "active_batch_id": "batch-4431847232",
-  "last_scheduler_run_at": "2026-07-05T10:28:26Z",
+  "updated_at": "2026-07-05T10:57:12Z",
+  "active_batch_id": "batch-4436981894",
+  "last_scheduler_run_at": "2026-07-05T10:55:50Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "linkedin-4436981894",
+      "dedupe_key": "linkedin:4436981894",
+      "source": "linkedin",
+      "source_job_id": "4436981894",
+      "source_url": "https://www.linkedin.com/jobs/view/4436981894",
+      "company": "Zscaler",
+      "role": "Sr. Staff Software Development Engineer - AI Engineer",
+      "location": "Bengaluru East, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Staff IC / agentic AI platform engineer",
+      "compensation_signals": [
+        "Zscaler is a scaled public cybersecurity platform company; Sr. Staff AI/platform roles may be target-capable but require recruiter or offer-band validation for the 2.5cr+ total compensation target.",
+        "Senior Staff title and AI/security platform scope are credible current/next-level signals; keep stretch-first rather than downleveling based on sparse public India medians.",
+        "Hybrid Bengaluru role avoids US-only/H1B exclusion risk."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4436981894",
+      "fit_score": 92,
+      "fit_reason": "Strong Senior Staff IC fit for a security-platform company building production-grade agentic AI systems. The role maps to AM agent federation, MCP/A2A and LangGraph-style workflow contracts, governed diagnostic evidence plane, RAG/vector retrieval, evaluation/guardrails, Internal IDE/Unleash, and high-velocity product-platform delivery. Main risks are compensation calibration versus the 2.5cr+ target, exact IC level despite 8+ years minimum, and full-stack FastAPI/NextJS/Postgres specificity versus broader platform architecture background.",
+      "fit_signals": [
+        "Sr. Staff Software Development Engineer title with AI Engineer scope at Zscaler, a large zero-trust security platform company.",
+        "Role builds and scales the agentic layer of the AI Native Product Operations Platform with production-grade AI systems and foundational platform capabilities.",
+        "Requires RAG architectures, embeddings, vector retrieval, prompt engineering, orchestration patterns, agent workflows, evaluation frameworks, and guardrails.",
+        "Success profile emphasizes pragmatic builder, ambiguity, ownership, cross-functional translation, cost/throughput optimization, observability frameworks, and rapid releases."
+      ],
+      "risk_flags": [
+        "Zscaler is not explicitly listed in target_capable_companies; validate pay band before prioritizing over Google/Amazon/NVIDIA/Broadcom/Splunk/Docusign roles.",
+        "Minimum qualification says 8+ years and reports to Senior Manager Product Business Operations; validate whether this maps to true Senior Staff scope rather than underleveled senior builder role.",
+        "Role asks for hands-on FastAPI, NextJS, and Postgres; tailor truthfully around real Python/TypeScript/platform evidence without overstating recent production NextJS depth.",
+        "LinkedIn Easy Apply may require phone, resume upload, work authorization/sponsorship, screening questions, or final submit confirmation; do not mark applied without confirmed submission."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 3 connections work at Zscaler; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Senior Staff agentic AI security platform IC",
+        "positioning": "Senior Staff platform IC for governed agentic AI systems, RAG/evidence retrieval, evaluation guardrails, AI-assisted engineering workflows, and secure enterprise platform delivery.",
+        "key_pointers": [
+          "Lead with AM agent federation, MCP/A2A RFCs, LangGraph workflow contracts, xAPI gateway integration, and governed diagnostic evidence plane.",
+          "Use proactive diagnostics as production AI/RAG evidence: alert-event grounding, cited diagnoses, budget/audit controls, degradation flags, and no raw tenant-content prompt exposure.",
+          "Map Internal IDE/Unleash to Zscaler's high-velocity AI-native platform builder expectations: agent workflows, local-first engineering, worktrees, release feeds, and governance layers.",
+          "Use Salesforce Hyperforce observability, Brane high-throughput platform work, and Jupiter SIEM/compliance as security/platform reliability evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/unleash"
+        ]
+      },
+      "application_id": "app-20260705-zscaler-sr-staff-software-development-engine-a5552f31",
+      "resume_snapshot_path": "applications/resumes/app-20260705-zscaler-sr-staff-software-development-engine-a5552f31/resume.md",
+      "discovered_at": "2026-07-05T10:55:50Z",
+      "updated_at": "2026-07-05T10:57:12Z",
+      "notes": [
+        "Imported from LinkedIn MCP Easy Apply detail pull on 2026-07-05 heartbeat.",
+        "Easy Apply candidate selected because the prior bottleneck is zero confirmed external submissions."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "linkedin-4436981002",
       "dedupe_key": "linkedin:4436981002",

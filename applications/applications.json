@@ -1,9 +1,64 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T10:30:16Z",
+  "updated_at": "2026-07-05T10:57:12Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-zscaler-sr-staff-software-development-engine-a5552f31",
+      "job_id": "linkedin-4436981894",
+      "dedupe_key": "linkedin:4436981894",
+      "source": "linkedin",
+      "source_job_id": "4436981894",
+      "source_url": "https://www.linkedin.com/jobs/view/4436981894",
+      "company": "Zscaler",
+      "role": "Sr. Staff Software Development Engineer - AI Engineer",
+      "location": "Bengaluru East, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4436981894",
+      "approved_at": "2026-07-05T10:56:04Z",
+      "updated_at": "2026-07-05T10:57:12Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong Senior Staff IC fit for a security-platform company building production-grade agentic AI systems. The role maps to AM agent federation, MCP/A2A and LangGraph-style workflow contracts, governed diagnostic evidence plane, RAG/vector retrieval, evaluation/guardrails, Internal IDE/Unleash, and high-velocity product-platform delivery. Main risks are compensation calibration versus the 2.5cr+ target, exact IC level despite 8+ years minimum, and full-stack FastAPI/NextJS/Postgres specificity versus broader platform architecture background.",
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 3 connections work at Zscaler; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Senior Staff agentic AI security platform IC",
+        "positioning": "Senior Staff platform IC for governed agentic AI systems, RAG/evidence retrieval, evaluation guardrails, AI-assisted engineering workflows, and secure enterprise platform delivery.",
+        "key_pointers": [
+          "Lead with AM agent federation, MCP/A2A RFCs, LangGraph workflow contracts, xAPI gateway integration, and governed diagnostic evidence plane.",
+          "Use proactive diagnostics as production AI/RAG evidence: alert-event grounding, cited diagnoses, budget/audit controls, degradation flags, and no raw tenant-content prompt exposure.",
+          "Map Internal IDE/Unleash to Zscaler's high-velocity AI-native platform builder expectations: agent workflows, local-first engineering, worktrees, release feeds, and governance layers.",
+          "Use Salesforce Hyperforce observability, Brane high-throughput platform work, and Jupiter SIEM/compliance as security/platform reliability evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/unleash"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-zscaler-sr-staff-software-development-engine-a5552f31/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-zscaler-sr-staff-software-development-engine-a5552f31/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn apply flow inspected in Comet; LinkedIn redirects to Zscaler Greenhouse and no final submission was made.",
+        "Zscaler Greenhouse form requires transmitting first/last name, email, phone, tailored resume upload, source selection, legal right-to-work answer, visa/support answer, primary residence city/state, current/previous Zscaler answer, current company/title, confidential-information agreement, privacy-policy agreement, government-procurement conflict answer, full home address, voluntary sex self-identification/data-processing consent, invisible reCAPTCHA, and final submit. These legal/identity/privacy/work-authorization/EEO/final-submission steps require user confirmation and cannot be completed autonomously."
+      ],
+      "status_reason": "LinkedIn apply flow inspected in Comet; LinkedIn redirects to Zscaler Greenhouse and no final submission was made.",
+      "last_status_update_id": "status-20260705-zscaler-ai-engineer-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Zscaler Greenhouse form requires transmitting first/last name, email, phone, tailored resume upload, source selection, legal right-to-work answer, visa/support answer, primary residence city/state, current/previous Zscaler answer, current company/title, confidential-information agreement, privacy-policy agreement, government-procurement conflict answer, full home address, voluntary sex self-identification/data-processing consent, invisible reCAPTCHA, and final submit. These legal/identity/privacy/work-authorization/EEO/final-submission steps require user confirmation and cannot be completed autonomously.",
+      "manual_action_at": "2026-07-05T10:57:12Z"
+    },
     {
       "application_id": "app-20260705-google-staff-software-engineer-git-developm-5bf90789",
       "job_id": "linkedin-4431847232",
