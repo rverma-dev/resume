@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T04:28:38Z",
-  "active_batch_id": "batch-4436016572",
-  "last_scheduler_run_at": "2026-07-05T04:28:32Z",
+  "updated_at": "2026-07-05T10:30:16Z",
+  "active_batch_id": "batch-4431847232",
+  "last_scheduler_run_at": "2026-07-05T10:28:26Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -127,6 +127,70 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Distinct from existing Broadcom Senior Software Architect 4401425673 because this posting is requisition R025606 focused on GenAI/AI-ML product architecture across enterprise DevOps tools."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4431847232",
+      "dedupe_key": "linkedin:4431847232",
+      "source": "linkedin",
+      "source_job_id": "4431847232",
+      "source_url": "https://www.linkedin.com/jobs/view/4431847232",
+      "company": "Google",
+      "role": "Staff Software Engineer, Git Development Suite",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff Software Engineer / Advanced IC developer infrastructure",
+      "compensation_signals": [
+        "Google is explicitly target-capable in the recruiting config; Staff/Advanced IC roles in Google Core should remain high priority for the 2.5cr+ total compensation target.",
+        "Official Google Careers page marks the role as Advanced: owning outcomes and decision-making, solving ambiguous problems, influencing stakeholders, and deep domain expertise.",
+        "Official posting is Bengaluru, India, avoiding the US-only/H1B exclusion risk while preserving Google Staff-level upside."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4431847232",
+      "fit_score": 97,
+      "fit_reason": "Excellent Staff-level IC fit at a target-capable company. The role is Google Core developer infrastructure for Git-based development, CI/CD, AI workflow integration, GCP/Terraform, software supply-chain integrity, scalable internal platforms, and cross-team technical leadership. It maps directly to Internal IDE/Unleash, AM agent federation, CI/CD and release distribution work, TEST_SCENARIOS/coherence validation, Hyperforce platform delivery, compliance-aware platform architecture, and Brane/Jupiter enterprise-scale systems. Main risks are on-site Bengaluru expectations, Google hiring bar, and avoiding overclaiming Git open-source depth beyond real repo/tooling evidence.",
+      "fit_signals": [
+        "Official Google Careers page lists Staff Software Engineer, Git Development Suite in Bengaluru with Advanced level ownership/deep-domain expectations.",
+        "Minimum qualifications include 8 years programming, 5 years testing/launching software products, 3 years software design and architecture, and experience integrating GenAI/LLM interfaces into workflows.",
+        "Preferred qualifications include technical leadership, GCP/Terraform/CI/CD, Git concepts and workflows, open-source contribution exposure, and Software Supply Chain Integrity concepts.",
+        "Responsibilities include technical leadership on high-impact projects, defining technical direction across multiple teams, and architecting scalable features for Git-based supply-chain infrastructure."
+      ],
+      "risk_flags": [
+        "On-site Bengaluru role; validate team flexibility and interview loop expectations before submission.",
+        "Google may calibrate Staff level strictly; emphasize real Staff+/PMTS platform ownership and avoid underleveling into generic senior engineer framing.",
+        "Git/open-source depth should be framed through Internal IDE, Unleash, Git worktrees, release distribution, CI/CD, supply-chain and developer-platform evidence; do not overclaim core Git implementation ownership.",
+        "External Google application may require Google Careers login, work authorization, EEO/legal fields, and profile details; do not mark applied without confirmed final submission."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 20 connections work at Google; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Google-scale AI developer infrastructure Staff IC",
+        "positioning": "Staff+/PMTS platform IC for AI-assisted developer infrastructure, Git/worktree orchestration, CI/CD release systems, supply-chain-aware tooling, and governed multi-agent engineering workflows at enterprise scale.",
+        "key_pointers": [
+          "Lead with Internal IDE and Unleash: local-first agent-assisted engineering, isolated git worktrees, terminal/chat/file/diff/browser/PR/GUS context, coordinator workspaces, release feeds, and GitHub Enterprise Pages publishing.",
+          "Map AM agent federation, MCP/A2A RFCs, LangGraph workflow contracts, and coherence-validator work to Google's AI workflow integration and developer-platform direction.",
+          "Use Salesforce Hyperforce observability and multi-region rollout as proof of scalable platform architecture, CI/CD rigor, launch safety, and cross-team technical leadership.",
+          "Use Brane/Jupiter security/compliance infrastructure and payment/SIEM scale as evidence for reliable, compliant, supply-chain-aware internal platforms."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/repos/unleash",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "application_id": "app-20260705-google-staff-software-engineer-git-developm-5bf90789",
+      "resume_snapshot_path": "applications/resumes/app-20260705-google-staff-software-engineer-git-developm-5bf90789/resume.md",
+      "discovered_at": "2026-07-05T10:28:26Z",
+      "updated_at": "2026-07-05T10:30:16Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
+        "Official Google Careers corroboration: https://www.google.com/about/careers/applications/jobs/results/76513839557812934-staff-software-engineer-git-development-suite"
       ],
       "resume_snapshot_name": "IC Resume"
     },

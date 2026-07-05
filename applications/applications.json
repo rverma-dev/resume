@@ -1,9 +1,64 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T04:28:38Z",
+  "updated_at": "2026-07-05T10:30:16Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-google-staff-software-engineer-git-developm-5bf90789",
+      "job_id": "linkedin-4431847232",
+      "dedupe_key": "linkedin:4431847232",
+      "source": "linkedin",
+      "source_job_id": "4431847232",
+      "source_url": "https://www.linkedin.com/jobs/view/4431847232",
+      "company": "Google",
+      "role": "Staff Software Engineer, Git Development Suite",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4431847232",
+      "approved_at": "2026-07-05T10:28:32Z",
+      "updated_at": "2026-07-05T10:30:16Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent Staff-level IC fit at a target-capable company. The role is Google Core developer infrastructure for Git-based development, CI/CD, AI workflow integration, GCP/Terraform, software supply-chain integrity, scalable internal platforms, and cross-team technical leadership. It maps directly to Internal IDE/Unleash, AM agent federation, CI/CD and release distribution work, TEST_SCENARIOS/coherence validation, Hyperforce platform delivery, compliance-aware platform architecture, and Brane/Jupiter enterprise-scale systems. Main risks are on-site Bengaluru expectations, Google hiring bar, and avoiding overclaiming Git open-source depth beyond real repo/tooling evidence.",
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 20 connections work at Google; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Google-scale AI developer infrastructure Staff IC",
+        "positioning": "Staff+/PMTS platform IC for AI-assisted developer infrastructure, Git/worktree orchestration, CI/CD release systems, supply-chain-aware tooling, and governed multi-agent engineering workflows at enterprise scale.",
+        "key_pointers": [
+          "Lead with Internal IDE and Unleash: local-first agent-assisted engineering, isolated git worktrees, terminal/chat/file/diff/browser/PR/GUS context, coordinator workspaces, release feeds, and GitHub Enterprise Pages publishing.",
+          "Map AM agent federation, MCP/A2A RFCs, LangGraph workflow contracts, and coherence-validator work to Google's AI workflow integration and developer-platform direction.",
+          "Use Salesforce Hyperforce observability and multi-region rollout as proof of scalable platform architecture, CI/CD rigor, launch safety, and cross-team technical leadership.",
+          "Use Brane/Jupiter security/compliance infrastructure and payment/SIEM scale as evidence for reliable, compliant, supply-chain-aware internal platforms."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/repos/unleash",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-google-staff-software-engineer-git-developm-5bf90789/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-google-staff-software-engineer-git-developm-5bf90789/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application flow inspected in Comet on Google Careers; no final submission was made.",
+        "Google Careers profile/application requires transmitting legal name, phone number, tailored resume upload, prior Alphabet employment answer, privacy/data-processing consent, truth certification, later voluntary self-identification, and final submit action-time confirmation. These legal/identity/EEO/privacy/final-submission steps require user confirmation and cannot be completed autonomously."
+      ],
+      "status_reason": "Application flow inspected in Comet on Google Careers; no final submission was made.",
+      "last_status_update_id": "status-20260705-google-git-development-suite-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Google Careers profile/application requires transmitting legal name, phone number, tailored resume upload, prior Alphabet employment answer, privacy/data-processing consent, truth certification, later voluntary self-identification, and final submit action-time confirmation. These legal/identity/EEO/privacy/final-submission steps require user confirmation and cannot be completed autonomously.",
+      "manual_action_at": "2026-07-05T10:30:16Z"
+    },
     {
       "application_id": "app-20260705-broadcom-senior-software-architect-genai-ai-m-c8d636b8",
       "job_id": "linkedin-4436016572",
