@@ -1,11 +1,72 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T00:27:57Z",
-  "active_batch_id": "batch-20260705-acceldata-odp-ic",
-  "last_scheduler_run_at": "2026-07-05T00:27:50Z",
+  "updated_at": "2026-07-05T01:33:35Z",
+  "active_batch_id": "batch-4378782123",
+  "last_scheduler_run_at": "2026-07-05T01:33:29Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "linkedin-4378782123",
+      "dedupe_key": "linkedin:4378782123",
+      "source": "linkedin",
+      "source_job_id": "4378782123",
+      "source_url": "https://www.linkedin.com/jobs/view/4378782123",
+      "company": "Microsoft",
+      "role": "Principal Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal IC / Staff+ software engineering",
+      "compensation_signals": [
+        "Principal Software Engineer role at Microsoft Azure Data in Bengaluru; Microsoft Principal IC roles are target-comp capable and align with the user's current/next-level IC search.",
+        "Azure Data/Fabric AI database platform scope spans cloud-scale databases, distributed storage, query planning/execution, observability, and AI-native agent-driven workloads."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4378782123",
+      "fit_score": 96,
+      "fit_reason": "Strong Principal IC fit across Azure Data/Fabric, AI-native database workloads, distributed systems, cloud platform ownership, storage/query execution architecture, platform-level observability, scalability, availability, and technical direction across teams. Best positioned through Salesforce platform/observability, anomaly detection/proactive diagnostics, multi-region rollout, Brane/Jupiter distributed-systems, and AM agent federation evidence; PostgreSQL internals and C/C++/Rust systems depth are the main fit gaps.",
+      "fit_signals": [
+        "Principal IC title with 12+ years hands-on development and cross-team technical direction expectations.",
+        "AI-native operational database and Microsoft Fabric scope maps to agentic workloads, governed data platforms, and platform reliability work.",
+        "Large-scale cloud service, backend distributed systems, storage/database architecture, scalability, availability, and observability requirements map to Salesforce Hyperforce observability and multi-region platform work.",
+        "Mentorship, E2E product lifecycle ownership, and thought leadership align with RFC leadership, testing automation, and cross-team architecture influence."
+      ],
+      "risk_flags": [
+        "Role asks for deep PostgreSQL internals and C/C++/Rust systems programming; tailor honestly around distributed systems/storage/platform architecture without overstating database-engine internals.",
+        "Hybrid Bengaluru role; validate team expectations, level mapping, and compensation before prioritizing submission.",
+        "Requires Microsoft Cloud Background Check on hire/transfer; no candidate answers should be fabricated during application."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 12 connections work at Microsoft; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "AI-native database platform principal IC",
+        "positioning": "Position Rohit as a Principal platform engineer for AI-native cloud data systems: distributed architecture, observability, platform reliability, agentic operational workloads, and cross-team technical direction.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce observability, AMP migration, anomaly detection alerts, proactive diagnostics, and multi-region rollout evidence for platform-scale operational ownership.",
+          "Use AM agent federation, MCP/A2A RFCs, and Internal IDE/Unleash as evidence for agentic workloads, developer productivity systems, and governed AI platform thinking.",
+          "Map Brane event-billing and Jupiter high-throughput payments to distributed systems, reliability, compliance, and production lifecycle ownership.",
+          "Be precise on database-engine fit: emphasize storage/data-platform architecture and cloud service ownership; avoid claiming PostgreSQL internals unless supported by direct project evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "application_id": "app-20260705-microsoft-principal-software-engineer-fd98f973",
+      "resume_snapshot_path": "applications/resumes/app-20260705-microsoft-principal-software-engineer-fd98f973/resume.md",
+      "discovered_at": "2026-07-05T01:33:29Z",
+      "updated_at": "2026-07-05T01:33:35Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
+        "Snowflake Senior Technical Architect AI/ML was reviewed in the same pass and skipped because it is Professional Services/pre-sales-post-sales oriented."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "linkedin-4418010079",
       "dedupe_key": "linkedin:4418010079",
