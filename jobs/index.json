@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T16:27:51Z",
-  "active_batch_id": "batch-4390302518",
-  "last_scheduler_run_at": "2026-07-05T16:27:46Z",
+  "updated_at": "2026-07-05T21:40:02Z",
+  "active_batch_id": "batch-4431878954",
+  "last_scheduler_run_at": "2026-07-05T21:39:56Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -191,6 +191,64 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Distinct from existing Broadcom Senior Software Architect 4401425673 because this posting is requisition R025606 focused on GenAI/AI-ML product architecture across enterprise DevOps tools."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4431878954",
+      "dedupe_key": "linkedin:4431878954",
+      "source": "linkedin",
+      "source_job_id": "4431878954",
+      "source_url": "https://www.linkedin.com/jobs/view/4431878954",
+      "company": "Juniper Square",
+      "role": "Principal Engineer",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Principal",
+      "compensation_signals": [
+        "Principal Engineer title at a founder-led, funded private-markets technology and AI platform company with 1000+ employees.",
+        "Remote India role with AI platform, enterprise APIs, architecture, and hands-on technical direction scope."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4431878954",
+      "fit_score": 95,
+      "fit_reason": "Excellent Principal IC fit for AI platform architecture: shared AI SDKs, guardrails, evaluation frameworks, feedback systems, agentic workflow infrastructure, RAG, model observability, AWS/Kubernetes, and hands-on cross-functional technical leadership align strongly with MuleSoft AI platform and enterprise infrastructure evidence.",
+      "fit_signals": [
+        "Owns technical direction for AI systems, shared AI SDKs, guardrails, evaluation frameworks, feedback systems, and agentic workflow infrastructure.",
+        "Designs and operates LLM-powered systems including RAG pipelines, agentic workflows, evaluation infrastructure, guardrails, structured output delivery, and model observability.",
+        "Principal IC role explicitly requires hands-on production code and architecture ownership rather than delegation-only management.",
+        "Requires 13-17 years across software development, integration, security, and architecture, matching senior platform breadth.",
+        "AWS, Docker, Kubernetes, Python, databases, and enterprise APIs map to existing Salesforce, Brane, Jupiter, and consulting infrastructure evidence."
+      ],
+      "risk_flags": [
+        "Responses are managed off LinkedIn; external portal may require account login, legal/identity answers, sponsorship answers, or manual final submission.",
+        "Posting is finance/private-markets product domain rather than pure cloud infrastructure, so tailor toward regulated enterprise platform and AI systems reliability.",
+        "LinkedIn detail showed 79 apply clicks and no named reachable connections in the fetched detail."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail did not expose named reachable connections for this posting.",
+      "resume_theme": {
+        "name": "Principal AI platform architecture",
+        "positioning": "Position Rohit as a hands-on Principal IC who defines AI platform architecture, guardrails, evaluation systems, model observability, and production-grade agentic workflows for regulated enterprise software.",
+        "key_pointers": [
+          "Lead with MuleSoft governed multi-agent systems: MCP-first tool facades, LangGraph contracts, evidence-plane governance, auditability, budget controls, and safe tool orchestration.",
+          "Emphasize shared platform primitives, cross-team technical direction, production reliability, observability, evaluation, and guardrails.",
+          "Use Jupiter payments and Brane enterprise SaaS evidence for regulated financial systems, enterprise APIs, compliance readiness, AWS/Kubernetes-style infrastructure, and hands-on architecture leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/design_docs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": "app-20260705-juniper-square-principal-engineer-007afdc2",
+      "resume_snapshot_path": "applications/resumes/app-20260705-juniper-square-principal-engineer-007afdc2/resume.md",
+      "discovered_at": "2026-07-05T21:39:56Z",
+      "updated_at": "2026-07-05T21:40:02Z",
+      "notes": [
+        "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },
