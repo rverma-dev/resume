@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T22:12:33Z",
-  "active_batch_id": "batch-4411600734",
-  "last_scheduler_run_at": "2026-07-05T22:12:27Z",
+  "updated_at": "2026-07-05T22:42:19Z",
+  "active_batch_id": "batch-4304686818",
+  "last_scheduler_run_at": "2026-07-05T22:42:12Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -1171,6 +1171,72 @@
       "updated_at": "2026-07-05T15:26:52Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4304686818",
+      "dedupe_key": "linkedin:4304686818",
+      "source": "linkedin",
+      "source_job_id": "4304686818",
+      "source_url": "https://www.linkedin.com/jobs/view/4304686818",
+      "company": "Sage",
+      "role": "Principal Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal",
+      "compensation_signals": [
+        "Principal Engineer role at Sage/Fyle with 10+ years required and cross-team architecture influence across backend SaaS systems.",
+        "Global expense management product running on AWS EKS/Kubernetes, Python/Flask microservices, PostgreSQL, RabbitMQ, and event-driven distributed architecture."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4304686818",
+      "fit_score": 87,
+      "fit_reason": "Good Principal IC platform fit: backend SaaS architecture, AWS EKS/Kubernetes, distributed/event-driven systems, PostgreSQL/RabbitMQ, performance engineering, RFC/design review ownership, observability baselines, rollout practices, and technical standards. It is less AI-infrastructure-specific than the top queue, but aligns with Principal platform and enterprise finance software targets.",
+      "fit_signals": [
+        "Principal-level backend role shaping long-term technical direction across services, migrations, deprecations, and platform improvements on a 6-18 month horizon.",
+        "Requires Python, PostgreSQL, Docker, Kubernetes, distributed systems, event-driven architectures, performance engineering, design docs/RFCs, and final PR review across product areas.",
+        "SaaS expense-management product used by thousands of businesses across 39 countries and handling 6 million external API requests daily.",
+        "Owns engineering standards for API/schema conventions, observability baselines, rollout practices, testing, CI/CD, and technical debt remediation.",
+        "Maps to Brane enterprise SaaS platform, Jupiter finance/payment infrastructure, Salesforce Hyperforce observability, and cross-team RFC leadership evidence."
+      ],
+      "risk_flags": [
+        "Role is finance SaaS/backend platform rather than explicit AI infrastructure, so tailor toward regulated finance platform, architecture standards, and observability.",
+        "External application flow may require account login, legal/identity/work authorization answers, sponsorship answers, or manual final submission.",
+        "Posting is reposted 5 days ago and shows over 100 apply clicks, so competition is likely high."
+      ],
+      "people": [
+        {
+          "name": "Company alumni from Salesforce",
+          "relationship": "alumni signal",
+          "role": "Sage",
+          "profile_url": "",
+          "notes": "LinkedIn detail exposed company alumni from Salesforce but did not show named reachable people."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed company alumni from Salesforce; no named reachable people were exposed.",
+      "resume_theme": {
+        "name": "Principal finance SaaS platform architecture",
+        "positioning": "Position Rohit as a Principal IC who builds regulated SaaS platforms, cloud-native distributed systems, observability standards, and long-horizon architecture across finance and enterprise software.",
+        "key_pointers": [
+          "Lead with Jupiter payment infrastructure and Brane enterprise SaaS platform evidence to support finance-domain reliability, scale, compliance, APIs, and cost-aware architecture.",
+          "Use Salesforce Hyperforce observability migration for performance engineering, platform standards, rollout safety, and cross-team RFC ownership.",
+          "Emphasize Python/Java/backend distributed systems, Kubernetes/AWS-style infrastructure, event-driven architecture, CI/CD, testing, observability, and technical debt remediation."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md"
+        ]
+      },
+      "application_id": "app-20260705-sage-principal-engineer-adb933fa",
+      "resume_snapshot_path": "applications/resumes/app-20260705-sage-principal-engineer-adb933fa/resume.md",
+      "discovered_at": "2026-07-05T22:42:12Z",
+      "updated_at": "2026-07-05T22:42:19Z",
+      "notes": [
+        "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },

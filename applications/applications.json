@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T22:12:33Z",
+  "updated_at": "2026-07-05T22:42:19Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-sage-principal-engineer-adb933fa",
+      "job_id": "linkedin-4304686818",
+      "dedupe_key": "linkedin:4304686818",
+      "source": "linkedin",
+      "source_job_id": "4304686818",
+      "source_url": "https://www.linkedin.com/jobs/view/4304686818",
+      "company": "Sage",
+      "role": "Principal Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4304686818",
+      "approved_at": "2026-07-05T22:42:19Z",
+      "updated_at": "2026-07-05T22:42:19Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 87,
+      "fit_reason": "Good Principal IC platform fit: backend SaaS architecture, AWS EKS/Kubernetes, distributed/event-driven systems, PostgreSQL/RabbitMQ, performance engineering, RFC/design review ownership, observability baselines, rollout practices, and technical standards. It is less AI-infrastructure-specific than the top queue, but aligns with Principal platform and enterprise finance software targets.",
+      "people": [
+        {
+          "name": "Company alumni from Salesforce",
+          "relationship": "alumni signal",
+          "role": "Sage",
+          "profile_url": "",
+          "notes": "LinkedIn detail exposed company alumni from Salesforce but did not show named reachable people."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed company alumni from Salesforce; no named reachable people were exposed.",
+      "resume_theme": {
+        "name": "Principal finance SaaS platform architecture",
+        "positioning": "Position Rohit as a Principal IC who builds regulated SaaS platforms, cloud-native distributed systems, observability standards, and long-horizon architecture across finance and enterprise software.",
+        "key_pointers": [
+          "Lead with Jupiter payment infrastructure and Brane enterprise SaaS platform evidence to support finance-domain reliability, scale, compliance, APIs, and cost-aware architecture.",
+          "Use Salesforce Hyperforce observability migration for performance engineering, platform standards, rollout safety, and cross-team RFC ownership.",
+          "Emphasize Python/Java/backend distributed systems, Kubernetes/AWS-style infrastructure, event-driven architecture, CI/CD, testing, observability, and technical debt remediation."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-sage-principal-engineer-adb933fa/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-sage-principal-engineer-adb933fa/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147",
       "job_id": "linkedin-4411600734",
