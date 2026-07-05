@@ -1,9 +1,56 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T01:59:05Z",
+  "updated_at": "2026-07-05T03:27:45Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0",
+      "job_id": "linkedin-4436981002",
+      "dedupe_key": "linkedin:4436981002",
+      "source": "linkedin",
+      "source_job_id": "4436981002",
+      "source_url": "https://www.linkedin.com/jobs/view/4436981002",
+      "company": "Cisco",
+      "role": "Technical Leader, Software Engineering - Java/Go, Distributed Systems, Kafka, Microservices, Cloud",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4436981002",
+      "approved_at": "2026-07-05T03:27:45Z",
+      "updated_at": "2026-07-05T03:27:45Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Good Staff-equivalent IC fit for a Webex data analytics platform role: distributed systems, data platform, Java/Go, Kafka, microservices, scalable asynchronous systems, security, reliability, architecture influence, mentoring, proof-of-concepts, code review, and cross-technology execution. Strong overlap with Salesforce Hyperforce observability, AMP migration, anomaly detection, proactive diagnostics, multi-region rollout, Brane/Jupiter high-throughput systems, and platform RFC leadership. Main risks are compensation calibration versus 2.5cr+ and Cisco title mapping versus explicit Staff/Principal titles.",
+      "people": [],
+      "connections_summary": "LinkedIn job search showed 293 company alumni at Cisco; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Distributed data analytics platform technical leader",
+        "positioning": "Position Rohit as a Staff-equivalent platform engineer for distributed data analytics systems: observability, scalable asynchronous processing, Kafka/microservices, reliability, security, and cross-team technical leadership.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce observability, AMP migration, anomaly detection alerts, and proactive diagnostics as the closest data-platform and reliability evidence.",
+          "Use multi-region rollout, AMP workspace scale, and alert-evaluation throughput to show scalable distributed platform ownership.",
+          "Map Brane event-billing and Jupiter payments to high-throughput backend systems, compliance, and production reliability.",
+          "Frame Internal IDE/Unleash and AM agent federation as AI-assisted engineering and platform productivity evidence, not as the main Cisco fit story."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-agoda-principal-software-engineer-back-end-6936ae98",
       "job_id": "linkedin-4403441038",

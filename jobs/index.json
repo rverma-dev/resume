@@ -1,11 +1,72 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T01:59:05Z",
-  "active_batch_id": "batch-4403441038",
-  "last_scheduler_run_at": "2026-07-05T01:58:59Z",
+  "updated_at": "2026-07-05T03:27:45Z",
+  "active_batch_id": "batch-4436981002",
+  "last_scheduler_run_at": "2026-07-05T03:27:39Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "linkedin-4436981002",
+      "dedupe_key": "linkedin:4436981002",
+      "source": "linkedin",
+      "source_job_id": "4436981002",
+      "source_url": "https://www.linkedin.com/jobs/view/4436981002",
+      "company": "Cisco",
+      "role": "Technical Leader, Software Engineering - Java/Go, Distributed Systems, Kafka, Microservices, Cloud",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Technical Leader / Staff-equivalent IC software engineering",
+      "compensation_signals": [
+        "Cisco is a major global infrastructure/software company; Technical Leader at 12+ years may map to a Staff-equivalent IC band, but exact India compensation must be validated against the 2.5cr+ target.",
+        "Webex Data Analytics Platform scope covers distributed systems, big-data platform, Kafka/microservices/cloud, scalability, reliability, and architecture influence."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4436981002",
+      "fit_score": 91,
+      "fit_reason": "Good Staff-equivalent IC fit for a Webex data analytics platform role: distributed systems, data platform, Java/Go, Kafka, microservices, scalable asynchronous systems, security, reliability, architecture influence, mentoring, proof-of-concepts, code review, and cross-technology execution. Strong overlap with Salesforce Hyperforce observability, AMP migration, anomaly detection, proactive diagnostics, multi-region rollout, Brane/Jupiter high-throughput systems, and platform RFC leadership. Main risks are compensation calibration versus 2.5cr+ and Cisco title mapping versus explicit Staff/Principal titles.",
+      "fit_signals": [
+        "12+ years requirement and Technical Leader title with hands-on engineering, architecture influence, and team mentoring.",
+        "Webex Data Analytics Platform builds the big data platform used by analytics and data-pipeline teams.",
+        "Large asynchronous task systems, scalable distributed systems, microservices, Kafka/RabbitMQ, REST, Docker, security, scalability, and reliability map to current platform evidence.",
+        "AI-tool fluency requirement maps to Internal IDE, Unleash, AM agent federation, and agent-assisted engineering work."
+      ],
+      "risk_flags": [
+        "Title is Technical Leader rather than explicit Staff/Principal; validate level mapping before final submission.",
+        "Cisco India compensation may be below the 2.5cr+ target unless the band/team is high; validate pay band or recruiter signal before prioritizing over stronger target companies.",
+        "On-site Bengaluru role; verify flexibility and reporting structure before applying."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn job search showed 293 company alumni at Cisco; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Distributed data analytics platform technical leader",
+        "positioning": "Position Rohit as a Staff-equivalent platform engineer for distributed data analytics systems: observability, scalable asynchronous processing, Kafka/microservices, reliability, security, and cross-team technical leadership.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce observability, AMP migration, anomaly detection alerts, and proactive diagnostics as the closest data-platform and reliability evidence.",
+          "Use multi-region rollout, AMP workspace scale, and alert-evaluation throughput to show scalable distributed platform ownership.",
+          "Map Brane event-billing and Jupiter payments to high-throughput backend systems, compliance, and production reliability.",
+          "Frame Internal IDE/Unleash and AM agent federation as AI-assisted engineering and platform productivity evidence, not as the main Cisco fit story."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "application_id": "app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0",
+      "resume_snapshot_path": "applications/resumes/app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0/resume.md",
+      "discovered_at": "2026-07-05T03:27:39Z",
+      "updated_at": "2026-07-05T03:27:45Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
+        "Earlier Cisco Network Systems Engineer was rejected for networking-specialist underfit; this Webex Data Analytics Platform Technical Leader posting is broader distributed platform engineering."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "linkedin-4403441038",
       "dedupe_key": "linkedin:4403441038",
