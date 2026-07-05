@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T11:57:49Z",
-  "active_batch_id": "batch-4375554724",
-  "last_scheduler_run_at": "2026-07-05T11:57:42Z",
+  "updated_at": "2026-07-05T12:28:56Z",
+  "active_batch_id": "batch-4417155908",
+  "last_scheduler_run_at": "2026-07-05T12:28:51Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -573,6 +573,67 @@
       "notes": [
         "LinkedIn MCP verification: job 4418010079, reposted 8 hours ago, 95 applicants, on-site Bengaluru, Easy Apply.",
         "Application should remain approval-gated because Easy Apply may require candidate-confirmed profile/legal/work-auth/EEO answers."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4417155908",
+      "dedupe_key": "linkedin:4417155908",
+      "source": "linkedin",
+      "source_job_id": "4417155908",
+      "source_url": "https://www.linkedin.com/jobs/view/4417155908",
+      "company": "Arctic Wolf",
+      "role": "Staff Developer - Endpoint - Cloud",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff IC",
+      "compensation_signals": [
+        "LinkedIn posting states equity for all India employees and comprehensive private benefits.",
+        "Staff-level cloud security platform role at global cybersecurity company; compensation target is plausible but not confirmed."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4417155908",
+      "fit_score": 91,
+      "fit_reason": "Strong Staff IC fit: technical vision for cloud security platform, scalable backend services, endpoint security, distributed systems, AWS, Kubernetes, Terraform, large-scale security event processing, and mentoring senior engineers.",
+      "fit_signals": [
+        "Staff Software Engineer role with 8-12+ years and 3+ years technical leadership.",
+        "Architects scalable backend systems and cloud engineering strategy for endpoint security.",
+        "Requires AWS, distributed systems, microservices, event-driven architecture, APIs, Kubernetes, Docker, Terraform, and large-scale data processing.",
+        "Explicitly drives AI-powered development tools and AI-assisted engineering practices."
+      ],
+      "risk_flags": [
+        "Not in the highest-priority named company list, but fits strong cloud security/platform company criteria.",
+        "Endpoint security domain is more security-product specific than generic platform infrastructure.",
+        "Posting mentions background checks and possible U.S. export-control authorization at offer stage; do not answer related questions without user confirmation."
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "",
+        "positioning": "Position as a Staff/Principal-level cloud security platform engineer with Salesforce AI/platform ownership, Hyperforce-scale observability, developer tooling, and prior infrastructure/security stack leadership.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS platform ownership: AM Agent Federation, Internal IDE, Hyperforce alerting, and Visualizer cloud re-platforming.",
+          "Emphasize distributed backend, high-volume telemetry/security-adjacent event processing, AWS/Kubernetes/Terraform, and reliability outcomes.",
+          "Use Brane enterprise infrastructure/security stack to support cybersecurity platform credibility without overstating endpoint AV expertise.",
+          "Keep resume label as IC Resume; this is not a management/director variant."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "application_id": "app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8",
+      "resume_snapshot_path": "applications/resumes/app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8/resume.md",
+      "discovered_at": "2026-07-05T12:28:51Z",
+      "updated_at": "2026-07-05T12:28:56Z",
+      "notes": [
+        "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
+        "Distinct from previously rejected Arctic Wolf Senior Staff Backend posting linkedin:4426946202."
       ],
       "resume_snapshot_name": "IC Resume"
     },
