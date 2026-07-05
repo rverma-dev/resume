@@ -1,9 +1,57 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T12:58:05Z",
+  "updated_at": "2026-07-05T13:27:21Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-dbt-labs-staff-software-engineer-semantic-lay-81ea6dbb",
+      "job_id": "linkedin-4409084088",
+      "dedupe_key": "linkedin:4409084088",
+      "source": "linkedin",
+      "source_job_id": "4409084088",
+      "source_url": "https://www.linkedin.com/jobs/view/4409084088",
+      "company": "dbt Labs",
+      "role": "Staff Software Engineer - Semantic Layer",
+      "location": "India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4409084088",
+      "approved_at": "2026-07-05T13:27:21Z",
+      "updated_at": "2026-07-05T13:27:21Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong Staff IC data-platform fit: owns MetricFlow and dbt Semantic Layer systems across language design, query compilation, SQL generation for Snowflake/BigQuery/Databricks/Redshift, open-source stewardship, performance/reliability/observability, RFCs, and engineer mentorship.",
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "",
+        "positioning": "Position as a Staff data-platform engineer for governed metrics, query/semantic systems, developer-facing APIs, observability, and AI-ready data infrastructure.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS platform ownership, AM Agent Federation, Internal IDE, and Hyperforce observability work to show Staff-level technical direction.",
+          "Use Anypoint Monitoring and Visualizer evidence for large-scale query/telemetry systems, multi-tenant data processing, reliability, and observability.",
+          "Emphasize Jupiter payment-platform scale, API/platform ownership, and Brane enterprise infrastructure where relevant to trusted data systems.",
+          "Keep resume label as IC Resume; this is a Staff individual-contributor role, not a management variant."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Principal Architect, Jupiter Money",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-dbt-labs-staff-software-engineer-semantic-lay-81ea6dbb/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-dbt-labs-staff-software-engineer-semantic-lay-81ea6dbb/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-arctic-wolf-senior-staff-devops-aa17de2e",
       "job_id": "linkedin-4390930020",
