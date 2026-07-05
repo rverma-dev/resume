@@ -1,11 +1,79 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-04T23:01:51Z",
-  "active_batch_id": "batch-20260704-mastercard-rtp-ic",
-  "last_scheduler_run_at": "2026-07-04T23:01:34Z",
+  "updated_at": "2026-07-05T00:27:57Z",
+  "active_batch_id": "batch-20260705-acceldata-odp-ic",
+  "last_scheduler_run_at": "2026-07-05T00:27:50Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "linkedin-4418010079",
+      "dedupe_key": "linkedin:4418010079",
+      "source": "linkedin",
+      "source_job_id": "4418010079",
+      "source_url": "https://www.linkedin.com/jobs/view/4418010079",
+      "company": "Acceldata",
+      "role": "Principal Engineer - Open Source Data Platform (ODP)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Engineer / Senior IC",
+      "compensation_signals": [
+        "Principal IC role at a funded enterprise data observability and agentic data management company; compensation needs validation but scope is senior and platform-critical.",
+        "15+ year distributed systems/data infrastructure requirement and CTO/VP/Product leadership interface suggest current/next-level senior IC scope."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-20260705-acceldata-odp-ic",
+      "fit_score": 94,
+      "fit_reason": "Strong Principal IC fit across open data platform architecture, distributed systems, big-data infrastructure, petabyte-scale reliability, Kubernetes/multi-cloud deployment, data observability, open-source leadership, and technical strategy across multiple teams. Maps well to Salesforce observability, Hyperforce rollout, anomaly detection, and platform architecture evidence.",
+      "fit_signals": [
+        "Defines long-term technical strategy and architecture for Acceldata's Open Data Platform with CTO/VP Engineering/Product leadership partnership.",
+        "Requires 15+ years with deep distributed systems, big data platforms, Spark/Hive/Trino/Kafka/Flink, Kubernetes, multi-cloud, hybrid architectures, and production scale across hundreds to thousands of nodes.",
+        "Owns complex architecture, performance, scalability, reliability, customer technical discussions, open-source roadmap influence, and mentorship of Staff/Senior engineers.",
+        "Company domain is data observability and agentic data management, aligning with Salesforce observability and AI/platform work."
+      ],
+      "risk_flags": [
+        "On-site Bengaluru role; verify location flexibility and compensation before deep interview loop.",
+        "LinkedIn listing is Easy Apply; do not submit without candidate-safe review and explicit confirmation of any legal/work-auth/EEO/profile answers.",
+        "Open-source committer/PMC background is desired; resume should not overclaim open-source governance status."
+      ],
+      "people": [
+        {
+          "name": "Pradeep Samanth",
+          "relationship": "LinkedIn company people signal",
+          "role": "Works at Acceldata",
+          "profile_url": "https://www.linkedin.com/in/pradeepsamanth/",
+          "notes": "Surfaced by LinkedIn company employees search for Principal Engineer Open Source Data Platform ODP Bengaluru."
+        }
+      ],
+      "connections_summary": "LinkedIn MCP company people search surfaced one named Acceldata employee contact for ODP keywords; no broader 2nd-degree list was exposed in this view.",
+      "resume_theme": {
+        "name": "Open data platform principal IC",
+        "positioning": "Position Rohit as a Principal platform engineer for enterprise data observability and open data platforms: distributed systems architecture, SLO-backed operations, multi-cloud/Kubernetes deployment, anomaly detection, and cross-team technical strategy.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce observability scale, AMP migration, anomaly detection alerts, and proactive diagnostics architecture.",
+          "Use Brane event-billing and enterprise SaaS platform work to show data platform reliability, compliance, and high-throughput distributed systems ownership.",
+          "Frame RFC leadership, cross-team architecture, testing automation, and coherence validators as technical strategy and engineering-bar evidence.",
+          "Avoid overclaiming Apache committer/PMC status; instead emphasize production distributed-systems architecture, platform reliability, and open standards fluency."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md"
+        ]
+      },
+      "application_id": "app-20260705-acceldata-principal-engineer-open-source-data-6ca5a687",
+      "resume_snapshot_path": "applications/resumes/app-20260705-acceldata-principal-engineer-open-source-data-6ca5a687/resume.md",
+      "discovered_at": "2026-07-05T00:27:50Z",
+      "updated_at": "2026-07-05T00:27:57Z",
+      "notes": [
+        "LinkedIn MCP verification: job 4418010079, reposted 8 hours ago, 95 applicants, on-site Bengaluru, Easy Apply.",
+        "Application should remain approval-gated because Easy Apply may require candidate-confirmed profile/legal/work-auth/EEO answers."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "official-uipath-d7d6857f",
       "dedupe_key": "url:https://jobs.ashbyhq.com/uipath/d7d6857f-47b7-45d9-869e-72696fd6e0b5",
