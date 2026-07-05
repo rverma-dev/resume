@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T13:27:21Z",
-  "active_batch_id": "batch-4409084088",
-  "last_scheduler_run_at": "2026-07-05T13:27:15Z",
+  "updated_at": "2026-07-05T13:57:14Z",
+  "active_batch_id": "batch-4400557914",
+  "last_scheduler_run_at": "2026-07-05T13:57:08Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -504,6 +504,69 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Meta, Splunk, Google, Amazon, NVIDIA, and Datadog searches in the same pass produced no new Staff+/Principal target-role matches or only underlevel/generic fallback results."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4400557914",
+      "dedupe_key": "linkedin:4400557914",
+      "source": "linkedin",
+      "source_job_id": "4400557914",
+      "source_url": "https://www.linkedin.com/jobs/view/4400557914",
+      "company": "insightsoftware",
+      "role": "Principal Platform Engineer",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Principal IC",
+      "compensation_signals": [
+        "Principal Platform Engineer reporting to US-based Director, Cloud Delivery Platform.",
+        "Enterprise-scale cloud delivery platform supporting 50+ development teams across a 1001-5000 employee global software company.",
+        "Compensation target is plausible for a remote India Principal platform role but not confirmed by public pay range."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4400557914",
+      "fit_score": 92,
+      "fit_reason": "Strong Principal IC platform-engineering fit: enterprise cloud delivery platform for 50+ development teams, Terraform/Kubernetes/Helm, GitHub Actions migration, AWS/Azure, multi-tenant deployment/security patterns, developer experience, observability, reliability, policy-as-code, and AI code assistant fluency.",
+      "fit_signals": [
+        "Principal IC title with senior technical contributor scope and cross-region architect collaboration.",
+        "Builds enterprise-scale platform and infrastructure automation using Terraform, Kubernetes, Helm, and cloud-native technologies.",
+        "Covers CI/CD migration to GitHub Actions, shift-left automation, secure multi-tenant deployment patterns, cloud networking, secrets management, and tenant isolation.",
+        "Preferred scope includes developer portals/internal tooling, GitOps, progressive delivery, observability architecture, SRE practices, and distributed systems monitoring."
+      ],
+      "risk_flags": [
+        "Not in the highest-priority named company list, but aligns strongly with platform engineering, developer experience, cloud security, and observability domains.",
+        "Role is implementation-heavy and reports to Director, Cloud Delivery Platform; clarify Principal autonomy and architecture ownership in screening.",
+        "Prior insightsoftware Senior Platform Engineer linkedin:4427042094 was archived as below target; this is a distinct Principal role."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn shows company alumni from Salesforce; no individual connection details captured.",
+      "resume_theme": {
+        "name": "",
+        "positioning": "Position as a Principal platform engineer for enterprise cloud delivery platforms, multi-tenant security, developer experience, CI/CD modernization, observability, and AI-assisted engineering workflows.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS ownership of Hyperforce observability, AM Agent Federation, Internal IDE, and cross-team platform architecture.",
+          "Emphasize Terraform/Kubernetes/cloud delivery analogues through Hyperforce rollout, LaunchDarkly Relay Proxy support, GIA-mode deployment wiring, and multi-region reliability work where supported.",
+          "Use Anypoint Monitoring and Visualizer for observability, distributed systems, SLO/cost outcomes, and large-scale platform operations.",
+          "Keep resume label as IC Resume; this is a Principal individual-contributor platform role, not a management variant."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise",
+          "resume/base_resume.md#Principal Architect, Jupiter Money"
+        ]
+      },
+      "application_id": "app-20260705-insightsoftware-principal-platform-engineer-229101e7",
+      "resume_snapshot_path": "applications/resumes/app-20260705-insightsoftware-principal-platform-engineer-229101e7/resume.md",
+      "discovered_at": "2026-07-05T13:57:08Z",
+      "updated_at": "2026-07-05T13:57:14Z",
+      "notes": [
+        "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
+        "Distinct from archived insightsoftware Senior Platform Engineer linkedin:4427042094."
       ],
       "resume_snapshot_name": "IC Resume"
     },

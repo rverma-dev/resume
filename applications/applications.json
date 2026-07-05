@@ -1,9 +1,57 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T13:27:21Z",
+  "updated_at": "2026-07-05T13:57:14Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-insightsoftware-principal-platform-engineer-229101e7",
+      "job_id": "linkedin-4400557914",
+      "dedupe_key": "linkedin:4400557914",
+      "source": "linkedin",
+      "source_job_id": "4400557914",
+      "source_url": "https://www.linkedin.com/jobs/view/4400557914",
+      "company": "insightsoftware",
+      "role": "Principal Platform Engineer",
+      "location": "India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4400557914",
+      "approved_at": "2026-07-05T13:57:14Z",
+      "updated_at": "2026-07-05T13:57:14Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong Principal IC platform-engineering fit: enterprise cloud delivery platform for 50+ development teams, Terraform/Kubernetes/Helm, GitHub Actions migration, AWS/Azure, multi-tenant deployment/security patterns, developer experience, observability, reliability, policy-as-code, and AI code assistant fluency.",
+      "people": [],
+      "connections_summary": "LinkedIn shows company alumni from Salesforce; no individual connection details captured.",
+      "resume_theme": {
+        "name": "",
+        "positioning": "Position as a Principal platform engineer for enterprise cloud delivery platforms, multi-tenant security, developer experience, CI/CD modernization, observability, and AI-assisted engineering workflows.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS ownership of Hyperforce observability, AM Agent Federation, Internal IDE, and cross-team platform architecture.",
+          "Emphasize Terraform/Kubernetes/cloud delivery analogues through Hyperforce rollout, LaunchDarkly Relay Proxy support, GIA-mode deployment wiring, and multi-region reliability work where supported.",
+          "Use Anypoint Monitoring and Visualizer for observability, distributed systems, SLO/cost outcomes, and large-scale platform operations.",
+          "Keep resume label as IC Resume; this is a Principal individual-contributor platform role, not a management variant."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise",
+          "resume/base_resume.md#Principal Architect, Jupiter Money"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-insightsoftware-principal-platform-engineer-229101e7/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-insightsoftware-principal-platform-engineer-229101e7/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-dbt-labs-staff-software-engineer-semantic-lay-81ea6dbb",
       "job_id": "linkedin-4409084088",
