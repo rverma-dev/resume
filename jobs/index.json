@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T11:26:12Z",
-  "active_batch_id": "batch-4411285350",
-  "last_scheduler_run_at": "2026-07-05T11:26:03Z",
+  "updated_at": "2026-07-05T11:57:49Z",
+  "active_batch_id": "batch-4375554724",
+  "last_scheduler_run_at": "2026-07-05T11:57:42Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -441,6 +441,70 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Snowflake Senior Technical Architect AI/ML was reviewed in the same pass and skipped because it is Professional Services/pre-sales-post-sales oriented."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4375554724",
+      "dedupe_key": "linkedin:4375554724",
+      "source": "linkedin",
+      "source_job_id": "4375554724",
+      "source_url": "https://www.linkedin.com/jobs/view/4375554724",
+      "company": "Databricks",
+      "role": "Staff Software Engineer - Search Quality",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff IC / AI retrieval and search quality platform",
+      "compensation_signals": [
+        "Databricks is explicitly in the priority company list and is a high-comp data/AI platform company; Staff IC Bengaluru roles should remain high priority for the 2.5cr+ total-comp target pending recruiter validation.",
+        "Staff title and AI-agent retrieval backbone scope are credible current/next-level signals under the stretch-first policy.",
+        "Bengaluru role avoids US-only/H1B exclusion risk."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4375554724",
+      "fit_score": 96,
+      "fit_reason": "Excellent Staff IC fit at a priority target company. The role builds the retrieval backbone for Databricks Apps and AI Agents, optimizing search quality for both LLM context grounding and human users across structured SQL tables, unstructured documents, and real-time metrics. It maps strongly to proactive diagnostics, governed evidence retrieval/RAG, anomaly and signal grounding, vector/search systems, evaluation/quality frameworks, Databricks/Spark/data-pipeline background, Salesforce observability, Brane/Jupiter high-throughput data systems, and agentic workflow architecture. Main risks are exact IR/search-ranking depth versus broader platform/search evidence and Databricks application being an external careers flow rather than one-click LinkedIn submission.",
+      "fit_signals": [
+        "Databricks is a priority target company and the role is explicitly Staff Software Engineer in Bengaluru.",
+        "Role owns search result quality for AI agents and human users, including retrieval layers that provide ground truth for LLM reasoning and business actions.",
+        "Technical scope includes hybrid retrieval, keyword search, semantic vector search, ranking models, RAG, relevance scoring, guardrails against hallucinations, and heterogeneous data across SQL tables, docs, and real-time metrics.",
+        "Expected profile includes Lucene/Elasticsearch, embeddings, ranking algorithms, relevance metrics such as nDCG/MRR/Precision@K, human-in-the-loop and LLM-based evaluation frameworks."
+      ],
+      "risk_flags": [
+        "Databricks application flow is external to LinkedIn; do not mark applied without confirmed official careers submission.",
+        "Search-ranking/IR depth should be framed through real Elasticsearch/vector-search/Spark/Databricks/proactive-diagnostics evidence without overclaiming dedicated search-quality ownership.",
+        "Validate final team/level calibration and compensation band before prioritizing over other Databricks Staff/Director opportunities already in the queue.",
+        "Posting references possible export-control/source-code access discretion; do not answer legal/work-authorization questions without user-confirmed facts."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 1 connection works at Databricks; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Staff AI retrieval and search quality platform IC",
+        "positioning": "Staff platform IC for AI-agent retrieval quality, evidence-grounded RAG, search relevance, vector/search systems, observability signals, and distributed data platforms.",
+        "key_pointers": [
+          "Lead with proactive diagnostics and AM agent federation: cited AI diagnoses over DIAF, logs, metrics, traces, KB/RAG, source references, degradation flags, and budget/audit controls.",
+          "Use Salesforce observability and anomaly detection as signal-quality evidence: PromQL-native anomaly detection, robust bands, persistence gates, explainable dynamic thresholds, and high-scale alert evaluation.",
+          "Map Niki/Rokitt/Brane/Jupiter evidence to search/data foundations: vector embeddings plus Elasticsearch, Spark/Spark ML/Databricks pipelines, OpenSearch SIEM, ClickHouse/Kafka/Redis data platforms, and high-throughput workflows.",
+          "Use Internal IDE/Unleash and agent workflows to show AI-assisted engineering, evaluation/guardrail orientation, and agent-context retrieval patterns."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/unleash"
+        ]
+      },
+      "application_id": "app-20260705-databricks-staff-software-engineer-search-quali-a26d5886",
+      "resume_snapshot_path": "applications/resumes/app-20260705-databricks-staff-software-engineer-search-quali-a26d5886/resume.md",
+      "discovered_at": "2026-07-05T11:57:42Z",
+      "updated_at": "2026-07-05T11:57:49Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
+        "LinkedIn detail notes Databricks applicants should apply through the official Databricks Careers page."
       ],
       "resume_snapshot_name": "IC Resume"
     },

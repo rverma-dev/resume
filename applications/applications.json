@@ -1,9 +1,57 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T11:26:12Z",
+  "updated_at": "2026-07-05T11:57:49Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-databricks-staff-software-engineer-search-quali-a26d5886",
+      "job_id": "linkedin-4375554724",
+      "dedupe_key": "linkedin:4375554724",
+      "source": "linkedin",
+      "source_job_id": "4375554724",
+      "source_url": "https://www.linkedin.com/jobs/view/4375554724",
+      "company": "Databricks",
+      "role": "Staff Software Engineer - Search Quality",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4375554724",
+      "approved_at": "2026-07-05T11:57:49Z",
+      "updated_at": "2026-07-05T11:57:49Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent Staff IC fit at a priority target company. The role builds the retrieval backbone for Databricks Apps and AI Agents, optimizing search quality for both LLM context grounding and human users across structured SQL tables, unstructured documents, and real-time metrics. It maps strongly to proactive diagnostics, governed evidence retrieval/RAG, anomaly and signal grounding, vector/search systems, evaluation/quality frameworks, Databricks/Spark/data-pipeline background, Salesforce observability, Brane/Jupiter high-throughput data systems, and agentic workflow architecture. Main risks are exact IR/search-ranking depth versus broader platform/search evidence and Databricks application being an external careers flow rather than one-click LinkedIn submission.",
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 1 connection works at Databricks; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Staff AI retrieval and search quality platform IC",
+        "positioning": "Staff platform IC for AI-agent retrieval quality, evidence-grounded RAG, search relevance, vector/search systems, observability signals, and distributed data platforms.",
+        "key_pointers": [
+          "Lead with proactive diagnostics and AM agent federation: cited AI diagnoses over DIAF, logs, metrics, traces, KB/RAG, source references, degradation flags, and budget/audit controls.",
+          "Use Salesforce observability and anomaly detection as signal-quality evidence: PromQL-native anomaly detection, robust bands, persistence gates, explainable dynamic thresholds, and high-scale alert evaluation.",
+          "Map Niki/Rokitt/Brane/Jupiter evidence to search/data foundations: vector embeddings plus Elasticsearch, Spark/Spark ML/Databricks pipelines, OpenSearch SIEM, ClickHouse/Kafka/Redis data platforms, and high-throughput workflows.",
+          "Use Internal IDE/Unleash and agent workflows to show AI-assisted engineering, evaluation/guardrail orientation, and agent-context retrieval patterns."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/unleash"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-databricks-staff-software-engineer-search-quali-a26d5886/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-databricks-staff-software-engineer-search-quali-a26d5886/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-rippling-staff-software-engineer-variable-com-05bf413a",
       "job_id": "linkedin-4411285350",
