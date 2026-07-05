@@ -1,9 +1,57 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T03:27:45Z",
+  "updated_at": "2026-07-05T04:28:38Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-broadcom-senior-software-architect-genai-ai-m-c8d636b8",
+      "job_id": "linkedin-4436016572",
+      "dedupe_key": "linkedin:4436016572",
+      "source": "linkedin",
+      "source_job_id": "4436016572",
+      "source_url": "https://www.linkedin.com/jobs/view/4436016572",
+      "company": "Broadcom",
+      "role": "Senior Software Architect - GenAI/AI-ML Engineering",
+      "location": "Greater Hyderabad Area, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4436016572",
+      "approved_at": "2026-07-05T04:28:38Z",
+      "updated_at": "2026-07-05T04:28:38Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Strong Staff+/architect IC fit across practical GenAI implementation, AI/ML architecture patterns, LangChain/LangGraph, RAG, model lifecycle, AI testing/validation, enterprise Java/Spring microservices, data pipelines, customer problem discovery, measurable ROI, and cross-product technical leadership. Maps closely to AM agent federation, MCP/A2A RFCs, proactive diagnostics, anomaly detection alerts, Internal IDE/Unleash, quality/test automation, and Salesforce observability platform evidence. Main risks are title calibration versus explicit Principal/Staff, five-day onsite Hyderabad, and the need to keep customer-facing AI/ML examples truthful and evidence-backed.",
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 1 connection works at Broadcom; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Pragmatic GenAI product architect IC",
+        "positioning": "Staff+/architect IC turning operational and customer signals into governed, testable GenAI product capabilities: agent federation, diagnostic evidence grounding, LangGraph-style workflow design, AI validation, and enterprise Java/platform delivery.",
+        "key_pointers": [
+          "Lead with AM agent federation, MCP/A2A RFCs, LangGraph workflow contracts, xAPI gateway integration, and governed diagnostic evidence plane.",
+          "Use proactive diagnostics and anomaly detection alerts as concrete customer-value AI/ML architecture: signal mining, root-cause workflows, evidence citations, audit/cost controls, and measurable operational impact.",
+          "Map Internal IDE/Unleash and test automation to Broadcom's enterprise DevOps product lines, AI-assisted engineering, QA mindset, and product-quality validation.",
+          "Emphasize Salesforce Hyperforce observability, multi-region rollout, and Brane/Jupiter high-throughput systems for production-grade architecture and reliability."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/unleash"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-broadcom-senior-software-architect-genai-ai-m-c8d636b8/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-broadcom-senior-software-architect-genai-ai-m-c8d636b8/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0",
       "job_id": "linkedin-4436981002",

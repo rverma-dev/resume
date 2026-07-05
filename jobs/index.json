@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T03:27:45Z",
-  "active_batch_id": "batch-4436981002",
-  "last_scheduler_run_at": "2026-07-05T03:27:39Z",
+  "updated_at": "2026-07-05T04:28:38Z",
+  "active_batch_id": "batch-4436016572",
+  "last_scheduler_run_at": "2026-07-05T04:28:32Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -64,6 +64,69 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Earlier Cisco Network Systems Engineer was rejected for networking-specialist underfit; this Webex Data Analytics Platform Technical Leader posting is broader distributed platform engineering."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4436016572",
+      "dedupe_key": "linkedin:4436016572",
+      "source": "linkedin",
+      "source_job_id": "4436016572",
+      "source_url": "https://www.linkedin.com/jobs/view/4436016572",
+      "company": "Broadcom",
+      "role": "Senior Software Architect - GenAI/AI-ML Engineering",
+      "location": "Greater Hyderabad Area, India",
+      "work_type": "On-site, 5 days/week",
+      "experience_level": "Senior Architect / Staff+ AI platform IC",
+      "compensation_signals": [
+        "Broadcom is a user-targeted high-comp infrastructure/software company; Senior Architect in enterprise DevOps product lines may be target-comp capable but needs band validation.",
+        "Role spans GenAI/AI-ML architecture, LangChain/LangGraph, OpenAI/Anthropic APIs, RAG, vector databases, MLOps, AI testing, distributed systems, and multiple Broadcom enterprise DevOps product lines."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4436016572",
+      "fit_score": 95,
+      "fit_reason": "Strong Staff+/architect IC fit across practical GenAI implementation, AI/ML architecture patterns, LangChain/LangGraph, RAG, model lifecycle, AI testing/validation, enterprise Java/Spring microservices, data pipelines, customer problem discovery, measurable ROI, and cross-product technical leadership. Maps closely to AM agent federation, MCP/A2A RFCs, proactive diagnostics, anomaly detection alerts, Internal IDE/Unleash, quality/test automation, and Salesforce observability platform evidence. Main risks are title calibration versus explicit Principal/Staff, five-day onsite Hyderabad, and the need to keep customer-facing AI/ML examples truthful and evidence-backed.",
+      "fit_signals": [
+        "Architect role across multiple Broadcom enterprise DevOps product lines, including requirements, service virtualization, test data management, release automation, and continuous delivery.",
+        "Hands-on implementation expectations across Java, Python, TypeScript, LangChain, LangGraph, OpenAI/Anthropic APIs, RAG, vector databases, ML pipelines, MLOps, and AI service APIs.",
+        "Strong QA/testing emphasis maps to TEST_SCENARIOS manifests, APIM local firing harnesses, Bruno coverage, coherence-validator work, and production reliability discipline.",
+        "Customer pain-point analysis, support-ticket/product-usage signal mining, root-cause analysis, measurable ROI, and production monitoring map to proactive diagnostics and observability evidence-plane work."
+      ],
+      "risk_flags": [
+        "Five-day onsite Hyderabad role; validate location flexibility before final submission.",
+        "Title is Senior Software Architect rather than Principal/Staff; validate Broadcom band and compensation before prioritizing over stronger explicit Principal/Staff targets.",
+        "Application asks for cover-letter examples, portfolio/GitHub links, and optional code samples; do not fabricate customer AI/ML examples or external portfolio claims.",
+        "Some product-line experience is enterprise DevOps/QA-tooling specific; tailor toward Internal IDE, Unleash, testing automation, and AI diagnostics rather than overclaiming Broadcom domain depth."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 1 connection works at Broadcom; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Pragmatic GenAI product architect IC",
+        "positioning": "Staff+/architect IC turning operational and customer signals into governed, testable GenAI product capabilities: agent federation, diagnostic evidence grounding, LangGraph-style workflow design, AI validation, and enterprise Java/platform delivery.",
+        "key_pointers": [
+          "Lead with AM agent federation, MCP/A2A RFCs, LangGraph workflow contracts, xAPI gateway integration, and governed diagnostic evidence plane.",
+          "Use proactive diagnostics and anomaly detection alerts as concrete customer-value AI/ML architecture: signal mining, root-cause workflows, evidence citations, audit/cost controls, and measurable operational impact.",
+          "Map Internal IDE/Unleash and test automation to Broadcom's enterprise DevOps product lines, AI-assisted engineering, QA mindset, and product-quality validation.",
+          "Emphasize Salesforce Hyperforce observability, multi-region rollout, and Brane/Jupiter high-throughput systems for production-grade architecture and reliability."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs",
+          "/Users/rverma/conductor/repos/unleash"
+        ]
+      },
+      "application_id": "app-20260705-broadcom-senior-software-architect-genai-ai-m-c8d636b8",
+      "resume_snapshot_path": "applications/resumes/app-20260705-broadcom-senior-software-architect-genai-ai-m-c8d636b8/resume.md",
+      "discovered_at": "2026-07-05T04:28:32Z",
+      "updated_at": "2026-07-05T04:28:38Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
+        "Distinct from existing Broadcom Senior Software Architect 4401425673 because this posting is requisition R025606 focused on GenAI/AI-ML product architecture across enterprise DevOps tools."
       ],
       "resume_snapshot_name": "IC Resume"
     },
