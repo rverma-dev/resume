@@ -1,11 +1,72 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T01:33:35Z",
-  "active_batch_id": "batch-4378782123",
-  "last_scheduler_run_at": "2026-07-05T01:33:29Z",
+  "updated_at": "2026-07-05T01:59:05Z",
+  "active_batch_id": "batch-4403441038",
+  "last_scheduler_run_at": "2026-07-05T01:58:59Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "linkedin-4403441038",
+      "dedupe_key": "linkedin:4403441038",
+      "source": "linkedin",
+      "source_job_id": "4403441038",
+      "source_url": "https://www.linkedin.com/jobs/view/4403441038",
+      "company": "Agoda",
+      "role": "Principal Software Engineer, Back End (AI-powered Data Querying)",
+      "location": "Bangkok, Thailand; LinkedIn surfaced via Greater Kolkata Area",
+      "work_type": "Relocation provided / Bangkok based",
+      "experience_level": "Principal IC / Staff+ backend and data platform engineering",
+      "compensation_signals": [
+        "Principal Engineer role at Agoda, part of Booking Holdings, with Bangkok relocation support; compensation and relocation package must be validated before prioritizing submission.",
+        "Role spans AI-powered data querying, analytical engines, data quality, governance, and mission-critical backend/data platform systems."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4403441038",
+      "fit_score": 92,
+      "fit_reason": "Strong Principal IC fit across AI-powered data querying, text-to-SQL/conversational data interfaces, large-scale data systems, analytical engines such as StarRocks/Snowflake/BigQuery/ClickHouse, data quality/governance, reliability, backend platform architecture, and cross-team technical leadership. Maps well to Salesforce proactive diagnostics/anomaly detection, AM agent federation, observability evidence plane, multi-region platform work, and Brane/Jupiter distributed-systems evidence. Main risks are Bangkok relocation, travel-domain context, and compensation validation against the 2.5cr+ target.",
+      "fit_signals": [
+        "Principal IC title with 10+ years requirement and senior technical authority across AI, data infrastructure, and reliability domains.",
+        "AI-powered natural-language data querying maps to AM agent federation, evidence-grounded diagnostics, MCP/A2A tool facades, and governed AI platform work.",
+        "Data quality, governance, analytical engines, SQL, and large-scale data systems align with observability, anomaly detection, and production data-platform architecture evidence.",
+        "Mission-critical backend systems, dozens of releases per day, self-healing behavior, Kafka/Aerospike/Scala/Go context align with high-throughput distributed systems and build-it/run-it ownership."
+      ],
+      "risk_flags": [
+        "Bangkok-based relocation role; validate relocation willingness, compensation, tax, and package before final application.",
+        "Agoda/Booking Holdings may or may not meet the 2.5cr+ target after location adjustment; treat as high-fit but compensation-needs-validation.",
+        "Do not overclaim hands-on StarRocks/text-to-SQL implementation unless backed by direct project evidence; position around AI diagnostics, data-platform architecture, and governed evidence systems."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn job detail did not expose reliable named connections in this pass; posting showed 18 people clicked apply.",
+      "resume_theme": {
+        "name": "AI-powered data querying principal backend IC",
+        "positioning": "Position Rohit as a Principal backend/data-platform engineer for governed AI-powered data experiences: natural-language diagnostics, evidence-grounded query systems, observability, data quality, reliability, and cross-team technical direction.",
+        "key_pointers": [
+          "Lead with proactive diagnostics, anomaly detection alerts, and AM agent federation as evidence for turning operational signals into cited AI diagnoses and natural-language data experiences.",
+          "Use Salesforce Hyperforce observability, multi-region rollout, AMP migration, and platform SLOs to show reliability and data-platform ownership at scale.",
+          "Map Brane event-billing and Jupiter payments to mission-critical backend/data systems, high-throughput pipelines, compliance, and production ownership.",
+          "Keep StarRocks/text-to-SQL positioning honest: emphasize SQL/data-platform architecture, evidence retrieval, governance, and AI workflow design rather than claiming deep analytical-engine internals."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "application_id": "app-20260705-agoda-principal-software-engineer-back-end-6936ae98",
+      "resume_snapshot_path": "applications/resumes/app-20260705-agoda-principal-software-engineer-back-end-6936ae98/resume.md",
+      "discovered_at": "2026-07-05T01:58:59Z",
+      "updated_at": "2026-07-05T01:59:05Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
+        "Meta, Splunk, Google, Amazon, NVIDIA, and Datadog searches in the same pass produced no new Staff+/Principal target-role matches or only underlevel/generic fallback results."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "linkedin-4378782123",
       "dedupe_key": "linkedin:4378782123",

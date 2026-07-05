@@ -1,9 +1,56 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T01:33:35Z",
+  "updated_at": "2026-07-05T01:59:05Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-agoda-principal-software-engineer-back-end-6936ae98",
+      "job_id": "linkedin-4403441038",
+      "dedupe_key": "linkedin:4403441038",
+      "source": "linkedin",
+      "source_job_id": "4403441038",
+      "source_url": "https://www.linkedin.com/jobs/view/4403441038",
+      "company": "Agoda",
+      "role": "Principal Software Engineer, Back End (AI-powered Data Querying)",
+      "location": "Bangkok, Thailand; LinkedIn surfaced via Greater Kolkata Area",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4403441038",
+      "approved_at": "2026-07-05T01:59:05Z",
+      "updated_at": "2026-07-05T01:59:05Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong Principal IC fit across AI-powered data querying, text-to-SQL/conversational data interfaces, large-scale data systems, analytical engines such as StarRocks/Snowflake/BigQuery/ClickHouse, data quality/governance, reliability, backend platform architecture, and cross-team technical leadership. Maps well to Salesforce proactive diagnostics/anomaly detection, AM agent federation, observability evidence plane, multi-region platform work, and Brane/Jupiter distributed-systems evidence. Main risks are Bangkok relocation, travel-domain context, and compensation validation against the 2.5cr+ target.",
+      "people": [],
+      "connections_summary": "LinkedIn job detail did not expose reliable named connections in this pass; posting showed 18 people clicked apply.",
+      "resume_theme": {
+        "name": "AI-powered data querying principal backend IC",
+        "positioning": "Position Rohit as a Principal backend/data-platform engineer for governed AI-powered data experiences: natural-language diagnostics, evidence-grounded query systems, observability, data quality, reliability, and cross-team technical direction.",
+        "key_pointers": [
+          "Lead with proactive diagnostics, anomaly detection alerts, and AM agent federation as evidence for turning operational signals into cited AI diagnoses and natural-language data experiences.",
+          "Use Salesforce Hyperforce observability, multi-region rollout, AMP migration, and platform SLOs to show reliability and data-platform ownership at scale.",
+          "Map Brane event-billing and Jupiter payments to mission-critical backend/data systems, high-throughput pipelines, compliance, and production ownership.",
+          "Keep StarRocks/text-to-SQL positioning honest: emphasize SQL/data-platform architecture, evidence retrieval, governance, and AI workflow design rather than claiming deep analytical-engine internals."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-agoda-principal-software-engineer-back-end-6936ae98/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-agoda-principal-software-engineer-back-end-6936ae98/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-microsoft-principal-software-engineer-fd98f973",
       "job_id": "linkedin-4378782123",
