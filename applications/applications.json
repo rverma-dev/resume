@@ -1,9 +1,54 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T14:59:20Z",
+  "updated_at": "2026-07-05T15:26:52Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-harness-staff-security-research-engineer-57fb1a0f",
+      "job_id": "linkedin-4315411540",
+      "dedupe_key": "linkedin:4315411540",
+      "source": "linkedin",
+      "source_job_id": "4315411540",
+      "source_url": "https://www.linkedin.com/jobs/view/4315411540",
+      "company": "Harness",
+      "role": "Staff Security Research Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4315411540",
+      "approved_at": "2026-07-05T15:26:52Z",
+      "updated_at": "2026-07-05T15:26:52Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Staff-level AI/security research role at a strong software delivery platform company, focused on AI-powered security capabilities, CI/CD and supply-chain risk, developer workflow integration, and code-to-cloud protection.",
+      "people": [],
+      "connections_summary": "LinkedIn shows network reachability at Harness but individual connection details were not expanded.",
+      "resume_theme": {
+        "name": "AI platform security and developer workflow research",
+        "positioning": "Position Rohit as a platform engineer with strong security, governance, CI/CD, and AI-assisted engineering experience who can turn research into practical developer workflow and product capabilities.",
+        "key_pointers": [
+          "Lead with governed AI/platform work and operational feedback loops from MuleSoft where security, reliability, and developer velocity matter.",
+          "Highlight Brane platform/security/compliance readiness built by a two-engineer infrastructure team.",
+          "Emphasize CI/CD, cloud platform, observability, governance, and secure software delivery patterns."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/incident_reviews/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-harness-staff-security-research-engineer-57fb1a0f/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-harness-staff-security-research-engineer-57fb1a0f/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-alphasense-principal-engineer-software-b3c240fe",
       "job_id": "linkedin-4431673517",

@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T14:59:20Z",
-  "active_batch_id": "batch-4431673517",
-  "last_scheduler_run_at": "2026-07-05T14:59:12Z",
+  "updated_at": "2026-07-05T15:26:52Z",
+  "active_batch_id": "batch-4315411540",
+  "last_scheduler_run_at": "2026-07-05T15:26:45Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -867,6 +867,64 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "LinkedIn detail notes Databricks applicants should apply through the official Databricks Careers page."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4315411540",
+      "dedupe_key": "linkedin:4315411540",
+      "source": "linkedin",
+      "source_job_id": "4315411540",
+      "source_url": "https://www.linkedin.com/jobs/view/4315411540",
+      "company": "Harness",
+      "role": "Staff Security Research Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "hybrid",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Staff IC role at Harness, an AI software delivery platform company valued around $5.5B per posting; posting does not disclose salary."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4315411540",
+      "fit_score": 91,
+      "fit_reason": "Staff-level AI/security research role at a strong software delivery platform company, focused on AI-powered security capabilities, CI/CD and supply-chain risk, developer workflow integration, and code-to-cloud protection.",
+      "fit_signals": [
+        "Researches and builds AI-powered security capabilities across SAST, SCA, DAST, and CI/CD pipelines.",
+        "Investigates AI-assisted development risks including insecure code generation, dependency suggestions, and automated refactoring.",
+        "Leads research into attack vectors targeting code, dependencies, build systems, CI/CD pipelines, and cloud environments.",
+        "Integrates research outcomes into developer workflows and platform features with engineering and product teams.",
+        "Requires appsec, supply-chain security, LLM risk, OWASP/API/LLM/CI-CD security knowledge, and modern programming depth."
+      ],
+      "risk_flags": [
+        "Role is security-research heavy rather than pure platform engineering; tune resume toward platform security, governance, CI/CD, and AI-assisted developer workflow evidence.",
+        "Requires explicit security research and possible public research/blog/conference track record; verify evidence before external submission.",
+        "Hybrid Bengaluru role; confirm location expectations before final application."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn shows network reachability at Harness but individual connection details were not expanded.",
+      "resume_theme": {
+        "name": "AI platform security and developer workflow research",
+        "positioning": "Position Rohit as a platform engineer with strong security, governance, CI/CD, and AI-assisted engineering experience who can turn research into practical developer workflow and product capabilities.",
+        "key_pointers": [
+          "Lead with governed AI/platform work and operational feedback loops from MuleSoft where security, reliability, and developer velocity matter.",
+          "Highlight Brane platform/security/compliance readiness built by a two-engineer infrastructure team.",
+          "Emphasize CI/CD, cloud platform, observability, governance, and secure software delivery patterns."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/design_docs/",
+          "work/incident_reviews/"
+        ]
+      },
+      "application_id": "app-20260705-harness-staff-security-research-engineer-57fb1a0f",
+      "resume_snapshot_path": "applications/resumes/app-20260705-harness-staff-security-research-engineer-57fb1a0f/resume.md",
+      "discovered_at": "2026-07-05T15:26:45Z",
+      "updated_at": "2026-07-05T15:26:52Z",
+      "notes": [
+        "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },
