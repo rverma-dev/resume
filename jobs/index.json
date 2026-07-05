@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T13:57:14Z",
-  "active_batch_id": "batch-4400557914",
-  "last_scheduler_run_at": "2026-07-05T13:57:08Z",
+  "updated_at": "2026-07-05T14:29:17Z",
+  "active_batch_id": "batch-4426686251",
+  "last_scheduler_run_at": "2026-07-05T14:29:10Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -255,6 +255,62 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Official Google Careers corroboration: https://www.google.com/about/careers/applications/jobs/results/76513839557812934-staff-software-engineer-git-development-suite"
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4426686251",
+      "dedupe_key": "linkedin:4426686251",
+      "source": "linkedin",
+      "source_job_id": "4426686251",
+      "source_url": "https://www.linkedin.com/jobs/view/4426686251",
+      "company": "NVIDIA",
+      "role": "Senior Solutions Architect, GPU Cloud GenAI - Infrastructure",
+      "location": "Mumbai, Maharashtra, India",
+      "work_type": "on-site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "NVIDIA priority company and high-comp AI infrastructure employer; posting does not disclose salary."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4426686251",
+      "fit_score": 93,
+      "fit_reason": "Priority NVIDIA role at the intersection of AI infrastructure, GPU cloud platforms, Kubernetes/Slurm orchestration, multi-tenant platform services, observability, and enterprise-scale GenAI workloads.",
+      "fit_signals": [
+        "Architects and builds scalable IaaS/PaaS/SaaS layers for large GPU cluster environments.",
+        "Owns Kubernetes GPU operators, device plugins, Slurm scheduling, isolation, quota management, and observability for multi-tenant GPU cloud platforms.",
+        "Maps LLM, multimodal, RAG, vLLM, TensorRT-LLM, and distributed training requirements into production infrastructure design.",
+        "Collaborates with NVIDIA engineering teams and influences platform capabilities/product roadmap from customer deployment feedback."
+      ],
+      "risk_flags": [
+        "Title is Senior Solutions Architect rather than Staff/Principal; imported because NVIDIA AI infrastructure scope is high-comp and Staff-equivalent in technical breadth.",
+        "Role is customer-facing and asks for demonstrated 100+ node GPU cluster experience; validate against resume evidence before external submission.",
+        "Mumbai on-site location may require relocation or travel logistics."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn shows network reachability but individual connection details were not expanded.",
+      "resume_theme": {
+        "name": "AI infrastructure platform architect",
+        "positioning": "Position Rohit as a platform and infrastructure architect who has built secure, observable, multi-tenant developer platforms and operational feedback loops, with emphasis on Kubernetes, cloud control planes, reliability, governance, and AI platform enablement.",
+        "key_pointers": [
+          "Lead with MuleSoft AI platform and operational/customer-signal integration work for product and engineering decision velocity.",
+          "Highlight Brane enterprise-scale platform/security/compliance readiness built by a two-engineer infrastructure team.",
+          "Emphasize Kubernetes/cloud platform, observability, automation, governance, and secure multi-tenant infrastructure patterns."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/design_docs/"
+        ]
+      },
+      "application_id": "app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e",
+      "resume_snapshot_path": "applications/resumes/app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e/resume.md",
+      "discovered_at": "2026-07-05T14:29:10Z",
+      "updated_at": "2026-07-05T14:29:17Z",
+      "notes": [
+        "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },

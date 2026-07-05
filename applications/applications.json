@@ -1,9 +1,53 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T13:57:14Z",
+  "updated_at": "2026-07-05T14:29:17Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e",
+      "job_id": "linkedin-4426686251",
+      "dedupe_key": "linkedin:4426686251",
+      "source": "linkedin",
+      "source_job_id": "4426686251",
+      "source_url": "https://www.linkedin.com/jobs/view/4426686251",
+      "company": "NVIDIA",
+      "role": "Senior Solutions Architect, GPU Cloud GenAI - Infrastructure",
+      "location": "Mumbai, Maharashtra, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4426686251",
+      "approved_at": "2026-07-05T14:29:17Z",
+      "updated_at": "2026-07-05T14:29:17Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Priority NVIDIA role at the intersection of AI infrastructure, GPU cloud platforms, Kubernetes/Slurm orchestration, multi-tenant platform services, observability, and enterprise-scale GenAI workloads.",
+      "people": [],
+      "connections_summary": "LinkedIn shows network reachability but individual connection details were not expanded.",
+      "resume_theme": {
+        "name": "AI infrastructure platform architect",
+        "positioning": "Position Rohit as a platform and infrastructure architect who has built secure, observable, multi-tenant developer platforms and operational feedback loops, with emphasis on Kubernetes, cloud control planes, reliability, governance, and AI platform enablement.",
+        "key_pointers": [
+          "Lead with MuleSoft AI platform and operational/customer-signal integration work for product and engineering decision velocity.",
+          "Highlight Brane enterprise-scale platform/security/compliance readiness built by a two-engineer infrastructure team.",
+          "Emphasize Kubernetes/cloud platform, observability, automation, governance, and secure multi-tenant infrastructure patterns."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/design_docs/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-insightsoftware-principal-platform-engineer-229101e7",
       "job_id": "linkedin-4400557914",
