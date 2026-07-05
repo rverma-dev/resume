@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T21:40:02Z",
+  "updated_at": "2026-07-05T22:12:33Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147",
+      "job_id": "linkedin-4411600734",
+      "dedupe_key": "linkedin:4411600734",
+      "source": "linkedin",
+      "source_job_id": "4411600734",
+      "source_url": "https://www.linkedin.com/jobs/view/4411600734",
+      "company": "Amazon Web Services (AWS)",
+      "role": "Sr. Solution Architect, Startups",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4411600734",
+      "approved_at": "2026-07-05T22:12:33Z",
+      "updated_at": "2026-07-05T22:12:33Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 89,
+      "fit_reason": "Strong senior IC architect fit for AWS cloud/startup architecture: requires deep software, infrastructure, security, networking, data/analytics, AWS architecture, customer advisory, technical content, and GenAI fluency. It is less product-engineering-heavy than Staff/Principal SWE roles, but aligns with Principal Architect and high-comp cloud infrastructure targets.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Amazon Web Services (AWS)",
+          "profile_url": "",
+          "notes": "Search results around AWS/Amazon roles showed multiple reachable connections; fetched detail did not expose named people for this posting."
+        }
+      ],
+      "connections_summary": "Fetched LinkedIn detail did not expose named reachable people for this AWS posting.",
+      "resume_theme": {
+        "name": "AWS startup cloud and GenAI architecture",
+        "positioning": "Position Rohit as a senior IC architect who has built cloud-native platforms, regulated infrastructure, cost-efficient observability, and governed GenAI/agentic systems from 0 to scale.",
+        "key_pointers": [
+          "Lead with Brane enterprise SaaS platform/infrastructure/security stack, 2-engineer platform buildout, on-prem/cloud deployment, and compliance readiness.",
+          "Use Salesforce Hyperforce observability migration and MuleSoft governed agent systems to show AWS-scale architecture, reliability, GenAI, cost controls, and technical strategy.",
+          "Add Jupiter payment infrastructure and consulting examples to support regulated startup/enterprise advisory across cloud, security, data, and pragmatic architecture tradeoffs."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/architecture/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-juniper-square-principal-engineer-007afdc2",
       "job_id": "linkedin-4431878954",

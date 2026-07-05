@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T21:40:02Z",
-  "active_batch_id": "batch-4431878954",
-  "last_scheduler_run_at": "2026-07-05T21:39:56Z",
+  "updated_at": "2026-07-05T22:12:33Z",
+  "active_batch_id": "batch-4411600734",
+  "last_scheduler_run_at": "2026-07-05T22:12:27Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -544,6 +544,72 @@
       "updated_at": "2026-07-05T16:01:01Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4411600734",
+      "dedupe_key": "linkedin:4411600734",
+      "source": "linkedin",
+      "source_job_id": "4411600734",
+      "source_url": "https://www.linkedin.com/jobs/view/4411600734",
+      "company": "Amazon Web Services (AWS)",
+      "role": "Sr. Solution Architect, Startups",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior IC Architect",
+      "compensation_signals": [
+        "Senior Solutions Architect role at AWS India with 12+ years of technology-domain experience and 8+ years of application/infrastructure design or consulting required.",
+        "Priority-company cloud architecture role covering startups, scalable secure architectures, cloud computing, infrastructure, security, data, analytics, and Generative AI."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4411600734",
+      "fit_score": 89,
+      "fit_reason": "Strong senior IC architect fit for AWS cloud/startup architecture: requires deep software, infrastructure, security, networking, data/analytics, AWS architecture, customer advisory, technical content, and GenAI fluency. It is less product-engineering-heavy than Staff/Principal SWE roles, but aligns with Principal Architect and high-comp cloud infrastructure targets.",
+      "fit_signals": [
+        "AWS priority-company role focused on cloud computing, Generative AI, scalable and secure startup architectures, and pragmatic technical decision-making.",
+        "Requires 12+ years across software development, cloud computing, systems engineering, infrastructure, security, networking, or data and analytics.",
+        "Requires 8+ years designing, implementing, or consulting on applications and infrastructure, plus AWS service/customer/industry knowledge.",
+        "Preferred qualifications include infrastructure architecture, database architecture, networking, AWS-operated solutions, software development tools and methodologies, and executive-level technical communication.",
+        "Maps to Brane enterprise SaaS platform, Salesforce Hyperforce observability, Jupiter regulated payment infrastructure, and MuleSoft AI/cloud architecture evidence."
+      ],
+      "risk_flags": [
+        "Customer-facing solutions architecture role within AWS Sales, Marketing, and Global Services; less hands-on product engineering than Staff/Principal SWE roles.",
+        "External AWS application flow may require account login, legal/identity/work authorization answers, sponsorship answers, or manual final submission.",
+        "Posting is reposted 2 weeks ago and shows over 100 apply clicks, so competition is likely high."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Amazon Web Services (AWS)",
+          "profile_url": "",
+          "notes": "Search results around AWS/Amazon roles showed multiple reachable connections; fetched detail did not expose named people for this posting."
+        }
+      ],
+      "connections_summary": "Fetched LinkedIn detail did not expose named reachable people for this AWS posting.",
+      "resume_theme": {
+        "name": "AWS startup cloud and GenAI architecture",
+        "positioning": "Position Rohit as a senior IC architect who has built cloud-native platforms, regulated infrastructure, cost-efficient observability, and governed GenAI/agentic systems from 0 to scale.",
+        "key_pointers": [
+          "Lead with Brane enterprise SaaS platform/infrastructure/security stack, 2-engineer platform buildout, on-prem/cloud deployment, and compliance readiness.",
+          "Use Salesforce Hyperforce observability migration and MuleSoft governed agent systems to show AWS-scale architecture, reliability, GenAI, cost controls, and technical strategy.",
+          "Add Jupiter payment infrastructure and consulting examples to support regulated startup/enterprise advisory across cloud, security, data, and pragmatic architecture tradeoffs."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/architecture/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "application_id": "app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147",
+      "resume_snapshot_path": "applications/resumes/app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147/resume.md",
+      "discovered_at": "2026-07-05T22:12:27Z",
+      "updated_at": "2026-07-05T22:12:33Z",
+      "notes": [
+        "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },
