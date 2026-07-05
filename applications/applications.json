@@ -1,9 +1,57 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T10:57:12Z",
+  "updated_at": "2026-07-05T11:26:12Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-rippling-staff-software-engineer-variable-com-05bf413a",
+      "job_id": "linkedin-4411285350",
+      "dedupe_key": "linkedin:4411285350",
+      "source": "linkedin",
+      "source_job_id": "4411285350",
+      "source_url": "https://www.linkedin.com/jobs/view/4411285350",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - Variable Compensation",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4411285350",
+      "approved_at": "2026-07-05T11:26:12Z",
+      "updated_at": "2026-07-05T11:26:12Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 91,
+      "fit_reason": "Strong Staff IC fit at a high-growth, high-comp platform company. The role spans AI-first compensation systems, payment orchestration, ledgers, rules engines, explainability, deterministic execution from ambiguous compensation logic, distributed systems, APIs, analytical and transactional storage, streaming/workflow systems, observability, 4-5 nines reliability, and technical leadership. It maps well to Jupiter payments/compliance, Brane event billing/workflows, Salesforce Hyperforce observability, anomaly/proactive diagnostics, Internal IDE/Unleash, and AI-assisted engineering workflows. Main risks are domain specificity in HR/finance compensation, on-site expectations, and compensation validation versus explicit target-capable companies.",
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 139 company alumni work at Rippling; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Staff AI-first finance platform IC",
+        "positioning": "Staff platform IC for AI-first financial systems, payment orchestration, rules engines, ledgers, distributed workflows, observability, and reliability-critical enterprise platforms.",
+        "key_pointers": [
+          "Lead with Jupiter payments: partner-bank hub-and-spoke card/UPI platform at $240M/month, compliance ownership, SIEM/anomaly detection, and financial-system correctness.",
+          "Use Brane event billing/workflow evidence: sidecar billing at 10M events/min, workflow engine tuning, tenant metering, and enterprise SaaS platform delivery.",
+          "Map Salesforce Hyperforce observability and proactive diagnostics to reliability, observability, AI explainability, evidence grounding, and customer-operational signal processing.",
+          "Use Internal IDE/Unleash and agent federation to show AI-assisted engineering workflows, governance, and high-velocity platform delivery."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/repos/unleash",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-rippling-staff-software-engineer-variable-com-05bf413a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-rippling-staff-software-engineer-variable-com-05bf413a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-zscaler-sr-staff-software-development-engine-a5552f31",
       "job_id": "linkedin-4436981894",

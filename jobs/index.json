@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T10:57:12Z",
-  "active_batch_id": "batch-4436981894",
-  "last_scheduler_run_at": "2026-07-05T10:55:50Z",
+  "updated_at": "2026-07-05T11:26:12Z",
+  "active_batch_id": "batch-4411285350",
+  "last_scheduler_run_at": "2026-07-05T11:26:03Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -255,6 +255,70 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Official Google Careers corroboration: https://www.google.com/about/careers/applications/jobs/results/76513839557812934-staff-software-engineer-git-development-suite"
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4411285350",
+      "dedupe_key": "linkedin:4411285350",
+      "source": "linkedin",
+      "source_job_id": "4411285350",
+      "source_url": "https://www.linkedin.com/jobs/view/4411285350",
+      "company": "Rippling",
+      "role": "Staff Software Engineer - Variable Compensation",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff IC / finance platform and AI-first distributed systems",
+      "compensation_signals": [
+        "Rippling is a high-growth, heavily funded San Francisco platform company with competitive salary, benefits, and equity called out in the posting; Staff-level Bengaluru roles may be target-relevant but need recruiter validation for the 2.5cr+ total compensation target.",
+        "Staff title, finance-platform correctness, ledgers, AI-first design, and platform ownership are credible current/next-level signals; keep stretch-first rather than rejecting solely on sparse public India bands.",
+        "Bengaluru role avoids US-only/H1B exclusion risk, but on-site policy requires validation."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4411285350",
+      "fit_score": 91,
+      "fit_reason": "Strong Staff IC fit at a high-growth, high-comp platform company. The role spans AI-first compensation systems, payment orchestration, ledgers, rules engines, explainability, deterministic execution from ambiguous compensation logic, distributed systems, APIs, analytical and transactional storage, streaming/workflow systems, observability, 4-5 nines reliability, and technical leadership. It maps well to Jupiter payments/compliance, Brane event billing/workflows, Salesforce Hyperforce observability, anomaly/proactive diagnostics, Internal IDE/Unleash, and AI-assisted engineering workflows. Main risks are domain specificity in HR/finance compensation, on-site expectations, and compensation validation versus explicit target-capable companies.",
+      "fit_signals": [
+        "Staff Software Engineer title with high-visibility technical leadership for Rippling's Variable Compensation team.",
+        "Team builds an AI-first compensation platform from the ground up, including compensation engine, payment orchestration, ledgers, and explainability layer.",
+        "Technical challenges include millions of payouts, complex compensation plans, rules engine flexibility, financial correctness, resilience, and natively AI-driven architecture.",
+        "Role requires distributed systems, Python/Golang/Java, APIs/BFFs, analytical storage such as Presto/S3/Snowflake, transactional stores such as MySQL/Aurora/MongoDB, streaming such as Flink/Kafka Connect, workflow systems, observability, and 99.99/99.999 reliability."
+      ],
+      "risk_flags": [
+        "Rippling is not explicitly listed in target_capable_companies; validate India Staff total-comp band before prioritizing over Google/Amazon/NVIDIA/Broadcom/Splunk/Docusign.",
+        "On-site Bengaluru role; posting says in-office at least three days a week is essential for office-based employees within 40 miles.",
+        "Variable compensation and HR/finance domain is specific; tailor toward Jupiter payments, Brane billing/workflow, and compliance evidence without overclaiming compensation-domain experience.",
+        "Application flow likely managed off LinkedIn and may require legal/privacy/work-authorization/EEO fields and final submit confirmation; do not mark applied without confirmed submission."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 139 company alumni work at Rippling; no reliable named recruiter or hiring-manager contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Staff AI-first finance platform IC",
+        "positioning": "Staff platform IC for AI-first financial systems, payment orchestration, rules engines, ledgers, distributed workflows, observability, and reliability-critical enterprise platforms.",
+        "key_pointers": [
+          "Lead with Jupiter payments: partner-bank hub-and-spoke card/UPI platform at $240M/month, compliance ownership, SIEM/anomaly detection, and financial-system correctness.",
+          "Use Brane event billing/workflow evidence: sidecar billing at 10M events/min, workflow engine tuning, tenant metering, and enterprise SaaS platform delivery.",
+          "Map Salesforce Hyperforce observability and proactive diagnostics to reliability, observability, AI explainability, evidence grounding, and customer-operational signal processing.",
+          "Use Internal IDE/Unleash and agent federation to show AI-assisted engineering workflows, governance, and high-velocity platform delivery."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/RFCs/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md",
+          "/Users/rverma/conductor/repos/unleash",
+          "/Users/rverma/conductor/workspaces/mdas-alerts/spring-ai-mcp-a2a-rfcs"
+        ]
+      },
+      "application_id": "app-20260705-rippling-staff-software-engineer-variable-com-05bf413a",
+      "resume_snapshot_path": "applications/resumes/app-20260705-rippling-staff-software-engineer-variable-com-05bf413a/resume.md",
+      "discovered_at": "2026-07-05T11:26:03Z",
+      "updated_at": "2026-07-05T11:26:12Z",
+      "notes": [
+        "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
+        "Selected despite not being on the explicit target-company list because the Staff-level AI-first finance-platform scope is high-signal and likely high-comp enough to validate."
       ],
       "resume_snapshot_name": "IC Resume"
     },
