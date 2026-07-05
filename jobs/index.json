@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T22:42:19Z",
-  "active_batch_id": "batch-4304686818",
-  "last_scheduler_run_at": "2026-07-05T22:42:12Z",
+  "updated_at": "2026-07-05T23:11:14Z",
+  "active_batch_id": "batch-4417164255",
+  "last_scheduler_run_at": "2026-07-05T23:11:04Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -426,6 +426,72 @@
       "updated_at": "2026-07-05T14:29:17Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4417164255",
+      "dedupe_key": "linkedin:4417164255",
+      "source": "linkedin",
+      "source_job_id": "4417164255",
+      "source_url": "https://www.linkedin.com/jobs/view/4417164255",
+      "company": "OpenAI",
+      "role": "Developer Experience Engineer",
+      "location": "India / Bengaluru; remote with APAC travel",
+      "work_type": "Remote",
+      "experience_level": "Senior IC / Developer Platform",
+      "compensation_signals": [
+        "Engineering role at OpenAI focused on Codex, frontier models, APIs, agents, developer tools, and global developer adoption.",
+        "Remote India role with APAC travel, cross-functional product/engineering/research/GTM collaboration, and direct contribution to developer product surfaces."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4417164255",
+      "fit_score": 90,
+      "fit_reason": "Strong AI developer-platform fit despite not using a Staff/Principal title: the role centers on Codex, OpenAI APIs, frontier models, multimodal capabilities, agents, full-stack sample applications, developer tools, technical content, product feedback, and developer-product interfaces. It maps closely to Rohit's internal IDE, agentic developer systems, MCP-first tooling, and platform storytelling evidence.",
+      "fit_signals": [
+        "Builds demos, sample applications, developer tooling, and technical content for Codex, frontier models, multimodal capabilities, OpenAI APIs, and agents.",
+        "Collaborates with product, engineering, research, and GTM teams to improve developer onboarding, production deployment paths, developer products, interfaces, and surfaces.",
+        "Requires robust full-stack engineering background and demonstrated experience building innovative applications using AI and LLMs.",
+        "Needs developer empathy, technical storytelling, high-quality code samples, community engagement, and feedback synthesis into product roadmap improvements.",
+        "Maps to MuleSoft governed agent systems, Unleash/internal IDE, multi-agent decision systems, Codex-style developer tooling, and evidence-backed AI workflows."
+      ],
+      "risk_flags": [
+        "Title is Developer Experience Engineer rather than Staff/Principal; include because OpenAI and Codex/developer-platform scope likely carry high compensation and strategic fit.",
+        "Role includes APAC travel up to about 30%, which needs candidate preference confirmation if the portal asks travel availability.",
+        "External OpenAI application may require account login, work authorization, legal/identity, background-check, EEO, sponsorship, or other answers that must not be fabricated."
+      ],
+      "people": [
+        {
+          "name": "School alumni from IIT Kharagpur",
+          "relationship": "alumni signal",
+          "role": "OpenAI",
+          "profile_url": "",
+          "notes": "LinkedIn detail exposed school alumni signal but did not show named reachable people."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed school alumni from IIT Kharagpur; no named reachable people were exposed.",
+      "resume_theme": {
+        "name": "OpenAI Codex developer platform",
+        "positioning": "Position Rohit as a developer-platform IC who builds agentic engineering tools, governed AI workflows, full-stack demos, and production-grade developer surfaces for frontier model adoption.",
+        "key_pointers": [
+          "Lead with Unleash/internal IDE, Codex-style agent-assisted engineering workflows, MCP-first tool facades, and multi-agent decision systems.",
+          "Emphasize MuleSoft governed agent systems: evidence plane, auditability, cost controls, source references, degradation flags, and safe tool orchestration.",
+          "Use Salesforce/Brane/Jupiter platform evidence to show full-stack execution, production reliability, developer productivity, documentation-first technical leadership, and customer-facing technical storytelling."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/design_docs/README.md",
+          "work/collaboration/README.md"
+        ]
+      },
+      "application_id": "app-20260705-openai-developer-experience-engineer-47e6a7c5",
+      "resume_snapshot_path": "applications/resumes/app-20260705-openai-developer-experience-engineer-47e6a7c5/resume.md",
+      "discovered_at": "2026-07-05T23:11:04Z",
+      "updated_at": "2026-07-05T23:11:14Z",
+      "notes": [
+        "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },
