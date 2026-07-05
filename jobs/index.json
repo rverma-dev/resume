@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T12:28:56Z",
-  "active_batch_id": "batch-4417155908",
-  "last_scheduler_run_at": "2026-07-05T12:28:51Z",
+  "updated_at": "2026-07-05T12:58:05Z",
+  "active_batch_id": "batch-4390930020",
+  "last_scheduler_run_at": "2026-07-05T12:57:59Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -259,6 +259,67 @@
       "resume_snapshot_name": "IC Resume"
     },
     {
+      "job_id": "linkedin-4417155908",
+      "dedupe_key": "linkedin:4417155908",
+      "source": "linkedin",
+      "source_job_id": "4417155908",
+      "source_url": "https://www.linkedin.com/jobs/view/4417155908",
+      "company": "Arctic Wolf",
+      "role": "Staff Developer - Endpoint - Cloud",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff IC",
+      "compensation_signals": [
+        "LinkedIn posting states equity for all India employees and comprehensive private benefits.",
+        "Staff-level cloud security platform role at global cybersecurity company; compensation target is plausible but not confirmed."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4417155908",
+      "fit_score": 91,
+      "fit_reason": "Strong Staff IC fit: technical vision for cloud security platform, scalable backend services, endpoint security, distributed systems, AWS, Kubernetes, Terraform, large-scale security event processing, and mentoring senior engineers.",
+      "fit_signals": [
+        "Staff Software Engineer role with 8-12+ years and 3+ years technical leadership.",
+        "Architects scalable backend systems and cloud engineering strategy for endpoint security.",
+        "Requires AWS, distributed systems, microservices, event-driven architecture, APIs, Kubernetes, Docker, Terraform, and large-scale data processing.",
+        "Explicitly drives AI-powered development tools and AI-assisted engineering practices."
+      ],
+      "risk_flags": [
+        "Not in the highest-priority named company list, but fits strong cloud security/platform company criteria.",
+        "Endpoint security domain is more security-product specific than generic platform infrastructure.",
+        "Posting mentions background checks and possible U.S. export-control authorization at offer stage; do not answer related questions without user confirmation."
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "",
+        "positioning": "Position as a Staff/Principal-level cloud security platform engineer with Salesforce AI/platform ownership, Hyperforce-scale observability, developer tooling, and prior infrastructure/security stack leadership.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS platform ownership: AM Agent Federation, Internal IDE, Hyperforce alerting, and Visualizer cloud re-platforming.",
+          "Emphasize distributed backend, high-volume telemetry/security-adjacent event processing, AWS/Kubernetes/Terraform, and reliability outcomes.",
+          "Use Brane enterprise infrastructure/security stack to support cybersecurity platform credibility without overstating endpoint AV expertise.",
+          "Keep resume label as IC Resume; this is not a management/director variant."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "application_id": "app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8",
+      "resume_snapshot_path": "applications/resumes/app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8/resume.md",
+      "discovered_at": "2026-07-05T12:28:51Z",
+      "updated_at": "2026-07-05T12:28:56Z",
+      "notes": [
+        "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
+        "Distinct from previously rejected Arctic Wolf Senior Staff Backend posting linkedin:4426946202."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
       "job_id": "linkedin-4411285350",
       "dedupe_key": "linkedin:4411285350",
       "source": "linkedin",
@@ -380,6 +441,68 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Meta, Splunk, Google, Amazon, NVIDIA, and Datadog searches in the same pass produced no new Staff+/Principal target-role matches or only underlevel/generic fallback results."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4390930020",
+      "dedupe_key": "linkedin:4390930020",
+      "source": "linkedin",
+      "source_job_id": "4390930020",
+      "source_url": "https://www.linkedin.com/jobs/view/4390930020",
+      "company": "Arctic Wolf",
+      "role": "Senior Staff - DevOps",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [
+        "LinkedIn posting states equity for all India employees and comprehensive private benefits.",
+        "Senior Staff DevOps/SRE role at a global cybersecurity platform company; compensation target is plausible but not confirmed."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4390930020",
+      "fit_score": 90,
+      "fit_reason": "Strong Senior Staff IC production-engineering fit: 15+ years, technical lead ownership for endpoint security production engineering, release automation, CI/CD, AWS/Azure/vSphere infrastructure, Kubernetes/ECS, IaC, observability, reliability, and secure global deployments.",
+      "fit_signals": [
+        "Senior Staff DevOps/SRE role requiring 15+ years and lead engineer experience.",
+        "Owns architecture and technical direction for endpoint security production engineering projects.",
+        "Requires CI/CD, release orchestration, rollback strategies, AWS, Azure, vSphere, Kubernetes/ECS, Terraform/CloudFormation/Ansible, and observability with Grafana/Prometheus.",
+        "Cybersecurity platform company with endpoint software delivery across customer environments and geographies."
+      ],
+      "risk_flags": [
+        "Second active Arctic Wolf application; distinct role and LinkedIn ID, but company-overlap should be managed in outreach/application sequencing.",
+        "Role is production engineering/release automation heavy rather than core product backend architecture.",
+        "Posting mentions background checks and possible U.S. export-control authorization at offer stage; do not answer related questions without user confirmation."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn shows Anshu and others in network; no individual connection details captured.",
+      "resume_theme": {
+        "name": "",
+        "positioning": "Position as a Senior Staff production/platform engineer for secure cloud releases, SRE automation, observability, Hyperforce-scale operations, and AI-assisted developer systems.",
+        "key_pointers": [
+          "Lead with Salesforce PMTS ownership of Hyperforce observability, AM Agent Federation, Internal IDE, and multi-region rollout/reliability work.",
+          "Emphasize release safety, blue-green/canary practices, automation, CI/CD, Prometheus/Grafana-style observability, and production incident prevention.",
+          "Use Brane enterprise infrastructure/security stack and prior regulated fintech platform work to support secure deployment credibility.",
+          "Keep resume label as IC Resume; this is a Senior Staff individual-contributor role, not a management variant."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise",
+          "resume/base_resume.md#Principal Architect, Jupiter Money"
+        ]
+      },
+      "application_id": "app-20260705-arctic-wolf-senior-staff-devops-aa17de2e",
+      "resume_snapshot_path": "applications/resumes/app-20260705-arctic-wolf-senior-staff-devops-aa17de2e/resume.md",
+      "discovered_at": "2026-07-05T12:57:59Z",
+      "updated_at": "2026-07-05T12:58:05Z",
+      "notes": [
+        "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
+        "Distinct from Arctic Wolf Staff Developer - Endpoint - Cloud linkedin:4417155908 and previously rejected Senior Staff Backend linkedin:4426946202."
       ],
       "resume_snapshot_name": "IC Resume"
     },
@@ -573,67 +696,6 @@
       "notes": [
         "LinkedIn MCP verification: job 4418010079, reposted 8 hours ago, 95 applicants, on-site Bengaluru, Easy Apply.",
         "Application should remain approval-gated because Easy Apply may require candidate-confirmed profile/legal/work-auth/EEO answers."
-      ],
-      "resume_snapshot_name": "IC Resume"
-    },
-    {
-      "job_id": "linkedin-4417155908",
-      "dedupe_key": "linkedin:4417155908",
-      "source": "linkedin",
-      "source_job_id": "4417155908",
-      "source_url": "https://www.linkedin.com/jobs/view/4417155908",
-      "company": "Arctic Wolf",
-      "role": "Staff Developer - Endpoint - Cloud",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "On-site",
-      "experience_level": "Staff IC",
-      "compensation_signals": [
-        "LinkedIn posting states equity for all India employees and comprehensive private benefits.",
-        "Staff-level cloud security platform role at global cybersecurity company; compensation target is plausible but not confirmed."
-      ],
-      "status": "approved",
-      "approval_status": "approved",
-      "batch_id": "batch-4417155908",
-      "fit_score": 91,
-      "fit_reason": "Strong Staff IC fit: technical vision for cloud security platform, scalable backend services, endpoint security, distributed systems, AWS, Kubernetes, Terraform, large-scale security event processing, and mentoring senior engineers.",
-      "fit_signals": [
-        "Staff Software Engineer role with 8-12+ years and 3+ years technical leadership.",
-        "Architects scalable backend systems and cloud engineering strategy for endpoint security.",
-        "Requires AWS, distributed systems, microservices, event-driven architecture, APIs, Kubernetes, Docker, Terraform, and large-scale data processing.",
-        "Explicitly drives AI-powered development tools and AI-assisted engineering practices."
-      ],
-      "risk_flags": [
-        "Not in the highest-priority named company list, but fits strong cloud security/platform company criteria.",
-        "Endpoint security domain is more security-product specific than generic platform infrastructure.",
-        "Posting mentions background checks and possible U.S. export-control authorization at offer stage; do not answer related questions without user confirmation."
-      ],
-      "people": [],
-      "connections_summary": "",
-      "resume_theme": {
-        "name": "",
-        "positioning": "Position as a Staff/Principal-level cloud security platform engineer with Salesforce AI/platform ownership, Hyperforce-scale observability, developer tooling, and prior infrastructure/security stack leadership.",
-        "key_pointers": [
-          "Lead with Salesforce PMTS platform ownership: AM Agent Federation, Internal IDE, Hyperforce alerting, and Visualizer cloud re-platforming.",
-          "Emphasize distributed backend, high-volume telemetry/security-adjacent event processing, AWS/Kubernetes/Terraform, and reliability outcomes.",
-          "Use Brane enterprise infrastructure/security stack to support cybersecurity platform credibility without overstating endpoint AV expertise.",
-          "Keep resume label as IC Resume; this is not a management/director variant."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
-          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
-          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
-          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
-          "resume/base_resume.md#Internal IDE, Unleash",
-          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
-        ]
-      },
-      "application_id": "app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8",
-      "resume_snapshot_path": "applications/resumes/app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8/resume.md",
-      "discovered_at": "2026-07-05T12:28:51Z",
-      "updated_at": "2026-07-05T12:28:56Z",
-      "notes": [
-        "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
-        "Distinct from previously rejected Arctic Wolf Senior Staff Backend posting linkedin:4426946202."
       ],
       "resume_snapshot_name": "IC Resume"
     },
