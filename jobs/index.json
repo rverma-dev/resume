@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T16:01:01Z",
-  "active_batch_id": "batch-4416640331",
-  "last_scheduler_run_at": "2026-07-05T16:00:53Z",
+  "updated_at": "2026-07-05T16:27:51Z",
+  "active_batch_id": "batch-4390302518",
+  "last_scheduler_run_at": "2026-07-05T16:27:46Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -799,6 +799,71 @@
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from Arctic Wolf Staff Developer - Endpoint - Cloud linkedin:4417155908 and previously rejected Senior Staff Backend linkedin:4426946202."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4390302518",
+      "dedupe_key": "linkedin:4390302518",
+      "source": "linkedin",
+      "source_job_id": "4390302518",
+      "source_url": "https://www.linkedin.com/jobs/view/4390302518",
+      "company": "CloudBees",
+      "role": "Staff Software Engineer (Agentic Systems) - AI for Software Delivery",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Staff",
+      "compensation_signals": [
+        "Staff Software Engineer title at an enterprise DevOps/software-delivery platform company.",
+        "Remote India role focused on agentic systems, SDLC automation, CI/CD reliability, and production-grade AI infrastructure."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4390302518",
+      "fit_score": 94,
+      "fit_reason": "Strong IC fit for Staff-level agentic systems across the software delivery lifecycle: LLM/tool orchestration, evaluation, observability, guardrails, CI/CD failure triage, and cross-team technical leadership map closely to MuleSoft AI platform and infrastructure leadership evidence.",
+      "fit_signals": [
+        "Leads architecture for cross-SDLC agentic workflows that connect code, pull requests, tests, pipelines, incidents, and documentation.",
+        "Requires LLM-based systems, prompt/context design, tool integration, orchestration, evaluation metrics, guardrails, and safety mechanisms.",
+        "Emphasizes production reliability, observability, tracing, correctness, recovery strategies, latency, and cost efficiency.",
+        "Staff-level cross-team leadership and roadmap influence without people-management ownership.",
+        "CloudBees' Jenkins/DevSecOps platform aligns with CI/CD, developer productivity, and enterprise software delivery infrastructure."
+      ],
+      "risk_flags": [
+        "Responses are managed off LinkedIn; external application flow may require a CloudBees portal account, additional legal/identity answers, or final manual submission.",
+        "LinkedIn detail shows over 100 apply clicks and the posting was reposted 1 week ago, so competition is likely high.",
+        "No named reachable connection was exposed in the fetched detail; only a Salesforce alumni signal was visible."
+      ],
+      "people": [
+        {
+          "name": "Company alumni from Salesforce",
+          "relationship": "alumni signal",
+          "role": "CloudBees",
+          "profile_url": "",
+          "notes": "LinkedIn detail exposed company alumni from Salesforce but did not show named reachable people."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed company alumni from Salesforce; no named reachable people were exposed.",
+      "resume_theme": {
+        "name": "Agentic software delivery systems",
+        "positioning": "Position Rohit as a Staff/Principal IC who has built governed agentic systems, evidence-backed AI workflows, and production platform reliability across developer and operational signals.",
+        "key_pointers": [
+          "Lead with MuleSoft governed multi-agent systems: MCP-first tool facades, LangGraph contracts, evidence-plane governance, auditability, and cost controls.",
+          "Emphasize production reliability, observability, incident intelligence, CI/CD-adjacent developer productivity, and safe constrained automation.",
+          "Use Brane/Jupiter/Salesforce platform evidence for distributed systems, cloud-native reliability, compliance readiness, and cross-team technical leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "application_id": "app-20260705-cloudbees-staff-software-engineer-agentic-syst-e22f5bb0",
+      "resume_snapshot_path": "applications/resumes/app-20260705-cloudbees-staff-software-engineer-agentic-syst-e22f5bb0/resume.md",
+      "discovered_at": "2026-07-05T16:27:46Z",
+      "updated_at": "2026-07-05T16:27:51Z",
+      "notes": [
+        "Imported from LinkedIn MCP get_job_details on 2026-07-05; no external application submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },

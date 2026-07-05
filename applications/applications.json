@@ -1,9 +1,60 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T16:01:01Z",
+  "updated_at": "2026-07-05T16:27:51Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260705-cloudbees-staff-software-engineer-agentic-syst-e22f5bb0",
+      "job_id": "linkedin-4390302518",
+      "dedupe_key": "linkedin:4390302518",
+      "source": "linkedin",
+      "source_job_id": "4390302518",
+      "source_url": "https://www.linkedin.com/jobs/view/4390302518",
+      "company": "CloudBees",
+      "role": "Staff Software Engineer (Agentic Systems) - AI for Software Delivery",
+      "location": "India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4390302518",
+      "approved_at": "2026-07-05T16:27:51Z",
+      "updated_at": "2026-07-05T16:27:51Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong IC fit for Staff-level agentic systems across the software delivery lifecycle: LLM/tool orchestration, evaluation, observability, guardrails, CI/CD failure triage, and cross-team technical leadership map closely to MuleSoft AI platform and infrastructure leadership evidence.",
+      "people": [
+        {
+          "name": "Company alumni from Salesforce",
+          "relationship": "alumni signal",
+          "role": "CloudBees",
+          "profile_url": "",
+          "notes": "LinkedIn detail exposed company alumni from Salesforce but did not show named reachable people."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed company alumni from Salesforce; no named reachable people were exposed.",
+      "resume_theme": {
+        "name": "Agentic software delivery systems",
+        "positioning": "Position Rohit as a Staff/Principal IC who has built governed agentic systems, evidence-backed AI workflows, and production platform reliability across developer and operational signals.",
+        "key_pointers": [
+          "Lead with MuleSoft governed multi-agent systems: MCP-first tool facades, LangGraph contracts, evidence-plane governance, auditability, and cost controls.",
+          "Emphasize production reliability, observability, incident intelligence, CI/CD-adjacent developer productivity, and safe constrained automation.",
+          "Use Brane/Jupiter/Salesforce platform evidence for distributed systems, cloud-native reliability, compliance readiness, and cross-team technical leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260705-cloudbees-staff-software-engineer-agentic-syst-e22f5bb0/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260705-cloudbees-staff-software-engineer-agentic-syst-e22f5bb0/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e",
       "job_id": "linkedin-4416640331",
