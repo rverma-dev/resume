@@ -1,11 +1,77 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T23:11:14Z",
-  "active_batch_id": "batch-4417164255",
-  "last_scheduler_run_at": "2026-07-05T23:11:04Z",
+  "updated_at": "2026-07-05T23:41:33Z",
+  "active_batch_id": "batch-4437118467",
+  "last_scheduler_run_at": "2026-07-05T23:41:26Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "linkedin-4437118467",
+      "dedupe_key": "linkedin:4437118467",
+      "source": "linkedin",
+      "source_job_id": "4437118467",
+      "source_url": "https://www.linkedin.com/jobs/view/4437118467",
+      "company": "Outmarket AI",
+      "role": "Principal Software Engineer",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Principal",
+      "compensation_signals": [
+        "Principal Engineer role with company-level technical direction, competitive compensation, and meaningful equity at an AI-native insurance platform company.",
+        "Remote-first role owning architecture and technical strategy across AI, data, infrastructure, and product for a SOC 2 Type II certified, single-tenant AI platform."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4437118467",
+      "fit_score": 93,
+      "fit_reason": "Excellent Principal IC fit for AI-native platform architecture: company-level technical strategy across AI, data, infrastructure, and product; source-cited insurance automation; single-tenant/SOC2 platform constraints; and org-wide engineering standards map strongly to governed agent systems, enterprise SaaS, regulated workflows, and platform architecture evidence.",
+      "fit_signals": [
+        "Owns architecture and technical strategy across AI, data, infrastructure, and product at company level.",
+        "AI insurance platform automates document-heavy workflows with source-cited outputs, customer-grounded data, SOC 2 Type II certification, single-tenant infrastructure, and no training on customer data.",
+        "Requires 10+ years engineering, org-wide technical leadership, system design and architecture at scale, high-stakes technical decisions, and mentorship of staff/senior engineers.",
+        "Remote-first startup role with direct founder collaboration, meaningful equity, and high ownership from day one.",
+        "Maps to MuleSoft governed agent systems, evidence-plane architecture, Brane enterprise SaaS/platform/security stack, and Jupiter regulated financial workflow evidence."
+      ],
+      "risk_flags": [
+        "Early-stage company likely has less compensation certainty than Google/Meta/Databricks/AWS, despite meaningful equity language.",
+        "External application flow may require account login, legal/identity/work authorization answers, sponsorship answers, compensation expectations, or manual final submission.",
+        "Posting is new and has low LinkedIn apply-click signal, so company/process details may still need verification during application."
+      ],
+      "people": [
+        {
+          "name": "Alpesh Patel",
+          "relationship": "3rd; company alum from Salesforce",
+          "role": "GTM Advisor; ex-Salesforce, DocuSign, H1",
+          "profile_url": "https://www.linkedin.com/in/gtmsimplified/",
+          "notes": "LinkedIn detail exposed Alpesh Patel as a reachable company alum signal."
+        }
+      ],
+      "connections_summary": "LinkedIn detail exposed Alpesh Patel, a 3rd-degree Salesforce/Docusign alum signal associated with Outmarket AI.",
+      "resume_theme": {
+        "name": "Principal AI-native regulated platform",
+        "positioning": "Position Rohit as a Principal IC who builds governed AI-native platforms with source-cited outputs, regulated workflow constraints, multi-tenant/single-tenant infrastructure tradeoffs, and company-level architecture direction.",
+        "key_pointers": [
+          "Lead with MuleSoft governed agent systems: cited evidence plane, source references, auditability, degradation flags, tenant/content boundaries, and cost controls.",
+          "Use Brane enterprise SaaS/platform/security stack and 2-engineer infrastructure buildout for SOC2-style enterprise platform readiness, tenancy, metering, telemetry, and on-prem/cloud deployment.",
+          "Use Jupiter payments and Salesforce Hyperforce observability evidence to support regulated workflows, reliability, operational intelligence, and high-stakes architecture decisions."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/design_docs/README.md",
+          "work/architecture/README.md"
+        ]
+      },
+      "application_id": "app-20260705-outmarket-ai-principal-software-engineer-23c2c644",
+      "resume_snapshot_path": "applications/resumes/app-20260705-outmarket-ai-principal-software-engineer-23c2c644/resume.md",
+      "discovered_at": "2026-07-05T23:41:26Z",
+      "updated_at": "2026-07-05T23:41:33Z",
+      "notes": [
+        "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "linkedin-4436981894",
       "dedupe_key": "linkedin:4436981894",
