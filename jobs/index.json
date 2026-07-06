@@ -1,11 +1,71 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-06T00:40:27Z",
-  "active_batch_id": "batch-4418616012",
-  "last_scheduler_run_at": "2026-07-06T00:40:13Z",
+  "updated_at": "2026-07-06T01:14:04Z",
+  "active_batch_id": "batch-4437135071",
+  "last_scheduler_run_at": "2026-07-06T01:14:04Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "linkedin-4437135071",
+      "dedupe_key": "linkedin:4437135071",
+      "source": "linkedin",
+      "source_job_id": "4437135071",
+      "source_url": "https://www.linkedin.com/jobs/view/4437135071",
+      "company": "Serko",
+      "role": "Principal Engineer - Agentic AI Applications",
+      "location": "Seattle, WA or California, United States (Remote); Bengaluru hub mentioned",
+      "work_type": "Remote",
+      "experience_level": "Principal",
+      "compensation_signals": [
+        "$168K-$240K USD base salary range shown in LinkedIn posting; discretionary incentive plan noted.",
+        "Principal-level technical ownership for agentic runtime architecture, P99-aware orchestration, observability, and org-wide engineering standards."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4437135071",
+      "fit_score": 92,
+      "fit_reason": "Strong Principal IC fit for production agentic AI runtime architecture: multi-agent orchestration, memory management, reasoning pipelines, RAG/vector/tool-calling systems, cost/latency observability, circuit breakers, and high-availability distributed systems map directly to MuleSoft AI platform, proactive diagnostics, AM agent federation, and platform reliability evidence.",
+      "fit_signals": [
+        "Owns end-to-end architecture for agentic systems including multi-agent orchestration, memory management, reasoning pipelines, and production deployment.",
+        "Requires 12+ years software engineering and 4+ years principal-level technical leadership, matching senior IC/platform architecture target.",
+        "Emphasizes reliability for nondeterministic model loops: circuit breakers, P99 latency, token/cost observability, and AI Ops monitoring.",
+        "Requires Python backend, RAG, vector databases, tool-calling APIs, and multi-step reasoning, mapping to governed diagnostic evidence plane and internal AI engineering systems.",
+        "Remote US role with global business travel platform and Bengaluru hub expansion signal."
+      ],
+      "risk_flags": [
+        "LinkedIn Easy Apply reached 5/6 pages but required compensation and notice-period fields, so external submission was not completed autonomously.",
+        "Role location text says Seattle or California despite remote listing; location/relocation expectations may need confirmation.",
+        "Compensation answers and current salary cannot be fabricated; manual completion required before final submission.",
+        "Applicant tracking system is Workable via LinkedIn Easy Apply; final submission should be verified after user-provided answers."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 1 applicant shortly after posting; no named recruiter or hiring-manager connection captured in this pass.",
+      "resume_theme": {
+        "name": "Principal agentic AI runtime platform IC",
+        "positioning": "Principal platform IC for reliable production agentic AI systems, governed multi-agent runtimes, RAG/evidence pipelines, observability, and high-availability distributed platforms.",
+        "key_pointers": [
+          "Lead with AM agent federation, MCP/A2A contracts, governed diagnostic evidence plane, and production AI workflow architecture.",
+          "Map Serko's nondeterministic-loop reliability needs to circuit breakers, latency-aware orchestration, token/cost observability, audit, degradation flags, and tenant-safe evidence handling.",
+          "Use MuleSoft proactive diagnostics and Hyperforce observability as proof for high-availability AI/platform systems under production SLOs.",
+          "Use Brane and Jupiter experience for distributed platform scale, regulated workflows, observability, security, and enterprise-grade delivery."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "application_id": "app-20260706-serko-principal-engineer-agentic-ai-applic-70da7f15",
+      "resume_snapshot_path": "applications/resumes/app-20260706-serko-principal-engineer-agentic-ai-applic-70da7f15/resume.md",
+      "discovered_at": "2026-07-06T01:14:04Z",
+      "updated_at": "2026-07-06T01:14:04Z",
+      "notes": [
+        "LinkedIn Easy Apply inspected on 2026-07-06; stopped at required Expected Salary, Current Salary, and Notice Period fields."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "linkedin-4437118467",
       "dedupe_key": "linkedin:4437118467",

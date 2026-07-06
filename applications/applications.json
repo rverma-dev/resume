@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-06T00:40:27Z",
+  "updated_at": "2026-07-06T01:14:04Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260706-serko-principal-engineer-agentic-ai-applic-70da7f15",
+      "job_id": "linkedin-4437135071",
+      "dedupe_key": "linkedin:4437135071",
+      "source": "linkedin",
+      "source_job_id": "4437135071",
+      "source_url": "https://www.linkedin.com/jobs/view/4437135071",
+      "company": "Serko",
+      "role": "Principal Engineer - Agentic AI Applications",
+      "location": "Seattle, WA or California, United States (Remote); Bengaluru hub mentioned",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4437135071",
+      "approved_at": "2026-07-06T01:14:04Z",
+      "updated_at": "2026-07-06T01:14:04Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 92,
+      "fit_reason": "Strong Principal IC fit for production agentic AI runtime architecture: multi-agent orchestration, memory management, reasoning pipelines, RAG/vector/tool-calling systems, cost/latency observability, circuit breakers, and high-availability distributed systems map directly to MuleSoft AI platform, proactive diagnostics, AM agent federation, and platform reliability evidence.",
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 1 applicant shortly after posting; no named recruiter or hiring-manager connection captured in this pass.",
+      "resume_theme": {
+        "name": "Principal agentic AI runtime platform IC",
+        "positioning": "Principal platform IC for reliable production agentic AI systems, governed multi-agent runtimes, RAG/evidence pipelines, observability, and high-availability distributed platforms.",
+        "key_pointers": [
+          "Lead with AM agent federation, MCP/A2A contracts, governed diagnostic evidence plane, and production AI workflow architecture.",
+          "Map Serko's nondeterministic-loop reliability needs to circuit breakers, latency-aware orchestration, token/cost observability, audit, degradation flags, and tenant-safe evidence handling.",
+          "Use MuleSoft proactive diagnostics and Hyperforce observability as proof for high-availability AI/platform systems under production SLOs.",
+          "Use Brane and Jupiter experience for distributed platform scale, regulated workflows, observability, security, and enterprise-grade delivery."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260706-serko-principal-engineer-agentic-ai-applic-70da7f15/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260706-serko-principal-engineer-agentic-ai-applic-70da7f15/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn Easy Apply inspected but not submitted; final form requires user-specific compensation and notice-period answers.",
+        "Required fields on Serko Easy Apply page 5/6: Expected Salary, Current Salary, and Notice Period."
+      ],
+      "status_reason": "LinkedIn Easy Apply inspected but not submitted; final form requires user-specific compensation and notice-period answers.",
+      "last_status_update_id": "manual-4437135071",
+      "manual_action_required": true,
+      "manual_action_reason": "Required fields on Serko Easy Apply page 5/6: Expected Salary, Current Salary, and Notice Period.",
+      "manual_action_at": "2026-07-06T01:14:04Z"
+    },
     {
       "application_id": "app-20260706-zscaler-senior-staff-software-development-en-8fedd092",
       "job_id": "linkedin-4418616012",
