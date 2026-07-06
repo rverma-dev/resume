@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-06T00:11:33Z",
-  "active_batch_id": "batch-4435442083",
-  "last_scheduler_run_at": "2026-07-06T00:11:26Z",
+  "updated_at": "2026-07-06T00:40:27Z",
+  "active_batch_id": "batch-4418616012",
+  "last_scheduler_run_at": "2026-07-06T00:40:13Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -550,6 +550,72 @@
       "updated_at": "2026-07-05T14:29:17Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4418616012",
+      "dedupe_key": "linkedin:4418616012",
+      "source": "linkedin",
+      "source_job_id": "4418616012",
+      "source_url": "https://www.linkedin.com/jobs/view/4418616012",
+      "company": "Zscaler",
+      "role": "Senior Staff Software Development Engineering",
+      "location": "Bengaluru East, Karnataka, India",
+      "work_type": "Hybrid / Bengaluru",
+      "experience_level": "Senior Staff",
+      "compensation_signals": [
+        "Senior Staff engineering role at Zscaler, a public zero-trust cloud security platform company with global scale.",
+        "Security infrastructure role on network applications, Linux system programming, cloud networking, and AI-driven traffic analysis/anomaly-detection capabilities."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4418616012",
+      "fit_score": 90,
+      "fit_reason": "Strong Senior Staff security infrastructure fit: cloud security platform scale, C/Linux network datapath work, protocol optimization, cloud networking, distributed enterprise systems, and AI-driven traffic/anomaly analysis map to Rohit's platform, observability, security automation, and distributed systems evidence. Less aligned with agentic AI than top AI-platform roles, but strong for senior security/platform IC compensation targets.",
+      "fit_signals": [
+        "Senior Staff role on Zscaler's cloud-native Zero Trust Exchange and global cloud security platform.",
+        "Requires network applications/protocols in C, Linux system-level programming, traffic management, cloud platforms, and enterprise-scale distributed environments.",
+        "Preferred scope includes AI-driven traffic pattern analysis, anomaly detection, intelligent routing, reliability, scalability, and network efficiency.",
+        "Hybrid Bengaluru senior IC role with ownership across requirements, architecture, integration, code review, testing, debugging, and optimization.",
+        "Maps to Salesforce Hyperforce observability, Brane platform/security stack, APIM alerting/instrumentation, and high-scale distributed systems evidence."
+      ],
+      "risk_flags": [
+        "Role is C/Linux/network datapath heavy; tailor toward infrastructure/security depth rather than product AI platform narrative.",
+        "External Zscaler application may require account login, legal/identity/work authorization answers, sponsorship answers, security/privacy attestations, or manual final submission.",
+        "Hybrid Bengaluru expectation and Zscaler policy/security statements may require candidate confirmation if asked by the portal."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Zscaler",
+          "profile_url": "",
+          "notes": "LinkedIn detail showed Pradeep and others in network but did not expose stable profile details in fetched text."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed Pradeep and others in network; fetched detail did not expose stable named profile details.",
+      "resume_theme": {
+        "name": "Cloud security datapath infrastructure",
+        "positioning": "Position Rohit as a Senior Staff/Principal IC who builds high-scale security-aware infrastructure, networked platform systems, observability, reliability controls, and AI-assisted operational intelligence.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce alerting and topology platforms: multi-tenant evaluation, AMP migration, APIM migration, performance/cost reduction, and production reliability.",
+          "Use Brane enterprise SaaS platform/security stack and 2-engineer infrastructure buildout to show security-conscious platform architecture, tenancy, telemetry, and cloud/on-prem deployment depth.",
+          "Mention MuleSoft governed agent systems only as AI-assisted operational intelligence: anomaly reasoning, guardrails, auditability, source references, and cost controls."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/architecture/README.md",
+          "work/incident_reviews/README.md"
+        ]
+      },
+      "application_id": "app-20260706-zscaler-senior-staff-software-development-en-8fedd092",
+      "resume_snapshot_path": "applications/resumes/app-20260706-zscaler-senior-staff-software-development-en-8fedd092/resume.md",
+      "discovered_at": "2026-07-06T00:40:13Z",
+      "updated_at": "2026-07-06T00:40:27Z",
+      "notes": [
+        "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },
