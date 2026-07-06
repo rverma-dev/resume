@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-06T05:54:34Z",
-  "active_batch_id": "batch-4407969401",
-  "last_scheduler_run_at": "2026-07-06T05:54:13Z",
+  "updated_at": "2026-07-06T06:20:51Z",
+  "active_batch_id": "batch-4435275853",
+  "last_scheduler_run_at": "2026-07-06T06:20:27Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -444,6 +444,68 @@
       "updated_at": "2026-07-06T00:11:33Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4435275853",
+      "dedupe_key": "linkedin:4435275853",
+      "source": "linkedin",
+      "source_job_id": "4435275853",
+      "source_url": "https://www.linkedin.com/jobs/view/4435275853",
+      "company": "NVIDIA",
+      "role": "Principal Engineer, AI Tooling and Workflows",
+      "location": "Santa Clara, CA, United States",
+      "work_type": "On-site",
+      "experience_level": "Principal IC",
+      "compensation_signals": [
+        "$272K-$431.25K base range, plus equity and benefits.",
+        "15+ years software engineering; principal-level leadership across large-scale platforms, distributed systems, AI systems, developer infrastructure, Kubernetes, observability, reliability, security, and production operations."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4435275853",
+      "fit_score": 98,
+      "fit_reason": "Exceptional Principal IC fit at NVIDIA: the role leads AI-native developer tooling and workflow automation platforms for thousands of engineers, including production-grade autonomous AI systems, code/documentation/CI reasoning, requirements traceability, validation, tests, build/release automation, security review, evaluation, observability, safety, security, latency, cost efficiency, and human-in-the-loop controls. This maps directly to internal AI devtools, agent federation/MCP, Hyperforce observability, platform APIs, distributed systems, and senior cross-team architecture leadership evidence.",
+      "fit_signals": [
+        "Direct principal-level AI developer-platform match: agentic AI systems, developer productivity platforms, intelligent workflow automation, LLM-powered systems, tool use, skills, MCPs, retrieval, knowledge graphs, evaluation, and governance.",
+        "Strong platform-infrastructure overlap: APIs, services, data pipelines, Kubernetes, observability, reliability engineering, security, production operations, and distributed systems used by demanding engineering teams.",
+        "High compensation signal: NVIDIA principal base range reaches $431.25K plus equity and benefits.",
+        "Role explicitly targets engineering productivity, quality, build/release automation, validation, testing, security review, and broad organizational impact across NVIDIA engineering.",
+        "Maps tightly to MuleSoft internal AI IDE/devtools work, AM agent federation/MCP, agentic observability, Hyperforce observability modernization, and Brane platform/infrastructure evidence."
+      ],
+      "risk_flags": [
+        "NVIDIA Workday manual apply flow requires candidate account sign-in before application questions can be viewed or answered; no external submission completed.",
+        "Application likely contains work authorization, visa assistance/sponsorship, EEO, self-identification, location, and final-submit questions that must not be fabricated.",
+        "Role is Santa Clara/on-site; relocation, sponsorship, or location expectations may need confirmation.",
+        "LinkedIn posting says applications accepted at least until July 6, 2026; that date is today, so the posting may be time-sensitive.",
+        "Do not mark applied until NVIDIA Workday submission confirmation is observed."
+      ],
+      "people": [],
+      "connections_summary": "No named hiring contact captured from the LinkedIn posting on this pass.",
+      "resume_theme": {
+        "name": "NVIDIA principal AI developer tooling IC",
+        "positioning": "Principal IC for AI-native developer tooling and workflow automation platforms: production agentic systems, MCP/tool-using agents, developer productivity, evaluation, observability, governance, Kubernetes-backed services, and secure multi-team platform operations.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and developer productivity systems to match NVIDIA's AI tooling/workflow automation mandate.",
+          "Map evaluation, observability, safety, security, latency, cost-efficiency, human-in-the-loop controls, and production reliability to agentic observability and Hyperforce platform modernization evidence.",
+          "Emphasize Principal-level architecture leadership, design reviews, cross-team standards, mentoring senior engineers, and platform APIs used across engineering organizations.",
+          "Tie CI/CD, validation, testing, build/release automation, security review, distributed systems, Kubernetes, and operational excellence to Brane and MuleSoft platform evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "application_id": "app-20260706-nvidia-principal-engineer-ai-tooling-and-wo-71c7ecfa",
+      "resume_snapshot_path": "applications/resumes/app-20260706-nvidia-principal-engineer-ai-tooling-and-wo-71c7ecfa/resume.md",
+      "discovered_at": "2026-07-06T06:20:27Z",
+      "updated_at": "2026-07-06T06:20:51Z",
+      "notes": [
+        "NVIDIA Workday application URL: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Engineer--AI-Tooling-and-Workflows_JR2020017?source=jobboardlinkedin",
+        "Chrome inspection on 2026-07-06 reached Workday manual apply flow but stopped at required account sign-in before application questions."
       ],
       "resume_snapshot_name": "IC Resume"
     },

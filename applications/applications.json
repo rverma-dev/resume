@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-06T05:54:34Z",
+  "updated_at": "2026-07-06T06:20:51Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260706-nvidia-principal-engineer-ai-tooling-and-wo-71c7ecfa",
+      "job_id": "linkedin-4435275853",
+      "dedupe_key": "linkedin:4435275853",
+      "source": "linkedin",
+      "source_job_id": "4435275853",
+      "source_url": "https://www.linkedin.com/jobs/view/4435275853",
+      "company": "NVIDIA",
+      "role": "Principal Engineer, AI Tooling and Workflows",
+      "location": "Santa Clara, CA, United States",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4435275853",
+      "approved_at": "2026-07-06T06:20:34Z",
+      "updated_at": "2026-07-06T06:20:51Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Exceptional Principal IC fit at NVIDIA: the role leads AI-native developer tooling and workflow automation platforms for thousands of engineers, including production-grade autonomous AI systems, code/documentation/CI reasoning, requirements traceability, validation, tests, build/release automation, security review, evaluation, observability, safety, security, latency, cost efficiency, and human-in-the-loop controls. This maps directly to internal AI devtools, agent federation/MCP, Hyperforce observability, platform APIs, distributed systems, and senior cross-team architecture leadership evidence.",
+      "people": [],
+      "connections_summary": "No named hiring contact captured from the LinkedIn posting on this pass.",
+      "resume_theme": {
+        "name": "NVIDIA principal AI developer tooling IC",
+        "positioning": "Principal IC for AI-native developer tooling and workflow automation platforms: production agentic systems, MCP/tool-using agents, developer productivity, evaluation, observability, governance, Kubernetes-backed services, and secure multi-team platform operations.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and developer productivity systems to match NVIDIA's AI tooling/workflow automation mandate.",
+          "Map evaluation, observability, safety, security, latency, cost-efficiency, human-in-the-loop controls, and production reliability to agentic observability and Hyperforce platform modernization evidence.",
+          "Emphasize Principal-level architecture leadership, design reviews, cross-team standards, mentoring senior engineers, and platform APIs used across engineering organizations.",
+          "Tie CI/CD, validation, testing, build/release automation, security review, distributed systems, Kubernetes, and operational excellence to Brane and MuleSoft platform evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260706-nvidia-principal-engineer-ai-tooling-and-wo-71c7ecfa/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260706-nvidia-principal-engineer-ai-tooling-and-wo-71c7ecfa/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "NVIDIA Workday application flow inspected but not submitted; manual apply route requires account sign-in before application questions are available.",
+        "NVIDIA Workday requires candidate account sign-in at step 1 of 7 before My Information, My Experience, Application Questions, Voluntary Disclosures, Self Identify, and Review can be completed. No resume upload, answers, or final submission were performed."
+      ],
+      "status_reason": "NVIDIA Workday application flow inspected but not submitted; manual apply route requires account sign-in before application questions are available.",
+      "last_status_update_id": "manual-4435275853",
+      "manual_action_required": true,
+      "manual_action_reason": "NVIDIA Workday requires candidate account sign-in at step 1 of 7 before My Information, My Experience, Application Questions, Voluntary Disclosures, Self Identify, and Review can be completed. No resume upload, answers, or final submission were performed.",
+      "manual_action_at": "2026-07-06T06:20:51Z"
+    },
     {
       "application_id": "app-20260706-nvidia-senior-staff-software-engineer-ai-ag-7cb10f37",
       "job_id": "linkedin-4407969401",
