@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-06T05:22:14Z",
-  "active_batch_id": "batch-4416719826",
-  "last_scheduler_run_at": "2026-07-06T05:22:14Z",
+  "updated_at": "2026-07-06T05:54:34Z",
+  "active_batch_id": "batch-4407969401",
+  "last_scheduler_run_at": "2026-07-06T05:54:13Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -1183,6 +1183,75 @@
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from archived dbt Labs Staff Software Engineer linkedin:4344231386."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4407969401",
+      "dedupe_key": "linkedin:4407969401",
+      "source": "linkedin",
+      "source_job_id": "4407969401",
+      "source_url": "https://www.linkedin.com/jobs/view/4407969401",
+      "company": "NVIDIA",
+      "role": "Senior Staff Software Engineer - AI Agent Platform",
+      "location": "Santa Clara, CA, United States",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [
+        "$200K-$322K base for Level 5 and $248K-$391K base for Level 6, plus equity and benefits.",
+        "12+ years software engineering in platform engineering, infrastructure, or developer tools; production AI agents, Kubernetes, Kafka, Redis, CI/CD, identity, Vault, and AI data platform components."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4407969401",
+      "fit_score": 97,
+      "fit_reason": "Exceptional Senior Staff IC fit at NVIDIA: the role designs and scales infrastructure for NVIDIA's AI agent ecosystem across distributed systems, developer platforms, agent lifecycle services, Kubernetes execution environments, CI/CD, observability, memory/session services, Kafka/Redis eventing, OAuth/JWT identity, and Vault secrets. This maps directly to Hyperforce observability and alerting, Brane platform/infrastructure scale, AI-assisted engineering systems, MCP/agent platform work, and senior technical leadership evidence.",
+      "fit_signals": [
+        "Direct Staff-level AI infrastructure match: production AI agent platform, lifecycle services, orchestration, session persistence, memory services, observability, and multiple agent SDKs including OpenAI Codex and Claude Code.",
+        "Deep platform systems overlap: Kubernetes execution environments, namespace isolation, persistent storage, identity propagation, GitLab CI, ArgoCD, Kafka, Redis, OAuth 2.0, JWT, token exchange, and Vault.",
+        "High compensation signal: NVIDIA L5/L6 base range reaches $391K plus equity and benefits.",
+        "Role requires leading sophisticated migrations or greenfield platform builds and writing design documents, matching MuleSoft platform modernization, Brane infrastructure, and cross-team architecture work.",
+        "Strong resume evidence fit through internal AI development tooling, agent federation/MCP work, Hyperforce observability, and platform APIs consumed by multiple engineering teams."
+      ],
+      "risk_flags": [
+        "NVIDIA Workday manual apply flow requires account sign-in before application questions can be viewed or answered; no external submission completed.",
+        "Application likely contains work authorization, visa assistance/sponsorship, EEO, self-identification, location, and final-submit questions that must not be fabricated.",
+        "Role is Santa Clara/on-site; relocation, sponsorship, or location expectations may need confirmation.",
+        "Do not mark applied until NVIDIA Workday submission confirmation is observed."
+      ],
+      "people": [
+        {
+          "name": "Deepak Bora",
+          "relationship": "2nd",
+          "role": "AI Platform Engineering Leader | Enterprise GenAI & Agent Platforms | RAG/Data Platforms | Agent Safety, Identity Governance & Developer Platforms",
+          "profile_url": "https://www.linkedin.com/in/deepakbora/",
+          "notes": "LinkedIn posting showed Deepak Bora on the hiring team."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed Deepak Bora (2nd-degree) on the hiring team; named contact captured from the posting.",
+      "resume_theme": {
+        "name": "NVIDIA AI agent platform IC",
+        "positioning": "Senior Staff platform IC for production AI agent infrastructure: Kubernetes execution environments, agent lifecycle services, developer platforms, observability, identity, event streaming, memory/session services, and secure multi-team platform APIs.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and developer-productivity work to match NVIDIA's AI agent ecosystem and framework-agnostic agent SDK requirements.",
+          "Map Kubernetes, GitLab/Argo-style delivery, platform APIs, identity propagation, observability, and distributed runtime design to Hyperforce observability modernization and Brane platform infrastructure evidence.",
+          "Emphasize design-doc-driven senior IC leadership, greenfield platform builds, migrations, cross-team alignment, and production reliability at enterprise scale.",
+          "Tie Kafka/Redis/eventing, data ingestion, retrieval/context, session recovery, and secure secrets/identity work to distributed systems and AI platform architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "application_id": "app-20260706-nvidia-senior-staff-software-engineer-ai-ag-7cb10f37",
+      "resume_snapshot_path": "applications/resumes/app-20260706-nvidia-senior-staff-software-engineer-ai-ag-7cb10f37/resume.md",
+      "discovered_at": "2026-07-06T05:54:13Z",
+      "updated_at": "2026-07-06T05:54:34Z",
+      "notes": [
+        "NVIDIA Workday application URL: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Staff-Software-Engineer---AI-Agent-Platform_JR2016997?source=jobboardlinkedin",
+        "Chrome inspection on 2026-07-06 reached Workday manual apply flow but stopped at required account sign-in before application questions."
       ],
       "resume_snapshot_name": "IC Resume"
     },

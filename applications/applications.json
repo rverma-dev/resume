@@ -1,9 +1,69 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-06T05:22:14Z",
+  "updated_at": "2026-07-06T05:54:34Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260706-nvidia-senior-staff-software-engineer-ai-ag-7cb10f37",
+      "job_id": "linkedin-4407969401",
+      "dedupe_key": "linkedin:4407969401",
+      "source": "linkedin",
+      "source_job_id": "4407969401",
+      "source_url": "https://www.linkedin.com/jobs/view/4407969401",
+      "company": "NVIDIA",
+      "role": "Senior Staff Software Engineer - AI Agent Platform",
+      "location": "Santa Clara, CA, United States",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4407969401",
+      "approved_at": "2026-07-06T05:54:20Z",
+      "updated_at": "2026-07-06T05:54:34Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Exceptional Senior Staff IC fit at NVIDIA: the role designs and scales infrastructure for NVIDIA's AI agent ecosystem across distributed systems, developer platforms, agent lifecycle services, Kubernetes execution environments, CI/CD, observability, memory/session services, Kafka/Redis eventing, OAuth/JWT identity, and Vault secrets. This maps directly to Hyperforce observability and alerting, Brane platform/infrastructure scale, AI-assisted engineering systems, MCP/agent platform work, and senior technical leadership evidence.",
+      "people": [
+        {
+          "name": "Deepak Bora",
+          "relationship": "2nd",
+          "role": "AI Platform Engineering Leader | Enterprise GenAI & Agent Platforms | RAG/Data Platforms | Agent Safety, Identity Governance & Developer Platforms",
+          "profile_url": "https://www.linkedin.com/in/deepakbora/",
+          "notes": "LinkedIn posting showed Deepak Bora on the hiring team."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed Deepak Bora (2nd-degree) on the hiring team; named contact captured from the posting.",
+      "resume_theme": {
+        "name": "NVIDIA AI agent platform IC",
+        "positioning": "Senior Staff platform IC for production AI agent infrastructure: Kubernetes execution environments, agent lifecycle services, developer platforms, observability, identity, event streaming, memory/session services, and secure multi-team platform APIs.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and developer-productivity work to match NVIDIA's AI agent ecosystem and framework-agnostic agent SDK requirements.",
+          "Map Kubernetes, GitLab/Argo-style delivery, platform APIs, identity propagation, observability, and distributed runtime design to Hyperforce observability modernization and Brane platform infrastructure evidence.",
+          "Emphasize design-doc-driven senior IC leadership, greenfield platform builds, migrations, cross-team alignment, and production reliability at enterprise scale.",
+          "Tie Kafka/Redis/eventing, data ingestion, retrieval/context, session recovery, and secure secrets/identity work to distributed systems and AI platform architecture."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260706-nvidia-senior-staff-software-engineer-ai-ag-7cb10f37/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260706-nvidia-senior-staff-software-engineer-ai-ag-7cb10f37/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "NVIDIA Workday application flow inspected but not submitted; manual apply route requires account sign-in before application questions are available.",
+        "NVIDIA Workday requires candidate account sign-in at step 1 of 7 before My Information, My Experience, Application Questions, Voluntary Disclosures, Self Identify, and Review can be completed. No resume upload, answers, or final submission were performed."
+      ],
+      "status_reason": "NVIDIA Workday application flow inspected but not submitted; manual apply route requires account sign-in before application questions are available.",
+      "last_status_update_id": "manual-4407969401",
+      "manual_action_required": true,
+      "manual_action_reason": "NVIDIA Workday requires candidate account sign-in at step 1 of 7 before My Information, My Experience, Application Questions, Voluntary Disclosures, Self Identify, and Review can be completed. No resume upload, answers, or final submission were performed.",
+      "manual_action_at": "2026-07-06T05:54:34Z"
+    },
     {
       "application_id": "app-20260706-nvidia-senior-system-software-engineer-gefo-c2715964",
       "job_id": "linkedin-4416719826",
