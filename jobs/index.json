@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-06T01:14:04Z",
-  "active_batch_id": "batch-4437135071",
-  "last_scheduler_run_at": "2026-07-06T01:14:04Z",
+  "updated_at": "2026-07-06T04:52:07Z",
+  "active_batch_id": "batch-4436053141",
+  "last_scheduler_run_at": "2026-07-06T04:52:07Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -254,6 +254,75 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Earlier Cisco Network Systems Engineer was rejected for networking-specialist underfit; this Webex Data Analytics Platform Technical Leader posting is broader distributed platform engineering."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4436053141",
+      "dedupe_key": "linkedin:4436053141",
+      "source": "linkedin",
+      "source_job_id": "4436053141",
+      "source_url": "https://www.linkedin.com/jobs/view/4436053141",
+      "company": "Fluidstack",
+      "role": "Distributed Systems Engineer",
+      "location": "San Francisco, CA; Austin, TX; New York, NY; Seattle, WA",
+      "work_type": "On-site",
+      "experience_level": "Senior/Staff IC",
+      "compensation_signals": [
+        "$175K-$300K base salary range shown on LinkedIn/Ashby; equity/stock options noted.",
+        "Production Engineering role building AI compute control plane, GPU observability, fleet state source of truth, and infrastructure APIs."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4436053141",
+      "fit_score": 94,
+      "fit_reason": "Excellent senior IC fit for AI infrastructure and distributed systems: production control plane for hyperscale GPU fleets, observability platform from site to device/link, API contracts for infrastructure tooling, distributed command execution, Kubernetes-backed operations, fleet-state source of truth, and AI/MCP/agentic tooling expectations map strongly to Hyperforce observability, AM agent federation, Brane platform scale, and governed engineering automation.",
+      "fit_signals": [
+        "Role owns observability pipelines, health checks, fleet state, SLOs, production control plane, and stable API surface for infrastructure tooling.",
+        "Fluidstack is building frontier AI compute infrastructure and explicitly values LLM APIs, MCP servers, agentic frameworks, Claude Code/Cursor-style AI tooling, and production services at scale.",
+        "Strong overlap with Anypoint Monitoring/Hyperforce observability, Prometheus-native alerting/anomaly detection, distributed scheduling, production rollout, and tenant-safe platform contracts.",
+        "High compensation signal: $175K-$300K base plus equity for an AI infrastructure company.",
+        "LinkedIn showed a Salesforce company alum contact and low initial apply-click count, suggesting timely outreach/application value."
+      ],
+      "risk_flags": [
+        "Ashby application form requires manual answers for work authorization, future visa assistance, relocation/travel, preferred office location, non-compete/NDA restriction, earliest start date, and a freeform 'something built' response.",
+        "Role is explicitly in-person/on-site, not remote; relocation/office preference must be answered by the user.",
+        "External final submission was not completed; Chrome tab was left open on the Ashby application page.",
+        "No application should be marked applied until Ashby confirmation is observed."
+      ],
+      "people": [
+        {
+          "name": "Michael Dinsmore",
+          "relationship": "3rd-degree / Salesforce company alum signal from LinkedIn",
+          "role": "Principal Operations Engineer, Hardware - Data Center Operations",
+          "profile_url": "https://www.linkedin.com/in/mdinsmore/",
+          "notes": "Potential informational/recruiting contact surfaced on LinkedIn posting."
+        }
+      ],
+      "connections_summary": "LinkedIn posting showed Michael Dinsmore, a Salesforce company alum, as a reachable Fluidstack contact; no direct recruiter was captured.",
+      "resume_theme": {
+        "name": "AI compute production control-plane IC",
+        "positioning": "Senior/staff-level distributed systems IC for AI infrastructure control planes, GPU fleet observability, SLO-driven production engineering, and stable infrastructure APIs.",
+        "key_pointers": [
+          "Lead with Hyperforce observability modernization, AMP-backed alerting, PromQL anomaly detection, distributed scheduling, and production SLO preservation.",
+          "Map Fluidstack's GPU fleet observability/control-plane needs to Brane's high-throughput event platform, Kubernetes infrastructure, Kafka/TiDB/Redis tuning, and enterprise operations evidence.",
+          "Use AM agent federation and internal AI IDE work to match LLM APIs, MCP servers, agentic workflows, and AI-assisted production tooling expectations.",
+          "Emphasize API contract design, source-of-truth state models, tenant-safe operations, incident response, and automation that removes toil."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-agentic-observability.md",
+          "work/2026-06-ai-devtools.md"
+        ]
+      },
+      "application_id": "app-20260706-fluidstack-distributed-systems-engineer-94466fa2",
+      "resume_snapshot_path": "applications/resumes/app-20260706-fluidstack-distributed-systems-engineer-94466fa2/resume.md",
+      "discovered_at": "2026-07-06T04:52:07Z",
+      "updated_at": "2026-07-06T04:52:07Z",
+      "notes": [
+        "Ashby application URL: https://jobs.ashbyhq.com/fluidstack/fdf7e107-e93b-4eff-aa66-713bfe2e1411/application?ashby_jid=fdf7e107-e93b-4eff-aa66-713bfe2e1411&utm_source=XRYmdBRBaP&source=linkedin",
+        "Chrome inspection on 2026-07-06 stopped before final submission because required manual answers are needed."
       ],
       "resume_snapshot_name": "IC Resume"
     },
