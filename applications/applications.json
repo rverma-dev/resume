@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-06T04:52:07Z",
+  "updated_at": "2026-07-06T05:22:14Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260706-nvidia-senior-system-software-engineer-gefo-c2715964",
+      "job_id": "linkedin-4416719826",
+      "dedupe_key": "linkedin:4416719826",
+      "source": "linkedin",
+      "source_job_id": "4416719826",
+      "source_url": "https://www.linkedin.com/jobs/view/4416719826",
+      "company": "NVIDIA",
+      "role": "Senior System Software Engineer - GeForce NOW Cloud",
+      "location": "Santa Clara, CA, United States",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4416719826",
+      "approved_at": "2026-07-06T05:22:14Z",
+      "updated_at": "2026-07-06T05:22:14Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Excellent senior/staff IC fit at NVIDIA: GeForce NOW Cloud needs highly scalable SaaS/PaaS distributed systems, REST/gRPC/MCP backend APIs, Java/Golang/Python, Kubernetes operators, cloud infrastructure reliability, observability, automation, performance tuning, and scalable test harnesses. This maps directly to Hyperforce observability, AMP-backed alerting, distributed scheduling, Brane high-throughput platform engineering, and internal AI-assisted engineering systems.",
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 2 connections work at NVIDIA; no reliable named hiring contact was captured on this pass.",
+      "resume_theme": {
+        "name": "NVIDIA cloud distributed systems IC",
+        "positioning": "Senior/staff-level cloud platform IC for scalable SaaS/PaaS distributed systems, gRPC/MCP APIs, Kubernetes operators, observability, automation, and AI-assisted developer productivity.",
+        "key_pointers": [
+          "Lead with Hyperforce observability modernization, AMP-backed alerting, PromQL anomaly detection, distributed scheduling, and production SLO preservation.",
+          "Map NVIDIA's SaaS/PaaS cloud-scale requirements to Brane's high-throughput event platform, Kubernetes infrastructure, Kafka/TiDB/Redis tuning, and enterprise-scale operations evidence.",
+          "Emphasize REST/gRPC/MCP-style API contracts, Kubernetes operators, backend services, automation, monitoring, performance tuning, and scalable test harnesses.",
+          "Use internal AI IDE and AM agent federation work to match AI-assisted development, MCP, and platform productivity signals."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-agentic-observability.md",
+          "work/2026-06-ai-devtools.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260706-nvidia-senior-system-software-engineer-gefo-c2715964/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260706-nvidia-senior-system-software-engineer-gefo-c2715964/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "NVIDIA Workday application URL inspected but not submitted; page rendered blank/no visible application controls in Chrome automation.",
+        "NVIDIA Workday application page rendered blank/no controls; manual reload/login or alternate browser session required before application questions and final submission can be completed."
+      ],
+      "status_reason": "NVIDIA Workday application URL inspected but not submitted; page rendered blank/no visible application controls in Chrome automation.",
+      "last_status_update_id": "manual-4416719826",
+      "manual_action_required": true,
+      "manual_action_reason": "NVIDIA Workday application page rendered blank/no controls; manual reload/login or alternate browser session required before application questions and final submission can be completed.",
+      "manual_action_at": "2026-07-06T05:22:14Z"
+    },
     {
       "application_id": "app-20260706-fluidstack-distributed-systems-engineer-94466fa2",
       "job_id": "linkedin-4436053141",
