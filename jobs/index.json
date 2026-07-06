@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-05T23:41:33Z",
-  "active_batch_id": "batch-4437118467",
-  "last_scheduler_run_at": "2026-07-05T23:41:26Z",
+  "updated_at": "2026-07-06T00:11:33Z",
+  "active_batch_id": "batch-4435442083",
+  "last_scheduler_run_at": "2026-07-06T00:11:26Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -257,6 +257,64 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Distinct from existing Broadcom Senior Software Architect 4401425673 because this posting is requisition R025606 focused on GenAI/AI-ML product architecture across enterprise DevOps tools."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4435442083",
+      "dedupe_key": "linkedin:4435442083",
+      "source": "linkedin",
+      "source_job_id": "4435442083",
+      "source_url": "https://www.linkedin.com/jobs/view/4435442083",
+      "company": "Arctic Wolf",
+      "role": "Senior Staff Developer - AI SOC Automation",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid / Bengaluru",
+      "experience_level": "Senior Staff",
+      "compensation_signals": [
+        "Senior Staff role requiring 14+ years and senior technical leadership across backend, cloud-native, cybersecurity automation, and applied AI systems.",
+        "Compensation package explicitly includes equity for all employees, private benefits, training, and career development programs."
+      ],
+      "status": "approved",
+      "approval_status": "approved",
+      "batch_id": "batch-4435442083",
+      "fit_score": 94,
+      "fit_reason": "Excellent Senior Staff IC fit for AI-enabled security operations automation: backend microservices, AWS/EKS, Terraform, Kubernetes, detection pipelines, incident response playbooks, LLM/agentic frameworks, and production AI capabilities map directly to governed agent systems, observability, security automation, and platform leadership evidence.",
+      "fit_signals": [
+        "Designs and builds next-generation security operations automation platforms to improve detection reliability, incident response speed, and operational efficiency.",
+        "Requires backend systems and microservices in Python/Go, AWS RDS/DynamoDB/Lambda/EKS, Kubernetes, Docker, Terraform, Jenkins, CI/CD, and infrastructure-as-code workflows.",
+        "Contributes to architectural decisions around large language models, reasoning agents, autonomous task execution frameworks, detection, triage, automation, and response workflows.",
+        "Requires 14+ years, large-scale production systems, data pipelines, streaming architectures, security detection workflows, and leading complex technical initiatives from design through production.",
+        "Maps to MuleSoft governed agent systems, Salesforce observability/incident intelligence, Brane platform/security stack, and Jupiter regulated workflow evidence."
+      ],
+      "risk_flags": [
+        "Role may require background checks and access to information protected under US export-control laws; do not answer related portal questions without confirmed user data.",
+        "External application flow may require account login, legal/identity/work authorization answers, sponsorship answers, compensation expectations, or manual final submission.",
+        "Hybrid/Bengaluru expectations and remote interview camera policy may need candidate confirmation if asked by the portal."
+      ],
+      "people": [],
+      "connections_summary": "Fetched LinkedIn detail did not expose named reachable connections for this posting.",
+      "resume_theme": {
+        "name": "AI SOC automation and security platform",
+        "positioning": "Position Rohit as a Senior Staff/Principal IC who builds governed AI automation, security-aware platform systems, cloud-native reliability, and source-grounded operational intelligence for incident response workflows.",
+        "key_pointers": [
+          "Lead with MuleSoft proactive diagnostics and governed agent evidence plane: cited diagnoses, alert-storm dedup, tenant budgets, audit controls, and safe tool orchestration.",
+          "Use Salesforce Hyperforce observability and APIM local firing/test harness work to show detection reliability, incident intelligence, CI/CD quality, and production platform ownership.",
+          "Use Brane security/platform stack and Jupiter regulated payment infrastructure to support secure cloud-native systems, compliance readiness, AWS/Kubernetes-style operations, and high-stakes automation."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/incident_reviews/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "application_id": "app-20260706-arctic-wolf-senior-staff-developer-ai-soc-automa-52e961d8",
+      "resume_snapshot_path": "applications/resumes/app-20260706-arctic-wolf-senior-staff-developer-ai-soc-automa-52e961d8/resume.md",
+      "discovered_at": "2026-07-06T00:11:26Z",
+      "updated_at": "2026-07-06T00:11:33Z",
+      "notes": [
+        "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
       "resume_snapshot_name": "IC Resume"
     },

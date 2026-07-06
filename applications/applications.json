@@ -1,9 +1,53 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-05T23:41:33Z",
+  "updated_at": "2026-07-06T00:11:33Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260706-arctic-wolf-senior-staff-developer-ai-soc-automa-52e961d8",
+      "job_id": "linkedin-4435442083",
+      "dedupe_key": "linkedin:4435442083",
+      "source": "linkedin",
+      "source_job_id": "4435442083",
+      "source_url": "https://www.linkedin.com/jobs/view/4435442083",
+      "company": "Arctic Wolf",
+      "role": "Senior Staff Developer - AI SOC Automation",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "approved",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4435442083",
+      "approved_at": "2026-07-06T00:11:33Z",
+      "updated_at": "2026-07-06T00:11:33Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Excellent Senior Staff IC fit for AI-enabled security operations automation: backend microservices, AWS/EKS, Terraform, Kubernetes, detection pipelines, incident response playbooks, LLM/agentic frameworks, and production AI capabilities map directly to governed agent systems, observability, security automation, and platform leadership evidence.",
+      "people": [],
+      "connections_summary": "Fetched LinkedIn detail did not expose named reachable connections for this posting.",
+      "resume_theme": {
+        "name": "AI SOC automation and security platform",
+        "positioning": "Position Rohit as a Senior Staff/Principal IC who builds governed AI automation, security-aware platform systems, cloud-native reliability, and source-grounded operational intelligence for incident response workflows.",
+        "key_pointers": [
+          "Lead with MuleSoft proactive diagnostics and governed agent evidence plane: cited diagnoses, alert-storm dedup, tenant budgets, audit controls, and safe tool orchestration.",
+          "Use Salesforce Hyperforce observability and APIM local firing/test harness work to show detection reliability, incident intelligence, CI/CD quality, and production platform ownership.",
+          "Use Brane security/platform stack and Jupiter regulated payment infrastructure to support secure cloud-native systems, compliance readiness, AWS/Kubernetes-style operations, and high-stakes automation."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/incident_reviews/README.md",
+          "work/design_docs/README.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260706-arctic-wolf-senior-staff-developer-ai-soc-automa-52e961d8/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260706-arctic-wolf-senior-staff-developer-ai-soc-automa-52e961d8/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script."
+      ]
+    },
     {
       "application_id": "app-20260705-outmarket-ai-principal-software-engineer-23c2c644",
       "job_id": "linkedin-4437118467",
