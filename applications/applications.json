@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T14:16:24Z",
+  "updated_at": "2026-07-07T14:45:48Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -12318,11 +12318,11 @@
       "company": "Coupang",
       "role": "Director Backend Engineering - AI Infrastructure",
       "location": "Bangalore Urban, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-03T17:46:36Z",
+      "updated_at": "2026-07-07T14:45:48Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -12357,12 +12357,19 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Compensation override: Coupang Director/senior AI-platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
+        "Compensation override: Coupang Director/senior AI-platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians.",
+        "LinkedIn MCP confirmed the Coupang Director Backend Engineering - AI Infrastructure posting, and the official Coupang Careers page was resolved at https://www.coupang.jobs/en/jobs/7984671/director-backend-engineering-ai-infra/ with embedded Greenhouse job ID 7984671. No external application submission was performed.",
+        "Coupang Greenhouse application for job 7984671 requires contact fields, country/phone, resume upload, nationality, visa requirement to legally work in India, required privacy/consent choices, interview recording/reference/recruiting-notification consent choices, relative-conflict declaration, document-policy acknowledgements, and final Submit. Required legal/identity/privacy/consent answers and final external submission cannot be completed truthfully by this automation, so no data was entered, no resume was uploaded, and no application was submitted."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "LinkedIn MCP confirmed the Coupang Director Backend Engineering - AI Infrastructure posting, and the official Coupang Careers page was resolved at https://www.coupang.jobs/en/jobs/7984671/director-backend-engineering-ai-infra/ with embedded Greenhouse job ID 7984671. No external application submission was performed.",
+      "last_status_update_id": "status-20260707-coupang-ai-infra-director-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Coupang Greenhouse application for job 7984671 requires contact fields, country/phone, resume upload, nationality, visa requirement to legally work in India, required privacy/consent choices, interview recording/reference/recruiting-notification consent choices, relative-conflict declaration, document-policy acknowledgements, and final Submit. Required legal/identity/privacy/consent answers and final external submission cannot be completed truthfully by this automation, so no data was entered, no resume was uploaded, and no application was submitted.",
+      "manual_action_at": "2026-07-07T14:45:48Z"
     },
     {
       "application_id": "app-20260702-gitlab-staff-backend-engineer-software-supp-33f5b573",

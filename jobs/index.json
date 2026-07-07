@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T14:16:24Z",
+  "updated_at": "2026-07-07T14:45:48Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -16671,7 +16671,7 @@
         "user-provided payband signal: Coupang Director/senior AI-platform roles can meet 2.5cr+ total compensation at the right band",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 98,
@@ -16715,7 +16715,7 @@
       "application_id": "app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a",
       "resume_snapshot_path": "applications/resumes/app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-03T17:46:36Z",
+      "updated_at": "2026-07-07T14:45:48Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
