@@ -1,9 +1,67 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T04:54:26Z",
+  "updated_at": "2026-07-07T05:26:41Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-docusign-principal-software-engineer-8189f586",
+      "job_id": "linkedin-4395732884",
+      "dedupe_key": "linkedin:4395732884",
+      "source": "linkedin",
+      "source_job_id": "4395732884",
+      "source_url": "https://www.linkedin.com/jobs/view/4395732884",
+      "company": "Docusign",
+      "role": "Principal Software Engineer",
+      "location": "San Francisco, CA; Seattle, WA",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4395732884",
+      "approved_at": "2026-07-07T05:26:19Z",
+      "updated_at": "2026-07-07T05:26:41Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent Staff+/Principal IC fit: architects Docusign's Search & Data Platform for IAM, indexing billions of agreements, petabyte-scale search, high-availability SaaS, cloud distributed systems, Spark/Kafka, Elasticsearch/Solr, and LLM/vectorDB preferred experience.",
+      "people": [
+        {
+          "name": "Srividya and others",
+          "relationship": "LinkedIn network signal",
+          "role": "Docusign",
+          "profile_url": "",
+          "notes": "LinkedIn job detail showed Srividya and others in network as reachable people."
+        }
+      ],
+      "connections_summary": "LinkedIn job detail showed Srividya and others in network as reachable people.",
+      "resume_theme": {
+        "name": "Principal IC Search and Data Platform Architect",
+        "positioning": "Position as a hands-on principal architect for enterprise AI/data platforms, distributed cloud systems, search/data infrastructure, and high-availability customer-facing SaaS platforms.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce architecture and internal AI/platform work that connected operational/customer signals for decision velocity.",
+          "Emphasize Brane enterprise platform/control plane, telemetry, compliance readiness, and small-team infrastructure ownership at scale.",
+          "Bring distributed systems, Kubernetes, observability, data/AI platform, and cross-functional architecture decisions into the first-page proof points."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-docusign-principal-software-engineer-8189f586/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-docusign-principal-software-engineer-8189f586/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Docusign official Apply Now route opens iCIMS for job 29143; iframe asks for email to find/create a Docusign Careers profile and requires privacy notice consent before continuing.",
+        "Manual action required: iCIMS flow is protected by hCaptcha after the email/profile gate, so the application cannot be completed autonomously."
+      ],
+      "status_reason": "Application not submitted. Docusign official Apply Now route opens iCIMS for job 29143; iframe asks for email to find/create a Docusign Careers profile and requires privacy notice consent before continuing.",
+      "last_status_update_id": "manual-4395732884",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual action required: iCIMS flow is protected by hCaptcha after the email/profile gate, so the application cannot be completed autonomously.",
+      "manual_action_at": "2026-07-07T05:26:41Z"
+    },
     {
       "application_id": "app-20260707-google-senior-staff-software-engineer-ai-in-2ae3a329",
       "job_id": "linkedin-4426958391",

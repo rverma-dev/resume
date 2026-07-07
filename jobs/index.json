@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T04:54:26Z",
-  "active_batch_id": "batch-4426958391",
-  "last_scheduler_run_at": "2026-07-07T04:54:03Z",
+  "updated_at": "2026-07-07T05:26:41Z",
+  "active_batch_id": "batch-4395732884",
+  "last_scheduler_run_at": "2026-07-07T05:26:12Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -1500,6 +1500,77 @@
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from archived insightsoftware Senior Platform Engineer linkedin:4427042094."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4395732884",
+      "dedupe_key": "linkedin:4395732884",
+      "source": "linkedin",
+      "source_job_id": "4395732884",
+      "source_url": "https://www.linkedin.com/jobs/view/4395732884",
+      "company": "Docusign",
+      "role": "Principal Software Engineer",
+      "location": "San Francisco, CA; Seattle, WA",
+      "work_type": "hybrid",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "California/Washington base salary range $202,100-$299,625 plus company bonus plan and RSUs",
+        "Principal IC role reporting to Director of Engineering, Search",
+        "Docusign AI / Intelligent Agreement Management platform role"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4395732884",
+      "fit_score": 96,
+      "fit_reason": "Excellent Staff+/Principal IC fit: architects Docusign's Search & Data Platform for IAM, indexing billions of agreements, petabyte-scale search, high-availability SaaS, cloud distributed systems, Spark/Kafka, Elasticsearch/Solr, and LLM/vectorDB preferred experience.",
+      "fit_signals": [
+        "Principal IC architect scope",
+        "Search & Data Platform ownership",
+        "AI / IAM product platform",
+        "distributed systems and petabyte-scale search",
+        "Elasticsearch/Solr cluster design and tuning",
+        "Spark/Kafka data infrastructure",
+        "99.99% critical search service availability",
+        "public cloud SaaS architecture",
+        "LLM/vector database preferred experience"
+      ],
+      "risk_flags": [
+        "Hybrid role requires access to San Francisco or Seattle office at least two days per week",
+        "iCIMS application flow requires email/profile gate, privacy consent, and hCaptcha before continuing"
+      ],
+      "people": [
+        {
+          "name": "Srividya and others",
+          "relationship": "LinkedIn network signal",
+          "role": "Docusign",
+          "profile_url": "",
+          "notes": "LinkedIn job detail showed Srividya and others in network as reachable people."
+        }
+      ],
+      "connections_summary": "LinkedIn job detail showed Srividya and others in network as reachable people.",
+      "resume_theme": {
+        "name": "Principal IC Search and Data Platform Architect",
+        "positioning": "Position as a hands-on principal architect for enterprise AI/data platforms, distributed cloud systems, search/data infrastructure, and high-availability customer-facing SaaS platforms.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce architecture and internal AI/platform work that connected operational/customer signals for decision velocity.",
+          "Emphasize Brane enterprise platform/control plane, telemetry, compliance readiness, and small-team infrastructure ownership at scale.",
+          "Bring distributed systems, Kubernetes, observability, data/AI platform, and cross-functional architecture decisions into the first-page proof points."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/project_docs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260707-docusign-principal-software-engineer-8189f586",
+      "resume_snapshot_path": "applications/resumes/app-20260707-docusign-principal-software-engineer-8189f586/resume.md",
+      "discovered_at": "2026-07-07T05:26:12Z",
+      "updated_at": "2026-07-07T05:26:41Z",
+      "notes": [
+        "Official apply route observed via Docusign careers: https://careers.docusign.com/careers-home/jobs/29143?lang=en-us&iis=Job%20board&iisn=LinkedIn",
+        "Apply Now targets iCIMS: https://uscareers-docusign.icims.com/jobs/29143/login?iis=Job%20board&iisn=LinkedIn",
+        "iCIMS iframe asks for email to find/create Docusign Careers profile, requires privacy notice consent, and is protected by hCaptcha."
       ],
       "resume_snapshot_name": "IC Resume"
     },
