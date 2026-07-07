@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T06:22:05Z",
-  "active_batch_id": "batch-4396388005",
-  "last_scheduler_run_at": "2026-07-07T06:21:39Z",
+  "updated_at": "2026-07-07T07:02:31Z",
+  "active_batch_id": "batch-4436269535",
+  "last_scheduler_run_at": "2026-07-07T07:01:57Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -254,6 +254,68 @@
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Earlier Cisco Network Systems Engineer was rejected for networking-specialist underfit; this Webex Data Analytics Platform Technical Leader posting is broader distributed platform engineering."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4436269535",
+      "dedupe_key": "linkedin:4436269535",
+      "source": "linkedin",
+      "source_job_id": "4436269535",
+      "source_url": "https://www.linkedin.com/jobs/view/4436269535",
+      "company": "NVIDIA",
+      "role": "Senior Engineer - AI Agents and Systems",
+      "location": "Santa Clara, CA / Redmond, WA, United States",
+      "work_type": "On-site",
+      "experience_level": "Senior/Staff IC",
+      "compensation_signals": [
+        "$224K-$356.5K base for Level 5 and $272K-$431.25K base for Level 6, plus equity and benefits.",
+        "12+ years software engineering; local LLM inference, GPU-accelerated computing, agent runtimes, sandboxing/security, Windows internals, C++, Python, and TypeScript."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4436269535",
+      "fit_score": 96,
+      "fit_reason": "Excellent senior/staff IC fit at NVIDIA: this role builds and optimizes local AI agent runtimes and inference frameworks for Windows and NVIDIA RTX GPUs, including Ollama, llama.cpp, vLLM, TensorRT, CUDA, sandboxing/security, privacy routing, multi-agent orchestration, and production code quality. It maps strongly to internal AI devtools, agent federation/MCP, governed agentic systems, platform reliability, and security-minded runtime architecture evidence.",
+      "fit_signals": [
+        "Direct local AI agent runtime match: agent frameworks, local LLM inference, multi-agent planning/tool use, privacy routing, and sandboxed execution.",
+        "Strong GPU/platform systems overlap: CUDA, TensorRT, Ollama, llama.cpp, vLLM, Windows integration, C++, Python, and TypeScript.",
+        "High compensation signal: NVIDIA L5/L6 base range reaches $431.25K plus equity and benefits.",
+        "Role is deeply technical and code-first, matching Principal/Staff IC platform architecture and production engineering trajectory.",
+        "Posting is time-sensitive: Workday page says applications accepted at least until July 10, 2026."
+      ],
+      "risk_flags": [
+        "NVIDIA Workday apply page rendered as a blank JavaScript shell in both in-app browser and headless browser automation; no visible application controls were available.",
+        "NVIDIA Workday account configuration endpoint requires candidate account consent and password setup rules, so manual sign-in/account creation appears required before application questions can be accessed.",
+        "Application may contain work authorization, visa assistance/sponsorship, export-control, EEO, self-identification, location, and final-submit questions that must not be fabricated.",
+        "Role is Santa Clara/Redmond on-site; relocation and location expectations may need confirmation.",
+        "Do not mark applied until NVIDIA Workday submission confirmation is observed."
+      ],
+      "people": [],
+      "connections_summary": "No named hiring contact captured from the posting on this pass.",
+      "resume_theme": {
+        "name": "NVIDIA local AI agent systems IC",
+        "positioning": "Senior/staff platform IC for local AI agent runtimes, GPU-accelerated inference, privacy/security sandboxing, Windows-native systems, and production-grade multi-agent orchestration.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and governed agentic systems to match NVIDIA's local agent runtime and tool-use mandate.",
+          "Map sandboxing, privacy routing, policy controls, and secure execution to governed diagnostic evidence, agent safety, and platform security evidence.",
+          "Use Hyperforce observability and Brane platform infrastructure to support production reliability, performance optimization, and cross-team architecture credibility.",
+          "Emphasize C++/Python/TypeScript-adjacent systems architecture only where supported by resume evidence; avoid overstating direct CUDA or Windows-kernel experience."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "application_id": "app-20260707-nvidia-senior-engineer-ai-agents-and-system-ee6e3039",
+      "resume_snapshot_path": "applications/resumes/app-20260707-nvidia-senior-engineer-ai-agents-and-system-ee6e3039/resume.md",
+      "discovered_at": "2026-07-07T07:01:57Z",
+      "updated_at": "2026-07-07T07:02:31Z",
+      "notes": [
+        "NVIDIA Workday application URL: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Engineer---AI-Agents-and-Systems_JR2020770/apply?source=jobboardlinkedin",
+        "Direct Workday inspection on 2026-07-07 returned live posting metadata for JR2020770 and a blank JavaScript application shell; no submission controls were available in automation."
       ],
       "resume_snapshot_name": "IC Resume"
     },

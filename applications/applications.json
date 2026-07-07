@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T06:22:05Z",
+  "updated_at": "2026-07-07T07:02:31Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-nvidia-senior-engineer-ai-agents-and-system-ee6e3039",
+      "job_id": "linkedin-4436269535",
+      "dedupe_key": "linkedin:4436269535",
+      "source": "linkedin",
+      "source_job_id": "4436269535",
+      "source_url": "https://www.linkedin.com/jobs/view/4436269535",
+      "company": "NVIDIA",
+      "role": "Senior Engineer - AI Agents and Systems",
+      "location": "Santa Clara, CA / Redmond, WA, United States",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4436269535",
+      "approved_at": "2026-07-07T07:02:08Z",
+      "updated_at": "2026-07-07T07:02:31Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent senior/staff IC fit at NVIDIA: this role builds and optimizes local AI agent runtimes and inference frameworks for Windows and NVIDIA RTX GPUs, including Ollama, llama.cpp, vLLM, TensorRT, CUDA, sandboxing/security, privacy routing, multi-agent orchestration, and production code quality. It maps strongly to internal AI devtools, agent federation/MCP, governed agentic systems, platform reliability, and security-minded runtime architecture evidence.",
+      "people": [],
+      "connections_summary": "No named hiring contact captured from the posting on this pass.",
+      "resume_theme": {
+        "name": "NVIDIA local AI agent systems IC",
+        "positioning": "Senior/staff platform IC for local AI agent runtimes, GPU-accelerated inference, privacy/security sandboxing, Windows-native systems, and production-grade multi-agent orchestration.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and governed agentic systems to match NVIDIA's local agent runtime and tool-use mandate.",
+          "Map sandboxing, privacy routing, policy controls, and secure execution to governed diagnostic evidence, agent safety, and platform security evidence.",
+          "Use Hyperforce observability and Brane platform infrastructure to support production reliability, performance optimization, and cross-team architecture credibility.",
+          "Emphasize C++/Python/TypeScript-adjacent systems architecture only where supported by resume evidence; avoid overstating direct CUDA or Windows-kernel experience."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-nvidia-senior-engineer-ai-agents-and-system-ee6e3039/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-nvidia-senior-engineer-ai-agents-and-system-ee6e3039/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "NVIDIA Workday application flow inspected but not submitted; apply page rendered as a blank JavaScript shell/no visible controls in in-app and headless browser automation.",
+        "NVIDIA Workday manual follow-up required: application page did not expose usable controls in automation, and the reachable account configuration endpoint requires candidate account consent plus password setup rules before candidate flow can proceed. No resume upload, legal/work authorization/EEO answers, or final submission were performed."
+      ],
+      "status_reason": "NVIDIA Workday application flow inspected but not submitted; apply page rendered as a blank JavaScript shell/no visible controls in in-app and headless browser automation.",
+      "last_status_update_id": "manual-4436269535",
+      "manual_action_required": true,
+      "manual_action_reason": "NVIDIA Workday manual follow-up required: application page did not expose usable controls in automation, and the reachable account configuration endpoint requires candidate account consent plus password setup rules before candidate flow can proceed. No resume upload, legal/work authorization/EEO answers, or final submission were performed.",
+      "manual_action_at": "2026-07-07T07:02:31Z"
+    },
     {
       "application_id": "app-20260707-broadcom-principal-kubernetes-software-engine-9f70581a",
       "job_id": "linkedin-4396388005",
