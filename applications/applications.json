@@ -1,9 +1,73 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T09:49:45Z",
+  "updated_at": "2026-07-07T10:11:29Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-harness-principal-software-engineer-cd-40a1b0a3",
+      "job_id": "linkedin-4434527236",
+      "dedupe_key": "linkedin:4434527236",
+      "source": "linkedin",
+      "source_job_id": "4434527236",
+      "source_url": "https://www.linkedin.com/jobs/view/4434527236",
+      "company": "Harness",
+      "role": "Principal Software Engineer- CD",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "manual-4434527236",
+      "approved_at": "2026-07-07T10:11:29Z",
+      "updated_at": "2026-07-07T10:11:29Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent Principal IC fit at Harness: Continuous Delivery/GitOps foundation for multiple products, architecture/scaling/security of cloud platform, Java/Golang/gRPC microservices, Docker, Kubernetes, Kafka/Kafka Streams, low-level API design, roadmap leadership, architecture committees, executive/customer representation, and AI software-delivery platform context map strongly to Unleash, internal developer platform work, Hyperforce observability, and governed agentic systems.",
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "connection signal",
+          "role": "Harness",
+          "profile_url": "",
+          "notes": "LinkedIn search/detail showed 1 connection works at Harness."
+        }
+      ],
+      "connections_summary": "LinkedIn search/detail showed 1 connection works at Harness; no named recruiter or hiring manager was captured in this pass.",
+      "resume_theme": {
+        "name": "Harness CD and AI software delivery platform",
+        "positioning": "Principal platform engineer for AI software delivery, continuous delivery/GitOps, Kubernetes-backed developer platforms, governance, reliability, and cross-team architecture execution.",
+        "key_pointers": [
+          "Lead with Unleash and Internal IDE because they map directly to developer platforms, feature flags, software delivery, productivity, and governance.",
+          "Use Hyperforce alerts, Visualizer Druid/Kafka topology, and proactive diagnostics to show large-scale cloud platform reliability, observability, and cost-aware operations.",
+          "Map Brane platform/infrastructure and two-engineer stack buildout to enterprise-grade SaaS platform architecture, CI/CD, security, compliance readiness, and Kubernetes/cloud operations.",
+          "Frame agent federation and governed evidence-plane work as AI software-delivery automation and policy-driven controls without overstating Harness-specific product knowledge."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-harness-principal-software-engineer-cd-40a1b0a3/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-harness-principal-software-engineer-cd-40a1b0a3/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved/manual-tracked for tailoring; no application submitted by this script.",
+        "LinkedIn detail fetched 2026-07-07; responses managed off LinkedIn.",
+        "Official Greenhouse embed inspected in Chrome: https://boards.greenhouse.io/embed/job_app?for=harnessinc&token=5180974007",
+        "Visible Greenhouse form required First Name, Last Name, and Email; optional fields included phone, Resume/CV, Cover Letter, LinkedIn Profile, and Website.",
+        "Harness Greenhouse application for Principal Software Engineer- CD is visible and has a Submit application control, but completing it would transmit contact data and likely a resume to Harness and create an external job application. Final external submission is unsupported in this automation without action-time user confirmation, so no contact data was entered, no resume was uploaded, and no external submission was performed."
+      ],
+      "status_reason": "Official Harness Greenhouse application form was inspected in Chrome; no application submission was performed.",
+      "last_status_update_id": "manual-4434527236",
+      "manual_action_required": true,
+      "manual_action_reason": "Harness Greenhouse application for Principal Software Engineer- CD is visible and has a Submit application control, but completing it would transmit contact data and likely a resume to Harness and create an external job application. Final external submission is unsupported in this automation without action-time user confirmation, so no contact data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-07T10:11:29Z"
+    },
     {
       "application_id": "app-20260707-autodesk-principal-engineer-data-platform-bac-ea399b81",
       "job_id": "job-autodesk-principal-engineer-data-platform-bac-ea399b81",
