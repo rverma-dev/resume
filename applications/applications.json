@@ -1,9 +1,60 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T07:57:52Z",
+  "updated_at": "2026-07-07T08:06:25Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae",
+      "job_id": "job-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae",
+      "dedupe_key": "url:https://www.amazon.jobs/en/jobs/3196031/principal-senior-principal-and-distinguished-engineer-aws-agentic-ai",
+      "source": "amazon_jobs",
+      "source_job_id": "3196031",
+      "source_url": "https://www.amazon.jobs/en/jobs/3196031/principal-senior-principal-and-distinguished-engineer-aws-agentic-ai",
+      "company": "Amazon Web Services (AWS)",
+      "role": "Principal, Senior Principal and Distinguished Engineer, AWS Agentic AI",
+      "location": "Seattle, WA; Redmond, WA; Bellevue, WA",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-3196031",
+      "approved_at": "2026-07-07T08:06:04Z",
+      "updated_at": "2026-07-07T08:06:25Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 99,
+      "fit_reason": "Exceptional high-comp IC fit: AWS leadership-visible Agentic AI organization building next-generation AI agent platforms, services, tools, AgentCore infrastructure, multi-agent orchestration, memory, identity, gateway, observability, security agents, and tier-zero large-scale services.",
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "IC Resume",
+        "positioning": "Principal-level AI infrastructure and distributed systems engineer for AWS Agentic AI platforms, emphasizing governed agent systems, multi-tenant observability, cloud infrastructure, and large-scale service architecture.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce observability platform scale, multi-tenant scheduling/evaluation, reliability, and cost outcomes.",
+          "Emphasize governed agentic systems, A2A/MCP architecture, agent federation, memory/governance planes, and local-first AI engineering platform work.",
+          "Tie Unleash/internal IDE and proactive diagnostics work to AWS AgentCore, agent orchestration, observability, identity, and security-agent infrastructure."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Official Amazon.jobs role was live and apply flow was inspected, but no application submission was performed.",
+        "Amazon.jobs redirected the apply URL to the Amazon.jobs login page requiring an Amazon.jobs password or third-party login before resume upload, legal/work authorization/EEO questions, or final submit controls are visible."
+      ],
+      "status_reason": "Official Amazon.jobs role was live and apply flow was inspected, but no application submission was performed.",
+      "last_status_update_id": "manual-3196031",
+      "manual_action_required": true,
+      "manual_action_reason": "Amazon.jobs redirected the apply URL to the Amazon.jobs login page requiring an Amazon.jobs password or third-party login before resume upload, legal/work authorization/EEO questions, or final submit controls are visible.",
+      "manual_action_at": "2026-07-07T08:06:25Z"
+    },
     {
       "application_id": "app-20260707-databricks-staff-software-engineer-ai-research-0fa009cc",
       "job_id": "linkedin-4424890045",

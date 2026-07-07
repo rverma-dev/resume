@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T07:57:52Z",
-  "active_batch_id": "batch-4424890045",
-  "last_scheduler_run_at": "2026-07-07T07:54:36Z",
+  "updated_at": "2026-07-07T08:06:25Z",
+  "active_batch_id": "batch-3196031",
+  "last_scheduler_run_at": "2026-07-07T08:05:40Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -2197,6 +2197,63 @@
       "updated_at": "2026-07-05T22:42:19Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "job-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae",
+      "dedupe_key": "url:https://www.amazon.jobs/en/jobs/3196031/principal-senior-principal-and-distinguished-engineer-aws-agentic-ai",
+      "source": "amazon_jobs",
+      "source_job_id": "3196031",
+      "source_url": "https://www.amazon.jobs/en/jobs/3196031/principal-senior-principal-and-distinguished-engineer-aws-agentic-ai",
+      "company": "Amazon Web Services (AWS)",
+      "role": "Principal, Senior Principal and Distinguished Engineer, AWS Agentic AI",
+      "location": "Seattle, WA; Redmond, WA; Bellevue, WA",
+      "work_type": "On-site / hybrid",
+      "experience_level": "Principal / Senior Principal / Distinguished Engineer",
+      "compensation_signals": [
+        "Official posting lists base salary range $200,100-$270,600 USD annually for Bellevue, Redmond, and Seattle, plus sign-on payments and RSUs.",
+        "Principal/Senior Principal/Distinguished AWS AI platform scope is a strong high-total-compensation signal."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-3196031",
+      "fit_score": 99,
+      "fit_reason": "Exceptional high-comp IC fit: AWS leadership-visible Agentic AI organization building next-generation AI agent platforms, services, tools, AgentCore infrastructure, multi-agent orchestration, memory, identity, gateway, observability, security agents, and tier-zero large-scale services.",
+      "fit_signals": [
+        "Official Amazon posting targets Principal, Senior Principal, and Distinguished Engineer level in AWS Agentic AI.",
+        "Role includes AgentCore platform infrastructure for autonomous AI agents, serverless runtime, memory, identity, gateway, and observability components.",
+        "Role includes large-scale, fault-tolerant tier-zero AWS services, cross-domain compute/databases/networking/identity/ML science work, and technical leadership across multiple projects."
+      ],
+      "risk_flags": [
+        "US-only locations shown: Seattle, Redmond, and Bellevue, WA; no visible relocation or sponsorship signal captured.",
+        "Amazon.jobs apply flow requires Amazon.jobs login before resume upload, legal/work authorization, EEO, or final-submit questions are visible."
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "IC Resume",
+        "positioning": "Principal-level AI infrastructure and distributed systems engineer for AWS Agentic AI platforms, emphasizing governed agent systems, multi-tenant observability, cloud infrastructure, and large-scale service architecture.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce observability platform scale, multi-tenant scheduling/evaluation, reliability, and cost outcomes.",
+          "Emphasize governed agentic systems, A2A/MCP architecture, agent federation, memory/governance planes, and local-first AI engineering platform work.",
+          "Tie Unleash/internal IDE and proactive diagnostics work to AWS AgentCore, agent orchestration, observability, identity, and security-agent infrastructure."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting"
+        ]
+      },
+      "application_id": "app-20260707-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae",
+      "resume_snapshot_path": "applications/resumes/app-20260707-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae/resume.md",
+      "discovered_at": "2026-07-07T08:05:40Z",
+      "updated_at": "2026-07-07T08:06:25Z",
+      "notes": [
+        "Official Amazon job ID 3196031.",
+        "Apply URL observed: https://www.amazon.jobs/applicant/jobs/3196031/apply",
+        "Amazon.jobs login page observed before application questions."
       ],
       "resume_snapshot_name": "IC Resume"
     },
