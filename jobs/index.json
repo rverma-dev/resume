@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T16:18:02Z",
+  "updated_at": "2026-07-07T16:49:03Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -5920,7 +5920,7 @@
         "Confluent is a target data infrastructure company with principal cloud platform roles.",
         "Principal role asks for 15+ years hands-on software development and cloud observability technical leadership."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2204",
       "fit_score": 96,
@@ -5953,7 +5953,7 @@
       "application_id": "app-20260703-confluent-principal-engineer-i-cloud-observabi-d893e69c",
       "resume_snapshot_path": "applications/resumes/app-20260703-confluent-principal-engineer-i-cloud-observabi-d893e69c/resume.md",
       "discovered_at": "2026-07-03T22:06:24Z",
-      "updated_at": "2026-07-03T22:06:43Z",
+      "updated_at": "2026-07-07T16:49:03Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },

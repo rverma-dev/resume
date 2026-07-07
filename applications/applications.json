@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T16:18:02Z",
+  "updated_at": "2026-07-07T16:49:03Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -8333,11 +8333,11 @@
       "company": "Confluent",
       "role": "Principal Engineer I - Cloud Observability",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2204",
       "approved_at": "2026-07-03T22:06:43Z",
-      "updated_at": "2026-07-03T22:06:43Z",
+      "updated_at": "2026-07-07T16:49:03Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -8361,9 +8361,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-confluent-principal-engineer-i-cloud-observabi-d893e69c/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn MCP rechecked the Confluent Principal Engineer I - Cloud Observability posting and reported that it is no longer accepting applications. The tracked Ashby route https://jobs.ashbyhq.com/confluent/e12d3084-a84e-4c1a-800e-5d5dbb9e27e8/application returned Job not found via the Ashby ApiJobPosting response, and the current Confluent Ashby board did not list Principal Engineer I - Cloud Observability. No external application submission was performed.",
+        "Unavailable application URL / closed Confluent posting: the tracked LinkedIn posting is no longer accepting applications, the Ashby jobPosting response for e12d3084-a84e-4c1a-800e-5d5dbb9e27e8 is null, and no active application form is available for this role. Manual portal verification or a replacement official URL is required. No data was entered, no resume was uploaded, and no application was submitted."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn MCP rechecked the Confluent Principal Engineer I - Cloud Observability posting and reported that it is no longer accepting applications. The tracked Ashby route https://jobs.ashbyhq.com/confluent/e12d3084-a84e-4c1a-800e-5d5dbb9e27e8/application returned Job not found via the Ashby ApiJobPosting response, and the current Confluent Ashby board did not list Principal Engineer I - Cloud Observability. No external application submission was performed.",
+      "last_status_update_id": "status-20260707-confluent-cloud-observability-unavailable",
+      "manual_action_required": true,
+      "manual_action_reason": "Unavailable application URL / closed Confluent posting: the tracked LinkedIn posting is no longer accepting applications, the Ashby jobPosting response for e12d3084-a84e-4c1a-800e-5d5dbb9e27e8 is null, and no active application form is available for this role. Manual portal verification or a replacement official URL is required. No data was entered, no resume was uploaded, and no application was submitted.",
+      "manual_action_at": "2026-07-07T16:49:03Z"
     },
     {
       "application_id": "app-20260703-okta-staff-site-reliability-engineer-obse-913ac3de",
