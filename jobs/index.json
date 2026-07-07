@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-06T06:20:51Z",
-  "active_batch_id": "batch-4435275853",
-  "last_scheduler_run_at": "2026-07-06T06:20:27Z",
+  "updated_at": "2026-07-07T04:54:26Z",
+  "active_batch_id": "batch-4426958391",
+  "last_scheduler_run_at": "2026-07-07T04:54:03Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -685,6 +685,68 @@
       "updated_at": "2026-07-05T14:59:20Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4426958391",
+      "dedupe_key": "linkedin:4426958391",
+      "source": "linkedin",
+      "source_job_id": "4426958391",
+      "source_url": "https://www.linkedin.com/jobs/view/4426958391",
+      "company": "Google",
+      "role": "Senior Staff Software Engineer, AI Infrastructure, Google Cloud, Applied AI",
+      "location": "Sunnyvale, CA, United States",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [
+        "$262K-$365K base, plus 25% bonus target, equity, and benefits.",
+        "Senior Staff / advanced Google Cloud Applied AI role requiring AI, distributed systems, LLMs, high-performance computing, multi-agent systems, production AI evaluation, and scalable enterprise agentic infrastructure."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4426958391",
+      "fit_score": 98,
+      "fit_reason": "Exceptional Senior Staff IC fit at Google Cloud Applied AI: the role architects and builds high-performance distributed infrastructure for low-latency enterprise agentic AI workflows, transitions experimental models into reliable production services, and requires AI, distributed systems, LLMs, HPC, multi-agent systems, production AI evaluation frameworks, observability, fault tolerance, and direct customer-feedback iteration. This maps tightly to internal AI devtools, agent federation/MCP, agentic observability, Hyperforce observability modernization, distributed systems, and platform APIs consumed by multiple engineering teams.",
+      "fit_signals": [
+        "Direct senior-staff AI infrastructure match: Google Cloud Applied AI/Gemini Enterprise, multi-agent systems, LLMs, HPC, distributed infrastructure, low-latency agentic systems, and production reliability.",
+        "Strong evaluation and operations overlap: A/B testing, shadow deployment, online learning, observability, fault tolerance, and robust production services for complex multi-agent environments.",
+        "High compensation signal: $262K-$365K base plus 25% bonus target, equity, and benefits.",
+        "Role involves translating ambiguous enterprise customer needs into concrete engineering systems and critical missing features, matching cross-team platform leadership evidence.",
+        "Distinct from existing generic Google Cloud/infrastructure records because it centers Cloud Applied AI, Gemini Enterprise, and enterprise agentic AI infrastructure."
+      ],
+      "risk_flags": [
+        "Google Careers form opened but requires manual profile completion before application can proceed; no external submission completed.",
+        "Form requires legal name fields, valid phone number, resume upload, and prior Alphabet company employment/contractor/acquisition answer before Submit profile & continue.",
+        "Later steps include Role Information, Voluntary self-identification, and Review & apply; legal, identity, EEO, work authorization, sponsorship, or final-submit answers must not be fabricated.",
+        "Role is Sunnyvale/on-site; relocation, sponsorship, or location expectations may need confirmation.",
+        "Do not mark applied until Google Careers final submission confirmation is observed."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting did not expose a named recruiter or hiring-manager contact on this pass.",
+      "resume_theme": {
+        "name": "Google Cloud Applied AI senior staff IC",
+        "positioning": "Senior Staff platform IC for enterprise agentic AI infrastructure: distributed systems, low-latency multi-agent workflows, production AI evaluation, observability, fault tolerance, Gemini Enterprise-style applied AI platforms, and customer-driven 0-to-1 platform delivery.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and developer-productivity systems to match Google's enterprise agentic AI and multi-agent infrastructure needs.",
+          "Map A/B testing, shadow deployment, online-learning/evaluation loops, observability, fault tolerance, and production reliability to agentic observability and Hyperforce modernization evidence.",
+          "Emphasize distributed systems, platform APIs, customer-signal integration, low-latency/high-scale services, and design-review-driven Senior Staff leadership.",
+          "Tie Brane and MuleSoft platform work to high-performance infrastructure, multi-team platform adoption, and reliable production services beyond prototypes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "application_id": "app-20260707-google-senior-staff-software-engineer-ai-in-2ae3a329",
+      "resume_snapshot_path": "applications/resumes/app-20260707-google-senior-staff-software-engineer-ai-in-2ae3a329/resume.md",
+      "discovered_at": "2026-07-07T04:54:03Z",
+      "updated_at": "2026-07-07T04:54:26Z",
+      "notes": [
+        "Google Careers URL: https://www.google.com/about/careers/applications/jobs/results/105418748269077190-senior-staff-software-engineer/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
+        "Chrome inspection on 2026-07-07 opened Google Careers application form but stopped before profile submission due required legal name, phone, resume upload, and prior Alphabet employment/contractor/acquisition answer."
       ],
       "resume_snapshot_name": "IC Resume"
     },

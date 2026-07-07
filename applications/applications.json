@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-06T06:20:51Z",
+  "updated_at": "2026-07-07T04:54:26Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-google-senior-staff-software-engineer-ai-in-2ae3a329",
+      "job_id": "linkedin-4426958391",
+      "dedupe_key": "linkedin:4426958391",
+      "source": "linkedin",
+      "source_job_id": "4426958391",
+      "source_url": "https://www.linkedin.com/jobs/view/4426958391",
+      "company": "Google",
+      "role": "Senior Staff Software Engineer, AI Infrastructure, Google Cloud, Applied AI",
+      "location": "Sunnyvale, CA, United States",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4426958391",
+      "approved_at": "2026-07-07T04:54:10Z",
+      "updated_at": "2026-07-07T04:54:26Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Exceptional Senior Staff IC fit at Google Cloud Applied AI: the role architects and builds high-performance distributed infrastructure for low-latency enterprise agentic AI workflows, transitions experimental models into reliable production services, and requires AI, distributed systems, LLMs, HPC, multi-agent systems, production AI evaluation frameworks, observability, fault tolerance, and direct customer-feedback iteration. This maps tightly to internal AI devtools, agent federation/MCP, agentic observability, Hyperforce observability modernization, distributed systems, and platform APIs consumed by multiple engineering teams.",
+      "people": [],
+      "connections_summary": "LinkedIn posting did not expose a named recruiter or hiring-manager contact on this pass.",
+      "resume_theme": {
+        "name": "Google Cloud Applied AI senior staff IC",
+        "positioning": "Senior Staff platform IC for enterprise agentic AI infrastructure: distributed systems, low-latency multi-agent workflows, production AI evaluation, observability, fault tolerance, Gemini Enterprise-style applied AI platforms, and customer-driven 0-to-1 platform delivery.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and developer-productivity systems to match Google's enterprise agentic AI and multi-agent infrastructure needs.",
+          "Map A/B testing, shadow deployment, online-learning/evaluation loops, observability, fault tolerance, and production reliability to agentic observability and Hyperforce modernization evidence.",
+          "Emphasize distributed systems, platform APIs, customer-signal integration, low-latency/high-scale services, and design-review-driven Senior Staff leadership.",
+          "Tie Brane and MuleSoft platform work to high-performance infrastructure, multi-team platform adoption, and reliable production services beyond prototypes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-ai-devtools.md",
+          "work/2026-06-agentic-observability.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-google-senior-staff-software-engineer-ai-in-2ae3a329/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-google-senior-staff-software-engineer-ai-in-2ae3a329/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Google Careers application form opened but not submitted; profile step requires user-confirmed legal/profile fields and resume upload before continuing.",
+        "Google Careers requires legal first/last name, valid phone number, resume upload, and a prior Alphabet company employment/contractor/acquisition answer before Submit profile & continue. Later Role Information, Voluntary self-identification, and Review & apply steps remain; no final submission was performed."
+      ],
+      "status_reason": "Google Careers application form opened but not submitted; profile step requires user-confirmed legal/profile fields and resume upload before continuing.",
+      "last_status_update_id": "manual-4426958391",
+      "manual_action_required": true,
+      "manual_action_reason": "Google Careers requires legal first/last name, valid phone number, resume upload, and a prior Alphabet company employment/contractor/acquisition answer before Submit profile & continue. Later Role Information, Voluntary self-identification, and Review & apply steps remain; no final submission was performed.",
+      "manual_action_at": "2026-07-07T04:54:26Z"
+    },
     {
       "application_id": "app-20260706-nvidia-principal-engineer-ai-tooling-and-wo-71c7ecfa",
       "job_id": "linkedin-4435275853",
