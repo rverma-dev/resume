@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T16:49:03Z",
+  "updated_at": "2026-07-07T17:17:37Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -8599,11 +8599,11 @@
       "company": "Coupang",
       "role": "Senior Staff Software Engineer - Gateway Services",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2104",
       "approved_at": "2026-07-03T21:06:27Z",
-      "updated_at": "2026-07-04T07:46:15Z",
+      "updated_at": "2026-07-07T17:17:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -8628,12 +8628,16 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Resynced existing approved application after duplicate-aware job upsert refreshed the job row."
+        "Resynced existing approved application after duplicate-aware job upsert refreshed the job row.",
+        "Application not submitted. LinkedIn job 4434386476 resolved to active official Coupang Careers / Greenhouse job 8027678, Senior Staff, Back-end Engineer (Gateway Services), with public page https://www.coupang.jobs/en/jobs/8027678/senior-staff-back-end-engineer-gateway-services/ and submit path https://boards.greenhouse.io/embed/coupang/jobs/8027678.",
+        "Manual completion required: Greenhouse form requires candidate-owned answers for contact country/phone, nationality, Korea work-visa need, privacy/data-retention consents, third-party/overseas transfer and sanctions/background-screening consent, reference-check consent choice, relatives/conflict declaration, retired-public-official screening declaration, document-policy acknowledgement, resume upload, and invisible reCAPTCHA final submit. Do not mark applied without external confirmation."
       ],
-      "status_reason": "Resynced existing approved application after duplicate-aware job upsert refreshed the job row.",
-      "last_status_update_id": "status-20260704-0734-coupang-approved-resync",
-      "manual_action_required": false,
-      "resume_snapshot_name": "IC Resume"
+      "status_reason": "Application not submitted. LinkedIn job 4434386476 resolved to active official Coupang Careers / Greenhouse job 8027678, Senior Staff, Back-end Engineer (Gateway Services), with public page https://www.coupang.jobs/en/jobs/8027678/senior-staff-back-end-engineer-gateway-services/ and submit path https://boards.greenhouse.io/embed/coupang/jobs/8027678.",
+      "last_status_update_id": "status-20260707-coupang-gateway-services-manual",
+      "manual_action_required": true,
+      "resume_snapshot_name": "IC Resume",
+      "manual_action_reason": "Manual completion required: Greenhouse form requires candidate-owned answers for contact country/phone, nationality, Korea work-visa need, privacy/data-retention consents, third-party/overseas transfer and sanctions/background-screening consent, reference-check consent choice, relatives/conflict declaration, retired-public-official screening declaration, document-policy acknowledgement, resume upload, and invisible reCAPTCHA final submit. Do not mark applied without external confirmation.",
+      "manual_action_at": "2026-07-07T17:17:37Z"
     },
     {
       "application_id": "app-20260703-linkedin-principal-staff-software-engineer-li-6d6330e1",

@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T16:49:03Z",
+  "updated_at": "2026-07-07T17:17:37Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -11270,7 +11270,7 @@
         "Coupang is target-capable in recruiting config for senior platform/AI roles.",
         "Senior Staff/Staff Gateway Services role in traffic infrastructure and service mesh."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 97,
@@ -11304,7 +11304,7 @@
       "application_id": "app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561",
       "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561/resume.md",
       "discovered_at": "2026-07-03T21:06:12Z",
-      "updated_at": "2026-07-04T07:46:15Z",
+      "updated_at": "2026-07-07T17:17:37Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
