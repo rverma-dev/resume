@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T09:37:14Z",
+  "updated_at": "2026-07-07T09:49:45Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -128,6 +128,74 @@
         "Chrome inspection on 2026-07-07 opened Google Careers profile creation form under the user's Google account but stopped before profile submission because prior Alphabet employment/contractor/acquisition answer is required and unavailable from existing profile/resume data."
       ],
       "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "job-infoblox-principal-architect-cded13e2",
+      "dedupe_key": "url:https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7489",
+      "source": "infoblox_oracle",
+      "source_job_id": "7489",
+      "source_url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7489",
+      "company": "Infoblox",
+      "role": "Principal Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal Architect / Principal Software Architect",
+      "compensation_signals": [
+        "Principal Software Architect role at a cloud-first networking/security company serving Fortune 500 customers.",
+        "Hands-on systems, dataplane, performance, reliability, and developer-experience scope can be high-value senior IC platform work."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-7489",
+      "fit_score": 92,
+      "fit_reason": "Strong systems/platform architect fit: distributed systems design, service boundaries, Linux networking, persistence, performance optimization, observability, CI/CD, safe OS/appliance upgrades, and mentoring map to Salesforce platform reliability, Brane infrastructure, observability, and enterprise platform operations.",
+      "fit_signals": [
+        "LinkedIn and Oracle Recruiting posting identify the role as Principal Architect / Principal Software Architect on the NIOS Platform team in Bangalore.",
+        "Scope includes C/Python/Go application and dataplane services, service architecture, persistence, low-latency performance, networking, DX, CI/CD, upgrades, OpenTelemetry, SNMP, and mentoring.",
+        "Requires around 20 years systems/application engineering, fitting the senior/principal target level.",
+        "Oracle Recruiting portal rendered and reached the first application step, confirming the role is externally actionable but not submitted."
+      ],
+      "risk_flags": [
+        "Oracle application flow requires entering contact identity and agreeing to terms and conditions before proceeding to unknown later application questions.",
+        "Later application questions, work authorization, sponsorship, EEO/self-identification, and final-submit controls remain unseen and must not be fabricated.",
+        "Role has deep C/Linux/networking/persistence requirements; position adjacent platform, observability, reliability, and systems architecture evidence without overstating low-level DDI/NIOS domain depth."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Infoblox",
+          "profile_url": "",
+          "notes": "LinkedIn detail showed school alumni from Indian Institute of Technology, Kharagpur."
+        }
+      ],
+      "connections_summary": "LinkedIn detail showed IIT Kharagpur alumni signal for Infoblox; no named reachable contact was captured.",
+      "resume_theme": {
+        "name": "Systems reliability and networking platform architect",
+        "positioning": "Principal systems/platform architect for reliable, observable, performance-sensitive services, safe platform upgrades, developer experience, and enterprise networking/security infrastructure.",
+        "key_pointers": [
+          "Lead with Hyperforce observability and topology systems, emphasizing performance, reliability, multi-tenant production operations, and OpenTelemetry-adjacent evidence.",
+          "Use Brane enterprise infrastructure, security/compliance readiness, CI/CD, and 2-engineer platform buildout to support DX and platform ownership.",
+          "Frame AI-driven observability as adjacent nice-to-have support, not the core pitch.",
+          "Avoid unsupported claims about C/NIOS/DDI internals; show architecture, systems design, performance, persistence-adjacent data systems, and operational leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise"
+        ]
+      },
+      "application_id": "app-20260707-infoblox-principal-architect-cded13e2",
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-infoblox-principal-architect-cded13e2/resume.md",
+      "discovered_at": "2026-07-07T09:49:45Z",
+      "updated_at": "2026-07-07T09:49:45Z",
+      "notes": [
+        "LinkedIn discovery id 4429230588; external Oracle Recruiting job id 7489.",
+        "LinkedIn Apply resolved to https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7489 on 2026-07-07.",
+        "Chrome inspection reached /job/7489/apply/email and stopped at required email/phone plus terms-and-conditions agreement before NEXT; no contact data was entered and no legal agreement accepted."
+      ]
     },
     {
       "job_id": "linkedin-4437135071",
@@ -2379,6 +2447,74 @@
         "Amazon.jobs login page observed before application questions."
       ],
       "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "job-autodesk-principal-engineer-data-platform-bac-ea399b81",
+      "dedupe_key": "url:https://autodesk.wd1.myworkdayjobs.com/Ext/job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1",
+      "source": "autodesk_workday",
+      "source_job_id": "26WD96752",
+      "source_url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1",
+      "company": "Autodesk",
+      "role": "Principal Engineer - Data Platform & Backend",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal IC / Architect",
+      "compensation_signals": [
+        "Principal Engineer title at a large US software company; official posting says compensation can include base salary, annual cash bonuses, commissions where applicable, stock grants, and benefits.",
+        "Data platform, decision intelligence, and AI/ML readiness scope across global digital experience and commerce platforms suggests senior platform impact."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-26WD96752",
+      "fit_score": 94,
+      "fit_reason": "Strong Principal IC fit around enterprise data platforms, batch/streaming pipelines, data governance, lakehouse patterns, backend services, operational excellence, cost, reliability, and AI/ML readiness; maps to Hyperforce observability, Druid/Kafka topology systems, FinOps, Brane platform infrastructure, and governed AI/platform work.",
+      "fit_signals": [
+        "Official Autodesk Workday requisition 26WD96752 is live and canApply=true via Workday CXS API.",
+        "Role leads scalable enterprise data platforms, pipelines, data products, event-driven systems, APIs, observability, governance, and AI/ML readiness.",
+        "Requires 10+ years hands-on engineering plus 3+ years in Principal/Staff/Architect/Tech Lead capacity.",
+        "Strong tool/domain overlap: AWS/Azure, Snowflake, Databricks, Delta Lake/Iceberg, Spark, Kafka/Kinesis, Airflow/dbt, governance, lineage, CI/CD, and production operations."
+      ],
+      "risk_flags": [
+        "Autodesk Workday UI rendered as a blank shell in Chrome during apply-flow inspection, even though the official CXS endpoint returned the live posting and canApply=true.",
+        "Actual application questions, work authorization, sponsorship, legal, EEO/self-identification, and final-submit controls were not visible.",
+        "Role is data-platform heavy rather than core AI infrastructure; position AI/ML readiness and platform operations without overstating direct ML platform ownership."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn network",
+          "relationship": "network signal",
+          "role": "Autodesk",
+          "profile_url": "",
+          "notes": "LinkedIn detail/search showed 1 connection works at Autodesk."
+        }
+      ],
+      "connections_summary": "LinkedIn search/detail showed 1 connection works at Autodesk; no named contact was captured in this pass.",
+      "resume_theme": {
+        "name": "Enterprise data platform principal IC",
+        "positioning": "Principal platform engineer for data-intensive backend systems, streaming/observability platforms, governance, reliability, cost optimization, and AI/ML-ready decision platforms.",
+        "key_pointers": [
+          "Lead with Anypoint Visualizer Druid/Kafka topology pipelines, Hyperforce observability scale, and $6M annualized cost reduction.",
+          "Map Brane platform, CI/CD, observability, compliance readiness, and 2-engineer infrastructure stack to platform modernization and production operations.",
+          "Use MuleSoft AI platform and governed evidence-plane work as AI/ML readiness and decision-intelligence positioning.",
+          "Emphasize pragmatic architecture, data quality, reliability, and FinOps without claiming direct ownership of every listed data tool."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation"
+        ]
+      },
+      "application_id": "app-20260707-autodesk-principal-engineer-data-platform-bac-ea399b81",
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-autodesk-principal-engineer-data-platform-bac-ea399b81/resume.md",
+      "discovered_at": "2026-07-07T09:49:45Z",
+      "updated_at": "2026-07-07T09:49:45Z",
+      "notes": [
+        "LinkedIn discovery id 4425818266; official Autodesk Workday requisition 26WD96752.",
+        "Official Workday CXS endpoint returned externalPath /job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1 and canApply=true on 2026-07-07.",
+        "Chrome inspection on 2026-07-07 opened the official Workday apply path but it rendered a blank shell, preventing inspection of required questions or final submit controls."
+      ]
     },
     {
       "job_id": "linkedin-4418010079",
