@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T10:34:37Z",
+  "updated_at": "2026-07-07T11:41:46Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -2671,7 +2671,7 @@
         "Principal IC role at an agentic automation platform company; likely worth pursuing for seniority and AI-platform leverage even though India pay band was not validated in public data.",
         "Enterprise governance, automation, and AI developer-tooling scope can support current/next-level positioning if compensation clears target."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-uipath-alphasense-ic",
       "fit_score": 98,
@@ -2731,7 +2731,7 @@
       "application_id": "app-20260704-uipath-principal-software-engineer-bcdc1cd7",
       "resume_snapshot_path": "applications/resumes/app-20260704-uipath-principal-software-engineer-bcdc1cd7/resume.md",
       "discovered_at": "2026-07-04T22:31:27Z",
-      "updated_at": "2026-07-04T22:31:34Z",
+      "updated_at": "2026-07-07T11:41:46Z",
       "notes": [
         "LinkedIn MCP verification: job 4384044962 reposted 1 day ago, responses managed off LinkedIn, over 100 people clicked apply.",
         "Official application URL uses Ashby posting d7d6857f-47b7-45d9-869e-72696fd6e0b5."

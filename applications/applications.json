@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T10:34:37Z",
+  "updated_at": "2026-07-07T11:41:46Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -2290,11 +2290,11 @@
       "company": "UiPath",
       "role": "Principal Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-uipath-alphasense-ic",
       "approved_at": "2026-07-04T22:31:34Z",
-      "updated_at": "2026-07-04T22:31:34Z",
+      "updated_at": "2026-07-07T11:41:46Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -2345,8 +2345,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-uipath-principal-software-engineer-bcdc1cd7/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected official UiPath Ashby posting for Principal Software Engineer; form is live but no external submission was performed.",
+        "Official Ashby application requires resume upload plus required full name, email, phone number, city, work eligibility, prior UiPath employment, interview recording consent, reCAPTCHA, and final Submit. No data entered, no resume uploaded, and no submission performed."
+      ],
+      "status_reason": "Inspected official UiPath Ashby posting for Principal Software Engineer; form is live but no external submission was performed.",
+      "last_status_update_id": "manual-uipath-d7d6857f-20260707-1139z",
+      "manual_action_required": true,
+      "manual_action_reason": "Official Ashby application requires resume upload plus required full name, email, phone number, city, work eligibility, prior UiPath employment, interview recording consent, reCAPTCHA, and final Submit. No data entered, no resume uploaded, and no submission performed.",
+      "manual_action_at": "2026-07-07T11:41:46Z"
     },
     {
       "application_id": "app-20260704-singlestore-sr-principal-software-engineer-884e7fac",
