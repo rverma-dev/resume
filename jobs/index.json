@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T15:16:56Z",
+  "updated_at": "2026-07-07T15:45:34Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -8987,7 +8987,7 @@
         "Senior Staff AI platform role at ServiceNow, a large public enterprise platform company with strong India engineering presence.",
         "Scope includes Fortune 500-scale Now Assist, AI Agents, Action Fabric/MCP, AI Control Tower, and governed enterprise agent systems, which is aligned with next-level Staff+ AI infrastructure compensation lanes."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1534-ic-agentic-data-platform",
       "fit_score": 98,
@@ -9046,7 +9046,7 @@
       "application_id": "app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77",
       "resume_snapshot_path": "applications/resumes/app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77/resume.md",
       "discovered_at": "2026-07-04T15:43:14Z",
-      "updated_at": "2026-07-04T15:43:22Z",
+      "updated_at": "2026-07-07T15:45:34Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-04 heartbeat.",
         "Responses managed off LinkedIn; no external application submission attempted in this import."

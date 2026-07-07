@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T15:16:56Z",
+  "updated_at": "2026-07-07T15:45:34Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -2942,11 +2942,11 @@
       "company": "ServiceNow",
       "role": "Senior Staff AI-Native Software Engineer - Agentic Systems",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1534-ic-agentic-data-platform",
       "approved_at": "2026-07-04T15:43:22Z",
-      "updated_at": "2026-07-04T15:43:22Z",
+      "updated_at": "2026-07-07T15:45:34Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -2997,8 +2997,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn MCP confirmed the ServiceNow Senior Staff AI-Native Software Engineer - Agentic Systems posting, and the official ServiceNow Careers page was resolved at https://careers.servicenow.com/jobs/744000127578599/senior-staff-ai-native-software-engineer-agentic-systems/ with job ID JB0073238 and SmartRecruiters apply URL. No external application submission was performed.",
+        "Official ServiceNow apply path redirects to SmartRecruiters job 744000127578599, but the SmartRecruiters application route returns a JavaScript/CAPTCHA-delivery challenge before application fields are reachable. CAPTCHA/application challenge plus final external submission cannot be completed by this automation, so no data was entered, no resume was uploaded, and no application was submitted."
+      ],
+      "status_reason": "LinkedIn MCP confirmed the ServiceNow Senior Staff AI-Native Software Engineer - Agentic Systems posting, and the official ServiceNow Careers page was resolved at https://careers.servicenow.com/jobs/744000127578599/senior-staff-ai-native-software-engineer-agentic-systems/ with job ID JB0073238 and SmartRecruiters apply URL. No external application submission was performed.",
+      "last_status_update_id": "status-20260707-servicenow-agentic-systems-captcha",
+      "manual_action_required": true,
+      "manual_action_reason": "Official ServiceNow apply path redirects to SmartRecruiters job 744000127578599, but the SmartRecruiters application route returns a JavaScript/CAPTCHA-delivery challenge before application fields are reachable. CAPTCHA/application challenge plus final external submission cannot be completed by this automation, so no data was entered, no resume was uploaded, and no application was submitted.",
+      "manual_action_at": "2026-07-07T15:45:34Z"
     },
     {
       "application_id": "app-20260704-rubrik-principal-engineer-3af89aa6",
