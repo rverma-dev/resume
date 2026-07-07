@@ -1,11 +1,73 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T08:06:25Z",
-  "active_batch_id": "batch-3196031",
-  "last_scheduler_run_at": "2026-07-07T08:05:40Z",
+  "updated_at": "2026-07-07T08:37:14Z",
+  "active_batch_id": "batch-85590836326081222",
+  "last_scheduler_run_at": "2026-07-07T08:36:36Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
+    {
+      "job_id": "job-google-staff-software-engineer-ai-ml-genai-afc1b43d",
+      "dedupe_key": "url:https://www.google.com/about/careers/applications/jobs/results/85590836326081222-staff-software-engineer-ai-ml-genai-google-cloud",
+      "source": "google_careers",
+      "source_job_id": "85590836326081222",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/85590836326081222-staff-software-engineer-ai-ml-genai-google-cloud",
+      "company": "Google",
+      "role": "Staff Software Engineer, AI/ML GenAI, Google Cloud",
+      "location": "Sunnyvale, CA, USA",
+      "work_type": "On-site",
+      "experience_level": "Staff / Advanced IC",
+      "compensation_signals": [
+        "Official Google posting lists US base salary range $207,000-$301,000 USD plus 20% bonus target, equity, and benefits.",
+        "Advanced Google Cloud GenAI staff role requiring ML infrastructure, GenAI/LLM/multimodal experience, architecture, launch ownership, and technical leadership."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-85590836326081222",
+      "fit_score": 97,
+      "fit_reason": "Excellent high-comp Staff IC fit at Google Cloud GenAI: the role combines software architecture, ML infrastructure optimization, GenAI/LLM/multimodal systems, large-scale production engineering, and distributed technical leadership. It maps strongly to Rohit's internal AI devtools, agent federation/MCP platform direction, agentic observability, Hyperforce platform modernization, and cross-team PMTS architecture work.",
+      "fit_signals": [
+        "Target-capable Google Staff/Advanced IC role in Google Cloud GenAI with official high compensation band.",
+        "Direct match to AI platform and ML infrastructure work: GenAI solution design, model deployment/evaluation, data processing, debugging, fine tuning, and large-scale production software.",
+        "Strong architecture and cross-team leadership match: role requires software design/architecture, technical leadership on high-impact projects, team alignment, and coaching distributed engineers.",
+        "Distinct from already tracked Google Senior Staff Applied AI Infrastructure role because this posting is Staff AI/ML GenAI Google Cloud and official job id 85590836326081222."
+      ],
+      "risk_flags": [
+        "Google Careers application form is reachable in Chrome but requires profile creation before application can proceed; no external submission completed.",
+        "Required profile step asks for legal name, phone, resume upload, prior Alphabet employment/contractor/acquisition answer, personalization consent, privacy consent, and accuracy certification before Submit profile & continue.",
+        "Prior Alphabet employment/contractor/acquisition answer is not inferable from available resume/profile data and must not be fabricated.",
+        "Later Role Information, Voluntary self-identification, and Review & apply steps remain unseen; legal, identity, EEO, work authorization, sponsorship, compensation, or final-submit answers must not be fabricated.",
+        "Role is Sunnyvale/on-site; relocation, work authorization, and location expectations may need user confirmation."
+      ],
+      "people": [],
+      "connections_summary": "No recruiter or hiring-manager connection signal captured in this official-page pass.",
+      "resume_theme": {
+        "name": "Google Cloud GenAI Staff IC",
+        "positioning": "Staff platform engineer for Google Cloud GenAI infrastructure: production AI platforms, governed agentic systems, ML infrastructure optimization, model evaluation/deployment loops, distributed systems, observability, and cross-team technical leadership.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and developer-productivity systems for GenAI solution design and AI workflow infrastructure.",
+          "Map agentic observability, Hyperforce monitoring modernization, evaluation/coherence validation, and customer/operational signal integration to ML infrastructure optimization and production GenAI evaluation.",
+          "Emphasize Staff/PMTS cross-team architecture, distributed systems, reliability, platform APIs, and large-scale product launch ownership.",
+          "Tie Brane and MuleSoft platform work to enterprise-scale infrastructure, security/compliance readiness, and reliable production systems beyond prototypes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting"
+        ]
+      },
+      "application_id": "app-20260707-google-staff-software-engineer-ai-ml-genai-afc1b43d",
+      "resume_snapshot_path": "applications/resumes/app-20260707-google-staff-software-engineer-ai-ml-genai-afc1b43d/resume.md",
+      "discovered_at": "2026-07-07T08:36:36Z",
+      "updated_at": "2026-07-07T08:37:14Z",
+      "notes": [
+        "Official Google Careers job ID 85590836326081222.",
+        "Apply URL observed: https://www.google.com/about/careers/applications/apply?jobId=CiUAL2FckX6sUan6kXG2XcLGeZAL5S3_leH7WoZ2HGWAuXe0WtB0EjsA1Ny_iw10fqSY8g2D6q-36zY4RmW6Kf-DK1kDmRSbIx7gHlFxo_ZeFDewLHyNrjEmruvDo1Y_Mo-AGw%3D%3D_V2&loc=US&title=Staff+Software+Engineer",
+        "Chrome inspection on 2026-07-07 opened Google Careers profile creation form under the user's Google account but stopped before profile submission because prior Alphabet employment/contractor/acquisition answer is required and unavailable from existing profile/resume data."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
     {
       "job_id": "linkedin-4437135071",
       "dedupe_key": "linkedin:4437135071",

@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T08:06:25Z",
+  "updated_at": "2026-07-07T08:37:14Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-google-staff-software-engineer-ai-ml-genai-afc1b43d",
+      "job_id": "job-google-staff-software-engineer-ai-ml-genai-afc1b43d",
+      "dedupe_key": "url:https://www.google.com/about/careers/applications/jobs/results/85590836326081222-staff-software-engineer-ai-ml-genai-google-cloud",
+      "source": "google_careers",
+      "source_job_id": "85590836326081222",
+      "source_url": "https://www.google.com/about/careers/applications/jobs/results/85590836326081222-staff-software-engineer-ai-ml-genai-google-cloud",
+      "company": "Google",
+      "role": "Staff Software Engineer, AI/ML GenAI, Google Cloud",
+      "location": "Sunnyvale, CA, USA",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-85590836326081222",
+      "approved_at": "2026-07-07T08:36:53Z",
+      "updated_at": "2026-07-07T08:37:14Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 97,
+      "fit_reason": "Excellent high-comp Staff IC fit at Google Cloud GenAI: the role combines software architecture, ML infrastructure optimization, GenAI/LLM/multimodal systems, large-scale production engineering, and distributed technical leadership. It maps strongly to Rohit's internal AI devtools, agent federation/MCP platform direction, agentic observability, Hyperforce platform modernization, and cross-team PMTS architecture work.",
+      "people": [],
+      "connections_summary": "No recruiter or hiring-manager connection signal captured in this official-page pass.",
+      "resume_theme": {
+        "name": "Google Cloud GenAI Staff IC",
+        "positioning": "Staff platform engineer for Google Cloud GenAI infrastructure: production AI platforms, governed agentic systems, ML infrastructure optimization, model evaluation/deployment loops, distributed systems, observability, and cross-team technical leadership.",
+        "key_pointers": [
+          "Lead with internal AI IDE, agent federation/MCP, AM agent platform, and developer-productivity systems for GenAI solution design and AI workflow infrastructure.",
+          "Map agentic observability, Hyperforce monitoring modernization, evaluation/coherence validation, and customer/operational signal integration to ML infrastructure optimization and production GenAI evaluation.",
+          "Emphasize Staff/PMTS cross-team architecture, distributed systems, reliability, platform APIs, and large-scale product launch ownership.",
+          "Tie Brane and MuleSoft platform work to enterprise-scale infrastructure, security/compliance readiness, and reliable production systems beyond prototypes."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation",
+          "resume/base_resume.md#Internal IDE, Unleash",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-google-staff-software-engineer-ai-ml-genai-afc1b43d/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-google-staff-software-engineer-ai-ml-genai-afc1b43d/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Google Careers application form opened in Chrome but no application submission was performed.",
+        "Google Careers profile creation requires a prior Alphabet company employment/contractor/acquisition answer before Submit profile & continue. That answer is not available from the resume/profile data, and later Role Information, voluntary self-identification, and Review & apply steps remain unseen."
+      ],
+      "status_reason": "Google Careers application form opened in Chrome but no application submission was performed.",
+      "last_status_update_id": "manual-85590836326081222",
+      "manual_action_required": true,
+      "manual_action_reason": "Google Careers profile creation requires a prior Alphabet company employment/contractor/acquisition answer before Submit profile & continue. That answer is not available from the resume/profile data, and later Role Information, voluntary self-identification, and Review & apply steps remain unseen.",
+      "manual_action_at": "2026-07-07T08:37:14Z"
+    },
     {
       "application_id": "app-20260707-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae",
       "job_id": "job-amazon-web-services-aws-principal-senior-principal-and-disti-cc4942ae",
