@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T10:11:29Z",
+  "updated_at": "2026-07-07T10:34:37Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -12449,11 +12449,11 @@
       "company": "Databricks",
       "role": "Staff Software Engineer - Multi Cloud Efficiency",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-07T10:34:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -12486,12 +12486,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Official Databricks Greenhouse application form for Staff Software Engineer - Multi Cloud Efficiency was inspected on 2026-07-07 at gh_jid=8593107002; no application submission was performed.",
+        "Databricks Greenhouse requires contact fields, city/location, resume upload or manual resume entry, LinkedIn profile, current firm, legal authorization to work in India, future visa sponsorship need, prior Databricks employment answer, less-than-2-years industry-experience answer, sanctions/export-control attestations, reCAPTCHA, and final Submit application approval. Required legal/identity/export-control answers and final external submission cannot be completed truthfully by this automation without user confirmation, so no data was entered and no application was submitted."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "Official Databricks Greenhouse application form for Staff Software Engineer - Multi Cloud Efficiency was inspected on 2026-07-07 at gh_jid=8593107002; no application submission was performed.",
+      "last_status_update_id": "manual-4428930824-8593107002-20260707",
+      "manual_action_required": true,
+      "manual_action_reason": "Databricks Greenhouse requires contact fields, city/location, resume upload or manual resume entry, LinkedIn profile, current firm, legal authorization to work in India, future visa sponsorship need, prior Databricks employment answer, less-than-2-years industry-experience answer, sanctions/export-control attestations, reCAPTCHA, and final Submit application approval. Required legal/identity/export-control answers and final external submission cannot be completed truthfully by this automation without user confirmation, so no data was entered and no application was submitted.",
+      "manual_action_at": "2026-07-07T10:34:37Z"
     },
     {
       "application_id": "app-20260702-nvidia-ai-senior-cloud-software-engineer-8ecdea4b",

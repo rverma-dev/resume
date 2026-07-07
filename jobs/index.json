@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T10:11:29Z",
+  "updated_at": "2026-07-07T10:34:37Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -16292,7 +16292,7 @@
         "priority high-paying company",
         "staff-level Databricks role; no exact compensation visible"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 90,
@@ -16336,7 +16336,7 @@
       "application_id": "app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2",
       "resume_snapshot_path": "applications/resumes/app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-07T10:34:37Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
