@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T12:45:02Z",
+  "updated_at": "2026-07-07T13:16:17Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -9406,11 +9406,11 @@
       "company": "Databricks",
       "role": "Senior Staff Software Engineer- Networking",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-databricks-ic-heartbeat",
       "approved_at": "2026-07-03T19:08:26Z",
-      "updated_at": "2026-07-03T19:08:26Z",
+      "updated_at": "2026-07-07T13:16:17Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 98,
@@ -9459,9 +9459,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Official Databricks careers page and Greenhouse application form for Senior Staff Software Engineer- Networking were inspected on 2026-07-07 at gh_jid=8433583002; no application submission was performed.",
+        "Databricks Greenhouse requires contact fields, preferred name, city/location, LinkedIn profile, current firm, legal authorization to work in India, future employment visa sponsorship need, prior Databricks employment answer, sanctions/export-control attestations, reCAPTCHA, and final Submit application approval. Required legal/identity/export-control answers and final external submission cannot be completed truthfully by this automation, so no data was entered, no resume was uploaded, and no application was submitted."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Official Databricks careers page and Greenhouse application form for Senior Staff Software Engineer- Networking were inspected on 2026-07-07 at gh_jid=8433583002; no application submission was performed.",
+      "last_status_update_id": "manual-databricks-networking-8433583002-20260707",
+      "manual_action_required": true,
+      "manual_action_reason": "Databricks Greenhouse requires contact fields, preferred name, city/location, LinkedIn profile, current firm, legal authorization to work in India, future employment visa sponsorship need, prior Databricks employment answer, sanctions/export-control attestations, reCAPTCHA, and final Submit application approval. Required legal/identity/export-control answers and final external submission cannot be completed truthfully by this automation, so no data was entered, no resume was uploaded, and no application was submitted.",
+      "manual_action_at": "2026-07-07T13:16:17Z"
     },
     {
       "application_id": "app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae",

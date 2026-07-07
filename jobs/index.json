@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T12:45:02Z",
+  "updated_at": "2026-07-07T13:16:17Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -7961,7 +7961,7 @@
         "Senior Staff Databricks infrastructure role in India; no exact compensation visible",
         "user-provided target-company signal: Databricks can meet high-comp target at the right band"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-databricks-ic-heartbeat",
       "fit_score": 98,
@@ -8021,7 +8021,7 @@
       "application_id": "app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d",
       "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-netwo-a4023f0d/resume.md",
       "discovered_at": "2026-07-03T19:08:16Z",
-      "updated_at": "2026-07-03T19:08:26Z",
+      "updated_at": "2026-07-07T13:16:17Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
