@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T12:12:15Z",
+  "updated_at": "2026-07-07T12:45:02Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -2508,11 +2508,11 @@
       "company": "Stripe",
       "role": "Staff Engineer, Seller Systems",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-stripe-ic",
       "approved_at": "2026-07-04T21:05:26Z",
-      "updated_at": "2026-07-04T21:05:26Z",
+      "updated_at": "2026-07-07T12:45:02Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -2570,8 +2570,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-stripe-staff-engineer-seller-systems-c25d9e89/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected official Stripe listing and Greenhouse application form for Staff Engineer, Seller Systems; no external application submission was performed.",
+        "Official Stripe/Greenhouse application for job 7217778 requires contact fields, candidate location, current residence country, anticipated work country, work authorization, future work-permit sponsorship answer, remote-vs-office preference, prior Stripe employment answer, current/previous employer, job title, school, degree, WhatsApp recruiting opt-in, Greenhouse reCAPTCHA, and final Submit. Required legal/work-authorization/sponsorship and preference answers plus final external submission cannot be completed truthfully by this automation, so no data was entered, no resume was uploaded, and no submission was performed."
+      ],
+      "status_reason": "Inspected official Stripe listing and Greenhouse application form for Staff Engineer, Seller Systems; no external application submission was performed.",
+      "last_status_update_id": "manual-stripe-seller-systems-20260707-1243z",
+      "manual_action_required": true,
+      "manual_action_reason": "Official Stripe/Greenhouse application for job 7217778 requires contact fields, candidate location, current residence country, anticipated work country, work authorization, future work-permit sponsorship answer, remote-vs-office preference, prior Stripe employment answer, current/previous employer, job title, school, degree, WhatsApp recruiting opt-in, Greenhouse reCAPTCHA, and final Submit. Required legal/work-authorization/sponsorship and preference answers plus final external submission cannot be completed truthfully by this automation, so no data was entered, no resume was uploaded, and no submission was performed.",
+      "manual_action_at": "2026-07-07T12:45:02Z"
     },
     {
       "application_id": "app-20260704-microsoft-ai-senior-principal-architect-ads-trust-789c0e94",

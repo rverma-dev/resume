@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T12:12:15Z",
+  "updated_at": "2026-07-07T12:45:02Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -2898,7 +2898,7 @@
         "Stripe is a high-compensation target company; official posting does not disclose India pay range.",
         "Staff-level role with multi-year technical strategy ownership and global enterprise revenue systems scope."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-stripe-ic",
       "fit_score": 97,
@@ -2967,7 +2967,7 @@
       "application_id": "app-20260704-stripe-staff-engineer-seller-systems-c25d9e89",
       "resume_snapshot_path": "applications/resumes/app-20260704-stripe-staff-engineer-seller-systems-c25d9e89/resume.md",
       "discovered_at": "2026-07-04T21:05:19Z",
-      "updated_at": "2026-07-04T21:05:26Z",
+      "updated_at": "2026-07-07T12:45:02Z",
       "notes": [
         "Verified against the official Stripe listing during the 2026-07-04 20:56 UTC heartbeat.",
         "Imported as approved-for-tailoring only; no external application was submitted."
