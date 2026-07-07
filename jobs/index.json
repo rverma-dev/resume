@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T13:16:17Z",
+  "updated_at": "2026-07-07T13:47:37Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -4299,7 +4299,7 @@
         "Palo Alto Networks is a high-compensation cybersecurity/platform company; exact India pay range was not disclosed in the indexed posting.",
         "Senior Staff IC role in Product Engineering and cloud security product scope is credible current/next-level fit."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-panw-ic",
       "fit_score": 95,
@@ -4366,7 +4366,7 @@
       "application_id": "app-20260704-palo-alto-networks-senior-staff-software-engineer-80487e4f",
       "resume_snapshot_path": "applications/resumes/app-20260704-palo-alto-networks-senior-staff-software-engineer-80487e4f/resume.md",
       "discovered_at": "2026-07-04T21:07:22Z",
-      "updated_at": "2026-07-04T21:07:32Z",
+      "updated_at": "2026-07-07T13:47:37Z",
       "notes": [
         "Verified via official Palo Alto Networks indexed listing during the 2026-07-04 20:56 UTC heartbeat; full detail page requires browser/manual confirmation.",
         "Imported as approved-for-tailoring only; no external application was submitted."

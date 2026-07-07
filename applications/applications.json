@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T13:16:17Z",
+  "updated_at": "2026-07-07T13:47:37Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -2433,11 +2433,11 @@
       "company": "Palo Alto Networks",
       "role": "Senior Staff Software Engineer",
       "location": "Hyderabad, Telangana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-panw-ic",
       "approved_at": "2026-07-04T21:07:32Z",
-      "updated_at": "2026-07-04T21:07:32Z",
+      "updated_at": "2026-07-07T13:47:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -2495,8 +2495,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-palo-alto-networks-senior-staff-software-engineer-80487e4f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Official Palo Alto Networks detail URL was rechecked on 2026-07-07 and redirects to the careers homepage/search shell instead of the Senior Staff Software Engineer posting or an application form; no external application was submitted.",
+        "Unavailable application URL: stored official posting https://jobs.paloaltonetworks.com/en/job/hyderabad/senior-staff-software-engineer/47263/96647884400 currently lands on https://jobs.paloaltonetworks.com/en, and site search did not expose job ID 96647884400 or an Apply flow. Manual portal verification/new URL is required."
+      ],
+      "status_reason": "Official Palo Alto Networks detail URL was rechecked on 2026-07-07 and redirects to the careers homepage/search shell instead of the Senior Staff Software Engineer posting or an application form; no external application was submitted.",
+      "last_status_update_id": "status-20260707-panw-96647884400-unavailable-url",
+      "manual_action_required": true,
+      "manual_action_reason": "Unavailable application URL: stored official posting https://jobs.paloaltonetworks.com/en/job/hyderabad/senior-staff-software-engineer/47263/96647884400 currently lands on https://jobs.paloaltonetworks.com/en, and site search did not expose job ID 96647884400 or an Apply flow. Manual portal verification/new URL is required.",
+      "manual_action_at": "2026-07-07T13:47:37Z"
     },
     {
       "application_id": "app-20260704-stripe-staff-engineer-seller-systems-c25d9e89",
