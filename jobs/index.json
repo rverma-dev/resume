@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T13:47:37Z",
+  "updated_at": "2026-07-07T14:16:24Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -8667,7 +8667,7 @@
         "Senior Principal Architect role at Microsoft AI in Bengaluru; title and Microsoft AI platform scope align with high-comp Staff+/Principal Architect tracks.",
         "Platform spans billions of ads decisions, Trust & Safety, fraud/risk/security, agentic investigation workflows, decisioning, auditability, model orchestration, and cross-Microsoft architecture influence."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-2026-ic-microsoft-ai-trust",
       "fit_score": 99,
@@ -8726,7 +8726,7 @@
       "application_id": "app-20260704-microsoft-ai-senior-principal-architect-ads-trust-789c0e94",
       "resume_snapshot_path": "applications/resumes/app-20260704-microsoft-ai-senior-principal-architect-ads-trust-789c0e94/resume.md",
       "discovered_at": "2026-07-04T20:28:55Z",
-      "updated_at": "2026-07-04T20:29:03Z",
+      "updated_at": "2026-07-07T14:16:24Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-04 heartbeat.",
         "Responses managed off LinkedIn; no external application submission attempted in this import."

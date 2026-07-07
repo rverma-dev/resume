@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T13:47:37Z",
+  "updated_at": "2026-07-07T14:16:24Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -2597,11 +2597,11 @@
       "company": "Microsoft AI",
       "role": "Senior Principal Architect - Ads Trust & Safety AI Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-2026-ic-microsoft-ai-trust",
       "approved_at": "2026-07-04T20:29:03Z",
-      "updated_at": "2026-07-04T20:29:03Z",
+      "updated_at": "2026-07-07T14:16:24Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 99,
@@ -2652,8 +2652,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-microsoft-ai-senior-principal-architect-ads-trust-789c0e94/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn MCP confirmed the Microsoft AI Senior Principal Architect - Ads Trust & Safety AI Platform posting, and the official Microsoft Careers job page was resolved at https://apply.careers.microsoft.com/careers/job/1970393556874084?hl=en. No external application submission was performed.",
+        "Microsoft Careers SmartApply flow exposes required application questions including legal work authorization for the country/region being applied for, plus candidate profile/application completion and final external submission. Required legal/work-authorization answers and final submission cannot be completed truthfully by this automation, so no resume was uploaded, no answers were entered, and no application was submitted."
+      ],
+      "status_reason": "LinkedIn MCP confirmed the Microsoft AI Senior Principal Architect - Ads Trust & Safety AI Platform posting, and the official Microsoft Careers job page was resolved at https://apply.careers.microsoft.com/careers/job/1970393556874084?hl=en. No external application submission was performed.",
+      "last_status_update_id": "status-20260707-microsoft-ai-ads-trust-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Microsoft Careers SmartApply flow exposes required application questions including legal work authorization for the country/region being applied for, plus candidate profile/application completion and final external submission. Required legal/work-authorization answers and final submission cannot be completed truthfully by this automation, so no resume was uploaded, no answers were entered, and no application was submitted.",
+      "manual_action_at": "2026-07-07T14:16:24Z"
     },
     {
       "application_id": "app-20260704-mastercard-sr-principal-software-engineer-6b81cca6",
