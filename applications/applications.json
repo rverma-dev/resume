@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T08:37:14Z",
+  "updated_at": "2026-07-07T09:05:34Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -8519,11 +8519,11 @@
       "company": "Databricks",
       "role": "Staff Software Engineer - Data Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-principal-heartbeat-2004",
       "approved_at": "2026-07-03T20:08:06Z",
-      "updated_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-07T09:05:34Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -8565,9 +8565,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Official Databricks P-1348 application form was inspected on 2026-07-07 via the current repost / LinkedIn id 4297756017; no duplicate job was added and no application submission was performed.",
+        "Databricks Greenhouse form requires legal/work authorization answers for India, future visa sponsorship answer, prior Databricks employment answer, and export-control/sanctions attestations before submission. These required legal/identity answers are not available from the resume/profile data and must not be fabricated."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Official Databricks P-1348 application form was inspected on 2026-07-07 via the current repost / LinkedIn id 4297756017; no duplicate job was added and no application submission was performed.",
+      "last_status_update_id": "manual-4311490294-p1348-20260707",
+      "manual_action_required": true,
+      "manual_action_reason": "Databricks Greenhouse form requires legal/work authorization answers for India, future visa sponsorship answer, prior Databricks employment answer, and export-control/sanctions attestations before submission. These required legal/identity answers are not available from the resume/profile data and must not be fabricated.",
+      "manual_action_at": "2026-07-07T09:05:34Z"
     },
     {
       "application_id": "app-20260703-linkedin-sr-staff-software-engineer-systems-i-1e399205",

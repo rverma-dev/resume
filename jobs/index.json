@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T08:37:14Z",
+  "updated_at": "2026-07-07T09:05:34Z",
   "active_batch_id": "batch-85590836326081222",
   "last_scheduler_run_at": "2026-07-07T08:36:36Z",
   "batch_size": 10,
@@ -2943,7 +2943,7 @@
         "Staff Data Platform role with multi-cloud data intelligence scope; no salary range visible.",
         "LinkedIn search result showed 694 company alumni and 57 school alumni on nearby Databricks postings."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-principal-heartbeat-2004",
       "fit_score": 93,
@@ -2997,7 +2997,7 @@
       "application_id": "app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e",
       "resume_snapshot_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e/resume.md",
       "discovered_at": "2026-07-03T20:07:52Z",
-      "updated_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-07T09:05:34Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported despite Staff level because Databricks data-platform scope is distinct and target-company aligned."
       ],
