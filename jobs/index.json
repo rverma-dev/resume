@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T05:55:05Z",
-  "active_batch_id": "batch-4385799099",
-  "last_scheduler_run_at": "2026-07-07T05:54:43Z",
+  "updated_at": "2026-07-07T06:22:05Z",
+  "active_batch_id": "batch-4396388005",
+  "last_scheduler_run_at": "2026-07-07T06:21:39Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -1500,6 +1500,69 @@
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from archived insightsoftware Senior Platform Engineer linkedin:4427042094."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4396388005",
+      "dedupe_key": "linkedin:4396388005",
+      "source": "linkedin",
+      "source_job_id": "4396388005",
+      "source_url": "https://www.linkedin.com/jobs/view/4396388005",
+      "company": "Broadcom",
+      "role": "Principal Kubernetes Software Engineer",
+      "location": "Palo Alto, CA",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Annual base salary range $127,100-$226,000 plus discretionary annual bonus and new-hire/annual equity awards",
+        "Principal IC role in VMware Cloud Foundation Kubernetes Distribution",
+        "Broadcom target company / infrastructure software compensation lane"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4396388005",
+      "fit_score": 94,
+      "fit_reason": "Strong Principal IC platform-infrastructure fit: VMware Cloud Foundation Kubernetes Distribution, Kubernetes internals, CNCF/OSS release/security/manageability contributions, Go controllers, cloud platform architecture, distributed systems, automation, pipelines, testing, and production Kubernetes operations.",
+      "fit_signals": [
+        "Principal IC Kubernetes platform scope",
+        "VMware Cloud Foundation and vSphere Kubernetes Service",
+        "Kubernetes internals and CNCF ecosystem",
+        "Go controllers and reconciliation patterns",
+        "release, security, manageability, scale, and integration ownership",
+        "distributed systems and cloud platform architecture",
+        "automation, pipelines, and testing",
+        "technical leadership and mentoring"
+      ],
+      "risk_flags": [
+        "Palo Alto on-site role may require U.S. relocation/local presence",
+        "Posting explicitly requires legal authorization to work in the U.S.",
+        "Official Broadcom Workday application URL and canonical Workday variants loaded as an empty document in Chrome"
+      ],
+      "people": [],
+      "connections_summary": "No specific reachable LinkedIn people shown in refreshed job detail.",
+      "resume_theme": {
+        "name": "Principal Kubernetes Platform Engineer",
+        "positioning": "Position as a principal-level platform architect for Kubernetes/cloud infrastructure, distributed systems, operational excellence, and secure enterprise platform delivery.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce Kubernetes/cloud platform architecture, RFCs, rollout governance, and operational outcomes.",
+          "Emphasize Brane enterprise infrastructure/control plane, on-prem distribution, compliance readiness, telemetry, and small-team ownership at scale.",
+          "Highlight Go/Kubernetes/platform-adjacent systems only where directly supported by the base resume and avoid overstating CNCF upstream contribution history."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260707-broadcom-principal-kubernetes-software-engine-9f70581a",
+      "resume_snapshot_path": "applications/resumes/app-20260707-broadcom-principal-kubernetes-software-engine-9f70581a/resume.md",
+      "discovered_at": "2026-07-07T06:21:39Z",
+      "updated_at": "2026-07-07T06:22:05Z",
+      "notes": [
+        "LinkedIn Apply route targets Broadcom Workday: https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA---Promontory-B/Principal-Kubernetes-Software-Engineer_R025637?source=LinkedIn",
+        "Canonical Workday URL checked: https://broadcom.wd1.myworkdayjobs.com/en-US/External_Career/job/USA-CA---Promontory-B/Principal-Kubernetes-Software-Engineer_R025637?source=LinkedIn",
+        "Both direct job URL and Broadcom Workday search host loaded as blank/empty documents in Chrome during application-route inspection."
       ],
       "resume_snapshot_name": "IC Resume"
     },

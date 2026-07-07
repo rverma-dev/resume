@@ -1,9 +1,59 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T05:55:05Z",
+  "updated_at": "2026-07-07T06:22:05Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-broadcom-principal-kubernetes-software-engine-9f70581a",
+      "job_id": "linkedin-4396388005",
+      "dedupe_key": "linkedin:4396388005",
+      "source": "linkedin",
+      "source_job_id": "4396388005",
+      "source_url": "https://www.linkedin.com/jobs/view/4396388005",
+      "company": "Broadcom",
+      "role": "Principal Kubernetes Software Engineer",
+      "location": "Palo Alto, CA",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4396388005",
+      "approved_at": "2026-07-07T06:21:47Z",
+      "updated_at": "2026-07-07T06:22:05Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 94,
+      "fit_reason": "Strong Principal IC platform-infrastructure fit: VMware Cloud Foundation Kubernetes Distribution, Kubernetes internals, CNCF/OSS release/security/manageability contributions, Go controllers, cloud platform architecture, distributed systems, automation, pipelines, testing, and production Kubernetes operations.",
+      "people": [],
+      "connections_summary": "No specific reachable LinkedIn people shown in refreshed job detail.",
+      "resume_theme": {
+        "name": "Principal Kubernetes Platform Engineer",
+        "positioning": "Position as a principal-level platform architect for Kubernetes/cloud infrastructure, distributed systems, operational excellence, and secure enterprise platform delivery.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce Kubernetes/cloud platform architecture, RFCs, rollout governance, and operational outcomes.",
+          "Emphasize Brane enterprise infrastructure/control plane, on-prem distribution, compliance readiness, telemetry, and small-team ownership at scale.",
+          "Highlight Go/Kubernetes/platform-adjacent systems only where directly supported by the base resume and avoid overstating CNCF upstream contribution history."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-broadcom-principal-kubernetes-software-engine-9f70581a/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-broadcom-principal-kubernetes-software-engine-9f70581a/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn Apply routes to Broadcom Workday job R025637, but the official Workday job URL and canonical /en-US variant loaded as empty documents in Chrome.",
+        "Manual action required: unavailable/unsupported application URL. Broadcom Workday route did not expose a usable application form during browser inspection."
+      ],
+      "status_reason": "Application not submitted. LinkedIn Apply routes to Broadcom Workday job R025637, but the official Workday job URL and canonical /en-US variant loaded as empty documents in Chrome.",
+      "last_status_update_id": "manual-4396388005",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual action required: unavailable/unsupported application URL. Broadcom Workday route did not expose a usable application form during browser inspection.",
+      "manual_action_at": "2026-07-07T06:22:05Z"
+    },
     {
       "application_id": "app-20260707-databricks-staff-software-engineer-distributed-aab413a1",
       "job_id": "linkedin-4385799099",
