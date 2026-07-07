@@ -1,9 +1,59 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T07:02:31Z",
+  "updated_at": "2026-07-07T07:57:52Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-databricks-staff-software-engineer-ai-research-0fa009cc",
+      "job_id": "linkedin-4424890045",
+      "dedupe_key": "linkedin:4424890045",
+      "source": "linkedin",
+      "source_job_id": "4424890045",
+      "source_url": "https://www.linkedin.com/jobs/view/4424890045",
+      "company": "Databricks",
+      "role": "Staff Software Engineer - AI Research Infrastructure",
+      "location": "New York City, NY; San Francisco, CA",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-4424890045",
+      "approved_at": "2026-07-07T07:54:43Z",
+      "updated_at": "2026-07-07T07:57:52Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Strong Staff-level AI research infrastructure fit: large-scale training/inference orchestration across thousands of GPUs, job submission, scheduling, monitoring, experiment management, and CI/testing infrastructure for research workloads.",
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "IC Resume",
+        "positioning": "Staff-level AI infrastructure and distributed systems engineer with direct experience building multi-tenant observability, agentic developer systems, cloud infrastructure, and high-scale platform primitives.",
+        "key_pointers": [
+          "Emphasize multi-tenant scheduling, observability, reliability, and cloud-scale systems from Salesforce Hyperforce observability work.",
+          "Highlight agentic developer systems and governed AI platform architecture as relevant to Databricks AI Research infrastructure.",
+          "Keep IC framing: Principal Engineer impact, architecture ownership, and hands-on distributed systems execution."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Internal IDE, Unleash"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-databricks-staff-software-engineer-ai-research-0fa009cc/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-databricks-staff-software-engineer-ai-research-0fa009cc/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Databricks Greenhouse form was filled with canonical profile data and submitted-resume markdown via the manual resume/CV path, but no external application confirmation was reached.",
+        "Greenhouse displayed: 'A verification code was sent to rohitatiit@gmail.com. To submit your application, enter the 8-character code to confirm you\u2019re a human.' Final submission is blocked on the emailed security code and invisible reCAPTCHA/human verification."
+      ],
+      "status_reason": "Databricks Greenhouse form was filled with canonical profile data and submitted-resume markdown via the manual resume/CV path, but no external application confirmation was reached.",
+      "last_status_update_id": "manual-4424890045",
+      "manual_action_required": true,
+      "manual_action_reason": "Greenhouse displayed: 'A verification code was sent to rohitatiit@gmail.com. To submit your application, enter the 8-character code to confirm you\u2019re a human.' Final submission is blocked on the emailed security code and invisible reCAPTCHA/human verification.",
+      "manual_action_at": "2026-07-07T07:57:52Z"
+    },
     {
       "application_id": "app-20260707-nvidia-senior-engineer-ai-agents-and-system-ee6e3039",
       "job_id": "linkedin-4436269535",

@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T07:02:31Z",
-  "active_batch_id": "batch-4436269535",
-  "last_scheduler_run_at": "2026-07-07T07:01:57Z",
+  "updated_at": "2026-07-07T07:57:52Z",
+  "active_batch_id": "batch-4424890045",
+  "last_scheduler_run_at": "2026-07-07T07:54:36Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -865,6 +865,62 @@
       "updated_at": "2026-07-05T14:29:17Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4424890045",
+      "dedupe_key": "linkedin:4424890045",
+      "source": "linkedin",
+      "source_job_id": "4424890045",
+      "source_url": "https://www.linkedin.com/jobs/view/4424890045",
+      "company": "Databricks",
+      "role": "Staff Software Engineer - AI Research Infrastructure",
+      "location": "New York City, NY; San Francisco, CA",
+      "work_type": "On-site / hybrid",
+      "experience_level": "Staff",
+      "compensation_signals": [
+        "LinkedIn listed local pay range: $199,000-$270,000 USD base salary plus bonus, equity, and benefits.",
+        "Priority company and Staff AI infrastructure scope likely has strong total-comp upside."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4424890045",
+      "fit_score": 96,
+      "fit_reason": "Strong Staff-level AI research infrastructure fit: large-scale training/inference orchestration across thousands of GPUs, job submission, scheduling, monitoring, experiment management, and CI/testing infrastructure for research workloads.",
+      "fit_signals": [
+        "Databricks AI Research infrastructure role building services for large-scale training and inference experiment workloads across thousands of GPUs.",
+        "Direct match to distributed systems, cloud infrastructure, observability, developer tooling, and AI infrastructure platform ownership.",
+        "Staff IC role at priority company with visible platform/research infrastructure scope."
+      ],
+      "risk_flags": [
+        "US locations only: New York City, NY and San Francisco, CA; no sponsorship or relocation signal captured from the public posting.",
+        "Application form did not ask work authorization or sponsorship questions before submit, so no legal/authorization answer was inferred."
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "IC Resume",
+        "positioning": "Staff-level AI infrastructure and distributed systems engineer with direct experience building multi-tenant observability, agentic developer systems, cloud infrastructure, and high-scale platform primitives.",
+        "key_pointers": [
+          "Emphasize multi-tenant scheduling, observability, reliability, and cloud-scale systems from Salesforce Hyperforce observability work.",
+          "Highlight agentic developer systems and governed AI platform architecture as relevant to Databricks AI Research infrastructure.",
+          "Keep IC framing: Principal Engineer impact, architecture ownership, and hands-on distributed systems execution."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Internal IDE, Unleash"
+        ]
+      },
+      "application_id": "app-20260707-databricks-staff-software-engineer-ai-research-0fa009cc",
+      "resume_snapshot_path": "applications/resumes/app-20260707-databricks-staff-software-engineer-ai-research-0fa009cc/resume.md",
+      "discovered_at": "2026-07-07T07:54:36Z",
+      "updated_at": "2026-07-07T07:57:52Z",
+      "notes": [
+        "Official Databricks posting: https://www.databricks.com/company/careers/engineering---pipeline/staff-software-engineer---ai-research-infrastructure-8552484002",
+        "Databricks requisition P-1215.",
+        "Greenhouse application URL observed in official posting iframe with token=8552484002."
       ],
       "resume_snapshot_name": "IC Resume"
     },
