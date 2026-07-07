@@ -1,9 +1,62 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T09:05:34Z",
+  "updated_at": "2026-07-07T09:37:14Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260707-nvidia-principal-developer-ai-networking-63c7f9fe",
+      "job_id": "job-nvidia-principal-developer-ai-networking-63c7f9fe",
+      "dedupe_key": "url:https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Developer--AI-Networking_JR2019187",
+      "source": "nvidia_workday",
+      "source_job_id": "JR2019187",
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Developer--AI-Networking_JR2019187",
+      "company": "NVIDIA",
+      "role": "Principal Developer, AI Networking",
+      "location": "Santa Clara, CA; Remote TX; Remote CO; Remote WA",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-JR2019187",
+      "approved_at": "2026-07-07T09:36:58Z",
+      "updated_at": "2026-07-07T09:37:14Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 96,
+      "fit_reason": "Excellent high-comp Principal IC fit at NVIDIA: large-scale AI networking, GPU/CPU cluster performance, distributed LLM training and inference, profiling/benchmarking tooling, systems co-design, and cross-hardware/software performance analysis map strongly to platform-scale observability, distributed systems, reliability, and AI infrastructure leadership evidence.",
+      "people": [],
+      "connections_summary": "LinkedIn posting showed 2 connections work at NVIDIA; no named recruiter or hiring manager was captured in this pass.",
+      "resume_theme": {
+        "name": "NVIDIA AI networking principal IC",
+        "positioning": "Principal platform and AI infrastructure engineer for large-scale GPU/CPU cluster observability, distributed systems performance, AI workload profiling, reliability, and cross-layer infrastructure co-design.",
+        "key_pointers": [
+          "Lead with Hyperforce observability scale, Druid/Kafka topology pipelines, multi-tenant reliability, performance debugging, and cross-team platform leadership.",
+          "Map internal AI platform, agentic observability, and evaluation/coherence tooling to AI workload profiling, benchmarking, and performance-analysis systems.",
+          "Tie Brane infrastructure and Salesforce PMTS work to containerized environments, cloud systems, metrics/log pipelines, infrastructure automation, and compliance-aware production systems.",
+          "Be precise about networking depth: emphasize distributed systems, telemetry, performance analysis, and platform infrastructure rather than claiming direct NCCL/RDMA implementation ownership unless backed by resume evidence."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md#Principal Engineer (PMTS), Salesforce",
+          "resume/base_resume.md#Anypoint Monitoring Alerts - Hyperforce re-platform + intelligent alerting",
+          "resume/base_resume.md#Anypoint Visualizer - Hyperforce re-platform + Druid-native topology",
+          "resume/base_resume.md#Vice President / GSL - PaaS, Brane Enterprise",
+          "resume/base_resume.md#Proactive Diagnostics / MuleSoft Pulse - AM Agent Federation"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260707-nvidia-principal-developer-ai-networking-63c7f9fe/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260707-nvidia-principal-developer-ai-networking-63c7f9fe/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Official NVIDIA Workday role was live and apply flow was inspected, but no application submission was performed.",
+        "NVIDIA Workday manual application requires Create Account/Sign In before My Information, My Experience, Application Questions, Voluntary Disclosures, Self Identify, and Review steps are visible. Later legal, work authorization, sponsorship, EEO/self-identification, and final-submit questions remain unavailable."
+      ],
+      "status_reason": "Official NVIDIA Workday role was live and apply flow was inspected, but no application submission was performed.",
+      "last_status_update_id": "manual-JR2019187",
+      "manual_action_required": true,
+      "manual_action_reason": "NVIDIA Workday manual application requires Create Account/Sign In before My Information, My Experience, Application Questions, Voluntary Disclosures, Self Identify, and Review steps are visible. Later legal, work authorization, sponsorship, EEO/self-identification, and final-submit questions remain unavailable.",
+      "manual_action_at": "2026-07-07T09:37:14Z"
+    },
     {
       "application_id": "app-20260707-google-staff-software-engineer-ai-ml-genai-afc1b43d",
       "job_id": "job-google-staff-software-engineer-ai-ml-genai-afc1b43d",
