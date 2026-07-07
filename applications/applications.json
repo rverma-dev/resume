@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T15:45:34Z",
+  "updated_at": "2026-07-07T16:18:02Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -8543,11 +8543,11 @@
       "company": "Coupang",
       "role": "Senior Staff Cloud Backend Engineer - Observability and Site Reliability",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2104",
       "approved_at": "2026-07-03T21:06:27Z",
-      "updated_at": "2026-07-03T21:06:27Z",
+      "updated_at": "2026-07-07T16:18:02Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -8571,9 +8571,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-coupang-senior-staff-cloud-backend-engineer-389813ea/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn MCP confirmed the Coupang Senior Staff Cloud Backend Engineer - Observability and Site Reliability posting, and the official Coupang Careers page was resolved at https://www.coupang.jobs/en/jobs/7912285/senior-staff-cloud-backend-engineer-observability-and-site-reliability/ with embedded Greenhouse job ID 7912285. No external application submission was performed.",
+        "Coupang Greenhouse application for job 7912285 requires contact fields, country/phone, resume upload, nationality, visa requirement to legally work in India, required privacy/consent choices, optional year-round recruiting/interview recording/reference/recruiting-notification consent choices that are still required form selections, relative-conflict declaration, information/document-policy acknowledgements, Greenhouse CAPTCHA checks, and final Submit. Required legal/identity/privacy/consent answers and final external submission cannot be completed truthfully by this automation, so no data was entered, no resume was uploaded, and no application was submitted."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn MCP confirmed the Coupang Senior Staff Cloud Backend Engineer - Observability and Site Reliability posting, and the official Coupang Careers page was resolved at https://www.coupang.jobs/en/jobs/7912285/senior-staff-cloud-backend-engineer-observability-and-site-reliability/ with embedded Greenhouse job ID 7912285. No external application submission was performed.",
+      "last_status_update_id": "status-20260707-coupang-observability-sre-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Coupang Greenhouse application for job 7912285 requires contact fields, country/phone, resume upload, nationality, visa requirement to legally work in India, required privacy/consent choices, optional year-round recruiting/interview recording/reference/recruiting-notification consent choices that are still required form selections, relative-conflict declaration, information/document-policy acknowledgements, Greenhouse CAPTCHA checks, and final Submit. Required legal/identity/privacy/consent answers and final external submission cannot be completed truthfully by this automation, so no data was entered, no resume was uploaded, and no application was submitted.",
+      "manual_action_at": "2026-07-07T16:18:02Z"
     },
     {
       "application_id": "app-20260703-coupang-senior-staff-software-engineer-gatew-020c1561",
