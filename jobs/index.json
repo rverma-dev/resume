@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T05:26:41Z",
-  "active_batch_id": "batch-4395732884",
-  "last_scheduler_run_at": "2026-07-07T05:26:12Z",
+  "updated_at": "2026-07-07T05:55:05Z",
+  "active_batch_id": "batch-4385799099",
+  "last_scheduler_run_at": "2026-07-07T05:54:43Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -1698,6 +1698,75 @@
       "updated_at": "2026-07-05T16:27:51Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-05; no external application submitted."
+      ],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4385799099",
+      "dedupe_key": "linkedin:4385799099",
+      "source": "linkedin",
+      "source_job_id": "4385799099",
+      "source_url": "https://www.linkedin.com/jobs/view/4385799099",
+      "company": "Databricks",
+      "role": "Staff Software Engineer - Distributed Data Systems",
+      "location": "Bellevue, WA",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Local pay range $182,400-$247,000 USD plus annual performance bonus and equity eligibility",
+        "Staff IC role on Databricks Runtime / distributed data systems",
+        "Core data and AI infrastructure platform company"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-4385799099",
+      "fit_score": 97,
+      "fit_reason": "Excellent Staff IC infrastructure fit: builds Databricks Runtime distributed data storage and processing systems across Apache Spark, Data Plane Storage, Delta Lake, Delta Pipelines, and performance engineering for large-scale data/AI infrastructure.",
+      "fit_signals": [
+        "Staff IC technical ownership",
+        "distributed data systems",
+        "Apache Spark and Delta Lake",
+        "cloud data plane storage",
+        "large-scale infrastructure across millions of virtual machines",
+        "query optimizer and execution engine performance",
+        "data and AI infrastructure platform"
+      ],
+      "risk_flags": [
+        "Bellevue on-site role may require relocation or local presence",
+        "Greenhouse form requires work authorization, sponsorship, prior Databricks employment, export-control/sanctions, and voluntary EEO answers before submission"
+      ],
+      "people": [
+        {
+          "name": "Siddharth and others",
+          "relationship": "LinkedIn network signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "LinkedIn job detail showed Siddharth and others in network as reachable people."
+        }
+      ],
+      "connections_summary": "LinkedIn job detail showed Siddharth and others in network as reachable people.",
+      "resume_theme": {
+        "name": "Staff IC Distributed Data Systems",
+        "positioning": "Position as a Staff+/Principal IC who has led distributed cloud infrastructure, platform architecture, Kubernetes/runtime systems, operational excellence, and AI/data platform work across Salesforce and Brane.",
+        "key_pointers": [
+          "Lead with Salesforce Hyperforce platform architecture, RFCs, rollout governance, and cross-team infrastructure decisions.",
+          "Emphasize Brane enterprise platform/control plane, telemetry, multi-tenant infrastructure, compliance readiness, and small-team ownership at scale.",
+          "Connect internal AI/platform work to data-driven engineering and product decision velocity without overstating direct Spark/Delta ownership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260707-databricks-staff-software-engineer-distributed-aab413a1",
+      "resume_snapshot_path": "applications/resumes/app-20260707-databricks-staff-software-engineer-distributed-aab413a1/resume.md",
+      "discovered_at": "2026-07-07T05:54:43Z",
+      "updated_at": "2026-07-07T05:55:05Z",
+      "notes": [
+        "Official apply route observed via Databricks careers: https://www.databricks.com/company/careers/engineering---pipeline/staff-software-engineer---distributed-data-systems-6937001002?gh_jid=6937001002&gh_src=62a881d62",
+        "Embedded Greenhouse iframe token/job id: 6937001002",
+        "Application form requires resume upload plus legal/work authorization, sponsorship, prior Databricks employment, export-control/sanctions, and voluntary EEO fields before final submit."
       ],
       "resume_snapshot_name": "IC Resume"
     },
