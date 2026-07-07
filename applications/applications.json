@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T11:41:46Z",
+  "updated_at": "2026-07-07T12:12:15Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -6851,11 +6851,11 @@
       "company": "Google",
       "role": "Staff Software Engineer, Code Intelligence",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-google-official-staff-batch2",
       "approved_at": "2026-07-04T03:37:36Z",
-      "updated_at": "2026-07-04T03:37:36Z",
+      "updated_at": "2026-07-07T12:12:15Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -6898,9 +6898,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-google-staff-software-engineer-code-intelli-0bca1606/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Inspected official Google Careers posting and extracted the target apply path for Staff Software Engineer, Code Intelligence; no external application submission was performed.",
+        "Official Google Careers apply path for job 119947057115865798 redirects from /applications/signin to /applications/apply and then to accounts.google.com/ServiceLogin, requiring Google Account authentication before application fields are reachable. No login was performed, no resume was uploaded, no answers were entered, and no submission was performed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Inspected official Google Careers posting and extracted the target apply path for Staff Software Engineer, Code Intelligence; no external application submission was performed.",
+      "last_status_update_id": "manual-google-code-intelligence-20260707-1209z",
+      "manual_action_required": true,
+      "manual_action_reason": "Official Google Careers apply path for job 119947057115865798 redirects from /applications/signin to /applications/apply and then to accounts.google.com/ServiceLogin, requiring Google Account authentication before application fields are reachable. No login was performed, no resume was uploaded, no answers were entered, and no submission was performed.",
+      "manual_action_at": "2026-07-07T12:12:15Z"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-data-indexin-b959b8c4",
