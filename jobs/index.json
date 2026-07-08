@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T06:46:08Z",
+  "updated_at": "2026-07-08T07:15:25Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -849,7 +849,7 @@
         "Principal Engineer title at a founder-led, funded private-markets technology and AI platform company with 1000+ employees.",
         "Remote India role with AI platform, enterprise APIs, architecture, and hands-on technical direction scope."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4431878954",
       "fit_score": 95,
@@ -886,7 +886,7 @@
       "application_id": "app-20260705-juniper-square-principal-engineer-007afdc2",
       "resume_snapshot_path": "applications/resumes/app-20260705-juniper-square-principal-engineer-007afdc2/resume.md",
       "discovered_at": "2026-07-05T21:39:56Z",
-      "updated_at": "2026-07-05T21:40:02Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
@@ -3955,7 +3955,7 @@
         "Zscaler is a global cloud security platform company; Staff AI/security data roles are compensation-relevant, but exact India payband is not visible.",
         "No exact salary range visible in LinkedIn posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-security-platform-ic-0604",
       "fit_score": 96,
@@ -4000,7 +4000,7 @@
       "application_id": "app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a",
       "resume_snapshot_path": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/resume.md",
       "discovered_at": "2026-07-04T06:10:22Z",
-      "updated_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
       ],
@@ -4472,7 +4472,7 @@
         "Principal-level IC role in a high-paying quant/technology development firm.",
         "No salary range visible; compensation target should be verified with recruiter."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-ai-0634",
       "fit_score": 96,
@@ -4515,7 +4515,7 @@
       "application_id": "app-20260704-d-e-shaw-india-private-limit-principal-tech-middleware-a24c634d",
       "resume_snapshot_path": "applications/resumes/app-20260704-d-e-shaw-india-private-limit-principal-tech-middleware-a24c634d/resume.md",
       "discovered_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -4913,7 +4913,7 @@
         "Posting frames the role as principal technical architect for foundational infrastructure.",
         "No salary range visible; compensation target should be validated with recruiter."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-0704",
       "fit_score": 95,
@@ -4956,7 +4956,7 @@
       "application_id": "app-20260704-freshworks-staff-engineer-systems-68e9c62a",
       "resume_snapshot_path": "applications/resumes/app-20260704-freshworks-staff-engineer-systems-68e9c62a/resume.md",
       "discovered_at": "2026-07-04T07:11:58Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -9236,7 +9236,7 @@
         "Staff role at Cohesity, a late-stage data security and distributed storage platform company; validate India Staff band and equity against 2.5cr+ target.",
         "LinkedIn posting is Easy Apply and actively reviewing applicants, but no compensation range is visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1334-ic-platform",
       "fit_score": 95,
@@ -9301,7 +9301,7 @@
       "application_id": "app-20260704-cohesity-staff-software-engineer-storage-file-4bbff912",
       "resume_snapshot_path": "applications/resumes/app-20260704-cohesity-staff-software-engineer-storage-file-4bbff912/resume.md",
       "discovered_at": "2026-07-04T13:42:03Z",
-      "updated_at": "2026-07-04T13:42:10Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission attempted in this import batch.",
         "Prioritize referral/connection outreach because Easy Apply shows over 100 applicants."
@@ -10100,7 +10100,7 @@
       "compensation_signals": [
         "Principal IC role at Equinix digital infrastructure; likely worth pursuing if band aligns with target compensation."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1034-ic-principal-platform",
       "fit_score": 95,
@@ -10136,7 +10136,7 @@
       "application_id": "app-20260704-equinix-principal-devsecops-platform-enginee-547aa025",
       "resume_snapshot_path": "applications/resumes/app-20260704-equinix-principal-devsecops-platform-enginee-547aa025/resume.md",
       "discovered_at": "2026-07-04T10:39:19Z",
-      "updated_at": "2026-07-04T10:39:27Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -10320,7 +10320,7 @@
         "Enterprise AI architecture, strategy, and large-scale deployment scope suggests senior IC band.",
         "Posting is Easy Apply and had over 100 applicants."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0834-ic-staff-plus",
       "fit_score": 95,
@@ -10359,7 +10359,7 @@
       "application_id": "app-20260704-tmus-global-solutions-principal-engineer-agentic-ai-t500-2-2ff63578",
       "resume_snapshot_path": "applications/resumes/app-20260704-tmus-global-solutions-principal-engineer-agentic-ai-t500-2-2ff63578/resume.md",
       "discovered_at": "2026-07-04T08:48:25Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [
         "Precise agentic AI Principal IC query result; net-new in tracker."
       ],
@@ -10941,7 +10941,7 @@
         "MongoDB Staff remote India role at global data platform company; validate total compensation band.",
         "High-visibility AI-powered modernization platform initiative."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 95,
@@ -10975,7 +10975,7 @@
       "application_id": "app-20260704-mongodb-staff-engineer-amp-a6b5e798",
       "resume_snapshot_path": "applications/resumes/app-20260704-mongodb-staff-engineer-amp-a6b5e798/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -12199,7 +12199,7 @@
         "Posting states core AI Platform ownership across agents, evals, automation, model-quality loops, sandboxing, scaling, latency, reliability, and reusable platform primitives.",
         "High-impact Staff role in Bengaluru with over 100 applicants; salary and equity are not visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-acd3380a",
       "fit_score": 96,
@@ -12235,7 +12235,7 @@
       "application_id": "app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d",
       "resume_snapshot_path": "applications/resumes/app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -14395,7 +14395,7 @@
         "Distinguished Engineer role at a large US financial technology company",
         "Cloud, payments, decisioning, data and ML platform scope in regulated financial services; no exact compensation visible"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-2315da85",
       "fit_score": 96,
@@ -14441,7 +14441,7 @@
       "application_id": "app-20260703-capital-one-distinguished-engineer-51e80851",
       "resume_snapshot_path": "applications/resumes/app-20260703-capital-one-distinguished-engineer-51e80851/resume.md",
       "discovered_at": "2026-07-03T09:06:00Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ],

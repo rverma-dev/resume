@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T06:46:08Z",
+  "updated_at": "2026-07-08T07:15:25Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -1263,11 +1263,11 @@
       "company": "Juniper Square",
       "role": "Principal Engineer",
       "location": "India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4431878954",
       "approved_at": "2026-07-05T21:40:02Z",
-      "updated_at": "2026-07-05T21:40:02Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -1294,8 +1294,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-juniper-square-principal-engineer-007afdc2/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4431878954 resolved to the active Juniper Square Ashby application at https://jobs.ashbyhq.com/junipersquare/92a6d781-0bfe-4712-9fd2-56e2cffb6072/application; the form was inspected and no external submission was performed.",
+        "Manual completion required: Ashby requires resume upload, name/email/phone, physical location, relocation-to-Bangalore answer, current CTC, expected CTC, current notice period, voluntary EEO gender/race/veteran fields, and final Submit Application. Compensation, relocation, EEO choices, and final external submission require user confirmation."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4431878954 resolved to the active Juniper Square Ashby application at https://jobs.ashbyhq.com/junipersquare/92a6d781-0bfe-4712-9fd2-56e2cffb6072/application; the form was inspected and no external submission was performed.",
+      "last_status_update_id": "status-20260708-juniper-square-principal-ashby-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: Ashby requires resume upload, name/email/phone, physical location, relocation-to-Bangalore answer, current CTC, expected CTC, current notice period, voluntary EEO gender/race/veteran fields, and final Submit Application. Compensation, relocation, EEO choices, and final external submission require user confirmation.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260705-cloudbees-staff-software-engineer-agentic-syst-e22f5bb0",
@@ -3205,11 +3212,11 @@
       "company": "Cohesity",
       "role": "Staff Software Engineer, Storage Filesystem",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1334-ic-platform",
       "approved_at": "2026-07-04T13:42:10Z",
-      "updated_at": "2026-07-04T13:42:10Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -3265,8 +3272,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-cohesity-staff-software-engineer-storage-file-4bbff912/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4429640284 remains an active Easy Apply posting for Staff Software Engineer, Storage Filesystem, with no external application form completed in this automation.",
+        "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact/resume data and may include required candidate questions or final submit controls. This automation cannot perform unsupported LinkedIn final submission or transmit profile data without action-time user confirmation."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4429640284 remains an active Easy Apply posting for Staff Software Engineer, Storage Filesystem, with no external application form completed in this automation.",
+      "last_status_update_id": "status-20260708-cohesity-storage-filesystem-easy-apply-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact/resume data and may include required candidate questions or final submit controls. This automation cannot perform unsupported LinkedIn final submission or transmit profile data without action-time user confirmation.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260704-nutanix-staff-engineer-dev-56399205",
@@ -3893,11 +3907,11 @@
       "company": "Equinix",
       "role": "Principal DevSecOps Platform Engineer - AI Automation",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1034-ic-principal-platform",
       "approved_at": "2026-07-04T10:39:27Z",
-      "updated_at": "2026-07-04T10:39:27Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -3924,8 +3938,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-equinix-principal-devsecops-platform-enginee-547aa025/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4419242960 resolved to the active Equinix careers page at https://careers.equinix.com/jobs/principal-devsecops-platform-engineer-ai-automation-bengaluru-karnataka-india?source=linkedin&utm_source=linkedin, but the controlled-browser apply interaction did not expose a complete application form.",
+        "Manual completion required: the Equinix apply interaction was incomplete/unsupported in the controlled browser; visible portal flow includes required contact/country fields, resume/CV upload, privacy or terms acceptance, and final send/apply controls. Manual portal interaction is required before any truthful final submission can be made."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4419242960 resolved to the active Equinix careers page at https://careers.equinix.com/jobs/principal-devsecops-platform-engineer-ai-automation-bengaluru-karnataka-india?source=linkedin&utm_source=linkedin, but the controlled-browser apply interaction did not expose a complete application form.",
+      "last_status_update_id": "status-20260708-equinix-principal-devsecops-apply-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Equinix apply interaction was incomplete/unsupported in the controlled browser; visible portal flow includes required contact/country fields, resume/CV upload, privacy or terms acceptance, and final send/apply controls. Manual portal interaction is required before any truthful final submission can be made.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260704-autodesk-principal-software-engineer-a04ab883",
@@ -4222,11 +4243,11 @@
       "company": "TMUS Global Solutions",
       "role": "Principal Engineer - Agentic AI [T500-27209]",
       "location": "Hyderabad, Telangana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0834-ic-staff-plus",
       "approved_at": "2026-07-04T08:48:39Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -4253,9 +4274,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-tmus-global-solutions-principal-engineer-agentic-ai-t500-2-2ff63578/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4435159311 remains an active Easy Apply posting for Principal Engineer - Agentic AI [T500-27209], with no external application form completed in this automation.",
+        "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact/resume data and may include required candidate questions or final submit controls. This automation cannot perform unsupported LinkedIn final submission or transmit profile data without action-time user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4435159311 remains an active Easy Apply posting for Principal Engineer - Agentic AI [T500-27209], with no external application form completed in this automation.",
+      "last_status_update_id": "status-20260708-tmus-agentic-ai-easy-apply-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact/resume data and may include required candidate questions or final submit controls. This automation cannot perform unsupported LinkedIn final submission or transmit profile data without action-time user confirmation.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260704-outreach-staff-applied-scientist-knowledge-gr-cefae26f",
@@ -4509,11 +4537,11 @@
       "company": "MongoDB",
       "role": "Staff Engineer, AMP",
       "location": "India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -4539,9 +4567,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-mongodb-staff-engineer-amp-a6b5e798/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4397745218 exposed the official MongoDB Greenhouse target http://boards.greenhouse.io/mongodb/jobs/7773411?gh_src=ircv7l&source=LinkedIn, but controlled-browser access to the Greenhouse form failed.",
+        "Manual completion required: navigation to the official Greenhouse URL timed out or rendered blank, the job-boards.greenhouse.io variant failed with net::ERR_BLOCKED_BY_CLIENT, and public scraping returned empty content. No usable application form or submit path was available in the controlled environment."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4397745218 exposed the official MongoDB Greenhouse target http://boards.greenhouse.io/mongodb/jobs/7773411?gh_src=ircv7l&source=LinkedIn, but controlled-browser access to the Greenhouse form failed.",
+      "last_status_update_id": "status-20260708-mongodb-staff-amp-greenhouse-blocked",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: navigation to the official Greenhouse URL timed out or rendered blank, the job-boards.greenhouse.io variant failed with net::ERR_BLOCKED_BY_CLIENT, and public scraping returned empty content. No usable application form or submit path was available in the controlled environment.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260704-okta-software-architect-java-backend-ac5eb19a",
@@ -5460,11 +5495,11 @@
       "company": "Freshworks",
       "role": "Staff Engineer - Systems",
       "location": "Chennai, Tamil Nadu, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-0704",
       "approved_at": "2026-07-04T07:12:15Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -5498,9 +5533,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-freshworks-staff-engineer-systems-68e9c62a/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4436490443 remains an active Easy Apply posting for Staff Engineer - Systems, with no external application form completed in this automation.",
+        "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact/resume data and may include required candidate questions or final submit controls. This automation cannot perform unsupported LinkedIn final submission or transmit profile data without action-time user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4436490443 remains an active Easy Apply posting for Staff Engineer - Systems, with no external application form completed in this automation.",
+      "last_status_update_id": "status-20260708-freshworks-staff-systems-easy-apply-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact/resume data and may include required candidate questions or final submit controls. This automation cannot perform unsupported LinkedIn final submission or transmit profile data without action-time user confirmation.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260704-harness-principal-engineer-ab5623cd",
@@ -5564,11 +5606,11 @@
       "company": "D. E. Shaw India Private Limited",
       "role": "Principal, Tech (Middleware)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
       "approved_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -5602,9 +5644,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-d-e-shaw-india-private-limit-principal-tech-middleware-a24c634d/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4408524467 resolved to the active D. E. Shaw India application form at https://apply.deshawindia.com/ApplicationPage1.html?entity=DESIS&jobs=6874; no candidate data was entered, no resume was uploaded, and no external submission was performed.",
+        "Manual completion required: the form requires candidate-owned legal name/contact/phone/current-location data, education fields including university/degree/status/graduation/GPA, employment history, non-compete agreement answer, compensation expectations/history, financial-ties answer, resume upload, sponsorship answer, source, consent to record, confirmation, and final submission. Legal, compensation, sponsorship, consent, and final external submission answers cannot be completed by this automation without user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4408524467 resolved to the active D. E. Shaw India application form at https://apply.deshawindia.com/ApplicationPage1.html?entity=DESIS&jobs=6874; no candidate data was entered, no resume was uploaded, and no external submission was performed.",
+      "last_status_update_id": "status-20260708-deshaw-principal-middleware-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the form requires candidate-owned legal name/contact/phone/current-location data, education fields including university/degree/status/graduation/GPA, employment history, non-compete agreement answer, compensation expectations/history, financial-ties answer, resume upload, sponsorship answer, source, consent to record, confirmation, and final submission. Legal, compensation, sponsorship, consent, and final external submission answers cannot be completed by this automation without user confirmation.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260704-postman-staff-engineer-product-trust-99d9236e",
@@ -5998,11 +6047,11 @@
       "company": "Zscaler",
       "role": "Staff Software Engineer - Java/Agentic AI/Big Data",
       "location": "Bengaluru East, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-security-platform-ic-0604",
       "approved_at": "2026-07-04T06:10:42Z",
-      "updated_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -6038,9 +6087,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4407852861 exposed the official Zscaler Greenhouse application at https://job-boards.greenhouse.io/zscaler/jobs/5049434007?gh_src=c9f3d7237; the form was inspected and no external submission was performed.",
+        "Manual completion required: Greenhouse requires contact fields and phone country, resume handling, how-the-candidate-learned answer, legal right to work, work-permit or visa-support need, current/prior Zscaler answer, current company/title, Zscaler confidential-information agreement, privacy-policy agreement, government procurement/contract activity answer, home address, sex, demographic consent, and final Submit. Required legal/work-authorization/privacy/demographic choices and final external submission require user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4407852861 exposed the official Zscaler Greenhouse application at https://job-boards.greenhouse.io/zscaler/jobs/5049434007?gh_src=c9f3d7237; the form was inspected and no external submission was performed.",
+      "last_status_update_id": "status-20260708-zscaler-staff-agentic-greenhouse-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: Greenhouse requires contact fields and phone country, resume handling, how-the-candidate-learned answer, legal right to work, work-permit or visa-support need, current/prior Zscaler answer, current company/title, Zscaler confidential-information agreement, privacy-policy agreement, government procurement/contract activity answer, home address, sex, demographic consent, and final Submit. Required legal/work-authorization/privacy/demographic choices and final external submission require user confirmation.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc",
@@ -10070,11 +10126,11 @@
       "company": "Capital One",
       "role": "Distinguished Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-7897c70e",
       "approved_at": "2026-07-03T18:41:09Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -10107,12 +10163,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-capital-one-distinguished-engineer-51e80851/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4432063758 resolved to the active Capital One careers page and Workday apply URL for Distinguished Engineer, but the Workday apply route rendered blank/non-interactive in the controlled browser.",
+        "Manual completion required: the official Workday apply URL was unavailable/non-rendering in the controlled browser, and the posting states Capital One will not sponsor a new applicant for employment authorization for this position. Manual portal access plus user-confirmed work-authorization/sponsorship truth is required before any application can be completed."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Application not submitted. LinkedIn job 4432063758 resolved to the active Capital One careers page and Workday apply URL for Distinguished Engineer, but the Workday apply route rendered blank/non-interactive in the controlled browser.",
+      "last_status_update_id": "status-20260708-capital-one-distinguished-workday-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the official Workday apply URL was unavailable/non-rendering in the controlled browser, and the posting states Capital One will not sponsor a new applicant for employment authorization for this position. Manual portal access plus user-confirmed work-authorization/sponsorship truth is required before any application can be completed.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260703-cargill-director-platform-engineering-cargil-e9276436",
@@ -11628,11 +11691,11 @@
       "company": "Rippling",
       "role": "Staff Software Engineer - AI Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T07:15:25Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -11659,9 +11722,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-rippling-staff-software-engineer-ai-platform-be0d5e4d/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4429004472 remains an active Easy Apply posting for Staff Software Engineer - AI Platform, with no external application form completed in this automation.",
+        "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact/resume data and may present required candidate questions before final submission. This automation does not perform unsupported LinkedIn final submission or transmit profile data without action-time user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4429004472 remains an active Easy Apply posting for Staff Software Engineer - AI Platform, with no external application form completed in this automation.",
+      "last_status_update_id": "status-20260708-rippling-ai-platform-easy-apply-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact/resume data and may present required candidate questions before final submission. This automation does not perform unsupported LinkedIn final submission or transmit profile data without action-time user confirmation.",
+      "manual_action_at": "2026-07-08T07:15:25Z"
     },
     {
       "application_id": "app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79",
