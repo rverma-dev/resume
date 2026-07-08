@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T05:11:04Z",
+  "updated_at": "2026-07-08T05:37:19Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -1513,7 +1513,7 @@
         "Senior Solutions Architect role at AWS India with 12+ years of technology-domain experience and 8+ years of application/infrastructure design or consulting required.",
         "Priority-company cloud architecture role covering startups, scalable secure architectures, cloud computing, infrastructure, security, data, analytics, and Generative AI."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4411600734",
       "fit_score": 89,
@@ -1558,7 +1558,7 @@
       "application_id": "app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147",
       "resume_snapshot_path": "applications/resumes/app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147/resume.md",
       "discovered_at": "2026-07-05T22:12:27Z",
-      "updated_at": "2026-07-05T22:12:33Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
@@ -6179,7 +6179,7 @@
         "User-listed high-comp target company for India.",
         "GPU fleet and AI infrastructure role with principal-level scope, autonomy, and fleet-level ownership."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2104",
       "fit_score": 93,
@@ -6211,7 +6211,7 @@
       "application_id": "app-20260703-coupang-senior-staff-system-engineer-gpu-fle-1fd7fe5b",
       "resume_snapshot_path": "applications/resumes/app-20260703-coupang-senior-staff-system-engineer-gpu-fle-1fd7fe5b/resume.md",
       "discovered_at": "2026-07-03T21:06:12Z",
-      "updated_at": "2026-07-03T21:06:27Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -6283,7 +6283,7 @@
         "Priority high-comp target company.",
         "Databricks L6 Staff/Sr Staff role in data and AI infrastructure."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2034",
       "fit_score": 91,
@@ -6316,7 +6316,7 @@
       "application_id": "app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012",
       "resume_snapshot_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012/resume.md",
       "discovered_at": "2026-07-03T20:40:28Z",
-      "updated_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -8121,7 +8121,7 @@
         "Senior Staff Databricks AI/search role in India; no exact compensation visible",
         "user-provided target-company signal: Databricks can meet high-comp target at the right band"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-databricks-ic-heartbeat",
       "fit_score": 92,
@@ -8174,7 +8174,7 @@
       "application_id": "app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae",
       "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae/resume.md",
       "discovered_at": "2026-07-03T19:08:16Z",
-      "updated_at": "2026-07-03T19:08:26Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -8258,7 +8258,7 @@
         "Broadcom infrastructure software company; no exact compensation visible",
         "job search showed 84 company alumni work here"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-broadcom-architect-heartbeat",
       "fit_score": 91,
@@ -8305,7 +8305,7 @@
       "application_id": "app-20260703-broadcom-senior-software-architect-0421392e",
       "resume_snapshot_path": "applications/resumes/app-20260703-broadcom-senior-software-architect-0421392e/resume.md",
       "discovered_at": "2026-07-03T19:10:47Z",
-      "updated_at": "2026-07-03T19:10:57Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -11323,7 +11323,7 @@
         "Databricks is target-capable in recruiting config priority companies.",
         "Staff platform role owns usage governance infrastructure across Databricks products."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 96,
@@ -11357,7 +11357,7 @@
       "application_id": "app-20260704-databricks-staff-software-engineer-money-1bb68c5e",
       "resume_snapshot_path": "applications/resumes/app-20260704-databricks-staff-software-engineer-money-1bb68c5e/resume.md",
       "discovered_at": "2026-07-04T07:45:15Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -11482,7 +11482,7 @@
         "Databricks is target-capable in recruiting config priority companies.",
         "Staff role in Data and AI infrastructure platform with 12+ years requirement."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 95,
@@ -11516,7 +11516,7 @@
       "application_id": "app-20260704-databricks-staff-software-engineer-backend-20111ff7",
       "resume_snapshot_path": "applications/resumes/app-20260704-databricks-staff-software-engineer-backend-20111ff7/resume.md",
       "discovered_at": "2026-07-04T07:45:15Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -11761,7 +11761,7 @@
         "Coupang is a user-identified high-compensation-capable target company.",
         "Staff backend engineering at group scope can plausibly meet target compensation at the right band; no public salary range visible on posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-ic-staff-plus-bigtech",
       "fit_score": 93,
@@ -11803,7 +11803,7 @@
       "application_id": "app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6",
       "resume_snapshot_path": "applications/resumes/app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6/resume.md",
       "discovered_at": "2026-07-03T18:11:44Z",
-      "updated_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [
         "Imported from targeted IC Staff-plus search after user requested IC-only high-comp application track."
       ],
@@ -11944,7 +11944,7 @@
         "Google Staff Software Engineer is a high-compensation-capable IC target.",
         "No salary range visible on LinkedIn posting; treat compensation as target-capable at the right band."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-ic-google-microsoft-apple",
       "fit_score": 96,
@@ -11987,7 +11987,7 @@
       "application_id": "app-20260703-google-staff-software-engineer-foundation-s-4346ebfe",
       "resume_snapshot_path": "applications/resumes/app-20260703-google-staff-software-engineer-foundation-s-4346ebfe/resume.md",
       "discovered_at": "2026-07-03T18:18:00Z",
-      "updated_at": "2026-07-03T18:18:30Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [
         "Imported after user noted Google/Meta/Apple gaps; discovered from LinkedIn recommendation on Staff Architect page."
       ],
@@ -16420,7 +16420,7 @@
         "priority high-paying company",
         "senior staff level; no exact compensation visible"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 86,
@@ -16463,7 +16463,7 @@
       "application_id": "app-20260702-google-senior-staff-software-engineer-googl-20feb543",
       "resume_snapshot_path": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,

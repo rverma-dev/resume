@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T05:11:04Z",
+  "updated_at": "2026-07-08T05:37:19Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -1204,11 +1204,11 @@
       "company": "Amazon Web Services (AWS)",
       "role": "Sr. Solution Architect, Startups",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4411600734",
       "approved_at": "2026-07-05T22:12:33Z",
-      "updated_at": "2026-07-05T22:12:33Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -1243,8 +1243,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Amazon Jobs posting 10412978 for Sr. Solution Architect, Startups is active, but Apply redirects to Amazon.jobs Passport before the application form is available.",
+        "Manual Amazon.jobs authentication required: the application flow requires Amazon.jobs email/password or OAuth login with Amazon, Google, Apple, or LinkedIn before profile, resume, application questions, and final submit are available. Cannot use or create an account without user-controlled authentication. No resume was uploaded and no external application submission was confirmed."
+      ],
+      "status_reason": "Application not submitted. Amazon Jobs posting 10412978 for Sr. Solution Architect, Startups is active, but Apply redirects to Amazon.jobs Passport before the application form is available.",
+      "last_status_update_id": "status-20260708-aws-startups-sa-amazon-passport-login-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual Amazon.jobs authentication required: the application flow requires Amazon.jobs email/password or OAuth login with Amazon, Google, Apple, or LinkedIn before profile, resume, application questions, and final submit are available. Cannot use or create an account without user-controlled authentication. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260705-juniper-square-principal-engineer-007afdc2",
@@ -4738,11 +4745,11 @@
       "company": "Databricks",
       "role": "Staff Software Engineer (Money)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0734-ic-staff-plus",
       "approved_at": "2026-07-04T07:45:54Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -4768,9 +4775,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-databricks-staff-software-engineer-money-1bb68c5e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Databricks careers page for Greenhouse job 7654349002 is active and exposes an embedded application form for Staff Software Engineer (Money).",
+        "Manual Greenhouse completion required: the form requires contact fields, preferred name, city, resume/CV upload, LinkedIn profile, current firm, legal work authorization, future visa sponsorship answer, prior Databricks employment answer, U.S. sanctions/export-control attestations, and final Submit application action. These require user-confirmed legal/work-authorization/export-control answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Databricks careers page for Greenhouse job 7654349002 is active and exposes an embedded application form for Staff Software Engineer (Money).",
+      "last_status_update_id": "status-20260708-databricks-money-greenhouse-legal-export-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual Greenhouse completion required: the form requires contact fields, preferred name, city, resume/CV upload, LinkedIn profile, current firm, legal work authorization, future visa sponsorship answer, prior Databricks employment answer, U.S. sanctions/export-control attestations, and final Submit application action. These require user-confirmed legal/work-authorization/export-control answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260704-databricks-senior-staff-software-engineer-backe-9e8eb9c2",
@@ -4833,11 +4847,11 @@
       "company": "Databricks",
       "role": "Staff Software Engineer - Backend",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0734-ic-staff-plus",
       "approved_at": "2026-07-04T07:45:54Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -4863,9 +4877,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-databricks-staff-software-engineer-backend-20111ff7/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Databricks careers page for Greenhouse job 8320187002 is active and exposes an embedded application form for Staff Software Engineer - Backend.",
+        "Manual Greenhouse completion required: the form requires contact fields, preferred name, city, resume/CV upload, LinkedIn profile, current firm, legal work authorization, future visa sponsorship answer, prior Databricks employment answer, U.S. sanctions/export-control attestations, and final Submit application action. These require user-confirmed legal/work-authorization/export-control answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Databricks careers page for Greenhouse job 8320187002 is active and exposes an embedded application form for Staff Software Engineer - Backend.",
+      "last_status_update_id": "status-20260708-databricks-backend-greenhouse-legal-export-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual Greenhouse completion required: the form requires contact fields, preferred name, city, resume/CV upload, LinkedIn profile, current firm, legal work authorization, future visa sponsorship answer, prior Databricks employment answer, U.S. sanctions/export-control attestations, and final Submit application action. These require user-confirmed legal/work-authorization/export-control answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2",
@@ -8683,11 +8704,11 @@
       "company": "Coupang",
       "role": "Senior Staff System Engineer, GPU Fleet",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2104",
       "approved_at": "2026-07-03T21:06:27Z",
-      "updated_at": "2026-07-03T21:06:27Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -8711,9 +8732,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-coupang-senior-staff-system-engineer-gpu-fle-1fd7fe5b/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4424358808 for Coupang Senior Staff System Engineer, GPU Fleet now renders No longer accepting applications and exposes no Apply target.",
+        "Unavailable application URL / closed posting: the tracked Coupang GPU Fleet role is no longer accepting applications on LinkedIn, so no active application form is available from the tracked source. Manual portal verification or a replacement official URL is required. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4424358808 for Coupang Senior Staff System Engineer, GPU Fleet now renders No longer accepting applications and exposes no Apply target.",
+      "last_status_update_id": "status-20260708-coupang-gpu-fleet-closed-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Unavailable application URL / closed posting: the tracked Coupang GPU Fleet role is no longer accepting applications on LinkedIn, so no active application form is available from the tracked source. Manual portal verification or a replacement official URL is required. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260703-coupang-senior-staff-cloud-backend-engineer-389813ea",
@@ -8874,11 +8902,11 @@
       "company": "Databricks",
       "role": "Staff Software Engineer (L6) - Partner Ecosystem",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2034",
       "approved_at": "2026-07-03T20:40:49Z",
-      "updated_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -8902,9 +8930,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-l6-partner-e-a657d012/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Databricks careers page for Greenhouse job 8476582002 is active and exposes an embedded application form for Staff Software Engineer (L6) - Partner Ecosystem.",
+        "Manual Greenhouse completion required: the form requires contact fields, preferred name, city, resume/CV upload, LinkedIn profile, current firm, legal work authorization, future visa sponsorship answer, prior Databricks employment answer, U.S. sanctions/export-control attestations, and final Submit application action. These require user-confirmed legal/work-authorization/export-control answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Databricks careers page for Greenhouse job 8476582002 is active and exposes an embedded application form for Staff Software Engineer (L6) - Partner Ecosystem.",
+      "last_status_update_id": "status-20260708-databricks-partner-ecosystem-greenhouse-legal-export-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual Greenhouse completion required: the form requires contact fields, preferred name, city, resume/CV upload, LinkedIn profile, current firm, legal work authorization, future visa sponsorship answer, prior Databricks employment answer, U.S. sanctions/export-control attestations, and final Submit application action. These require user-confirmed legal/work-authorization/export-control answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260703-boomi-principal-software-engineer-genai-5eaed28b",
@@ -9500,11 +9535,11 @@
       "company": "Broadcom",
       "role": "Senior Software Architect",
       "location": "Greater Hyderabad Area, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-broadcom-architect-heartbeat",
       "approved_at": "2026-07-03T19:10:57Z",
-      "updated_at": "2026-07-03T19:10:57Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -9539,9 +9574,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-broadcom-senior-software-architect-0421392e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4401425673 for Broadcom Senior Software Architect now renders No longer accepting applications and exposes no Apply target.",
+        "Unavailable application URL / closed posting: the tracked Broadcom Senior Software Architect role is no longer accepting applications on LinkedIn, so no active application form is available from the tracked source. Manual portal verification or a replacement official URL is required. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4401425673 for Broadcom Senior Software Architect now renders No longer accepting applications and exposes no Apply target.",
+      "last_status_update_id": "status-20260708-broadcom-senior-software-architect-closed-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Unavailable application URL / closed posting: the tracked Broadcom Senior Software Architect role is no longer accepting applications on LinkedIn, so no active application form is available from the tracked source. Manual portal verification or a replacement official URL is required. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260703-databricks-senior-staff-software-engineer-backe-7aafcd3f",
@@ -9701,11 +9743,11 @@
       "company": "Databricks",
       "role": "Senior Staff Software Engineer- Search Quality",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-databricks-ic-heartbeat",
       "approved_at": "2026-07-03T19:08:26Z",
-      "updated_at": "2026-07-03T19:08:26Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -9747,9 +9789,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Databricks careers page for Greenhouse job 8439350002 is active and exposes an embedded application form for Senior Staff Software Engineer - Search Quality.",
+        "Manual Greenhouse completion required: the form requires contact fields, preferred name, city, resume/CV upload, current firm, legal authorization to work in the application country, prior Databricks employment answer, and final Submit application action. These require user-confirmed personal/legal answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Databricks careers page for Greenhouse job 8439350002 is active and exposes an embedded application form for Senior Staff Software Engineer - Search Quality.",
+      "last_status_update_id": "status-20260708-databricks-search-quality-senior-staff-greenhouse-legal-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual Greenhouse completion required: the form requires contact fields, preferred name, city, resume/CV upload, current firm, legal authorization to work in the application country, prior Databricks employment answer, and final Submit application action. These require user-confirmed personal/legal answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49",
@@ -10386,11 +10435,11 @@
       "company": "Google",
       "role": "Staff Software Engineer, Foundation Services",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-ic-google-microsoft-apple",
       "approved_at": "2026-07-03T18:18:30Z",
-      "updated_at": "2026-07-03T18:18:30Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -10425,9 +10474,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-google-staff-software-engineer-foundation-s-4346ebfe/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Official Google Careers page for Staff Software Engineer, Foundation Services is active and the Apply button opens a signed-in Google Careers application flow.",
+        "Manual Google Careers profile/application completion required: the form requires legal first/last name, phone, resume upload, Alphabet employment answer, profile personalization choice, applicant privacy consent, truth-certification, later role information, voluntary self-identification, review, and final apply. These require user-confirmed personal/legal/privacy answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Official Google Careers page for Staff Software Engineer, Foundation Services is active and the Apply button opens a signed-in Google Careers application flow.",
+      "last_status_update_id": "status-20260708-google-foundation-services-profile-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual Google Careers profile/application completion required: the form requires legal first/last name, phone, resume upload, Alphabet employment answer, profile personalization choice, applicant privacy consent, truth-certification, later role information, voluntary self-identification, review, and final apply. These require user-confirmed personal/legal/privacy answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260703-microsoft-principal-engineer-be0ba28d",
@@ -10596,11 +10652,11 @@
       "company": "Coupang",
       "role": "Staff Engineer - Backend (E-Commerce Engineering)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-ic-staff-plus-bigtech",
       "approved_at": "2026-07-03T18:12:02Z",
-      "updated_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -10634,9 +10690,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-coupang-staff-engineer-backend-e-commerce-en-964508c6/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Coupang careers page for Greenhouse job 7988274 is active and exposes an embedded application form for Staff Engineer - Backend (E-Commerce Engineering).",
+        "Manual Greenhouse completion required: the form requires contact fields, phone country/number, resume/CV upload, optional cover letter, LinkedIn profile, nationality, India visa requirement, required privacy/data-processing consent, optional recruiting/interview/reference-check consents, relatives/conflict declaration, document policy acknowledgement, and final Submit application action. These require user-confirmed legal/privacy/consent/relative answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Coupang careers page for Greenhouse job 7988274 is active and exposes an embedded application form for Staff Engineer - Backend (E-Commerce Engineering).",
+      "last_status_update_id": "status-20260708-coupang-ecommerce-backend-greenhouse-consent-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual Greenhouse completion required: the form requires contact fields, phone country/number, resume/CV upload, optional cover letter, LinkedIn profile, nationality, India visa requirement, required privacy/data-processing consent, optional recruiting/interview/reference-check consents, relatives/conflict declaration, document policy acknowledgement, and final Submit application action. These require user-confirmed legal/privacy/consent/relative answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f",
@@ -12207,11 +12270,11 @@
       "company": "Google",
       "role": "Senior Staff Software Engineer, Google Cloud",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-08T05:37:19Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 86,
@@ -12244,12 +12307,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-google-senior-staff-software-engineer-googl-20feb543/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Official Google Careers page for Senior Staff Software Engineer, Google Cloud is active and the Apply button opens a signed-in Google Careers application flow.",
+        "Manual Google Careers profile/application completion required: the form requires legal first/last name, phone, resume upload, Alphabet employment answer, profile personalization choice, applicant privacy consent, truth-certification, later role information, voluntary self-identification, review, and final apply. These require user-confirmed personal/legal/privacy answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "Application not submitted. Official Google Careers page for Senior Staff Software Engineer, Google Cloud is active and the Apply button opens a signed-in Google Careers application flow.",
+      "last_status_update_id": "status-20260708-google-senior-staff-cloud-profile-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual Google Careers profile/application completion required: the form requires legal first/last name, phone, resume upload, Alphabet employment answer, profile personalization choice, applicant privacy consent, truth-certification, later role information, voluntary self-identification, review, and final apply. These require user-confirmed personal/legal/privacy answers and action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T05:37:19Z"
     },
     {
       "application_id": "app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9",
