@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T02:29:32Z",
+  "updated_at": "2026-07-08T02:38:40Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -3489,11 +3489,11 @@
       "company": "Teradata",
       "role": "Senior Staff AI Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1234-ic-platform",
       "approved_at": "2026-07-04T12:37:32Z",
-      "updated_at": "2026-07-04T12:37:32Z",
+      "updated_at": "2026-07-08T02:38:40Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -3521,8 +3521,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-teradata-senior-staff-ai-engineer-f420482e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Official Teradata GR8People posting for requisition 220323 was resolved at https://careers.teradata.com/jobs/220323/senior-staff-ai-engineer; LinkedIn posting 4382498198 remains Easy Apply, but no external application submission was completed.",
+        "Official Teradata apply URL redirects to /login with email-auth, required privacy-policy consent, Continue action, reCAPTCHA state, and downstream hiring steps for opportunityID=220323. Completing it would transmit identity/contact data and consent before application questions/final submit; no resume was uploaded and no external submission confirmation was reached."
+      ],
+      "status_reason": "Official Teradata GR8People posting for requisition 220323 was resolved at https://careers.teradata.com/jobs/220323/senior-staff-ai-engineer; LinkedIn posting 4382498198 remains Easy Apply, but no external application submission was completed.",
+      "last_status_update_id": "status-20260708-teradata-senior-staff-ai-official-login-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Official Teradata apply URL redirects to /login with email-auth, required privacy-policy consent, Continue action, reCAPTCHA state, and downstream hiring steps for opportunityID=220323. Completing it would transmit identity/contact data and consent before application questions/final submit; no resume was uploaded and no external submission confirmation was reached.",
+      "manual_action_at": "2026-07-08T02:38:40Z"
     },
     {
       "application_id": "app-20260704-walmart-global-tech-india-staff-software-engineer-73d75150",
@@ -7576,7 +7583,7 @@
       },
       "resume_snapshot_path": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/resume.md",
       "resume_theme_path": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/theme.md",
-      "submitted_resume_path": "applications/resumes/app-20260704-uber-staff-software-engineer-359dee86/submitted-resume.pdf",
+      "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "Application not submitted. LinkedIn Apply resolved to Uber Careers job 157102 for Staff Android Engineer, and the company page showed Job removed with no active apply form for the Bengaluru posting.",

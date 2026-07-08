@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T02:29:32Z",
+  "updated_at": "2026-07-08T02:38:40Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -9560,7 +9560,7 @@
       "compensation_signals": [
         "Senior Staff/Principal AI role at a large public enterprise data platform company; validate India band and equity/RSU upside against 2.5cr+ target."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1234-ic-platform",
       "fit_score": 97,
@@ -9596,7 +9596,7 @@
       "application_id": "app-20260704-teradata-senior-staff-ai-engineer-f420482e",
       "resume_snapshot_path": "applications/resumes/app-20260704-teradata-senior-staff-ai-engineer-f420482e/resume.md",
       "discovered_at": "2026-07-04T12:37:24Z",
-      "updated_at": "2026-07-04T12:37:32Z",
+      "updated_at": "2026-07-08T02:38:40Z",
       "notes": [
         "Imported from LinkedIn MCP detail at 2026-07-04 12:34 UTC heartbeat pass.",
         "Do not mark applied unless external Teradata submission is confirmed."
