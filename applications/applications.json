@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T06:10:11Z",
+  "updated_at": "2026-07-08T06:46:08Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -2841,11 +2841,11 @@
       "company": "Adobe",
       "role": "Software Development Engineer 5 (Architect)",
       "location": "Noida, Uttar Pradesh, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1741-ic-principal-architects",
       "approved_at": "2026-07-04T19:23:40Z",
-      "updated_at": "2026-07-04T19:23:40Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -2896,8 +2896,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-adobe-software-development-engineer-5-arch-8c1382e7/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Adobe application form inspected; no external submission completed.",
+        "Adobe apply flow requires resume upload, country/name/email/phone/address fields, prior Adobe employment answer, marketing/privacy/data-processing consent, truth certification, later My Experience/Application Questions/Voluntary Disclosures/Review steps, and final submission."
+      ],
+      "status_reason": "Adobe application form inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-adobe-sde5-architect-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Adobe apply flow requires resume upload, country/name/email/phone/address fields, prior Adobe employment answer, marketing/privacy/data-processing consent, truth certification, later My Experience/Application Questions/Voluntary Disclosures/Review steps, and final submission.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc",
@@ -3479,11 +3486,11 @@
       "company": "Okta",
       "role": "Staff Software Engineer - Data Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1234-ic-platform",
       "approved_at": "2026-07-04T12:37:32Z",
-      "updated_at": "2026-07-04T12:37:32Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -3511,8 +3518,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-okta-staff-software-engineer-data-platfor-4b1e3660/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn source checked; no external submission completed.",
+        "LinkedIn posting shows 'No longer accepting applications', so there is no available application path for this tracked source."
+      ],
+      "status_reason": "LinkedIn source checked; no external submission completed.",
+      "last_status_update_id": "status-20260708-okta-staff-data-platform-closed",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn posting shows 'No longer accepting applications', so there is no available application path for this tracked source.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260704-teradata-senior-staff-ai-engineer-f420482e",
@@ -4393,11 +4407,11 @@
       "company": "Autodesk",
       "role": "Software Architect",
       "location": "Pune Division, Maharashtra, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -4423,9 +4437,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-autodesk-software-architect-b63b9113/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn source is active but exposes LinkedIn Easy Apply rather than an external application URL; no submission completed.",
+        "LinkedIn Easy Apply final submission would transmit LinkedIn profile/contact/resume data and may include additional required questions; this final submission is unsupported without user action-time confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn source is active but exposes LinkedIn Easy Apply rather than an external application URL; no submission completed.",
+      "last_status_update_id": "status-20260708-autodesk-software-architect-easy-apply-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission would transmit LinkedIn profile/contact/resume data and may include additional required questions; this final submission is unsupported without user action-time confirmation.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77",
@@ -4437,11 +4458,11 @@
       "company": "Autodesk",
       "role": "Senior Principal Engineer (Java, AWS)",
       "location": "Pune Division, Maharashtra, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -4467,9 +4488,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Autodesk Workday requisition URL inspected; no external submission completed.",
+        "Autodesk Workday job and direct apply URLs rendered an empty/non-interactive page in controlled browser and public scrape, leaving no usable application form or submit path from this automation run."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Autodesk Workday requisition URL inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-autodesk-senior-principal-workday-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Autodesk Workday job and direct apply URLs rendered an empty/non-interactive page in controlled browser and public scrape, leaving no usable application form or submit path from this automation run.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260704-mongodb-staff-engineer-amp-a6b5e798",
@@ -4525,11 +4553,11 @@
       "company": "Okta",
       "role": "Software Architect, Java Backend",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -4555,9 +4583,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-okta-software-architect-java-backend-ac5eb19a/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Okta application form inspected; no external submission completed.",
+        "Okta form requires work authorization, future visa sponsorship, family/vendor/personal relationship, outside business activity, prior Okta employment, privacy/personnel-policy acknowledgement, data-use consent, EEO/disability/veteran/race/gender fields, resume handling, and final submission."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Okta application form inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-okta-software-architect-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Okta form requires work authorization, future visa sponsorship, family/vendor/personal relationship, outside business activity, prior Okta employment, privacy/personnel-policy acknowledgement, data-use consent, EEO/disability/veteran/race/gender fields, resume handling, and final submission.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260704-gitlab-staff-backend-engineer-go-continuous-f80bd5da",
@@ -4912,11 +4947,11 @@
       "company": "Netskope",
       "role": "Principal Engineer, Platform R&D",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0734-ic-staff-plus",
       "approved_at": "2026-07-04T07:45:54Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -4942,9 +4977,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Netskope Greenhouse application form inspected; no external submission completed.",
+        "Greenhouse form requires contact/location/education/LinkedIn fields, legal right-to-work and future work-permit/visa-support answers, optional pronoun self-ID, resume handling, and final Submit application."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Netskope Greenhouse application form inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-netskope-principal-platform-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Greenhouse form requires contact/location/education/LinkedIn fields, legal right-to-work and future work-permit/visa-support answers, optional pronoun self-ID, resume handling, and final Submit application.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260704-confluent-staff-security-engineer-ii-b779f524",
@@ -6238,11 +6280,11 @@
       "company": "Oracle",
       "role": "Lead Principal Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-plus-ic-0534",
       "approved_at": "2026-07-04T05:37:16Z",
-      "updated_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -6285,9 +6327,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-oracle-lead-principal-engineer-0df55b22/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Oracle candidate flow inspected; no external submission completed.",
+        "Oracle apply flow requires starting profile authentication with email/phone and agreeing to terms before later application steps; posting also states visa/work permit sponsorship is not available, which requires manual work-authorization confirmation before continuing."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Oracle candidate flow inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-oracle-lead-principal-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Oracle apply flow requires starting profile authentication with email/phone and agreeing to terms before later application steps; posting also states visa/work permit sponsorship is not available, which requires manual work-authorization confirmation before continuing.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260704-oracle-principal-software-engineer-27875304",
@@ -6367,11 +6416,11 @@
       "company": "Google DeepMind",
       "role": "Staff Developer Experience Engineer, DeepMind",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-plus-ic-0504",
       "approved_at": "2026-07-04T05:12:25Z",
-      "updated_at": "2026-07-04T05:12:25Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -6421,9 +6470,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Google Careers application form inspected while signed in; no external submission completed.",
+        "Google Careers profile flow requires legal name/contact/phone, resume upload, Alphabet employment answer, profile personalization answer, applicant privacy/data consent, truth certification, later role information and voluntary self-ID steps, and final Review & apply."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Google Careers application form inspected while signed in; no external submission completed.",
+      "last_status_update_id": "status-20260708-google-deepmind-devex-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Google Careers profile flow requires legal name/contact/phone, resume upload, Alphabet employment answer, profile personalization answer, applicant privacy/data consent, truth certification, later role information and voluntary self-ID steps, and final Review & apply.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260704-linkedin-sr-staff-software-engineer-f1e870f2",
@@ -9211,11 +9267,11 @@
       "company": "Mastercard",
       "role": "Principal Software Engineer - Java Architect, Microservices, Cloud, Springboot",
       "location": "Pune Division, Maharashtra, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-principal-heartbeat-2004",
       "approved_at": "2026-07-03T20:08:06Z",
-      "updated_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -9257,9 +9313,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn source checked; no external submission completed.",
+        "LinkedIn posting shows 'No longer accepting applications', so there is no available application path for this tracked source."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn source checked; no external submission completed.",
+      "last_status_update_id": "status-20260708-mastercard-principal-java-closed",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn posting shows 'No longer accepting applications', so there is no available application path for this tracked source.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260703-servicenow-principal-software-engineer-movework-fc31eead",
@@ -11799,11 +11862,11 @@
       "company": "Amazon Web Services (AWS)",
       "role": "Sr. Migration Modernization Architect, Professional Services",
       "location": "Mumbai, Maharashtra, India; posting also says open for Delhi/NCR",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -11837,9 +11900,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Amazon.jobs posting active, but application flow was not submitted.",
+        "Apply now redirects to passport.amazon.jobs login requiring an Amazon.jobs account password or external account login before the application can continue."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Amazon.jobs posting active, but application flow was not submitted.",
+      "last_status_update_id": "status-20260708-aws-migration-modernization-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Apply now redirects to passport.amazon.jobs login requiring an Amazon.jobs account password or external account login before the application can continue.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260703-rippling-senior-engineering-manager-platform-2ee45b98",
@@ -12787,11 +12857,11 @@
       "company": "GitLab",
       "role": "Staff Backend Engineer, SSCS: AI Governance",
       "location": "Greater Delhi Area / Remote",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-04T07:46:08Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -12825,15 +12895,19 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Resynced existing approved application after duplicate-aware job upsert refreshed the job row."
+        "Resynced existing approved application after duplicate-aware job upsert refreshed the job row.",
+        "GitLab Greenhouse application inspected; no external submission completed.",
+        "Greenhouse form requires required role-specific answers (country/residence, India location, experience, Ruby/Rails and Python skill levels, AI governance/security experience, employment restrictions, future visa sponsorship, prior GitLab work), profile/resume fields, voluntary self-identification fields, and final Submit/CAPTCHA handling that require manual confirmation."
       ],
-      "status_reason": "Resynced existing approved application after duplicate-aware job upsert refreshed the job row.",
-      "last_status_update_id": "status-20260704-0734-gitlab-approved-resync",
-      "manual_action_required": false,
+      "status_reason": "GitLab Greenhouse application inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-gitlab-sscs-ai-governance-manual",
+      "manual_action_required": true,
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "manual_action_reason": "Greenhouse form requires required role-specific answers (country/residence, India location, experience, Ruby/Rails and Python skill levels, AI governance/security experience, employment restrictions, future visa sponsorship, prior GitLab work), profile/resume fields, voluntary self-identification fields, and final Submit/CAPTCHA handling that require manual confirmation.",
+      "manual_action_at": "2026-07-08T06:46:08Z"
     },
     {
       "application_id": "app-20260702-databricks-staff-software-engineer-multi-cloud-d5cd87c2",

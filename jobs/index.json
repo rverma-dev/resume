@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T06:10:11Z",
+  "updated_at": "2026-07-08T06:46:08Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -3136,7 +3136,7 @@
         "Principal Software Engineer in Real Time Payments; no salary range visible.",
         "LinkedIn search showed 74 company alumni and 120 school alumni on nearby Mastercard postings."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-principal-heartbeat-2004",
       "fit_score": 96,
@@ -3190,7 +3190,7 @@
       "application_id": "app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c",
       "resume_snapshot_path": "applications/resumes/app-20260703-mastercard-principal-software-engineer-java-arc-24bf800c/resume.md",
       "discovered_at": "2026-07-03T20:07:52Z",
-      "updated_at": "2026-07-03T20:08:06Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported as user-validated high-comp principal real-time payments platform role."
       ],
@@ -3360,7 +3360,7 @@
         "Posting explicitly says Level IC5 and over 15 years; compare Oracle IC5/PMTS-equivalent compensation with Salesforce PMTS/L9 before final negotiation.",
         "No exact salary range visible in LinkedIn posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-plus-ic-0534",
       "fit_score": 96,
@@ -3412,7 +3412,7 @@
       "application_id": "app-20260704-oracle-lead-principal-engineer-0df55b22",
       "resume_snapshot_path": "applications/resumes/app-20260704-oracle-lead-principal-engineer-0df55b22/resume.md",
       "discovered_at": "2026-07-04T05:36:55Z",
-      "updated_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
       ],
@@ -3791,7 +3791,7 @@
         "Google/DeepMind staff-level roles are target-compensation-capable per recruiting/config.json target-capable company policy, though no exact India salary range was visible.",
         "Stretch-first leveling: Staff role is aligned with target IC search despite domain caveat."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-plus-ic-0504",
       "fit_score": 88,
@@ -3850,7 +3850,7 @@
       "application_id": "app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-deepmind-staff-developer-experience-engineer-d234ad0e/resume.md",
       "discovered_at": "2026-07-04T05:12:10Z",
-      "updated_at": "2026-07-04T05:12:25Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [
         "Official Google Careers posting verified on 2026-07-04; no external submission performed."
       ],
@@ -8748,7 +8748,7 @@
         "Adobe P50 individual-contributor architect role in Experience Cloud/Marketo, a large enterprise software business serving Fortune 500 customers.",
         "Scope includes enterprise-scale backend platform architecture, AI-first platform capabilities, billions of customer interactions/events, and cross-team architectural influence."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1741-ic-principal-architects",
       "fit_score": 96,
@@ -8807,7 +8807,7 @@
       "application_id": "app-20260704-adobe-software-development-engineer-5-arch-8c1382e7",
       "resume_snapshot_path": "applications/resumes/app-20260704-adobe-software-development-engineer-5-arch-8c1382e7/resume.md",
       "discovered_at": "2026-07-04T19:23:32Z",
-      "updated_at": "2026-07-04T19:23:40Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-04 heartbeat.",
         "Responses managed off LinkedIn; no external application submission attempted in this import."
@@ -9617,7 +9617,7 @@
       "compensation_signals": [
         "Okta is a high-quality public enterprise security/SaaS company with equity upside; validate India Staff band against 2.5cr+ target."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1234-ic-platform",
       "fit_score": 96,
@@ -9653,7 +9653,7 @@
       "application_id": "app-20260704-okta-staff-software-engineer-data-platfor-4b1e3660",
       "resume_snapshot_path": "applications/resumes/app-20260704-okta-staff-software-engineer-data-platfor-4b1e3660/resume.md",
       "discovered_at": "2026-07-04T12:37:24Z",
-      "updated_at": "2026-07-04T12:37:32Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [
         "Imported from LinkedIn MCP detail at 2026-07-04 12:34 UTC heartbeat pass.",
         "Do not mark applied unless LinkedIn Easy Apply or Okta submission is confirmed."
@@ -10782,7 +10782,7 @@
         "Senior architect role at global US product company with stock grants; validate India total compensation.",
         "15+ years with agentic AI architecture and platform strategy scope."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 97,
@@ -10816,7 +10816,7 @@
       "application_id": "app-20260704-autodesk-software-architect-b63b9113",
       "resume_snapshot_path": "applications/resumes/app-20260704-autodesk-software-architect-b63b9113/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -10835,7 +10835,7 @@
         "Senior Principal role at global US product company with stock grants; validate India total compensation.",
         "15+ years and 5+ years technical leadership for distributed organization."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 96,
@@ -10869,7 +10869,7 @@
       "application_id": "app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77",
       "resume_snapshot_path": "applications/resumes/app-20260704-autodesk-senior-principal-engineer-java-aws-2b7f5b77/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -10888,7 +10888,7 @@
         "Okta is a high-band identity/security platform company; validate India architect/principal compensation.",
         "Posting describes Principal Software Engineer scope with 15+ years and 20+ engineer technical initiatives."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 95,
@@ -10922,7 +10922,7 @@
       "application_id": "app-20260704-okta-software-architect-java-backend-ac5eb19a",
       "resume_snapshot_path": "applications/resumes/app-20260704-okta-software-architect-java-backend-ac5eb19a/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -11206,7 +11206,7 @@
         "Staff remote role at a global DevSecOps/AI agent platform company; validate country hiring and total compensation target with recruiter.",
         "AI governance and enterprise compliance scope aligns with high-impact platform IC profile."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 98,
@@ -11248,7 +11248,7 @@
       "application_id": "app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1",
       "resume_snapshot_path": "applications/resumes/app-20260702-gitlab-staff-backend-engineer-sscs-ai-gover-feb060a1/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-04T07:46:08Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
@@ -11376,7 +11376,7 @@
         "Principal role at a cloud security platform company; validate recruiter-disclosed total compensation.",
         "Requires 12+ years plus 1-2 years as Sr Staff Software Engineer or Lead Engineer."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 96,
@@ -11410,7 +11410,7 @@
       "application_id": "app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2",
       "resume_snapshot_path": "applications/resumes/app-20260704-netskope-principal-engineer-platform-r-d-08c05bb2/resume.md",
       "discovered_at": "2026-07-04T07:45:15Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -17350,7 +17350,7 @@
         "Customer-facing CXO communication, migration modernization, GenAI tooling, and cloud transformation scope are senior-impact signals.",
         "Location ambiguity between Mumbai listing and Delhi/NCR text should be clarified before prioritizing."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-179f69f0",
       "fit_score": 88,
@@ -17394,7 +17394,7 @@
       "application_id": "app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08",
       "resume_snapshot_path": "applications/resumes/app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08/resume.md",
       "discovered_at": "2026-07-02T14:05:33Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T06:46:08Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
