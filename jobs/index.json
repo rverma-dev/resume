@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T05:37:19Z",
+  "updated_at": "2026-07-08T06:10:11Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -2229,7 +2229,7 @@
         "Principal Software Engineer role at Microsoft Azure Data in Bengaluru; Microsoft Principal IC roles are target-comp capable and align with the user's current/next-level IC search.",
         "Azure Data/Fabric AI database platform scope spans cloud-scale databases, distributed storage, query planning/execution, observability, and AI-native agent-driven workloads."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4378782123",
       "fit_score": 96,
@@ -2268,7 +2268,7 @@
       "application_id": "app-20260705-microsoft-principal-software-engineer-fd98f973",
       "resume_snapshot_path": "applications/resumes/app-20260705-microsoft-principal-software-engineer-fd98f973/resume.md",
       "discovered_at": "2026-07-05T01:33:29Z",
-      "updated_at": "2026-07-05T01:33:35Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Snowflake Senior Technical Architect AI/ML was reviewed in the same pass and skipped because it is Professional Services/pre-sales-post-sales oriented."
@@ -3638,7 +3638,7 @@
         "Coupang is explicitly target-compensation-capable in recruiting/config.json for senior AI/platform roles; Senior Staff backend is a credible current/next-level IC.",
         "No exact salary range was visible in the LinkedIn posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-plus-ic-0504",
       "fit_score": 94,
@@ -3697,7 +3697,7 @@
       "application_id": "app-20260704-coupang-sr-staff-backend-engineer-9f74afd4",
       "resume_snapshot_path": "applications/resumes/app-20260704-coupang-sr-staff-backend-engineer-9f74afd4/resume.md",
       "discovered_at": "2026-07-04T05:12:10Z",
-      "updated_at": "2026-07-04T05:12:25Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
       ],
@@ -4850,7 +4850,7 @@
         "Posting describes CFO-level visibility and technical authority for complex data/AI systems.",
         "No salary range visible; Databricks Staff band should be validated with recruiter."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-ai-0634",
       "fit_score": 89,
@@ -4893,7 +4893,7 @@
       "application_id": "app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8",
       "resume_snapshot_path": "applications/resumes/app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8/resume.md",
       "discovered_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -9887,7 +9887,7 @@
       "compensation_signals": [
         "Rubrik Staff cloud security architecture role at public security/AI company is likely compensation-capable; validate exact band before final submission."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1134-ic-rubrik-platform",
       "fit_score": 90,
@@ -9922,7 +9922,7 @@
       "application_id": "app-20260704-rubrik-staff-cloud-security-architect-6577bd5a",
       "resume_snapshot_path": "applications/resumes/app-20260704-rubrik-staff-cloud-security-architect-6577bd5a/resume.md",
       "discovered_at": "2026-07-04T11:36:39Z",
-      "updated_at": "2026-07-04T11:36:48Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -11588,7 +11588,7 @@
         "Staff role at a major data streaming/cloud infrastructure company; validate total compensation target with recruiter.",
         "Horizontal reliability standards/tooling role across a 800-1000 engineer autonomous organization."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 94,
@@ -11622,7 +11622,7 @@
       "application_id": "app-20260704-confluent-staff-software-engineer-i-sre-6a28446b",
       "resume_snapshot_path": "applications/resumes/app-20260704-confluent-staff-software-engineer-i-sre-6a28446b/resume.md",
       "discovered_at": "2026-07-04T07:45:15Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -11641,7 +11641,7 @@
         "Staff role at a major data streaming/cloud infrastructure company; validate total compensation target with recruiter.",
         "Security architecture role across cloud services and on-prem products."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 93,
@@ -11675,7 +11675,7 @@
       "application_id": "app-20260704-confluent-staff-security-engineer-ii-b779f524",
       "resume_snapshot_path": "applications/resumes/app-20260704-confluent-staff-security-engineer-ii-b779f524/resume.md",
       "discovered_at": "2026-07-04T07:45:15Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -12008,7 +12008,7 @@
         "Microsoft principal cloud engineering roles are compensation-relevant at the right band.",
         "No salary range visible on LinkedIn posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-ic-google-microsoft-apple",
       "fit_score": 93,
@@ -12050,7 +12050,7 @@
       "application_id": "app-20260703-microsoft-principal-engineer-be0ba28d",
       "resume_snapshot_path": "applications/resumes/app-20260703-microsoft-principal-engineer-be0ba28d/resume.md",
       "discovered_at": "2026-07-03T18:18:00Z",
-      "updated_at": "2026-07-03T18:18:30Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [
         "Imported from LinkedIn Staff-plus recommendations as a strong IC principal cloud role."
       ],
@@ -12642,7 +12642,7 @@
         "Scope owns enterprise data architecture vision, GenAI/self-service capabilities, RAG, semantic search, data governance, lineage, observability, and model governance.",
         "10-15+ years platform architecture role at high-compensation-likely company; salary is not visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-acd3380a",
       "fit_score": 90,
@@ -12685,7 +12685,7 @@
       "application_id": "app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80",
       "resume_snapshot_path": "applications/resumes/app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
@@ -16805,7 +16805,7 @@
         "Senior Staff payments architecture role",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 92,
@@ -16840,7 +16840,7 @@
       "application_id": "app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129",
       "resume_snapshot_path": "applications/resumes/app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
@@ -16863,7 +16863,7 @@
         "staff platform role at Kafka/data streaming vendor",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 91,
@@ -16898,7 +16898,7 @@
       "application_id": "app-20260702-confluent-staff-software-engineer-i-confluent-b272916e",
       "resume_snapshot_path": "applications/resumes/app-20260702-confluent-staff-software-engineer-i-confluent-b272916e/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-08T06:10:11Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
