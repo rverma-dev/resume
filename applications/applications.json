@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T07:41:58Z",
+  "updated_at": "2026-07-08T08:11:39Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -1469,11 +1469,11 @@
       "company": "AlphaSense",
       "role": "Principal Engineer, Software",
       "location": "India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4431673517",
       "approved_at": "2026-07-05T14:59:20Z",
-      "updated_at": "2026-07-05T14:59:20Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -1500,8 +1500,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-alphasense-principal-engineer-software-b3c240fe/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4431673517 resolved to the official AlphaSense Greenhouse posting https://job-boards.greenhouse.io/alphasense/jobs/8602158002?gh_src=8a5751f62us and the form was inspected.",
+        "Manual completion required: the AlphaSense Greenhouse form requires first/last name, email, phone country/phone, city/location, resume upload, LinkedIn profile, experience range, prior AlphaSense/entity/agency employment answers, reCAPTCHA, and final Submit application. No data was entered, no resume was uploaded, and no external submission was performed."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4431673517 resolved to the official AlphaSense Greenhouse posting https://job-boards.greenhouse.io/alphasense/jobs/8602158002?gh_src=8a5751f62us and the form was inspected.",
+      "last_status_update_id": "status-20260708-alphasense-principal-greenhouse-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the AlphaSense Greenhouse form requires first/last name, email, phone country/phone, city/location, resume upload, LinkedIn profile, experience range, prior AlphaSense/entity/agency employment answers, reCAPTCHA, and final Submit application. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e",
@@ -2171,11 +2178,11 @@
       "company": "Acceldata",
       "role": "Principal Engineer - Open Source Data Platform (ODP)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260705-acceldata-odp-ic",
       "approved_at": "2026-07-05T00:27:57Z",
-      "updated_at": "2026-07-05T00:27:57Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -2212,8 +2219,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-acceldata-principal-engineer-open-source-data-6ca5a687/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4418010079 remains active but is a LinkedIn Easy Apply flow rather than an inspectable off-LinkedIn application URL.",
+        "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact data and complete an external final submission through an unsupported automation flow. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4418010079 remains active but is a LinkedIn Easy Apply flow rather than an inspectable off-LinkedIn application URL.",
+      "last_status_update_id": "status-20260708-acceldata-odp-easy-apply",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact data and complete an external final submission through an unsupported automation flow. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260704-mastercard-principal-engineer-real-time-payment-069eb94b",
@@ -2951,11 +2965,11 @@
       "company": "ServiceTitan",
       "role": "Principal Software Engineer, Data Platform",
       "location": "Greater Kolkata Area, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1534-ic-agentic-data-platform",
       "approved_at": "2026-07-04T15:43:22Z",
-      "updated_at": "2026-07-04T15:43:22Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -3006,8 +3020,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4415593304 resolved to the official ServiceTitan Workday apply URL https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/India-Bangalore-Remote/Principal-Data-Platform-Engineer_JR112936/apply?source=LinkedIn.",
+        "Manual completion required: the official ServiceTitan Workday apply page rendered blank in the controlled browser with no text, fields, or controls, so no usable application form or submit path was available. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4415593304 resolved to the official ServiceTitan Workday apply URL https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/India-Bangalore-Remote/Principal-Data-Platform-Engineer_JR112936/apply?source=LinkedIn.",
+      "last_status_update_id": "status-20260708-servicetitan-data-platform-workday-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the official ServiceTitan Workday apply page rendered blank in the controlled browser with no text, fields, or controls, so no usable application form or submit path was available. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260704-servicenow-senior-staff-ai-native-software-engi-d402bb77",
@@ -3461,11 +3482,11 @@
       "company": "F5",
       "role": "Principal Software Development Engineer",
       "location": "Bangalore Rural District, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1234-ic-platform",
       "approved_at": "2026-07-04T12:37:32Z",
-      "updated_at": "2026-07-04T12:37:32Z",
+      "updated_at": "2026-07-08T08:11:39Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -3515,8 +3536,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-f5-principal-software-development-engin-50c0e123/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4362791763 for F5 Principal Software Development Engineer showed No longer accepting applications.",
+        "Manual completion required: the LinkedIn source is closed/no longer accepting applications and no usable application path was available from the inspected source. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4362791763 for F5 Principal Software Development Engineer showed No longer accepting applications.",
+      "last_status_update_id": "status-20260708-f5-principal-sde-closed-linkedin",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the LinkedIn source is closed/no longer accepting applications and no usable application path was available from the inspected source. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:11:39Z"
     },
     {
       "application_id": "app-20260704-okta-staff-software-engineer-data-platfor-4b1e3660",
@@ -4762,11 +4790,11 @@
       "company": "Toast",
       "role": "Principal Software Engineer",
       "location": "Chennai, Tamil Nadu, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -4792,9 +4820,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-toast-principal-software-engineer-c3d5ec01/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4432369431 resolved to the official Toast careers application page https://careers.toasttab.com/jobs/principal-software-engineer-chennai-tamil-nadu-india?gh_jid=8022867&gh_src=dbd19ebc1 and the form was inspected.",
+        "Manual completion required: the Toast form requires legal first/last name, email, phone, location, postal code, resume/CV upload, legal authorization to work in the job country, future sponsorship answer, Applicant Privacy Statement consent, and final submit. No data was entered, no resume was uploaded, and no external submission was performed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4432369431 resolved to the official Toast careers application page https://careers.toasttab.com/jobs/principal-software-engineer-chennai-tamil-nadu-india?gh_jid=8022867&gh_src=dbd19ebc1 and the form was inspected.",
+      "last_status_update_id": "status-20260708-toast-principal-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Toast form requires legal first/last name, email, phone, location, postal code, resume/CV upload, legal authorization to work in the job country, future sponsorship answer, Applicant Privacy Statement consent, and final submit. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260704-okta-principal-software-engineer-0378711d",
@@ -5367,11 +5402,11 @@
       "company": "SonicWall",
       "role": "Senior Principal Engineer - Go / Golang experience is a must",
       "location": "Pune Division, Maharashtra, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-0704",
       "approved_at": "2026-07-04T07:12:15Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -5405,9 +5440,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4416074840 remains active but is a LinkedIn Easy Apply flow rather than an inspectable off-LinkedIn application URL.",
+        "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact data and complete an external final submission through an unsupported automation flow. No application data was submitted."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4416074840 remains active but is a LinkedIn Easy Apply flow rather than an inspectable off-LinkedIn application URL.",
+      "last_status_update_id": "status-20260708-sonicwall-golang-easy-apply",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact data and complete an external final submission through an unsupported automation flow. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260704-cvent-sre-architect-4147eb8f",
@@ -10792,11 +10834,11 @@
       "company": "Rippling",
       "role": "Staff Software Engineer - Developer Experience",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-ic-staff-plus-bigtech",
       "approved_at": "2026-07-03T18:12:02Z",
-      "updated_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -10831,9 +10873,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4380104127 resolved to the official Rippling ATS application URL https://ats.rippling.com/rippling/jobs/1d52909d-40f7-404b-9a1a-a32717968a20/apply?jobSite=LinkedIn&jobBoardSlug=rippling&jobId=1d52909d-40f7-404b-9a1a-a32717968a20&step=application.",
+        "Manual completion required: the Rippling ATS form requires resume upload, first/last name, email, current company, phone, location, LinkedIn link, SMS consent, immigration policy acknowledgement, privacy/terms agreement, and final Apply. No data was entered, no resume was uploaded, and no external submission was performed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4380104127 resolved to the official Rippling ATS application URL https://ats.rippling.com/rippling/jobs/1d52909d-40f7-404b-9a1a-a32717968a20/apply?jobSite=LinkedIn&jobBoardSlug=rippling&jobId=1d52909d-40f7-404b-9a1a-a32717968a20&step=application.",
+      "last_status_update_id": "status-20260708-rippling-devex-ats-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Rippling ATS form requires resume upload, first/last name, email, current company, phone, location, LinkedIn link, SMS consent, immigration policy acknowledgement, privacy/terms agreement, and final Apply. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260703-vonage-staff-architect-golang-distributed-s-68a3d3c4",
@@ -11363,11 +11412,11 @@
       "company": "eBay",
       "role": "Principal Architect",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -11401,12 +11450,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-ebay-principal-architect-05d225bf/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4409208084 resolved to the official eBay careers detail page and apply URL https://jobs.ebayinc.com/us/en/apply?jobSeqNo=EBAEBAUSR0074327EXTERNALENUS&utm_source=linkedin&utm_medium=phenom-feeds.",
+        "Manual completion required: the eBay application includes My Information, My Experience, Application Questions, Voluntary Disclosures, and Review steps; visible required fields include resume upload, country, legal given/family name, city, email, phone country code, and phone number. No data was entered, no resume was uploaded, and no external submission was performed."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Application not submitted. LinkedIn job 4409208084 resolved to the official eBay careers detail page and apply URL https://jobs.ebayinc.com/us/en/apply?jobSeqNo=EBAEBAUSR0074327EXTERNALENUS&utm_source=linkedin&utm_medium=phenom-feeds.",
+      "last_status_update_id": "status-20260708-ebay-principal-architect-phenom-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the eBay application includes My Information, My Experience, Application Questions, Voluntary Disclosures, and Review steps; visible required fields include resume upload, country, legal given/family name, city, email, phone country code, and phone number. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260703-stripe-engineering-manager-operations-infra-51e5b8bf",
@@ -11670,11 +11726,11 @@
       "company": "ThoughtSpot",
       "role": "Principal Engineer (Cloud Platforms)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -11700,12 +11756,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4427268518 remains active but is a LinkedIn Easy Apply flow rather than an inspectable off-LinkedIn application URL.",
+        "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact data and complete an external final submission through an unsupported automation flow. No application data was submitted."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Application not submitted. LinkedIn job 4427268518 remains active but is a LinkedIn Easy Apply flow rather than an inspectable off-LinkedIn application URL.",
+      "last_status_update_id": "status-20260708-thoughtspot-cloud-platforms-easy-apply",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: LinkedIn Easy Apply would transmit LinkedIn profile/contact data and complete an external final submission through an unsupported automation flow. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b",
@@ -12821,11 +12884,11 @@
       "company": "Intuit",
       "role": "Principal Engineer, Builder",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -12858,12 +12921,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4426107189 resolved to the active Intuit careers page and the official Avature apply URL https://intuit.avature.net/en_US/externalCareers/JobApplication?pipelineId=22103&cid=job_li_click_in_active-fy20_cn_text_job_intuit-talent was inspected.",
+        "Manual completion required: the Intuit Avature application requires existing-user login or a first-time flow with resume upload/paste/manual resume, Applicant Privacy Statement acknowledgement/processing consent, personal information, downstream EEO steps, and final submission. No data was entered, no resume was uploaded, and no external submission was performed."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "Application not submitted. LinkedIn job 4426107189 resolved to the active Intuit careers page and the official Avature apply URL https://intuit.avature.net/en_US/externalCareers/JobApplication?pipelineId=22103&cid=job_li_click_in_active-fy20_cn_text_job_intuit-talent was inspected.",
+      "last_status_update_id": "status-20260708-intuit-builder-avature-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Intuit Avature application requires existing-user login or a first-time flow with resume upload/paste/manual resume, Applicant Privacy Statement acknowledgement/processing consent, personal information, downstream EEO steps, and final submission. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260702-coupang-director-backend-engineering-ai-infr-70c5c61a",
@@ -13222,11 +13292,11 @@
       "company": "NVIDIA",
       "role": "Senior Manager, Cloud Services Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-03T17:49:58Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -13260,12 +13330,19 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Compensation override: NVIDIA senior manager/principal/director AI-platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
+        "Compensation override: NVIDIA senior manager/principal/director AI-platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians.",
+        "Application not submitted. LinkedIn job 4434366858 resolved to the official NVIDIA Workday posting for JR2020099 and the apply page was inspected.",
+        "Manual completion required: the NVIDIA Workday page starts with Autofill with Resume, Apply Manually, or Use My Last Application, and proceeding would transmit candidate data and likely require resume upload plus downstream Workday application/legal questions. No data was entered, no resume was uploaded, and no external submission was performed."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "Application not submitted. LinkedIn job 4434366858 resolved to the official NVIDIA Workday posting for JR2020099 and the apply page was inspected.",
+      "last_status_update_id": "status-20260708-nvidia-cloud-services-workday-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the NVIDIA Workday page starts with Autofill with Resume, Apply Manually, or Use My Last Application, and proceeding would transmit candidate data and likely require resume upload plus downstream Workday application/legal questions. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:11:38Z"
     },
     {
       "application_id": "app-20260702-magnit-global-director-engineering-7864387c",

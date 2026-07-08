@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T07:41:58Z",
+  "updated_at": "2026-07-08T08:11:39Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -970,7 +970,7 @@
       "compensation_signals": [
         "Principal IC role at AlphaSense, an AI search and market intelligence platform with 2,000+ employees; posting does not disclose salary."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4431673517",
       "fit_score": 94,
@@ -1007,7 +1007,7 @@
       "application_id": "app-20260705-alphasense-principal-engineer-software-b3c240fe",
       "resume_snapshot_path": "applications/resumes/app-20260705-alphasense-principal-engineer-software-b3c240fe/resume.md",
       "discovered_at": "2026-07-05T14:59:12Z",
-      "updated_at": "2026-07-05T14:59:20Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
       ],
@@ -2603,7 +2603,7 @@
         "Principal IC role at a funded enterprise data observability and agentic data management company; compensation needs validation but scope is senior and platform-critical.",
         "15+ year distributed systems/data infrastructure requirement and CTO/VP/Product leadership interface suggest current/next-level senior IC scope."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260705-acceldata-odp-ic",
       "fit_score": 94,
@@ -2649,7 +2649,7 @@
       "application_id": "app-20260705-acceldata-principal-engineer-open-source-data-6ca5a687",
       "resume_snapshot_path": "applications/resumes/app-20260705-acceldata-principal-engineer-open-source-data-6ca5a687/resume.md",
       "discovered_at": "2026-07-05T00:27:50Z",
-      "updated_at": "2026-07-05T00:27:57Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [
         "LinkedIn MCP verification: job 4418010079, reposted 8 hours ago, 95 applicants, on-site Bengaluru, Easy Apply.",
         "Application should remain approval-gated because Easy Apply may require candidate-confirmed profile/legal/work-auth/EEO answers."
@@ -4976,7 +4976,7 @@
         "Role owns API platform architecture for Cloud Secure Edge and Zero Trust access.",
         "No salary range visible; compensation target requires recruiter validation."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-0704",
       "fit_score": 94,
@@ -5019,7 +5019,7 @@
       "application_id": "app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43",
       "resume_snapshot_path": "applications/resumes/app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43/resume.md",
       "discovered_at": "2026-07-04T07:11:58Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -9068,7 +9068,7 @@
         "Principal remote data platform role at a US SaaS company; compensation must be confirmed but title and scope are next-level aligned.",
         "Scope covers semantic model architecture, data governance, agentic analytics, and platform abstractions consumed by multiple product teams."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1534-ic-agentic-data-platform",
       "fit_score": 94,
@@ -9127,7 +9127,7 @@
       "application_id": "app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc",
       "resume_snapshot_path": "applications/resumes/app-20260704-servicetitan-principal-software-engineer-data-pla-7b766edc/resume.md",
       "discovered_at": "2026-07-04T15:43:14Z",
-      "updated_at": "2026-07-04T15:43:22Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-04 heartbeat.",
         "Responses managed off LinkedIn; no external application submission attempted in this import."
@@ -9674,7 +9674,7 @@
       "compensation_signals": [
         "Principal role at F5, a public app delivery/security platform company; validate India Principal band and equity against 2.5cr+ target."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1234-ic-platform",
       "fit_score": 94,
@@ -9732,7 +9732,7 @@
       "application_id": "app-20260704-f5-principal-software-development-engin-50c0e123",
       "resume_snapshot_path": "applications/resumes/app-20260704-f5-principal-software-development-engin-50c0e123/resume.md",
       "discovered_at": "2026-07-04T12:37:24Z",
-      "updated_at": "2026-07-04T12:37:32Z",
+      "updated_at": "2026-07-08T08:11:39Z",
       "notes": [
         "Imported from LinkedIn MCP detail at 2026-07-04 12:34 UTC heartbeat pass.",
         "Do not mark applied unless external F5 submission is confirmed."
@@ -10994,7 +10994,7 @@
         "Principal Engineer at US product company with equity; validate India total compensation band.",
         "12+ years backend/distributed systems requirement."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 94,
@@ -11028,7 +11028,7 @@
       "application_id": "app-20260704-toast-principal-software-engineer-c3d5ec01",
       "resume_snapshot_path": "applications/resumes/app-20260704-toast-principal-software-engineer-c3d5ec01/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -11694,7 +11694,7 @@
         "Rippling is a late-stage high-growth platform company; staff platform roles are compensation-relevant, though no salary range is visible.",
         "Role scope is high-leverage developer platform with 1000+ engineer shipping velocity impact."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-ic-staff-plus-bigtech",
       "fit_score": 95,
@@ -11737,7 +11737,7 @@
       "application_id": "app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d",
       "resume_snapshot_path": "applications/resumes/app-20260703-rippling-staff-software-engineer-developer-ex-8234af1d/resume.md",
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [
         "Imported from targeted IC Staff-plus search after user requested IC-only high-comp application track."
       ],
@@ -12255,7 +12255,7 @@
         "Posting describes this as a director-level IC role for foundational distributed data platform systems used company-wide.",
         "Scope includes real-time, batch, AI systems, platform operability, developer productivity, and cost efficiency; salary is not visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-acd3380a",
       "fit_score": 95,
@@ -12298,7 +12298,7 @@
       "application_id": "app-20260703-ebay-principal-architect-05d225bf",
       "resume_snapshot_path": "applications/resumes/app-20260703-ebay-principal-architect-05d225bf/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
@@ -12321,7 +12321,7 @@
         "Scope includes multi-tenant SaaS, control plane/data plane, hybrid cloud, security, observability, and India platform-team growth.",
         "High-ownership platform role likely above standard IC bands, though salary and equity are not visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-acd3380a",
       "fit_score": 95,
@@ -12356,7 +12356,7 @@
       "application_id": "app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23",
       "resume_snapshot_path": "applications/resumes/app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
@@ -15503,7 +15503,7 @@
         "priority high-paying company",
         "Principal Engineer role eligible for cash bonus, equity rewards and benefits; exact local range not visible"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-003",
       "fit_score": 95,
@@ -15547,7 +15547,7 @@
       "application_id": "app-20260702-intuit-principal-engineer-builder-54c02674",
       "resume_snapshot_path": "applications/resumes/app-20260702-intuit-principal-engineer-builder-54c02674/resume.md",
       "discovered_at": "2026-07-02T13:04:46Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
@@ -16163,7 +16163,7 @@
         "user-provided payband signal: NVIDIA senior manager/principal/director AI-platform roles can meet 2.5cr+ total compensation at the right band",
         "NVIDIA role mentions competitive salary and benefits but no exact compensation"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 95,
@@ -16206,7 +16206,7 @@
       "application_id": "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
       "resume_snapshot_path": "applications/resumes/app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-03T17:49:58Z",
+      "updated_at": "2026-07-08T08:11:38Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
