@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T08:11:39Z",
+  "updated_at": "2026-07-08T08:42:22Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -272,7 +272,7 @@
         "Principal Engineer role with company-level technical direction, competitive compensation, and meaningful equity at an AI-native insurance platform company.",
         "Remote-first role owning architecture and technical strategy across AI, data, infrastructure, and product for a SOC 2 Type II certified, single-tenant AI platform."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4437118467",
       "fit_score": 93,
@@ -317,7 +317,7 @@
       "application_id": "app-20260705-outmarket-ai-principal-software-engineer-23c2c644",
       "resume_snapshot_path": "applications/resumes/app-20260705-outmarket-ai-principal-software-engineer-23c2c644/resume.md",
       "discovered_at": "2026-07-05T23:41:26Z",
-      "updated_at": "2026-07-05T23:41:33Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
@@ -402,7 +402,7 @@
         "Cisco is a major global infrastructure/software company; Technical Leader at 12+ years may map to a Staff-equivalent IC band, but exact India compensation must be validated against the 2.5cr+ target.",
         "Webex Data Analytics Platform scope covers distributed systems, big-data platform, Kafka/microservices/cloud, scalability, reliability, and architecture influence."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4436981002",
       "fit_score": 91,
@@ -441,7 +441,7 @@
       "application_id": "app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0",
       "resume_snapshot_path": "applications/resumes/app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0/resume.md",
       "discovered_at": "2026-07-05T03:27:39Z",
-      "updated_at": "2026-07-05T03:27:45Z",
+      "updated_at": "2026-07-08T08:42:22Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Earlier Cisco Network Systems Engineer was rejected for networking-specialist underfit; this Webex Data Analytics Platform Technical Leader posting is broader distributed platform engineering."
@@ -1202,7 +1202,7 @@
         "Senior Staff engineering role at Zscaler, a public zero-trust cloud security platform company with global scale.",
         "Security infrastructure role on network applications, Linux system programming, cloud networking, and AI-driven traffic analysis/anomaly-detection capabilities."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4418616012",
       "fit_score": 90,
@@ -1247,7 +1247,7 @@
       "application_id": "app-20260706-zscaler-senior-staff-software-development-en-8fedd092",
       "resume_snapshot_path": "applications/resumes/app-20260706-zscaler-senior-staff-software-development-en-8fedd092/resume.md",
       "discovered_at": "2026-07-06T00:40:13Z",
-      "updated_at": "2026-07-06T00:40:27Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
@@ -1268,7 +1268,7 @@
         "Engineering role at OpenAI focused on Codex, frontier models, APIs, agents, developer tools, and global developer adoption.",
         "Remote India role with APAC travel, cross-functional product/engineering/research/GTM collaboration, and direct contribution to developer product surfaces."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4417164255",
       "fit_score": 90,
@@ -1313,7 +1313,7 @@
       "application_id": "app-20260705-openai-developer-experience-engineer-47e6a7c5",
       "resume_snapshot_path": "applications/resumes/app-20260705-openai-developer-experience-engineer-47e6a7c5/resume.md",
       "discovered_at": "2026-07-05T23:11:04Z",
-      "updated_at": "2026-07-05T23:11:14Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],
@@ -1334,7 +1334,7 @@
         "LinkedIn posting states equity for all India employees and comprehensive private benefits.",
         "Staff-level cloud security platform role at global cybersecurity company; compensation target is plausible but not confirmed."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4417155908",
       "fit_score": 91,
@@ -1373,7 +1373,7 @@
       "application_id": "app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8",
       "resume_snapshot_path": "applications/resumes/app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8/resume.md",
       "discovered_at": "2026-07-05T12:28:51Z",
-      "updated_at": "2026-07-05T12:28:56Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from previously rejected Arctic Wolf Senior Staff Backend posting linkedin:4426946202."
@@ -1580,7 +1580,7 @@
         "Staff title, finance-platform correctness, ledgers, AI-first design, and platform ownership are credible current/next-level signals; keep stretch-first rather than rejecting solely on sparse public India bands.",
         "Bengaluru role avoids US-only/H1B exclusion risk, but on-site policy requires validation."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4411285350",
       "fit_score": 91,
@@ -1621,7 +1621,7 @@
       "application_id": "app-20260705-rippling-staff-software-engineer-variable-com-05bf413a",
       "resume_snapshot_path": "applications/resumes/app-20260705-rippling-staff-software-engineer-variable-com-05bf413a/resume.md",
       "discovered_at": "2026-07-05T11:26:03Z",
-      "updated_at": "2026-07-05T11:26:12Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Selected despite not being on the explicit target-company list because the Staff-level AI-first finance-platform scope is high-signal and likely high-comp enough to validate."
@@ -1644,7 +1644,7 @@
         "Posting states market-leading salary, equity/RSUs or comparable benefits depending on country limitations, health insurance, stipends, and home-office support.",
         "Remote India Staff-level data platform role at a leading modern data stack company; compensation target is plausible but not confirmed."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4409084088",
       "fit_score": 91,
@@ -1684,7 +1684,7 @@
       "application_id": "app-20260705-dbt-labs-staff-software-engineer-semantic-lay-81ea6dbb",
       "resume_snapshot_path": "applications/resumes/app-20260705-dbt-labs-staff-software-engineer-semantic-lay-81ea6dbb/resume.md",
       "discovered_at": "2026-07-05T13:27:15Z",
-      "updated_at": "2026-07-05T13:27:21Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from archived dbt Labs Staff Software Engineer linkedin:4344231386."
@@ -1837,7 +1837,7 @@
         "Enterprise-scale cloud delivery platform supporting 50+ development teams across a 1001-5000 employee global software company.",
         "Compensation target is plausible for a remote India Principal platform role but not confirmed by public pay range."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4400557914",
       "fit_score": 92,
@@ -1877,7 +1877,7 @@
       "application_id": "app-20260705-insightsoftware-principal-platform-engineer-229101e7",
       "resume_snapshot_path": "applications/resumes/app-20260705-insightsoftware-principal-platform-engineer-229101e7/resume.md",
       "discovered_at": "2026-07-05T13:57:08Z",
-      "updated_at": "2026-07-05T13:57:14Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from archived insightsoftware Senior Platform Engineer linkedin:4427042094."
@@ -2033,7 +2033,7 @@
         "LinkedIn posting states equity for all India employees and comprehensive private benefits.",
         "Senior Staff DevOps/SRE role at a global cybersecurity platform company; compensation target is plausible but not confirmed."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4390930020",
       "fit_score": 90,
@@ -2073,7 +2073,7 @@
       "application_id": "app-20260705-arctic-wolf-senior-staff-devops-aa17de2e",
       "resume_snapshot_path": "applications/resumes/app-20260705-arctic-wolf-senior-staff-devops-aa17de2e/resume.md",
       "discovered_at": "2026-07-05T12:57:59Z",
-      "updated_at": "2026-07-05T12:58:05Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "LinkedIn says responses are managed off LinkedIn; application submission not attempted in this import.",
         "Distinct from Arctic Wolf Staff Developer - Endpoint - Cloud linkedin:4417155908 and previously rejected Senior Staff Backend linkedin:4426946202."
@@ -2353,7 +2353,7 @@
       "compensation_signals": [
         "Staff IC role at Harness, an AI software delivery platform company valued around $5.5B per posting; posting does not disclose salary."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4315411540",
       "fit_score": 91,
@@ -2391,7 +2391,7 @@
       "application_id": "app-20260705-harness-staff-security-research-engineer-57fb1a0f",
       "resume_snapshot_path": "applications/resumes/app-20260705-harness-staff-security-research-engineer-57fb1a0f/resume.md",
       "discovered_at": "2026-07-05T15:26:45Z",
-      "updated_at": "2026-07-05T15:26:52Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
       ],
@@ -2412,7 +2412,7 @@
         "Principal Engineer role at Sage/Fyle with 10+ years required and cross-team architecture influence across backend SaaS systems.",
         "Global expense management product running on AWS EKS/Kubernetes, Python/Flask microservices, PostgreSQL, RabbitMQ, and event-driven distributed architecture."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4304686818",
       "fit_score": 87,
@@ -2457,7 +2457,7 @@
       "application_id": "app-20260705-sage-principal-engineer-adb933fa",
       "resume_snapshot_path": "applications/resumes/app-20260705-sage-principal-engineer-adb933fa/resume.md",
       "discovered_at": "2026-07-05T22:42:12Z",
-      "updated_at": "2026-07-05T22:42:19Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "notes": [
         "Imported from LinkedIn MCP get_job_details on 2026-07-06; no external application submitted."
       ],

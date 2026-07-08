@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T08:11:39Z",
+  "updated_at": "2026-07-08T08:42:22Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -952,11 +952,11 @@
       "company": "Zscaler",
       "role": "Senior Staff Software Development Engineering",
       "location": "Bengaluru East, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4418616012",
       "approved_at": "2026-07-06T00:40:27Z",
-      "updated_at": "2026-07-06T00:40:27Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -991,8 +991,15 @@
       "resume_theme_path": "applications/resumes/app-20260706-zscaler-senior-staff-software-development-en-8fedd092/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4418616012 remains active and its Apply link resolves to the official Zscaler Greenhouse application https://job-boards.greenhouse.io/zscaler/jobs/5140595007?gh_src=c9f3d7237&trid=2d92f286-613b-4daf-9dfa-6340ffbecf73.",
+        "Manual completion required: the Zscaler Greenhouse form requires first/last name, email, phone country/phone, resume upload or manual resume entry, LinkedIn/website/source fields, current company/title, home address, required checkbox acknowledgements including GDPR demographic-data consent, and final Submit application. No data was entered, no resume was uploaded, and no external submission was performed."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4418616012 remains active and its Apply link resolves to the official Zscaler Greenhouse application https://job-boards.greenhouse.io/zscaler/jobs/5140595007?gh_src=c9f3d7237&trid=2d92f286-613b-4daf-9dfa-6340ffbecf73.",
+      "last_status_update_id": "status-20260708-zscaler-senior-staff-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Zscaler Greenhouse form requires first/last name, email, phone country/phone, resume upload or manual resume entry, LinkedIn/website/source fields, current company/title, home address, required checkbox acknowledgements including GDPR demographic-data consent, and final Submit application. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260706-arctic-wolf-senior-staff-developer-ai-soc-automa-52e961d8",
@@ -1055,11 +1062,11 @@
       "company": "Outmarket AI",
       "role": "Principal Software Engineer",
       "location": "India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4437118467",
       "approved_at": "2026-07-05T23:41:33Z",
-      "updated_at": "2026-07-05T23:41:33Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -1094,8 +1101,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-outmarket-ai-principal-software-engineer-23c2c644/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4437118467 remains active and its Apply link resolves to the official Outmarket Ashby application https://jobs.ashbyhq.com/outmarket/7db23952-fb3c-42fa-81c0-5fd485e6849b/application?utm_source=lWe5k3rD08.",
+        "Manual completion required: the Outmarket Ashby form requires name, email, required resume upload, a required free-text answer to What interests you about Outmarket?, reCAPTCHA, and final Submit Application. The required custom answer and final submission need user-owned input; no data was entered, no resume was uploaded, and no external submission was performed."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4437118467 remains active and its Apply link resolves to the official Outmarket Ashby application https://jobs.ashbyhq.com/outmarket/7db23952-fb3c-42fa-81c0-5fd485e6849b/application?utm_source=lWe5k3rD08.",
+      "last_status_update_id": "status-20260708-outmarket-principal-ashby-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Outmarket Ashby form requires name, email, required resume upload, a required free-text answer to What interests you about Outmarket?, reCAPTCHA, and final Submit Application. The required custom answer and final submission need user-owned input; no data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-openai-developer-experience-engineer-47e6a7c5",
@@ -1107,11 +1121,11 @@
       "company": "OpenAI",
       "role": "Developer Experience Engineer",
       "location": "India / Bengaluru; remote with APAC travel",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4417164255",
       "approved_at": "2026-07-05T23:11:14Z",
-      "updated_at": "2026-07-05T23:11:14Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -1146,8 +1160,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-openai-developer-experience-engineer-47e6a7c5/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4417164255 for OpenAI Developer Experience Engineer showed No longer accepting applications during the 2026-07-08 verification pass.",
+        "Manual completion required: the LinkedIn source is closed/no longer accepting applications and no usable application path was available from the inspected source. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4417164255 for OpenAI Developer Experience Engineer showed No longer accepting applications during the 2026-07-08 verification pass.",
+      "last_status_update_id": "status-20260708-openai-devex-closed-linkedin",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the LinkedIn source is closed/no longer accepting applications and no usable application path was available from the inspected source. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-sage-principal-engineer-adb933fa",
@@ -1159,11 +1180,11 @@
       "company": "Sage",
       "role": "Principal Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4304686818",
       "approved_at": "2026-07-05T22:42:19Z",
-      "updated_at": "2026-07-05T22:42:19Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 87,
@@ -1198,8 +1219,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-sage-principal-engineer-adb933fa/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4304686818 remains active and its Apply link resolves to the official Sage Salesforce application https://sagehr.my.salesforce-sites.com/careers/fRecruit__ApplyJob?vacancyNo=VN33160&source=LinkedIn.",
+        "Manual completion required: the Sage Salesforce application URL reached a Principal Engineer job-detail title but rendered no readable body text, fields, controls, or submit path in the controlled browser. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4304686818 remains active and its Apply link resolves to the official Sage Salesforce application https://sagehr.my.salesforce-sites.com/careers/fRecruit__ApplyJob?vacancyNo=VN33160&source=LinkedIn.",
+      "last_status_update_id": "status-20260708-sage-principal-salesforce-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Sage Salesforce application URL reached a Principal Engineer job-detail title but rendered no readable body text, fields, controls, or submit path in the controlled browser. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-amazon-web-services-aws-sr-solution-architect-startups-1779d147",
@@ -1424,11 +1452,11 @@
       "company": "Harness",
       "role": "Staff Security Research Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4315411540",
       "approved_at": "2026-07-05T15:26:52Z",
-      "updated_at": "2026-07-05T15:26:52Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -1456,8 +1484,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-harness-staff-security-research-engineer-57fb1a0f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4315411540 remains active and its Apply link resolves to the official Harness application page https://www.harness.io/company/jobs/apply?gh_jid=4948399007&gh_src=3ed167d67us; the Greenhouse embed was inspected at https://boards.greenhouse.io/embed/job_app?for=harnessinc&token=4948399007&gh_src=3ed167d67us.",
+        "Manual completion required: the Harness Greenhouse form requires first/last name, email, phone country/phone, resume upload or manual entry, LinkedIn profile, reCAPTCHA, and final Submit application. No data was entered, no resume was uploaded, and no external submission was performed."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4315411540 remains active and its Apply link resolves to the official Harness application page https://www.harness.io/company/jobs/apply?gh_jid=4948399007&gh_src=3ed167d67us; the Greenhouse embed was inspected at https://boards.greenhouse.io/embed/job_app?for=harnessinc&token=4948399007&gh_src=3ed167d67us.",
+      "last_status_update_id": "status-20260708-harness-security-research-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Harness Greenhouse form requires first/last name, email, phone country/phone, resume upload or manual entry, LinkedIn profile, reCAPTCHA, and final Submit application. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-alphasense-principal-engineer-software-b3c240fe",
@@ -1571,11 +1606,11 @@
       "company": "insightsoftware",
       "role": "Principal Platform Engineer",
       "location": "India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4400557914",
       "approved_at": "2026-07-05T13:57:14Z",
-      "updated_at": "2026-07-05T13:57:14Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -1606,8 +1641,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-insightsoftware-principal-platform-engineer-229101e7/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4400557914 remains active and its Apply link resolves to the official insightsoftware Workday target https://magnitudesoftware.wd1.myworkdayjobs.com/External/job/India---Remote/Principal-Platform-Engineer_REQ000467?source=LinkedIn.",
+        "Manual completion required: the official insightsoftware Workday URL rendered blank in the controlled browser with no text, fields, controls, or apply/submit path. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4400557914 remains active and its Apply link resolves to the official insightsoftware Workday target https://magnitudesoftware.wd1.myworkdayjobs.com/External/job/India---Remote/Principal-Platform-Engineer_REQ000467?source=LinkedIn.",
+      "last_status_update_id": "status-20260708-insightsoftware-platform-workday-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the official insightsoftware Workday URL rendered blank in the controlled browser with no text, fields, controls, or apply/submit path. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-dbt-labs-staff-software-engineer-semantic-lay-81ea6dbb",
@@ -1619,11 +1661,11 @@
       "company": "dbt Labs",
       "role": "Staff Software Engineer - Semantic Layer",
       "location": "India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4409084088",
       "approved_at": "2026-07-05T13:27:21Z",
-      "updated_at": "2026-07-05T13:27:21Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -1654,8 +1696,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-dbt-labs-staff-software-engineer-semantic-lay-81ea6dbb/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4409084088 for dbt Labs Staff Software Engineer - Semantic Layer showed No longer accepting applications during the 2026-07-08 verification pass.",
+        "Manual completion required: the LinkedIn source is closed/no longer accepting applications and no usable application path was available from the inspected source. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4409084088 for dbt Labs Staff Software Engineer - Semantic Layer showed No longer accepting applications during the 2026-07-08 verification pass.",
+      "last_status_update_id": "status-20260708-dbt-semantic-layer-closed-linkedin",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the LinkedIn source is closed/no longer accepting applications and no usable application path was available from the inspected source. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-arctic-wolf-senior-staff-devops-aa17de2e",
@@ -1667,11 +1716,11 @@
       "company": "Arctic Wolf",
       "role": "Senior Staff - DevOps",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4390930020",
       "approved_at": "2026-07-05T12:58:05Z",
-      "updated_at": "2026-07-05T12:58:05Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -1702,8 +1751,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-arctic-wolf-senior-staff-devops-aa17de2e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4390930020 remains active and its Apply link resolves to the official Arctic Wolf Workday target https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Senior-Staff--Devops_R26_333?gh_src=8cf3ad402us&source=LinkedIn.",
+        "Manual completion required: the official Arctic Wolf Workday URL rendered blank in the controlled browser with no text, fields, controls, or apply/submit path. The posting also includes U.S. export-control language, so any downstream legal/export-control answer must be user-confirmed. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4390930020 remains active and its Apply link resolves to the official Arctic Wolf Workday target https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Senior-Staff--Devops_R26_333?gh_src=8cf3ad402us&source=LinkedIn.",
+      "last_status_update_id": "status-20260708-arctic-wolf-devops-workday-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the official Arctic Wolf Workday URL rendered blank in the controlled browser with no text, fields, controls, or apply/submit path. The posting also includes U.S. export-control language, so any downstream legal/export-control answer must be user-confirmed. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8",
@@ -1715,11 +1771,11 @@
       "company": "Arctic Wolf",
       "role": "Staff Developer - Endpoint - Cloud",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4417155908",
       "approved_at": "2026-07-05T12:28:56Z",
-      "updated_at": "2026-07-05T12:28:56Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -1749,8 +1805,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-arctic-wolf-staff-developer-endpoint-cloud-f96e3dd8/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4417155908 remains active and its Apply link resolves to the official Arctic Wolf Workday target https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Staff-Developer---Endpoint---Cloud_R26_545?gh_src=8cf3ad402us&source=LinkedIn.",
+        "Manual completion required: the official Arctic Wolf Workday URL rendered blank in the controlled browser with no text, fields, controls, or apply/submit path. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4417155908 remains active and its Apply link resolves to the official Arctic Wolf Workday target https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Staff-Developer---Endpoint---Cloud_R26_545?gh_src=8cf3ad402us&source=LinkedIn.",
+      "last_status_update_id": "status-20260708-arctic-wolf-endpoint-workday-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the official Arctic Wolf Workday URL rendered blank in the controlled browser with no text, fields, controls, or apply/submit path. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-databricks-staff-software-engineer-search-quali-a26d5886",
@@ -1817,11 +1880,11 @@
       "company": "Rippling",
       "role": "Staff Software Engineer - Variable Compensation",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4411285350",
       "approved_at": "2026-07-05T11:26:12Z",
-      "updated_at": "2026-07-05T11:26:12Z",
+      "updated_at": "2026-07-08T08:42:21Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -1852,8 +1915,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-rippling-staff-software-engineer-variable-com-05bf413a/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4411285350 remains active and its Apply link resolves to the official Rippling ATS job page; the application form was inspected at https://ats.rippling.com/rippling/jobs/81ca0f36-171e-48e2-8480-127124e7da8c/apply?jobSite=LinkedIn&jobBoardSlug=rippling&jobId=81ca0f36-171e-48e2-8480-127124e7da8c&step=application.",
+        "Manual completion required: the Rippling ATS form requires resume upload, first/last name, email, current company, phone, location, LinkedIn link, SMS consent yes/no, privacy/terms acknowledgement by clicking Apply, and final Apply. No data was entered, no resume was uploaded, and no external submission was performed."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4411285350 remains active and its Apply link resolves to the official Rippling ATS job page; the application form was inspected at https://ats.rippling.com/rippling/jobs/81ca0f36-171e-48e2-8480-127124e7da8c/apply?jobSite=LinkedIn&jobBoardSlug=rippling&jobId=81ca0f36-171e-48e2-8480-127124e7da8c&step=application.",
+      "last_status_update_id": "status-20260708-rippling-variable-comp-ats-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Rippling ATS form requires resume upload, first/last name, email, current company, phone, location, LinkedIn link, SMS consent yes/no, privacy/terms acknowledgement by clicking Apply, and final Apply. No data was entered, no resume was uploaded, and no external submission was performed.",
+      "manual_action_at": "2026-07-08T08:42:21Z"
     },
     {
       "application_id": "app-20260705-zscaler-sr-staff-software-development-engine-a5552f31",
@@ -2030,11 +2100,11 @@
       "company": "Cisco",
       "role": "Technical Leader, Software Engineering - Java/Go, Distributed Systems, Kafka, Microservices, Cloud",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4436981002",
       "approved_at": "2026-07-05T03:27:45Z",
-      "updated_at": "2026-07-05T03:27:45Z",
+      "updated_at": "2026-07-08T08:42:22Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -2064,8 +2134,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-cisco-technical-leader-software-engineerin-a5b40cb0/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4436981002 remains active and its Apply link resolves to the official Cisco careers page https://careers.cisco.com/global/en/job/CISCISGLOBAL2018750EXTERNALENGLOBAL/Technical-Leader-Software-Engineering-Java-Go-Distributed-Systems-Kafka-Microservices-Cloud-12-Years?utm_source=linkedin&utm_medium=phenom-feeds.",
+        "Manual completion required: the official Cisco careers URL loaded the job-title page shell but rendered no readable body text, application fields, Apply control, or submit path in the controlled browser. No application data was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4436981002 remains active and its Apply link resolves to the official Cisco careers page https://careers.cisco.com/global/en/job/CISCISGLOBAL2018750EXTERNALENGLOBAL/Technical-Leader-Software-Engineering-Java-Go-Distributed-Systems-Kafka-Microservices-Cloud-12-Years?utm_source=linkedin&utm_medium=phenom-feeds.",
+      "last_status_update_id": "status-20260708-cisco-technical-leader-phenom-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the official Cisco careers URL loaded the job-title page shell but rendered no readable body text, application fields, Apply control, or submit path in the controlled browser. No application data was submitted.",
+      "manual_action_at": "2026-07-08T08:42:22Z"
     },
     {
       "application_id": "app-20260705-agoda-principal-software-engineer-back-end-6936ae98",
