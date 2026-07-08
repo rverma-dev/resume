@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T16:55:16Z",
+  "updated_at": "2026-07-08T17:23:36Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -6437,11 +6437,11 @@
       "company": "Zscaler",
       "role": "Principal DevSecOps Engineer (Design/Architecture)",
       "location": "Bengaluru East, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-security-platform-ic-0604",
       "approved_at": "2026-07-04T06:10:42Z",
-      "updated_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-08T17:23:36Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -6477,9 +6477,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Zscaler Greenhouse form requires resume upload, source, legal right-to-work and future work-permit/visa answers, current/previous Zscaler employment answers, current company/title, government-procurement disclosure, home address, sex/demographic consent answers, and reCAPTCHA before final submit."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1717-zscaler-devsecops",
+      "manual_action_required": true,
+      "manual_action_reason": "Zscaler Greenhouse form requires resume upload, source, legal right-to-work and future work-permit/visa answers, current/previous Zscaler employment answers, current company/title, government-procurement disclosure, home address, sex/demographic consent answers, and reCAPTCHA before final submit.",
+      "manual_action_at": "2026-07-08T17:23:36Z"
     },
     {
       "application_id": "app-20260704-oracle-principal-software-engineer-62bba00e",
@@ -6557,11 +6564,11 @@
       "company": "Abnormal AI",
       "role": "Staff Software Engineer - MPP Growth",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-plus-ic-0534",
       "approved_at": "2026-07-04T05:37:16Z",
-      "updated_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -6597,9 +6604,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-abnormal-ai-staff-software-engineer-mpp-growth-fc37d8ce/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Abnormal AI Greenhouse form requires resume upload, preferred name/surname, postal code, LinkedIn, current company, work-eligibility and immigration-sponsorship answers, current/former Abnormal employment answers, and reCAPTCHA before final submit."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1717-abnormal-mpp-growth",
+      "manual_action_required": true,
+      "manual_action_reason": "Abnormal AI Greenhouse form requires resume upload, preferred name/surname, postal code, LinkedIn, current company, work-eligibility and immigration-sponsorship answers, current/former Abnormal employment answers, and reCAPTCHA before final submit.",
+      "manual_action_at": "2026-07-08T17:23:35Z"
     },
     {
       "application_id": "app-20260704-cadence-sr-principal-software-engineer-c2a4af02",
@@ -6611,11 +6625,11 @@
       "company": "Cadence",
       "role": "Sr Principal Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-plus-ic-0534",
       "approved_at": "2026-07-04T05:37:16Z",
-      "updated_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -6651,9 +6665,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-cadence-sr-principal-software-engineer-c2a4af02/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Cadence Workday application URL rendered blank in the controlled browser with no usable text, fields, or controls."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1717-cadence-sr-principal",
+      "manual_action_required": true,
+      "manual_action_reason": "Cadence Workday application URL rendered blank in the controlled browser with no usable text, fields, or controls.",
+      "manual_action_at": "2026-07-08T17:23:35Z"
     },
     {
       "application_id": "app-20260704-oracle-lead-principal-engineer-0df55b22",
@@ -6876,11 +6897,11 @@
       "company": "LinkedIn",
       "role": "Sr. Staff Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-staff-plus-ic-0504",
       "approved_at": "2026-07-04T05:12:25Z",
-      "updated_at": "2026-07-04T05:12:25Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -6923,9 +6944,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-linkedin-sr-staff-software-engineer-f1e870f2/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn job inspected; no external submission completed.",
+        "LinkedIn reports the Sr. Staff Software Engineer role is no longer accepting applications."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn job inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1717-linkedin-sr-staff",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn reports the Sr. Staff Software Engineer role is no longer accepting applications.",
+      "manual_action_at": "2026-07-08T17:23:35Z"
     },
     {
       "application_id": "app-20260704-linkedin-sr-staff-software-engineer-machine-l-622ade83",
@@ -8795,11 +8823,11 @@
       "company": "Walmart Global Tech India",
       "role": "Principal Software Engineer",
       "location": "Chennai, Tamil Nadu, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2234",
       "approved_at": "2026-07-03T22:41:47Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-08T17:23:36Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 86,
@@ -8834,9 +8862,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+      "last_status_update_id": "status-20260708-1717-walmart-principal",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-08T17:23:36Z"
     },
     {
       "application_id": "app-20260703-intuit-staff-software-engineer-systems-072eeea9",
@@ -8848,11 +8883,11 @@
       "company": "Intuit",
       "role": "Staff Software Engineer - Systems",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2234",
       "approved_at": "2026-07-03T22:41:47Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -8887,9 +8922,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-intuit-staff-software-engineer-systems-072eeea9/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Intuit Avature application requires login or first-time resume paste/file upload with Applicant Privacy Statement acknowledgement, followed by Personal Info and EEO steps."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1717-intuit-staff-systems",
+      "manual_action_required": true,
+      "manual_action_reason": "Intuit Avature application requires login or first-time resume paste/file upload with Applicant Privacy Statement acknowledgement, followed by Personal Info and EEO steps.",
+      "manual_action_at": "2026-07-08T17:23:35Z"
     },
     {
       "application_id": "app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e",
@@ -8901,11 +8943,11 @@
       "company": "LinkedIn",
       "role": "Staff Software Engineer - Enterprise Infrastructure",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2234",
       "approved_at": "2026-07-03T22:41:47Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -8940,9 +8982,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn job inspected; no external submission completed.",
+        "LinkedIn reports the Staff Software Engineer - Enterprise Infrastructure role is no longer accepting applications."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn job inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1717-linkedin-enterprise-infra",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn reports the Staff Software Engineer - Enterprise Infrastructure role is no longer accepting applications.",
+      "manual_action_at": "2026-07-08T17:23:35Z"
     },
     {
       "application_id": "app-20260703-coupang-senior-staff-software-engineer-76d97207",
@@ -9061,11 +9110,11 @@
       "company": "Okta",
       "role": "Staff Site Reliability Engineer - Observability (Splunk)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2204",
       "approved_at": "2026-07-03T22:06:43Z",
-      "updated_at": "2026-07-03T22:06:43Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -9089,9 +9138,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-okta-staff-site-reliability-engineer-obse-913ac3de/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+      "last_status_update_id": "status-20260708-1717-okta-staff-sre",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-08T17:23:35Z"
     },
     {
       "application_id": "app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc",

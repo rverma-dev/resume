@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T16:55:16Z",
+  "updated_at": "2026-07-08T17:23:36Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -3433,7 +3433,7 @@
         "Cadence is a global EDA/software company; Sr Principal AI infrastructure roles can be compensation-relevant, but 2.5cr+ should be validated with recruiter/payband data.",
         "No exact salary range visible in LinkedIn posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-plus-ic-0534",
       "fit_score": 94,
@@ -3478,7 +3478,7 @@
       "application_id": "app-20260704-cadence-sr-principal-software-engineer-c2a4af02",
       "resume_snapshot_path": "applications/resumes/app-20260704-cadence-sr-principal-software-engineer-c2a4af02/resume.md",
       "discovered_at": "2026-07-04T05:36:55Z",
-      "updated_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
       ],
@@ -3499,7 +3499,7 @@
         "Abnormal AI is a fast-growing AI-native security company; Staff roles are compensation-relevant, but 2.5cr+ needs recruiter validation.",
         "No exact salary range visible in LinkedIn posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-plus-ic-0534",
       "fit_score": 92,
@@ -3544,7 +3544,7 @@
       "application_id": "app-20260704-abnormal-ai-staff-software-engineer-mpp-growth-fc37d8ce",
       "resume_snapshot_path": "applications/resumes/app-20260704-abnormal-ai-staff-software-engineer-mpp-growth-fc37d8ce/resume.md",
       "discovered_at": "2026-07-04T05:36:55Z",
-      "updated_at": "2026-07-04T05:37:16Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
       ],
@@ -3718,7 +3718,7 @@
         "LinkedIn is a large global technology company and Senior Staff IC role is target-compensation-capable, though no exact salary range was visible in the LinkedIn posting.",
         "Stretch-first leveling: Senior Staff is aligned with target current/next-level IC search."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-staff-plus-ic-0504",
       "fit_score": 93,
@@ -3770,7 +3770,7 @@
       "application_id": "app-20260704-linkedin-sr-staff-software-engineer-f1e870f2",
       "resume_snapshot_path": "applications/resumes/app-20260704-linkedin-sr-staff-software-engineer-f1e870f2/resume.md",
       "discovered_at": "2026-07-04T05:12:10Z",
-      "updated_at": "2026-07-04T05:12:25Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
       ],
@@ -4233,7 +4233,7 @@
         "Zscaler is a global cloud security company; Principal security architecture roles are compensation-relevant, but exact India payband is not visible.",
         "No exact salary range visible in LinkedIn posting."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-security-platform-ic-0604",
       "fit_score": 93,
@@ -4278,7 +4278,7 @@
       "application_id": "app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc",
       "resume_snapshot_path": "applications/resumes/app-20260704-zscaler-principal-devsecops-engineer-design-9920dcdc/resume.md",
       "discovered_at": "2026-07-04T06:10:22Z",
-      "updated_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-08T17:23:36Z",
       "notes": [
         "Fetched via LinkedIn MCP on 2026-07-04; no external submission performed."
       ],
@@ -5430,7 +5430,7 @@
         "Enterprise Infrastructure scope spans developer productivity, secure AI-first environments, compliance, performance, cost, and reliability.",
         "Easy Apply is visible, but current Chrome file-url upload permission may block resume upload until fixed."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2234",
       "fit_score": 91,
@@ -5477,7 +5477,7 @@
       "application_id": "app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e",
       "resume_snapshot_path": "applications/resumes/app-20260703-linkedin-staff-software-engineer-enterprise-i-f977936e/resume.md",
       "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; strong but application may require manual browser upload fix."
       ],
@@ -5645,7 +5645,7 @@
         "Posting mentions cash bonus, equity rewards, and benefits; no India salary range was visible.",
         "TurboTax modernization and SRE/platform architecture scope can map to Staff/L8-style impact."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2234",
       "fit_score": 89,
@@ -5692,7 +5692,7 @@
       "application_id": "app-20260703-intuit-staff-software-engineer-systems-072eeea9",
       "resume_snapshot_path": "applications/resumes/app-20260703-intuit-staff-software-engineer-systems-072eeea9/resume.md",
       "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; lower priority than Senior Staff/Principal approvals due to Staff level."
       ],
@@ -5852,7 +5852,7 @@
         "Principal role on Marketplace API gateway and platform/shared tools has architecture, platform, observability, DevOps, and leadership scope.",
         "Easy Apply is visible, but current Chrome file-url upload permission may block resume upload until fixed."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2234",
       "fit_score": 86,
@@ -5899,7 +5899,7 @@
       "application_id": "app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281",
       "resume_snapshot_path": "applications/resumes/app-20260703-walmart-global-tech-india-principal-software-engineer-d4b9d281/resume.md",
       "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-08T17:23:36Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; good Principal backup candidate with Chennai on-site risk."
       ],
@@ -5972,7 +5972,7 @@
         "Okta is a strong cloud/security platform company with Staff IC compensation potential.",
         "Role is Staff-level SRE observability with Easy Apply and active review signal."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2204",
       "fit_score": 93,
@@ -6005,7 +6005,7 @@
       "application_id": "app-20260703-okta-staff-site-reliability-engineer-obse-913ac3de",
       "resume_snapshot_path": "applications/resumes/app-20260703-okta-staff-site-reliability-engineer-obse-913ac3de/resume.md",
       "discovered_at": "2026-07-03T22:06:24Z",
-      "updated_at": "2026-07-03T22:06:43Z",
+      "updated_at": "2026-07-08T17:23:35Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
