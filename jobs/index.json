@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T04:03:32Z",
+  "updated_at": "2026-07-08T04:34:04Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -6679,7 +6679,7 @@
         "Search quality, ranking, and ML infrastructure are strong Google compensation domains.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-play-games-heartbeat-0434",
       "fit_score": 91,
@@ -6733,7 +6733,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-play-games-d-f6ab33c4",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-play-games-d-f6ab33c4/resume.md",
       "discovered_at": "2026-07-04T04:37:22Z",
-      "updated_at": "2026-07-04T04:37:38Z",
+      "updated_at": "2026-07-08T04:34:04Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04.",
         "Added as a selective remaining Google Staff role because it maps to ML infrastructure/search quality without being as domain-mismatched as embedded/firmware roles."
@@ -6756,7 +6756,7 @@
         "Analytics infrastructure is a core high-scale Google engineering domain.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
       "fit_score": 94,
@@ -6810,7 +6810,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-analytics-fabb3946",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-analytics-fabb3946/resume.md",
       "discovered_at": "2026-07-04T04:05:16Z",
-      "updated_at": "2026-07-04T04:05:37Z",
+      "updated_at": "2026-07-08T04:34:03Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ],
@@ -6832,7 +6832,7 @@
         "Security platform roles at Google are high-impact and compensation-relevant.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
       "fit_score": 93,
@@ -6886,7 +6886,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-google-one-s-dd207eee",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-google-one-s-dd207eee/resume.md",
       "discovered_at": "2026-07-04T04:05:16Z",
-      "updated_at": "2026-07-04T04:05:37Z",
+      "updated_at": "2026-07-08T04:34:04Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ],
@@ -6908,7 +6908,7 @@
         "Managed databases and Google Cloud storage services are high-value platform domains.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
       "fit_score": 92,
@@ -6962,7 +6962,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-cloud-sql-po-15c57a4d",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-cloud-sql-po-15c57a4d/resume.md",
       "discovered_at": "2026-07-04T04:05:16Z",
-      "updated_at": "2026-07-04T04:05:37Z",
+      "updated_at": "2026-07-08T04:34:04Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ],
@@ -6984,7 +6984,7 @@
         "Search is a core Google engineering domain with strong compensation potential.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
       "fit_score": 92,
@@ -7037,7 +7037,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-search-featu-ed937ca2",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-search-featu-ed937ca2/resume.md",
       "discovered_at": "2026-07-04T04:05:16Z",
-      "updated_at": "2026-07-04T04:05:37Z",
+      "updated_at": "2026-07-08T04:34:04Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ],
@@ -7059,7 +7059,7 @@
         "Google Ads is a core business-critical compensation domain.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff3-heartbeat-0404",
       "fit_score": 91,
@@ -7113,7 +7113,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-ads-b69111e3",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-ads-b69111e3/resume.md",
       "discovered_at": "2026-07-04T04:05:16Z",
-      "updated_at": "2026-07-04T04:05:37Z",
+      "updated_at": "2026-07-08T04:34:04Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ],
@@ -7436,7 +7436,7 @@
         "Google Cloud is a core platform compensation domain.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff2-heartbeat-0334",
       "fit_score": 94,
@@ -7489,7 +7489,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-google-cloud-35332b81",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-google-cloud-35332b81/resume.md",
       "discovered_at": "2026-07-04T03:37:17Z",
-      "updated_at": "2026-07-04T03:37:36Z",
+      "updated_at": "2026-07-08T04:34:03Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04.",
         "Distinct from existing Senior Staff Software Engineer, Google Cloud LinkedIn row."
