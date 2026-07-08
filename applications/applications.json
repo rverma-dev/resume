@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T08:42:22Z",
+  "updated_at": "2026-07-08T09:11:30Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -2154,11 +2154,11 @@
       "company": "Agoda",
       "role": "Principal Software Engineer, Back End (AI-powered Data Querying)",
       "location": "Bangkok, Thailand; LinkedIn surfaced via Greater Kolkata Area",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4403441038",
       "approved_at": "2026-07-05T01:59:05Z",
-      "updated_at": "2026-07-05T01:59:05Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -2188,8 +2188,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-agoda-principal-software-engineer-back-end-6936ae98/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Agoda Greenhouse form requires candidate location, resume upload or manual resume entry, LinkedIn profile, required checkbox answers, reCAPTCHA, and final submit."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-agoda-principal-backend",
+      "manual_action_required": true,
+      "manual_action_reason": "Agoda Greenhouse form requires candidate location, resume upload or manual resume entry, LinkedIn profile, required checkbox answers, reCAPTCHA, and final submit.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260705-microsoft-principal-software-engineer-fd98f973",
@@ -2833,11 +2840,11 @@
       "company": "Mastercard",
       "role": "Sr. Principal Software Engineer",
       "location": "Pune/Pimpri-Chinchwad Area, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1741-ic-principal-architects",
       "approved_at": "2026-07-04T19:23:40Z",
-      "updated_at": "2026-07-04T19:23:40Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -2887,8 +2894,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-mastercard-sr-principal-software-engineer-6b81cca6/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Mastercard application flow requires resume upload, country/location, contact/source fields, application questions, additional questions, voluntary disclosures, and review before final submission."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-mastercard-sr-principal",
+      "manual_action_required": true,
+      "manual_action_reason": "Mastercard application flow requires resume upload, country/location, contact/source fields, application questions, additional questions, voluntary disclosures, and review before final submission.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-arm-principal-software-engineer-41c4b3a7",
@@ -2900,11 +2914,11 @@
       "company": "Arm",
       "role": "Principal Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1741-ic-principal-architects",
       "approved_at": "2026-07-04T19:23:40Z",
-      "updated_at": "2026-07-04T19:23:40Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -2954,8 +2968,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-arm-principal-software-engineer-41c4b3a7/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Arm iCIMS application flow requires an email/login path and applicant location before continuing; no truthful final submission was possible from available data."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-arm-principal-software-engineer",
+      "manual_action_required": true,
+      "manual_action_reason": "Arm iCIMS application flow requires an email/login path and applicant location before continuing; no truthful final submission was possible from available data.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-adobe-software-development-engineer-5-arch-8c1382e7",
@@ -3272,11 +3293,11 @@
       "company": "Rippling",
       "role": "Staff Software Engineer - Payroll Products",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1334-ic-platform",
       "approved_at": "2026-07-04T13:42:10Z",
-      "updated_at": "2026-07-04T13:42:10Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -3325,8 +3346,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-rippling-staff-software-engineer-payroll-prod-c86aa5d7/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Rippling ATS form requires resume upload, current company, phone/location, LinkedIn, SMS-consent answer, immigration-policy/privacy/terms acknowledgement, and final Apply."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-rippling-payroll-products",
+      "manual_action_required": true,
+      "manual_action_reason": "Rippling ATS form requires resume upload, current company, phone/location, LinkedIn, SMS-consent answer, immigration-policy/privacy/terms acknowledgement, and final Apply.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-cohesity-staff-software-engineer-storage-file-4bbff912",
@@ -3418,11 +3446,11 @@
       "company": "Nutanix",
       "role": "Staff Engineer - Dev",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1304-ic-nutanix",
       "approved_at": "2026-07-04T13:09:36Z",
-      "updated_at": "2026-07-04T13:09:36Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -3472,8 +3500,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-nutanix-staff-engineer-dev-56399205/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Nutanix Jobvite data-consent page requires selecting location of residence and language before the application can continue."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-nutanix-staff-engineer-dev",
+      "manual_action_required": true,
+      "manual_action_reason": "Nutanix Jobvite data-consent page requires selecting location of residence and language before the application can continue.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680",
@@ -3737,11 +3772,11 @@
       "company": "Walmart Global Tech India",
       "role": "STAFF, SOFTWARE ENGINEER",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1204-ic-platform",
       "approved_at": "2026-07-04T12:13:49Z",
-      "updated_at": "2026-07-04T12:13:49Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -3791,8 +3826,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-walmart-global-tech-india-staff-software-engineer-73d75150/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Walmart Workday application URL rendered blank in the controlled browser with no usable text, fields, or controls."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-walmart-staff-software-engineer",
+      "manual_action_required": true,
+      "manual_action_reason": "Walmart Workday application URL rendered blank in the controlled browser with no usable text, fields, or controls.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-rubrik-staff-cloud-security-architect-6577bd5a",
@@ -3903,11 +3945,11 @@
       "company": "Moody's Corporation",
       "role": "Staff Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1104-ic-staff-platform",
       "approved_at": "2026-07-04T11:09:29Z",
-      "updated_at": "2026-07-04T11:09:29Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -3934,8 +3976,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-moody-s-corporation-staff-software-engineer-acb5abc9/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Moody's SuccessFactors/talent-community flow requires personal and contact fields, phone/country, resume upload, SMS opt-in, terms/privacy/cookie acknowledgement, and possible returning-applicant login."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-moody-staff-software-engineer",
+      "manual_action_required": true,
+      "manual_action_reason": "Moody's SuccessFactors/talent-community flow requires personal and contact fields, phone/country, resume upload, SMS opt-in, terms/privacy/cookie acknowledgement, and possible returning-applicant login.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-sailpoint-staff-software-engineer-java-1dc6c551",
@@ -3947,11 +3996,11 @@
       "company": "SailPoint",
       "role": "Staff Software Engineer - Java",
       "location": "Pune Division, Maharashtra, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1104-ic-staff-platform",
       "approved_at": "2026-07-04T11:09:29Z",
-      "updated_at": "2026-07-04T11:09:29Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -3977,8 +4026,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-sailpoint-staff-software-engineer-java-1dc6c551/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "SailPoint Workday application URL rendered blank in the controlled browser with no usable fields or controls."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-sailpoint-staff-java",
+      "manual_action_required": true,
+      "manual_action_reason": "SailPoint Workday application URL rendered blank in the controlled browser with no usable fields or controls.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-coupang-senior-staff-software-engineer-fdf7f7b7",
@@ -4091,11 +4147,11 @@
       "company": "Autodesk",
       "role": "Principal Software Engineer",
       "location": "Pune Division, Maharashtra, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1034-ic-principal-platform",
       "approved_at": "2026-07-04T10:39:27Z",
-      "updated_at": "2026-07-04T10:39:27Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 84,
@@ -4119,8 +4175,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-autodesk-principal-software-engineer-a04ab883/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
+      ],
+      "status_reason": "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-autodesk-principal-software-engineer",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-broadcom-kubernetes-platform-architect-india-1e82676a",
@@ -4233,11 +4296,11 @@
       "company": "Netskope",
       "role": "Staff SRE, DNS Specialist, Platform Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0834-ic-staff-plus",
       "approved_at": "2026-07-04T08:48:39Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 86,
@@ -4264,9 +4327,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-netskope-staff-sre-dns-specialist-platform-en-966dc27f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-netskope-staff-sre-dns",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-intuit-principal-ai-scientist-gtm-tech-b77c782f",
@@ -4278,11 +4348,11 @@
       "company": "Intuit",
       "role": "Principal AI Scientist - GTM Tech",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0834-ic-staff-plus",
       "approved_at": "2026-07-04T08:48:39Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -4309,9 +4379,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-intuit-principal-ai-scientist-gtm-tech-b77c782f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Intuit Avature application requires login or first-time resume paste/file upload with Applicant Privacy Statement acknowledgement, followed by Personal Info and EEO steps."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-intuit-principal-ai-scientist",
+      "manual_action_required": true,
+      "manual_action_reason": "Intuit Avature application requires login or first-time resume paste/file upload with Applicant Privacy Statement acknowledgement, followed by Personal Info and EEO steps.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-nice-principal-software-architect-2bd6b161",
@@ -4428,11 +4505,11 @@
       "company": "Outreach",
       "role": "Staff Applied Scientist - Knowledge Graphs & AI",
       "location": "Hyderabad, Telangana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0834-ic-staff-plus",
       "approved_at": "2026-07-04T08:48:39Z",
-      "updated_at": "2026-07-04T08:48:39Z",
+      "updated_at": "2026-07-08T09:11:30Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -4459,9 +4536,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-outreach-staff-applied-scientist-knowledge-gr-cefae26f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+        "LinkedIn Easy Apply final submission/profile transmission, including the disclosed AI data-processing flow, is unsupported for autonomous completion in this pipeline."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+      "last_status_update_id": "status-20260708-0902-outreach-staff-applied-scientist",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission, including the disclosed AI data-processing flow, is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-08T09:11:30Z"
     },
     {
       "application_id": "app-20260704-reltio-principal-architect-73ba5d20",
