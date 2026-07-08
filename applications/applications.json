@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T07:15:25Z",
+  "updated_at": "2026-07-08T07:41:58Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -1004,11 +1004,11 @@
       "company": "Arctic Wolf",
       "role": "Senior Staff Developer - AI SOC Automation",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4435442083",
       "approved_at": "2026-07-06T00:11:33Z",
-      "updated_at": "2026-07-06T00:11:33Z",
+      "updated_at": "2026-07-08T07:41:58Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -1035,8 +1035,15 @@
       "resume_theme_path": "applications/resumes/app-20260706-arctic-wolf-senior-staff-developer-ai-soc-automa-52e961d8/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4435442083 remains active and exposed the official Arctic Wolf Workday target https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Senior-Staff-Developer---AI-SOC-Automation_R26_766?gh_src=8cf3ad402us&source=LinkedIn.",
+        "Manual completion required: the official Arctic Wolf Workday URL rendered an empty page in the controlled browser with no text, fields, or apply controls. The LinkedIn posting also states the role may require access to information protected under United States export-control laws, requiring user-owned legal/export-control confirmation before any application can be completed."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4435442083 remains active and exposed the official Arctic Wolf Workday target https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Senior-Staff-Developer---AI-SOC-Automation_R26_766?gh_src=8cf3ad402us&source=LinkedIn.",
+      "last_status_update_id": "status-20260708-arctic-wolf-ai-soc-workday-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the official Arctic Wolf Workday URL rendered an empty page in the controlled browser with no text, fields, or apply controls. The LinkedIn posting also states the role may require access to information protected under United States export-control laws, requiring user-owned legal/export-control confirmation before any application can be completed.",
+      "manual_action_at": "2026-07-08T07:41:58Z"
     },
     {
       "application_id": "app-20260705-outmarket-ai-principal-software-engineer-23c2c644",
@@ -1314,11 +1321,11 @@
       "company": "CloudBees",
       "role": "Staff Software Engineer (Agentic Systems) - AI for Software Delivery",
       "location": "India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4390302518",
       "approved_at": "2026-07-05T16:27:51Z",
-      "updated_at": "2026-07-05T16:27:51Z",
+      "updated_at": "2026-07-08T07:41:58Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -1352,8 +1359,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-cloudbees-staff-software-engineer-agentic-syst-e22f5bb0/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4390302518 resolved to the active CloudBees Paylocity job detail at https://recruiting.paylocity.com/Recruiting/Jobs/Details/4028664 and exposed an Apply URL.",
+        "Manual completion required: the Paylocity detail page is active, but its official Apply URL https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4028664 navigated to about:blank in the controlled browser. No usable application form or submit path was available."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4390302518 resolved to the active CloudBees Paylocity job detail at https://recruiting.paylocity.com/Recruiting/Jobs/Details/4028664 and exposed an Apply URL.",
+      "last_status_update_id": "status-20260708-cloudbees-agentic-paylocity-apply-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Paylocity detail page is active, but its official Apply URL https://recruiting.paylocity.com/Recruiting/Jobs/Apply/4028664 navigated to about:blank in the controlled browser. No usable application form or submit path was available.",
+      "manual_action_at": "2026-07-08T07:41:58Z"
     },
     {
       "application_id": "app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e",
@@ -2286,11 +2300,11 @@
       "company": "AlphaSense",
       "role": "Staff Software Engineer",
       "location": "Remote - India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-uipath-alphasense-ic",
       "approved_at": "2026-07-04T22:31:34Z",
-      "updated_at": "2026-07-04T22:31:34Z",
+      "updated_at": "2026-07-08T07:41:57Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -2319,8 +2333,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-alphasense-staff-software-engineer-d5868734/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Official AlphaSense Greenhouse form for Staff Software Engineer was inspected at https://job-boards.greenhouse.io/alphasense/jobs/8462858002; no candidate data was entered, no resume was uploaded, and no external submission was performed.",
+        "Manual completion required: Greenhouse requires first/last name, email, phone country/phone, city/location, resume upload, LinkedIn profile, professional software experience range, prior AlphaSense/entity/agency employment answer, reCAPTCHA, and final Submit application. Required identity/profile/employment-history answers, resume upload, CAPTCHA, and final external submission require user confirmation."
+      ],
+      "status_reason": "Application not submitted. Official AlphaSense Greenhouse form for Staff Software Engineer was inspected at https://job-boards.greenhouse.io/alphasense/jobs/8462858002; no candidate data was entered, no resume was uploaded, and no external submission was performed.",
+      "last_status_update_id": "status-20260708-alphasense-staff-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: Greenhouse requires first/last name, email, phone country/phone, city/location, resume upload, LinkedIn profile, professional software experience range, prior AlphaSense/entity/agency employment answer, reCAPTCHA, and final Submit application. Required identity/profile/employment-history answers, resume upload, CAPTCHA, and final external submission require user confirmation.",
+      "manual_action_at": "2026-07-08T07:41:57Z"
     },
     {
       "application_id": "app-20260704-uipath-principal-software-engineer-bcdc1cd7",
@@ -2407,11 +2428,11 @@
       "company": "SingleStore",
       "role": "Sr./Principal Software Engineer",
       "location": "India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-singlestore-ic",
       "approved_at": "2026-07-04T21:58:28Z",
-      "updated_at": "2026-07-04T21:58:28Z",
+      "updated_at": "2026-07-08T07:41:57Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -2462,8 +2483,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-singlestore-sr-principal-software-engineer-884e7fac/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Official SingleStore Greenhouse form for Sr./Principal Software Engineer was inspected at https://job-boards.greenhouse.io/singlestore/jobs/7867768; no candidate data was entered, no resume was uploaded, and no external submission was performed.",
+        "Manual completion required: Greenhouse requires contact fields, phone country/phone, city/location, resume upload, education fields including school/degree/discipline/end year, years-of-experience answer, highest-education answer, professional programming-language selections, source/referral text, voluntary EEO fields, reCAPTCHA, and final Submit application. Required education/experience/profile answers, EEO choices, CAPTCHA, resume upload, and final external submission require user confirmation."
+      ],
+      "status_reason": "Application not submitted. Official SingleStore Greenhouse form for Sr./Principal Software Engineer was inspected at https://job-boards.greenhouse.io/singlestore/jobs/7867768; no candidate data was entered, no resume was uploaded, and no external submission was performed.",
+      "last_status_update_id": "status-20260708-singlestore-sr-principal-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: Greenhouse requires contact fields, phone country/phone, city/location, resume upload, education fields including school/degree/discipline/end year, years-of-experience answer, highest-education answer, professional programming-language selections, source/referral text, voluntary EEO fields, reCAPTCHA, and final Submit application. Required education/experience/profile answers, EEO choices, CAPTCHA, resume upload, and final external submission require user confirmation.",
+      "manual_action_at": "2026-07-08T07:41:57Z"
     },
     {
       "application_id": "app-20260704-palo-alto-networks-senior-staff-software-engineer-80487e4f",
@@ -5554,11 +5582,11 @@
       "company": "Harness",
       "role": "Principal Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
       "approved_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T07:41:58Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -5592,9 +5620,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-harness-principal-engineer-ab5623cd/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4399511624 resolved to the official Harness Greenhouse embed at https://www.harness.io/company/jobs/apply?gh_jid=5106008007&gh_src=3ed167d67us; the embedded form was inspected and no external submission was performed.",
+        "Manual completion required: the Harness Greenhouse iframe requires first/last name, email, phone country/phone, resume/CV upload or manual entry, optional cover letter, LinkedIn profile, website, and final Submit application. Transmitting contact/profile data, uploading a resume, and final external submission require user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4399511624 resolved to the official Harness Greenhouse embed at https://www.harness.io/company/jobs/apply?gh_jid=5106008007&gh_src=3ed167d67us; the embedded form was inspected and no external submission was performed.",
+      "last_status_update_id": "status-20260708-harness-principal-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Harness Greenhouse iframe requires first/last name, email, phone country/phone, resume/CV upload or manual entry, optional cover letter, LinkedIn profile, website, and final Submit application. Transmitting contact/profile data, uploading a resume, and final external submission require user confirmation.",
+      "manual_action_at": "2026-07-08T07:41:58Z"
     },
     {
       "application_id": "app-20260704-d-e-shaw-india-private-limit-principal-tech-middleware-a24c634d",
@@ -5665,11 +5700,11 @@
       "company": "Postman",
       "role": "Staff Engineer, Product Trust",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
       "approved_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T07:41:58Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -5703,9 +5738,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-postman-staff-engineer-product-trust-99d9236e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4409920609 resolved to the official Postman Greenhouse form at https://job-boards.greenhouse.io/postman/jobs/7725592003?gh_src=7ad26f843us; the form was inspected and no external submission was performed.",
+        "Manual completion required: Greenhouse requires first/last name, email, phone country/phone, resume/CV upload or manual entry, LinkedIn profile, onsite-office availability answer, reCAPTCHA, and final Submit application. Required profile/preference answers, CAPTCHA, resume upload, and final external submission require user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4409920609 resolved to the official Postman Greenhouse form at https://job-boards.greenhouse.io/postman/jobs/7725592003?gh_src=7ad26f843us; the form was inspected and no external submission was performed.",
+      "last_status_update_id": "status-20260708-postman-product-trust-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: Greenhouse requires first/last name, email, phone country/phone, resume/CV upload or manual entry, LinkedIn profile, onsite-office availability answer, reCAPTCHA, and final Submit application. Required profile/preference answers, CAPTCHA, resume upload, and final external submission require user confirmation.",
+      "manual_action_at": "2026-07-08T07:41:58Z"
     },
     {
       "application_id": "app-20260704-teradata-staff-architect-ai-platform-6e2d5446",
@@ -5828,11 +5870,11 @@
       "company": "Postman",
       "role": "Staff Engineer - Observability Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
       "approved_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T07:41:58Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -5866,9 +5908,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-postman-staff-engineer-observability-platfor-f23037c3/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4432528544 resolved to the official Postman Greenhouse form at https://job-boards.greenhouse.io/postman/jobs/7782459003?gh_src=7ad26f843us; the form was inspected and no external submission was performed.",
+        "Manual completion required: Greenhouse requires first/last name, email, phone country/phone, resume/CV upload or manual entry, LinkedIn profile, current legal eligibility to work in the United States, future immigration support or visa sponsorship need, onsite-office availability, voluntary EEO fields, reCAPTCHA, and final Submit application. Required legal/work-authorization/sponsorship answers, EEO choices, CAPTCHA, resume upload, and final external submission require user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4432528544 resolved to the official Postman Greenhouse form at https://job-boards.greenhouse.io/postman/jobs/7782459003?gh_src=7ad26f843us; the form was inspected and no external submission was performed.",
+      "last_status_update_id": "status-20260708-postman-observability-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: Greenhouse requires first/last name, email, phone country/phone, resume/CV upload or manual entry, LinkedIn profile, current legal eligibility to work in the United States, future immigration support or visa sponsorship need, onsite-office availability, voluntary EEO fields, reCAPTCHA, and final Submit application. Required legal/work-authorization/sponsorship answers, EEO choices, CAPTCHA, resume upload, and final external submission require user confirmation.",
+      "manual_action_at": "2026-07-08T07:41:58Z"
     },
     {
       "application_id": "app-20260704-capital-one-distinguished-ai-engineer-2431d08c",
@@ -5880,11 +5929,11 @@
       "company": "Capital One",
       "role": "Distinguished AI Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
       "approved_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T07:41:58Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -5918,9 +5967,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-capital-one-distinguished-ai-engineer-2431d08c/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4436151492 resolved through https://dsp.prng.co/Funmdub to the active Capital One careers page for Distinguished AI Engineer and exposed a Workday apply URL for requisition R242789-1.",
+        "Manual completion required: the Capital One posting states it will not sponsor a new applicant for employment authorization, and the official Workday apply URL rendered blank/non-interactive in the controlled browser. Manual portal access plus user-confirmed work-authorization/sponsorship truth is required before any application can be completed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4436151492 resolved through https://dsp.prng.co/Funmdub to the active Capital One careers page for Distinguished AI Engineer and exposed a Workday apply URL for requisition R242789-1.",
+      "last_status_update_id": "status-20260708-capital-one-distinguished-ai-workday-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Capital One posting states it will not sponsor a new applicant for employment authorization, and the official Workday apply URL rendered blank/non-interactive in the controlled browser. Manual portal access plus user-confirmed work-authorization/sponsorship truth is required before any application can be completed.",
+      "manual_action_at": "2026-07-08T07:41:58Z"
     },
     {
       "application_id": "app-20260704-harness-principal-software-engineer-appsec-f7f04b94",
@@ -5932,11 +5988,11 @@
       "company": "Harness",
       "role": "Principal Software Engineer (Appsec)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-security-platform-ic-0604",
       "approved_at": "2026-07-04T06:10:42Z",
-      "updated_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-08T07:41:58Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -5972,9 +6028,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-harness-principal-software-engineer-appsec-f7f04b94/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4352301375 resolved to the official Harness Greenhouse embed at https://www.harness.io/company/jobs/apply?gh_jid=5019436007&gh_src=3ed167d67us; the embedded form was inspected and no external submission was performed.",
+        "Manual completion required: the Harness Greenhouse iframe requires first/last name, email, phone country/phone, resume/CV upload or manual entry, optional cover letter, LinkedIn profile, website, and final Submit application. Transmitting contact/profile data, uploading a resume, and final external submission require user confirmation."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4352301375 resolved to the official Harness Greenhouse embed at https://www.harness.io/company/jobs/apply?gh_jid=5019436007&gh_src=3ed167d67us; the embedded form was inspected and no external submission was performed.",
+      "last_status_update_id": "status-20260708-harness-appsec-gh-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the Harness Greenhouse iframe requires first/last name, email, phone country/phone, resume/CV upload or manual entry, optional cover letter, LinkedIn profile, website, and final Submit application. Transmitting contact/profile data, uploading a resume, and final external submission require user confirmation.",
+      "manual_action_at": "2026-07-08T07:41:58Z"
     },
     {
       "application_id": "app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41",
@@ -5986,11 +6049,11 @@
       "company": "Walmart Global Tech India",
       "role": "Principal, Software Engineer, Information Security",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-security-platform-ic-0604",
       "approved_at": "2026-07-04T06:10:42Z",
-      "updated_at": "2026-07-04T06:10:42Z",
+      "updated_at": "2026-07-08T07:41:58Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -6033,9 +6096,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-walmart-global-tech-india-principal-software-engineer-informat-df915b41/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4382776237 exposed the official Walmart Workday apply path for Principal, Software Engineer, Information Security at requisition R-2436424, but controlled-browser access did not produce a usable form.",
+        "Manual completion required: the direct Workday apply URL returned about:blank and the non-apply Workday detail route redirected to a blank wd504.myworkdayjobs.com shell with no text, fields, or controls. No usable application form or submit path was available in the controlled browser."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. LinkedIn job 4382776237 exposed the official Walmart Workday apply path for Principal, Software Engineer, Information Security at requisition R-2436424, but controlled-browser access did not produce a usable form.",
+      "last_status_update_id": "status-20260708-walmart-principal-infosec-workday-blank",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: the direct Workday apply URL returned about:blank and the non-apply Workday detail route redirected to a blank wd504.myworkdayjobs.com shell with no text, fields, or controls. No usable application form or submit path was available in the controlled browser.",
+      "manual_action_at": "2026-07-08T07:41:58Z"
     },
     {
       "application_id": "app-20260704-zscaler-staff-software-engineer-java-agentic-0340564a",
