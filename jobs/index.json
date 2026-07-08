@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T04:34:04Z",
+  "updated_at": "2026-07-08T05:11:04Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -594,7 +594,7 @@
         "Broadcom is a user-targeted high-comp infrastructure/software company; Senior Architect in enterprise DevOps product lines may be target-comp capable but needs band validation.",
         "Role spans GenAI/AI-ML architecture, LangChain/LangGraph, OpenAI/Anthropic APIs, RAG, vector databases, MLOps, AI testing, distributed systems, and multiple Broadcom enterprise DevOps product lines."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4436016572",
       "fit_score": 95,
@@ -635,7 +635,7 @@
       "application_id": "app-20260705-broadcom-senior-software-architect-genai-ai-m-c8d636b8",
       "resume_snapshot_path": "applications/resumes/app-20260705-broadcom-senior-software-architect-genai-ai-m-c8d636b8/resume.md",
       "discovered_at": "2026-07-05T04:28:32Z",
-      "updated_at": "2026-07-05T04:28:38Z",
+      "updated_at": "2026-07-08T05:11:03Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "Distinct from existing Broadcom Senior Software Architect 4401425673 because this posting is requisition R025606 focused on GenAI/AI-ML product architecture across enterprise DevOps tools."
@@ -1089,7 +1089,7 @@
       "compensation_signals": [
         "NVIDIA priority company and high-comp AI infrastructure employer; posting does not disclose salary."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4426686251",
       "fit_score": 93,
@@ -1125,7 +1125,7 @@
       "application_id": "app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e",
       "resume_snapshot_path": "applications/resumes/app-20260705-nvidia-senior-solutions-architect-gpu-cloud-ed51105e/resume.md",
       "discovered_at": "2026-07-05T14:29:10Z",
-      "updated_at": "2026-07-05T14:29:17Z",
+      "updated_at": "2026-07-08T05:11:04Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
       ],
@@ -2291,7 +2291,7 @@
         "Staff title and AI-agent retrieval backbone scope are credible current/next-level signals under the stretch-first policy.",
         "Bengaluru role avoids US-only/H1B exclusion risk."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4375554724",
       "fit_score": 96,
@@ -2332,7 +2332,7 @@
       "application_id": "app-20260705-databricks-staff-software-engineer-search-quali-a26d5886",
       "resume_snapshot_path": "applications/resumes/app-20260705-databricks-staff-software-engineer-search-quali-a26d5886/resume.md",
       "discovered_at": "2026-07-05T11:57:42Z",
-      "updated_at": "2026-07-05T11:57:49Z",
+      "updated_at": "2026-07-08T05:11:04Z",
       "notes": [
         "Imported from LinkedIn MCP detail pull on 2026-07-05 heartbeat.",
         "LinkedIn detail notes Databricks applicants should apply through the official Databricks Careers page."
@@ -5568,7 +5568,7 @@
         "Staff infrastructure role on data and AI infrastructure platform across product-to-infrastructure distributed systems.",
         "No salary range was visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2234",
       "fit_score": 90,
@@ -5623,7 +5623,7 @@
       "application_id": "app-20260703-databricks-staff-software-engineer-infrastructu-10faa193",
       "resume_snapshot_path": "applications/resumes/app-20260703-databricks-staff-software-engineer-infrastructu-10faa193/resume.md",
       "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-08T05:11:04Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; distinct Databricks infrastructure posting but lower priority than already approved Senior Staff roles."
       ],
@@ -5714,7 +5714,7 @@
         "Finance Platform Engineering owns mission-critical settlement, payout, and finance platforms processing tens of millions of events per business per day.",
         "No salary range was visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2234",
       "fit_score": 88,
@@ -5761,7 +5761,7 @@
       "application_id": "app-20260703-coupang-staff-engineer-backend-finance-platf-7c3c6b15",
       "resume_snapshot_path": "applications/resumes/app-20260703-coupang-staff-engineer-backend-finance-platf-7c3c6b15/resume.md",
       "discovered_at": "2026-07-03T22:41:42Z",
-      "updated_at": "2026-07-03T22:41:47Z",
+      "updated_at": "2026-07-08T05:11:04Z",
       "notes": [
         "Imported from 2026-07-04 heartbeat search; good finance-platform backup candidate, lower priority than Senior Staff roles."
       ],
@@ -6613,7 +6613,7 @@
         "User identified Google as a high-compensation target company",
         "Staff-level Google India role is aligned with the desired current/next-level IC track"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-search-platforms-heartbeat",
       "fit_score": 96,
@@ -6657,7 +6657,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-search-platf-e04279ab",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-search-platf-e04279ab/resume.md",
       "discovered_at": "2026-07-04T01:11:53Z",
-      "updated_at": "2026-07-04T01:11:53Z",
+      "updated_at": "2026-07-08T05:11:04Z",
       "notes": [
         "LinkedIn details captured 2026-07-04: reposted 1 week ago, over 100 people clicked apply, responses managed off LinkedIn."
       ],
@@ -9940,7 +9940,7 @@
       "compensation_signals": [
         "Coupang Senior Staff software roles in India are target-comp capable based on prior target-company policy; validate exact band during process."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1104-ic-staff-platform",
       "fit_score": 97,
@@ -9975,7 +9975,7 @@
       "application_id": "app-20260704-coupang-senior-staff-software-engineer-fdf7f7b7",
       "resume_snapshot_path": "applications/resumes/app-20260704-coupang-senior-staff-software-engineer-fdf7f7b7/resume.md",
       "discovered_at": "2026-07-04T11:09:19Z",
-      "updated_at": "2026-07-04T11:09:29Z",
+      "updated_at": "2026-07-08T05:11:04Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -10154,7 +10154,7 @@
       "compensation_signals": [
         "Broadcom infrastructure software roles can be target-comp capable at senior architect/staff bands; validate exact band before applying."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1034-ic-principal-platform",
       "fit_score": 88,
@@ -10188,7 +10188,7 @@
       "application_id": "app-20260704-broadcom-kubernetes-platform-architect-india-1e82676a",
       "resume_snapshot_path": "applications/resumes/app-20260704-broadcom-kubernetes-platform-architect-india-1e82676a/resume.md",
       "discovered_at": "2026-07-04T10:39:19Z",
-      "updated_at": "2026-07-04T10:39:27Z",
+      "updated_at": "2026-07-08T05:11:03Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -11429,7 +11429,7 @@
         "Amazon is target-capable in recruiting config for 2.5cr+ total compensation at Principal/Director-equivalent bands.",
         "Principal role claims billions of incremental OPS impact, 200M+ Prime member product surface, and 30+ partner org influence."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0734-ic-staff-plus",
       "fit_score": 95,
@@ -11463,7 +11463,7 @@
       "application_id": "app-20260704-amazon-principal-software-engineer-delivery-ac28c835",
       "resume_snapshot_path": "applications/resumes/app-20260704-amazon-principal-software-engineer-delivery-ac28c835/resume.md",
       "discovered_at": "2026-07-04T07:45:15Z",
-      "updated_at": "2026-07-04T07:45:54Z",
+      "updated_at": "2026-07-08T05:11:04Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
