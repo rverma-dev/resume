@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T02:38:40Z",
+  "updated_at": "2026-07-08T03:04:04Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -7210,7 +7210,7 @@
         "Indexing infrastructure is a high-scale core engineering domain.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff2-heartbeat-0334",
       "fit_score": 96,
@@ -7263,7 +7263,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-data-indexin-b959b8c4",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-data-indexin-b959b8c4/resume.md",
       "discovered_at": "2026-07-04T03:37:17Z",
-      "updated_at": "2026-07-04T03:37:36Z",
+      "updated_at": "2026-07-08T03:04:04Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ],

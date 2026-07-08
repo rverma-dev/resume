@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T02:38:40Z",
+  "updated_at": "2026-07-08T03:04:04Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -6968,11 +6968,11 @@
       "company": "Google",
       "role": "Staff Software Engineer, Data Indexing, Web Apps",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-google-official-staff-batch2",
       "approved_at": "2026-07-04T03:37:36Z",
-      "updated_at": "2026-07-04T03:37:36Z",
+      "updated_at": "2026-07-08T03:04:04Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -7015,9 +7015,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-google-staff-software-engineer-data-indexin-b959b8c4/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Official Google Careers page for Staff Software Engineer, Data Indexing, Web Apps remains active and exposes an Apply target at the Google Careers signin route for loc=IN and title=Staff Software Engineer.",
+        "Manual login required: the Google Careers Apply target redirects to accounts.google.com sign-in with Email or phone / Create account and Google Privacy/Terms before the application form is reachable. Downstream contact, resume upload, legal/privacy/truth-certification, and final submit steps require candidate-controlled answers/action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Official Google Careers page for Staff Software Engineer, Data Indexing, Web Apps remains active and exposes an Apply target at the Google Careers signin route for loc=IN and title=Staff Software Engineer.",
+      "last_status_update_id": "status-20260708-google-data-indexing-signin-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual login required: the Google Careers Apply target redirects to accounts.google.com sign-in with Email or phone / Create account and Google Privacy/Terms before the application form is reachable. Downstream contact, resume upload, legal/privacy/truth-certification, and final submit steps require candidate-controlled answers/action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T03:04:04Z"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-google-cloud-35332b81",
