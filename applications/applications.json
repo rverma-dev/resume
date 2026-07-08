@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T03:04:04Z",
+  "updated_at": "2026-07-08T03:33:20Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -7219,11 +7219,11 @@
       "company": "Google",
       "role": "Staff Software Engineer, GCP CSM",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-google-official-staff-batch",
       "approved_at": "2026-07-04T03:07:04Z",
-      "updated_at": "2026-07-04T03:07:04Z",
+      "updated_at": "2026-07-08T03:33:20Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -7266,9 +7266,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-google-staff-software-engineer-gcp-csm-3579afd9/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Official Google Careers page for Staff Software Engineer, GCP CSM remains active, and its Apply target resolves to the Google Careers signin route for loc=IN and title=Staff Software Engineer.",
+        "Manual login required: the Google Careers Apply target redirects to accounts.google.com sign-in with Email or phone / Create account before the application form is reachable. Downstream contact, resume upload, legal/privacy/truth-certification, and final submit steps require candidate-controlled answers/action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Official Google Careers page for Staff Software Engineer, GCP CSM remains active, and its Apply target resolves to the Google Careers signin route for loc=IN and title=Staff Software Engineer.",
+      "last_status_update_id": "status-20260708-google-gcp-csm-signin-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual login required: the Google Careers Apply target redirects to accounts.google.com sign-in with Email or phone / Create account before the application form is reachable. Downstream contact, resume upload, legal/privacy/truth-certification, and final submit steps require candidate-controlled answers/action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T03:33:20Z"
     },
     {
       "application_id": "app-20260704-google-staff-software-engineer-git-developm-49258975",
@@ -7477,11 +7484,11 @@
       "company": "Google",
       "role": "Staff Software Engineer, Server Foundations",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-google-official-staff-batch",
       "approved_at": "2026-07-04T03:07:04Z",
-      "updated_at": "2026-07-04T03:07:04Z",
+      "updated_at": "2026-07-08T03:33:20Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -7524,9 +7531,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-google-staff-software-engineer-server-found-28dc27fa/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. Official Google Careers page for Staff Software Engineer, Server Foundations remains active, and its Apply target resolves to the Google Careers signin route for loc=IN and title=Staff Software Engineer.",
+        "Manual login required: the Google Careers Apply target redirects to accounts.google.com sign-in with Email or phone / Create account before the application form is reachable. Downstream contact, resume upload, legal/privacy/truth-certification, and final submit steps require candidate-controlled answers/action-time confirmation. No resume was uploaded and no external application submission was confirmed."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Application not submitted. Official Google Careers page for Staff Software Engineer, Server Foundations remains active, and its Apply target resolves to the Google Careers signin route for loc=IN and title=Staff Software Engineer.",
+      "last_status_update_id": "status-20260708-google-server-foundations-signin-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual login required: the Google Careers Apply target redirects to accounts.google.com sign-in with Email or phone / Create account before the application form is reachable. Downstream contact, resume upload, legal/privacy/truth-certification, and final submit steps require candidate-controlled answers/action-time confirmation. No resume was uploaded and no external application submission was confirmed.",
+      "manual_action_at": "2026-07-08T03:33:20Z"
     },
     {
       "application_id": "app-20260704-uber-staff-software-engineer-359dee86",

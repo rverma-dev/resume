@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T03:04:04Z",
+  "updated_at": "2026-07-08T03:33:20Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -7595,7 +7595,7 @@
         "GCP platform infrastructure roles usually map to strong compensation bands.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff-heartbeat-0304",
       "fit_score": 96,
@@ -7649,7 +7649,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-gcp-csm-3579afd9",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-gcp-csm-3579afd9/resume.md",
       "discovered_at": "2026-07-04T03:06:47Z",
-      "updated_at": "2026-07-04T03:07:04Z",
+      "updated_at": "2026-07-08T03:33:20Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ],
@@ -7671,7 +7671,7 @@
         "Server foundations and LLM workflow integration are strong platform/AI compensation signals.",
         "LinkedIn company search showed 20+ direct/indirect connections at Google."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-google-official-staff-heartbeat-0304",
       "fit_score": 96,
@@ -7724,7 +7724,7 @@
       "application_id": "app-20260704-google-staff-software-engineer-server-found-28dc27fa",
       "resume_snapshot_path": "applications/resumes/app-20260704-google-staff-software-engineer-server-found-28dc27fa/resume.md",
       "discovered_at": "2026-07-04T03:06:47Z",
-      "updated_at": "2026-07-04T03:07:04Z",
+      "updated_at": "2026-07-08T03:33:20Z",
       "notes": [
         "Official Google Careers active search for Staff Software Engineer in Bengaluru returned this role on 2026-07-04."
       ],
