@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-07T17:17:37Z",
+  "updated_at": "2026-07-08T02:29:32Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -3303,11 +3303,11 @@
       "company": "Nutanix",
       "role": "Senior Staff Engineer (15+ years of experience)",
       "location": "Pune Division, Maharashtra, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-1304-ic-nutanix",
       "approved_at": "2026-07-04T13:09:36Z",
-      "updated_at": "2026-07-04T13:09:36Z",
+      "updated_at": "2026-07-08T02:29:32Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 97,
@@ -3357,8 +3357,15 @@
       "resume_theme_path": "applications/resumes/app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. LinkedIn job 4431598008 resolved to active official Nutanix Careers job 31964, Senior Staff Engineer (15+ years of experience), at https://careers.nutanix.com/en/jobs/31964/senior-staff-engineer-15plus-years-of-experience/. The official Apply Now target is Jobvite: https://jobs.jobvite.com/careers/nutanix/job/okypAfwB/apply?__jvst=CS%20-%20Career%20Site.",
+        "Manual completion required: Jobvite opens a Data Consent pre-step requiring location/language selection and clicking Submit to acknowledge that the applicant has read Nutanix Job Applicant Privacy Notice before the application form is reachable. This privacy/legal acknowledgement and any downstream final external submission require candidate action-time confirmation. No resume was uploaded and no application was submitted."
+      ],
+      "status_reason": "Application not submitted. LinkedIn job 4431598008 resolved to active official Nutanix Careers job 31964, Senior Staff Engineer (15+ years of experience), at https://careers.nutanix.com/en/jobs/31964/senior-staff-engineer-15plus-years-of-experience/. The official Apply Now target is Jobvite: https://jobs.jobvite.com/careers/nutanix/job/okypAfwB/apply?__jvst=CS%20-%20Career%20Site.",
+      "last_status_update_id": "status-20260708-nutanix-senior-staff-jobvite-privacy",
+      "manual_action_required": true,
+      "manual_action_reason": "Manual completion required: Jobvite opens a Data Consent pre-step requiring location/language selection and clicking Submit to acknowledge that the applicant has read Nutanix Job Applicant Privacy Notice before the application form is reachable. This privacy/legal acknowledgement and any downstream final external submission require candidate action-time confirmation. No resume was uploaded and no application was submitted.",
+      "manual_action_at": "2026-07-08T02:29:32Z"
     },
     {
       "application_id": "app-20260704-f5-principal-software-development-engin-50c0e123",

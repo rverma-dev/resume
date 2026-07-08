@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-07T17:17:37Z",
+  "updated_at": "2026-07-08T02:29:32Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -9402,7 +9402,7 @@
       "compensation_signals": [
         "Senior Staff role at Nutanix, a public cloud infrastructure/HCI company; validate India Senior Staff band and equity against 2.5cr+ target."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-1304-ic-nutanix",
       "fit_score": 97,
@@ -9460,7 +9460,7 @@
       "application_id": "app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680",
       "resume_snapshot_path": "applications/resumes/app-20260704-nutanix-senior-staff-engineer-15-years-of-ex-25f49680/resume.md",
       "discovered_at": "2026-07-04T13:09:28Z",
-      "updated_at": "2026-07-04T13:09:36Z",
+      "updated_at": "2026-07-08T02:29:32Z",
       "notes": [
         "Imported from LinkedIn MCP detail at 2026-07-04 13:04 UTC heartbeat pass.",
         "Do not mark applied unless external Nutanix submission is confirmed."
