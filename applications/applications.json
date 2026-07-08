@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T17:23:36Z",
+  "updated_at": "2026-07-08T17:55:17Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -9159,11 +9159,11 @@
       "company": "6sense",
       "role": "Staff Software Engineer - Backend Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2134",
       "approved_at": "2026-07-03T21:37:53Z",
-      "updated_at": "2026-07-03T21:37:53Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -9187,9 +9187,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-08. 6sense Greenhouse form is active for Staff Software Engineer and requires candidate identity/contact fields, resume upload, staff-years and language-years answers, current CTC, expected CTC, notice period, current location, and invisible reCAPTCHA before final submission.",
+        "Missing required compensation/notice-period answers and Greenhouse reCAPTCHA; final external submission cannot be completed truthfully from available tracker data."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-08. 6sense Greenhouse form is active for Staff Software Engineer and requires candidate identity/contact fields, resume upload, staff-years and language-years answers, current CTC, expected CTC, notice period, current location, and invisible reCAPTCHA before final submission.",
+      "last_status_update_id": "status-20260708-6sense-staff-backend-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Missing required compensation/notice-period answers and Greenhouse reCAPTCHA; final external submission cannot be completed truthfully from available tracker data.",
+      "manual_action_at": "2026-07-08T17:55:17Z"
     },
     {
       "application_id": "app-20260703-atlassian-principal-data-engineer-6ca2b58f",
@@ -9201,11 +9208,11 @@
       "company": "Atlassian",
       "role": "Principal Data Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2134",
       "approved_at": "2026-07-03T21:37:53Z",
-      "updated_at": "2026-07-03T21:37:53Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -9229,9 +9236,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-atlassian-principal-data-engineer-6ca2b58f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-08. Atlassian iCIMS page loads the job title but the visible application body does not render the job/apply form after waiting; only generic careers navigation, talent community, language, and legal links are visible.",
+        "Unavailable/blank iCIMS application form; no supported external submission path was available."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-08. Atlassian iCIMS page loads the job title but the visible application body does not render the job/apply form after waiting; only generic careers navigation, talent community, language, and legal links are visible.",
+      "last_status_update_id": "status-20260708-atlassian-principal-data-engineer-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Unavailable/blank iCIMS application form; no supported external submission path was available.",
+      "manual_action_at": "2026-07-08T17:55:17Z"
     },
     {
       "application_id": "app-20260703-coupang-senior-staff-system-engineer-gpu-fle-1fd7fe5b",
@@ -9490,11 +9504,11 @@
       "company": "Boomi",
       "role": "Principal Software Engineer - GenAI",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2034",
       "approved_at": "2026-07-03T20:40:49Z",
-      "updated_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 86,
@@ -9518,9 +9532,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-boomi-principal-software-engineer-genai-5eaed28b/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-08. Boomi LinkedIn Greenhouse shortlink redirects to the Boomi careers page, but the embedded Greenhouse frame reports that the job is no longer open; the current board listing for Principal Software Engineer - GenAI still embeds the same unavailable/error form.",
+        "Unavailable/closed Greenhouse application URL for the tracked LinkedIn job; no usable final submission form was reachable."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-08. Boomi LinkedIn Greenhouse shortlink redirects to the Boomi careers page, but the embedded Greenhouse frame reports that the job is no longer open; the current board listing for Principal Software Engineer - GenAI still embeds the same unavailable/error form.",
+      "last_status_update_id": "status-20260708-boomi-principal-genai-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Unavailable/closed Greenhouse application URL for the tracked LinkedIn job; no usable final submission form was reachable.",
+      "manual_action_at": "2026-07-08T17:55:17Z"
     },
     {
       "application_id": "app-20260703-mastercard-principal-software-engineer-solution-e10d6ad6",
@@ -9532,11 +9553,11 @@
       "company": "Mastercard",
       "role": "Principal Software Engineer/Solution Architect",
       "location": "Pune/Pimpri-Chinchwad Area",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-2034",
       "approved_at": "2026-07-03T20:40:49Z",
-      "updated_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -9560,9 +9581,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-mastercard-principal-software-engineer-solution-e10d6ad6/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-08. Mastercard Phenom apply flow is reachable and requires resume upload, personal information/contact fields, then separate My experience, Application questions, Additional application questions, Voluntary disclosures, Review, and reCAPTCHA steps before final submission.",
+        "External form requires resume upload plus later application/disclosure answers and reCAPTCHA; final submission cannot be completed without user-reviewed required answers."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-08. Mastercard Phenom apply flow is reachable and requires resume upload, personal information/contact fields, then separate My experience, Application questions, Additional application questions, Voluntary disclosures, Review, and reCAPTCHA steps before final submission.",
+      "last_status_update_id": "status-20260708-mastercard-principal-solution-architect-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "External form requires resume upload plus later application/disclosure answers and reCAPTCHA; final submission cannot be completed without user-reviewed required answers.",
+      "manual_action_at": "2026-07-08T17:55:17Z"
     },
     {
       "application_id": "app-20260703-databricks-staff-software-engineer-data-platfor-76f0123e",
@@ -10411,11 +10439,11 @@
       "company": "Teradata",
       "role": "Elastic Compute Architect, Sr Principal Architect",
       "location": "Hyderabad, Telangana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-7897c70e",
       "approved_at": "2026-07-03T18:41:09Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -10449,12 +10477,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-08. Teradata apply URL redirects to a candidate login/privacy gate requiring email, email confirmation, privacy policy acknowledgement, Continue, and invisible reCAPTCHA before the application steps are available.",
+        "Login/privacy gate and reCAPTCHA block access to the external application steps."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-08. Teradata apply URL redirects to a candidate login/privacy gate requiring email, email confirmation, privacy policy acknowledgement, Continue, and invisible reCAPTCHA before the application steps are available.",
+      "last_status_update_id": "status-20260708-teradata-sr-principal-architect-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Login/privacy gate and reCAPTCHA block access to the external application steps.",
+      "manual_action_at": "2026-07-08T17:55:17Z"
     },
     {
       "application_id": "app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1",
@@ -10466,11 +10501,11 @@
       "company": "Motorola Solutions",
       "role": "Principal Staff Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-7897c70e",
       "approved_at": "2026-07-03T18:41:09Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -10494,12 +10529,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-08. Motorola Solutions Workday autofillWithResume URL remained blank after waiting, with no title, visible text, form controls, or application steps rendered.",
+        "Blank Workday application page; no supported final submission form was available."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-08. Motorola Solutions Workday autofillWithResume URL remained blank after waiting, with no title, visible text, form controls, or application steps rendered.",
+      "last_status_update_id": "status-20260708-motorola-principal-staff-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Blank Workday application page; no supported final submission form was available.",
+      "manual_action_at": "2026-07-08T17:55:17Z"
     },
     {
       "application_id": "app-20260703-capital-one-distinguished-engineer-51e80851",

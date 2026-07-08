@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T17:23:36Z",
+  "updated_at": "2026-07-08T17:55:17Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -6024,7 +6024,7 @@
         "Atlassian is a high-comp global software company and the role is Principal IC.",
         "Remote Bengaluru role with 12+ years IC expectation and tech lead/architect scope."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2134",
       "fit_score": 92,
@@ -6057,7 +6057,7 @@
       "application_id": "app-20260703-atlassian-principal-data-engineer-6ca2b58f",
       "resume_snapshot_path": "applications/resumes/app-20260703-atlassian-principal-data-engineer-6ca2b58f/resume.md",
       "discovered_at": "2026-07-03T21:37:40Z",
-      "updated_at": "2026-07-03T21:37:53Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -6076,7 +6076,7 @@
         "Staff backend/platform role at a late-stage revenue AI company with stock options.",
         "Compensation confidence below Big Tech/Databricks/Coupang tier, but the platform scope is strong."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2134",
       "fit_score": 88,
@@ -6109,7 +6109,7 @@
       "application_id": "app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc",
       "resume_snapshot_path": "applications/resumes/app-20260703-6sense-staff-software-engineer-backend-plat-327fe6bc/resume.md",
       "discovered_at": "2026-07-03T21:37:40Z",
-      "updated_at": "2026-07-03T21:37:53Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -6335,7 +6335,7 @@
         "User-listed high-comp target company for India.",
         "Principal platform architecture role in real-time fraud and decisioning systems."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2034",
       "fit_score": 90,
@@ -6367,7 +6367,7 @@
       "application_id": "app-20260703-mastercard-principal-software-engineer-solution-e10d6ad6",
       "resume_snapshot_path": "applications/resumes/app-20260703-mastercard-principal-software-engineer-solution-e10d6ad6/resume.md",
       "discovered_at": "2026-07-03T20:40:28Z",
-      "updated_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -6386,7 +6386,7 @@
         "Principal IC role in agentic AI and enterprise integration; compensation is less certain than top public tech targets.",
         "Good strategic fit for AI platform work even if pay-band confidence is lower."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-2034",
       "fit_score": 86,
@@ -6418,7 +6418,7 @@
       "application_id": "app-20260703-boomi-principal-software-engineer-genai-5eaed28b",
       "resume_snapshot_path": "applications/resumes/app-20260703-boomi-principal-software-engineer-genai-5eaed28b/resume.md",
       "discovered_at": "2026-07-03T20:40:28Z",
-      "updated_at": "2026-07-03T20:40:49Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -12574,7 +12574,7 @@
         "Role owns next-generation on-demand compute, serverless execution, automated provisioning, SaaS delivery, and cloud platform standardization across AWS, Azure, and GCP.",
         "Enterprise AI platform positioning and cloud/SaaS strategy scope are high-value signals; salary is not visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-acd3380a",
       "fit_score": 91,
@@ -12617,7 +12617,7 @@
       "application_id": "app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea",
       "resume_snapshot_path": "applications/resumes/app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ],
@@ -14062,7 +14062,7 @@
         "Principal Staff/Principal Architect role with 15+ years requirement and organization-wide architecture governance scope.",
         "Mission-critical unified communications platform with cloud modernization and security/reliability requirements."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 94,
@@ -14094,7 +14094,7 @@
       "application_id": "app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1",
       "resume_snapshot_path": "applications/resumes/app-20260703-motorola-solutions-principal-staff-software-engineer-17b1e3f1/resume.md",
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-08T17:55:17Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ],
