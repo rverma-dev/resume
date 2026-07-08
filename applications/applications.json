@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T09:11:30Z",
+  "updated_at": "2026-07-08T16:55:16Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -1407,11 +1407,11 @@
       "company": "Netskope",
       "role": "Sr. Staff Engineer, Enterprise Browser",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-4416640331",
       "approved_at": "2026-07-05T16:01:01Z",
-      "updated_at": "2026-07-05T16:01:01Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -1439,8 +1439,15 @@
       "resume_theme_path": "applications/resumes/app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
-      ]
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Netskope Greenhouse form requires resume upload, education fields, source/current-company fields, legal right-to-work and future visa/work-permit answers, and reCAPTCHA before final submit."
+      ],
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1647-netskope-enterprise-browser",
+      "manual_action_required": true,
+      "manual_action_reason": "Netskope Greenhouse form requires resume upload, education fields, source/current-company fields, legal right-to-work and future visa/work-permit answers, and reCAPTCHA before final submit.",
+      "manual_action_at": "2026-07-08T16:55:16Z"
     },
     {
       "application_id": "app-20260705-harness-staff-security-research-engineer-57fb1a0f",
@@ -4608,11 +4615,11 @@
       "company": "Rippling",
       "role": "Staff Software Engineer - Tax Calculation",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -4638,9 +4645,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Rippling ATS form requires resume upload, current company, phone/location, LinkedIn, SMS-consent answer, immigration-policy/privacy/terms acknowledgement, and final Apply."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1647-rippling-tax-calculation",
+      "manual_action_required": true,
+      "manual_action_reason": "Rippling ATS form requires resume upload, current company, phone/location, LinkedIn, SMS-consent answer, immigration-policy/privacy/terms acknowledgement, and final Apply.",
+      "manual_action_at": "2026-07-08T16:55:16Z"
     },
     {
       "application_id": "app-20260704-autodesk-software-architect-b63b9113",
@@ -4907,11 +4921,11 @@
       "company": "Warner Bros. Discovery",
       "role": "Senior Staff Software Engineer - Golang (Consumer Team)",
       "location": "Greater Hyderabad Area, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-0804-ic-staff-plus",
       "approved_at": "2026-07-04T08:12:06Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -4937,9 +4951,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Warner Bros. Discovery Workday apply URL rendered blank in the controlled browser with no usable text, fields, or controls."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1647-wbd-senior-staff-golang",
+      "manual_action_required": true,
+      "manual_action_reason": "Warner Bros. Discovery Workday apply URL rendered blank in the controlled browser with no usable text, fields, or controls.",
+      "manual_action_at": "2026-07-08T16:55:16Z"
     },
     {
       "application_id": "app-20260704-toast-principal-software-engineer-c3d5ec01",
@@ -5459,11 +5480,11 @@
       "company": "MongoDB",
       "role": "Staff Engineer",
       "location": "Gurugram, Haryana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-0704",
       "approved_at": "2026-07-04T07:12:15Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -5497,9 +5518,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-mongodb-staff-engineer-0082bb96/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "MongoDB Greenhouse form requires resume upload, location/contact fields, employment sponsorship answer, prior MongoDB employment answer, required voluntary demographic consent/answer, and reCAPTCHA before final submit."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1647-mongodb-staff-engineer",
+      "manual_action_required": true,
+      "manual_action_reason": "MongoDB Greenhouse form requires resume upload, location/contact fields, employment sponsorship answer, prior MongoDB employment answer, required voluntary demographic consent/answer, and reCAPTCHA before final submit.",
+      "manual_action_at": "2026-07-08T16:55:16Z"
     },
     {
       "application_id": "app-20260704-natwest-group-principal-engineer-vp-dca6a5a9",
@@ -5511,11 +5539,11 @@
       "company": "NatWest Group",
       "role": "Principal Engineer, VP",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-0704",
       "approved_at": "2026-07-04T07:12:15Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -5549,9 +5577,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-natwest-group-principal-engineer-vp-dca6a5a9/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "NatWest Workday apply URL rendered blank in the controlled browser with no usable text, fields, or controls."
       ],
-      "resume_snapshot_name": "Director Platform Resume"
+      "resume_snapshot_name": "Director Platform Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1647-natwest-principal-vp",
+      "manual_action_required": true,
+      "manual_action_reason": "NatWest Workday apply URL rendered blank in the controlled browser with no usable text, fields, or controls.",
+      "manual_action_at": "2026-07-08T16:55:16Z"
     },
     {
       "application_id": "app-20260704-sonicwall-senior-principal-engineer-go-golang-b2cbfe43",
@@ -5622,11 +5657,11 @@
       "company": "Cvent",
       "role": "SRE Architect",
       "location": "Gurugram, Haryana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-0704",
       "approved_at": "2026-07-04T07:12:15Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T16:55:15Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -5660,9 +5695,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-cvent-sre-architect-4147eb8f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn showed an active Easy Apply flow; no external submission completed.",
+      "last_status_update_id": "status-20260708-1647-cvent-sre-architect",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-08T16:55:15Z"
     },
     {
       "application_id": "app-20260704-expedia-group-principal-software-development-engin-b25a7a5e",
@@ -5674,11 +5716,11 @@
       "company": "Expedia Group",
       "role": "Principal Software Development Engineer - Gen AI",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-0704",
       "approved_at": "2026-07-04T07:12:15Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -5712,9 +5754,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-expedia-group-principal-software-development-engin-b25a7a5e/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn job inspected; no external submission completed.",
+        "LinkedIn reports the Expedia Principal Software Development Engineer - Gen AI role is no longer accepting applications."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn job inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1647-expedia-principal-genai",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn reports the Expedia Principal Software Development Engineer - Gen AI role is no longer accepting applications.",
+      "manual_action_at": "2026-07-08T16:55:16Z"
     },
     {
       "application_id": "app-20260704-freshworks-staff-engineer-systems-68e9c62a",
@@ -5962,11 +6011,11 @@
       "company": "Teradata",
       "role": "Staff Architect - AI Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-platform-ai-0634",
       "approved_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -6000,9 +6049,16 @@
       "resume_theme_path": "applications/resumes/app-20260704-teradata-staff-architect-ai-platform-6e2d5446/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal inspected; no external submission completed.",
+        "Teradata application flow redirects to a login/email gateway that requires email confirmation and applicant privacy-policy acknowledgement before the application steps are available."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal inspected; no external submission completed.",
+      "last_status_update_id": "status-20260708-1647-teradata-ai-platform",
+      "manual_action_required": true,
+      "manual_action_reason": "Teradata application flow redirects to a login/email gateway that requires email confirmation and applicant privacy-policy acknowledgement before the application steps are available.",
+      "manual_action_at": "2026-07-08T16:55:16Z"
     },
     {
       "application_id": "app-20260704-databricks-staff-data-and-ai-engineer-finance-c3ee5cf8",

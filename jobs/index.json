@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T09:11:30Z",
+  "updated_at": "2026-07-08T16:55:16Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -1455,7 +1455,7 @@
       "compensation_signals": [
         "Sr. Staff IC role at Netskope, a public cloud/network/data security platform company; posting does not disclose salary."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-4416640331",
       "fit_score": 89,
@@ -1492,7 +1492,7 @@
       "application_id": "app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e",
       "resume_snapshot_path": "applications/resumes/app-20260705-netskope-sr-staff-engineer-enterprise-browser-821ab21e/resume.md",
       "discovered_at": "2026-07-05T16:00:53Z",
-      "updated_at": "2026-07-05T16:01:01Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "notes": [
         "LinkedIn detail fetched 2026-07-05; responses managed off LinkedIn, external application not submitted."
       ],
@@ -4724,7 +4724,7 @@
         "Agentic AI platform role across governance, observability, evaluation, memory/context, extensibility, identity, and policy enforcement.",
         "No salary range visible; validate target compensation with recruiter."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-ai-0634",
       "fit_score": 93,
@@ -4767,7 +4767,7 @@
       "application_id": "app-20260704-teradata-staff-architect-ai-platform-6e2d5446",
       "resume_snapshot_path": "applications/resumes/app-20260704-teradata-staff-architect-ai-platform-6e2d5446/resume.md",
       "discovered_at": "2026-07-04T06:46:59Z",
-      "updated_at": "2026-07-04T06:46:59Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -5039,7 +5039,7 @@
         "Role builds a new platform for customers to build AI applications using MongoDB.",
         "No salary range visible; Staff band compensation should be validated with recruiter."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-0704",
       "fit_score": 93,
@@ -5082,7 +5082,7 @@
       "application_id": "app-20260704-mongodb-staff-engineer-0082bb96",
       "resume_snapshot_path": "applications/resumes/app-20260704-mongodb-staff-engineer-0082bb96/resume.md",
       "discovered_at": "2026-07-04T07:11:58Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -5102,7 +5102,7 @@
         "Posting requires 14+ years in SRE, cloud architecture, or infrastructure with organization-wide impact.",
         "No salary range visible; compensation target should be validated."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-0704",
       "fit_score": 92,
@@ -5145,7 +5145,7 @@
       "application_id": "app-20260704-cvent-sre-architect-4147eb8f",
       "resume_snapshot_path": "applications/resumes/app-20260704-cvent-sre-architect-4147eb8f/resume.md",
       "discovered_at": "2026-07-04T07:11:58Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T16:55:15Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -5165,7 +5165,7 @@
         "Indexed listing indicates production GenAI/LLM, distributed systems, and platform architecture responsibilities.",
         "No salary range visible; compensation should be validated with recruiter."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-0704",
       "fit_score": 91,
@@ -5208,7 +5208,7 @@
       "application_id": "app-20260704-expedia-group-principal-software-development-engin-b25a7a5e",
       "resume_snapshot_path": "applications/resumes/app-20260704-expedia-group-principal-software-development-engin-b25a7a5e/resume.md",
       "discovered_at": "2026-07-04T07:11:58Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -5228,7 +5228,7 @@
         "Posting requires 15 years, distributed systems, high-throughput low-latency platforms, AWS, Kubernetes, observability, and senior-level influence.",
         "No salary range visible; bank VP compensation may or may not meet target and should be validated."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-platform-0704",
       "fit_score": 89,
@@ -5271,7 +5271,7 @@
       "application_id": "app-20260704-natwest-group-principal-engineer-vp-dca6a5a9",
       "resume_snapshot_path": "applications/resumes/app-20260704-natwest-group-principal-engineer-vp-dca6a5a9/resume.md",
       "discovered_at": "2026-07-04T07:11:58Z",
-      "updated_at": "2026-07-04T07:12:15Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume"
     },
@@ -10980,6 +10980,59 @@
       "resume_snapshot_name": "IC Resume"
     },
     {
+      "job_id": "linkedin-4427941826",
+      "dedupe_key": "linkedin:4427941826",
+      "source": "linkedin",
+      "source_job_id": "4427941826",
+      "source_url": "https://www.linkedin.com/jobs/view/4427941826",
+      "company": "Warner Bros. Discovery",
+      "role": "Senior Staff Software Engineer - Golang (Consumer Team)",
+      "location": "Greater Hyderabad Area, India",
+      "work_type": "on_site",
+      "experience_level": "senior_staff",
+      "compensation_signals": [
+        "Senior Staff role at large global media/streaming platform company; validate India compensation.",
+        "13-16+ years with global-scale platform services and org-level strategy."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260704-0804-ic-staff-plus",
+      "fit_score": 94,
+      "fit_reason": "Senior Staff platform role for global streaming/authentication services with Kubernetes, service mesh, API gateways, observability, ADRs/runbooks, incident response, org-level strategy, and cross-team standards.",
+      "fit_signals": [
+        "Design, build, and operate global-scale platform services.",
+        "Kubernetes microservices, messaging, API gateways, service mesh, infrastructure as code, Prometheus/CloudWatch/Kibana/PagerDuty.",
+        "ADRs/runbooks, incident response, self-serve workflows, data-driven KPIs, mentoring Staff/Senior engineers."
+      ],
+      "risk_flags": [
+        "Golang preference should be positioned as ramp path from platform/distributed systems evidence.",
+        "Validate compensation and Hyderabad onsite expectations."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn showed WBD company context; no direct named connection captured.",
+      "resume_theme": {
+        "name": "Senior Staff global platform reliability",
+        "positioning": "Tailor toward global-scale platform services, observability, ADRs/runbooks, incident response, and distributed architecture.",
+        "key_pointers": [
+          "Emphasize multi-region rollouts, proactive diagnostics, anomaly detection alerts, and operational excellence.",
+          "Highlight architecture docs, runbooks, self-serve workflows, and cross-team standards.",
+          "Use cloud/Kubernetes/API platform experience without overclaiming Golang depth."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/incident_reviews/",
+          "work/project_docs/"
+        ]
+      },
+      "application_id": "app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f",
+      "resume_snapshot_path": "applications/resumes/app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f/resume.md",
+      "discovered_at": "2026-07-04T08:11:53Z",
+      "updated_at": "2026-07-08T16:55:16Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
       "job_id": "linkedin-4432369431",
       "dedupe_key": "linkedin:4432369431",
       "source": "linkedin",
@@ -11033,59 +11086,6 @@
       "resume_snapshot_name": "IC Resume"
     },
     {
-      "job_id": "linkedin-4427941826",
-      "dedupe_key": "linkedin:4427941826",
-      "source": "linkedin",
-      "source_job_id": "4427941826",
-      "source_url": "https://www.linkedin.com/jobs/view/4427941826",
-      "company": "Warner Bros. Discovery",
-      "role": "Senior Staff Software Engineer - Golang (Consumer Team)",
-      "location": "Greater Hyderabad Area, India",
-      "work_type": "on_site",
-      "experience_level": "senior_staff",
-      "compensation_signals": [
-        "Senior Staff role at large global media/streaming platform company; validate India compensation.",
-        "13-16+ years with global-scale platform services and org-level strategy."
-      ],
-      "status": "approved",
-      "approval_status": "approved",
-      "batch_id": "batch-20260704-0804-ic-staff-plus",
-      "fit_score": 94,
-      "fit_reason": "Senior Staff platform role for global streaming/authentication services with Kubernetes, service mesh, API gateways, observability, ADRs/runbooks, incident response, org-level strategy, and cross-team standards.",
-      "fit_signals": [
-        "Design, build, and operate global-scale platform services.",
-        "Kubernetes microservices, messaging, API gateways, service mesh, infrastructure as code, Prometheus/CloudWatch/Kibana/PagerDuty.",
-        "ADRs/runbooks, incident response, self-serve workflows, data-driven KPIs, mentoring Staff/Senior engineers."
-      ],
-      "risk_flags": [
-        "Golang preference should be positioned as ramp path from platform/distributed systems evidence.",
-        "Validate compensation and Hyderabad onsite expectations."
-      ],
-      "people": [],
-      "connections_summary": "LinkedIn showed WBD company context; no direct named connection captured.",
-      "resume_theme": {
-        "name": "Senior Staff global platform reliability",
-        "positioning": "Tailor toward global-scale platform services, observability, ADRs/runbooks, incident response, and distributed architecture.",
-        "key_pointers": [
-          "Emphasize multi-region rollouts, proactive diagnostics, anomaly detection alerts, and operational excellence.",
-          "Highlight architecture docs, runbooks, self-serve workflows, and cross-team standards.",
-          "Use cloud/Kubernetes/API platform experience without overclaiming Golang depth."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/RFCs/",
-          "work/incident_reviews/",
-          "work/project_docs/"
-        ]
-      },
-      "application_id": "app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f",
-      "resume_snapshot_path": "applications/resumes/app-20260704-warner-bros-discovery-senior-staff-software-engineer-golan-65f5621f/resume.md",
-      "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
-      "notes": [],
-      "resume_snapshot_name": "IC Resume"
-    },
-    {
       "job_id": "linkedin-4338788907",
       "dedupe_key": "linkedin:4338788907",
       "source": "linkedin",
@@ -11100,7 +11100,7 @@
         "Rippling is a high-growth US product company with strong equity potential; validate India Staff compensation.",
         "Staff architect role for core payroll/tax calculation platform across 10+ countries."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-0804-ic-staff-plus",
       "fit_score": 92,
@@ -11134,7 +11134,7 @@
       "application_id": "app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c",
       "resume_snapshot_path": "applications/resumes/app-20260704-rippling-staff-software-engineer-tax-calculat-d2972d8c/resume.md",
       "discovered_at": "2026-07-04T08:11:53Z",
-      "updated_at": "2026-07-04T08:12:06Z",
+      "updated_at": "2026-07-08T16:55:16Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
