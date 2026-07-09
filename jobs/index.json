@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T08:24:45Z",
-  "active_batch_id": "batch-20260709-highfit-ic",
-  "last_scheduler_run_at": "2026-07-09T08:17:45Z",
+  "updated_at": "2026-07-09T08:56:25Z",
+  "active_batch_id": "batch-20260709-highfit-ic-2",
+  "last_scheduler_run_at": "2026-07-09T08:51:55Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 8,
+  "jobs_per_scheduler_run": 5,
   "jobs": [
     {
       "job_id": "job-nvidia-principal-developer-ai-networking-63c7f9fe",
@@ -2587,6 +2587,284 @@
         "Official Workday CXS endpoint returned externalPath /job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1 and canApply=true on 2026-07-07.",
         "Chrome inspection on 2026-07-07 opened the official Workday apply path but it rendered a blank shell, preventing inspection of required questions or final submit controls."
       ]
+    },
+    {
+      "job_id": "linkedin-4421796594",
+      "dedupe_key": "linkedin:4421796594",
+      "source": "linkedin",
+      "source_job_id": "4421796594",
+      "source_url": "https://www.linkedin.com/jobs/view/4421796594",
+      "company": "Apple",
+      "role": "Senior Software Engineer - AI Data Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior AI/data platform IC",
+      "compensation_signals": [
+        "Apple is a priority high-comp target company.",
+        "AI Data and ML platform role in Apple's Information Systems and Technology group."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-2",
+      "fit_score": 93,
+      "fit_reason": "Strong target-company AI platform match: builds Apple's AI Data and ML platforms, agentic assistant platform, GenAI frameworks, secure agent workflows, MCP/tool-calling, OAuth authentication, RAG, distributed systems, Spark/Flink/Hadoop, and customer-facing platform discovery.",
+      "fit_signals": [
+        "Apple AI Data and ML platform role",
+        "Agentic assistant platform and GenAI frameworks",
+        "Secure MCP/tool-calling and OAuth-based workflows",
+        "Distributed data systems including Spark/Flink/Hadoop",
+        "Python plus Java/Go/TypeScript platform engineering"
+      ],
+      "risk_flags": [
+        "Senior title is below Staff/Principal, but Apple target-company compensation and AI platform scope justify tracking.",
+        "External Apple application flow requires portal verification and may require account/login or user-confirmed personal/legal answers."
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "Apple AI data platform IC",
+        "positioning": "Position as a staff-level AI/data platform engineer with secure agentic systems, production AI workflows, and distributed data infrastructure experience.",
+        "key_pointers": [
+          "MuleSoft internal AI platform integrating customer and operational signals",
+          "Governed multi-agent systems, MCP/tool-calling, and secure AI workflow framing",
+          "Distributed platform, observability, and reliability evidence from MuleSoft, Brane, and Jupiter"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-apple-senior-software-engineer-ai-data-pla-ed0c2ea3",
+      "resume_snapshot_path": "applications/resumes/app-20260709-apple-senior-software-engineer-ai-data-pla-ed0c2ea3/resume.md",
+      "discovered_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4435638847",
+      "dedupe_key": "linkedin:4435638847",
+      "source": "linkedin",
+      "source_job_id": "4435638847",
+      "source_url": "https://www.linkedin.com/jobs/view/4435638847",
+      "company": "Zepto",
+      "role": "Principal Software Engineer - Data Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Staff / Principal IC",
+      "compensation_signals": [
+        "High-growth Indian consumer platform with staff/principal data-platform scope.",
+        "Principal IC role powering analytics, experimentation, observability, and AI across the company."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-2",
+      "fit_score": 90,
+      "fit_reason": "Strong staff/principal platform fit: foundational data platform for analytics, experimentation, observability, and AI; distributed systems, storage, query execution, developer infrastructure, billions of events, petabyte-scale analytics, retrieval/debugging/knowledge graphs/agent tooling, lineage, monitoring, and platform reliability.",
+      "fit_signals": [
+        "Staff / Principal Software Engineer title",
+        "Data platform for analytics, experimentation, observability, and AI",
+        "Distributed systems, storage, query execution, stream processing, and developer infrastructure",
+        "Billions of events, petabyte-scale analytics, low latency, reliability, and cost efficiency",
+        "AI-native infrastructure including retrieval, debugging, knowledge graphs, and agent tooling"
+      ],
+      "risk_flags": [
+        "Company is not one of the named priority public hyperscaler/data-infra targets.",
+        "On-site Bengaluru role and compensation target need validation."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Zepto",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 1 company alum on the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 1 company alum works at Zepto.",
+      "resume_theme": {
+        "name": "Principal data and AI platform IC",
+        "positioning": "Position as a principal platform engineer for data, observability, experimentation, and AI infrastructure at large event volume.",
+        "key_pointers": [
+          "AI platform integrating customer and operational signals for decision velocity",
+          "Observability, telemetry quality, and proactive diagnostics evidence",
+          "Distributed event/data infrastructure across Brane and Jupiter"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-zepto-principal-software-engineer-data-pla-59227384",
+      "resume_snapshot_path": "applications/resumes/app-20260709-zepto-principal-software-engineer-data-pla-59227384/resume.md",
+      "discovered_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4408936656",
+      "dedupe_key": "linkedin:4408936656",
+      "source": "linkedin",
+      "source_job_id": "4408936656",
+      "source_url": "https://www.linkedin.com/jobs/view/4408936656",
+      "company": "NVIDIA",
+      "role": "System Software Engineer - Data Center Diagnostics",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "On-site",
+      "experience_level": "Senior systems IC",
+      "compensation_signals": [
+        "NVIDIA is a priority high-comp infrastructure target company.",
+        "12+ years systems software role tied to data-center diagnostics, GPU/SOC validation, networking, InfiniBand/Ethernet, NVLink, DMA/RDMA, and large system software."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-2",
+      "fit_score": 89,
+      "fit_reason": "Strong target-company systems-infrastructure role: data-center diagnostics for graphics/compute products, system software, device drivers, PC/server architecture, PCIe/NVLink/InfiniBand/Ethernet, DMA/RDMA, debugging, and cross-functional hardware/software architecture work.",
+      "fit_signals": [
+        "NVIDIA target company with 12+ years senior systems requirement",
+        "Data-center diagnostics and infrastructure for compute/GPU products",
+        "Large-scale system software, drivers, debugging, networking, InfiniBand/Ethernet, NVLink, DMA/RDMA",
+        "Architecture/hardware/driver team collaboration"
+      ],
+      "risk_flags": [
+        "Low-level C/C++ diagnostics role is less aligned with current AI/data platform resume than cloud AI infrastructure roles.",
+        "External Workday flow likely requires user-confirmed profile/legal answers."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search showed 431 company alumni and 244 school alumni on nearby NVIDIA India postings.",
+      "resume_theme": {
+        "name": "NVIDIA data-center diagnostics systems IC",
+        "positioning": "Position as an infrastructure and systems engineer with deep reliability/debugging, data-center, networking, and platform automation experience.",
+        "key_pointers": [
+          "Brane enterprise infrastructure and security stack built by a 2-engineer team",
+          "Production debugging, observability, and reliability leadership",
+          "Distributed systems and platform automation across MuleSoft, Brane, and Jupiter"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-nvidia-system-software-engineer-data-center-4eceb42b",
+      "resume_snapshot_path": "applications/resumes/app-20260709-nvidia-system-software-engineer-data-center-4eceb42b/resume.md",
+      "discovered_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4434323124",
+      "dedupe_key": "linkedin:4434323124",
+      "source": "linkedin",
+      "source_job_id": "4434323124",
+      "source_url": "https://www.linkedin.com/jobs/view/4434323124",
+      "company": "Apple",
+      "role": "Senior Machine Learning Engineer / Senior Applied Scientist, Search & AI",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior ML/search IC",
+      "compensation_signals": [
+        "Apple is a priority high-comp target company.",
+        "Search and AI role spans Siri, Safari, Spotlight, large-scale ML, RAG, retrieval, ranking, and Q&A systems."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-2",
+      "fit_score": 88,
+      "fit_reason": "Good Apple Search and AI fit: large-scale Search/Q&A systems, retrieval, ranking, embeddings, RAG, LLM evaluation, query understanding, petabyte-scale data, and production ML/search quality tooling.",
+      "fit_signals": [
+        "Apple Search and AI across Siri, Safari, and Spotlight",
+        "Retrieval, ranking, RAG, embeddings, LLM evaluation, and query understanding",
+        "Petabyte-scale structured and unstructured data",
+        "Production search quality and end-to-end evaluation tooling"
+      ],
+      "risk_flags": [
+        "More ML/search-science oriented than platform/infrastructure roles.",
+        "Senior title is below Staff/Principal, but Apple target-company scope and compensation justify tracking."
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "Apple search and AI systems IC",
+        "positioning": "Emphasize AI platform, retrieval/RAG, evaluation, operational signal quality, and scalable data systems rather than pure ML research.",
+        "key_pointers": [
+          "Internal AI platform and proactive diagnostics as production AI/search-adjacent systems",
+          "Telemetry, evidence quality, and data-informed decision velocity",
+          "Distributed data infrastructure and reliability experience"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-apple-senior-machine-learning-engineer-sen-b5ab5e71",
+      "resume_snapshot_path": "applications/resumes/app-20260709-apple-senior-machine-learning-engineer-sen-b5ab5e71/resume.md",
+      "discovered_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4435664126",
+      "dedupe_key": "linkedin:4435664126",
+      "source": "linkedin",
+      "source_job_id": "4435664126",
+      "source_url": "https://www.linkedin.com/jobs/view/4435664126",
+      "company": "G-P",
+      "role": "Principal Software Engineer - AI Platform",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Principal IC",
+      "compensation_signals": [
+        "Remote principal AI-platform role at a SaaS global employment platform.",
+        "Compensation target is less certain than named hyperscaler/data-infra companies."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-2",
+      "fit_score": 86,
+      "fit_reason": "Potentially strong remote principal AI-platform fit based on title, company SaaS context, and India remote alignment, but LinkedIn did not expose the full job description in this pass.",
+      "fit_signals": [
+        "Principal Software Engineer title",
+        "AI Platform scope",
+        "India remote role",
+        "SaaS platform company context"
+      ],
+      "risk_flags": [
+        "LinkedIn details did not expose full responsibilities or requirements.",
+        "Compensation target and level fit need validation before prioritizing over Apple/NVIDIA/Databricks-class roles."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "G-P",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 3 school alumni on the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 3 school alumni on the G-P posting.",
+      "resume_theme": {
+        "name": "Principal AI platform IC",
+        "positioning": "Position as a principal platform engineer for governed AI systems, agentic workflows, and production SaaS infrastructure.",
+        "key_pointers": [
+          "Governed multi-agent systems and internal AI platform work",
+          "Enterprise SaaS platform reliability and security posture",
+          "Distributed systems, observability, and customer/operational signal integration"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-g-p-principal-software-engineer-ai-platf-db31071e",
+      "resume_snapshot_path": "applications/resumes/app-20260709-g-p-principal-software-engineer-ai-platf-db31071e/resume.md",
+      "discovered_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "job_id": "linkedin-4340286558",

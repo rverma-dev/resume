@@ -1,9 +1,270 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T08:24:45Z",
+  "updated_at": "2026-07-09T08:56:25Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260709-nvidia-system-software-engineer-data-center-4eceb42b",
+      "job_id": "linkedin-4408936656",
+      "dedupe_key": "linkedin:4408936656",
+      "source": "linkedin",
+      "source_job_id": "4408936656",
+      "source_url": "https://www.linkedin.com/jobs/view/4408936656",
+      "company": "NVIDIA",
+      "role": "System Software Engineer - Data Center Diagnostics",
+      "location": "Hyderabad, Telangana, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-highfit-ic-2",
+      "approved_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 89,
+      "fit_reason": "Strong target-company systems-infrastructure role: data-center diagnostics for graphics/compute products, system software, device drivers, PC/server architecture, PCIe/NVLink/InfiniBand/Ethernet, DMA/RDMA, debugging, and cross-functional hardware/software architecture work.",
+      "people": [],
+      "connections_summary": "LinkedIn search showed 431 company alumni and 244 school alumni on nearby NVIDIA India postings.",
+      "resume_theme": {
+        "name": "NVIDIA data-center diagnostics systems IC",
+        "positioning": "Position as an infrastructure and systems engineer with deep reliability/debugging, data-center, networking, and platform automation experience.",
+        "key_pointers": [
+          "Brane enterprise infrastructure and security stack built by a 2-engineer team",
+          "Production debugging, observability, and reliability leadership",
+          "Distributed systems and platform automation across MuleSoft, Brane, and Jupiter"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-nvidia-system-software-engineer-data-center-4eceb42b/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-nvidia-system-software-engineer-data-center-4eceb42b/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "NVIDIA Workday posting is active and can apply, but no external submission was completed because the apply flow starts with Create Account/Sign In before My Information, My Experience, Voluntary Disclosures, and Review.",
+        "Workday account/sign-in is required before resume, information, disclosure, review, and final submission steps can be completed."
+      ],
+      "status_reason": "NVIDIA Workday posting is active and can apply, but no external submission was completed because the apply flow starts with Create Account/Sign In before My Information, My Experience, Voluntary Disclosures, and Review.",
+      "last_status_update_id": "status-20260709-nvidia-diagnostics-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Workday account/sign-in is required before resume, information, disclosure, review, and final submission steps can be completed.",
+      "manual_action_at": "2026-07-09T08:56:25Z"
+    },
+    {
+      "application_id": "app-20260709-apple-senior-software-engineer-ai-data-pla-ed0c2ea3",
+      "job_id": "linkedin-4421796594",
+      "dedupe_key": "linkedin:4421796594",
+      "source": "linkedin",
+      "source_job_id": "4421796594",
+      "source_url": "https://www.linkedin.com/jobs/view/4421796594",
+      "company": "Apple",
+      "role": "Senior Software Engineer - AI Data Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-highfit-ic-2",
+      "approved_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong target-company AI platform match: builds Apple's AI Data and ML platforms, agentic assistant platform, GenAI frameworks, secure agent workflows, MCP/tool-calling, OAuth authentication, RAG, distributed systems, Spark/Flink/Hadoop, and customer-facing platform discovery.",
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "Apple AI data platform IC",
+        "positioning": "Position as a staff-level AI/data platform engineer with secure agentic systems, production AI workflows, and distributed data infrastructure experience.",
+        "key_pointers": [
+          "MuleSoft internal AI platform integrating customer and operational signals",
+          "Governed multi-agent systems, MCP/tool-calling, and secure AI workflow framing",
+          "Distributed platform, observability, and reliability evidence from MuleSoft, Brane, and Jupiter"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-apple-senior-software-engineer-ai-data-pla-ed0c2ea3/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-apple-senior-software-engineer-ai-data-pla-ed0c2ea3/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Apple Jobs posting is active, but no external submission was completed because the page exposes a Sign In / My Profile resume/profile application flow.",
+        "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission."
+      ],
+      "status_reason": "Apple Jobs posting is active, but no external submission was completed because the page exposes a Sign In / My Profile resume/profile application flow.",
+      "last_status_update_id": "status-20260709-apple-ai-data-platform-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission.",
+      "manual_action_at": "2026-07-09T08:56:25Z"
+    },
+    {
+      "application_id": "app-20260709-apple-senior-machine-learning-engineer-sen-b5ab5e71",
+      "job_id": "linkedin-4434323124",
+      "dedupe_key": "linkedin:4434323124",
+      "source": "linkedin",
+      "source_job_id": "4434323124",
+      "source_url": "https://www.linkedin.com/jobs/view/4434323124",
+      "company": "Apple",
+      "role": "Senior Machine Learning Engineer / Senior Applied Scientist, Search & AI",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-highfit-ic-2",
+      "approved_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 88,
+      "fit_reason": "Good Apple Search and AI fit: large-scale Search/Q&A systems, retrieval, ranking, embeddings, RAG, LLM evaluation, query understanding, petabyte-scale data, and production ML/search quality tooling.",
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "Apple search and AI systems IC",
+        "positioning": "Emphasize AI platform, retrieval/RAG, evaluation, operational signal quality, and scalable data systems rather than pure ML research.",
+        "key_pointers": [
+          "Internal AI platform and proactive diagnostics as production AI/search-adjacent systems",
+          "Telemetry, evidence quality, and data-informed decision velocity",
+          "Distributed data infrastructure and reliability experience"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-apple-senior-machine-learning-engineer-sen-b5ab5e71/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-apple-senior-machine-learning-engineer-sen-b5ab5e71/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Apple Jobs posting is active, but no external submission was completed because the page exposes a Sign In / My Profile resume/profile application flow.",
+        "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission."
+      ],
+      "status_reason": "Apple Jobs posting is active, but no external submission was completed because the page exposes a Sign In / My Profile resume/profile application flow.",
+      "last_status_update_id": "status-20260709-apple-search-ai-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission.",
+      "manual_action_at": "2026-07-09T08:56:25Z"
+    },
+    {
+      "application_id": "app-20260709-zepto-principal-software-engineer-data-pla-59227384",
+      "job_id": "linkedin-4435638847",
+      "dedupe_key": "linkedin:4435638847",
+      "source": "linkedin",
+      "source_job_id": "4435638847",
+      "source_url": "https://www.linkedin.com/jobs/view/4435638847",
+      "company": "Zepto",
+      "role": "Principal Software Engineer - Data Platform",
+      "location": "Bengaluru, Karnataka, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-highfit-ic-2",
+      "approved_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 90,
+      "fit_reason": "Strong staff/principal platform fit: foundational data platform for analytics, experimentation, observability, and AI; distributed systems, storage, query execution, developer infrastructure, billions of events, petabyte-scale analytics, retrieval/debugging/knowledge graphs/agent tooling, lineage, monitoring, and platform reliability.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Zepto",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 1 company alum on the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 1 company alum works at Zepto.",
+      "resume_theme": {
+        "name": "Principal data and AI platform IC",
+        "positioning": "Position as a principal platform engineer for data, observability, experimentation, and AI infrastructure at large event volume.",
+        "key_pointers": [
+          "AI platform integrating customer and operational signals for decision velocity",
+          "Observability, telemetry quality, and proactive diagnostics evidence",
+          "Distributed event/data infrastructure across Brane and Jupiter"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-zepto-principal-software-engineer-data-pla-59227384/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-zepto-principal-software-engineer-data-pla-59227384/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Zepto listing is LinkedIn Easy Apply only in the LinkedIn payload, and no offsite application URL was available from the page check.",
+        "LinkedIn Easy Apply profile transmission and final submission are unsupported in this tracker automation, so the application needs manual completion."
+      ],
+      "status_reason": "Zepto listing is LinkedIn Easy Apply only in the LinkedIn payload, and no offsite application URL was available from the page check.",
+      "last_status_update_id": "status-20260709-zepto-data-platform-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply profile transmission and final submission are unsupported in this tracker automation, so the application needs manual completion.",
+      "manual_action_at": "2026-07-09T08:56:25Z"
+    },
+    {
+      "application_id": "app-20260709-g-p-principal-software-engineer-ai-platf-db31071e",
+      "job_id": "linkedin-4435664126",
+      "dedupe_key": "linkedin:4435664126",
+      "source": "linkedin",
+      "source_job_id": "4435664126",
+      "source_url": "https://www.linkedin.com/jobs/view/4435664126",
+      "company": "G-P",
+      "role": "Principal Software Engineer - AI Platform",
+      "location": "India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-highfit-ic-2",
+      "approved_at": "2026-07-09T08:51:55Z",
+      "updated_at": "2026-07-09T08:56:25Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 86,
+      "fit_reason": "Potentially strong remote principal AI-platform fit based on title, company SaaS context, and India remote alignment, but LinkedIn did not expose the full job description in this pass.",
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "G-P",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 3 school alumni on the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 3 school alumni on the G-P posting.",
+      "resume_theme": {
+        "name": "Principal AI platform IC",
+        "positioning": "Position as a principal platform engineer for governed AI systems, agentic workflows, and production SaaS infrastructure.",
+        "key_pointers": [
+          "Governed multi-agent systems and internal AI platform work",
+          "Enterprise SaaS platform reliability and security posture",
+          "Distributed systems, observability, and customer/operational signal integration"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-g-p-principal-software-engineer-ai-platf-db31071e/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-g-p-principal-software-engineer-ai-platf-db31071e/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "G-P Greenhouse posting is active, but no external submission was completed because the form includes required work eligibility, future sponsorship, referral, and prior-employment questions.",
+        "Required work authorization, sponsorship, referral, and prior-employment answers need user confirmation before final Greenhouse submission."
+      ],
+      "status_reason": "G-P Greenhouse posting is active, but no external submission was completed because the form includes required work eligibility, future sponsorship, referral, and prior-employment questions.",
+      "last_status_update_id": "status-20260709-g-p-ai-platform-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Required work authorization, sponsorship, referral, and prior-employment answers need user confirmation before final Greenhouse submission.",
+      "manual_action_at": "2026-07-09T08:56:25Z"
+    },
     {
       "application_id": "app-20260709-five9-director-of-engineering-digital-indi-28b75102",
       "job_id": "linkedin-4409360205",
