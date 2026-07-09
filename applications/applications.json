@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T09:24:03Z",
+  "updated_at": "2026-07-09T09:45:46Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -63,11 +63,11 @@
       "company": "G-P",
       "role": "Senior Software Engineer (Data Platform)",
       "location": "India",
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260709-highfit-ic-3",
       "approved_at": "2026-07-09T09:20:25Z",
-      "updated_at": "2026-07-09T09:24:02Z",
+      "updated_at": "2026-07-09T09:45:46Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -102,11 +102,13 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "G-P Greenhouse posting 7698156003 is active, but no external submission was completed because the form includes required protected employment questions.",
-        "Required work eligibility, future visa sponsorship, employee referral, and prior G-P employment answers need user confirmation before final Greenhouse submission."
+        "Required work eligibility, future visa sponsorship, employee referral, and prior G-P employment answers need user confirmation before final Greenhouse submission.",
+        "Archived after strict target-level review: G-P Senior Software Engineer (Data Platform) is below the Staff+/Principal+/Architect IC search target despite strong platform fit.",
+        "Do not pursue unless a later source shows explicit Staff+/Principal+ level or high-comp equivalent scope."
       ],
-      "status_reason": "G-P Greenhouse posting 7698156003 is active, but no external submission was completed because the form includes required protected employment questions.",
-      "last_status_update_id": "status-20260709-g-p-data-platform-needs-manual",
-      "manual_action_required": true,
+      "status_reason": "Archived after strict target-level review: G-P Senior Software Engineer (Data Platform) is below the Staff+/Principal+/Architect IC search target despite strong platform fit.",
+      "last_status_update_id": "status-20260709-g-p-data-platform-archive-downlevel",
+      "manual_action_required": false,
       "manual_action_reason": "Required work eligibility, future visa sponsorship, employee referral, and prior G-P employment answers need user confirmation before final Greenhouse submission.",
       "manual_action_at": "2026-07-09T09:24:02Z"
     },
@@ -120,11 +122,11 @@
       "company": "eBay",
       "role": "MTS 2 Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260709-highfit-ic-3",
       "approved_at": "2026-07-09T09:20:25Z",
-      "updated_at": "2026-07-09T09:24:02Z",
+      "updated_at": "2026-07-09T09:45:46Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -151,11 +153,13 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "LinkedIn Apply resolved to the eBay jobs page, which exposes Workday apply URL ebay.wd5.myworkdayjobs.com/apply/job/Bengaluru-India/MTS-2-Software-Engineer_R0070763; no external submission was completed.",
-        "The Workday apply endpoint is unauthenticated and the browser-rendered apply page did not expose usable application controls in this automation, so manual Workday completion is required."
+        "The Workday apply endpoint is unauthenticated and the browser-rendered apply page did not expose usable application controls in this automation, so manual Workday completion is required.",
+        "Archived after strict target-level review: eBay MTS 2 is ambiguous/down-leveled relative to the Staff+/Principal+/Architect IC search target.",
+        "Do not pursue unless a later source shows explicit Staff+/Principal+ level or high-comp equivalent scope."
       ],
-      "status_reason": "LinkedIn Apply resolved to the eBay jobs page, which exposes Workday apply URL ebay.wd5.myworkdayjobs.com/apply/job/Bengaluru-India/MTS-2-Software-Engineer_R0070763; no external submission was completed.",
-      "last_status_update_id": "status-20260709-ebay-mts2-needs-manual",
-      "manual_action_required": true,
+      "status_reason": "Archived after strict target-level review: eBay MTS 2 is ambiguous/down-leveled relative to the Staff+/Principal+/Architect IC search target.",
+      "last_status_update_id": "status-20260709-ebay-mts2-archive-downlevel",
+      "manual_action_required": false,
       "manual_action_reason": "The Workday apply endpoint is unauthenticated and the browser-rendered apply page did not expose usable application controls in this automation, so manual Workday completion is required.",
       "manual_action_at": "2026-07-09T09:24:02Z"
     },
@@ -169,11 +173,11 @@
       "company": "Docusign",
       "role": "Lead Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260709-highfit-ic-3",
       "approved_at": "2026-07-09T09:20:25Z",
-      "updated_at": "2026-07-09T09:24:02Z",
+      "updated_at": "2026-07-09T09:45:46Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 87,
@@ -200,11 +204,13 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "LinkedIn Apply resolved to the Docusign careers page for job 29471, but no external submission was completed because the Jibe application flow requires login/register/profile steps.",
-        "Docusign Jibe flow exposes Sign In/Register, create profile, contact fields, resume upload, privacy agreement, and hCaptcha-protected steps that require user-confirmed account/profile and final-submission action."
+        "Docusign Jibe flow exposes Sign In/Register, create profile, contact fields, resume upload, privacy agreement, and hCaptcha-protected steps that require user-confirmed account/profile and final-submission action.",
+        "Archived after strict target-level review: DocuSign Lead Software Engineer is below the Staff+/Principal+/Architect IC search target.",
+        "Do not pursue unless a later source shows explicit Staff+/Principal+ level or high-comp equivalent scope."
       ],
-      "status_reason": "LinkedIn Apply resolved to the Docusign careers page for job 29471, but no external submission was completed because the Jibe application flow requires login/register/profile steps.",
-      "last_status_update_id": "status-20260709-docusign-lead-needs-manual",
-      "manual_action_required": true,
+      "status_reason": "Archived after strict target-level review: DocuSign Lead Software Engineer is below the Staff+/Principal+/Architect IC search target.",
+      "last_status_update_id": "status-20260709-docusign-lead-archive-downlevel",
+      "manual_action_required": false,
       "manual_action_reason": "Docusign Jibe flow exposes Sign In/Register, create profile, contact fields, resume upload, privacy agreement, and hCaptcha-protected steps that require user-confirmed account/profile and final-submission action.",
       "manual_action_at": "2026-07-09T09:24:02Z"
     },
