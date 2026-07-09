@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T12:57:26Z",
+  "updated_at": "2026-07-09T13:29:21Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260709-walmart-usa-distinguished-software-engineer-fa31dfb8",
+      "job_id": "linkedin-4402066060",
+      "dedupe_key": "linkedin:4402066060",
+      "source": "linkedin",
+      "source_job_id": "4402066060",
+      "source_url": "https://www.linkedin.com/jobs/view/4402066060",
+      "company": "Walmart",
+      "role": "(USA) Distinguished, Software Engineer",
+      "location": "Sunnyvale, CA, United States",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-strict-walmart-distinguished-search",
+      "approved_at": "2026-07-09T13:28:58Z",
+      "updated_at": "2026-07-09T13:29:21Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 95,
+      "fit_reason": "Strict high-comp Distinguished IC fit: the posting explicitly asks for domain-level technical leadership over Walmart's Search Runtime platform, technical vision and architecture, scalable AI-powered search systems serving billions of queries, semantic search, vector retrieval, ML-driven ranking, low-latency high-availability distributed systems, observability, reliability, performance, and cross-org technical influence. This maps strongly to platform architecture, distributed systems, production observability, search/runtime infrastructure, and Staff+/Principal-level technical leadership.",
+      "people": [],
+      "connections_summary": "LinkedIn posting did not expose a named recruiter or hiring-manager contact on this pass.",
+      "resume_theme": {
+        "name": "Walmart Distinguished Search Runtime IC",
+        "positioning": "Distinguished platform IC for AI-powered Search Runtime: distributed systems, retrieval/ranking/indexing/serving architecture, semantic/vector search, production observability, reliability, latency, and cross-org technical strategy.",
+        "key_pointers": [
+          "Lead with MuleSoft platform architecture, internal AI platform work, agentic observability, and production systems used across engineering teams.",
+          "Map Brane enterprise infrastructure and search-adjacent platform work to low-latency, high-availability, customer-impacting distributed services.",
+          "Emphasize observability modernization, performance/cost efficiency, reliability, and production troubleshooting at platform scale.",
+          "Frame business impact around improving product and engineering decision velocity from customer and operational signals."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-agentic-observability.md",
+          "work/2026-06-ai-devtools.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-walmart-usa-distinguished-software-engineer-fa31dfb8/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-walmart-usa-distinguished-software-engineer-fa31dfb8/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. The role passes the strict Distinguished IC gate, but final Walmart Careers submission requires user-confirmed profile/legal data and action-time approval.",
+        "Walmart Careers application flow requires user-controlled applicant profile, resume, contact, legal/work authorization, consent, self-identification, location/relocation, and final submission answers before any external application can be truthfully completed. These legal, identity, EEO, profile, and final-submission steps require user confirmation and cannot be completed autonomously."
+      ],
+      "status_reason": "Application not submitted. The role passes the strict Distinguished IC gate, but final Walmart Careers submission requires user-confirmed profile/legal data and action-time approval.",
+      "last_status_update_id": "status-20260709-walmart-distinguished-search-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Walmart Careers application flow requires user-controlled applicant profile, resume, contact, legal/work authorization, consent, self-identification, location/relocation, and final submission answers before any external application can be truthfully completed. These legal, identity, EEO, profile, and final-submission steps require user confirmation and cannot be completed autonomously.",
+      "manual_action_at": "2026-07-09T13:29:21Z"
+    },
     {
       "application_id": "app-20260709-google-senior-staff-software-engineer-googl-b13742b3",
       "job_id": "linkedin-4428732921",

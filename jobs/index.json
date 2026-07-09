@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T12:57:26Z",
-  "active_batch_id": "batch-20260709-strict-google-gce-performance",
-  "last_scheduler_run_at": "2026-07-09T12:57:04Z",
+  "updated_at": "2026-07-09T13:29:21Z",
+  "active_batch_id": "batch-20260709-strict-walmart-distinguished-search",
+  "last_scheduler_run_at": "2026-07-09T13:28:51Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -2587,6 +2587,67 @@
         "Official Workday CXS endpoint returned externalPath /job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1 and canApply=true on 2026-07-07.",
         "Chrome inspection on 2026-07-07 opened the official Workday apply path but it rendered a blank shell, preventing inspection of required questions or final submit controls."
       ]
+    },
+    {
+      "job_id": "linkedin-4402066060",
+      "dedupe_key": "linkedin:4402066060",
+      "source": "linkedin",
+      "source_job_id": "4402066060",
+      "source_url": "https://www.linkedin.com/jobs/view/4402066060",
+      "company": "Walmart",
+      "role": "(USA) Distinguished, Software Engineer",
+      "location": "Sunnyvale, CA, United States",
+      "work_type": "On-site",
+      "experience_level": "Distinguished IC",
+      "compensation_signals": [
+        "$169K-$338K base plus performance bonus and stock.",
+        "Distinguished IC role owning technical vision and architecture for Walmart Search Runtime, serving billions of queries with AI-powered search, semantic search, vector retrieval, ML ranking, distributed systems, reliability, observability, and cost efficiency."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-strict-walmart-distinguished-search",
+      "fit_score": 95,
+      "fit_reason": "Strict high-comp Distinguished IC fit: the posting explicitly asks for domain-level technical leadership over Walmart's Search Runtime platform, technical vision and architecture, scalable AI-powered search systems serving billions of queries, semantic search, vector retrieval, ML-driven ranking, low-latency high-availability distributed systems, observability, reliability, performance, and cross-org technical influence. This maps strongly to platform architecture, distributed systems, production observability, search/runtime infrastructure, and Staff+/Principal-level technical leadership.",
+      "fit_signals": [
+        "Explicit Distinguished Software Engineer title and $169K-$338K base compensation band with bonus and stock.",
+        "Owns technical strategy and architecture for Search Runtime across retrieval, ranking, indexing, and serving systems.",
+        "Builds AI-powered search capabilities including semantic search, vector retrieval, and ML-driven ranking.",
+        "Requires low-latency, high-availability distributed systems, observability, reliability, performance optimization, and cost efficiency.",
+        "Requires cross-org architecture leadership, mentoring, and influence across engineering, product, and data science."
+      ],
+      "risk_flags": [
+        "No final application submission completed.",
+        "Walmart Careers application flow requires user-confirmed applicant profile, resume, legal/work authorization, consent, self-identification, and final submission answers before any external application can be truthfully completed.",
+        "Role is Sunnyvale/on-site; location, relocation, sponsorship, and work authorization details need user confirmation.",
+        "Do not mark applied until official Walmart Careers final submission confirmation is observed."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting did not expose a named recruiter or hiring-manager contact on this pass.",
+      "resume_theme": {
+        "name": "Walmart Distinguished Search Runtime IC",
+        "positioning": "Distinguished platform IC for AI-powered Search Runtime: distributed systems, retrieval/ranking/indexing/serving architecture, semantic/vector search, production observability, reliability, latency, and cross-org technical strategy.",
+        "key_pointers": [
+          "Lead with MuleSoft platform architecture, internal AI platform work, agentic observability, and production systems used across engineering teams.",
+          "Map Brane enterprise infrastructure and search-adjacent platform work to low-latency, high-availability, customer-impacting distributed services.",
+          "Emphasize observability modernization, performance/cost efficiency, reliability, and production troubleshooting at platform scale.",
+          "Frame business impact around improving product and engineering decision velocity from customer and operational signals."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-agentic-observability.md",
+          "work/2026-06-ai-devtools.md"
+        ]
+      },
+      "application_id": "app-20260709-walmart-usa-distinguished-software-engineer-fa31dfb8",
+      "resume_snapshot_path": "applications/resumes/app-20260709-walmart-usa-distinguished-software-engineer-fa31dfb8/resume.md",
+      "discovered_at": "2026-07-09T13:28:51Z",
+      "updated_at": "2026-07-09T13:29:21Z",
+      "notes": [
+        "Official Walmart Careers URL found for the same posting: https://careers.walmart.com/us/en/jobs/R-2471114",
+        "LinkedIn details captured on 2026-07-09 show responses managed off LinkedIn, Distinguished title, Sunnyvale location, and a $169K-$338K base compensation band."
+      ],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "job_id": "linkedin-4264298107",
