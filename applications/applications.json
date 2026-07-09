@@ -1,9 +1,61 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T11:48:41Z",
+  "updated_at": "2026-07-09T12:57:26Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260709-google-senior-staff-software-engineer-googl-b13742b3",
+      "job_id": "linkedin-4428732921",
+      "dedupe_key": "linkedin:4428732921",
+      "source": "linkedin",
+      "source_job_id": "4428732921",
+      "source_url": "https://www.linkedin.com/jobs/view/4428732921",
+      "company": "Google",
+      "role": "Senior Staff Software Engineer, Google Cloud Compute, Performance",
+      "location": "Seattle, WA, United States",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-strict-google-gce-performance",
+      "approved_at": "2026-07-09T12:57:11Z",
+      "updated_at": "2026-07-09T12:57:26Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 98,
+      "fit_reason": "Strict high-comp Senior Staff Google Cloud infrastructure fit: the posting explicitly asks for an architect or technical lead for multi-year infrastructure initiatives from conception to global deployment, driving GCE virtual machine performance across hardware, kernel, virtualization, and product teams, and partnering with critical enterprise customers on massive-scale workload performance. This maps strongly to distributed systems, platform architecture, cloud infrastructure, observability, production troubleshooting, and Staff+/Principal-level technical leadership.",
+      "people": [],
+      "connections_summary": "LinkedIn posting did not expose a named recruiter or hiring-manager contact on this pass.",
+      "resume_theme": {
+        "name": "Google Cloud Compute performance senior staff IC",
+        "positioning": "Senior Staff infrastructure IC for Google Cloud Compute performance: distributed systems, cloud infrastructure architecture, kernel/virtualization-adjacent performance, production observability, cross-functional execution, and enterprise customer workload debugging.",
+        "key_pointers": [
+          "Lead with Staff+/Principal platform ownership across MuleSoft internal AI platforms, Hyperforce observability, platform APIs, and production troubleshooting.",
+          "Map Brane enterprise infrastructure to cloud performance, Kubernetes, distributed systems, reliability, compliance readiness, and production customer deployment at enterprise scale.",
+          "Emphasize cross-functional architecture from ambiguous performance and infrastructure goals into global production systems.",
+          "Use customer and operational signals from MuleSoft AI platform work to connect with Google's enterprise workload performance advisory responsibilities."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-agentic-observability.md",
+          "work/2026-06-ai-devtools.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-google-senior-staff-software-engineer-googl-b13742b3/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-google-senior-staff-software-engineer-googl-b13742b3/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "Application not submitted. The role passes the strict Staff+/Principal+ gate, but final Google Careers submission requires user-confirmed profile/legal data and action-time approval.",
+        "Google Careers profile/application flow requires legal name/contact fields, phone number, resume upload, prior Alphabet employment/contractor/acquisition answer, later Role Information, voluntary self-identification, review, and final Apply confirmation. These legal, identity, EEO, profile, and final-submission steps require user confirmation and cannot be completed autonomously."
+      ],
+      "status_reason": "Application not submitted. The role passes the strict Staff+/Principal+ gate, but final Google Careers submission requires user-confirmed profile/legal data and action-time approval.",
+      "last_status_update_id": "status-20260709-google-gce-performance-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Google Careers profile/application flow requires legal name/contact fields, phone number, resume upload, prior Alphabet employment/contractor/acquisition answer, later Role Information, voluntary self-identification, review, and final Apply confirmation. These legal, identity, EEO, profile, and final-submission steps require user confirmation and cannot be completed autonomously.",
+      "manual_action_at": "2026-07-09T12:57:26Z"
+    },
     {
       "application_id": "app-20260709-shield-ai-staff-software-engineer-autonomy-app-9ba12cba",
       "job_id": "linkedin-4264298107",

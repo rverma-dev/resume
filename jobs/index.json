@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T11:48:41Z",
-  "active_batch_id": "batch-20260709-strict-ic-3",
-  "last_scheduler_run_at": "2026-07-09T11:48:21Z",
+  "updated_at": "2026-07-09T12:57:26Z",
+  "active_batch_id": "batch-20260709-strict-google-gce-performance",
+  "last_scheduler_run_at": "2026-07-09T12:57:04Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -2766,6 +2766,67 @@
       "discovered_at": "2026-07-09T10:20:02Z",
       "updated_at": "2026-07-09T10:20:30Z",
       "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4428732921",
+      "dedupe_key": "linkedin:4428732921",
+      "source": "linkedin",
+      "source_job_id": "4428732921",
+      "source_url": "https://www.linkedin.com/jobs/view/4428732921",
+      "company": "Google",
+      "role": "Senior Staff Software Engineer, Google Cloud Compute, Performance",
+      "location": "Seattle, WA, United States",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [
+        "$262K-$365K base plus 25% bonus target, equity, and benefits.",
+        "Senior Staff Google Cloud Compute performance role in AI and Infrastructure, requiring multi-year infrastructure architecture, global deployment, kernel/virtualization/performance depth, and cross-functional technical leadership."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-strict-google-gce-performance",
+      "fit_score": 98,
+      "fit_reason": "Strict high-comp Senior Staff Google Cloud infrastructure fit: the posting explicitly asks for an architect or technical lead for multi-year infrastructure initiatives from conception to global deployment, driving GCE virtual machine performance across hardware, kernel, virtualization, and product teams, and partnering with critical enterprise customers on massive-scale workload performance. This maps strongly to distributed systems, platform architecture, cloud infrastructure, observability, production troubleshooting, and Staff+/Principal-level technical leadership.",
+      "fit_signals": [
+        "Explicit Senior Staff title and Washington compensation band of $262K-$365K base plus 25% bonus target and equity.",
+        "Google Cloud Compute Performance role in Google's AI and Infrastructure organization.",
+        "Requires architecture and technical leadership for multi-year large-scale infrastructure initiatives from conception to global deployment.",
+        "Direct match to distributed infrastructure, hardware/software performance boundaries, virtualization, production performance analysis, and strategic customer workload debugging.",
+        "Non-duplicate LinkedIn source id discovered after existing Google Staff/Senior Staff queue."
+      ],
+      "risk_flags": [
+        "No final application submission completed.",
+        "Google Careers profile/application flow requires user-confirmed legal/profile data, resume upload, prior Alphabet employment answer, later role information, voluntary self-identification, review, and final apply confirmation.",
+        "Role is Seattle/on-site; location, relocation, work authorization, and sponsorship details need user confirmation.",
+        "Do not mark applied until Google Careers final submission confirmation is observed."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn posting did not expose a named recruiter or hiring-manager contact on this pass.",
+      "resume_theme": {
+        "name": "Google Cloud Compute performance senior staff IC",
+        "positioning": "Senior Staff infrastructure IC for Google Cloud Compute performance: distributed systems, cloud infrastructure architecture, kernel/virtualization-adjacent performance, production observability, cross-functional execution, and enterprise customer workload debugging.",
+        "key_pointers": [
+          "Lead with Staff+/Principal platform ownership across MuleSoft internal AI platforms, Hyperforce observability, platform APIs, and production troubleshooting.",
+          "Map Brane enterprise infrastructure to cloud performance, Kubernetes, distributed systems, reliability, compliance readiness, and production customer deployment at enterprise scale.",
+          "Emphasize cross-functional architecture from ambiguous performance and infrastructure goals into global production systems.",
+          "Use customer and operational signals from MuleSoft AI platform work to connect with Google's enterprise workload performance advisory responsibilities."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/README.md",
+          "work/2026-06-agentic-observability.md",
+          "work/2026-06-ai-devtools.md"
+        ]
+      },
+      "application_id": "app-20260709-google-senior-staff-software-engineer-googl-b13742b3",
+      "resume_snapshot_path": "applications/resumes/app-20260709-google-senior-staff-software-engineer-googl-b13742b3/resume.md",
+      "discovered_at": "2026-07-09T12:57:04Z",
+      "updated_at": "2026-07-09T12:57:26Z",
+      "notes": [
+        "Official Google Careers URL found for the same posting: https://www.google.com/about/careers/applications/jobs/results/75108019452420806-senior-staff-software-engineer/",
+        "LinkedIn details captured on 2026-07-09 show the posting as reposted recently, responses managed off LinkedIn, and a Senior Staff compensation band of $262K-$365K base plus 25% bonus target, equity, and benefits."
+      ],
       "resume_snapshot_name": "IC Resume"
     },
     {
