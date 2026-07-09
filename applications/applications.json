@@ -1,9 +1,66 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T10:47:34Z",
+  "updated_at": "2026-07-09T11:48:41Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260709-shield-ai-staff-software-engineer-autonomy-app-9ba12cba",
+      "job_id": "linkedin-4264298107",
+      "dedupe_key": "linkedin:4264298107",
+      "source": "linkedin",
+      "source_job_id": "4264298107",
+      "source_url": "https://www.linkedin.com/jobs/view/4264298107",
+      "company": "Shield AI",
+      "role": "Staff Software Engineer, Autonomy Applications Engineering",
+      "location": "Delhi, Delhi, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-strict-ic-3",
+      "approved_at": "2026-07-09T11:48:21Z",
+      "updated_at": "2026-07-09T11:48:41Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 86,
+      "fit_reason": "Strict-gate Staff/Senior Staff AI systems role: explicit Staff title plus Senior Staff wording in the posting, edge-AI/autonomy software, customer Hivemind SDK integrations, AI infrastructure deployment at customer sites, software/hardware integration, modern C++ and Python, and cross-functional product/engineering feedback loops.",
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Shield AI",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 5 company alumni on the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 5 company alumni on the Shield AI posting.",
+      "resume_theme": {
+        "name": "Shield AI autonomy applications senior IC",
+        "positioning": "Staff/Senior Staff AI systems engineer for autonomy SDK integration, edge-AI deployment, customer-site AI infrastructure, and production-grade distributed software.",
+        "key_pointers": [
+          "Proactive Diagnostics and governed AI systems as evidence of AI product architecture, tool integration, and operational safeguards.",
+          "Brane enterprise platform/security stack and customer-facing on-prem distribution for deployment, integration, and enterprise readiness.",
+          "MuleSoft Hyperforce observability and platform automation for production reliability, diagnostics, and cross-team technical leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-shield-ai-staff-software-engineer-autonomy-app-9ba12cba/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-shield-ai-staff-software-engineer-autonomy-app-9ba12cba/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn detail payload verified an active Shield AI Staff Software Engineer, Autonomy Applications Engineering posting with responses managed off LinkedIn, but did not expose a usable offsite application URL; no browser Apply click was performed because LinkedIn clicked-apply activity is not a real application.",
+        "External application URL is unavailable from the LinkedIn MCP detail payload, and final submission would require a manual offsite application path rather than a LinkedIn clicked-apply event."
+      ],
+      "status_reason": "LinkedIn detail payload verified an active Shield AI Staff Software Engineer, Autonomy Applications Engineering posting with responses managed off LinkedIn, but did not expose a usable offsite application URL; no browser Apply click was performed because LinkedIn clicked-apply activity is not a real application.",
+      "last_status_update_id": "status-20260709-shield-ai-autonomy-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "External application URL is unavailable from the LinkedIn MCP detail payload, and final submission would require a manual offsite application path rather than a LinkedIn clicked-apply event.",
+      "manual_action_at": "2026-07-09T11:48:41Z"
+    },
     {
       "application_id": "app-20260709-uber-sr-staff-software-engineer-e3fa337e",
       "job_id": "linkedin-4438626139",

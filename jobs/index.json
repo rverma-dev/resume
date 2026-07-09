@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T10:47:34Z",
-  "active_batch_id": "batch-20260709-strict-ic-2",
-  "last_scheduler_run_at": "2026-07-09T10:47:18Z",
+  "updated_at": "2026-07-09T11:48:41Z",
+  "active_batch_id": "batch-20260709-strict-ic-3",
+  "last_scheduler_run_at": "2026-07-09T11:48:21Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -2587,6 +2587,70 @@
         "Official Workday CXS endpoint returned externalPath /job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1 and canApply=true on 2026-07-07.",
         "Chrome inspection on 2026-07-07 opened the official Workday apply path but it rendered a blank shell, preventing inspection of required questions or final submit controls."
       ]
+    },
+    {
+      "job_id": "linkedin-4264298107",
+      "dedupe_key": "linkedin:4264298107",
+      "source": "linkedin",
+      "source_job_id": "4264298107",
+      "source_url": "https://www.linkedin.com/jobs/view/4264298107",
+      "company": "Shield AI",
+      "role": "Staff Software Engineer, Autonomy Applications Engineering",
+      "location": "Delhi, Delhi, India",
+      "work_type": "On-site; about 30% travel / customer-site deployment",
+      "experience_level": "Staff / Senior Staff Software Engineer, autonomy applications engineering",
+      "compensation_signals": [
+        "LinkedIn title is Staff Software Engineer; posting body calls the role Senior Staff Software Engineer.",
+        "AI/autonomy defense-tech company building Hivemind autonomy software and edge-AI capabilities across air, sea, and space platforms.",
+        "No visible salary band; posting says international teammates receive a comprehensive total rewards package aligned to country office location."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-strict-ic-3",
+      "fit_score": 86,
+      "fit_reason": "Strict-gate Staff/Senior Staff AI systems role: explicit Staff title plus Senior Staff wording in the posting, edge-AI/autonomy software, customer Hivemind SDK integrations, AI infrastructure deployment at customer sites, software/hardware integration, modern C++ and Python, and cross-functional product/engineering feedback loops.",
+      "fit_signals": [
+        "Develops AI and autonomy software capabilities using Hivemind for unmanned platforms across air, sea, and space.",
+        "Deploys Hivemind AI infrastructure at customer sites and debugs software/API integration issues.",
+        "Works on autonomous teaming drones, helicopter/drone teaming, robotics, and AI pilots for fighter jets.",
+        "Requires strong C++ and Python software engineering, customer integration, training, documentation, and product feedback collaboration."
+      ],
+      "risk_flags": [
+        "Posting minimum is only 7+ years, which may indicate weaker leveling despite Staff/Senior Staff title.",
+        "Customer-facing applications/integration engineering is less aligned than core platform/AI infrastructure roles.",
+        "Delhi on-site role with approximately 30% travel and customer-site deployment may be a location/lifestyle mismatch.",
+        "Defense/autonomy domain may involve export-control, security, travel, and citizenship/visa constraints requiring user-confirmed legal answers.",
+        "LinkedIn MCP detail did not expose an offsite application URL; do not click Apply merely to create LinkedIn clicked-apply activity."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Shield AI",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 5 company alumni on the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 5 company alumni on the Shield AI posting.",
+      "resume_theme": {
+        "name": "Shield AI autonomy applications senior IC",
+        "positioning": "Staff/Senior Staff AI systems engineer for autonomy SDK integration, edge-AI deployment, customer-site AI infrastructure, and production-grade distributed software.",
+        "key_pointers": [
+          "Proactive Diagnostics and governed AI systems as evidence of AI product architecture, tool integration, and operational safeguards.",
+          "Brane enterprise platform/security stack and customer-facing on-prem distribution for deployment, integration, and enterprise readiness.",
+          "MuleSoft Hyperforce observability and platform automation for production reliability, diagnostics, and cross-team technical leadership."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-shield-ai-staff-software-engineer-autonomy-app-9ba12cba",
+      "resume_snapshot_path": "applications/resumes/app-20260709-shield-ai-staff-software-engineer-autonomy-app-9ba12cba/resume.md",
+      "discovered_at": "2026-07-09T11:48:21Z",
+      "updated_at": "2026-07-09T11:48:41Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "job_id": "linkedin-4438626139",
