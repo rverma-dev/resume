@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-08T17:55:17Z",
+  "updated_at": "2026-07-09T05:46:07Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -6557,7 +6557,7 @@
         "Principal Staff title at an AI infrastructure startup may be compensation-relevant, but no public salary range is visible.",
         "Treat as high-fit application-volume candidate until recruiter confirms cash/equity band."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260704-ic-heartbeat-0004",
       "fit_score": 90,
@@ -6592,7 +6592,7 @@
       "application_id": "app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb",
       "resume_snapshot_path": "applications/resumes/app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb/resume.md",
       "discovered_at": "2026-07-03T18:37:25Z",
-      "updated_at": "2026-07-03T18:37:45Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "notes": [
         "Discovered by heartbeat IC search on 2026-07-04; imported as high-fit but compensation-risk flagged Easy Apply candidate."
       ],
@@ -11879,7 +11879,7 @@
         "Posting says competitive senior compensation benchmarked to Bangalore senior technology market, with equity; no exact salary range visible.",
         "High thematic fit, but keep compensation as a recruiter-screen question."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-ic-staff-plus-bigtech",
       "fit_score": 86,
@@ -11923,7 +11923,7 @@
       "application_id": "app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f",
       "resume_snapshot_path": "applications/resumes/app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f/resume.md",
       "discovered_at": "2026-07-03T18:11:44Z",
-      "updated_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "notes": [
         "Imported from targeted IC Staff-plus search; Easy Apply signal visible on LinkedIn."
       ],
@@ -12627,6 +12627,64 @@
       "approval_issue_label": "#23"
     },
     {
+      "job_id": "linkedin-4391891539",
+      "dedupe_key": "linkedin:4391891539",
+      "source": "linkedin",
+      "source_job_id": "4391891539",
+      "source_url": "https://www.linkedin.com/jobs/view/4391891539",
+      "company": "LinkedIn",
+      "role": "Principal Staff Software Engineer, Systems Infrastructure",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Principal Staff Engineer / large-scale systems infrastructure technical leader",
+      "compensation_signals": [
+        "Principal Staff role at LinkedIn in Bengaluru is high-compensation-likely.",
+        "Scope includes next-generation infrastructure and platforms: service delivery, data storage/replication, search, AI platform, experimentation, privacy, compliance, BigData ecosystem, observability, and pubsub systems.",
+        "Company-scale open-source infrastructure context and Principal Staff title indicate top technical ladder; salary is not visible."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260703-acd3380a",
+      "fit_score": 90,
+      "fit_reason": "Strong platform-infrastructure fit by scope and company quality: very-large-scale distributed systems, data processing pipelines, pubsub, observability, compliance, AI platform, cross-team architecture, API/interface design, and strategy all align with the candidate's platform and observability record. Score is conservative because the posting requires 18+ years and heavy BigData depth.",
+      "fit_signals": [
+        "Role spans service delivery platform, data storage/replication, search, AI platform, experimentation, privacy/compliance, BigData, pubsub, and observability.",
+        "Resume has Druid/Prometheus observability scale, Kafka/Flink/ClickHouse/DynamoDB data systems, Brane search, compliance, and governed agent systems.",
+        "Principal Staff influence maps to cross-team RFCs, architecture ownership, and senior engineer mentorship evidence."
+      ],
+      "risk_flags": [
+        "Posting requires 18+ years programming and distributed systems; candidate should frame 15+ years plus Principal/VP/Architect scope carefully.",
+        "BigData systems like Hadoop/Spark/Iceberg are highly desirable; resume has Spark, Databricks, Flink, Druid, and data platform evidence but not every listed system.",
+        "Hybrid Bengaluru expectations should be confirmed. Easy Apply is visible, but this batch did not and must not apply."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants with over 100 applicants; no named connection signal was visible.",
+      "resume_theme": {
+        "name": "Principal staff systems infrastructure",
+        "positioning": "Principal Staff systems engineer for BigData, pubsub, observability, compliance, AI platforms, interface design, and internet-scale distributed infrastructure.",
+        "key_pointers": [
+          "Lead with Visualizer Druid-native topology and Anypoint Monitoring alerting scale for observability and distributed infrastructure proof.",
+          "Use Brane event-billing, workflow engine, entity data pipeline, and global search for BigData/pubsub/data-platform breadth.",
+          "Use AM Agent Federation and governance evidence for AI platform, privacy, compliance, and source-grounded diagnostic systems."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/architecture/",
+          "work/RFCs/",
+          "work/ADRs/"
+        ]
+      },
+      "application_id": "app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8",
+      "resume_snapshot_path": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/resume.md",
+      "discovered_at": "2026-07-03T14:05:28Z",
+      "updated_at": "2026-07-09T05:46:07Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
+    },
+    {
       "job_id": "linkedin-4365274472",
       "dedupe_key": "linkedin:4365274472",
       "source": "linkedin",
@@ -12686,64 +12744,6 @@
       "resume_snapshot_path": "applications/resumes/app-20260703-rubrik-architect-ai-data-platform-engineeri-c2dd7b80/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
       "updated_at": "2026-07-08T06:10:11Z",
-      "notes": [],
-      "resume_snapshot_name": "IC Resume",
-      "approval_issue_number": 23,
-      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
-    },
-    {
-      "job_id": "linkedin-4391891539",
-      "dedupe_key": "linkedin:4391891539",
-      "source": "linkedin",
-      "source_job_id": "4391891539",
-      "source_url": "https://www.linkedin.com/jobs/view/4391891539",
-      "company": "LinkedIn",
-      "role": "Principal Staff Software Engineer, Systems Infrastructure",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "Hybrid",
-      "experience_level": "Principal Staff Engineer / large-scale systems infrastructure technical leader",
-      "compensation_signals": [
-        "Principal Staff role at LinkedIn in Bengaluru is high-compensation-likely.",
-        "Scope includes next-generation infrastructure and platforms: service delivery, data storage/replication, search, AI platform, experimentation, privacy, compliance, BigData ecosystem, observability, and pubsub systems.",
-        "Company-scale open-source infrastructure context and Principal Staff title indicate top technical ladder; salary is not visible."
-      ],
-      "status": "approved",
-      "approval_status": "approved",
-      "batch_id": "batch-20260703-acd3380a",
-      "fit_score": 90,
-      "fit_reason": "Strong platform-infrastructure fit by scope and company quality: very-large-scale distributed systems, data processing pipelines, pubsub, observability, compliance, AI platform, cross-team architecture, API/interface design, and strategy all align with the candidate's platform and observability record. Score is conservative because the posting requires 18+ years and heavy BigData depth.",
-      "fit_signals": [
-        "Role spans service delivery platform, data storage/replication, search, AI platform, experimentation, privacy/compliance, BigData, pubsub, and observability.",
-        "Resume has Druid/Prometheus observability scale, Kafka/Flink/ClickHouse/DynamoDB data systems, Brane search, compliance, and governed agent systems.",
-        "Principal Staff influence maps to cross-team RFCs, architecture ownership, and senior engineer mentorship evidence."
-      ],
-      "risk_flags": [
-        "Posting requires 18+ years programming and distributed systems; candidate should frame 15+ years plus Principal/VP/Architect scope carefully.",
-        "BigData systems like Hadoop/Spark/Iceberg are highly desirable; resume has Spark, Databricks, Flink, Druid, and data platform evidence but not every listed system.",
-        "Hybrid Bengaluru expectations should be confirmed. Easy Apply is visible, but this batch did not and must not apply."
-      ],
-      "people": [],
-      "connections_summary": "LinkedIn detail showed the posting is actively reviewing applicants with over 100 applicants; no named connection signal was visible.",
-      "resume_theme": {
-        "name": "Principal staff systems infrastructure",
-        "positioning": "Principal Staff systems engineer for BigData, pubsub, observability, compliance, AI platforms, interface design, and internet-scale distributed infrastructure.",
-        "key_pointers": [
-          "Lead with Visualizer Druid-native topology and Anypoint Monitoring alerting scale for observability and distributed infrastructure proof.",
-          "Use Brane event-billing, workflow engine, entity data pipeline, and global search for BigData/pubsub/data-platform breadth.",
-          "Use AM Agent Federation and governance evidence for AI platform, privacy, compliance, and source-grounded diagnostic systems."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/architecture/",
-          "work/RFCs/",
-          "work/ADRs/"
-        ]
-      },
-      "application_id": "app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8",
-      "resume_snapshot_path": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/resume.md",
-      "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T17:59:53Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
@@ -14119,7 +14119,7 @@
         "Remote Bengaluru role posted 16 hours ago with low visible click volume at discovery time.",
         "Scope includes enterprise AI architecture, governance, observability, compliance, and platform modernization."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 90,
@@ -14151,7 +14151,7 @@
       "application_id": "app-20260703-jll-principal-architect-ai-solutions-9c73f71b",
       "resume_snapshot_path": "applications/resumes/app-20260703-jll-principal-architect-ai-solutions-9c73f71b/resume.md",
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ],
@@ -14341,7 +14341,7 @@
         "Role owns open-source and SaaS developer tooling across SDKs, CLI, IDE integrations, GitHub automation, and release strategy.",
         "Security platform company with likely strong compensation but role scope is narrower than infra leadership roles."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 85,
@@ -14373,7 +14373,7 @@
       "application_id": "app-20260703-okta-staff-engineer-developer-platform-4af9192c",
       "resume_snapshot_path": "applications/resumes/app-20260703-okta-staff-engineer-developer-platform-4af9192c/resume.md",
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
@@ -14938,7 +14938,7 @@
         "Principal Architect role at a fast-scaling SaaS company with stock options mentioned; no salary range posted.",
         "Requires 12+ years and end-to-end ownership of large-scale distributed cloud systems, supporting senior IC/architect compensation."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-114c6ff6",
       "fit_score": 91,
@@ -14973,7 +14973,7 @@
       "application_id": "app-20260703-6sense-principal-architect-68cfd70b",
       "resume_snapshot_path": "applications/resumes/app-20260703-6sense-principal-architect-68cfd70b/resume.md",
       "discovered_at": "2026-07-03T13:07:25Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
@@ -15270,7 +15270,7 @@
         "Principal Architect role with competitive compensation and performance-linked growth mentioned; no salary range posted.",
         "Role owns architecture strategy across global enterprise engagements and requires principal/staff-level architecture ownership."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-114c6ff6",
       "fit_score": 84,
@@ -15304,7 +15304,7 @@
       "application_id": "app-20260703-recrew-ai-principal-architect-digital-platform-74994e90",
       "resume_snapshot_path": "applications/resumes/app-20260703-recrew-ai-principal-architect-digital-platform-74994e90/resume.md",
       "discovered_at": "2026-07-03T13:07:25Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-09T05:46:06Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ],

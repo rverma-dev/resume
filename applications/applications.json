@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-08T17:55:17Z",
+  "updated_at": "2026-07-09T05:46:07Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -10722,11 +10722,11 @@
       "company": "Recrew AI",
       "role": "Principal Architect - Digital Platform & Cloud Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-7897c70e",
       "approved_at": "2026-07-03T18:41:09Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-09T05:46:06Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 84,
@@ -10752,12 +10752,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-recrew-ai-principal-architect-digital-platform-74994e90/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-09. Recrew AI application form is reachable and requires name, email, phone, current city, current CTC in LPA, expected CTC in LPA, notice period in days, on-notice-period yes/no, resume upload, and final Submit Application.",
+        "Missing required compensation and notice-period answers; final external submission cannot be completed truthfully from available tracker data."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-09. Recrew AI application form is reachable and requires name, email, phone, current city, current CTC in LPA, expected CTC in LPA, notice period in days, on-notice-period yes/no, resume upload, and final Submit Application.",
+      "last_status_update_id": "status-20260709-recrew-principal-architect-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Missing required compensation and notice-period answers; final external submission cannot be completed truthfully from available tracker data.",
+      "manual_action_at": "2026-07-09T05:46:06Z"
     },
     {
       "application_id": "app-20260703-jll-principal-architect-ai-solutions-9c73f71b",
@@ -10769,11 +10776,11 @@
       "company": "JLL",
       "role": "Principal Architect, AI Solutions",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-7897c70e",
       "approved_at": "2026-07-03T18:41:09Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -10797,12 +10804,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-jll-principal-architect-ai-solutions-9c73f71b/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-09. JLL Workday URL for Principal Architect, AI Solutions remained blank after waiting, with no title, visible text, controls, or application steps rendered.",
+        "Blank Workday application page; no supported final submission form was available."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-09. JLL Workday URL for Principal Architect, AI Solutions remained blank after waiting, with no title, visible text, controls, or application steps rendered.",
+      "last_status_update_id": "status-20260709-jll-principal-ai-architect-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Blank Workday application page; no supported final submission form was available.",
+      "manual_action_at": "2026-07-09T05:46:07Z"
     },
     {
       "application_id": "app-20260703-amazon-principal-software-engineer-alexa-ai-8d01989a",
@@ -10874,11 +10888,11 @@
       "company": "TrueFoundry",
       "role": "Principal Staff Software Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260704-ic-heartbeat-0004",
       "approved_at": "2026-07-03T18:37:45Z",
-      "updated_at": "2026-07-03T18:37:45Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -10905,9 +10919,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-truefoundry-principal-staff-software-engineer-0963fdeb/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn checked on 2026-07-09 and shows an active Easy Apply flow for TrueFoundry Principal Staff Software Engineer; no external company application form was provided.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn checked on 2026-07-09 and shows an active Easy Apply flow for TrueFoundry Principal Staff Software Engineer; no external company application form was provided.",
+      "last_status_update_id": "status-20260709-truefoundry-principal-staff-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-09T05:46:07Z"
     },
     {
       "application_id": "app-20260703-google-senior-staff-software-engineer-creat-8c029467",
@@ -11320,11 +11341,11 @@
       "company": "Operant AI",
       "role": "Staff Software Engineer - AI & Agentic Security - APAC",
       "location": "Bengaluru, Karnataka, India / Remote",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-ic-staff-plus-bigtech",
       "approved_at": "2026-07-03T18:12:02Z",
-      "updated_at": "2026-07-03T18:12:02Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 86,
@@ -11359,9 +11380,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-operant-ai-staff-software-engineer-ai-agentic-s-2afa064f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn checked on 2026-07-09 and shows an active Easy Apply flow for Operant AI Staff Software Engineer - AI & Agentic Security - APAC; no external company application form was provided.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "LinkedIn checked on 2026-07-09 and shows an active Easy Apply flow for Operant AI Staff Software Engineer - AI & Agentic Security - APAC; no external company application form was provided.",
+      "last_status_update_id": "status-20260709-operant-ai-staff-agentic-security-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-09T05:46:07Z"
     },
     {
       "application_id": "app-20260703-rubrik-principal-engineer-dev-platform-deve-96ee650c",
@@ -11493,11 +11521,11 @@
       "company": "6sense",
       "role": "Principal Architect",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -11524,12 +11552,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-6sense-principal-architect-68cfd70b/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-09. 6sense Greenhouse form is active and requires identity/contact fields, resume, LinkedIn profile, multiple required long-form architecture/mentorship/collaboration/project answers, years of software-development experience, current CTC, expected CTC, current location, and invisible reCAPTCHA before final submission.",
+        "Missing required compensation answers plus Greenhouse reCAPTCHA; final external submission cannot be completed truthfully from available tracker data."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-09. 6sense Greenhouse form is active and requires identity/contact fields, resume, LinkedIn profile, multiple required long-form architecture/mentorship/collaboration/project answers, years of software-development experience, current CTC, expected CTC, current location, and invisible reCAPTCHA before final submission.",
+      "last_status_update_id": "status-20260709-6sense-principal-architect-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Missing required compensation answers plus Greenhouse reCAPTCHA; final external submission cannot be completed truthfully from available tracker data.",
+      "manual_action_at": "2026-07-09T05:46:07Z"
     },
     {
       "application_id": "app-20260703-okta-staff-engineer-developer-platform-4af9192c",
@@ -11541,11 +11576,11 @@
       "company": "Okta",
       "role": "Staff Engineer, Developer Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 85,
@@ -11569,12 +11604,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-okta-staff-engineer-developer-platform-4af9192c/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-09. Okta career page is reachable and requires identity/contact fields, resume upload or pasted resume, legal authorization to work, future visa sponsorship, family/vendor relationship disclosure, outside business activity disclosure, previous Okta employment, personnel notice acknowledgement, and reCAPTCHA before final submission.",
+        "Required legal/work-authorization, sponsorship, conflict-disclosure, prior-employment, acknowledgement, and reCAPTCHA answers cannot be completed autonomously without user-confirmed data."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-09. Okta career page is reachable and requires identity/contact fields, resume upload or pasted resume, legal authorization to work, future visa sponsorship, family/vendor relationship disclosure, outside business activity disclosure, previous Okta employment, personnel notice acknowledgement, and reCAPTCHA before final submission.",
+      "last_status_update_id": "status-20260709-okta-developer-platform-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Required legal/work-authorization, sponsorship, conflict-disclosure, prior-employment, acknowledgement, and reCAPTCHA answers cannot be completed autonomously without user-confirmed data.",
+      "manual_action_at": "2026-07-09T05:46:07Z"
     },
     {
       "application_id": "app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8",
@@ -11586,11 +11628,11 @@
       "company": "LinkedIn",
       "role": "Principal Staff Software Engineer, Systems Infrastructure",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T05:46:07Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -11616,12 +11658,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-linkedin-principal-staff-software-engineer-sy-cc5df9f8/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn checked on 2026-07-09 and shows an active Easy Apply flow for LinkedIn Principal Staff Software Engineer, Systems Infrastructure; no external company application form was provided.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "LinkedIn checked on 2026-07-09 and shows an active Easy Apply flow for LinkedIn Principal Staff Software Engineer, Systems Infrastructure; no external company application form was provided.",
+      "last_status_update_id": "status-20260709-linkedin-principal-staff-systems-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-09T05:46:07Z"
     },
     {
       "application_id": "app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63",
