@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T06:16:56Z",
+  "updated_at": "2026-07-09T06:51:29Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -12379,7 +12379,7 @@
         "Role builds infrastructure and products for Databricks platform at scale across resource management, multi-cloud services, ML/distributed systems, and developer operations tools.",
         "More than 10,000 organizations and Fortune 500 customer base stated; compensation not visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-acd3380a",
       "fit_score": 94,
@@ -12422,7 +12422,7 @@
       "application_id": "app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3",
       "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-engineering-manager-backend-13a0a4d3/resume.md",
       "discovered_at": "2026-07-03T14:05:28Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:51:29Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 23,
@@ -14010,7 +14010,7 @@
         "Role leads Uber Online Data Platform systems including MySQL, Vitess, M3DB, ZK, ETCD, backup/restore, real-time analytics, Search, Flink, and Kafka.",
         "Multi-layer leadership over senior engineers, TLMs, and engineering managers."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-3b2f177e",
       "fit_score": 96,
@@ -14042,7 +14042,7 @@
       "application_id": "app-20260703-uber-sr-manager-engineering-3c8bba1c",
       "resume_snapshot_path": "applications/resumes/app-20260703-uber-sr-manager-engineering-3c8bba1c/resume.md",
       "discovered_at": "2026-07-03T10:06:14Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:51:29Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume"
     },
@@ -15109,7 +15109,7 @@
         "Senior Engineering Manager role at Google, a priority high-compensation-likely company; no salary range posted.",
         "Requires large-scale infrastructure/distributed systems experience and technical/people leadership across teams."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-114c6ff6",
       "fit_score": 87,
@@ -15143,7 +15143,7 @@
       "application_id": "app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec",
       "resume_snapshot_path": "applications/resumes/app-20260703-google-senior-engineering-manager-corp-eng-f6c78fec/resume.md",
       "discovered_at": "2026-07-03T13:07:25Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:51:29Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume"
     },
@@ -16358,7 +16358,7 @@
         "director-level fintech/product role",
         "posting mentions bonus/equity eligibility but exact range not visible"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-linkedin-001",
       "fit_score": 87,
@@ -16398,7 +16398,7 @@
       "application_id": "app-20260702-intuit-director-software-engineering-3017f1a3",
       "resume_snapshot_path": "applications/resumes/app-20260702-intuit-director-software-engineering-3017f1a3/resume.md",
       "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T06:51:29Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
@@ -16739,7 +16739,7 @@
         "user-provided payband signal: Docusign senior engineering director/platform roles can meet 2.5cr+ total compensation at the right band",
         "no exact compensation visible in LinkedIn detail"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-543819ee",
       "fit_score": 94,
@@ -16782,7 +16782,7 @@
       "application_id": "app-20260702-docusign-senior-engineering-director-a93cfc5b",
       "resume_snapshot_path": "applications/resumes/app-20260702-docusign-senior-engineering-director-a93cfc5b/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-03T17:49:58Z",
+      "updated_at": "2026-07-09T06:51:29Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
@@ -17237,7 +17237,7 @@
         "Senior Director ownership of a tier-0 managed database service at a global AI-native cloud company suggests high compensation likelihood.",
         "Application limit of 3 positions per 180 days means this should be reviewed deliberately before applying."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260702-179f69f0",
       "fit_score": 96,
@@ -17272,7 +17272,7 @@
       "application_id": "app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b",
       "resume_snapshot_path": "applications/resumes/app-20260703-digitalocean-senior-director-of-engineering-manag-01cd6b1b/resume.md",
       "discovered_at": "2026-07-02T14:05:33Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:51:29Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume"
     },
