@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T07:20:59Z",
+  "updated_at": "2026-07-09T07:50:37Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -10384,11 +10384,11 @@
       "company": "Anaplan",
       "role": "Senior Manager, AI Engineering",
       "location": "Gurgaon, Haryana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-7897c70e",
       "approved_at": "2026-07-03T18:41:09Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-09T07:50:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -10422,12 +10422,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-anaplan-senior-manager-ai-engineering-05b1bd49/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn verified Anaplan Senior Manager, AI Engineering as active, but no external submission was completed.",
+        "LinkedIn job 4408713822 only exposes LinkedIn Easy Apply; no company/offsite application URL was available, and Easy Apply final submission/profile transmission is unsupported for automation."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "LinkedIn verified Anaplan Senior Manager, AI Engineering as active, but no external submission was completed.",
+      "last_status_update_id": "status-20260709-anaplan-easy-apply",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn job 4408713822 only exposes LinkedIn Easy Apply; no company/offsite application URL was available, and Easy Apply final submission/profile transmission is unsupported for automation.",
+      "manual_action_at": "2026-07-09T07:50:37Z"
     },
     {
       "application_id": "app-20260703-teradata-elastic-compute-architect-sr-princip-cc474eea",
@@ -10614,11 +10621,11 @@
       "company": "Cargill",
       "role": "Director, Platform Engineering, CargillNow",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-7897c70e",
       "approved_at": "2026-07-03T18:41:09Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-09T07:50:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -10651,12 +10658,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-cargill-director-platform-engineering-cargil-e9276436/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn Apply resolved to Cargill's external careers site, but no external submission was completed.",
+        "Cargill Apply Now routes to SuccessFactors/Cargill job 329402 and requires entering email to join/start the Talent Community application flow before the application can proceed."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "LinkedIn Apply resolved to Cargill's external careers site, but no external submission was completed.",
+      "last_status_update_id": "status-20260709-cargill-successfactors",
+      "manual_action_required": true,
+      "manual_action_reason": "Cargill Apply Now routes to SuccessFactors/Cargill job 329402 and requires entering email to join/start the Talent Community application flow before the application can proceed.",
+      "manual_action_at": "2026-07-09T07:50:37Z"
     },
     {
       "application_id": "app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b",
@@ -12019,11 +12033,11 @@
       "company": "Toast",
       "role": "Director of Engineering, New Ventures",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T07:50:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -12057,12 +12071,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-toast-director-of-engineering-new-ventures-d617b98d/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn verified Toast Director of Engineering, New Ventures as closed, so no external submission was completed.",
+        "LinkedIn job 4418946375 displays No longer accepting applications; the application URL is unavailable."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "LinkedIn verified Toast Director of Engineering, New Ventures as closed, so no external submission was completed.",
+      "last_status_update_id": "status-20260709-toast-closed",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn job 4418946375 displays No longer accepting applications; the application URL is unavailable.",
+      "manual_action_at": "2026-07-09T07:50:37Z"
     },
     {
       "application_id": "app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8",
@@ -12916,11 +12937,11 @@
       "company": "Mastercard",
       "role": "Director - Platform Engineering",
       "location": "Pune/Pimpri-Chinchwad Area, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-03T17:46:36Z",
+      "updated_at": "2026-07-09T07:50:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -12954,12 +12975,19 @@
       "submitted_resume_path": null,
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
-        "Compensation override: Mastercard Director-level platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians."
+        "Compensation override: Mastercard Director-level platform roles can meet 2.5cr+ total compensation at the right band; do not downrank solely on sparse public medians.",
+        "LinkedIn Apply resolved to Mastercard's external application flow, but no external submission was completed.",
+        "Mastercard Phenom apply step for R-276684 requires resume upload plus personal identity, contact, address, and applicant privacy/talent consent fields before progressing."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "LinkedIn Apply resolved to Mastercard's external application flow, but no external submission was completed.",
+      "last_status_update_id": "status-20260709-mastercard-phenom-form",
+      "manual_action_required": true,
+      "manual_action_reason": "Mastercard Phenom apply step for R-276684 requires resume upload plus personal identity, contact, address, and applicant privacy/talent consent fields before progressing.",
+      "manual_action_at": "2026-07-09T07:50:37Z"
     },
     {
       "application_id": "app-20260702-intuit-director-software-engineering-3017f1a3",
@@ -13150,11 +13178,11 @@
       "company": "Charles River Laboratories",
       "role": "Director, Data Engineering & Platforms",
       "location": "Bengaluru, Karnataka, India / Remote India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T07:50:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -13187,12 +13215,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-charles-river-laboratories-director-data-engineering-platforms-7bf566d9/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn Apply resolved to Charles River's external careers site, but no external submission was completed.",
+        "Charles River Apply Now for req 234226 routes to SuccessFactors and requires applicant account sign-in or account creation before applying."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "LinkedIn Apply resolved to Charles River's external careers site, but no external submission was completed.",
+      "last_status_update_id": "status-20260709-charles-river-successfactors-login",
+      "manual_action_required": true,
+      "manual_action_reason": "Charles River Apply Now for req 234226 routes to SuccessFactors and requires applicant account sign-in or account creation before applying.",
+      "manual_action_at": "2026-07-09T07:50:37Z"
     },
     {
       "application_id": "app-20260702-openai-partner-ai-deployment-engineer-aws-c4e8a5b1",
@@ -13722,11 +13757,11 @@
       "company": "BlinkRx",
       "role": "Director, Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T07:50:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -13758,12 +13793,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-blinkrx-director-engineering-586d1421/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn verified BlinkRx Director, Engineering as active, but no external submission was completed.",
+        "LinkedIn job 4434320707 only exposes LinkedIn Easy Apply; no company/offsite application URL was available, and Easy Apply final submission/profile transmission is unsupported for automation."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "LinkedIn verified BlinkRx Director, Engineering as active, but no external submission was completed.",
+      "last_status_update_id": "status-20260709-blinkrx-easy-apply",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn job 4434320707 only exposes LinkedIn Easy Apply; no company/offsite application URL was available, and Easy Apply final submission/profile transmission is unsupported for automation.",
+      "manual_action_at": "2026-07-09T07:50:37Z"
     },
     {
       "application_id": "app-20260702-nvidia-senior-manager-cloud-services-platfo-1439c2cd",
@@ -13837,11 +13879,11 @@
       "company": "Magnit Global",
       "role": "Director, Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T07:50:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -13874,12 +13916,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-magnit-global-director-engineering-7864387c/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn Apply resolved to Magnit's Dayforce application flow, but no external submission was completed.",
+        "Magnit Dayforce guest application for req 2675 requires manual resume import/upload, email and confirmation email, phone/address, employment history, education history, and reCAPTCHA before progressing."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "LinkedIn Apply resolved to Magnit's Dayforce application flow, but no external submission was completed.",
+      "last_status_update_id": "status-20260709-magnit-dayforce-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Magnit Dayforce guest application for req 2675 requires manual resume import/upload, email and confirmation email, phone/address, employment history, education history, and reCAPTCHA before progressing.",
+      "manual_action_at": "2026-07-09T07:50:37Z"
     },
     {
       "application_id": "app-20260702-jiohotstar-senior-director-engineering-928a574f",
@@ -13952,11 +14001,11 @@
       "company": "American Express",
       "role": "Director Software Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T07:50:37Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 84,
@@ -13989,12 +14038,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-american-express-director-software-engineering-dc7520e5/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn Apply resolved to American Express's Oracle Cloud application flow, but no external submission was completed.",
+        "American Express Oracle Cloud apply step for job 26009507 requires email entry plus agreement to terms and conditions to create/update a candidate profile before the application can proceed."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "LinkedIn Apply resolved to American Express's Oracle Cloud application flow, but no external submission was completed.",
+      "last_status_update_id": "status-20260709-amex-oracle-email-profile",
+      "manual_action_required": true,
+      "manual_action_reason": "American Express Oracle Cloud apply step for job 26009507 requires email entry plus agreement to terms and conditions to create/update a candidate profile before the application can proceed.",
+      "manual_action_at": "2026-07-09T07:50:37Z"
     }
   ]
 }
