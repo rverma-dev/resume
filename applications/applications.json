@@ -1,9 +1,58 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T09:45:46Z",
+  "updated_at": "2026-07-09T10:21:56Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260709-trimble-inc-staff-software-engineer-7842dead",
+      "job_id": "linkedin-4429980321",
+      "dedupe_key": "linkedin:4429980321",
+      "source": "linkedin",
+      "source_job_id": "4429980321",
+      "source_url": "https://www.linkedin.com/jobs/view/4429980321",
+      "company": "Trimble Inc.",
+      "role": "Staff Software Engineer",
+      "location": "Chennai, Tamil Nadu, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-strict-ic-1",
+      "approved_at": "2026-07-09T10:20:02Z",
+      "updated_at": "2026-07-09T10:20:30Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 87,
+      "fit_reason": "Strict-gate Staff IC fit: explicit Staff Software Engineer title with cloud architecture, multi-cloud migration, compliance-driven database transitions, Terraform provisioning, observability, and mentoring scope. Platform fit is real, though narrower than the strongest AI infrastructure roles.",
+      "people": [],
+      "connections_summary": "No named hiring manager, recruiter, or connection signal captured from the LinkedIn detail payload.",
+      "resume_theme": {
+        "name": "Trimble staff cloud architecture IC",
+        "positioning": "Staff platform engineer for cloud migration, compliance-aware architecture, observability, infrastructure automation, and senior IC technical direction.",
+        "key_pointers": [
+          "Hyperforce platform migration and observability work for cloud modernization and production reliability.",
+          "Brane enterprise platform/security stack built by a 2-engineer team for enterprise-scale deployment and compliance readiness.",
+          "Governed internal AI platform and operational signal integration as evidence of architecture decisions that improve engineering/product decision velocity."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-trimble-inc-staff-software-engineer-7842dead/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-trimble-inc-staff-software-engineer-7842dead/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn detail payload verified an active Trimble Staff Software Engineer posting with responses managed off LinkedIn, but did not expose a usable offsite application URL; no browser Apply click was performed because LinkedIn clicked-apply activity is not a real application.",
+        "External application URL is unavailable from the LinkedIn MCP detail payload, and final submission would require a manual offsite application path rather than a LinkedIn clicked-apply event."
+      ],
+      "status_reason": "LinkedIn detail payload verified an active Trimble Staff Software Engineer posting with responses managed off LinkedIn, but did not expose a usable offsite application URL; no browser Apply click was performed because LinkedIn clicked-apply activity is not a real application.",
+      "last_status_update_id": "status-20260709-trimble-staff-cloud-architecture-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "External application URL is unavailable from the LinkedIn MCP detail payload, and final submission would require a manual offsite application path rather than a LinkedIn clicked-apply event.",
+      "manual_action_at": "2026-07-09T10:20:30Z"
+    },
     {
       "application_id": "app-20260709-teradata-staff-cloud-ai-engineer-3c7f362b",
       "job_id": "linkedin-4370468553",
@@ -281,11 +330,11 @@
       "company": "NVIDIA",
       "role": "System Software Engineer - Data Center Diagnostics",
       "location": "Hyderabad, Telangana, India",
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260709-highfit-ic-2",
       "approved_at": "2026-07-09T08:51:55Z",
-      "updated_at": "2026-07-09T08:56:25Z",
+      "updated_at": "2026-07-09T10:21:56Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 89,
@@ -312,11 +361,13 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "NVIDIA Workday posting is active and can apply, but no external submission was completed because the apply flow starts with Create Account/Sign In before My Information, My Experience, Voluntary Disclosures, and Review.",
-        "Workday account/sign-in is required before resume, information, disclosure, review, and final submission steps can be completed."
+        "Workday account/sign-in is required before resume, information, disclosure, review, and final submission steps can be completed.",
+        "Archived after strict target-level review: NVIDIA System Software Engineer - Data Center Diagnostics has strong systems fit, but the stored posting evidence does not prove Staff+/Principal+/Architect level through title, compensation band, or explicit level mapping.",
+        "Do not pursue unless a later source shows explicit Staff+/Principal+ level or hard high-comp equivalent IC scope."
       ],
-      "status_reason": "NVIDIA Workday posting is active and can apply, but no external submission was completed because the apply flow starts with Create Account/Sign In before My Information, My Experience, Voluntary Disclosures, and Review.",
-      "last_status_update_id": "status-20260709-nvidia-diagnostics-needs-manual",
-      "manual_action_required": true,
+      "status_reason": "Archived after strict target-level review: NVIDIA System Software Engineer - Data Center Diagnostics has strong systems fit, but the stored posting evidence does not prove Staff+/Principal+/Architect level through title, compensation band, or explicit level mapping.",
+      "last_status_update_id": "status-20260709-nvidia-diagnostics-archive-ambiguous-level",
+      "manual_action_required": false,
       "manual_action_reason": "Workday account/sign-in is required before resume, information, disclosure, review, and final submission steps can be completed.",
       "manual_action_at": "2026-07-09T08:56:25Z"
     },
@@ -330,11 +381,11 @@
       "company": "Apple",
       "role": "Senior Software Engineer - AI Data Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260709-highfit-ic-2",
       "approved_at": "2026-07-09T08:51:55Z",
-      "updated_at": "2026-07-09T08:56:25Z",
+      "updated_at": "2026-07-09T10:21:56Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -361,11 +412,13 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "Apple Jobs posting is active, but no external submission was completed because the page exposes a Sign In / My Profile resume/profile application flow.",
-        "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission."
+        "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission.",
+        "Archived after strict target-level review: Apple Senior Software Engineer - AI Data Platform is a generic Senior title, and the stored posting evidence does not prove Staff+/Principal+/Architect level through title, compensation band, or explicit level mapping.",
+        "Do not pursue unless a later source shows explicit Staff+/Principal+ level or hard high-comp equivalent IC scope."
       ],
-      "status_reason": "Apple Jobs posting is active, but no external submission was completed because the page exposes a Sign In / My Profile resume/profile application flow.",
-      "last_status_update_id": "status-20260709-apple-ai-data-platform-needs-manual",
-      "manual_action_required": true,
+      "status_reason": "Archived after strict target-level review: Apple Senior Software Engineer - AI Data Platform is a generic Senior title, and the stored posting evidence does not prove Staff+/Principal+/Architect level through title, compensation band, or explicit level mapping.",
+      "last_status_update_id": "status-20260709-apple-ai-data-platform-archive-downlevel",
+      "manual_action_required": false,
       "manual_action_reason": "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission.",
       "manual_action_at": "2026-07-09T08:56:25Z"
     },
@@ -379,11 +432,11 @@
       "company": "Apple",
       "role": "Senior Machine Learning Engineer / Senior Applied Scientist, Search & AI",
       "location": "Bengaluru, Karnataka, India",
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "approval_batch_id": "approval-20260709-highfit-ic-2",
       "approved_at": "2026-07-09T08:51:55Z",
-      "updated_at": "2026-07-09T08:56:25Z",
+      "updated_at": "2026-07-09T10:21:56Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 88,
@@ -410,11 +463,13 @@
       "notes": [
         "Approved for tailoring; no application submitted by this script.",
         "Apple Jobs posting is active, but no external submission was completed because the page exposes a Sign In / My Profile resume/profile application flow.",
-        "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission."
+        "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission.",
+        "Archived after strict target-level review: Apple Senior Machine Learning Engineer / Senior Applied Scientist, Search & AI is a generic Senior title, and the stored posting evidence does not prove Staff+/Principal+/Architect level through title, compensation band, or explicit level mapping.",
+        "Do not pursue unless a later source shows explicit Staff+/Principal+ level or hard high-comp equivalent IC scope."
       ],
-      "status_reason": "Apple Jobs posting is active, but no external submission was completed because the page exposes a Sign In / My Profile resume/profile application flow.",
-      "last_status_update_id": "status-20260709-apple-search-ai-needs-manual",
-      "manual_action_required": true,
+      "status_reason": "Archived after strict target-level review: Apple Senior Machine Learning Engineer / Senior Applied Scientist, Search & AI is a generic Senior title, and the stored posting evidence does not prove Staff+/Principal+/Architect level through title, compensation band, or explicit level mapping.",
+      "last_status_update_id": "status-20260709-apple-search-ai-archive-downlevel",
+      "manual_action_required": false,
       "manual_action_reason": "Apple account/profile steps and user-confirmed personal, legal, and profile data are required before final external submission.",
       "manual_action_at": "2026-07-09T08:56:25Z"
     },

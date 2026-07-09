@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T09:45:46Z",
-  "active_batch_id": "batch-20260709-highfit-ic-3",
-  "last_scheduler_run_at": "2026-07-09T09:20:25Z",
+  "updated_at": "2026-07-09T10:21:56Z",
+  "active_batch_id": "batch-20260709-strict-ic-1",
+  "last_scheduler_run_at": "2026-07-09T10:20:02Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 5,
+  "jobs_per_scheduler_run": 1,
   "jobs": [
     {
       "job_id": "job-nvidia-principal-developer-ai-networking-63c7f9fe",
@@ -2589,6 +2589,60 @@
       ]
     },
     {
+      "job_id": "linkedin-4429980321",
+      "dedupe_key": "linkedin:4429980321",
+      "source": "linkedin",
+      "source_job_id": "4429980321",
+      "source_url": "https://www.linkedin.com/jobs/view/4429980321",
+      "company": "Trimble Inc.",
+      "role": "Staff Software Engineer",
+      "location": "Chennai, Tamil Nadu, India",
+      "work_type": "In-Office",
+      "experience_level": "Staff Software Engineer / Cloud & Architecture Specialist",
+      "compensation_signals": [
+        "Explicit Staff Software Engineer title.",
+        "Posting describes high-impact architecture decisions across Trimble's long-term cloud ecosystem and global multi-cloud environments.",
+        "No compensation band is visible in the LinkedIn posting; validate target compensation before heavy pursuit."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-strict-ic-1",
+      "fit_score": 87,
+      "fit_reason": "Strict-gate Staff IC fit: explicit Staff Software Engineer title with cloud architecture, multi-cloud migration, compliance-driven database transitions, Terraform provisioning, observability, and mentoring scope. Platform fit is real, though narrower than the strongest AI infrastructure roles.",
+      "fit_signals": [
+        "Role asks the candidate to drive large-scale database and compliance migrations and make architecture decisions for Trimble's long-term cloud ecosystem.",
+        "Responsibilities include multi-cloud migration projects, global engineering standards, AWS/Azure architecture, Terraform provisioning, New Relic observability, and technical roadmap partnership.",
+        "Strong mapping to enterprise platform modernization, cloud/SaaS reliability, observability, compliance-aware infrastructure, and senior IC technical guidance evidence."
+      ],
+      "risk_flags": [
+        "In-office Chennai location may be less attractive than Bengaluru, remote India, or UAE options.",
+        "C#.NET and Microsoft SQL Server stack is narrower than the strongest distributed systems / AI infrastructure targets.",
+        "Compensation is not visible; validate senior Staff-level package against target compensation before prioritizing interviews.",
+        "LinkedIn MCP details did not expose an offsite application URL; do not click Apply merely to create LinkedIn clicked-apply activity."
+      ],
+      "people": [],
+      "connections_summary": "No named hiring manager, recruiter, or connection signal captured from the LinkedIn detail payload.",
+      "resume_theme": {
+        "name": "Trimble staff cloud architecture IC",
+        "positioning": "Staff platform engineer for cloud migration, compliance-aware architecture, observability, infrastructure automation, and senior IC technical direction.",
+        "key_pointers": [
+          "Hyperforce platform migration and observability work for cloud modernization and production reliability.",
+          "Brane enterprise platform/security stack built by a 2-engineer team for enterprise-scale deployment and compliance readiness.",
+          "Governed internal AI platform and operational signal integration as evidence of architecture decisions that improve engineering/product decision velocity."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-trimble-inc-staff-software-engineer-7842dead",
+      "resume_snapshot_path": "applications/resumes/app-20260709-trimble-inc-staff-software-engineer-7842dead/resume.md",
+      "discovered_at": "2026-07-09T10:20:02Z",
+      "updated_at": "2026-07-09T10:20:30Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
       "job_id": "linkedin-4428746901",
       "dedupe_key": "linkedin:4428746901",
       "source": "linkedin",
@@ -2859,8 +2913,8 @@
         "Apple is a priority high-comp target company.",
         "AI Data and ML platform role in Apple's Information Systems and Technology group."
       ],
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "batch_id": "batch-20260709-highfit-ic-2",
       "fit_score": 93,
       "fit_reason": "Strong target-company AI platform match: builds Apple's AI Data and ML platforms, agentic assistant platform, GenAI frameworks, secure agent workflows, MCP/tool-calling, OAuth authentication, RAG, distributed systems, Spark/Flink/Hadoop, and customer-facing platform discovery.",
@@ -2893,7 +2947,7 @@
       "application_id": "app-20260709-apple-senior-software-engineer-ai-data-pla-ed0c2ea3",
       "resume_snapshot_path": "applications/resumes/app-20260709-apple-senior-software-engineer-ai-data-pla-ed0c2ea3/resume.md",
       "discovered_at": "2026-07-09T08:51:55Z",
-      "updated_at": "2026-07-09T08:56:25Z",
+      "updated_at": "2026-07-09T10:21:56Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -2973,8 +3027,8 @@
         "NVIDIA is a priority high-comp infrastructure target company.",
         "12+ years systems software role tied to data-center diagnostics, GPU/SOC validation, networking, InfiniBand/Ethernet, NVLink, DMA/RDMA, and large system software."
       ],
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "batch_id": "batch-20260709-highfit-ic-2",
       "fit_score": 89,
       "fit_reason": "Strong target-company systems-infrastructure role: data-center diagnostics for graphics/compute products, system software, device drivers, PC/server architecture, PCIe/NVLink/InfiniBand/Ethernet, DMA/RDMA, debugging, and cross-functional hardware/software architecture work.",
@@ -3006,7 +3060,7 @@
       "application_id": "app-20260709-nvidia-system-software-engineer-data-center-4eceb42b",
       "resume_snapshot_path": "applications/resumes/app-20260709-nvidia-system-software-engineer-data-center-4eceb42b/resume.md",
       "discovered_at": "2026-07-09T08:51:55Z",
-      "updated_at": "2026-07-09T08:56:25Z",
+      "updated_at": "2026-07-09T10:21:56Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -3025,8 +3079,8 @@
         "Apple is a priority high-comp target company.",
         "Search and AI role spans Siri, Safari, Spotlight, large-scale ML, RAG, retrieval, ranking, and Q&A systems."
       ],
-      "status": "needs_manual",
-      "approval_status": "approved",
+      "status": "archived",
+      "approval_status": "archived",
       "batch_id": "batch-20260709-highfit-ic-2",
       "fit_score": 88,
       "fit_reason": "Good Apple Search and AI fit: large-scale Search/Q&A systems, retrieval, ranking, embeddings, RAG, LLM evaluation, query understanding, petabyte-scale data, and production ML/search quality tooling.",
@@ -3058,7 +3112,7 @@
       "application_id": "app-20260709-apple-senior-machine-learning-engineer-sen-b5ab5e71",
       "resume_snapshot_path": "applications/resumes/app-20260709-apple-senior-machine-learning-engineer-sen-b5ab5e71/resume.md",
       "discovered_at": "2026-07-09T08:51:55Z",
-      "updated_at": "2026-07-09T08:56:25Z",
+      "updated_at": "2026-07-09T10:21:56Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
