@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T06:51:29Z",
+  "updated_at": "2026-07-09T07:20:59Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -11689,11 +11689,11 @@
       "company": "GE HealthCare",
       "role": "Director PCS Cloud Operations SRE",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T07:20:59Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -11719,12 +11719,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-ge-healthcare-director-pcs-cloud-operations-sre-4a0f6d63/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn and GE HealthCare careers on 2026-07-09. Official GE HealthCare Phenom apply flow is active for R4036748; no external submission completed.",
+        "Application flow requires candidate privacy/terms consent, resume upload, later My information/My experience/Application questions/Voluntary disclosures/Review steps, and reCAPTCHA before final submission."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Portal checked from LinkedIn and GE HealthCare careers on 2026-07-09. Official GE HealthCare Phenom apply flow is active for R4036748; no external submission completed.",
+      "last_status_update_id": "status-20260709-0712-ge-healthcare-cloudops-sre-director-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Application flow requires candidate privacy/terms consent, resume upload, later My information/My experience/Application questions/Voluntary disclosures/Review steps, and reCAPTCHA before final submission.",
+      "manual_action_at": "2026-07-09T07:20:59Z"
     },
     {
       "application_id": "app-20260703-zscaler-principal-site-reliability-engineer-4f168b68",
@@ -12067,11 +12074,11 @@
       "company": "MSCI Inc.",
       "role": "Executive Director AI Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T07:20:59Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 94,
@@ -12104,9 +12111,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-msci-inc-executive-director-ai-engineering-ee3dc5d8/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn and MSCI careers on 2026-07-09. Current MSCI careers page for job 2026-5452 is active and routes to globalcareers-msci iCIMS job 5452; no external submission completed.",
+        "iCIMS login/application gateway requires email entry, GDPR/privacy and talent-communication consent, and hCaptcha before the application can continue."
       ],
-      "resume_snapshot_name": "Director Platform Resume"
+      "resume_snapshot_name": "Director Platform Resume",
+      "status_reason": "Portal checked from LinkedIn and MSCI careers on 2026-07-09. Current MSCI careers page for job 2026-5452 is active and routes to globalcareers-msci iCIMS job 5452; no external submission completed.",
+      "last_status_update_id": "status-20260709-0712-msci-executive-director-ai-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "iCIMS login/application gateway requires email entry, GDPR/privacy and talent-communication consent, and hCaptcha before the application can continue.",
+      "manual_action_at": "2026-07-09T07:20:59Z"
     },
     {
       "application_id": "app-20260703-thoughtspot-principal-engineer-cloud-platforms-5f3edc23",
@@ -12551,11 +12565,11 @@
       "company": "Rippling",
       "role": "Senior Engineering Manager - Platform",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T07:20:59Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -12589,9 +12603,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-rippling-senior-engineering-manager-platform-2ee45b98/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn and Rippling ATS on 2026-07-09. Rippling ATS job 233c1709-3a31-4944-a4c3-39cf396abec0 is active and renders the Senior Engineering Manager - Platform form; no external submission completed.",
+        "Application form requires resume upload, first/last name, email, current company, phone, location, LinkedIn link, SMS-consent answer, and final Apply agreement to Rippling privacy/terms notices."
       ],
-      "resume_snapshot_name": "Director Platform Resume"
+      "resume_snapshot_name": "Director Platform Resume",
+      "status_reason": "Portal checked from LinkedIn and Rippling ATS on 2026-07-09. Rippling ATS job 233c1709-3a31-4944-a4c3-39cf396abec0 is active and renders the Senior Engineering Manager - Platform form; no external submission completed.",
+      "last_status_update_id": "status-20260709-0712-rippling-platform-sem-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Application form requires resume upload, first/last name, email, current company, phone, location, LinkedIn link, SMS-consent answer, and final Apply agreement to Rippling privacy/terms notices.",
+      "manual_action_at": "2026-07-09T07:20:59Z"
     },
     {
       "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
@@ -12603,11 +12624,11 @@
       "company": "Databricks",
       "role": "Director of Engineering (Data Infrastructure)",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T07:20:59Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -12641,12 +12662,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn and Databricks careers on 2026-07-09. Official Databricks page is active and Greenhouse embed token 8290810002 renders the Director of Engineering (Data Infrastructure) application; no external submission completed.",
+        "Required legal work-authorization, future sponsorship, prior Databricks employment, current firm, sanctions/export-control, citizenship/residency checkbox answers, resume/contact fields, and invisible reCAPTCHA cannot be completed autonomously."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "Portal checked from LinkedIn and Databricks careers on 2026-07-09. Official Databricks page is active and Greenhouse embed token 8290810002 renders the Director of Engineering (Data Infrastructure) application; no external submission completed.",
+      "last_status_update_id": "status-20260709-0712-databricks-data-infrastructure-director-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Required legal work-authorization, future sponsorship, prior Databricks employment, current firm, sanctions/export-control, citizenship/residency checkbox answers, resume/contact fields, and invisible reCAPTCHA cannot be completed autonomously.",
+      "manual_action_at": "2026-07-09T07:20:59Z"
     },
     {
       "application_id": "app-20260702-databricks-director-of-engineering-d852a8b0",
@@ -12658,11 +12686,11 @@
       "company": "Databricks",
       "role": "Director of Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T07:20:59Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 92,
@@ -12695,12 +12723,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-databricks-director-of-engineering-d852a8b0/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn and Databricks careers on 2026-07-09. Official Databricks Greenhouse embed token 7896551002 renders the Director of Engineering application; no external submission completed.",
+        "Required LinkedIn profile, legal work-authorization, future sponsorship, prior Databricks employment, current firm, sanctions/export-control, citizenship/residency checkbox answers, resume/contact fields, and invisible reCAPTCHA cannot be completed autonomously."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "Portal checked from LinkedIn and Databricks careers on 2026-07-09. Official Databricks Greenhouse embed token 7896551002 renders the Director of Engineering application; no external submission completed.",
+      "last_status_update_id": "status-20260709-0712-databricks-director-engineering-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Required LinkedIn profile, legal work-authorization, future sponsorship, prior Databricks employment, current firm, sanctions/export-control, citizenship/residency checkbox answers, resume/contact fields, and invisible reCAPTCHA cannot be completed autonomously.",
+      "manual_action_at": "2026-07-09T07:20:59Z"
     },
     {
       "application_id": "app-20260702-docusign-senior-engineering-director-a93cfc5b",
@@ -13856,11 +13891,11 @@
       "company": "JioHotstar",
       "role": "Senior Director - Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T07:20:59Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 95,
@@ -13893,12 +13928,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-jiohotstar-senior-director-engineering-928a574f/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn checked on 2026-07-09 and reports JioHotstar Senior Director - Engineering is no longer accepting applications.",
+        "Application URL is closed/unavailable; no supported external submission path is available."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "LinkedIn checked on 2026-07-09 and reports JioHotstar Senior Director - Engineering is no longer accepting applications.",
+      "last_status_update_id": "status-20260709-0712-jiohotstar-senior-director-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Application URL is closed/unavailable; no supported external submission path is available.",
+      "manual_action_at": "2026-07-09T07:20:59Z"
     },
     {
       "application_id": "app-20260702-american-express-director-software-engineering-dc7520e5",
