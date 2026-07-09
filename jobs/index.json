@@ -1,10 +1,10 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T07:50:37Z",
-  "active_batch_id": "batch-JR2019187",
-  "last_scheduler_run_at": "2026-07-07T09:36:41Z",
+  "updated_at": "2026-07-09T08:24:45Z",
+  "active_batch_id": "batch-20260709-highfit-ic",
+  "last_scheduler_run_at": "2026-07-09T08:17:45Z",
   "batch_size": 10,
-  "jobs_per_scheduler_run": 1,
+  "jobs_per_scheduler_run": 8,
   "jobs": [
     {
       "job_id": "job-nvidia-principal-developer-ai-networking-63c7f9fe",
@@ -2587,6 +2587,449 @@
         "Official Workday CXS endpoint returned externalPath /job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1 and canApply=true on 2026-07-07.",
         "Chrome inspection on 2026-07-07 opened the official Workday apply path but it rendered a blank shell, preventing inspection of required questions or final submit controls."
       ]
+    },
+    {
+      "job_id": "linkedin-4340286558",
+      "dedupe_key": "linkedin:4340286558",
+      "source": "linkedin",
+      "source_job_id": "4340286558",
+      "source_url": "https://www.linkedin.com/jobs/view/4340286558",
+      "company": "Databricks",
+      "role": "Director of Engineering (Data Infrastructure)",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Director",
+      "compensation_signals": [
+        "Databricks is a priority high-comp data and AI infrastructure company",
+        "Director-level Bengaluru infrastructure leadership can plausibly meet the 2.5cr+ target at the right band"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic",
+      "fit_score": 98,
+      "fit_reason": "Excellent target-company and scope match: founding Bengaluru data infrastructure leader for billing correctness, disaster recovery, petabyte-scale ingestion, developer platforms, deployment automation, 99.999% reliability, and manager-of-managers infrastructure org ownership.",
+      "fit_signals": [
+        "Priority company with target-capable senior compensation band",
+        "Director infrastructure organization ownership",
+        "Petabyte-scale distributed data systems and multi-region reliability",
+        "Billing correctness, observability, deployment automation, and disaster recovery",
+        "14+ years distributed systems and 6+ years infrastructure leadership"
+      ],
+      "risk_flags": [
+        "Very senior manager-of-managers role may emphasize people/org scaling over IC architecture",
+        "External application flow still requires browser verification"
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "Databricks",
+          "profile_url": "",
+          "notes": "57 school alumni work here"
+        }
+      ],
+      "connections_summary": "57 school alumni work here from LinkedIn search signal.",
+      "resume_theme": {
+        "name": "Director data infrastructure and reliability",
+        "positioning": "Position as a platform/data-infrastructure leader who builds high-reliability systems, observability, deployment automation, and engineering organizations for business-critical data products.",
+        "key_pointers": [
+          "MuleSoft internal AI platform and operational-signal integration for product and engineering decision velocity",
+          "Enterprise-scale platform, infrastructure, and security stack built with a 2-engineer team",
+          "Distributed systems, observability, reliability, governance, and executive communication"
+        ],
+        "evidence_refs": [
+          "_includes/platform-leadership-resume.md",
+          "resume/base_resume.md"
+        ]
+      },
+      "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
+      "resume_snapshot_path": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/resume.md",
+      "discovered_at": "2026-07-02T11:43:52Z",
+      "updated_at": "2026-07-09T08:24:45Z",
+      "notes": [],
+      "resume_snapshot_name": "Director Platform Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
+    },
+    {
+      "job_id": "linkedin-4387409051",
+      "dedupe_key": "linkedin:4387409051",
+      "source": "linkedin",
+      "source_job_id": "4387409051",
+      "source_url": "https://www.linkedin.com/jobs/view/4387409051",
+      "company": "6sense",
+      "role": "Principal Architect",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Principal Architect",
+      "compensation_signals": [
+        "US SaaS company with stock options and principal-architect scope; target possible but needs confirmation"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic",
+      "fit_score": 92,
+      "fit_reason": "Strong staff-plus architecture match: owns end-to-end architecture for large-scale distributed cloud systems, platform evolution, microservices, event-driven systems, data platforms, technical roadmap, and architecture councils.",
+      "fit_signals": [
+        "Principal Architect title with 12+ years requirement",
+        "Large-scale distributed cloud-based systems, microservices, event-driven architecture, APIs, data modeling",
+        "Architecture roadmap, technical standards, senior reviews, and mentoring",
+        "Preferred data-intensive, AI/ML, big-data platform experience"
+      ],
+      "risk_flags": [
+        "On-site Bengaluru role",
+        "Compensation target less certain than priority hyperscaler/data-infra companies"
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 29 company alumni and over 100 people clicked apply; no named connections captured.",
+      "resume_theme": {
+        "name": "Principal distributed systems architect",
+        "positioning": "Position as a staff-plus architecture leader for distributed cloud platforms, AI/data systems, governance, reliability, and technical roadmap execution.",
+        "key_pointers": [
+          "Platform architecture ownership and governance",
+          "Distributed systems, cloud, observability, DevSecOps, and reliability",
+          "AI platform work and cross-functional technical leadership"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260703-6sense-principal-architect-68cfd70b",
+      "resume_snapshot_path": "applications/resumes/app-20260703-6sense-principal-architect-68cfd70b/resume.md",
+      "discovered_at": "2026-07-03T13:07:25Z",
+      "updated_at": "2026-07-09T08:24:45Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 23,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
+      "approval_issue_label": "#23"
+    },
+    {
+      "job_id": "linkedin-4409360205",
+      "dedupe_key": "linkedin:4409360205",
+      "source": "linkedin",
+      "source_job_id": "4409360205",
+      "source_url": "https://www.linkedin.com/jobs/view/4409360205",
+      "company": "Five9",
+      "role": "Director of Engineering - Digital | India",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Director",
+      "compensation_signals": [
+        "US public SaaS company with senior India engineering leadership potential",
+        "Target compensation possible but less certain than hyperscaler/Databricks/NVIDIA bands"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic",
+      "fit_score": 91,
+      "fit_reason": "Strong AI-powered SaaS engineering leadership role covering cloud contact center platforms, conversational AI, automation, multi-tenant reliability, DevOps, Java/React, and engineering org leadership.",
+      "fit_signals": [
+        "Director engineering role with 12+ years and 5+ years leadership",
+        "AI-powered customer engagement, NLP, predictive analytics, and campaign optimization",
+        "Multi-tenant SaaS scalability, security, reliability, CI/CD, DevOps",
+        "Java, React, cloud, microservices, and data privacy/security"
+      ],
+      "risk_flags": [
+        "On-site Bengaluru role",
+        "Company compensation needs confirmation against 2.5cr+ target"
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "AI SaaS engineering director",
+        "positioning": "Emphasize AI platform, cloud SaaS reliability, DevOps, Java/platform depth, and engineering leadership for customer-facing products.",
+        "key_pointers": [
+          "Internal AI platform work and decision-velocity impact",
+          "Enterprise platform/security stack and compliance readiness",
+          "Cloud, observability, reliability, Java, and stakeholder leadership"
+        ],
+        "evidence_refs": [
+          "_includes/platform-leadership-resume.md",
+          "resume/base_resume.md"
+        ]
+      },
+      "application_id": "app-20260709-five9-director-of-engineering-digital-indi-28b75102",
+      "resume_snapshot_path": "applications/resumes/app-20260709-five9-director-of-engineering-digital-indi-28b75102/resume.md",
+      "discovered_at": "2026-07-09T08:17:45Z",
+      "updated_at": "2026-07-09T08:23:14Z",
+      "notes": [],
+      "resume_snapshot_name": "Director Platform Resume"
+    },
+    {
+      "job_id": "linkedin-4429237337",
+      "dedupe_key": "linkedin:4429237337",
+      "source": "linkedin",
+      "source_job_id": "4429237337",
+      "source_url": "https://www.linkedin.com/jobs/view/4429237337",
+      "company": "JioStar",
+      "role": "Senior Director of Engineering, Data Platforms",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Director",
+      "compensation_signals": [
+        "Senior Director level at large consumer streaming/media platform could be target-capable but needs confirmation"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic",
+      "fit_score": 90,
+      "fit_reason": "Senior Director data-platform role reporting to CTO, owning data engineering strategy, data quality, data observability, ML/AI-ready platforms, cost governance, and large-scale consumer data workloads.",
+      "fit_signals": [
+        "Senior Director level and CTO reporting line",
+        "Data platform, observability, metadata governance, ML/AI enablement, and cost governance",
+        "Consumer-scale workload and huge data volume",
+        "14+ years data engineering with leadership"
+      ],
+      "risk_flags": [
+        "Entertainment/media compensation may be below top hyperscaler bands",
+        "On-site Bengaluru role"
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "Senior director data platforms",
+        "positioning": "Emphasize data platform strategy, operational signal integration, observability, governance, AI enablement, and executive stakeholder translation.",
+        "key_pointers": [
+          "AI platform work integrating customer and operational signals",
+          "Data-informed product and engineering decision velocity",
+          "Reliability, governance, observability, and cross-functional leadership"
+        ],
+        "evidence_refs": [
+          "_includes/platform-leadership-resume.md",
+          "resume/base_resume.md"
+        ]
+      },
+      "application_id": "app-20260709-jiostar-senior-director-of-engineering-data-15acf85b",
+      "resume_snapshot_path": "applications/resumes/app-20260709-jiostar-senior-director-of-engineering-data-15acf85b/resume.md",
+      "discovered_at": "2026-07-09T08:17:45Z",
+      "updated_at": "2026-07-09T08:23:14Z",
+      "notes": [],
+      "resume_snapshot_name": "Director Platform Resume"
+    },
+    {
+      "job_id": "linkedin-4433906854",
+      "dedupe_key": "linkedin:4433906854",
+      "source": "linkedin",
+      "source_job_id": "4433906854",
+      "source_url": "https://www.linkedin.com/jobs/view/4433906854",
+      "company": "interface.ai",
+      "role": "Director of Engineering",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Director",
+      "compensation_signals": [
+        "Competitive compensation and ESOPs mentioned in posting",
+        "AI-native fintech SaaS director scope can be high-upside but target cash/equity liquidity uncertain"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic",
+      "fit_score": 90,
+      "fit_reason": "Strong AI-native fintech SaaS director match: lead multiple engineering teams through managers, own platform/product areas, distributed systems, cloud-native architecture, agentic AI, RAG, AI orchestration, and voice AI.",
+      "fit_signals": [
+        "Director engineering role leading multiple teams through engineering managers",
+        "AI-native products for financial institutions with LLMs, agentic AI, RAG, voice AI, and autonomous workflows",
+        "Distributed systems, cloud-native architecture, microservices, platform engineering, observability, and reliability",
+        "Competitive compensation and ESOPs mentioned"
+      ],
+      "risk_flags": [
+        "Work-from-office Bengaluru role",
+        "Startup compensation and liquidity require confirmation"
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "AI-native engineering director",
+        "positioning": "Emphasize AI platform/product delivery, cloud-native distributed systems, platform engineering, observability, and manager-of-managers leadership.",
+        "key_pointers": [
+          "MuleSoft internal AI platform and decision-velocity story",
+          "Agentic/governed AI platform positioning",
+          "Enterprise-scale platform and security/compliance readiness"
+        ],
+        "evidence_refs": [
+          "_includes/platform-leadership-resume.md",
+          "resume/base_resume.md"
+        ]
+      },
+      "application_id": "app-20260709-interface-ai-director-of-engineering-8446667a",
+      "resume_snapshot_path": "applications/resumes/app-20260709-interface-ai-director-of-engineering-8446667a/resume.md",
+      "discovered_at": "2026-07-09T08:17:45Z",
+      "updated_at": "2026-07-09T08:23:14Z",
+      "notes": [],
+      "resume_snapshot_name": "Director Platform Resume"
+    },
+    {
+      "job_id": "linkedin-4434857187",
+      "dedupe_key": "linkedin:4434857187",
+      "source": "linkedin",
+      "source_job_id": "4434857187",
+      "source_url": "https://www.linkedin.com/jobs/view/4434857187",
+      "company": "Databricks",
+      "role": "Staff Forward Deployed Engineer",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Staff",
+      "compensation_signals": [
+        "Databricks is a priority high-comp data and AI company",
+        "Staff-level remote India role may meet target depending on band and equity"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic",
+      "fit_score": 89,
+      "fit_reason": "Strong Databricks staff-level data/AI architecture role with remote India fit, 15+ years requirement, big data, Spark, cloud, AI/RAG/MCP/context engineering, and customer-facing architecture impact.",
+      "fit_signals": [
+        "Priority company with target-capable senior compensation band",
+        "Staff-level title with 15+ years requirement",
+        "Big data architecture, Spark, Kafka, cloud, data lakes, AI/RAG/MCP/context engineering",
+        "Remote India location"
+      ],
+      "risk_flags": [
+        "Professional Services/FDE role is more customer-facing than core product infrastructure",
+        "Requires strong existing Databricks ecosystem experience"
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "Staff data and AI platform architecture",
+        "positioning": "Emphasize customer-facing technical architecture, data/AI platform depth, secure AI guardrails, cloud architecture, and product-minded automation utilities.",
+        "key_pointers": [
+          "AI platform work integrating customer and operational signals",
+          "Cloud platform, data systems, architecture, and executive stakeholder communication",
+          "MuleSoft platform leadership and enterprise delivery"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-databricks-staff-forward-deployed-engineer-9723f3f8",
+      "resume_snapshot_path": "applications/resumes/app-20260709-databricks-staff-forward-deployed-engineer-9723f3f8/resume.md",
+      "discovered_at": "2026-07-09T08:17:45Z",
+      "updated_at": "2026-07-09T08:23:14Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4375561270",
+      "dedupe_key": "linkedin:4375561270",
+      "source": "linkedin",
+      "source_job_id": "4375561270",
+      "source_url": "https://www.linkedin.com/jobs/view/4375561270",
+      "company": "Databricks",
+      "role": "Senior Staff Software Engineer- Search Quality",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "On-site",
+      "experience_level": "Senior Staff",
+      "compensation_signals": [
+        "Databricks is a priority high-comp data and AI company",
+        "Senior Staff-level Bengaluru role can plausibly meet target at the right band"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic",
+      "fit_score": 86,
+      "fit_reason": "Priority-company Senior Staff role in Bengaluru with likely search/data quality and AI platform relevance; keep in pipeline despite sparse LinkedIn body because level and company are strong.",
+      "fit_signals": [
+        "Priority company with target-capable senior compensation band",
+        "Senior Staff title at Databricks",
+        "Search quality likely overlaps data systems, relevance, and AI platform quality"
+      ],
+      "risk_flags": [
+        "LinkedIn job body was sparse and must be verified on official Databricks careers page",
+        "Exact scope and requirements unavailable from LinkedIn snapshot"
+      ],
+      "people": [
+        {
+          "name": "Shweta Santosh",
+          "relationship": "2nd-degree recruiter signal",
+          "role": "Staff Recruiter APJ at Databricks",
+          "profile_url": "https://www.linkedin.com/in/shwetasantosh/",
+          "notes": "30+ mutual connections visible in LinkedIn people search."
+        },
+        {
+          "name": "Shaswati Sen",
+          "relationship": "2nd-degree recruiter signal",
+          "role": "Staff Tech Recruiter APJ at Databricks",
+          "profile_url": "",
+          "notes": "35 mutual connections visible in LinkedIn people search."
+        }
+      ],
+      "connections_summary": "LinkedIn people search surfaced APJ Databricks recruiter contacts with many mutual connections; follow-up should ask whether Search Quality expects deep IR ownership or broader agentic retrieval/evaluation leadership.",
+      "resume_theme": {
+        "name": "Senior Staff search quality and AI platform",
+        "positioning": "Position as a staff-plus engineer with platform, AI evaluation, distributed systems, and operational-signal experience.",
+        "key_pointers": [
+          "Governed AI platform and operational-signal integration",
+          "Distributed systems and platform engineering leadership",
+          "Reliability, observability, and quality loops"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md"
+        ]
+      },
+      "application_id": "app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae",
+      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae/resume.md",
+      "discovered_at": "2026-07-03T19:08:16Z",
+      "updated_at": "2026-07-09T08:24:45Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4436704458",
+      "dedupe_key": "linkedin:4436704458",
+      "source": "linkedin",
+      "source_job_id": "4436704458",
+      "source_url": "https://www.linkedin.com/jobs/view/4436704458",
+      "company": "phData",
+      "role": "Director - Data Engineering",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Director",
+      "compensation_signals": [
+        "Remote director role at data/AI consultancy with strategic-account scope; target compensation possible but uncertain"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic",
+      "fit_score": 84,
+      "fit_reason": "Good remote India data/AI leadership role with CTO-like strategic customer architecture, Snowflake/AWS/Azure/GCP, MLOps, data platforms, executive advisory, and account ownership, though consulting/revenue accountability lowers fit.",
+      "fit_signals": [
+        "Remote India role",
+        "Director data engineering role with cloud, data, AI/ML platforms, MLOps, Python, SQL, dbt",
+        "Executive technical advisory and architecture ownership for strategic customers",
+        "Partners include Snowflake, AWS, Anthropic, Azure, GCP, Pinecone, Glean, and dbt"
+      ],
+      "risk_flags": [
+        "Consulting leadership role with direct client ownership and revenue accountability",
+        "Compensation target less certain than product-company principal/director bands"
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed 1 school alum works at phData.",
+      "resume_theme": {
+        "name": "Remote data and AI engineering director",
+        "positioning": "Emphasize data/AI platform architecture, cloud partner ecosystem, executive advisory, and delivery leadership while downplaying pure sales/account expansion.",
+        "key_pointers": [
+          "AI platform and data integration story",
+          "Cloud/data platform architecture and governance",
+          "Executive communication and cross-functional leadership"
+        ],
+        "evidence_refs": [
+          "_includes/platform-leadership-resume.md",
+          "resume/base_resume.md"
+        ]
+      },
+      "application_id": "app-20260709-phdata-director-data-engineering-231c4b73",
+      "resume_snapshot_path": "applications/resumes/app-20260709-phdata-director-data-engineering-231c4b73/resume.md",
+      "discovered_at": "2026-07-03T11:22:55Z",
+      "updated_at": "2026-07-09T08:23:14Z",
+      "notes": [
+        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
+      ],
+      "resume_snapshot_name": "Director Platform Resume"
     },
     {
       "job_id": "linkedin-4418010079",
@@ -8106,79 +8549,6 @@
       "resume_snapshot_name": "IC Resume"
     },
     {
-      "job_id": "linkedin-4375561270",
-      "dedupe_key": "linkedin:4375561270",
-      "source": "linkedin",
-      "source_job_id": "4375561270",
-      "source_url": "https://www.linkedin.com/jobs/view/4375561270",
-      "company": "Databricks",
-      "role": "Senior Staff Software Engineer- Search Quality",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "on_site",
-      "experience_level": "mid_senior",
-      "compensation_signals": [
-        "priority high-paying company",
-        "Senior Staff Databricks AI/search role in India; no exact compensation visible",
-        "user-provided target-company signal: Databricks can meet high-comp target at the right band"
-      ],
-      "status": "needs_manual",
-      "approval_status": "approved",
-      "batch_id": "batch-20260704-databricks-ic-heartbeat",
-      "fit_score": 92,
-      "fit_reason": "Strong next-level IC fit if positioned around agentic retrieval quality: Databricks is building the contextual backbone for AI agents and human search across enterprise data, with hybrid retrieval, ranking quality, evaluation frameworks, and hallucination guardrails.",
-      "fit_signals": [
-        "Senior Staff IC",
-        "AI agents",
-        "RAG and hybrid retrieval",
-        "search relevance and evaluation",
-        "hallucination guardrails",
-        "data discovery",
-        "high-stakes enterprise accuracy"
-      ],
-      "risk_flags": [
-        "Narrower IR specialist profile than Networking/Backend; requires careful tailoring around evaluation systems, retrieval, and agent grounding, without overstating Lucene/Elasticsearch ownership."
-      ],
-      "people": [
-        {
-          "name": "Shweta Santosh",
-          "relationship": "2nd-degree recruiter signal",
-          "role": "Staff Recruiter APJ at Databricks",
-          "profile_url": "https://www.linkedin.com/in/shwetasantosh/",
-          "notes": "30+ mutual connections visible in LinkedIn people search."
-        },
-        {
-          "name": "Shaswati Sen",
-          "relationship": "2nd-degree recruiter signal",
-          "role": "Staff Tech Recruiter APJ at Databricks",
-          "profile_url": "",
-          "notes": "35 mutual connections visible in LinkedIn people search."
-        }
-      ],
-      "connections_summary": "LinkedIn people search surfaced APJ Databricks recruiter contacts with many mutual connections; follow-up should ask whether Search Quality expects deep IR ownership or broader agentic retrieval/evaluation leadership.",
-      "resume_theme": {
-        "name": "Agentic retrieval quality and evaluation systems",
-        "positioning": "Position as an AI platform and observability engineer who builds grounded agent systems, evaluation loops, and high-signal diagnostics for enterprise decision workflows.",
-        "key_pointers": [
-          "Lead with proactive diagnostics and anomaly detection alerts as signal-quality, relevance, and grounded-decision systems for production operations.",
-          "Use AM agent federation, governed multi-agent systems, and Internal IDE/Unleash to show agentic retrieval/context architecture experience.",
-          "Connect Salesforce operational/customer-signal integration to Databricks' human-and-agent data discovery mission.",
-          "Use testing automation and validation frameworks as evidence for evaluation rigor."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/ADRs/",
-          "work/RFCs/",
-          "work/project_docs/README.md"
-        ]
-      },
-      "application_id": "app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae",
-      "resume_snapshot_path": "applications/resumes/app-20260703-databricks-senior-staff-software-engineer-searc-1c6e6eae/resume.md",
-      "discovered_at": "2026-07-03T19:08:16Z",
-      "updated_at": "2026-07-08T05:37:19Z",
-      "notes": [],
-      "resume_snapshot_name": "IC Resume"
-    },
-    {
       "job_id": "linkedin-4408392595",
       "dedupe_key": "linkedin:4408392595",
       "source": "linkedin",
@@ -13660,61 +14030,6 @@
       ]
     },
     {
-      "job_id": "linkedin-4436704458",
-      "dedupe_key": "linkedin:4436704458",
-      "source": "linkedin",
-      "source_job_id": "4436704458",
-      "source_url": "https://www.linkedin.com/jobs/view/4436704458",
-      "company": "phData",
-      "role": "Director - Data Engineering",
-      "location": "India",
-      "work_type": "Remote",
-      "experience_level": "Director / strategic data and AI customer engineering leadership",
-      "compensation_signals": [
-        "Remote-first data and AI consultancy partnering with Snowflake, AWS, Anthropic, Azure, GCP, Fivetran, Pinecone, Glean, and dbt.",
-        "Role is described as strategic, high-pressure, mission-critical, and CTO-like for strategic customer accounts.",
-        "Partner ecosystem and account-expansion ownership may include senior consulting compensation but must be validated."
-      ],
-      "status": "archived",
-      "approval_status": "blocked",
-      "batch_id": "batch-20260703-720683e4",
-      "fit_score": 88,
-      "fit_reason": "Good Director-level match for data/AI platform architecture, executive communication, cloud, MLOps, delivery oversight, and account strategy. Conservative because it is consulting/revenue-accountable rather than pure product/platform engineering.",
-      "fit_signals": [
-        "Requires 10+ years building complex data or AI/ML platforms in production and 3+ years consulting leadership with client ownership.",
-        "Remote India is directly aligned with location preference.",
-        "Resume supports cloud data platforms, AI systems, enterprise architecture, and stakeholder-heavy technical leadership."
-      ],
-      "risk_flags": [
-        "Consulting leadership and revenue accountability may be a material mode shift from current product/platform role.",
-        "Travel for customer meetings is required; confirm cadence.",
-        "Compensation may lag top product companies despite senior title."
-      ],
-      "people": [],
-      "connections_summary": "LinkedIn search result showed 1 school alum works at phData.",
-      "resume_theme": {
-        "name": "Director data and AI platform advisor",
-        "positioning": "Executive-level data/AI platform architect who turns ambiguous enterprise needs into cloud roadmaps, architecture, production systems, and measurable outcomes.",
-        "key_pointers": [
-          "AWS EMR, Airflow, Flink, Kubernetes cloud-data platform at Jupiter Money.",
-          "Brane data/event platform across ClickHouse, Kafka Connect, Glue, S3, ScyllaDB, Kafka, TiDB, and Redis.",
-          "MuleSoft proactive diagnostics architecture turning operational signals into cited AI diagnoses."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/RFCs/",
-          "work/architecture/"
-        ]
-      },
-      "application_id": null,
-      "resume_snapshot_path": null,
-      "discovered_at": "2026-07-03T11:22:55Z",
-      "updated_at": "2026-07-03T17:59:46Z",
-      "notes": [
-        "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
-      ]
-    },
-    {
       "job_id": "linkedin-4433177574",
       "dedupe_key": "linkedin:4433177574",
       "source": "linkedin",
@@ -14924,63 +15239,6 @@
       "rejection_issue_label": "#22"
     },
     {
-      "job_id": "linkedin-4387409051",
-      "dedupe_key": "linkedin:4387409051",
-      "source": "linkedin",
-      "source_job_id": "4387409051",
-      "source_url": "https://www.linkedin.com/jobs/view/4387409051",
-      "company": "6sense",
-      "role": "Principal Architect",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "On-site",
-      "experience_level": "Principal Architect",
-      "compensation_signals": [
-        "Principal Architect role at a fast-scaling SaaS company with stock options mentioned; no salary range posted.",
-        "Requires 12+ years and end-to-end ownership of large-scale distributed cloud systems, supporting senior IC/architect compensation."
-      ],
-      "status": "needs_manual",
-      "approval_status": "approved",
-      "batch_id": "batch-20260703-114c6ff6",
-      "fit_score": 91,
-      "fit_reason": "Very strong Principal Architect fit for distributed cloud systems, platform evolution, architecture councils, event-driven systems, data platforms, Kubernetes, DevOps, cost optimization, and senior influence.",
-      "fit_signals": [
-        "Owns end-to-end architecture, long-term technical roadmap, architecture standards, risk mitigation, and senior technical reviews.",
-        "Requires large-scale distributed cloud systems, microservices, event-driven architecture, API/data modeling, integration patterns, and AWS/Azure/GCP.",
-        "Preferred qualifications include data-intensive, AI/ML, big-data platforms, CI/CD, IaC, Kubernetes, cloud cost optimization, and enterprise SaaS."
-      ],
-      "risk_flags": [
-        "Posting does not state remote/hybrid flexibility; Bengaluru on-site may affect logistics.",
-        "Compensation is inferred from company/staff-plus level and stock options, not a posted salary range."
-      ],
-      "people": [],
-      "connections_summary": "LinkedIn search result showed 29 company alumni and over 100 people clicked apply; no named connections captured.",
-      "resume_theme": {
-        "name": "Distributed SaaS principal architect",
-        "positioning": "Principal Architect for cloud-scale SaaS systems, platform modernization, event-driven/data platforms, reliability, and architecture governance.",
-        "key_pointers": [
-          "Lead with MuleSoft multi-tenant observability and Visualizer scale: Prometheus, Druid, 50K-100K evaluations, topology freshness, and SLO-safe migration.",
-          "Use Brane platform story for enterprise SaaS control plane, tenancy, metering, telemetry, billing, and 2-engineer core infrastructure stack.",
-          "Highlight architecture governance through RFCs, ADRs, cross-team technical direction, and standards-setting."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/architecture/",
-          "work/design_docs/",
-          "work/RFCs/",
-          "work/ADRs/"
-        ]
-      },
-      "application_id": "app-20260703-6sense-principal-architect-68cfd70b",
-      "resume_snapshot_path": "applications/resumes/app-20260703-6sense-principal-architect-68cfd70b/resume.md",
-      "discovered_at": "2026-07-03T13:07:25Z",
-      "updated_at": "2026-07-09T05:46:07Z",
-      "notes": [],
-      "resume_snapshot_name": "IC Resume",
-      "approval_issue_number": 23,
-      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
-    },
-    {
       "job_id": "linkedin-4436724539",
       "dedupe_key": "linkedin:4436724539",
       "source": "linkedin",
@@ -16080,72 +16338,6 @@
       "rejection_issue_number": 20,
       "rejection_issue_url": "https://github.com/rverma-dev/resume/issues/20",
       "rejection_issue_label": "#20"
-    },
-    {
-      "job_id": "linkedin-4340286558",
-      "dedupe_key": "linkedin:4340286558",
-      "source": "linkedin",
-      "source_job_id": "4340286558",
-      "source_url": "https://www.linkedin.com/jobs/view/4340286558",
-      "company": "Databricks",
-      "role": "Director of Engineering (Data Infrastructure)",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "on_site",
-      "experience_level": "director",
-      "compensation_signals": [
-        "priority high-paying company",
-        "posted role is director-level; no exact compensation visible in LinkedIn detail"
-      ],
-      "status": "needs_manual",
-      "approval_status": "approved",
-      "batch_id": "batch-20260702-linkedin-001",
-      "fit_score": 96,
-      "fit_reason": "Excellent match for Director/Architect evolution: distributed data infrastructure, billing correctness, 100+ region scale, 99.999% reliability expectations, observability, DR, testing automation, and manager-of-managers leadership.",
-      "fit_signals": [
-        "distributed systems leadership",
-        "data infrastructure",
-        "multi-region reliability",
-        "billing correctness",
-        "observability",
-        "manager-of-managers"
-      ],
-      "risk_flags": [
-        "Requires director-level narrative with explicit org-building story"
-      ],
-      "people": [
-        {
-          "name": "School alumni",
-          "relationship": "alumni signal",
-          "role": "Databricks",
-          "profile_url": "",
-          "notes": "57 school alumni work here"
-        }
-      ],
-      "connections_summary": "57 school alumni work here from LinkedIn search signal.",
-      "resume_theme": {
-        "name": "Director data infrastructure and reliability",
-        "positioning": "Model the resume around revenue-critical distributed infrastructure: Hyperforce alerting, Brane event billing, Jupiter payments/compliance, multi-region rollout, SLOs, DR, and cost/reliability outcomes.",
-        "key_pointers": [
-          "Lead with Salesforce alert migration: 3M alerts, 50K-100K concurrent evaluations, $6M annualized cost reduction, multi-region rollout.",
-          "Use Jupiter $240M/month payments and Brane 10M events/min billing to prove correctness and revenue-critical infrastructure judgment.",
-          "Emphasize org leadership: 30-person DevOps/SRE org and manager/leader development from Brane/Niki."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/ADRs/",
-          "work/RFCs/",
-          "work/architecture/"
-        ]
-      },
-      "application_id": "app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8",
-      "resume_snapshot_path": "applications/resumes/app-20260702-databricks-director-of-engineering-data-infrast-2d99aae8/resume.md",
-      "discovered_at": "2026-07-02T11:43:52Z",
-      "updated_at": "2026-07-09T07:20:59Z",
-      "notes": [],
-      "resume_snapshot_name": "Director Platform Resume",
-      "approval_issue_number": 19,
-      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
     },
     {
       "job_id": "linkedin-4434366858",
