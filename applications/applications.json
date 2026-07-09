@@ -1,9 +1,66 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T10:21:56Z",
+  "updated_at": "2026-07-09T10:47:34Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
+    {
+      "application_id": "app-20260709-uber-sr-staff-software-engineer-e3fa337e",
+      "job_id": "linkedin-4438626139",
+      "dedupe_key": "linkedin:4438626139",
+      "source": "linkedin",
+      "source_job_id": "4438626139",
+      "source_url": "https://www.linkedin.com/jobs/view/4438626139",
+      "company": "Uber",
+      "role": "Sr Staff Software Engineer",
+      "location": "Hyderabad, Telangana, India",
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "approval_batch_id": "approval-20260709-strict-ic-2",
+      "approved_at": "2026-07-09T10:47:18Z",
+      "updated_at": "2026-07-09T10:47:34Z",
+      "applied_at": null,
+      "applied_date": null,
+      "fit_score": 93,
+      "fit_reason": "Strong strict-gate Senior Staff IC fit: explicit Senior Staff title, 14+ years requirement, multi-pod technical leadership, and mission-critical global payment processing architecture with scale, security, reliability, efficiency, and stakeholder influence.",
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Uber",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 5 connections work at Uber."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 5 connections work at Uber.",
+      "resume_theme": {
+        "name": "Uber senior staff payments platform IC",
+        "positioning": "Senior Staff platform architect for high-scale payments, transaction reliability, security, observability, and multi-team technical leadership.",
+        "key_pointers": [
+          "Jupiter $240M/month card and UPI payments infrastructure with partner-bank architecture and compliance ownership.",
+          "Hyperforce observability migration, multi-tenant alert evaluation, and reliability/cost outcomes for platform-scale operations.",
+          "Brane enterprise SaaS control plane, metering, billing, workflow, and platform/security stack built with a 2-engineer core team."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "resume_snapshot_name": "IC Resume",
+      "resume_snapshot_path": "applications/resumes/app-20260709-uber-sr-staff-software-engineer-e3fa337e/resume.md",
+      "resume_theme_path": "applications/resumes/app-20260709-uber-sr-staff-software-engineer-e3fa337e/theme.md",
+      "submitted_resume_path": null,
+      "notes": [
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn detail payload verified an active Uber Sr Staff Software Engineer posting with responses managed off LinkedIn, but did not expose a usable offsite application URL; no browser Apply click was performed because LinkedIn clicked-apply activity is not a real application.",
+        "External application URL is unavailable from the LinkedIn MCP detail payload, and final submission would require a manual offsite application path rather than a LinkedIn clicked-apply event."
+      ],
+      "status_reason": "LinkedIn detail payload verified an active Uber Sr Staff Software Engineer posting with responses managed off LinkedIn, but did not expose a usable offsite application URL; no browser Apply click was performed because LinkedIn clicked-apply activity is not a real application.",
+      "last_status_update_id": "status-20260709-uber-sr-staff-payments-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "External application URL is unavailable from the LinkedIn MCP detail payload, and final submission would require a manual offsite application path rather than a LinkedIn clicked-apply event.",
+      "manual_action_at": "2026-07-09T10:47:34Z"
+    },
     {
       "application_id": "app-20260709-trimble-inc-staff-software-engineer-7842dead",
       "job_id": "linkedin-4429980321",

@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T10:21:56Z",
-  "active_batch_id": "batch-20260709-strict-ic-1",
-  "last_scheduler_run_at": "2026-07-09T10:20:02Z",
+  "updated_at": "2026-07-09T10:47:34Z",
+  "active_batch_id": "batch-20260709-strict-ic-2",
+  "last_scheduler_run_at": "2026-07-09T10:47:18Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 1,
   "jobs": [
@@ -2587,6 +2587,68 @@
         "Official Workday CXS endpoint returned externalPath /job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1 and canApply=true on 2026-07-07.",
         "Chrome inspection on 2026-07-07 opened the official Workday apply path but it rendered a blank shell, preventing inspection of required questions or final submit controls."
       ]
+    },
+    {
+      "job_id": "linkedin-4438626139",
+      "dedupe_key": "linkedin:4438626139",
+      "source": "linkedin",
+      "source_job_id": "4438626139",
+      "source_url": "https://www.linkedin.com/jobs/view/4438626139",
+      "company": "Uber",
+      "role": "Sr Staff Software Engineer",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "On-site / hybrid office expectation",
+      "experience_level": "Senior Staff Engineer / 14+ years / multi-pod technical leadership",
+      "compensation_signals": [
+        "Explicit Senior Staff Engineer role at Uber.",
+        "Posting states bonus, equity, and other compensation may apply.",
+        "Role requires 14+ years professional software development and 6+ years of tech lead experience for multiple engineering pods."
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-strict-ic-2",
+      "fit_score": 93,
+      "fit_reason": "Strong strict-gate Senior Staff IC fit: explicit Senior Staff title, 14+ years requirement, multi-pod technical leadership, and mission-critical global payment processing architecture with scale, security, reliability, efficiency, and stakeholder influence.",
+      "fit_signals": [
+        "Leads design and architecture for Uber payment processing systems that must be scalable, secure, and maintainable.",
+        "Provides technical guidance across projects and initiatives, influencing key decision makers and mentoring engineering teams.",
+        "Requires robust high-scale systems architecture, developer tooling/productivity, metrics-driven product quality, and verification-system quality.",
+        "Strong mapping to payments infrastructure, platform reliability, observability, distributed systems, and cross-functional architecture evidence."
+      ],
+      "risk_flags": [
+        "Hyderabad office expectation requires confirming location/relocation fit and office cadence.",
+        "LinkedIn MCP detail did not expose an offsite application URL; do not click Apply merely to create LinkedIn clicked-apply activity.",
+        "Payment domain is strong fit, but resume should emphasize $240M/month payments infrastructure, reliability, security, and platform architecture without overstating Uber-specific payment-method experience."
+      ],
+      "people": [
+        {
+          "name": "LinkedIn connections",
+          "relationship": "connection signal",
+          "role": "Uber",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 5 connections work at Uber."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 5 connections work at Uber.",
+      "resume_theme": {
+        "name": "Uber senior staff payments platform IC",
+        "positioning": "Senior Staff platform architect for high-scale payments, transaction reliability, security, observability, and multi-team technical leadership.",
+        "key_pointers": [
+          "Jupiter $240M/month card and UPI payments infrastructure with partner-bank architecture and compliance ownership.",
+          "Hyperforce observability migration, multi-tenant alert evaluation, and reliability/cost outcomes for platform-scale operations.",
+          "Brane enterprise SaaS control plane, metering, billing, workflow, and platform/security stack built with a 2-engineer core team."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-uber-sr-staff-software-engineer-e3fa337e",
+      "resume_snapshot_path": "applications/resumes/app-20260709-uber-sr-staff-software-engineer-e3fa337e/resume.md",
+      "discovered_at": "2026-07-09T10:47:18Z",
+      "updated_at": "2026-07-09T10:47:34Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "job_id": "linkedin-4429980321",
