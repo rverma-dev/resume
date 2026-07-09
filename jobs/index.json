@@ -1,6 +1,6 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T05:46:07Z",
+  "updated_at": "2026-07-09T06:16:56Z",
   "active_batch_id": "batch-JR2019187",
   "last_scheduler_run_at": "2026-07-07T09:36:41Z",
   "batch_size": 10,
@@ -12881,7 +12881,7 @@
         "Principal-level role supporting FedRAMP cloud products, AWS GovCloud/private cloud, Kubernetes, IaC, monitoring, and incident automation.",
         "Security platform and compliance scope can map to senior platform/SRE compensation bands, though salary is not visible."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-a51e4447",
       "fit_score": 87,
@@ -12916,7 +12916,7 @@
       "application_id": "app-20260703-zscaler-principal-site-reliability-engineer-4f168b68",
       "resume_snapshot_path": "applications/resumes/app-20260703-zscaler-principal-site-reliability-engineer-4f168b68/resume.md",
       "discovered_at": "2026-07-03T12:04:51Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:16:31Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
@@ -13396,7 +13396,7 @@
         "Role owns both AI platform and AI applications strategy across a global entertainment ecosystem.",
         "Scope includes AI economics at scale: cost visibility, model selection, latency optimization, caching, rate limiting, GPU and cloud efficiency."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-720683e4",
       "fit_score": 96,
@@ -13430,7 +13430,7 @@
       "application_id": "app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79",
       "resume_snapshot_path": "applications/resumes/app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79/resume.md",
       "discovered_at": "2026-07-03T11:22:55Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:16:52Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 23,
@@ -13508,7 +13508,7 @@
         "Core CISO security leadership team role across cloud security, appsec, DevSecOps, AI/LLM/agentic ecosystem security, and incident support.",
         "Financial-sector security leadership roles are compensation-likely but package must be validated."
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-720683e4",
       "fit_score": 91,
@@ -13542,7 +13542,7 @@
       "application_id": "app-20260703-brevan-howard-head-of-security-engineering-15a0308d",
       "resume_snapshot_path": "applications/resumes/app-20260703-brevan-howard-head-of-security-engineering-15a0308d/resume.md",
       "discovered_at": "2026-07-03T11:22:55Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:16:56Z",
       "notes": [],
       "resume_snapshot_name": "Director Platform Resume"
     },
@@ -14530,7 +14530,7 @@
         "AI-native company posting claims top-of-market salary and employee stock options",
         "Backed by major investors and claims rapid ARR/user growth; no exact compensation visible"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-2315da85",
       "fit_score": 93,
@@ -14584,7 +14584,7 @@
       "application_id": "app-20260703-emergent-staff-engineer-e28e5604",
       "resume_snapshot_path": "applications/resumes/app-20260703-emergent-staff-engineer-e28e5604/resume.md",
       "discovered_at": "2026-07-03T09:06:00Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:16:36Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume"
     },
@@ -14742,7 +14742,7 @@
         "VP band AI architecture role at large telecom operator",
         "20PB data lake, multi-model orchestration, token cost optimization, fraud shield, and data-sovereignty scope; no exact compensation visible"
       ],
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "batch_id": "batch-20260703-2315da85",
       "fit_score": 84,
@@ -14789,7 +14789,7 @@
       "application_id": "app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b",
       "resume_snapshot_path": "applications/resumes/app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b/resume.md",
       "discovered_at": "2026-07-03T09:06:00Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-09T06:16:46Z",
       "notes": [
         "Rejected in full queue audit: not strong enough for current/next-level application queue due to underleveling, weaker duplicate, role/domain underfit, staffing/consulting ambiguity, location friction, or compensation-target uncertainty."
       ],
@@ -16906,6 +16906,64 @@
       "approval_issue_label": "#19"
     },
     {
+      "job_id": "linkedin-4400498924",
+      "dedupe_key": "linkedin:4400498924",
+      "source": "linkedin",
+      "source_job_id": "4400498924",
+      "source_url": "https://www.linkedin.com/jobs/view/4400498924",
+      "company": "Walmart Global Tech India",
+      "role": "DISTINGUISHED, SOFTWARE ENGINEER",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "on_site",
+      "experience_level": "mid_senior",
+      "compensation_signals": [
+        "Distinguished Engineer role at very large technology organization",
+        "benefits/incentive awards mentioned but no exact compensation visible"
+      ],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260702-543819ee",
+      "fit_score": 90,
+      "fit_reason": "Strong distinguished/principal architecture fit: agentic AI assistant backend, scalable fault-tolerant distributed systems, governance, platform strategy, cloud-native transformation, DevOps, and mentorship of Principal/Staff engineers.",
+      "fit_signals": [
+        "Distinguished Engineer level",
+        "agentic AI product backend",
+        "distributed systems",
+        "platform governance",
+        "cloud-native transformation",
+        "senior engineer mentorship"
+      ],
+      "risk_flags": [
+        "On-site/daily Bangalore office language may reduce location flexibility"
+      ],
+      "people": [],
+      "connections_summary": "No visible connection signal captured from detail page.",
+      "resume_theme": {
+        "name": "Distinguished agentic systems platform leader",
+        "positioning": "Position as an architect of agentic systems and enterprise-scale backend platforms with governance, reliability, and cloud transformation proof.",
+        "key_pointers": [
+          "Lead with governed multi-agent decision system and AM Agent Federation as agentic AI evidence.",
+          "Use Hyperforce alerting and Visualizer distributed systems scale to demonstrate platform reliability.",
+          "Add Brane/Niki mentorship and org leadership to support influence across Principal/Staff engineers."
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "work/RFCs/",
+          "work/ADRs/",
+          "work/architecture/"
+        ]
+      },
+      "application_id": "app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b",
+      "resume_snapshot_path": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/resume.md",
+      "discovered_at": "2026-07-02T12:05:43Z",
+      "updated_at": "2026-07-09T06:16:41Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume",
+      "approval_issue_number": 19,
+      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
+      "approval_issue_label": "#19"
+    },
+    {
       "job_id": "linkedin-4424349339",
       "dedupe_key": "linkedin:4424349339",
       "source": "linkedin",
@@ -16957,64 +17015,6 @@
       "resume_snapshot_path": "applications/resumes/app-20260702-thoughtspot-principal-software-engineer-4fcddad6/resume.md",
       "discovered_at": "2026-07-02T12:05:43Z",
       "updated_at": "2026-07-03T17:59:36Z",
-      "notes": [],
-      "resume_snapshot_name": "IC Resume",
-      "approval_issue_number": 19,
-      "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
-    },
-    {
-      "job_id": "linkedin-4400498924",
-      "dedupe_key": "linkedin:4400498924",
-      "source": "linkedin",
-      "source_job_id": "4400498924",
-      "source_url": "https://www.linkedin.com/jobs/view/4400498924",
-      "company": "Walmart Global Tech India",
-      "role": "DISTINGUISHED, SOFTWARE ENGINEER",
-      "location": "Bengaluru, Karnataka, India",
-      "work_type": "on_site",
-      "experience_level": "mid_senior",
-      "compensation_signals": [
-        "Distinguished Engineer role at very large technology organization",
-        "benefits/incentive awards mentioned but no exact compensation visible"
-      ],
-      "status": "approved",
-      "approval_status": "approved",
-      "batch_id": "batch-20260702-543819ee",
-      "fit_score": 90,
-      "fit_reason": "Strong distinguished/principal architecture fit: agentic AI assistant backend, scalable fault-tolerant distributed systems, governance, platform strategy, cloud-native transformation, DevOps, and mentorship of Principal/Staff engineers.",
-      "fit_signals": [
-        "Distinguished Engineer level",
-        "agentic AI product backend",
-        "distributed systems",
-        "platform governance",
-        "cloud-native transformation",
-        "senior engineer mentorship"
-      ],
-      "risk_flags": [
-        "On-site/daily Bangalore office language may reduce location flexibility"
-      ],
-      "people": [],
-      "connections_summary": "No visible connection signal captured from detail page.",
-      "resume_theme": {
-        "name": "Distinguished agentic systems platform leader",
-        "positioning": "Position as an architect of agentic systems and enterprise-scale backend platforms with governance, reliability, and cloud transformation proof.",
-        "key_pointers": [
-          "Lead with governed multi-agent decision system and AM Agent Federation as agentic AI evidence.",
-          "Use Hyperforce alerting and Visualizer distributed systems scale to demonstrate platform reliability.",
-          "Add Brane/Niki mentorship and org leadership to support influence across Principal/Staff engineers."
-        ],
-        "evidence_refs": [
-          "resume/base_resume.md",
-          "work/RFCs/",
-          "work/ADRs/",
-          "work/architecture/"
-        ]
-      },
-      "application_id": "app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b",
-      "resume_snapshot_path": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/resume.md",
-      "discovered_at": "2026-07-02T12:05:43Z",
-      "updated_at": "2026-07-02T15:36:53Z",
       "notes": [],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,

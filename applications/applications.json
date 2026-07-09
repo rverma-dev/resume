@@ -1,6 +1,6 @@
 {
   "schema_version": "applications.index.v2",
-  "updated_at": "2026-07-09T05:46:07Z",
+  "updated_at": "2026-07-09T06:16:56Z",
   "approval_required": true,
   "allow_auto_apply": true,
   "applications": [
@@ -10668,11 +10668,11 @@
       "company": "Vodafone Idea Limited",
       "role": "VP - Principal AI Model Architect",
       "location": "Mumbai Metropolitan Region, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-7897c70e",
       "approved_at": "2026-07-03T18:41:09Z",
-      "updated_at": "2026-07-03T18:41:09Z",
+      "updated_at": "2026-07-09T06:16:46Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 84,
@@ -10705,12 +10705,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-vodafone-idea-limited-vp-principal-ai-model-architect-5cebac3b/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn checked on 2026-07-09 and shows Vodafone Idea Limited VP - Principal AI Model Architect as no longer accepting applications.",
+        "Application URL is closed/unavailable; LinkedIn reports no longer accepting applications."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "LinkedIn checked on 2026-07-09 and shows Vodafone Idea Limited VP - Principal AI Model Architect as no longer accepting applications.",
+      "last_status_update_id": "status-20260709-vodafone-principal-ai-architect-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Application URL is closed/unavailable; LinkedIn reports no longer accepting applications.",
+      "manual_action_at": "2026-07-09T06:16:46Z"
     },
     {
       "application_id": "app-20260703-recrew-ai-principal-architect-digital-platform-74994e90",
@@ -11729,11 +11736,11 @@
       "company": "Zscaler",
       "role": "Principal Site Reliability Engineer (Linux/Networking/Automation)",
       "location": "Hyderabad, Telangana, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:16:31Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 87,
@@ -11759,12 +11766,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-zscaler-principal-site-reliability-engineer-4f168b68/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-09. Zscaler Greenhouse form is active and requires identity/contact fields, resume, source, legal right-to-work, work permit/visa support, prior/current Zscaler employment, current company/title, policy acknowledgements, home address, demographic consent, and invisible reCAPTCHA before final submission.",
+        "Required legal/work-authorization, visa/support, employment, address, demographic-consent, acknowledgement, and reCAPTCHA answers cannot be completed autonomously without user-confirmed data."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-09. Zscaler Greenhouse form is active and requires identity/contact fields, resume, source, legal right-to-work, work permit/visa support, prior/current Zscaler employment, current company/title, policy acknowledgements, home address, demographic consent, and invisible reCAPTCHA before final submission.",
+      "last_status_update_id": "status-20260709-zscaler-principal-sre-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Required legal/work-authorization, visa/support, employment, address, demographic-consent, acknowledgement, and reCAPTCHA answers cannot be completed autonomously without user-confirmed data.",
+      "manual_action_at": "2026-07-09T06:16:31Z"
     },
     {
       "application_id": "app-20260703-ebay-principal-architect-05d225bf",
@@ -12240,11 +12254,11 @@
       "company": "Pocket FM",
       "role": "Head of AI Platform Engineering (Platforms & Applications)",
       "location": "Bangalore Urban, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:16:52Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 96,
@@ -12269,12 +12283,19 @@
       "resume_theme_path": "applications/resumes/app-20260703-pocket-fm-head-of-ai-platform-engineering-plat-db469c79/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "LinkedIn checked on 2026-07-09 and shows an active Easy Apply flow for Pocket FM Head of AI Platform Engineering (Platforms & Applications); no external company application form was provided.",
+        "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline."
       ],
       "resume_snapshot_name": "Director Platform Resume",
       "approval_issue_number": 23,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/23",
-      "approval_issue_label": "#23"
+      "approval_issue_label": "#23",
+      "status_reason": "LinkedIn checked on 2026-07-09 and shows an active Easy Apply flow for Pocket FM Head of AI Platform Engineering (Platforms & Applications); no external company application form was provided.",
+      "last_status_update_id": "status-20260709-pocket-fm-head-ai-platform-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "LinkedIn Easy Apply final submission/profile transmission is unsupported for autonomous completion in this pipeline.",
+      "manual_action_at": "2026-07-09T06:16:52Z"
     },
     {
       "application_id": "app-20260703-emergent-staff-engineer-e28e5604",
@@ -12286,11 +12307,11 @@
       "company": "Emergent",
       "role": "Staff Engineer",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:16:36Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 93,
@@ -12330,9 +12351,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-emergent-staff-engineer-e28e5604/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-09. Emergent Greenhouse form is active and requires identity/contact fields, resume, LinkedIn profile, current CTC, expected CTC, notice period/buyout detail, Bangalore five-days-office confirmation, and invisible reCAPTCHA before final submission.",
+        "Missing required compensation, notice-period, and office-attendance confirmation answers plus Greenhouse reCAPTCHA; final submission cannot be completed truthfully from available tracker data."
       ],
-      "resume_snapshot_name": "IC Resume"
+      "resume_snapshot_name": "IC Resume",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-09. Emergent Greenhouse form is active and requires identity/contact fields, resume, LinkedIn profile, current CTC, expected CTC, notice period/buyout detail, Bangalore five-days-office confirmation, and invisible reCAPTCHA before final submission.",
+      "last_status_update_id": "status-20260709-emergent-staff-engineer-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Missing required compensation, notice-period, and office-attendance confirmation answers plus Greenhouse reCAPTCHA; final submission cannot be completed truthfully from available tracker data.",
+      "manual_action_at": "2026-07-09T06:16:36Z"
     },
     {
       "application_id": "app-20260703-uber-sr-manager-engineering-3c8bba1c",
@@ -12386,11 +12414,11 @@
       "company": "Brevan Howard",
       "role": "Head of Security Engineering",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260703-current-next-level-audit",
       "approved_at": "2026-07-03T17:59:53Z",
-      "updated_at": "2026-07-03T17:59:53Z",
+      "updated_at": "2026-07-09T06:16:56Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 91,
@@ -12415,9 +12443,16 @@
       "resume_theme_path": "applications/resumes/app-20260703-brevan-howard-head-of-security-engineering-15a0308d/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-09. Brevan Howard Workday/myworkdaysite job URL for Head of Security Engineering remained blank after waiting, with no title, visible text, controls, or application steps rendered.",
+        "Blank Workday application page; no supported final submission form was available."
       ],
-      "resume_snapshot_name": "Director Platform Resume"
+      "resume_snapshot_name": "Director Platform Resume",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-09. Brevan Howard Workday/myworkdaysite job URL for Head of Security Engineering remained blank after waiting, with no title, visible text, controls, or application steps rendered.",
+      "last_status_update_id": "status-20260709-brevan-howard-head-security-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Blank Workday application page; no supported final submission form was available.",
+      "manual_action_at": "2026-07-09T06:16:56Z"
     },
     {
       "application_id": "app-20260703-amazon-web-services-aws-sr-migration-modernization-architect-49aaca08",
@@ -12704,11 +12739,11 @@
       "company": "Walmart Global Tech India",
       "role": "DISTINGUISHED, SOFTWARE ENGINEER",
       "location": "Bengaluru, Karnataka, India",
-      "status": "approved",
+      "status": "needs_manual",
       "approval_status": "approved",
       "approval_batch_id": "approval-20260702-741f3ded",
       "approved_at": "2026-07-02T15:36:53Z",
-      "updated_at": "2026-07-02T15:36:53Z",
+      "updated_at": "2026-07-09T06:16:41Z",
       "applied_at": null,
       "applied_date": null,
       "fit_score": 90,
@@ -12734,12 +12769,19 @@
       "resume_theme_path": "applications/resumes/app-20260702-walmart-global-tech-india-distinguished-software-engineer-bea1716b/theme.md",
       "submitted_resume_path": null,
       "notes": [
-        "Approved for tailoring; no application submitted by this script."
+        "Approved for tailoring; no application submitted by this script.",
+        "Portal checked from LinkedIn Apply on 2026-07-09. Walmart Workday apply URL redirected to WalmartExternal but remained blank after waiting, with no title, visible text, controls, or application steps rendered.",
+        "Blank Workday application page; no supported final submission form was available."
       ],
       "resume_snapshot_name": "IC Resume",
       "approval_issue_number": 19,
       "approval_issue_url": "https://github.com/rverma-dev/resume/issues/19",
-      "approval_issue_label": "#19"
+      "approval_issue_label": "#19",
+      "status_reason": "Portal checked from LinkedIn Apply on 2026-07-09. Walmart Workday apply URL redirected to WalmartExternal but remained blank after waiting, with no title, visible text, controls, or application steps rendered.",
+      "last_status_update_id": "status-20260709-walmart-distinguished-swe-needs-manual",
+      "manual_action_required": true,
+      "manual_action_reason": "Blank Workday application page; no supported final submission form was available.",
+      "manual_action_at": "2026-07-09T06:16:41Z"
     },
     {
       "application_id": "app-20260702-airbnb-senior-staff-software-engineer-payme-94f88129",
