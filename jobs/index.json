@@ -1,8 +1,8 @@
 {
   "schema_version": "jobs.index.v2",
-  "updated_at": "2026-07-09T08:56:25Z",
-  "active_batch_id": "batch-20260709-highfit-ic-2",
-  "last_scheduler_run_at": "2026-07-09T08:51:55Z",
+  "updated_at": "2026-07-09T09:24:03Z",
+  "active_batch_id": "batch-20260709-highfit-ic-3",
+  "last_scheduler_run_at": "2026-07-09T09:20:25Z",
   "batch_size": 10,
   "jobs_per_scheduler_run": 5,
   "jobs": [
@@ -2587,6 +2587,262 @@
         "Official Workday CXS endpoint returned externalPath /job/Bengaluru-IND/Senior-Principal-Data-Engineer_26WD96752-1 and canApply=true on 2026-07-07.",
         "Chrome inspection on 2026-07-07 opened the official Workday apply path but it rendered a blank shell, preventing inspection of required questions or final submit controls."
       ]
+    },
+    {
+      "job_id": "linkedin-4428746901",
+      "dedupe_key": "linkedin:4428746901",
+      "source": "linkedin",
+      "source_job_id": "4428746901",
+      "source_url": "https://www.linkedin.com/jobs/view/4428746901",
+      "company": "Teradata",
+      "role": "Senior Staff Software Engineer Cloud & AI",
+      "location": "Hyderabad, Telangana, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior Staff IC",
+      "compensation_signals": [],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-3",
+      "fit_score": 94,
+      "fit_reason": "Excellent senior-staff IC platform fit: owns a stateful enterprise deployment control plane, deterministic resumable rollouts, SLO-governed gates, multi-cloud/on-prem orchestration, observability-driven validation, and AI-agent-assisted DevOps workflows.",
+      "fit_signals": [
+        "Requires 10+ years in platform engineering, cloud infrastructure, DevOps, or distributed systems.",
+        "Role explicitly centers on control-plane architecture, workflow engines, SRE principles, SLOs, error budgets, rollback, and blue-green/wave-based rollouts.",
+        "Strong mapping to Hyperforce re-platforming, multi-tenant observability, agentic diagnostics, and governed AI workflow evidence."
+      ],
+      "risk_flags": [
+        "Application is off LinkedIn and likely requires external ATS account/profile, resume, personal data, and possible legal/EEO/work authorization answers.",
+        "Must position AI-agent work as governed operational systems and avoid overstating direct Teradata domain experience."
+      ],
+      "people": [
+        {
+          "name": "Company alumni",
+          "relationship": "alumni signal",
+          "role": "Teradata",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 16 company alumni on the posting."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 16 company alumni on the Teradata Senior Staff Cloud & AI posting.",
+      "resume_theme": {
+        "name": "Teradata senior staff cloud and AI platform IC",
+        "positioning": "Position as a senior-staff platform engineer for deterministic deployment control planes, SRE-governed rollouts, observability automation, and policy-constrained agentic operations.",
+        "key_pointers": [
+          "Hyperforce alerting migration with multi-tenant scheduling, blue-green deploys, and SLO-safe rollout evidence",
+          "Governed multi-agent systems and proactive diagnostics as policy-constrained AI-assisted operational workflows",
+          "Brane and MuleSoft platform infrastructure ownership across cloud, observability, security, and reliability"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-teradata-senior-staff-software-engineer-cloud-58c10a39",
+      "resume_snapshot_path": "applications/resumes/app-20260709-teradata-senior-staff-software-engineer-cloud-58c10a39/resume.md",
+      "discovered_at": "2026-07-09T09:20:25Z",
+      "updated_at": "2026-07-09T09:24:02Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4401951192",
+      "dedupe_key": "linkedin:4401951192",
+      "source": "linkedin",
+      "source_job_id": "4401951192",
+      "source_url": "https://www.linkedin.com/jobs/view/4401951192",
+      "company": "G-P",
+      "role": "Senior Software Engineer (Data Platform)",
+      "location": "India",
+      "work_type": "Remote",
+      "experience_level": "Senior / Staff-adjacent Data Platform IC",
+      "compensation_signals": [],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-3",
+      "fit_score": 89,
+      "fit_reason": "Strong data-platform match despite senior title: designs self-service frameworks and high-performance engines for an AI-native data platform, Databricks Lakehouse scaling, data contracts, governance, Spark/Kafka streaming, platform APIs, and cost/performance optimization.",
+      "fit_signals": [
+        "Role owns internal SDKs and self-service frameworks for distributed engineering teams.",
+        "Focuses on Databricks/Spark performance, streaming architectures, data contracts, governance, lineage, PII/security standards, and AI-assisted engineering.",
+        "Good mapping to platform automation, customer/operational signal integration, telemetry quality, and distributed data infrastructure evidence."
+      ],
+      "risk_flags": [
+        "Company has a separate tracked Principal AI Platform role; keep this distinct as the Data Platform posting.",
+        "Greenhouse flow for G-P postings has required work eligibility, sponsorship, referral, and prior-employment questions that need user confirmation."
+      ],
+      "people": [
+        {
+          "name": "School alumni",
+          "relationship": "alumni signal",
+          "role": "G-P",
+          "profile_url": "",
+          "notes": "LinkedIn search result showed 3 school alumni on nearby G-P postings."
+        }
+      ],
+      "connections_summary": "LinkedIn search result showed 3 school alumni on nearby G-P postings.",
+      "resume_theme": {
+        "name": "G-P AI-native data platform IC",
+        "positioning": "Position as a platform engineer for self-service data infrastructure, governance, streaming, observability, and AI-assisted engineering workflows.",
+        "key_pointers": [
+          "MuleSoft internal AI platform integrating customer and operational signals for decision velocity",
+          "Telemetry, data contracts, observability, and platform reliability evidence",
+          "Distributed data/event infrastructure and cost-conscious cloud platform ownership"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-g-p-senior-software-engineer-data-platfo-d57880c1",
+      "resume_snapshot_path": "applications/resumes/app-20260709-g-p-senior-software-engineer-data-platfo-d57880c1/resume.md",
+      "discovered_at": "2026-07-09T09:20:25Z",
+      "updated_at": "2026-07-09T09:24:02Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4417228448",
+      "dedupe_key": "linkedin:4417228448",
+      "source": "linkedin",
+      "source_job_id": "4417228448",
+      "source_url": "https://www.linkedin.com/jobs/view/4417228448",
+      "company": "eBay",
+      "role": "MTS 2 Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Senior / Staff-equivalent IC",
+      "compensation_signals": [],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-3",
+      "fit_score": 88,
+      "fit_reason": "Strong large-scale commerce platform IC fit: 8+ years, lead ownership of complex software systems, distributed and highly available systems, roadmap influence, ADR reviews, engineering productivity, 24/7 always-on support, and cross-domain technical decisions.",
+      "fit_signals": [
+        "Role asks for scalable, distributed, highly available systems and 24/7 always-on support.",
+        "Responsibilities include technical strategy, domain influence, ADR contribution/review, roadmap gaps, mentorship, and release/on-call leadership.",
+        "Good mapping to payments-scale infrastructure, Hyperforce observability, and platform reliability evidence."
+      ],
+      "risk_flags": [
+        "LinkedIn apply is offsite; external eBay flow may require account/profile, legal, work authorization, demographic, AI-use consent, or final-submit answers.",
+        "Title is MTS 2 rather than explicitly Principal/Staff, so use as a high-comp adjacent IC rather than a top-priority principal role."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn search result showed eBay school/company connection signals on nearby postings; no named contact captured.",
+      "resume_theme": {
+        "name": "eBay large-scale platform MTS IC",
+        "positioning": "Position as a senior/staff-equivalent platform engineer for distributed systems, always-on reliability, technical strategy, and engineering productivity.",
+        "key_pointers": [
+          "Payments-scale and observability-scale production systems",
+          "Architecture decision records, cross-team technical direction, and platform roadmap ownership",
+          "Always-on reliability, release ownership, and incident/debugging leadership"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-ebay-mts-2-software-engineer-e0f67644",
+      "resume_snapshot_path": "applications/resumes/app-20260709-ebay-mts-2-software-engineer-e0f67644/resume.md",
+      "discovered_at": "2026-07-09T09:20:25Z",
+      "updated_at": "2026-07-09T09:24:02Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4418568435",
+      "dedupe_key": "linkedin:4418568435",
+      "source": "linkedin",
+      "source_job_id": "4418568435",
+      "source_url": "https://www.linkedin.com/jobs/view/4418568435",
+      "company": "Docusign",
+      "role": "Lead Software Engineer",
+      "location": "Bengaluru, Karnataka, India",
+      "work_type": "Hybrid",
+      "experience_level": "Lead IC",
+      "compensation_signals": [],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-3",
+      "fit_score": 87,
+      "fit_reason": "Good target-company lead IC fit: 10+ years building large-scale distributed systems, backend services for the agreement cloud, architectural shift for the next 10x of growth, high availability, microservices, Azure, and enterprise customer scenarios.",
+      "fit_signals": [
+        "Role is an individual contributor reporting to a senior engineering manager.",
+        "Requires 10+ years of hands-on development building large-scale distributed systems.",
+        "Focus on architecture shift, high availability, scalable services, microservices, and enterprise SaaS customer scenarios."
+      ],
+      "risk_flags": [
+        "LinkedIn apply is offsite; Docusign application may require profile/account, resume, legal, work authorization, sponsorship, EEO, disability/accommodation, or final-submit answers.",
+        "Resume should emphasize backend/platform architecture and SaaS reliability rather than frontend or pure product delivery."
+      ],
+      "people": [],
+      "connections_summary": "",
+      "resume_theme": {
+        "name": "Docusign lead agreement-cloud platform IC",
+        "positioning": "Position as a lead distributed-systems engineer for enterprise SaaS platform architecture, high availability, and scalable backend services.",
+        "key_pointers": [
+          "Enterprise SaaS on Salesforce Hyperforce and Brane enterprise infrastructure",
+          "Large-scale distributed systems, multi-tenant reliability, and architecture ownership",
+          "Customer-facing platform reliability and security/compliance readiness"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-docusign-lead-software-engineer-178440e3",
+      "resume_snapshot_path": "applications/resumes/app-20260709-docusign-lead-software-engineer-178440e3/resume.md",
+      "discovered_at": "2026-07-09T09:20:25Z",
+      "updated_at": "2026-07-09T09:24:02Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
+    },
+    {
+      "job_id": "linkedin-4370468553",
+      "dedupe_key": "linkedin:4370468553",
+      "source": "linkedin",
+      "source_job_id": "4370468553",
+      "source_url": "https://www.linkedin.com/jobs/view/4370468553",
+      "company": "Teradata",
+      "role": "Staff Cloud AI Engineer",
+      "location": "Pune/Pimpri-Chinchwad Area",
+      "work_type": "Hybrid",
+      "experience_level": "Staff IC",
+      "compensation_signals": [],
+      "status": "needs_manual",
+      "approval_status": "approved",
+      "batch_id": "batch-20260709-highfit-ic-3",
+      "fit_score": 84,
+      "fit_reason": "Potentially strong staff-level cloud AI platform role at Teradata, aligned with cloud AI engineering and enterprise data/AI platform work, but LinkedIn did not expose the full job description in this pass.",
+      "fit_signals": [
+        "Staff-level cloud AI title at enterprise data/AI platform company.",
+        "Teradata Autonomous Knowledge Platform context from related postings maps to governed enterprise AI and data infrastructure.",
+        "Hybrid India role with active LinkedIn Easy Apply signal."
+      ],
+      "risk_flags": [
+        "LinkedIn listing exposes Easy Apply and no offsite URL in the captured payload; final submission via LinkedIn Easy Apply is unsupported in this tracker automation.",
+        "Full role requirements were not visible in this pass, so tailoring should be conservative until the portal is reviewed manually."
+      ],
+      "people": [],
+      "connections_summary": "LinkedIn listing showed more than 100 applicants; no named contact captured.",
+      "resume_theme": {
+        "name": "Teradata staff cloud AI IC",
+        "positioning": "Position as a staff cloud and AI platform engineer with governed agentic systems, multi-tenant observability, and enterprise platform reliability experience.",
+        "key_pointers": [
+          "Governed multi-agent systems and internal AI platform work",
+          "Hyperforce observability, platform reliability, and operational automation",
+          "Brane enterprise cloud/security/platform stack built with a small team"
+        ],
+        "evidence_refs": [
+          "resume/base_resume.md",
+          "_includes/platform-leadership-resume.md"
+        ]
+      },
+      "application_id": "app-20260709-teradata-staff-cloud-ai-engineer-3c7f362b",
+      "resume_snapshot_path": "applications/resumes/app-20260709-teradata-staff-cloud-ai-engineer-3c7f362b/resume.md",
+      "discovered_at": "2026-07-09T09:20:25Z",
+      "updated_at": "2026-07-09T09:24:02Z",
+      "notes": [],
+      "resume_snapshot_name": "IC Resume"
     },
     {
       "job_id": "linkedin-4421796594",
